@@ -1,0 +1,139 @@
+### I got a free month of ChatGPT Plus and it's brutal. ###
+
+Źródło: https://www.reddit.com/r/GeminiAI/s/0Cr2CTXU7X
+Autor: LotusBee21
+Liczba wczytanych komentarzy: 64
+Data pobrania: 2026-09-09 14:53:13
+
+Compared to the current Gemini state it's insane how good this thing is. I can tell him to control my full pc. I can tell him to check my messages every twenty minutes and he does it without telling stupid questions. I can send him a quick voice message to update all my games on pc before I get home and he does it without even asking which games or other stupid questions. It really feels like an AI agent. But if you compare the free plans: Gemini is way better for just chatting, analysing pictures and other stuff.
+
+### HIERARCHIA KOMENTARZY ###
+
+1. Mysterious-Main-133: how you get it free
+
+    1.1. LotusBee21: I think it was a special offer.
+
+        1.1.1. roguebananah: Yes… But where and why?
+
+            1.1.1.1. smartfon: Many people received it. I got the same free offer for Plus after canceling my Go subscription.
+
+    1.2. nevernovelty: Try going direct to the site and signing in (from memory). I had the offer that way
+
+    1.3. Immediate_Channel393: if you are a student and have a student ID and email, you can get 4 months of ChatGPT Plus for free. Or get a whole year of Gemini AI Pro. So I signed up for both.
+
+2. FineTomorrow3233: "Him"
+
+    2.1. Outerrealms2020: Im not really sure what this is supposed to do to the conversation. Is this an ah ha gotcha, you treated the ai like a living thing moment?  People have been calling their cars and boats she's for years. But its only when the item is actually mimicking consciousness that it becomes a problem I guess.
+
+        2.1.1. No_Pen_9271: It’s actually 3.5 pro
+
+    2.2. Im_Lead_Farmer: He meant She.
+
+        2.2.1. ddlg-voyeur: Nah, it's "He" because he can't wash the dishes
+
+        2.2.2. Nonsense7740: "He"
+
+    2.3. rootCaused: You're probably an American not used to people of other cultures/language backgrounds. Russians/Ukrainians will often gender technology when speaking English because that's done in the native tongue.  TL;dr: it's probably an accent, get over it.
+
+        2.3.1. EitherQuestion2101: I'm an American and I do the same thing. The fact that he pointed it out took me by surprise a bit, too.  I think most Americans actually do it, too.
+
+            2.3.1.1. Elephant789: Took me by surprise because op called it a he and not a she.
+
+        2.3.2. Elephant789: I'm American and I do it but I'm surprised that he called it a "him" because I refer mine to a "her/she". I guess it might be the voice I chose and in my mind media portrays AI as feminine.  So in Russia/Ukraine, is it a he or she?  slava ukraini
+
+            2.3.2.1. rootCaused: Unsure, but Ive encountered several of those folks and a lot of them with heavier accents will he/she shit like cars 😂
+
+        2.3.3. RedheadedReff: If they are American then they should be familiar that Spanish is a gendered language.
+
+            2.3.3.1. rootCaused: Pretty high expectations for people that voted for "Lake America". But they already mentioned they are ESL or beyond.
+
+3. Kgel21: I tried Claude and really liked agent mode, but the rest was subpar. I use image analysis alot and gemini was like 50x better there.
+
+    3.1. frost-bite999: Gemini is much better than other models for that use case.
+
+    3.2. Appropriate-Disk-371: Yeah, very specific to Gemini, image recognition is a real strong point. Everything else... Give Claude another chance and you'll probably switch.
+
+    3.3. roguebananah: I just think of Gemini for basic searching of things, what’s the error in this game or that…etc.  If I wanna do actual work, I pay for a month of Claude
+
+4. Zixxorb: What the hell is with this comment section?
+
+5. Starks: GPT can hook into all of my financial accounts and health data. Gemini or Claude can't do this unless you have a plugin or fancy MCP setup and even then it's subpar.  It seems extremely confusing that Google Health especially cannot talk to Gemini and we have to go through the health coach exclusively.
+
+6. ShirelyAquario-40: Reading posts and comments like this makes me wonder if people even know what you can really do with Antigravity and Gemini.
+
+    6.1. Overall-Document-965: For example?
+
+    6.2. Current-Ticket4214: Maybe you should evangelize
+
+    6.3. Disastrous-Ad-4375: Don't go on X, it is ridiculous what some people say there just for engagement.
+
+        6.3.1. roguebananah: Twitter*
+
+    6.4. FluffyPandaCupcakes: That's what I was wondering. Anti-gravity does all of the things listed. I have been using it all weekend
+
+        6.4.1. mlag000: Yep, so you need your PC running when chat can do it without your PC on. Also can you control antigravity from your phone ? I can be somewhere else and continue works jg on codex with my phone connected to my pc
+
+            6.4.1.1. shareef_3: Yes you can remote control it
+
+            6.4.1.2. londreco: https://antigravity.google/docs/remote-control/
+
+    6.5. mlag000: You can't do shit lol. Seriously, try codex, same but 10 times better, smarter and so much more usage.
+
+        6.5.1. mackdadio: Is the usage really that good on codex? I've been using antigravity for a while now, mainly because I get a lot more usage than Claude, even if the results are maybe not as good, I make a lot more progress on projects due to this.
+
+            6.5.1.1. Howard_banister: usage is great on Codex, specially with resets!
+
+            6.5.1.2. Elephant789: codex, same but 10 times better, smarter  Codex is an AI?
+
+            6.5.1.3. mlag000: Yes definitely way more than Claude and way more than Gemini too. For the release of astra I got 2 blanket reset. Which means once I finish my weekly quota, I can simply clic on reset and I go to 100% again, and this twice. And we also got a free reset last night. And on top of this usage qui quite generous on x5. On 20$ plan I would use chat GPT web, which has another usage than codex to plan, export as .md and use then Luna high or terra high or sol medium to execute imo. But never tried this way. The thing is you can use sol high to orchestrate on chat GPT and this won't use your codex quota, so that's insanely better than everything Gemini 3.8 will ever give you.
+
+    6.6. cohno: I asked Gemini about antigravity and it told me I made it up. Screenshot of gemini.google, showing it was in my paid plan was apparently a hoax and I got duped. Do you care to explain it someone, who needed an AI bot to explain it?
+
+        6.6.1. iAM-NELL: I asked Gemini I spoke about Gemini spoke and was told that it doesn’t exist. Like wtf 😳
+
+    6.7. Prior-Meeting1645: And thats entirely on google. They’re so shit at making things simple enough. No They have to turn it to a gazillion products. Then wonder why most get shutdown.
+
+    6.8. unethicalpigeon: Reading posts and comments like this make me wonder if people have ever tried anything other than Gemini. Because let me tell you if you do, and you take a bit of time to modify your approach to suit that LLM instead of Gemini. You're going to feel really fucking stupid.  Sure if you take all your prompts specifically tailored to gemini and just expect them to work just like that in GPT it's not going to work well and I'd have to guess that's what you did or that it's been at least 6-7 months since you tried it out. Or I'd guess you;re comparing gemini to a free GPT account and then assuming GPT is shit.  Because let me tell you gemini is embaressing to use at this point and back in January I thought it was incredible. It's been completely downhill.
+
+7. a355231: How’d you get the free month?
+
+8. darkestvice: Gemini's strength is its multimodality and more natural conversational flow. OpenAI's inherent focus on succinct efficiency doesn't make it the best to chat naturally with.  But Gemini Flash, a model designed to be a mid range speed demon competing with Sonnet and Terra, was never meant to handle heavy complexity that needs raw 'brains' the way frontier Pro level models have. No matter how much you bloat its token usage. Each subsequent version of Gemini Flash has become ever more bloated, to the point where Gemini Flash, while still the fastest, can no longer claim that as a real competitive advantage. Not when Astra on Low is both much smarter AND much faster than Gemini Flash 3.8 on High. The only area where Gemini Flash does still have a usability advantage is the fact that only the costliest OpenAI subscription plans allow Astra use in the ChatGPT app as opposed to exclusively on Codex/Work.  Now, I'm not saying Gemini Flash is useless. I use it and it's not. But I also know that if I start driving around in a shiny new Mercedes Benz after using my trusty 10 year old Toyota Camry for so long, I'll likely not want to drive my Camry all that much anymore, right?  Now, do I think Google has given up on AI? Hell no. I'm very confident there's stuff going on in the background at Deepmind that might blow everyone's mind. But them staying real silent is kinda pissing people off who are paying their 20+ bucks a month for their subscription.
+
+9. sQeeeter: I gave ChatGPT access to my Bitwarden vault and just said handle it. The only reason I need to exist now is to eat food. 😲
+
+10. itsxzy: I can tell him to control my full PC Oh good luck rd /s /q C:\
+
+11. JBDebret: how do you let him control your pc, update games etc?
+
+    11.1. LotusBee21: Codex remote control
+
+12. Firm-Measurement-143: Better at chatting ? I break Gemini in response one. Add custom chat rules to gpt 👍
+
+13. rlwldma: Are people really this dumb on this sub? Gemini can also do these things.
+
+    13.1. Then_Bake_6524: elaborate further
+
+        13.1.1. rlwldma: I keep seeing these posts daily how chatgpt can make them an app, and do other stuff. Do people not know of Antigravity? or Spark? Gemini is just as capable and a lot faster than claude/chatgpt. Im pretty sure these people are being paid to shit on gemini.  I have both chatgpt and gemini subscriptions and i barely use my chatgpt one.
+
+            13.1.1.1. Then_Bake_6524: it's a two-way problem. some users only know (or only try to use) the web version, which is very limited in pretty much anything, and Google limits important features and availability to the Americas region, while (for example) OpenAI (ChatGPT) offers free features globally.  Gemini:  in my case i have a Pro subscription and use Antigravity.  - sadly, the response time takes over 15 seconds even for a simple "hi." set to Low thinking and an empty project directory. That's 15 seconds per turn, and minimum edit tasks can do up to +30 turns (making it slower than ChatGPT's Luna xHigh). - it refuses to do many things unless i force it to. - Let's not talk about quota usage.  ChatGPT:  here i am on the free plan on Codex, and i have unlimited (free) use of Luna xHigh, which is slightly weaker than Gemini 3.8 Flash High.  - response times are less than two seconds, and it actually does everything i ask it to (even the absurd ones). - i already said that the quota is unlimited for Luna, so for Terra and Sol, the free quota is more than enough. - it can do anything that Gemini can, that includes connection with Google's ecosystem (many people think only Gemini can, and this is the message they repeat in all posts that shit on Gemini/Google).  Claude:  free plan as well.  - personally, i don't like their models, and the quota is absurdly low. - it can also connect to Google's ecosystem.
+
+            13.1.1.2. bfmv_shinigami: Spark is trash compared to ChatGPT work. I have Gemini Pro and ChatGPT plus, And I'm talking about actual use case involving collecting chess data from chess.com from its opening database using browser automation and compiling it.  Spark failed miserably on this task despite strong guidance.
+
+            13.1.1.3. kendo545: Difference is that Astra and Fable, etc. are available worldwide. Spark and anti gravity are U.S. specific.
+
+            13.1.1.4. FineTomorrow3233: This is a pretty funny apologia for Gemini's flaws.  Spark and antigravity are both completely separate pieces of software and not really for the average user  It's not unreasonable for people to expect Gemini to be able to handle in chat what chatgpt and Claude can as well
+
+    13.2. joaocadide: Google needs to do waaaaay better marketing for this, then. Because the lack of awareness of the features is not a user problem, it’s googles.
+
+    13.3. Deep90: Well the first thing they mention is letting it control their PC.  While I wouldn't want to do that personally, I believe Google currently restricts that to vertex and AI studio.  Not the same as letting it use the command line.
+
+14. VisualFit415: Yup Gemini still has the best eyesight out of their three. It remains one of its greatest strong point
+
+15. ReflectionLarge6439: Bro I tried it a month ago and never went back to Gemini 💔
+
+16. KeenJAH: I have Gemini pro and had it design a new guitar saddle out of carbon fiber and it was terrible. I paid for one month of Claude and it designed one superior in every way
+
+17. icanbeakingtoo: Ewww
+
+18. Elephant789: You call your AI 'Him'?
+

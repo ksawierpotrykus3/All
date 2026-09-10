@@ -1,0 +1,710 @@
+{
+  "today_hits": [
+    {
+      "id": 1095096524,
+      "cat": "IPHONE",
+      "price": 1000.0,
+      "title": "Iphone 13 Pro. Sierra blue",
+      "created": "2026-08-31T11:32:49+02:00",
+      "region": "Pomorskie",
+      "raw": "2026-08-31 11:35:40,142 INFO TRAFIENIE id=1095096524 [IPHONE] cena=1000.0 region=Pomorskie tytul=Iphone 13 Pro. Sierra blue created=2026-08-31T11:32:49+02:00"
+    },
+    {
+      "id": 1095097825,
+      "cat": "MACBOOK",
+      "price": 4100.0,
+      "title": "MacBook Air 13,6” M4-16 GB RAM/256 GB",
+      "created": "2026-08-31T11:39:39+02:00",
+      "region": "Małopolskie",
+      "raw": "2026-08-31 11:47:19,497 INFO TRAFIENIE id=1095097825 [MACBOOK] cena=4100.0 region=Małopolskie tytul=MacBook Air 13,6” M4-16 GB RAM/256 GB created=2026-08-31T11:39:39+02:00"
+    },
+    {
+      "id": 1095097861,
+      "cat": "IPHONE",
+      "price": 900.0,
+      "title": "Iphone 13 128gb kondyxja baterii 76% + 11 casw gratis",
+      "created": "2026-08-31T11:39:52+02:00",
+      "region": "Pomorskie",
+      "raw": "2026-08-31 11:47:20,439 INFO TRAFIENIE id=1095097861 [IPHONE] cena=900.0 region=Pomorskie tytul=Iphone 13 128gb kondyxja baterii 76% + 11 casw gratis created=2026-08-31T11:39:52+02:00"
+    },
+    {
+      "id": 1095098028,
+      "cat": "IPHONE",
+      "price": 600.0,
+      "title": "IPhone 12 Pro Max 256Gb",
+      "created": "2026-08-31T11:40:41+02:00",
+      "region": "Lubelskie",
+      "raw": "2026-08-31 11:47:24,267 INFO TRAFIENIE id=1095098028 [IPHONE] cena=600.0 region=Lubelskie tytul=IPhone 12 Pro Max 256Gb created=2026-08-31T11:40:41+02:00"
+    },
+    {
+      "id": 1095098180,
+      "cat": "IPHONE",
+      "price": 800.0,
+      "title": "Iphone 13 różowy",
+      "created": "2026-08-31T11:41:32+02:00",
+      "region": "Małopolskie",
+      "raw": "2026-08-31 11:47:28,167 INFO TRAFIENIE id=1095098180 [IPHONE] cena=800.0 region=Małopolskie tytul=Iphone 13 różowy created=2026-08-31T11:41:32+02:00"
+    },
+    {
+      "id": 1095098409,
+      "cat": "IPHONE",
+      "price": 900.0,
+      "title": "Iphone 13 128gb różowy",
+      "created": "2026-08-31T11:42:35+02:00",
+      "region": "Mazowieckie",
+      "raw": "2026-08-31 11:47:34,212 INFO TRAFIENIE id=1095098409 [IPHONE] cena=900.0 region=Mazowieckie tytul=Iphone 13 128gb różowy created=2026-08-31T11:42:35+02:00"
+    },
+    {
+      "id": 1095098536,
+      "cat": "IPHONE",
+      "price": 1900.0,
+      "title": "Iphone 15 pro 256 GB czarny stan idealny",
+      "created": "2026-08-31T11:43:19+02:00",
+      "region": "Wielkopolskie",
+      "raw": "2026-08-31 11:47:37,137 INFO TRAFIENIE id=1095098536 [IPHONE] cena=1900.0 region=Wielkopolskie tytul=Iphone 15 pro 256 GB czarny stan idealny created=2026-08-31T11:43:19+02:00"
+    },
+    {
+      "id": 1095098561,
+      "cat": "IPHONE",
+      "price": 500.0,
+      "title": "iPhone 12 | 64GB | 78% Bateria | Perfekcyjny stan | W pełni oryginalny |",
+      "created": "2026-08-31T11:43:29+02:00",
+      "region": "Mazowieckie",
+      "raw": "2026-08-31 11:47:38,076 INFO TRAFIENIE id=1095098561 [IPHONE] cena=500.0 region=Mazowieckie tytul=iPhone 12 | 64GB | 78% Bateria | Perfekcyjny stan | W pełni oryginalny | created=2026-08-31T11:43:29+02:00"
+    },
+    {
+      "id": 1095098594,
+      "cat": "IPHONE",
+      "price": 1100.0,
+      "title": "Iphone 14 128GB niebieski + powerbank",
+      "created": "2026-08-31T11:43:40+02:00",
+      "region": "Śląskie",
+      "raw": "2026-08-31 11:47:38,518 INFO TRAFIENIE id=1095098594 [IPHONE] cena=1100.0 region=Śląskie tytul=Iphone 14 128GB niebieski + powerbank created=2026-08-31T11:43:40+02:00"
+    },
+    {
+      "id": 1095099608,
+      "cat": "MACBOOK",
+      "price": 1700.0,
+      "title": "Mac book pro 13 2020",
+      "created": "2026-08-31T11:48:15+02:00",
+      "region": "Dolnośląskie",
+      "raw": "2026-08-31 11:50:49,696 INFO TRAFIENIE id=1095099608 [MACBOOK] cena=1700.0 region=Dolnośląskie tytul=Mac book pro 13 2020 created=2026-08-31T11:48:15+02:00"
+    },
+    {
+      "id": 1095100287,
+      "cat": "IPHONE",
+      "price": 3149.0,
+      "title": "Apple Iphone 16 Pro Max 256gb",
+      "created": "2026-08-31T11:51:29+02:00",
+      "region": "Pomorskie",
+      "raw": "2026-08-31 11:54:32,395 INFO TRAFIENIE id=1095100287 [IPHONE] cena=3149.0 region=Pomorskie tytul=Apple Iphone 16 Pro Max 256gb created=2026-08-31T11:51:29+02:00"
+    },
+    {
+      "id": 1095100699,
+      "cat": "IPHONE",
+      "price": 750.0,
+      "title": "Sprzedam Iphone 13 pro 128gb graphite",
+      "created": "2026-08-31T11:53:23+02:00",
+      "region": "Mazowieckie",
+      "raw": "2026-08-31 11:56:31,579 INFO TRAFIENIE id=1095100699 [IPHONE] cena=750.0 region=Mazowieckie tytul=Sprzedam Iphone 13 pro 128gb graphite created=2026-08-31T11:53:23+02:00"
+    },
+    {
+      "id": 1095105118,
+      "cat": "IPHONE",
+      "price": 550.0,
+      "title": "Sprzedam iPhone 15 128GB Green",
+      "created": "2026-08-31T12:12:42+02:00",
+      "region": "Śląskie",
+      "raw": "2026-08-31 12:14:50,257 INFO TRAFIENIE id=1095105118 [IPHONE] cena=550.0 region=Śląskie tytul=Sprzedam iPhone 15 128GB Green created=2026-08-31T12:12:42+02:00"
+    }
+  ],
+  "individual_proofs": [
+    {
+      "id": 1095096524,
+      "hit": {
+        "id": 1095096524,
+        "cat": "IPHONE",
+        "price": 1000.0,
+        "title": "Iphone 13 Pro. Sierra blue",
+        "created": "2026-08-31T11:32:49+02:00",
+        "region": "Pomorskie",
+        "raw": "2026-08-31 11:35:40,142 INFO TRAFIENIE id=1095096524 [IPHONE] cena=1000.0 region=Pomorskie tytul=Iphone 13 Pro. Sierra blue created=2026-08-31T11:32:49+02:00"
+      },
+      "api_status": 200,
+      "url": "https://www.olx.pl/d/oferta/iphone-13-pro-sierra-blue-CID99-ID1c6UDa.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095096524.png"
+    },
+    {
+      "id": 1095097825,
+      "hit": {
+        "id": 1095097825,
+        "cat": "MACBOOK",
+        "price": 4100.0,
+        "title": "MacBook Air 13,6” M4-16 GB RAM/256 GB",
+        "created": "2026-08-31T11:39:39+02:00",
+        "region": "Małopolskie",
+        "raw": "2026-08-31 11:47:19,497 INFO TRAFIENIE id=1095097825 [MACBOOK] cena=4100.0 region=Małopolskie tytul=MacBook Air 13,6” M4-16 GB RAM/256 GB created=2026-08-31T11:39:39+02:00"
+      },
+      "api_status": 200,
+      "url": "https://www.olx.pl/d/oferta/macbook-air-13-6-m4-16-gb-ram-256-gb-CID99-ID1c6UY9.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095097825.png"
+    },
+    {
+      "id": 1095097861,
+      "hit": {
+        "id": 1095097861,
+        "cat": "IPHONE",
+        "price": 900.0,
+        "title": "Iphone 13 128gb kondyxja baterii 76% + 11 casw gratis",
+        "created": "2026-08-31T11:39:52+02:00",
+        "region": "Pomorskie",
+        "raw": "2026-08-31 11:47:20,439 INFO TRAFIENIE id=1095097861 [IPHONE] cena=900.0 region=Pomorskie tytul=Iphone 13 128gb kondyxja baterii 76% + 11 casw gratis created=2026-08-31T11:39:52+02:00"
+      },
+      "api_status": 200,
+      "url": "https://www.olx.pl/d/oferta/iphone-13-128gb-kondyxja-baterii-76-11-casw-gratis-CID99-ID1c6UYJ.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095097861.png"
+    },
+    {
+      "id": 1095098028,
+      "hit": {
+        "id": 1095098028,
+        "cat": "IPHONE",
+        "price": 600.0,
+        "title": "IPhone 12 Pro Max 256Gb",
+        "created": "2026-08-31T11:40:41+02:00",
+        "region": "Lubelskie",
+        "raw": "2026-08-31 11:47:24,267 INFO TRAFIENIE id=1095098028 [IPHONE] cena=600.0 region=Lubelskie tytul=IPhone 12 Pro Max 256Gb created=2026-08-31T11:40:41+02:00"
+      },
+      "api_status": 200,
+      "url": "https://www.olx.pl/d/oferta/iphone-12-pro-max-256gb-CID99-ID1c6W1q.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095098028.png"
+    },
+    {
+      "id": 1095098180,
+      "hit": {
+        "id": 1095098180,
+        "cat": "IPHONE",
+        "price": 800.0,
+        "title": "Iphone 13 różowy",
+        "created": "2026-08-31T11:41:32+02:00",
+        "region": "Małopolskie",
+        "raw": "2026-08-31 11:47:28,167 INFO TRAFIENIE id=1095098180 [IPHONE] cena=800.0 region=Małopolskie tytul=Iphone 13 różowy created=2026-08-31T11:41:32+02:00"
+      },
+      "api_status": 200,
+      "url": "https://www.olx.pl/d/oferta/iphone-13-rozowy-CID99-ID1c6W3S.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095098180.png"
+    },
+    {
+      "id": 1095098409,
+      "hit": {
+        "id": 1095098409,
+        "cat": "IPHONE",
+        "price": 900.0,
+        "title": "Iphone 13 128gb różowy",
+        "created": "2026-08-31T11:42:35+02:00",
+        "region": "Mazowieckie",
+        "raw": "2026-08-31 11:47:34,212 INFO TRAFIENIE id=1095098409 [IPHONE] cena=900.0 region=Mazowieckie tytul=Iphone 13 128gb różowy created=2026-08-31T11:42:35+02:00"
+      },
+      "api_status": 200,
+      "url": "https://www.olx.pl/d/oferta/iphone-13-128gb-rozowy-CID99-ID1c6W7z.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095098409.png"
+    },
+    {
+      "id": 1095098536,
+      "hit": {
+        "id": 1095098536,
+        "cat": "IPHONE",
+        "price": 1900.0,
+        "title": "Iphone 15 pro 256 GB czarny stan idealny",
+        "created": "2026-08-31T11:43:19+02:00",
+        "region": "Wielkopolskie",
+        "raw": "2026-08-31 11:47:37,137 INFO TRAFIENIE id=1095098536 [IPHONE] cena=1900.0 region=Wielkopolskie tytul=Iphone 15 pro 256 GB czarny stan idealny created=2026-08-31T11:43:19+02:00"
+      },
+      "api_status": 200,
+      "url": "https://www.olx.pl/d/oferta/iphone-15-pro-256-gb-czarny-stan-idealny-CID99-ID1c6W9C.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095098536.png"
+    },
+    {
+      "id": 1095098561,
+      "hit": {
+        "id": 1095098561,
+        "cat": "IPHONE",
+        "price": 500.0,
+        "title": "iPhone 12 | 64GB | 78% Bateria | Perfekcyjny stan | W pełni oryginalny |",
+        "created": "2026-08-31T11:43:29+02:00",
+        "region": "Mazowieckie",
+        "raw": "2026-08-31 11:47:38,076 INFO TRAFIENIE id=1095098561 [IPHONE] cena=500.0 region=Mazowieckie tytul=iPhone 12 | 64GB | 78% Bateria | Perfekcyjny stan | W pełni oryginalny | created=2026-08-31T11:43:29+02:00"
+      },
+      "api_status": 200,
+      "url": "https://www.olx.pl/d/oferta/iphone-12-64gb-78-bateria-perfekcyjny-stan-w-pelni-oryginalny-CID99-ID1c6Wa1.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095098561.png"
+    },
+    {
+      "id": 1095098594,
+      "hit": {
+        "id": 1095098594,
+        "cat": "IPHONE",
+        "price": 1100.0,
+        "title": "Iphone 14 128GB niebieski + powerbank",
+        "created": "2026-08-31T11:43:40+02:00",
+        "region": "Śląskie",
+        "raw": "2026-08-31 11:47:38,518 INFO TRAFIENIE id=1095098594 [IPHONE] cena=1100.0 region=Śląskie tytul=Iphone 14 128GB niebieski + powerbank created=2026-08-31T11:43:40+02:00"
+      },
+      "api_status": 200,
+      "url": "https://www.olx.pl/d/oferta/iphone-14-128gb-niebieski-powerbank-CID99-ID1c6Way.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095098594.png"
+    },
+    {
+      "id": 1095099608,
+      "hit": {
+        "id": 1095099608,
+        "cat": "MACBOOK",
+        "price": 1700.0,
+        "title": "Mac book pro 13 2020",
+        "created": "2026-08-31T11:48:15+02:00",
+        "region": "Dolnośląskie",
+        "raw": "2026-08-31 11:50:49,696 INFO TRAFIENIE id=1095099608 [MACBOOK] cena=1700.0 region=Dolnośląskie tytul=Mac book pro 13 2020 created=2026-08-31T11:48:15+02:00"
+      },
+      "api_status": 200,
+      "url": "https://www.olx.pl/d/oferta/mac-book-pro-13-2020-CID99-ID1c6WqU.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095099608.png"
+    },
+    {
+      "id": 1095100287,
+      "hit": {
+        "id": 1095100287,
+        "cat": "IPHONE",
+        "price": 3149.0,
+        "title": "Apple Iphone 16 Pro Max 256gb",
+        "created": "2026-08-31T11:51:29+02:00",
+        "region": "Pomorskie",
+        "raw": "2026-08-31 11:54:32,395 INFO TRAFIENIE id=1095100287 [IPHONE] cena=3149.0 region=Pomorskie tytul=Apple Iphone 16 Pro Max 256gb created=2026-08-31T11:51:29+02:00"
+      },
+      "api_status": 200,
+      "url": "https://www.olx.pl/d/oferta/apple-iphone-16-pro-max-256gb-CID99-ID1c6WBR.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095100287.png"
+    },
+    {
+      "id": 1095100699,
+      "hit": {
+        "id": 1095100699,
+        "cat": "IPHONE",
+        "price": 750.0,
+        "title": "Sprzedam Iphone 13 pro 128gb graphite",
+        "created": "2026-08-31T11:53:23+02:00",
+        "region": "Mazowieckie",
+        "raw": "2026-08-31 11:56:31,579 INFO TRAFIENIE id=1095100699 [IPHONE] cena=750.0 region=Mazowieckie tytul=Sprzedam Iphone 13 pro 128gb graphite created=2026-08-31T11:53:23+02:00"
+      },
+      "api_status": 410,
+      "url": "https://www.olx.pl/oferta/ID1095100699.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095100699.png"
+    },
+    {
+      "id": 1095105118,
+      "hit": {
+        "id": 1095105118,
+        "cat": "IPHONE",
+        "price": 550.0,
+        "title": "Sprzedam iPhone 15 128GB Green",
+        "created": "2026-08-31T12:12:42+02:00",
+        "region": "Śląskie",
+        "raw": "2026-08-31 12:14:50,257 INFO TRAFIENIE id=1095105118 [IPHONE] cena=550.0 region=Śląskie tytul=Sprzedam iPhone 15 128GB Green created=2026-08-31T12:12:42+02:00"
+      },
+      "api_status": 200,
+      "url": "https://www.olx.pl/d/oferta/sprzedam-iphone-15-128gb-green-CID99-ID1c6VRM.html",
+      "status_desc": "AKTYWNE NA ŻYWO",
+      "title_dom": "",
+      "screenshot": "hit_1095105118.png"
+    }
+  ],
+  "audit_summary": {
+    "iphone": {
+      "scanned_in_window": 20,
+      "hits": 3,
+      "filtered_trash": 4,
+      "missed": 13,
+      "details": [
+        {
+          "id": 1095105554,
+          "title": "Iphone 13 mini / 128GB czarny północ 74% bateria",
+          "price": 700.0,
+          "created": "2026-08-31T12:14:48+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095105118,
+          "title": "Sprzedam iPhone 15 128GB Green",
+          "price": 550.0,
+          "created": "2026-08-31T12:12:42+02:00",
+          "status": "WYKRYTO_PRAWIDLOWO",
+          "was_hit": true,
+          "filter_reason": null
+        },
+        {
+          "id": 1095104382,
+          "title": "Iphone 17 pro max 256GB",
+          "price": 5299.0,
+          "created": "2026-08-31T12:09:24+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095103770,
+          "title": "Apple iPhone 15 PRO 128 gb natural titanium 2-letni",
+          "price": 2200.0,
+          "created": "2026-08-31T12:06:44+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095103383,
+          "title": "Iphone 8 plus z etui",
+          "price": 300.0,
+          "created": "2026-08-31T12:05:22+02:00",
+          "status": "ODRZUCONY_SMIEC (Czarna lista słów: 'etui')",
+          "was_hit": false,
+          "filter_reason": "Czarna lista słów: 'etui'"
+        },
+        {
+          "id": 1095103335,
+          "title": "Iphone 16 Bardzo dobry stan",
+          "price": 2300.0,
+          "created": "2026-08-31T12:05:14+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095103025,
+          "title": "iPhone 17 Pro Max 256gb 100%!!",
+          "price": 4490.0,
+          "created": "2026-08-31T12:04:02+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095103000,
+          "title": "iPhone 13 mini 128 GB",
+          "price": 1000.0,
+          "created": "2026-08-31T12:03:55+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095102937,
+          "title": "iPhone 16 pro + akcesoria • 128gb • Kondycja 97% • GWARANCJA !",
+          "price": 2700.0,
+          "created": "2026-08-31T12:03:39+02:00",
+          "status": "ODRZUCONY_SMIEC (Czarna lista słów: 'akcesori')",
+          "was_hit": false,
+          "filter_reason": "Czarna lista słów: 'akcesori'"
+        },
+        {
+          "id": 1095102900,
+          "title": "iPhone 15 Pro.",
+          "price": 2300.0,
+          "created": "2026-08-31T12:03:31+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095101575,
+          "title": "Iphone12 fioletowy",
+          "price": 790.0,
+          "created": "2026-08-31T11:57:42+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095101468,
+          "title": "IPhone 13 128gb",
+          "price": 700.0,
+          "created": "2026-08-31T11:57:18+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095101307,
+          "title": "iPhone 16 Pro Max Tytan Naturalny",
+          "price": 3600.0,
+          "created": "2026-08-31T11:56:28+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095101291,
+          "title": "iPhone 16e 128GB 5G — Stan Idealny — Z GWARANACJĄ — 100% Kondycja baterii — KRAKÓW — NOWY SĄCZ — OKOLICE",
+          "price": 1800.0,
+          "created": "2026-08-31T11:56:22+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095100699,
+          "title": "Sprzedam Iphone 13 pro 128gb graphite",
+          "price": 750.0,
+          "created": "2026-08-31T11:53:23+02:00",
+          "status": "WYKRYTO_PRAWIDLOWO",
+          "was_hit": true,
+          "filter_reason": null
+        },
+        {
+          "id": 1095100287,
+          "title": "Apple Iphone 16 Pro Max 256gb",
+          "price": 3149.0,
+          "created": "2026-08-31T11:51:29+02:00",
+          "status": "WYKRYTO_PRAWIDLOWO",
+          "was_hit": true,
+          "filter_reason": null
+        },
+        {
+          "id": 1095100233,
+          "title": "iPhone 14 Pro 128GB Space Black – pęknięty tył, ekran sprawny",
+          "price": 700.0,
+          "created": "2026-08-31T11:51:15+02:00",
+          "status": "ODRZUCONY_SMIEC (Czarna lista słów: 'pęknięty')",
+          "was_hit": false,
+          "filter_reason": "Czarna lista słów: 'pęknięty'"
+        },
+        {
+          "id": 1095099872,
+          "title": "IPhone 16 Pro 128GB 94% !Zadbany! !Gwarancja! !Zestaw! !Odbior/wysylka/dostawa!",
+          "price": 3049.0,
+          "created": "2026-08-31T11:49:28+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095099436,
+          "title": "Iphone 16",
+          "price": 3000.0,
+          "created": "2026-08-31T11:47:20+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095099407,
+          "title": "Iphone 11 uszkodzony na czesci",
+          "price": 100.0,
+          "created": "2026-08-31T11:47:13+02:00",
+          "status": "ODRZUCONY_SMIEC (Czarna lista słów: 'na czesci')",
+          "was_hit": false,
+          "filter_reason": "Czarna lista słów: 'na czesci'"
+        }
+      ]
+    },
+    "macbook": {
+      "scanned_in_window": 5,
+      "hits": 2,
+      "filtered_trash": 0,
+      "missed": 3,
+      "details": [
+        {
+          "id": 1095103844,
+          "title": "Macbook Pro 13” 2020r. A2251 i5 16 RAM 512 Ssd",
+          "price": 1299.0,
+          "created": "2026-08-31T12:07:05+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095101546,
+          "title": "MacBook Air 13 N30ikola",
+          "price": 800.0,
+          "created": "2026-08-31T11:57:34+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095099608,
+          "title": "Mac book pro 13 2020",
+          "price": 1700.0,
+          "created": "2026-08-31T11:48:15+02:00",
+          "status": "WYKRYTO_PRAWIDLOWO",
+          "was_hit": true,
+          "filter_reason": null
+        },
+        {
+          "id": 1095097825,
+          "title": "MacBook Air 13,6” M4-16 GB RAM/256 GB",
+          "price": 4100.0,
+          "created": "2026-08-31T11:39:39+02:00",
+          "status": "WYKRYTO_PRAWIDLOWO",
+          "was_hit": true,
+          "filter_reason": null
+        },
+        {
+          "id": 1095097458,
+          "title": "Macbook pro okazja 32gb ram",
+          "price": 1800.0,
+          "created": "2026-08-31T11:37:40+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        }
+      ]
+    },
+    "auta": {
+      "scanned_in_window": 11,
+      "hits": 0,
+      "filtered_trash": 9,
+      "missed": 2,
+      "details": [
+        {
+          "id": 1095105438,
+          "title": "Volkswagen Golf 4  1.6benzyna+LPG,Zadbany,BDB stan",
+          "price": 3900.0,
+          "region": "Dolnośląskie",
+          "created": "2026-08-31T12:14:15+02:00",
+          "status": "ODRZUCONY_FILTR (Inny region (Dolnośląskie))",
+          "was_hit": false,
+          "filter_reason": "Inny region (Dolnośląskie)"
+        },
+        {
+          "id": 1095104564,
+          "title": "Vw Passat b6 2006r 2.0 benzyna*Klima*Kombi*",
+          "price": 3950.0,
+          "region": "Śląskie",
+          "created": "2026-08-31T12:10:18+02:00",
+          "status": "ODRZUCONY_FILTR (Inny region (Śląskie))",
+          "was_hit": false,
+          "filter_reason": "Inny region (Śląskie)"
+        },
+        {
+          "id": 1095105107,
+          "title": "Audi A4 Avant Audi A4 B6 s-line 1,9tdi 130km AVF",
+          "price": 7900.0,
+          "region": "Mazowieckie",
+          "created": "2026-08-31T12:12:38+02:00",
+          "status": "ODRZUCONY_FILTR (OtoMoto partner (duplikat płatny))",
+          "was_hit": false,
+          "filter_reason": "OtoMoto partner (duplikat płatny)"
+        },
+        {
+          "id": 1095104706,
+          "title": "Kia Ceed Sprzedam Kia Ceed 1,6 benzyna auto z uszkodzonym silnikiem",
+          "price": 6150.0,
+          "region": "Łódzkie",
+          "created": "2026-08-31T12:10:49+02:00",
+          "status": "ODRZUCONY_FILTR (Inny region (Łódzkie))",
+          "was_hit": false,
+          "filter_reason": "Inny region (Łódzkie)"
+        },
+        {
+          "id": 1095104695,
+          "title": "Opel Astra 1.8 BENZYNA 140km Klimatyzacja Opłacona Zadbana bez korozji",
+          "price": 8900.0,
+          "region": "Dolnośląskie",
+          "created": "2026-08-31T12:10:46+02:00",
+          "status": "ODRZUCONY_FILTR (Inny region (Dolnośląskie))",
+          "was_hit": false,
+          "filter_reason": "Inny region (Dolnośląskie)"
+        },
+        {
+          "id": 1095101793,
+          "title": "Scoda Octavia rok 2005 pojemnoesc 1900 5 drzwiowy",
+          "price": 4500.0,
+          "region": "Mazowieckie",
+          "created": "2026-08-31T11:58:41+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095102878,
+          "title": "Ford Focus 2.0 Duratec LPG 2008 | Klima automatyczna | Półskóra",
+          "price": 6500.0,
+          "region": "Mazowieckie",
+          "created": "2026-08-31T12:03:26+02:00",
+          "status": "POMINIETO_BLAD",
+          "was_hit": false,
+          "filter_reason": null
+        },
+        {
+          "id": 1095102136,
+          "title": "Samochód Peugeot 407 SW",
+          "price": 5500.0,
+          "region": "Dolnośląskie",
+          "created": "2026-08-31T12:00:21+02:00",
+          "status": "ODRZUCONY_FILTR (Inny region (Dolnośląskie))",
+          "was_hit": false,
+          "filter_reason": "Inny region (Dolnośląskie)"
+        },
+        {
+          "id": 1095103518,
+          "title": "Opel Corsa 1,2 Benzyna 70 KM Serwis Zamiana Zarejestrowany",
+          "price": 9900.0,
+          "region": "Wielkopolskie",
+          "created": "2026-08-31T12:05:49+02:00",
+          "status": "ODRZUCONY_FILTR (Inny region (Wielkopolskie))",
+          "was_hit": false,
+          "filter_reason": "Inny region (Wielkopolskie)"
+        },
+        {
+          "id": 1095103476,
+          "title": "Fiat Bravo Fiat Bravo II 1.9 MultiJet Dynamic, właściciel od 14 lat,mały przebieg",
+          "price": 9999.0,
+          "region": "Mazowieckie",
+          "created": "2026-08-31T12:05:40+02:00",
+          "status": "ODRZUCONY_FILTR (OtoMoto partner (duplikat płatny))",
+          "was_hit": false,
+          "filter_reason": "OtoMoto partner (duplikat płatny)"
+        },
+        {
+          "id": 1095102351,
+          "title": "Mercedes s klasa s440 cały jezdny",
+          "price": 3999.0,
+          "region": "Śląskie",
+          "created": "2026-08-31T12:01:19+02:00",
+          "status": "ODRZUCONY_FILTR (Inny region (Śląskie))",
+          "was_hit": false,
+          "filter_reason": "Inny region (Śląskie)"
+        }
+      ]
+    }
+  },
+  "dom_scraped_counts": {
+    "IPHONE": 51,
+    "MACBOOK": 52,
+    "AUTA_MAZOWIECKIE_12K": 52
+  }
+}

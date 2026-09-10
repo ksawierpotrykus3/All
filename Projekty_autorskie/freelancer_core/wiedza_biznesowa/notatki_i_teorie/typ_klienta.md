@@ -1,0 +1,39 @@
+# Szablon typu klienta
+
+Skopiuj ten plik do `typy/` i wypełnij.
+
+## Po czym poznać (cechy rozpoznawcze)
+- ...
+
+## Czego deklaruje, że chce
+- ...
+
+## Możliwe ukryte motywy (status: teoria — do weryfikacji)
+- ...
+
+## Jak reagować (strategia)
+- ...
+
+## Jak pisać (ton, długość, struktura)
+- ...
+
+## Czego unikać
+- ...
+
+## Kiedy NIE stosować (warunki brzegowe)
+- ...
+
+## Ryzyko / pułapki (gdzie można stracić czas lub pieniądze)
+- ...
+
+## Zakres typowy (mały fix / średni projekt / duży wdrożeniowy)
+- ...
+
+## Poziom wiedzy technicznej (laik / świadomy / ekspert)
+- ...
+
+## Przykłady (ID zleceń)
+- ...
+
+## Powiązane teorie (linki do wiedza/)
+- ...

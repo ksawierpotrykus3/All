@@ -1,0 +1,29 @@
+### POST FACEBOOK ###
+
+Źródło: https://www.facebook.com/DNARynkow/posts/pfbid0T5WVnxhUkxDK99hqSdu7rGCDRUQLHHPLH8z1Dp1nYahC9392MsEfzfkCGkexztGxl
+Autor: Twoje skróty
+Data pobrania: 2026-08-20 20:31:31
+Liczba unikalnych komentarzy: 9
+
+--- TREŚĆ POSTA ---
+Jak ktoś oglądał wypuszczone przed czasem krótkie epizody Palenia za Żabką, to mam dobre wieści - pełne odcinki już nadgoniły z contentem i dziś do obejrzenia jest pierwszy odcinek ze "świeżą" treścią. Enjoy!
+
+--- KOMENTARZE I ODPOWIEDZI ---
+
+1. Artur Frajny: Wgl jak wyglądają odcinki palanie za żabką względem mangi? Chodzi o chapter mangi na którym najnowszy odc jest
+
+2. Maciej Romanowski: Dzięki za info jutro sobie obejżę po pracy bo dzisiaj S.T.A.L.K.E.R 2 jest grane z nowym patchem i dlc
+
+    2.1. Ojszi: Maciej Romanowski ja dzisiaj Nioh 3 ze świeżym DLC, które wyszło wczoraj
+
+3. Paweł Jeż: O dobra wiadomość! Chętnie nadrobię.
+
+    3.1. Ojszi: Artur Frajny specjalnie dla Ciebie sprawdziłem, kolego, anime do tej pory zrobiło 21 odcinków mangi, mniej więcej połowa drugiego tomu
+
+4. Piotr Cymcyk - Merytorycznie o Finansach: O tutaj: https://dnarynkow.pl/strategiczny-webinar-140-omowienie.../
+
+5. Adam Nowak: To błędny wniosek. Wzrost Agentic AI nie oznacza, że “przestaje odpowiadać”. Najpewniej po prostu tempo wzrostu konsumpcji tokenów przez Agentic AI jest większe niż tempo wzrostu konsumpcji przez “czat”. Przy czym, część czatów obecnie też udostępnia agentów, np w Copilot by default jest Researcher - to agent, ale w zasadzie to czat, tylko taki mądrzejszy, bo potrafi komunikować się z innymi systemami i zbierać dane z wielu źródeł. Nie należy mylić takiego agenta z agentami stworzonymi do bardziej specyficznych zadań.
+
+6. Zuzia Dubanowska: Owszem, błędny wniosek lub conajmniej naciągnięty wniosek przyczynowo skutkowy. Agenci nie dość że mają bardzo często defaultowo włączony reasoning przez co już na wstępie palą więcej tokenów niż ich chatowi pobratymcy, na wykresie oczywiście takich kluczowych danych nie zawarli, to jeszcze używają różnych tooli i potem konsolidują te informacje oraz muszą operować później na całym kontekście konwersacji. Patrząc po moim używaniu cline mniej więcej 5-6 wymian rozmowy o kodzie pali zatrwazajace 150,000 tokenów. Dodatkowo wiele organizacji (w tym moja) dopiero teraz decyduje się „na dobre” wdrożyć AI do głębszych warstw swoich systemów jak np do kodowania, z tym też wzrost użytkowników a co za tym idzie wzrost tokenów. Nie zapominajmy o naporze zarządów firm na używanie agentów co skutkuje tym że pracownicy muszą przepalać tokeny na nic nieznaczące zadania napędzane ciągłym nakręcaniem tego ze trzeba być AI-first.
+
+7. Grzegorz Braczyk: Cymcyk wogóle pierdoli i używa subtelnej manipulacji ,to wszystko na chłopski rozum kupy się nie trzyma ,

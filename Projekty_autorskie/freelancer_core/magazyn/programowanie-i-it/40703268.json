@@ -1,0 +1,79 @@
+{
+  "id": "40703268",
+  "url": "https://www.freelancer.pl/projects/sap/Build-SAP-BTP-CAPM-Web/details",
+  "title": "Build SAP BTP CAPM Web App",
+  "author": "Anonim",
+  "budget": "100.0 - 400.0 INR",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.842431",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703268",
+    "url": "https://www.freelancer.pl/projects/sap/Build-SAP-BTP-CAPM-Web/details",
+    "seo_url": "sap/Build-SAP-BTP-CAPM-Web",
+    "title": "Build SAP BTP CAPM Web App",
+    "budget": "100.0 - 400.0 INR",
+    "budget_raw": {
+      "minimum": 100.0,
+      "maximum": 400.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I need a brand-new web application built on SAP Business Technology Platform using the CAP Model. Th",
+    "category": "programowanie-i-it",
+    "project_type": "hourly",
+    "jobs": [
+      "JavaScript",
+      "Cloud Computing",
+      "SAP",
+      "Web Development",
+      "Frontend Development",
+      "Data Visualization",
+      "Database Management",
+      "REST API"
+    ],
+    "bid_stats": {
+      "bid_count": 12,
+      "bid_avg": 283.3333333333333
+    },
+    "local": false,
+    "time_submitted": 1789047407
+  },
+  "full_details": {
+    "id": "40703268",
+    "title": "Build SAP BTP CAPM Web App",
+    "full_description": "I need a brand-new web application built on SAP Business Technology Platform using the CAP Model. The solution will be delivered as a cloud service and must run smoothly inside the SAP BTP environment.\n\nScope  \nThe project starts from a clean slate, so you will set up the CAP project structure, model the domain with CDS, and expose the required OData or REST services. A simple yet secure log-in flow is mandatory; the app must authenticate users against the BTP XSUAA service. Once inside, users should see intuitive pages that let them submit data through responsive forms and later review that information through clear, attractive visualisations (charts or tables rendered via SAPUI5/Fiori Elements or an equivalent modern JS charting library).\n\nCore deliverables  \n• End-to-end CAP project (data model, service layer, security configuration)  \n• Web front-end tied to those services, featuring:  \n – User authentication via XSUAA  \n – Dynamic form submissions saved to the underlying HANA Cloud DB (or SQLite for dev)  \n – Data visualisation pages fed by live service calls  \n• Deployment script or MTA so I can push the app to my BTP subaccount and test immediately  \n• Short read-me explaining set-up, build and run commands\n\nAcceptance  \nThe application must compile without warnings, deploy to my Trial or productive subaccount, and let me sign in, add a sample record through the form, then see it appear in the visualisation view without manual refresh.\n\nIf you have recent CAP projects in your portfolio, I’d love to see a link or repo reference when you bid.",
+    "budget_raw": {
+      "minimum": 100.0,
+      "maximum": 400.0
+    },
+    "currency": "INR",
+    "project_type": "hourly",
+    "jobs": [
+      "JavaScript",
+      "Cloud Computing",
+      "SAP",
+      "Web Development",
+      "Frontend Development",
+      "Data Visualization",
+      "Database Management",
+      "REST API"
+    ],
+    "bid_stats": {
+      "bid_count": 12,
+      "bid_avg": 283.3333333333333
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:43"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:43.916858"
+}

@@ -1,0 +1,43 @@
+[project]
+name = "vinted-testy-camoufox"
+version = "0.1.0"
+description = "Research workspace for Vinted bot — Camoufox fingerprint bypass + checkout flow investigation"
+requires-python = ">=3.10"
+
+# Detected dependencies via static analysis (see AGENTS.md reorg plan, phase 3).
+# curl_cffi dominates (141 imports) for TLS/JA4 fingerprint spoofing required to
+# pass DataDome. camoufox (59) for stealth browser. cryptography for JWE token
+# crafting (Incognia reverse engineering, see _capture_incognia_plaintext.py).
+dependencies = [
+    "curl-cffi>=0.7.1",
+    "camoufox>=0.4.0",
+    "cryptography>=42.0.0",
+    "playwright>=1.44.0",
+    "requests>=2.31.0",
+    "Pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=5.0.0",
+    "ruff>=0.4.0",
+    "mypy>=1.10.0",
+]
+
+[tool.ruff]
+# Lenient config: this is a research workspace with spike probes and one-off scripts,
+# not a production codebase. Linting should flag only the most egregious issues.
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]   # pycodestyle, pyflakes, pycodestyle-warnings, isort
+ignore = ["E501", "F401"]        # line-too-long (common in JS dumps), unused-import (probes)
+
+[tool.pytest.ini_options]
+# Most scripts in testing/ and tools/ are probes run via `python <file>.py`,
+# not collected by pytest. pytest only picks up explicit `test_*.py` files.
+testpaths = ["testing"]
+python_files = ["test_*.py"]
+addopts = "-v --tb=short"

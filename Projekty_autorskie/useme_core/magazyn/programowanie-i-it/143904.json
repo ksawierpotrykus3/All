@@ -1,0 +1,44 @@
+{
+  "id": "143904",
+  "url": "https://useme.com/pl/jobs/konfiguracja-hosting-z-codex-i-site-gpt-dla-nie-technicznej-osoby,143904/",
+  "title": "Konfiguracja: Hosting z Codex i Site GPT [Dla nie technicznej osoby]",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-08T18:26:26.900725",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "143904",
+    "url": "https://useme.com/pl/jobs/konfiguracja-hosting-z-codex-i-site-gpt-dla-nie-technicznej-osoby,143904/",
+    "title": "Konfiguracja: Hosting z Codex i Site GPT [Dla nie technicznej osoby]",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Poszukuje kogoś kto pomoże mi/skonfiguruje za mnie wszystko. Potrzebuje łącznik w konfiguracji Codexa z moim serwerem i domeną aby działała strona zrobiona w Site GPT oraz przedstawi jak działać aby każde zmiany na stronie publikować na...",
+    "category": "programowanie-i-it"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/konfiguracja-hosting-z-codex-i-site-gpt-dla-nie-technicznej-osoby,143904/",
+    "title": "Konfiguracja: Hosting z Codex i Site GPT [Dla nie technicznej osoby]",
+    "full_description": "<p>Poszukuje kogoś kto pomoże mi/skonfiguruje za mnie wszystko. Potrzebuje łącznik w konfiguracji Codexa z moim serwerem i domeną aby działała strona zrobiona w Site GPT oraz przedstawi jak działać aby każde zmiany na stronie publikować na bieżąco.</p>\n\n<p>Forma online: Google Meets<br>Stan teraz: stara strona www i mocna domena + skrzynki w gmail workspace dla firm. Wiec potrzebuje domenę skonfigurować aby mi skrzynki e-mail nie sparaliżowało.</p>\n\n<p>Dodatkowo: <br>I. Pomóc zrozumieć i wdrożyć ścieżkę rozbudowy strony www i aktualizacji jej na bieżąco z promptów w Site GPT<br>II. Automatyzacja bloga firmowego oraz na co zwracać uwagę w podstawowym SEO strony www budowanej w takiej formie.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/143904/offer/start/",
+    "scraped_at": "2026-09-10T16:02:17"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nOgarnę to od A do Z, a przy okazji powiem ci, gdzie w tym planie jest mina, o której jeszcze nie wiesz.\n\nNajwiększe ryzyko to nie samo wgranie strony, tylko przeniesienie domeny na nowy hosting. Masz na niej skrzynki Google Workspace, więc jeśli DNS pójdzie na ślepo, poczta padnie: rekordy MX, SPF, DKIM i DMARC trzeba przenieść 1:1, zanim wskażemy domenę na serwer. Zrobimy to w oknie poza godzinami pracy, żeby nawet chwilowy przestój nie zablokował maili. Po zmianie dalej wysyłasz i odbierasz pocztę jak dotąd.\n\nDruga rzecz, którą warto wiedzieć od razu: SiteGPT to narzędzie do chatbotów i bazy wiedzy, nie do publikowania wpisów blogowych. Nie ma endpointu ani webhooka, który doda posta na bloga. Więc bloga firmowego nie zautomatyzujemy \"z promptów w SiteGPT\", bo to się technicznie nie spina. Zamiast tego zepniemy blog na osobnym rozwiązaniu z API (headless CMS albo prosty blog statyczny), a treści będziemy generować promptem i wrzucać skryptem. SiteGPT zostaje tam, gdzie błyszczy: jako widget czatu na stronie, z ograniczeniem osadzania tylko do twojej domeny.\n\nSama publikacja zmian na bieżąco to kwestia pipeline'u: kod wygenerowany w Codexie wrzucimy do repo i podepniemy automatyczny deploy na serwer, więc zmiana po zatwierdzeniu wyląduje na stronie bez ręcznego wgrywania plików przez FTP.\n\nDo tego przejdziemy razem przez podstawy SEO dla strony budowanej w ten sposób: sitemap.xml, robots.txt, sensowne title i opisy, Open Graph, dane strukturalne i pilnowanie indeksacji, żeby Google nie zaciągnął śmieci. Wszystko pokażę na Google Meet, krok po kroku, tak żebyś sam umiał to potem powtórzyć. Nagranie sesji zostawię, żebyś miał do czego wrócić.\n\nZa konfigurację hostingu, przeniesienie domeny z zachowaniem poczty, spięcie deployu, ustawienie bloga z automatyzacją i szkolenie z SEO liczymy 1800 zł. Realizacja w 7 dni, z sesją online w środku.\n\nZdzwońmy się na Google Meet, rzucę okiem na to, co masz teraz, i powiem, ile realnie zostaje do zrobienia.\n\nPozdrawiam",
+    "wycena": 1800,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "143904",
+    "wycena": 1800,
+    "dni": 7,
+    "final_url": "https://useme.com/pl/jobs/143904/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_143904.png",
+    "message": "Oferta #143904 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/143904/offer/finish/)."
+  },
+  "full_description": "<p>Poszukuje kogoś kto pomoże mi/skonfiguruje za mnie wszystko. Potrzebuje łącznik w konfiguracji Codexa z moim serwerem i domeną aby działała strona zrobiona w Site GPT oraz przedstawi jak działać aby każde zmiany na stronie publikować na bieżąco.</p>\n\n<p>Forma online: Google Meets<br>Stan teraz: stara strona www i mocna domena + skrzynki w gmail workspace dla firm. Wiec potrzebuje domenę skonfigurować aby mi skrzynki e-mail nie sparaliżowało.</p>\n\n<p>Dodatkowo: <br>I. Pomóc zrozumieć i wdrożyć ścieżkę rozbudowy strony www i aktualizacji jej na bieżąco z promptów w Site GPT<br>II. Automatyzacja bloga firmowego oraz na co zwracać uwagę w podstawowym SEO strony www budowanej w takiej formie.</p>",
+  "updated_at": "2026-09-10T16:06:09.017949"
+}

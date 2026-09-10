@@ -1,0 +1,25 @@
+[channels]
+capture = "error"
+detection = "error"
+ocr = "info"
+clicker = "info"
+engine = "error"
+gui = "error"
+macro = "debug"
+monitor = "error"
+
+[recording]
+enabled = false
+dir = "debug_sessions"
+max_frames = 1000
+compress = true
+
+[replay]
+speed = 1.0
+loop = false
+
+[mocks]
+default_clicker = "dry-run"
+default_capture = "passthrough"
+default_ocr = "passthrough"
+default_detector = "passthrough"

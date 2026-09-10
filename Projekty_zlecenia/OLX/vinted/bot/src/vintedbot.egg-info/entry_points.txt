@@ -1,0 +1,3 @@
+[console_scripts]
+vintedbot = vintedbot.cli:cli
+vintedbot-runner = vintedbot.runner:main

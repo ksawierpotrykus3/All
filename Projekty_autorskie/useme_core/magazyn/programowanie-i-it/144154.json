@@ -1,0 +1,43 @@
+{
+  "id": "144154",
+  "url": "https://useme.com/pl/jobs/poszukujemy-wykonawcy-dedykowanej-aplikacji-do-obslugi-e-mail-z-ai,144154/",
+  "title": "Poszukujemy wykonawcy dedykowanej aplikacji do obsługi e-mail z AI",
+  "author": "Anonim",
+  "budget": "5000,00 PLN",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T15:25:31.091939",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144154",
+    "url": "https://useme.com/pl/jobs/poszukujemy-wykonawcy-dedykowanej-aplikacji-do-obslugi-e-mail-z-ai,144154/",
+    "title": "Poszukujemy wykonawcy dedykowanej aplikacji do obsługi e-mail z AI",
+    "budget": "5000,00 PLN",
+    "author": "Anonim",
+    "short_desc": "Szukamy osoby lub firmy, która byłaby w stanie stworzyć dla nas dedykowaną aplikację/platformę do kompleksowej obsługi poczty e-mail z wykorzystaniem AI.\n\nObecnie obsługujemy kilkanaście skrzynek mailowych należących do 3 różnych marek i zależy...",
+    "category": "programowanie-i-it"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/poszukujemy-wykonawcy-dedykowanej-aplikacji-do-obslugi-e-mail-z-ai,144154/",
+    "title": "Poszukujemy wykonawcy dedykowanej aplikacji do obsługi e-mail z AI",
+    "full_description": "<p>Szukamy osoby lub firmy, która byłaby w stanie stworzyć dla nas dedykowaną aplikację/platformę do kompleksowej obsługi poczty e-mail z wykorzystaniem AI.</p>\n\n<p>Obecnie obsługujemy kilkanaście skrzynek mailowych należących do 3 różnych marek i zależy nam na połączeniu ich w jednym systemie, z możliwością zarządzania wiadomościami przez kilku pracowników.</p>\n\n<p>Najważniejsze funkcjonalności, których potrzebujemy:</p>\n\n<p>możliwość podpięcia kilkunastu skrzynek e-mail z różnych domen i marek,<br>wspólny workspace umożliwiający obsługę wiadomości przez wielu użytkowników,<br>możliwość przypisywania wiadomości lub całych wątków do konkretnych pracowników,<br>możliwość dodania kolejnego użytkownika do prowadzonej sprawy, tak aby miał dostęp do całej historii korespondencji,<br>system folderów, kategorii, statusów, tagów lub kolejek dla poszczególnych typów wiadomości.</p>\n\n<p>Kluczowym elementem aplikacji ma być integracja z AI.<br>AI powinno analizować przychodzące wiadomości i na podstawie ustalonych reguł oraz naszej bazy wiedzy podejmować odpowiednie działania, np.:</p>\n\n<p>przygotowywać wersję roboczą odpowiedzi dla pracownika,<br>automatycznie odpowiadać na proste i powtarzalne pytania klientów,<br>korzystać przy odpowiedziach z przygotowanej przez nas bazy wiedzy dotyczącej produktów, zamówień, reklamacji, dostaw, zwrotów itd.,<br>rozpoznawać wiadomości niewymagające odpowiedzi, np. automatyczne potwierdzenia „zamówienie zostało złożone”, i automatycznie oznaczać je jako obsłużone / archiwizować,<br>rozpoznawać wiadomości wymagające ręcznej weryfikacji i przekierowywać je do odpowiedniej kategorii lub konkretnego pracownika,<br>klasyfikować wiadomości według ich intencji, np. reklamacja, pytanie o zamówienie, pytanie produktowe, zapytanie sprzedażowe, wiadomość administracyjna itd.</p>\n\n<p>Dodatkowo dla jednej z naszych marek chcemy wdrożyć automatyczne rozpoznawanie leadów sprzedażowych.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144154/offer/start/",
+    "scraped_at": "2026-09-10T15:25:36"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu. Robimy integracje poczty, automatyzacje i moduły AI, między innymi wspólne skrzynki z klasyfikacją wiadomości. Przy kilkunastu skrzynkach rozbitych na trzy marki nie chodzi o sklejenie ich w jednym oknie, tylko o to, żeby żaden wątek nie zginął między markami i żeby AI nie odpowiadało klientowi na podstawie zgadywania.\n\nNajwiększy problem w takich systemach to nie sam interfejs, tylko dostęp do skrzynek i sposób odbierania nowej poczty. Jeśli to Workspace, trzeba iść przez Service Account z Domain-Wide Delegation, bo przy OAuth per użytkownik nie spina się to server-to-server przy kilkunastu skrzynkach. Powiadomienia o nowej poczcie przez Cloud Pub/Sub wygasają co siedem dni, więc system musi je sam odnawiać, inaczej cicho przestaje odbierać maile. Przy Microsoft 365 trzeba dodatkowo ograniczyć aplikację polityką dostępu w Exchange, bo domyślne uprawnienia do poczty dają widok na wszystkie skrzynki w tenancie, a to już problem bezpieczeństwa, nie tylko techniczny.\n\nDo tego dochodzi kwestia, o której większość wdrożeń zapomina: analiza treści korespondencji to przetwarzanie danych osobowych z elementami profilowania, więc przed startem potrzebna jest ocena skutków dla ochrony danych i jasna informacja dla pracowników, że system analizuje maile. Przy klasyfikacji wiadomości pod kątem zadań dla pracowników warto też od razu ustawić to tak, żeby AI wspierało, a nie podejmowało decyzje samodzielnie, bo inaczej robi się z tego system wysokiego ryzyka w rozumieniu przepisów o AI.\n\nSam moduł AI proponuję oprzeć na wyszukiwaniu w Waszej bazie wiedzy, a nie na wrzucaniu całej bazy w prompt. Inaczej koszt tokenów przy dwustu ticketach dziennie robi się większy niż koszt utrzymania serwera. Klasyfikacja intencji, wersje robocze odpowiedzi i rozpoznawanie leadów mogą siedzieć na tej samej infrastrukturze, więc nie ma sensu budować ich jako osobnych modułów.\n\nWażna rzecz przy Waszym budżecie: pełny zakres z AI, bazą wiedzy i rozpoznawaniem leadów to nie jest projekt za pięć tysięcy. Dlatego proponuję zacząć od pierwszego etapu, który zmieści się w tej kwocie i od razu da Wam działający wspólny inbox: podpięcie skrzynek, przypisywanie wątków do pracowników, dodawanie kolejnej osoby do sprawy z całą historią, kolejki per marka, tagi i statusy. Bez AI. To da Wam uporządkowaną pocztę i działającą bazę pod drugi etap.\n\nDrugi etap to moduł AI: drafty odpowiedzi, automatyczne odpowiedzi na powtarzalne pytania, klasyfikacja intencji, wykrywanie potwierdzeń, które nie wymagają reakcji, przekierowanie do ręcznej weryfikacji i rozpoznawanie leadów dla tej jednej marki. Wycenimy go po uruchomieniu pierwszej części, kiedy będzie już jasne, w jakiej formie macie bazę wiedzy i jak wygląda realny wolumen wiadomości.\n\nZa całość, czyli pierwszy etap plus moduł AI z bazą wiedzy i wdrożeniem na serwerze, liczymy 14 000 zł i 30 dni pracy. Pierwszy etap, mieszczący się w Waszym budżecie, to 5000 zł. Kwota w rubryce to koszt całego systemu, ale spokojnie możemy wystartować od pierwszej części i sprawdzić, jak to działa na Waszych skrzynkach.\n\nZdzwońmy się w tym tygodniu na piętnaście minut, powiem, co dokładnie potrzebujemy od Was do startu.\n\nPozdrawiam",
+    "wycena": 14000,
+    "dni": 30,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144154",
+    "wycena": 14000,
+    "dni": 30,
+    "final_url": "https://useme.com/pl/jobs/144154/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144154.png",
+    "message": "Oferta #144154 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144154/offer/finish/)."
+  },
+  "updated_at": "2026-09-10T15:52:20.062363"
+}

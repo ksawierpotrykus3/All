@@ -1,0 +1,83 @@
+{
+  "id": "40703050",
+  "url": "https://www.freelancer.pl/projects/woocommerce/WooCommerce-Porto-Theme-Clone/details",
+  "title": "WooCommerce Porto Theme Clone",
+  "author": "Anonim",
+  "budget": "10.0 - 300.0 CAD",
+  "category": "sklepy-shopify",
+  "detected_at": "2026-09-10T17:28:38.972372",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703050",
+    "url": "https://www.freelancer.pl/projects/woocommerce/WooCommerce-Porto-Theme-Clone/details",
+    "seo_url": "woocommerce/WooCommerce-Porto-Theme-Clone",
+    "title": "WooCommerce Porto Theme Clone",
+    "budget": "10.0 - 300.0 CAD",
+    "budget_raw": {
+      "minimum": 10.0,
+      "maximum": 300.0
+    },
+    "currency": "CAD",
+    "author": "Anonim",
+    "short_desc": "I need a pixel-perfect reproduction of https://centroricami.it built on WordPress + WooCommerce. You",
+    "category": "sklepy-shopify",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "JavaScript",
+      "Website Design",
+      "WordPress",
+      "CSS",
+      "HTML",
+      "WooCommerce",
+      "Web Development",
+      "Web Design",
+      "Website Development"
+    ],
+    "bid_stats": {
+      "bid_count": 262,
+      "bid_avg": 192.84847328244277
+    },
+    "local": false,
+    "time_submitted": 1789039934
+  },
+  "full_details": {
+    "id": "40703050",
+    "title": "WooCommerce Porto Theme Clone",
+    "full_description": "I need a pixel-perfect reproduction of https://centroricami.it built on WordPress + WooCommerce. You will work with the Porto theme (license already in place) and any companion plugins I supply, making the new site behave and feel exactly like the reference.\n\nIMPORTANT : DO NOT BID ON THE PROJECT IF YOU DONT HAVE VISIT THE REFERENCE WEBISTE \nWE HAVE NO TIME TO DISCUSE YOUR BUDGET . DONT ASK \" WHAT IS YOUR BUDGET ! \" BUDGET LIMIT IS ALREADY HERE SO NO WAY TO CHANGE , \n\nVisuals  \n– Replace the original palette with my brand colours: red, white and black.  \n– Keep every other design cue 1:1: header and footer structure, typography, font sizing, layout rhythm and spacing. Porto already covers most of this; you’ll fine-tune the CSS so no detail drifts from the source.\n\nFunctionality  \nThe store must mirror the full workflow of centroricami.it, including catalogue navigation, product detail behaviour, cart and checkout. On top of that, ensure the advanced search options and interactive elements present on the reference are replicated precisely—no shortcuts or watered-down substitutes.\n\nTechnical scope  \n• Build on my existing WP install.  \n• Configure WooCommerce, Porto child theme and the extra apps I provide.  \n• Optimise for speed and mobile responsiveness.  \n• Hand over all custom code in a separate child theme or plugin so future updates to Porto remain safe.\n\nAcceptance criteria  \n1. Visual match to the reference within a 5-pixel tolerance across current Chrome, Firefox, Safari and Edge.  \n2. Search and interactive features behave identically to the original site.  \n3. No console errors, and Lighthouse performance score ≥ 80 on both desktop and mobile for key pages.  \n4. Final site delivered ready to go live, with an easily importable backup plus a brief hand-off document.\n\nLet me know your timeline to reach a fully functional staging site and, shortly after sign-off, the live push.",
+    "budget_raw": {
+      "minimum": 10.0,
+      "maximum": 300.0
+    },
+    "currency": "CAD",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "JavaScript",
+      "Website Design",
+      "WordPress",
+      "CSS",
+      "HTML",
+      "WooCommerce",
+      "Web Development",
+      "Web Design",
+      "Website Development"
+    ],
+    "bid_stats": {
+      "bid_count": 262,
+      "bid_avg": 192.84847328244277
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:52"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:52.687667"
+}

@@ -1,0 +1,215 @@
+﻿Architektura niezależności językowej i kodowania w aplikacjach Python przetwarzających dane OCR w środowisku Windows
+Wdrożenie aplikacji napisanej w języku Python w środowisku Microsoft Windows wiąże się z koniecznością obsłużenia wielowarstwowych zależności od lokalnych ustawień systemu operacyjnego. Zmiany wersji językowej systemu (np. polskiej, niemieckiej czy angielskiej) wpływają bezpośrednio na domyślny separator dziesiętny, systemowe strony kodowe ANSI/OEM oraz strukturę ścieżek plikowych w profilach użytkowników. W aplikacjach przetwarzających tekst pozyskany z silników optycznego rozpoznawania znaków (OCR) nieprzemyślana obsługa lokalizacji prowadzi do cichych błędów konwersji danych, nieoczekiwanych wyjątków braku możliwości kodowania znaków oraz awarii modułów natywnych po skompilowaniu kodu do postaci binarnej.
+Problematyka parsowania liczb zmiennoprzecinkowych z tekstu OCR
+Wbudowana w język Python funkcja float() działa w sposób całkowicie niezależny od lokalizacji systemowej i bez wyjątku oczekuje kropki jako separatora części ułamkowej, co odpowiada standardowej konwencji środowiska C (C locale)1. Z kolei tekst wygenerowany przez silnik OCR analizujący dokumenty w krajach europejskich zawiera najczęściej przecinki jako separatory dziesiętne oraz spacje lub kropki jako separatory tysięczne3. Próba bezpośredniego poddania takiego ciągu znaków konwersji przy użyciu rzutowania float() kończy się wygenerowaniem wyjątku ValueError2.
+Powszechnie stosowaną, lecz wysoce ryzykowną praktyką jest zmiana globalnego stanu lokalizacji procesu za pomocą modułu standardowego locale i wywołania locale.setlocale(locale.LC_ALL, '') w celu użycia funkcji locale.atof()3. Podejście to niesie ze sobą poważne konsekwencje architektoniczne:
+1. Brak bezpieczeństwa w środowisku wielowątkowym: Modyfikacja ustawień za pomocą setlocale() zmienia stan globalny na poziomie biblioteki C runtime (libc / MSVCRT) całego procesu1. Jeżeli jeden wątek zmieni lokalizację w celu sparsowania liczby z tekstu OCR, pozostałe wątki aplikacji przetwarzające w tym samym czasie dane tekstowe, formatujące daty lub generujące logi ulegną wyścigowi danych (data race), co prowadzi do niedeterministycznych błędów parsowania1.
+2. Efekty uboczne w rozszerzeniach C: Wiele bibliotek natywnych powiązanych z Pythonem (np. z zakresu przetwarzania obrazów lub uczenia maszynowego) zakłada, że poziom biblioteki C działa niezmiennie w środowisku C locale1. Modyfikacja kategorii LC_NUMERIC na poziomie libc może zaburzyć wewnętrzne parsowanie liczb w bibliotekach C/C++1.
+3. Zależność od środowiska OS: Funkcja locale.setlocale() wymaga obecności odpowiednich definicji językowych w systemie operacyjnym2. Jeśli w danej instalacji Windows brakuje wymaganej paczki językowej, wywołanie to zgłosi wyjątek locale.Error2.
+Najbardziej niezawodnym podejściem zapewniającym całkowitą niezależność od środowiska jest czyszczenie i normalizacja ciągu tekstowego na poziomie kodu Pythona przed wykonaniem konwersji3. Polega to na usunięciu znaków grupowania cyfr oraz jednoznacznej zamianie przecinka na kropkę3.
+
+
+
+
+
+
+Python
+import re
+
+def parse_ocr_number(text: str) -> float:
+   # Usunięcie białych znaków oraz separatorów tysięcznych
+   cleaned = re.sub(r'[^\d,-]', '', text)
+   # Standaryzacja separatora dziesiętnego na kropkę
+   standardized = cleaned.replace(',', '.')
+   return float(standardized)
+
+W przypadku wysoce precyzyjnych obliczeń finansowych lub geometrycznych zaleca się stosowanie modułu decimal.Decimal, który po wykonaniu analogicznej normalizacji ciągu wejściowego zapobiega błędom zaokrągleń binarnych właściwym dla standardu IEEE 754.
+Obsługa strumieni I/O, kodowania znaków oraz granice działania PYTHONUTF8=1
+Wykorzystanie klasy RotatingFileHandler z jawnym parametrem encoding="utf-8" gwarantuje, że zapis do pliku logu będzie realizowany w kodowaniu UTF-8 bez względu na domyślną stronę kodową systemu Windows9. Niemniej jednak sam zapis do pliku nie rozwiązuje problemu komunikacji ze standardowymi strumieniami procesu (sys.stdout i sys.stderr)9.
+Domyślnie w systemie Windows standardowe strumienie wyjścia i błędów w środowisku CPython przypisywane są do aktywnej strony kodowej ANSI/OEM (np. CP1250 dla języka polskiego lub CP1252 dla niemieckiego)6. Jeżeli jakakolwiek biblioteka zewnętrzna, moduł OCR lub nieobsłużony wyjątek podejmie próbę wypisania na konsolę znaku spoza tej strony kodowej, interpreter zgłosi nieodwołalny wyjątek UnicodeEncodeError9.
+Ustawienie zmiennej środowiskowej PYTHONUTF8=1 (wprowadzonej w PEP 540) aktywuje w interpreterze tryb UTF-8 Mode, wymuszając kodowanie UTF-8 dla operacji I/O9. W środowiskach produkcyjnych opieranie się wyłącznie na tej zmiennej jest jednak niewystarczające z następujących powodów:
+1. Zmienna środowiskowa może nie zostać prawidłowo przekazana przez zewnętrzne procesy nadrzędne, harmonogram zadań Windows lub usłyszane pliki wykonywalne.
+2. Aplikacje skompilowane do postaci natywnej (np. za pomocą Nuitka) mogą inicjalizować runtime przed odczytaniem zmiennych środowiskowych systemowych.
+3. W aplikacjach okienkowych (GUI) uruchamianych bez dołączonej konsoli systemowej strumienie sys.stdout oraz sys.stderr przybierają wartość None lub kierowane są do urządzeń pustych (NUL)11.
+Aby zapewnić pełne bezpieczeństwo wyjścia konsolowego, należy przy starcie aplikacji dokonać programowej rekonfiguracji strumieni przy użyciu metody reconfigure()13.
+
+
+
+
+
+
+Python
+import sys
+
+def configure_execution_streams():
+   if sys.stdout is not None and hasattr(sys.stdout, 'reconfigure'):
+       sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+   if sys.stderr is not None and hasattr(sys.stderr, 'reconfigure'):
+       sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+
+Zastosowanie parametru errors='replace' chroni proces przed awarią w sytuacji, gdy strumień konsoli nie jest w stanie wyrenderować podanego znaku, zastępując go bezpiecznym znakiem zastępczym15.
+Obsługa ścieżek plikowych ze znakami Unicode w aplikacjach pakowanych przez Nuitka
+System plików NTFS w systemie Windows zapisuje nazwy plików i katalogów natywnie w kodowaniu UTF-1616. Błędy obsługi ścieżek pojawiają się w momencie, gdy aplikacja próbuje uzyskać dostęp do plików znajdujących się w katalogach zawierających polskie znaki diakrytyczne lub niemieckie umlauty, a użyte rozszerzenie natywne C/C++ próbuje konwertować ścieżkę do 8-bitowego ciągu znaków ANSI16.
+Szczególnym przypadkiem są aplikacje pakowane narzędziem Nuitka w trybie jednoplikowym (--onefile)17. W tym trybie kontener wykonywalny rozpakowuje wymagane biblioteki dynamiczne (DLL) oraz zasoby do katalogu tymczasowego w ścieżce %TEMP%17. Jeśli nazwa konta użytkownika w systemie Windows zawiera znaki specjalne (np. C:\Users\Jörg_Michał\AppData\Local\Temp), cała ścieżka uruchomieniowa staje się ścieżką Unicode17.
+Wybór kompilatora C stosowanego przez Nuitka ma kluczowe znaczenie dla stabilności aplikacji21:
+* MinGW64: W starszych wersjach łańcucha narzędzi GCC/MinGW pojawiały się błędy związane z brakiem pełnej obsługi szerokich znaków (wchar_t) podczas przekazywania ścieżek wyjściowych i tymczasowych21.
+* Microsoft Visual Studio (MSVC): Kompilator MSVC (--msvc=latest) natywnie wykorzystuje interfejsy Win32 API oparte na Unicode, co czyni go zalecanym narzędziem do budowania aplikacji dystrybuowanych na różne wersje językowe Windows22.
+Jeśli aplikacja musi współpracować z zewnętrznym plikiem wykonywalnym lub starszą biblioteką natywną bez obsługi Unicode, rozwiązaniem jest konwersja ścieżki do krótkiej nazwy w formacie DOS 8.3 za pomocą funkcji GetShortPathNameW ze standardowej biblioteki kernel32.dll24.
+
+
+
+
+
+
+Python
+import os
+import ctypes
+import platform
+
+def get_dos_short_path(long_path: str) -> str:
+   if platform.system() != 'Windows' or not os.path.exists(long_path):
+       return long_path
+   
+   buffer_size = ctypes.windll.kernel32.GetShortPathNameW(long_path, None, 0)
+   if buffer_size == 0:
+       return long_path
+       
+   buffer = ctypes.create_unicode_buffer(buffer_size)
+   ctypes.windll.kernel32.GetShortPathNameW(long_path, buffer, buffer_size)
+   return buffer.value
+
+Otrzymana ścieżka (np. C:\Users\JRGMIC~1\AppData\Local\Temp) składa się wyłącznie ze znaków z zestawu ASCII, co pozwala obniżyć ryzyko awarii w zewnętrznych modułach C24.
+Analiza podatności i wzorce integracji dla kluczowych bibliotek zewnętrznych
+Niektóre z popularnych bibliotek wykorzystywanych do przetwarzania obrazów i uczenia maszynowego wymagają dedykowanych zabiegów programistycznych w celu zapewnienia ich poprawnego działania w środowisku ze znakami Unicode.
+OpenCV (cv2)
+Funkcje cv2.imread() oraz cv2.imwrite() w wersji dla systemu Windows wykorzystują do otwierania plików wąskie funkcje I/O z biblioteki standardowej C++, które nie interpretują poprawnie ścieżek wielobajtowych Unicode16. Próba odczytu pliku ze ścieżki zawierającej znaki diakrytyczne za pomocą cv2.imread() nie zgłasza wyjątku, lecz cicho zwraca wartość None, co prowadzi do błędów w kolejnych krokach przetwarzania OCR24.
+Rozwiązaniem problemu jest zastąpienie bezpośrednich wywołań odczytu i zapisu operacjami w pamięci RAM z wykorzystaniem biblioteki numpy16.
+
+
+
+
+
+
+Python
+import cv2
+import numpy as np
+
+def safe_imread(file_path: str, flags: int = cv2.IMREAD_COLOR) -> np.ndarray:
+   # Odczyt pliku do bufora bajtowego przez Python I/O obsługujący Unicode
+   file_bytes = np.fromfile(file_path, dtype=np.uint8)
+   image = cv2.imdecode(file_bytes, flags)
+   if image is None:
+       raise ValueError(f"Nie udało się zdekodować obrazu: {file_path}")
+   return image
+
+def safe_imwrite(file_path: str, image: np.ndarray, params=None) -> bool:
+   ext = os.path.splitext(file_path)[1]
+   success, encoded_img = cv2.imencode(ext, image, params)
+   if success:
+       encoded_img.tofile(file_path)
+       return True
+   return False
+
+PyTorch (torch)
+Podczas ładowania zapisanych modeli za pomocą torch.load(), biblioteka wykorzystuje mechanizm deserializacji pickle27. Jeśli plik modelu zawiera metadane tekstowe zapisane na systemie o innym kodowaniu, na Windowsie może wystąpić wyjątek UnicodeDecodeError27. Zapewnienie stabilności wymaga jawnego podania parametru encoding='utf-8' w wywołaniu torch.load()27.
+W aplikacjach skompilowanych przez Nuitka w trybie --onefile, ładowanie wag z plików zawartych w kontenerze tymczasowym warto realizować poprzez przekazanie uchwytu do otwartego pliku binarnego zamiast samej ścieżki, co zapobiega problemom z blokowaniem plików przez system operacyjny27.
+DearPyGui
+Framework DearPyGui opiera się na natywnym kodzie C++. Podczas uruchamiania aplikacji w trybie bezokienkowym (--windows-console-mode=disable) zapis informacji diagnostycznych przez wewnętrzne mechanizmy biblioteki może powodować błędy, jeśli standardowe strumienie wyjściowe zostały usunięte11. Należy zadbać o przechwytywanie zdarzeń logujących na poziomie kodu Python11.
+Dodatkowo domyślna czcionka wbudowana w DearPyGui zawiera wyłącznie znaki z podstawowego zakresu ASCII. Wyświetlenie w interfejsie użytkownika tekstu pochodzącego z OCR, który zawiera polskie lub niemieckie znaki diakrytyczne, skutkuje renderowaniem pustych kwadratów (tzw. tofu). Konieczne jest jawne załadowanie zewnętrznego pliku czcionki TTF i dodanie zakresów mvFontRangeHint_Polish lub mvFontRangeHint_Default.
+Systematyczne porównanie rozwiązań i zachowań bibliotek
+Poniższe tabele zestawiają właściwości poszczególnych podejść programistycznych w kontekście zapewnienia niezależności od lokalizacji systemowej Windows.
+
+
+Metoda parsowania liczb z OCR
+	Bezpieczeństwo wątkowe (Thread Safety)
+	Modyfikacja stanu globalnego procesów
+	Zależność od pakietów językowych OS
+	Rekomendowane zastosowanie
+	locale.setlocale() + locale.atof()
+	Brak (Ryzyko wyścigu danych)5
+	Tak (Zmienia stan w libc/MSVCRT)1
+	Tak (Wymaga zainstalowanego locale)2
+	Niezalecane w kodzie produkcyjnym5
+	Czyszczenie ciągu (Regex) + float()
+	Pełne (Bezpieczne w tualności)3
+	Brak3
+	Brak3
+	Standardowe dane zmiennoprzecinkowe3
+	Normalizacja ciągu + decimal.Decimal()
+	Pełne (Bezpieczne w tualności)
+	Brak
+	Brak
+	Obliczenia o wysokiej precyzji
+	
+
+Mechanizm obsługi I/O i strumieni
+	Obsługa plików logów
+	Obsługa konsoli stdout/stderr
+	Zachowanie w trybie GUI bez konsoli
+	RotatingFileHandler(encoding="utf-8")
+	Pełna ochrona UTF-89
+	Brak wpływu9
+	Niezależne od obecności konsoli9
+	Ustawienie PYTHONUTF8=1
+	Wpływa na domyślny odczyt9
+	Ustala kodowanie UTF-89
+	Może nie zadziałać po kompilacji11
+	sys.stdout.reconfigure(encoding='utf-8')
+	Brak wpływu
+	Zapewnia UTF-8 z zastępowaniem13
+	Wymaga sprawdzania sys.stdout is not None
+[cite: 11, 15]
+	
+
+Biblioteka
+	Identyfikowany problem
+	Przyczyna systemowa
+	Bezpośrednie rozwiązanie
+	OpenCV (cv2)
+	cv2.imread zwraca None przy ścieżce ze znakami Unicode24
+	Wywołania ANSI C++ API w systemie Windows16
+	Odczyt pliku przez np.fromfile() i dekodowanie za pomocą cv2.imdecode()
+[cite: 16, 25]
+	PyTorch (torch)
+	UnicodeDecodeError podczas wykonywania torch.load()
+[cite: 27]
+	Błędne dekodowanie napisów z unpicklera27
+	Jawne przekazanie encoding='utf-8' do torch.load()
+[cite: 27]
+	DearPyGui
+	Brak polskich/niemieckich znaków w GUI
+	Domyślna atlas-czcionka obejmuje tylko ASCII
+	Załadowanie zewnętrznej czcionki TTF z zakresem Latin Extended
+	Wnioski i rekomendacje architektoniczne
+Zapewnienie stabilności aplikacji Python przetwarzającej tekst z OCR na różnych wersjach językowych systemu Windows wymaga całkowitej rezygnacji z polegania na lokalnych ustawieniach systemu operacyjnego. Próby globalnej zmiany lokalizacji za pomocą locale.setlocale() stanowią poważną podatność architektoniczną w aplikacjach wielowątkowych ze względu na modyfikację stanu globalnego biblioteki C runtime i brak bezpieczeństwa wątkowego. Właściwym podejściem jest stosowanie deterministycznej sanitacji ciągów znaków (zamiana przecinków na kropki) w warstwie parsowania przed rzutowaniem wartości na typy numeryczne.
+W zakresie obsługi operacji wejścia-wyjścia jawne ustawienie encoding="utf-8" na poziomie obiektów RotatingFileHandler skutecznie zabezpiecza pliki logów, jednak strumienie standardowe konsoli wymagają niezależnej rekonfiguracji przy użyciu metody sys.stdout.reconfigure(). W aplikacjach budowanych narzędziem Nuitka i uruchamianych bez konsoli systemowej należy Defensywnie weryfikować obecność strumieni sys.stdout oraz sys.stderr, aby uniknąć błędów wywołanych przez zewnętrzne moduły próbowane wykonywać operacje na nieistniejących uchwytach.
+W przypadku pracy ze ścieżkami plikowymi zawierającymi znaki diakrytyczne kluczowe jest stosowanie kompilatora MSVC przy pakowaniu Nuitka, co gwarantuje poprawną obsługę natywnego interfejsu UTF-16 systemu Windows. W odniesieniu do bibliotek natywnych niewspierających bezpośrednio ścieżek Unicode (czego przykładem jest OpenCV), należy bezwzględnie wyeliminować bezpośrednie funkcje odczytu plikowego na rzecz buforowania bajtowego w pamięci operacyjnej z wykorzystaniem struktur numpy. Adopcja opisanych wzorców pozwala na stworzenie odpornego środowiska uruchomieniowego, które działa w sposób przewidywalny i niezależny od konfiguracji językowej systemu operacyjnego użytkownika końcowego.
+Cytowane prace
+1. PEP 331 – Locale-Independent Float/String Conversions, https://peps.python.org/pep-0331/
+2. Master Python String to Float Conversion - Caasify, https://caasify.com/blog/master-python-string-to-float-conversion-handle-errors-locale-and-formats
+3. Convert String with Comma To Float in Python - GeeksforGeeks, https://www.geeksforgeeks.org/python/convert-string-with-comma-to-float-in-python/
+4. How to deal with international data formats in Python – herrmann.tech, https://herrmann.tech/en/blog/2021/02/05/how-to-deal-with-international-data-formats-in-python.html
+5. How can I convert a string with dot and comma into a float in Python, https://stackoverflow.com/questions/6633523/how-can-i-convert-a-string-with-dot-and-comma-into-a-float-in-python
+6. locale — Internationalization services — Python 3.14.7 documentation, https://docs.python.org/3/library/locale.html
+7. Convert Python strings into floats explicitly using the comma or the, https://stackoverflow.com/questions/13362121/convert-python-strings-into-floats-explicitly-using-the-comma-or-the-point-as-se
+8. cultureDependentParseFloat : r/ProgrammerHumor - Reddit, https://www.reddit.com/r/ProgrammerHumor/comments/1e0lywg/culturedependentparsefloat/
+9. Python: Set STDOUT Encoding to UTF-8 - Xah Lee, http://xahlee.info/python/python_io_encoding.html
+10. Forcing sys.stdin/stdout/stderr encoding/newline behavior, https://discuss.python.org/t/forcing-sys-stdin-stdout-stderr-encoding-newline-behavior-programmatically/15437
+11. Feature request: set sys.stdout = None with --disable-console #2083, https://github.com/Nuitka/Nuitka/issues/2083
+12. Windows: The sys.stdin, sys.stdout, sys.stderr should not be none, https://github.com/Nuitka/Nuitka/issues/1339
+13. How to set sys.stdout encoding in Python 3? - Stack Overflow, https://stackoverflow.com/questions/4374455/how-to-set-sys-stdout-encoding-in-python-3
+14. Error occurs when trying to redirect Python UTF-8 stdout to a file on, https://stackoverflow.com/questions/66400477/error-occurs-when-trying-to-redirect-python-utf-8-stdout-to-a-file-on-windows
+15. MCP Server Connection Always Fails on Windows Due to Unicode, https://github.com/MoonshotAI/kimi-agent-sdk/issues/170
+16. opencv imread() on Windows for non-ASCII file names, https://stackoverflow.com/questions/24769623/opencv-imread-on-windows-for-non-ascii-file-names
+17. Nuitka Release 2.3 — Nuitka the Python Compiler, https://nuitka.net/posts/nuitka-release-23.html
+18. Nuitka User Manual, https://daobook.github.io/nuitka-doc/doc/user-manual.html
+19. Releases 0.1 — 0.9 — Nuitka the Python Compiler, https://nuitka.net/changelog/Changelog-0.x.html
+20. Standalone mode doesn't work in some situations with UTF-8, https://github.com/Nuitka/Nuitka/issues/3620
+21. Failed to compile scripts using pillow · Issue #3181 · Nuitka ... - GitHub, https://github.com/Nuitka/Nuitka/issues/3181
+22. exe file made with pyinstaller being reported as a virus threat by, https://stackoverflow.com/questions/64788656/exe-file-made-with-pyinstaller-being-reported-as-a-virus-threat-by-windows-defen
+23. Nuitka User Manual — Nuitka the Python Compiler, https://nuitka.net/user-documentation/user-manual.html
+24. cv2.imread file with accent (unicode) - python - Stack Overflow, https://stackoverflow.com/questions/74433752/cv2-imread-file-with-accent-unicode
+25. How do I read an image from a path with Unicode characters?, https://stackoverflow.com/questions/43185605/how-do-i-read-an-image-from-a-path-with-unicode-characters
+26. imread supports Non-ASCII filename in opencv-python+Windows, https://github.com/opencv/opencv/issues/18305
+27. torch.load — PyTorch 2.13 documentation, https://docs.pytorch.org/docs/stable/generated/torch.load.html
+28. Nuitka on Windows with Logs : r/learnpython - Reddit, https://www.reddit.com/r/learnpython/comments/1dphdne/nuitka_on_windows_with_logs/

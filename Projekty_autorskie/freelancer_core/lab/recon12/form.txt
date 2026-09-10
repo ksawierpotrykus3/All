@@ -1,0 +1,336 @@
+Przeglądaj
+
+Zarządzanie
+
+Grupy
+
+7
+10
+14
+Opublikuj Projekt
+
+@KsawierP
+
+$0,00 USD
+
+Comprehensive AI Automation Strategy & Workflow Optimization for Jewelry Business -- 2
+Otwórz
+
+Oferty
+
+11
+
+Średnia kwota oferty
+
+₹22 319 INR
+
+Szczegóły
+Propozycje
+Szczegóły Projektu
+
+₹12 500,00 – 37 500,00 INR
+
+ OFERTY SKŁADAĆ MOŻNA DO 6 DNI, 23 GODZINY
+We are a jewelry trading company aiming to modernize and optimize our operations. Currently, our workflow relies heavily on manual processes and communications via WhatsApp for design research, feedback, data audits, and decision-making for manufacturing. As we expand into online sales, we also need support with product research and creative tasks like mood shoots.
+
+We are looking for an experienced AI professional who can:
+
+- Audit our current workflow to identify inefficiencies and explore areas where intelligent automation can make the biggest impact.
+- Suggest improvements in our processes that we may not even be aware of, ensuring faster and more efficient operations.
+- Implement AI-powered solutions for trend analysis, centralized communication systems, decision-making automation, product selection for online sales, and process tracking.
+- Help streamline or integrate offline/WhatsApp communications into a singular system for better data consolidation.
+- Provide end-to-end recommendations suitable for scaling online B2C and B2B sales while maintaining operational excellence.
+
+Deliverables:
+
+- A comprehensive workflow diagnosis and recommendations report.
+- Implementation of agreed-upon AI/automation tools tailored to our needs.
+- Training sessions and user-friendly documentation to empower our team in managing these systems independently.
+
+The goal is not only to solve existing bottlenecks but also to uncover innovative approaches that will elevate the efficiency of our business operations.
+Wymagane Umiejętności
+Java
+JavaScript
+Python
+Software Architecture
+AI Consulting
+AI Development
+RPA Development
+AI Automation
+
+Identyfikator projektu: 40703485
+
+ Zgłoś Projekt
+
+Złóż ofertę na ten projekt
+
+Będziesz mógł edytować swoją ofertę, dopóki projekt nie zostanie komuś przyznany.
+
+Kwota Oferty
+₹
+INR
+Projekt ten zostanie zrealizowany w
+Dni
+
+Zapłacono Ci: opłatę 25 000,00 INR - 3 075,00 INR = 21 925,00 INR
+
+Opisz swoją propozycję (minimum 100 znaków)
+Napisz moją ofertę
+Wyróżnij się na tle konkurencji dzięki ofercie wideo
+
+Bądź lepszy od konkurencji, nagrywając szybkie wideo opisujące, dlaczego to właśnie Ty jesteś najlepszym freelancerem do tej pracy.
+
+Twój film zostanie wyświetlony w Twojej ofercie z nową, przyciągającą wzrok animacją. Freelancerzy, którzy wyślą ofertę wideo, mają 34% większe prawdopodobieństwo, że klient skontaktuje się z nimi.
+
+Zostań użytkownikiem Zweryfikowanym przez Freelancer.com , aby móc wysyłać oferty wideo.
+
+Ksawier
+
+@KsawierP
+
+0,0
+Przejdź proces weryfikacji
+
+* na podstawie danych zebranych w sierpniu 2022 r. Rzeczywisty wynik oferty może się różnić.
+
+Zażądaj płatności milestone
+
+Zaproponowanie klientowi harmonogramu płatności milestone może sprawić, że projekt będzie przebiegał sprawnie, jasno określając, co należy zrobić i kiedy.
+
+Opis
+
+Kwota
+
+₹
+INR
+ Zażądaj płatności milestone
+Opcjonalne Aktualizacje
+SPONSOROWANA
+
+$16,05 USD
+
+Bieżąca oferta będzie plasować się na #2. Sponsorowanie zwiększy rangę oferty do #1, , dzięki czemu oferta będzie widoczna jako pierwsza. Na jeden projekt może przypadać tylko jedna sponsorowana oferta.
+
+UKRYTY
+
+$0,12 USD
+
+Aktualizacja do ukrytego zgłoszenia spowoduje ukrycie Twojej oferty przed innymi freelancerami. Dzięki temu inni nie będą kopiować Twojej pracy, co sprawi, że Twoja oferta będzie jedyna w swoim rodzaju.
+
+PODŚWIETLONY
+
+$0,49 USD
+
+Podświetl swoją ofertę na niebiesko, aby zwiększyć jej widoczność i zwiększyć szansę na wygranie projektu. Wyróżnione oferty mają o 213% większą szansę na wygranie.
+
+Złóż ofertę
+Tablica Wyjaśnień
+Spam, autopromocja i reklama są niedozwolone.
+
+Użytkownicy, którzy przeszli proces weryfikacji Freelancer.com mogą napisać pytanie. Zweryfikuj swój profil.
+
+PureCode
+@nowars
+
+·
+
+2minut/a/y
+
+I’d first map your current workflow and WhatsApp-based processes, then prioritize automations by time saved and business impact. Which tools are currently used for product data, design research, and manufacturing tracking?
+
+SP WEBSOLUTION
+@antimsankhla0786
+
+·
+
+2minut/a/y
+
+What are you trying to automate — web app, API, mobile, or desktop, and what’s your current tech stack?
+Do you already have tests/framework in place or are we starting from scratch, and what’s your target — coverage, speed, or CI/CD integration?
+
+O kliencie
+
+Jaipur
+
+India
+
+0,0
+0
+
+Członek od 28 lip 2026
+
+Zaangażowanie Klienta
+Uaktualnij swój abonament, aby zobaczyć zaangażowanie klientów
+Weryfikacja Klienta
+
+Zweryfikowano tożsamość
+
+Zweryfikowana płatność
+
+Przesłano środki
+
+Zweryfikowany adres e-mail
+
+Ukończony profil
+
+Zweryfikowany numer telefonu
+
+Abonament Free
+Szczegóły
+6 ofert pozostało z 6
+
+Jak napisać zwycięską ofertę
+
+Twoją najlepszą szansą zdobycia możliwości wykonania projektu jest napisanie świetnej oferty w tym miejscu!
+
+Wspaniałe ofery to takie, które:
+Są wciągające i dobrze napisane, bez błędów ortograficznych i gramatycznych
+Pokaż jasne zrozumienie, co jest wymagane dla konkretnego projektu - spersonalizuj swoją odpowiedź!
+Wyjaśnij, jak Twoje umiejętności i doświadczenie odnoszą się do projektu i Twojego podejścia do pracy nad nim.
+Zadaj pytania, aby wyjaśnić wszelkie niejasne szczegóły
+
+Przede wszystkim - nie spamuj oraz nie kopiuj-wklejaj innych ofert. Zostaną na Ciebie nałożone sankcje lub zostaniesz zbanowany jeśli to zrobisz.
+
+Dowiedz się więcej
+Wiadomości
+Rozmowy
+14
+Żądania
+1 h
+
+Sabrina
+
+@FLSabrina
+
+wrz 2
+
+Hello Ksawier, I'm Sabrina from the Verified by Freelancer team. Here's the link to learn more about the program: https://www.freelancer.com/verified. Have you considered the benefits of becoming Verified? It can significantly enhance your profile's credibility and help you stand out to potential clients, especially in competitive markets. Would you like to discuss how the Verified badge can elevate your freelancing opportunities?
+
+8
+
+Mandy
+
+@FLMandy
+
+maj 29
+
+Hey Ksawier! How's it going? I'm Mandy from Freelancer's Talent Success Team. Do you have a few minutes to chat?
+
+2
+3 h
+
+Enterprise
+
+@EnterpriseTalent
+
+kwi 12
+
+Hi there! This is Dayan from the Enterprise Talent Success Team. We're looking for a freelancer nearby Sulecin to carry out a simple site verification. The task involves visiting a local business, confirming basic company details with an authorized representative, and capturing photos and videos of the site and its surroundings. This is a one-time task and the pay rate is $100.00 – 160.00 USD. You can find more details about this project and place your bid here: https://www.freelancer.com/projects/photography/Site-Verification-Sulecin-Poland-40354062/details
+
+2
+4 h
+
+Regie
+
+@RegieRecruiter
+
+kwi 9
+
+Hi! I have a client looking to hire a Fullstack Developer based in Poland. Kindly leave a proposal if interested. Here is the project link: https://www.freelancer.com/projects/40359726
+
+1
+
+Mandy
+
+@FLMandy
+
+kwi 5
+
+Hey Ksawier! How's your day going? I'm Mandy from the Freelancer Talent Success Team, and I'm here to help you land jobs. I noticed you're based in Poland, and there's an exciting project I think you might be interested in. Would you like to share a bit about your experience with photography or image data collection?
+
+1
+Poland / Polski
+Pomoc i Wsparcie
+Dostępność
+
+Freelancer
+
+Kategorie
+Projekty
+Konkursy
+Freelancerzy
+Przedsiębiorstwo
+Innowacyjne Wyzwania
+Rozwój Sztucznej Inteligencji
+Abonament
+Program Ulubionych Freelancerów
+Zarządzanie projektami
+Projekty lokalne
+Photo Anywhere
+Prezentacja
+Interfejs API dla deweloperów
+Przejdź proces weryfikacji
+
+Informacje na temat
+
+Informacje o nas
+Jak to działa
+Ochrona
+Inwestor
+Mapa strony internetowej
+Historie
+Wiadomości
+Zespół
+Nagrody
+Materiały prasowe
+Kariera
+
+Warunki
+
+Polityka Prywatności
+Warunki Świadczeń Usług
+Polityka dotycząca praw autorskich
+Zasady postępowania
+Opłaty i prowizje
+
+Partnerzy
+
+Escrow.com
+Loadshift
+Warrior Forum
+
+Aplikacje
+
+89 878 064
+
+Zarejestrowani Użytkownicy
+
+25 827 109
+
+Całkowita Liczba Opublikowanych Projektów
+
+Freelancer ® is a registered Trademark of Freelancer Technology Pty Limited (ACN 142 189 759)
+
+Copyright © 2026 Freelancer Technology Pty Limited (ACN 142 189 759)
+
+Ksawier
+
+@KsawierP
+
+0,0
+Stan konta:
+$0,00 USD
+Wpłać Środki
+Wypłata środków
+Historia transakcji
+Pulpit finansowy
+Udostępnianie płatności
+Temat
+Analityka konta
+Statystyka Ofert
+Wsparcie
+Zaproś Znajomych
+Ustawienia
+Wyloguj się
+
+Aplikacja: 32a546e (1789027826 / 2026-09-10)

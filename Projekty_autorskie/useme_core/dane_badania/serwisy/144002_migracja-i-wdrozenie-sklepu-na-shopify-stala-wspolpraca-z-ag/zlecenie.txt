@@ -1,0 +1,387 @@
+Migracja i wdrożenie sklepu na Shopify — stała współpraca z agencją eCommerce
+=============================================================================
+URL: https://useme.com/pl/jobs/migracja-i-wdrozenie-sklepu-na-shopify-stala-wspolpraca-z-agencja-ecommerce,144002/
+
+Zleceniodawca
+Adtrip Sp. z o.o.
+
+Opis
+Jesteśmy agencją performance i eCommerce (Adtrip). Łączymy reklamy (Meta, Google, TikTok) z technologią sprzedaży — realizujemy migracje sklepów na Shopify, wdrożenia UX/UI, marketing automation i integracje systemowe dla klientów B2C i B2B.
+
+Szukamy osoby do prowadzenia pełnego procesu migracji i wdrożeń na Shopify. Zaczynamy od jednego projektu pilotażowego, a przy dobrej współpracy przechodzimy w stały tryb — mamy ciągły dopływ projektów.
+
+Zakres prac:
+
+Warsztat zerowy z klientem (online), analiza konkurencji, współpraca przy makietach UX/UI
+
+Migracja danych i SEO — struktura kolekcji, optymalizacja nazw produktów i kategorii, przekierowania 301, minimalizacja strat SEO
+
+Wdrożenie produktów i kategorii — import, warianty, ceny, zdjęcia
+
+Funkcjonalności: upsell, cross-sell, bundle, volume discounts, programy lojalnościowe i afiliacyjne, wishlist, subskrypcje, newsletter, blog, AI chat, IG feed, B2B, wersje językowe i walutowe, Omnibus, opinie, regulaminy, zwroty i cookies
+
+Integracje: Baselinker, Subiekt Nexo, Comarch, Apilo / PayU, PayNow, Przelewy24, Shopify Payments / InPost, DPD, DHL, Orlen Paczka
+
+Analityka: GA4, GTM, Search Console, Meta Pixel + CAPI, Google Merchant Center, Clarity/Hotjar
+
+Opublikowano
+9 godzin temu
+
+Kategoria
+Sklepy internetowe
+
+Prawa autorskie
+Przeniesienie praw autorskich
+
+Budżet
+Do negocjacji
+
+Ważne przez
+30 dni
+
+Wymagane funkcje::
+Wypełnij nasz krótki formularz rekrutacyjny: https://forms.monday.com/forms/d6bbffe0c55289dcfa9d4285b941b927?r=use1
+
+Czego oczekujemy:
+
+Udokumentowane doświadczenie w migracjach i wdrożeniach na Shopify (poproszymy o 2–3 realizacje)
+Praktyczna znajomość Shopify: themes, aplikacje, struktura danych
+Zrozumienie UX, CRO i procesu zakupowego
+Doświadczenie w integracjach (płatności, ERP, dostawy)
+Podstawy SEO technicznego przy migracjach
+Umiejętność pracy bezpośrednio z klientem
+Samodzielność i dowożenie terminów
+
+Mile widziane: praca z zespołem performance, Figma (czytanie makiet), projekty B2B eCommerce, Framer.
+
+Co dajemy: 100% zdalnie, wsparcie zespołu (UX/UI, performance, marketing automation), system premiowy przy stałej współpracy, realny wpływ na rozwiązania.
+
+W ofercie napisz proszę:
+
+linki do 2–3 zmigrowanych sklepów i swoją rolę w projekcie
+ile trwała u Ciebie typowa migracja
+z jakimi integracjami ERP pracowałeś/aś
+swoją stawkę: za pojedynczą migrację i godzinową
+
+Budżet: 11 000 – 15 000 zł (miesięcznie, przy stałej współpracy; pierwszy projekt rozliczamy osobno — podaj wycenę)
+
+Szablon / własny projekt::
+szablon shopify
+
+Wymagane umiejętności / tagi:
+AI, android, boty, + 7 więcej
+
+Wysłane oferty (18)
+------------------------------
+[Webyjuice - Kreujemy marki | 1 umowa](https://useme.com/pl/roles/contractor/467254/) - dzisiaj
+  * AI
+  * android
+  * boty
+  * branding
+  * css
+  * logo
+  * python
+  * React
+  * rebranding
+  * wordpress
+
+[Dominik | Frontend i backend | 0 umów](https://useme.com/pl/roles/contractor/688917/) - dzisiaj
+  * css
+  * Elementor
+  * Figma
+  * git
+  * html5
+  * javascript
+  * Next.js
+  * NodeJS
+  * PHP
+  * postgresql
+  * React
+  * typescript
+  * UI
+  * WooCommerce
+  * wordpress
+
+[Jakub | 0 umów](https://useme.com/pl/roles/contractor/451386/) - dzisiaj
+
+[Ziemniaqs | 20 umów](https://useme.com/pl/roles/contractor/485196/) - dzisiaj
+
+[Achlys Development | 2 umów](https://useme.com/pl/roles/contractor/472326/) - dzisiaj
+  * c
+  * cms
+  * Elementor
+  * e-marketing
+  * Facebook Ads
+  * IT
+  * reklamy Google
+  * sem
+  * seo
+  * shopify
+  * strona www
+  * UI
+  * unity3D
+  * UX
+  * VR
+  * wordpress
+
+[Jakub Kaczmarek | 25 umów](https://useme.com/pl/roles/contractor/137876/) - dzisiaj
+
+[Jacek-Dev/LowCode | 7 umów](https://useme.com/pl/roles/contractor/74875/) - dzisiaj
+  * adobe photoshop
+  * adobe xd
+  * aplikacje webowe
+  * cms
+  * css
+  * design
+  * frontend
+  * grafika
+  * grafika na stronę
+  * grafika www
+  * gry
+  * html5
+  * layout design
+  * strona www
+  * UI
+  * user experience design
+  * UX design
+  * web development
+  * Webflow
+
+[Vulcanoo - CodeOlympus.studio | 112 umów](https://useme.com/pl/roles/contractor/156740/) - dzisiaj
+  * analiza danych
+  * API
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * cms
+  * css
+  * html
+  * mysql
+  * PHP
+  * prestashop
+  * python
+  * sklep internetowy
+  * sql
+  * strona www
+  * web development
+  * wordpress
+
+[Dawid Osiecki | 7 umów](https://useme.com/pl/roles/contractor/488305/) - dzisiaj
+  * AI
+  * excel
+  * n8n
+  * python
+  * Tableau
+  * VBA
+
+[ofylypczuk | 50 umów](https://useme.com/pl/roles/contractor/249828/) - dzisiaj
+  * administracja serwerów
+  * AI
+  * analityka internetowa
+  * analiza danych
+  * angielski
+  * API
+  * aplikacje mobilne
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * contadu
+  * css
+  * film reklamowy
+  * frontend
+  * git
+  * google search console
+  * html
+  * influencer
+  * influencer marketing
+  * Inżynieria Danych
+  * javascript
+  * migracja stron www
+  * montaż video
+  * niemiecki
+  * python
+  * react native
+  * ruby
+  * SaaS
+  * seo
+  * shoper
+  * shopify
+  * sklep internetowy
+  * social media
+  * strona www
+  * Supabase
+  * szablon
+  * teksty pozycjonujące
+  * tłumaczenia
+  * uczenie maszynowe
+  * user experience design
+  * Web Scraping
+  * WooCommerce
+  * wordpress
+
+[Jablonski DevOps | 119 umów](https://useme.com/pl/roles/contractor/331142/) - dzisiaj
+  * API
+  * CRM
+  * ERP
+  * html
+  * html5
+  * javascript
+  * joomla
+  * Magento
+  * MSSQL
+  * PHP
+  * prestashop
+  * python
+  * seo
+  * shoper
+  * shopify
+  * sql
+  * vue
+  * WooCommerce
+  * wordpress
+  * xml
+
+[SednoTech | 3 umów](https://useme.com/pl/roles/contractor/481175/) - dzisiaj
+  * analiza danych
+  * API
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * cms
+  * css
+  * html
+  * mysql
+  * PHP
+  * prestashop
+  * python
+  * sklep internetowy
+  * sql
+  * strona www
+  * web development
+  * wordpress
+
+[Heyneuron.com | 1 umowa](https://useme.com/pl/roles/contractor/148433/) - dzisiaj
+  * AI
+  * Airtable
+  * API
+  * aplikacje webowe
+  * blockchain
+  * CRM
+  * facebook
+  * Facebook Pixel
+  * gmail
+  * google analytics
+  * Google Tag Manager
+  * hubspot
+  * landing page
+  * LANDINGPAGE
+  * marketing internetowy
+  * n8n
+  * Next.js
+  * Nocode
+  * React
+  * strona www
+  * web api
+  * web development
+  * zapier
+
+[Skalownia | 2 umów](https://useme.com/pl/roles/contractor/667086/) - dzisiaj
+  * allegro
+  * Amazon Ads
+  * Amazon FBA
+  * Amazon Seller Central
+  * Amazon SEO
+  * API
+  * base
+  * baselinker
+  * chatgpt
+  * dodawanie produktów
+  * ebay
+  * e-commerce
+  * ERP
+  * Facebook Ads
+  * google ads
+  * google analytics
+  * idosell
+  * javascript
+  * NodeJS
+  * prestashop
+  * python
+  * SEO E-commerce
+  * shoper
+  * shopify
+  * sql
+  * tiktok
+  * WooCommerce
+  * xml
+
+[Interiq | 15 umów](https://useme.com/pl/roles/contractor/536834/) - dzisiaj
+  * AI
+  * allegro
+  * Amazon Ads
+  * API
+  * baselinker
+  * boty
+  * chatbot
+  * chatgpt
+  * CRM
+  * ERP
+  * Facebook Ads
+  * Facebook Pixel
+  * Figma
+  * google ads
+  * google analytics
+  * google merchant center
+  * Instagram API
+  * javascript
+  * n8n
+  * Perplexity AI
+  * prompt engineering
+  * python
+  * SEO E-commerce
+  * shoper
+  * shopify
+  * strona www
+  * tiktok ads
+  * WooCommerce
+  * zapier
+
+[Foqvara | 2 umów](https://useme.com/pl/roles/contractor/582813/) - dzisiaj
+
+[hexabit | 0 umów](https://useme.com/pl/roles/contractor/318431/) - dzisiaj
+  * adwords
+  * bazy danych
+  * django
+  * drupal
+  * html5
+  * javascript
+  * Magento
+  * mysql
+  * .NET
+  * perl
+  * PHP
+  * postgresql
+  * python
+  * ruby
+  * scrum
+  * seo
+  * shoper
+  * sklep internetowy
+  * sql
+  * strona www
+  * VB.net
+  * WooCommerce
+  * wordpress
+  * xml
+  * zend
+
+[Voxquartz Systems | 4 umów](https://useme.com/pl/roles/contractor/622861/) - dzisiaj
+  * AI
+  * Elementor
+  * Flutter
+  * Next.js
+  * NodeJS
+  * PHP
+  * React
+  * SaaS
+  * wordpress

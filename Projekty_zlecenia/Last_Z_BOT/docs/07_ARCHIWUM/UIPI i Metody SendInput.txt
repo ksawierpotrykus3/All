@@ -1,0 +1,261 @@
+﻿Mechanizmy Uszczelniania Integralności Procesów (UIPI) i Iniekcji Zdarzeń Myszki w Systemie Windows: Analiza Techniczna i Architektura Rozwiązań
+1. Patofizjologia UIPI i Kryteria Odrzucania Zdarzeń SendInput
+User Interface Privilege Isolation (UIPI) stanowi jeden z kluczowych filarów architektury bezpieczeństwa podsystemu graficznego Windows, wprowadzonego w strukturze User Account Control (UAC) od systemu Windows Vista1. Mechanizm ten został zaprojektowany w celu wyeliminowania klasy podatności określanej jako Shatter Attacks, w których proces o niższych uprawnieniach przejmował kontrolę nad procesem uprzywilejowanym poprzez bezkrytyczne wstrzykiwanie komunikatów okienkowych lub syntetycznych zdarzeń wejściowych1.
+UIPI opiera się na architekturze Mandatory Integrity Control (MIC), w której każdemu tokenowi dostępowemu procesu przypisany jest określony poziom integralności (Integrity Level – IL)1. W hierarchii bezpieczeństwa Windows wyróżnia się cztery podstawowe poziomy: Low Integrity Level (0x1000) stosowany w piaskownicach i trybach chronionych, Medium Integrity Level (0x2000) stanowiący domyślne środowisko wykonawcze dla procesów standardowego użytkownika oraz dla aplikacji uruchamianych pod nadzorem UAC bez podniesienia uprawnień, High Integrity Level (0x3000) przyznawany procesom uruchomionym z uprawnieniami administratora, a także System Integrity Level (0x4000) zarezerwowany dla kluczowych usług systemowych i składników jądra1.
+Podstawowa reguła egzekwowana przez podsystem jądra win32k.sys zabrania procesowi działającemu na poziomie integralności    bezpośredniego oddziaływania na interfejs użytkownika procesu działającego na poziomie   , jeśli   1. Przepływ ten podlega rygorystycznej weryfikacji podczas wywołania funkcji SendInput z biblioteki user32.dll4. Gdy aplikacja bota uruchomiona na poziomie Medium Integrity Level podejmuje próbę wywołania SendInput skierowanego do okna gry pracującej na poziomie High Integrity Level – co występuje powszechnie, gdy gra lub jej launcher (np. Riot Client, Steam, Battle.net) zostały uruchomione z uprawnieniami administratora – podsystem Win32k dokona cichego odrzucenia wstrzykiwanych zdarzeń2.
+Ewaluacja zdarzeń wewnątrz subsystemu Win32k przebiega bezkompromisowo: podsystem weryfikuje token procesu nadawcy oraz token procesu będącego właścicielem okna na pierwszym planie (foreground window). Jeśli poziom integralności nadawcy jest niższy niż odbiorcy, zdarzenie jest odrzucane na poziomie kolejki systemowej.
+Specyfika funkcji SendInput polega na jej zachowaniu w przypadku zaistnienia blokady UIPI. Wywołanie to nie zgłasza błędu poprzez standardowe mechanizmy raportowania systemowego. Funkcja zwraca wartość zero lub liczbę zdarzeń mniejszą od przekazanej długości tablicy, wskazując na brak pomyślnego wstawienia zdarzeń do globalnego strumienia wejściowego4. Co istotne, funkcja GetLastError() nie zwraca błędu ERROR_ACCESS_DENIED (5), lecz zachowuje się tak, jakby wywołanie zostało zablokowane przez inny wątek4. Utrudnia to pasywną diagnostykę i sprawia, że samo sprawdzanie kodu błędu po wywołaniu SendInput jest niewystarczające do wykrycia blokady UIPI4.
+Dodatkowo, wywołanie SendInput jest bezwzględnie odrzucane w środowiskach pulpitów zabezpieczonych3. Gdy system operacyjny przełącza kontekst na pulpit winsta0\Winlogon – na przykład podczas wyświetlania monitu UAC lub w trakcie zablokowania stacji roboczej przez ekran LogonUI – standardowa iniekcja wejścia z poziomu pulpitu użytkownika (winsta0\Default) staje się fizycznie niemożliwa, niezależnie od poziomu uprawnień procesu wysyłającego, o ile proces ten nie działa w kontekście konta SYSTEM z bezpośrednim dostępem do aktywnej sesji pulpitu3.
+2. Porównanie Zachowania Interfejsów: PostMessage / SendMessage vs SendInput
+Wśród deweloperów oprogramowania automatyzującego często pojawia się hipoteza, że zastąpienie funkcji SendInput starszymi wywołaniami przeznaczonymi do bezpośredniej manipulacji kolejką komunikatów okienkowych (SendMessage, PostMessage) pozwala na swobodne ominięcie barier UIPI. Szczegółowa analiza architektury komunikatów systemu Windows wskazuje jednak na całkowitą błędność tego założenia oraz ujawnia fundamentalne różnice w przetwarzaniu wejścia przez nowożytne silniki gier.
+Funkcje PostMessage oraz SendMessage podlegają dokładnie tym samym rygorom UIPI co SendInput1. Podsystem grafik w jądrze systemu blokuje próby przesłania komunikatów modyfikujących stan interfejsu (takich jak WM_LBUTTONDOWN, WM_KEYDOWN, WM_CHAR czy WM_SETTEXT) z procesów o niższym poziomie integralności do okien procesów wyższych w hierarchii MIC1. Różnica polega na sposobie raportowania porażki: o ile SendInput maskuje blokadę UIPI, o tyle PostMessage wywołane w poprzek granicy integralności zwraca jawny błąd ERROR_ACCESS_DENIED (5)1.
+Jedynym przewidzianym przez Microsoft mechanizmem zezwalającym na przepływ komunikatów okienkowych od procesów o niższym poziomie integralności jest wywołanie funkcji ChangeWindowMessageFilterEx11. API to umożliwia jawne dodanie konkretnych identyfikatorów komunikatów Win32 do białej listy okna docelowego11. Z punktu widzenia projektowego bota automatyzującego rozwiązanie to jest całkowicie nieprzydatne. Wywołanie ChangeWindowMessageFilterEx musi zostać wykonane wewnątrz wątku tworzącego okno odbiorcy11. Wymagałoby to modyfikacji kodu źródłowego gry lub wstrzyknięcia biblioteki DLL w jej przestrzeń adresową, co w środowisku gier wieloosobowych wyzwala natychmiastową reakcję systemów chroniących przed oszustwami (Anti-Cheat).
+Nawet w hipotetycznym scenariuszu braku barier UIPI, PostMessage oraz SendMessage wykazują fundamentalną nieskuteczność w starciu z nowoczesnymi gier 3D ze względu na odmienną architekturę odbioru zdarzeń wejściowych:
+
+
+Cechy Architektoniczne
+	SendInput
+	PostMessage / SendMessage
+	Poziom Iniekcji w Systemie
+	Synteza zdarzeń w globalnym strumieniu wejściowym OS (user32 / win32k)2.
+	Umieszczenie komunikatu bezpośrednio w kolejce wątku konkretnego HWND9.
+	Wymóg Skupienia (Focus)
+	Wymaga aktywnego okna docelowego na pierwszym planie5.
+	Teoretycznie umożliwia pracę w tle bez zmiany okna aktywnego9.
+	Obsługa Raw Input i DirectInput
+	Pełna. Zdarzenia generują natywne raporty urządzeń i bufory Raw Input4.
+	Brak. Komunikaty są pomijane przez silniki czytające bufory urządzeń.
+	Zachowanie pod kontrolą UIPI
+	Cicha odmowa iniekcji (Brak ERROR_ACCESS_DENIED)4.
+	Blokada wywołania z jawnym kodem błędu ERROR_ACCESS_DENIED1.
+	Bypass UIPI po Stronie Docelowej
+	Brak możliwości odblokowania z poziomu okna odbiorcy4.
+	Odblokowanie możliwe poprzez ChangeWindowMessageFilterEx w odbiorcy11.
+	Współczesne silniki gier (Unreal Engine, Unity, autorskie rozwiązania 3D) omijają standardową pętlę komunikatów Win32 GetMessage/DispatchMessage. Zamiast polegać na komunikatach WM_LBUTTONDOWN czy WM_MOUSEMOVE, rejestrują urządzenia wejściowe za pomocą RegisterRawInputDevices lub korzystają z interfejsów DirectInput i Low-Level HID. SendInput jest jedynym natywnym API poziomu użytkownika, które generuje struktury danych rzetelnie odzwierciedlające fizyczne podłączenie kontrolera i zasilające bufory Raw Input. Wysłanie komunikatu WM_LBUTTONDOWN przez PostMessage do okna gry korzystającej z Raw Input nie odniosą żadnego skutku, nawet jeśli obie aplikacje wykonują się na tym samym poziomie integralności.
+3. Detekcja Poziomu Integralności Procesu Docelowego w Języku Python
+W celu uniknięcia wykonywania bezskutecznych operacji iniekcji zdarzeń, architektura bota powinna opierać się na aktywnej weryfikacji relacji poziomów integralności przed rozpoczęciem wysyłania komend wejściowych16. W środowisku runtime Python (w tym w binarce skompilowanej przez Nuitka) weryfikacja ta wymaga bezpośrednich wywołań natywnego Win32 API przy użyciu modułu ctypes16.
+Proces weryfikacji tokena obejmuje pozyskanie identyfikatora procesu (PID) na podstawie uchwytu okna HWND, otwarcie procesu z prawem PROCESS_QUERY_LIMITED_INFORMATION, otwarcie jego tokena dostępowego z prawem TOKEN_QUERY, a następnie odczytanie struktury TOKEN_MANDATORY_LABEL za pomocą wywołania GetTokenInformation z klasą informacyjną TokenIntegrityLevel (wartość wskaźnika 25)17. Z odczytanej struktury wskaźnika SID pobierana jest ostatnia pod-władza (SubAuthority), określająca względny identyfikator (RID) poziomu integralności16.
+Poniższy kod przedstawia produkcyjną implementację modułu w języku Python, umożliwiającą precyzyjne ustalenie relacji UIPI pomiędzy aplikacją bota a oknem gry:
+
+
+
+
+
+
+Python
+import ctypes
+from ctypes import wintypes
+
+# Stałe dostępu i klas informacyjnych Win32 API
+PROCESS_QUERY_LIMITED_INFORMATION = 0x1000
+TOKEN_QUERY = 0x0008
+TokenIntegrityLevel = 25
+
+# Wartości RID poziomów integralności (MIC) w systemie Windows
+SECURITY_MANDATORY_UNTRUSTED_RID = 0x0000
+SECURITY_MANDATORY_LOW_RID = 0x1000
+SECURITY_MANDATORY_MEDIUM_RID = 0x2000
+SECURITY_MANDATORY_HIGH_RID = 0x3000
+SECURITY_MANDATORY_SYSTEM_RID = 0x4000
+
+class SID_AND_ATTRIBUTES(ctypes.Structure):
+   _fields_ = [
+       ("Sid", wintypes.LPVOID),
+       ("Attributes", wintypes.DWORD),
+   ]
+
+class TOKEN_MANDATORY_LABEL(ctypes.Structure):
+   _fields_ = [
+       ("Label", SID_AND_ATTRIBUTES),
+   ]
+
+kernel32 = ctypes.windll.kernel32
+advapi32 = ctypes.windll.advapi32
+user32 = ctypes.windll.user32
+
+# Ścisłe definiowanie typów argumentów i wartości zwracanych pod kątem architektury x64
+kernel32.OpenProcess.restype = wintypes.HANDLE
+kernel32.OpenProcess.argtypes = [wintypes.DWORD, wintypes.BOOL, wintypes.DWORD]
+
+advapi32.OpenProcessToken.restype = wintypes.BOOL
+advapi32.OpenProcessToken.argtypes = [wintypes.HANDLE, wintypes.DWORD, ctypes.POINTER(wintypes.HANDLE)]
+
+advapi32.GetTokenInformation.restype = wintypes.BOOL
+advapi32.GetTokenInformation.argtypes = [
+   wintypes.HANDLE,
+   ctypes.c_int,
+   wintypes.LPVOID,
+   wintypes.DWORD,
+   ctypes.POINTER(wintypes.DWORD)
+]
+
+advapi32.GetSidSubAuthorityCount.restype = ctypes.POINTER(ctypes.c_ubyte)
+advapi32.GetSidSubAuthorityCount.argtypes = [wintypes.LPVOID]
+
+advapi32.GetSidSubAuthority.restype = ctypes.POINTER(wintypes.DWORD)
+advapi32.GetSidSubAuthority.argtypes = [wintypes.LPVOID, wintypes.DWORD]
+
+kernel32.CloseHandle.argtypes = [wintypes.HANDLE]
+
+
+def get_process_integrity_level_by_pid(pid: int) -> int:
+   """
+   Pobiera wartość RID poziomu integralności dla podanego identyfikatora procesu (PID).
+   Zwraca wartość liczbową odpowiadającą poziomowi MIC (np. 0x2000 = Medium, 0x3000 = High).
+   """
+   h_process = kernel32.OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, False, pid)
+   if not h_process:
+       raise ctypes.WinError(ctypes.get_last_error())
+
+   h_token = wintypes.HANDLE()
+   if not advapi32.OpenProcessToken(h_process, TOKEN_QUERY, ctypes.byref(h_token)):
+       kernel32.CloseHandle(h_process)
+       raise ctypes.WinError(ctypes.get_last_error())
+
+   try:
+       dw_length = wintypes.DWORD(0)
+       # Pierwsze wywołanie w celu pobrania wymaganego rozmiaru bufora
+       advapi32.GetTokenInformation(h_token, TokenIntegrityLevel, None, 0, ctypes.byref(dw_length))
+
+       buffer = ctypes.create_string_buffer(dw_length.value)
+       if not advapi32.GetTokenInformation(h_token, TokenIntegrityLevel, buffer, dw_length.value, ctypes.byref(dw_length)):
+           raise ctypes.WinError(ctypes.get_last_error())
+
+       p_label = ctypes.cast(buffer, ctypes.POINTER(TOKEN_MANDATORY_LABEL))
+       p_sid = p_label.contents.Label.Sid
+
+       p_sub_authority_count = advapi32.GetSidSubAuthorityCount(p_sid)
+       sub_authority_count = p_sub_authority_count.contents
+
+       p_integrity_level = advapi32.GetSidSubAuthority(p_sid, sub_authority_count - 1)
+       return p_integrity_level.contents
+   finally:
+       kernel32.CloseHandle(h_token)
+       kernel32.CloseHandle(h_process)
+
+
+def get_window_integrity_level(hwnd: int) -> int:
+   """
+   Zwraca poziom integralności procesu będącego właścicielem wskazanego okna HWND.
+   """
+   pid = wintypes.DWORD()
+   user32.GetWindowThreadProcessId(hwnd, ctypes.byref(pid))
+   if pid.value == 0:
+       raise RuntimeError("Nie odnaleziono identyfikatora PID dla podanego uchwytu HWND.")
+   return get_process_integrity_level_by_pid(pid.value)
+
+
+def get_current_process_integrity_level() -> int:
+   """
+   Zwraca poziom integralności bieżącego procesu.
+   """
+   current_pid = kernel32.GetCurrentProcessId()
+   return get_process_integrity_level_by_pid(current_pid)
+
+
+def validate_uipi_compatibility(target_hwnd: int) -> bool:
+   """
+   Sprawdza, czy bieżący proces posiada poziom integralności wystarczający do
+   wysyłania zdarzeń SendInput do okna docelowego.
+   """
+   bot_il = get_current_process_integrity_level()
+   target_il = get_window_integrity_level(target_hwnd)
+   
+   return bot_il >= target_il
+
+Wdrożenie powyższego modułu w logice wykonywalnej bota (runner.py) umożliwia podjęcie natychmiastowych działań zaradczych w momencie wykrycia braku kompatybilności uprawnień, zamiast pozostawiania bezskutecznych prób iniekcji wpisujących jedynie bierne ostrzeżenia do dzienników zdarzeń.
+4. Analiza Porównawcza i Trade-offy Architektonicznych Opcji Rozwiązania
+Rozwiązanie niedogodności wynikających z barier UIPI w oprogramowaniu przeznaczonym do szerokiej dystrybucji komercyjnej wymaga weryfikacji dostępnych ścieżek pod kątem kryteriów niezawodności, skomplikowania instalacji, ryzyka detekcji Anti-Cheat oraz długoterminowych kosztów utrzymania.
+
+
+Opcja Rozwiązania
+	Wymuszenie Admina (requireAdministrator)
+	Sterownik Jądra (Interception)
+	Flaga Manifestu uiAccess="true"
+	Emulacja Sprzętowa (Hardware USB HID)
+	Mechanizm Bypassu UIPI
+	Podniesienie tokena dostępowego bota do High Integrity Level (0x3000)2.
+	Iniekcja zdarzeń bezpośrednio z warstwy jądra (ring 0) poniżej uderzenia w UIPI23.
+	Oficjalny wyjątek systemowy dla oprogramowania dostępności UIAccess24.
+	Fizyczna generacja pakietów HID przez mikrokontroler po magistrali USB.
+	Profil Ryzyka Anti-Cheat
+	Niski. Standardowe wywołanie User32 API4.
+	KRYTYCZNY. Sterownik interception.sys znajduje się na czarnych listach EAC/Vanguard23.
+	Niski / Średni. Oficjalny mechanizm OS, sporadycznie weryfikowany przez heurystykę.
+	Znikomy. Sygnał jest technicznie nietożsamy z syntezą programową.
+	Wymogi Instalacji i Podpisu
+	Brak wymogu certyfikatu. Wymuszenie monitu UAC przy uruchomieniu.
+	Wymaga uprawnień admina, instalacji usługi oraz zgodności z podpisem HVCI/WHQL27.
+	Wymaga opłaconego certyfikatu Authenticode oraz instalacji w %ProgramFiles%24.
+	Wymaga zakupu i podłączenia fizycznego modułu (np. Raspberry Pi Pico).
+	Skomplikowanie Kodu i CI/CD
+	Znikome. Zmiana flagi kompilacji w Nuitka lub manifestu binarnego.
+	Bardzo Wysokie. Zarządzanie usługami systemowymi, obsługa błędów jądra.
+	Średnie. Skomplikowany proces automatyzacji budowania i podpisywania.
+	Wysokie. Konieczność pisania oprogramowania układowego (firmware) i komunikacji COM.
+	Skalowalność Dystrybucji
+	Wysoka. Działa na każdej instalacji Windows bez nakładów sprzętowych.
+	Bardzo Niska. Bloki Windows 11 HVCI oraz blokady wywoływane przez gry28.
+	Średnia / Wysoka. Wymaga ponoszenia stałych, corocznych kosztów certyfikacji.
+	Niska. Trudność w dostarczeniu sprzętu fizycznego do szerokiego grona odbiorców.
+	Wymuszenie Uprawnień Administratora (requireAdministrator)
+Skonfigurowanie manifestu aplikacji generowanej przez Nuitka tak, aby wymuszała poziom requireAdministrator, automatycznie gwarantuje uruchamianie bota na poziomie High Integrity Level2. Jest to rozwiązanie w pełni deterministyczne w kontekście wymogów UIPI2. Ponieważ bot działa na poziomie równym lub wyższym od procesu gry, API SendInput pozostaje nieprzerwanie funkcjonalne2. Główną wadą tego rozwiązania z punktu widzenia komercyjnego jest konieczność akceptacji monitu UAC przez użytkownika końcowego przy każdym uruchomieniu programu, co uniemożliwia scenariusze autostartu bezinterwencyjnego.
+Wykorzystanie Sterownika Jądra (Interception Driver)
+Obecność skryptu scripts/install_interception.ps1 sugeruje rozważanie architektoniczne polegające na rezygnacji z SendInput na rzecz nieliniowej iniekcji zdarzeń w warstwie jądra23. Sterownik Interception instaluje filtr w stosie kbdclass.sys oraz mouclass.sys, przez co syntetyzowane zdarzenia powstają z pominięciem struktury Win32k i barier UIPI23.
+To podejście niesie ze sobą drastyczne ryzyko dla produktu komercyjnego. Plik binarny interception.sys jest jednoznacznie identyfikowany i kategorycznie blokowany przez czołowe systemy Anti-Cheat (Riot Vanguard, Easy Anti-Cheat, BattEye)23. Próba uruchomienia gry przy załadowanym sterowniku Interception skutkuje natychmiastową odmową inicjalizacji procesu gry lub nakładaniem permanentnych blokad (banów) na konta użytkowników bota23. Ponadto w nowszych kompilacjach systemu Windows 11 z aktywnym mechanizmem Hypervisor-Protected Code Integrity (HVCI), ładowanie przestarzałych lub wycofanych sterowników jądra jest blokowane na poziomie sprzętowym, powodując awarie instalacji lub niestabilność systemu operacyjnego (błędy typu BSOD).
+Wykorzystanie Atrybutu Manifestu uiAccess="true"
+Projektanci systemu Windows przewidzieli oficjalną furtkę pozwalającą procesom działającym na standardowym poziomie integralności (Medium Integrity Level) na wstrzykiwanie wejścia do procesów uprzywilejowanych (High Integrity Level) bez koncieczności podnoszenia uprawnień całego procesu24. Przywilej ten zarezerwowany jest dla aplikacji wspierających dostępność (User Interface Accessibility – UIAccess)24.
+Aby system Windows przyznał procesowi prawa UIAccess i zniósł ograniczenia UIPI w wywołaniu SendInput, aplikacja musi spełnić jednocześnie trzy bezwzględne warunki architektoniczne24:
+1. Osadzony Manifest: Binarka pliku wykonywalnego musi zawierać wbudowany manifest XML definiujący atrybut <requestedExecutionLevel level="asInvoker" uiAccess="true" />31. Zewnętrzne pliki manifestu .exe.manifest są w tym scenariuszu odrzucane przez systemowe mechanizmy weryfikacji.
+2. Podpis Cyfrowy Authenticode: Plik wykonywalny musi zostać opatrzony ważnym podpisem cyfrowym przy użyciu certyfikatu komercyjnego (Code Signing Certificate), który łańcuchuje się do zaufanego urzędu certyfikacji (Trusted Root) w systemie operacyjnym klienta24. Certyfikaty samopodpisane (self-signed) nie przechodzą weryfikacji podsystemu Security Service (AIS), wywołując cichy spadek uprawnień do zwykłego poziomu Medium IL bez praw dostępności30.
+3. Instalacja w Secure Location: Plik binarne aplikacji muszą fizycznie rezydować w katalogu systemowym chronionym przed zapisem przez użytkowników nieuprzywilejowanych24. Dopuszczalne ścieżki ograniczone są do %ProgramFiles%, %ProgramFiles(x86)% oraz %SystemRoot%\System3224. Uruchomienie aplikacji z katalogów takich jak %LOCALAPPDATA%, Pulpit, Pobrane czy katalogów tymczasowych (%TEMP%) powoduje automatyczne zerwanie przywileju uiAccess i powrót do standardowych obostrzeń UIPI26.
+W kontekście analizy plików repozytorium, instalator stworzony przy użyciu Inno Setup (installer.iss) wymaga uprawnień administratora w trakcie instalacji (PrivilegesRequired=admin), co domyślnie lokuje pliki w katalogu Program Files24. Stanowi to prawidłową bazę pod wdrożenie modelu uiAccess.
+5. Rekomendacja Strategiczna dla Oprogramowania Komercyjnego (SaaS / Multi-Client)
+Biorąc pod uwagę długoterminowe koszty serwisu, stabilność instalacji na tysiącach komputerów klienckich oraz odporność na wykrywanie przez systemy Anti-Cheat, określa się jednolitą ścieżkę zmian architektonicznych w projekcie.
+Logika Wykonawcza Runtime
+Wdrożenie stabilnej obsługi wejścia powinno opierać się na sekwencyjnej weryfikacji kontekstu wykonawczego. Przy starcie aplikacji bot inicjalizuje sprawdzenie własnego poziomu integralności oraz odczytuje identyfikator PID i poziom MIC procesu gry na podstawie aktywnego uchwytu okna HWND.
+W przypadku gdy poziom bota jest równy lub wyższy niż poziom gry, aplikacja kontynuuje pracę przy użyciu backendu SendInput. Jeśli wykryta zostanie relacja odwrotna (Bot Medium IL vs Gra High IL), aplikacja podjmuje natychmiastową decyzję naprawczą: wywołuje samoczynne ponowne uruchomienie własnego procesu z wykorzystaniem systemowego API ShellExecuteEx wymuszającego czasowe podniesienie uprawnień (czasowy monit UAC poprzez czasowy parametr runas), zamiast kontynuowania bezskutecznych wywołań iniekcji.
+Wytyczne Wdrożeniowe dla Zespołu Programistycznego
+1. Bezwzględne usunięcie modułu Interception: Skrypt scripts/install_interception.ps1 oraz wszelkie nawiązania do sterowników jądra powinny zostać całkowicie usunięte ze stosu technologicznego. Pozostawienie sterownika w dystrybucji komercyjnej naraża klientów na blokady kont w grach oraz awarie systemów z włączoną ochroną integralności pamięci (HVCI)23.
+2. Przyjęcie Podstawowego Modelu Dystrybucji (Wymuszenie Uprawnień Administratora): Najprostszym, najbardziej odpornym i nieskomplikowanym w utrzymaniu podejściem dla dystrybucji komercyjnej jest skonfigurowanie manifestu binarnego Nuitka na poziom requireAdministrator.
+   * Zmiana ta eliminuje 100% problemów związanych z cichym odrzucaniem zdarzeń przez UIPI2.
+   * Ogranicza koszty operacyjne przedsiębiorstwa ze względu na brak konieczności zakupu i corocznej odnowy płatnych certyfikatów Code Signing (Authenticode).
+   * Zapewnia brak ryzyka detekcji ze strony systemów Anti-Cheat, gdyż wywołania SendInput z poziomu High Integrity Level stanowią w pełni legitymowalne, natywne wykorzystanie API systemu Windows4.
+   * W pliku installer.iss należy zweryfikować konfigurację skrótów, aby wywoływały one proces z wymogiem podniesienia uprawnień, co ujednolici środowisko uruchomieniowe bota.
+3. Alternatywny Model Bezmonitowy (Opcjonalny rozwój dla klientów Enterprise): Jeżeli wymóg braku monitu UAC przy uruchamianiu bota stanie się kluczowym kryterium biznesowym:
+   * Należy wdrożyć komercyjny certyfikat Authenticode i podpisywać nim finalną binarkę dostarczaną przez Nuitka.
+   * Ustawić w manifeście atrybuty level="asInvoker" oraz uiAccess="true"31.
+   * W pliku installer.iss zablokować możliwość zmiany katalogu instalacyjnego przez użytkownika, wymuszając instalację wyłącznie w ścieżce {commonpf} (C:\Program Files\Aplikacja), co gwarantuje spełnienie wymagań Secure Location i sprawia, że system Windows w pełni respektuje bypass UIPI dla wywołań SendInput24.
+Cytowane prace
+1. Vista uipi.ppt (1) | PDF, https://www.slideshare.net/slideshow/vista-uipippt-1/11602973
+2. How Operating Systems Assess Mouse Clicker Safety: OS Guide, https://www.mouseclicker.info/blog/os-safety/
+3. SendInput fails on UAC prompt - winapi - Stack Overflow, https://stackoverflow.com/questions/56595640/sendinput-fails-on-uac-prompt
+4. SendInput function (winuser.h) - Win32 apps - Microsoft Learn, https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-sendinput
+5. Remote Deskotp Mouse Interactions are not working when, https://learn.microsoft.com/en-us/answers/questions/1072045/remote-deskotp-mouse-interactions-are-not-working
+6. boundless/docs/release/launch-ledger.md at main · bestlux ... - Fastly, https://ithub.global.ssl.fastly.net/bestlux/boundless/blob/main/docs/release/launch-ledger.md
+7. winauth/Third Party/InputSimulator/InputSimulator.cs at master, https://github.com/winauth/winauth/blob/master/Third%20Party/InputSimulator/InputSimulator.cs
+8. Nim Autome / Win32 API, https://forum.nim-lang.org/t/10375
+9. UI Automation - Windows apps | Microsoft Learn, https://learn.microsoft.com/en-us/windows/apps/dev-tools/winapp-cli/ui-automation
+10. HuakunShen/monio: Cross Platform rust crate to monitor user inputs, https://github.com/HuakunShen/monio
+11. WPF窗口消息过滤与UIPI机制实战解析 - IT技术社区, https://bbs.csdn.net/weixin_34221654/article/details/100251543
+12. 悬浮阅读器FloatingNovelReader：桌面效率工具的设计哲学与工程实践, https://bbs.csdn.net/weixin_42548874/article/details/100264761
+13. Vanta SOC 2 Compliance Checklist | PDF | Audit - Scribd, https://www.scribd.com/document/818734678/Merged-SOC2-Compliance-Checklist
+14. Computer Use | Hermes Agent - NOUS RESEARCH, https://hermes-agent.nousresearch.com/docs/user-guide/features/computer-use
+15. arXiv:cs/0611102v1 [cs.CR] 21 Nov 2006, https://arxiv.org/pdf/cs/0611102
+16. Claude-Red/Skills/infrastructure/offensive-windows-mitigations, https://github.com/SnailSploit/Claude-Red/blob/main/Skills/infrastructure/offensive-windows-mitigations/SKILL.md
+17. luci-py/appengine/swarming/swarming_bot/api/platforms/win.py at, https://github.com/luci/luci-py/blob/master/appengine/swarming/swarming_bot/api/platforms/win.py
+18. _ssl.enum_certificates() fails with ERROR_ACCESS_DENIED if, https://github.com/python/cpython/issues/70127
+19. GetTokenInformation function (securitybaseapi.h) - Win32 apps, https://learn.microsoft.com/en-us/windows/win32/api/securitybaseapi/nf-securitybaseapi-gettokeninformation
+20. winappdbg.win32 - SourceForge, https://winappdbg.sourceforge.net/doc/latest/reference/winappdbg.win32-module.html
+21. Fileless AlwaysNotify UAC Bypass using CIA Vault7's Token, https://gist.github.com/makelariss/b86eb4db41e651a6518fd61d88aa9f91
+22. GetTokenInformation with ctypes - python - Stack Overflow, https://stackoverflow.com/questions/25372490/gettokeninformation-with-ctypes
+23. [Release] Interception .net - UnKnoWnCheaTs, https://www.unknowncheats.me/forum/c-/703427-interception-net.html
+24. 2.3.17.6 Ensure 'User Account Control: Only elevate UIAccess a, https://www.tenable.com/audits/items/CIS_Microsoft_Windows_Server_2016_STIG_v1.0.0_L1_DC.audit:f2c4f44fe3700b22b91a5f29212d092f
+25. Only elevate UIAccess applications - CalCom Software, https://calcomsoftware.com/elevate-uiaccess-apps-installed-in-secure-locations/
+26. Only elevate UIAccess app installed in secure location - Windows 10, https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/user-account-control-only-elevate-uiaccess-applications-that-are-installed-in-secure-locations
+27. Can Vanguard detect if you inject a dll into an arbitrary 32 bit, https://www.unknowncheats.me/forum/anti-cheat-bypass/420149-vanguard-detect-inject-dll-arbitrary-32-bit-process.html
+28. InterAccel 2.0 and Faceit Anti-Cheat : r/MouseAccel - Reddit, https://www.reddit.com/r/MouseAccel/comments/hqrtr9/interaccel_20_and_faceit_anticheat/
+29. gmh5225/awesome-game-security - 在线工具, https://tool.lu/skill/gwjPVF
+30. proper requirements to test in house before buying an EV to interact, https://learn.microsoft.com/en-us/answers/questions/5866859/proper-requirements-to-test-in-house-before-buying
+31. cua-driver-rs (Windows): ship with uiAccess="true" manifest + signed, https://github.com/trycua/cua/issues/1602
+32. User Account Control settings and configuration | Microsoft Learn, https://learn.microsoft.com/en-us/windows/security/application-security/application-control/user-account-control/settings-and-configuration

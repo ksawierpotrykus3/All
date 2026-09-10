@@ -1,0 +1,162 @@
+{
+  "opis": "Tutaj ustawiasz filtry bota. Edytuj ten plik notatnikiem, zapisz i odpal bota ponownie (komenda start). Do edycji sa cena_min i cena_max.",
+  "cena_max_globalna": 2000,
+  "blacklist_titul": [
+    "etui",
+    "szklo",
+    "obudowa",
+    "case",
+    "ladowarka",
+    "sluchawki",
+    "uchwyt",
+    "folia",
+    "akcesori",
+    "pop socket",
+    "icloud",
+    "zablokowany",
+    "zablokowana",
+    "lock",
+    "locked",
+    "haslo"
+  ],
+  "modele": [
+    {
+      "nazwa": "iPhone 14 Pro Max",
+      "wzorzec": "\\b14\\s*pro\\s*max\\b",
+      "cena_min": 100,
+      "cena_max": 1050
+    },
+    {
+      "nazwa": "iPhone 14 Pro",
+      "wzorzec": "\\b14\\s*pro\\b",
+      "cena_min": 100,
+      "cena_max": 1050
+    },
+    {
+      "nazwa": "iPhone 14 Plus",
+      "wzorzec": "\\b14\\s*plus\\b",
+      "cena_min": 60,
+      "cena_max": 655
+    },
+    {
+      "nazwa": "iPhone 14",
+      "wzorzec": "\\b14\\b",
+      "cena_min": 60,
+      "cena_max": 655
+    },
+    {
+      "nazwa": "iPhone 13 Pro Max",
+      "wzorzec": "\\b13\\s*pro\\s*max\\b",
+      "cena_min": 100,
+      "cena_max": 800
+    },
+    {
+      "nazwa": "iPhone 13 Pro",
+      "wzorzec": "\\b13\\s*pro\\b",
+      "cena_min": 100,
+      "cena_max": 800
+    },
+    {
+      "nazwa": "iPhone 13 mini",
+      "wzorzec": "\\b13\\s*mini\\b",
+      "cena_min": 0,
+      "cena_max": 450
+    },
+    {
+      "nazwa": "iPhone 13",
+      "wzorzec": "\\b13\\b",
+      "cena_min": 0,
+      "cena_max": 450
+    },
+    {
+      "nazwa": "iPhone 12 Pro Max",
+      "wzorzec": "\\b12\\s*pro\\s*max\\b",
+      "cena_min": 0,
+      "cena_max": 400
+    },
+    {
+      "nazwa": "iPhone 12 Pro",
+      "wzorzec": "\\b12\\s*pro\\b",
+      "cena_min": 0,
+      "cena_max": 400
+    },
+    {
+      "nazwa": "iPhone 12 mini",
+      "wzorzec": "\\b12\\s*mini\\b",
+      "cena_min": 0,
+      "cena_max": 280
+    },
+    {
+      "nazwa": "iPhone 12",
+      "wzorzec": "\\b12\\b",
+      "cena_min": 0,
+      "cena_max": 280
+    },
+    {
+      "nazwa": "iPhone 16 Pro",
+      "wzorzec": "\\b16\\s*pro\\b",
+      "cena_min": 0,
+      "cena_max": 1400
+    },
+    {
+      "nazwa": "iPhone 16 Plus",
+      "wzorzec": "\\b16\\s*plus\\b",
+      "cena_min": 0,
+      "cena_max": 1400
+    },
+    {
+      "nazwa": "iPhone 16e",
+      "wzorzec": "\\b16\\s*e\\b",
+      "cena_min": 0,
+      "cena_max": 1400
+    },
+    {
+      "nazwa": "iPhone 16",
+      "wzorzec": "\\b16\\b",
+      "cena_min": 0,
+      "cena_max": 1400
+    },
+    {
+      "nazwa": "iPhone 17 Air",
+      "wzorzec": "\\b17\\s*air\\b",
+      "cena_min": 200,
+      "cena_max": 2000
+    },
+    {
+      "nazwa": "iPhone 17e",
+      "wzorzec": "\\b17\\s*e\\b",
+      "cena_min": 240,
+      "cena_max": 1850
+    },
+    {
+      "nazwa": "iPhone 17",
+      "wzorzec": "\\b17\\b",
+      "cena_min": 200,
+      "cena_max": 2000
+    },
+    {
+      "nazwa": "iPhone 15 Pro Max",
+      "wzorzec": "\\b15\\s*pro\\s*max\\b",
+      "cena_min": 160,
+      "cena_max": 1650
+    },
+    {
+      "nazwa": "iPhone 15 Pro",
+      "wzorzec": "\\b15\\s*pro\\b",
+      "cena_min": 160,
+      "cena_max": 1650
+    },
+    {
+      "nazwa": "iPhone 15 Plus",
+      "wzorzec": "\\b15\\s*plus\\b",
+      "cena_min": 100,
+      "cena_max": 1000
+    },
+    {
+      "nazwa": "iPhone 15",
+      "wzorzec": "\\b15\\b",
+      "cena_min": 100,
+      "cena_max": 1000
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "testId": "notification-hub",
+    "disabled": false
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Ustawienia plików cookie",
+    "testId": null,
+    "disabled": false
+  }
+]

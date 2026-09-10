@@ -1,0 +1,79 @@
+{
+  "id": "40703366",
+  "url": "https://www.freelancer.pl/projects/api-developmet/API-Presupuestos-Automotrices/details",
+  "title": "API de Presupuestos Automotrices",
+  "author": "Anonim",
+  "budget": "50.0 - 150.0 EUR",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.814096",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703366",
+    "url": "https://www.freelancer.pl/projects/api-developmet/API-Presupuestos-Automotrices/details",
+    "seo_url": "api-developmet/API-Presupuestos-Automotrices",
+    "title": "API de Presupuestos Automotrices",
+    "budget": "50.0 - 150.0 EUR",
+    "budget_raw": {
+      "minimum": 50.0,
+      "maximum": 150.0
+    },
+    "currency": "EUR",
+    "author": "Anonim",
+    "short_desc": "Ya tengo mis canales de Meta (incluido WhatsApp) enlazados y una IA que responde automáticamente a l",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "Java",
+      "JavaScript",
+      "Python",
+      "Node.js",
+      "Software Development",
+      "JSON",
+      "RESTful API",
+      "API Development"
+    ],
+    "bid_stats": {
+      "bid_count": 141,
+      "bid_avg": 103.77304964539007
+    },
+    "local": false,
+    "time_submitted": 1789050693
+  },
+  "full_details": {
+    "id": "40703366",
+    "title": "API de Presupuestos Automotrices",
+    "full_description": "Ya tengo mis canales de Meta (incluido WhatsApp) enlazados y una IA que responde automáticamente a las consultas. El siguiente paso es disponer de una API capaz de generar presupuestos de taller con solo recibir la matrícula del vehículo y el concepto de la reparación.  \n\nLo que necesito que haga la API:  \n• Tome la matrícula, identifique marca, modelo y versión.  \n• Reciba una palabra clave como “alternador”, “embrague”, etc.  \n• Obtenga los tiempos de mano de obra oficiales del fabricante y los combine con mis tarifas para calcular el coste total.  \n• Devuelva, junto al importe, el tiempo estimado de reparación y recomendaciones de mantenimiento relacionadas.  \n\nLa respuesta debe ser clara y en formato JSON para que mi sistema de WhatsApp la envíe al cliente sin intervención humana. No tengo preferencia fija por Node.js, Python o Java; propón la tecnología que mejor garantice velocidad y escalabilidad.  \n\nValoro que el desarrollador:  \n• Conozca integraciones con bases de datos OEM (TecDoc, Autodata, o equivalentes).  \n• Tenga experiencia con la API de WhatsApp Business o con webhooks de Meta.  \n• Aporte ideas para cachear resultados y reducir latencia.  \n\nEntrega esperada: repositorio con el código, documentación de endpoints y una breve guía de despliegue en mi servidor VPS. Si crees necesario un entorno de prueba, indícalo y lo habilito.",
+    "budget_raw": {
+      "minimum": 50.0,
+      "maximum": 150.0
+    },
+    "currency": "EUR",
+    "project_type": "fixed",
+    "jobs": [
+      "Java",
+      "JavaScript",
+      "Python",
+      "Node.js",
+      "Software Development",
+      "JSON",
+      "RESTful API",
+      "API Development"
+    ],
+    "bid_stats": {
+      "bid_count": 141,
+      "bid_avg": 103.77304964539007
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:41"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:41.349921"
+}

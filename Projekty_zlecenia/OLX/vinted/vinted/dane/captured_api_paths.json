@@ -1,0 +1,27 @@
+{
+  "paths": [
+    "https://cdn.id5-sync.com/api/1.0/esp.js",
+    "https://cdn.id5-sync.com/api/1.0/id5-api.js",
+    "https://fastlane.rubiconproject.com/a/api/fastlane.json",
+    "https://i.connectad.io/api/v3",
+    "https://id5-sync.com/api/config/prebid",
+    "https://id5-sync.com/api/esp/increment",
+    "https://logs-ingress.svc.vinted.com/api/v3/sync-public",
+    "https://sdk.fra-01.braze.eu/api/v3/content_cards/sync",
+    "https://sdk.fra-01.braze.eu/api/v3/data/",
+    "https://ssb-global.smartadserver.com/api/bid",
+    "https://ssbsync.smartadserver.com/api/sync",
+    "https://sync.cootlogix.com/api/user/html/55537adc33d1b40300987e8e",
+    "https://sync.kueezrtb.com/api/user/html/62ce79e7dd15099534ae5e04",
+    "https://sync.programmaticx.ai/api/user/html/685297194d85991a5e6e36dd",
+    "https://tr.blismedia.com/v1/api/sync/inmobi",
+    "https://tr.blismedia.com/v1/api/sync/openx",
+    "https://www.temu.com/api/adx/cm/pixel-opera",
+    "https://www.vinted.pl/api/v2/banners",
+    "https://www.vinted.pl/api/v2/conversations/stats",
+    "https://www.vinted.pl/api/v2/external_crm/jwts",
+    "https://www.vinted.pl/api/v2/info_banners/catalog",
+    "https://www.vinted.pl/api/v2/promoted_closets"
+  ],
+  "raw_count": 42
+}

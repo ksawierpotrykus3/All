@@ -1,0 +1,19 @@
+### "Design" skills for CLI tools? ###
+
+Źródło: https://www.reddit.com/r/UXDesign/s/jVUSHfRqPC
+
+I'm a product/ design person and have been building CLI tools recently. There are so many design skill but couldn't find one specifically for creating engaging UIs/ flows/UX for in-terminal experiences.
+
+### HIERARCHIA KOMENTARZY ###
+
+1. FewDescription3170: A 'skill' is just a markdown text file. Write it yourself. You can outsource your thinking, but you can't outsource your understanding. Resource for performative UI: https://performative-ui.cncl.co/
+
+2. ProfessionalBell2289: Applied best practices of UX from Nielsen Norman towards a developer-first format for CLI/terminal UIs. Created a design guide for CLI tools: https://github.com/katrinalaszlo/glowup
+
+3. ctrl-z-lyf: Great resource explaining how terminals work visually and under the hood: https://how-terminals-work.vercel.app/
+
+4. its_just_a_phas3: OpenTUI skill for terminal UIs: https://www.skills.sh/msmps/opentui-skill/opentui
+
+5. gesidner: The skill that transfers least to CLI is visual hierarchy, because you lose layout, size, and color as your main levers. What replaces them: rhythm and whitespace, blank lines are your grid, plus ONE accent color used rarely enough that it actually means something. The bigger shift is designing the error and empty states harder than the happy path. In a GUI people explore; in a terminal they're usually stuck, so the message that shows up when something fails is most of the UX. Nielsen's heuristics still hold, they just render as text. "Visibility of system status" becomes a clear "doing X…" line and a spinner instead of silence.
+
+6. Guilty-Word-6186: Half the design work in terminal UIs is honestly writing good error messages and help text — the visual barely exists once you're stuck in a terminal.

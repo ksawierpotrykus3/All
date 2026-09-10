@@ -1,0 +1,231 @@
+===== RESEARCH 01 (dl. 11316) =====
+### FAKTY KLUCZOWE (twarde, ze źródłami)
+
+- **Budżet rynkowy landing page (Polska, 2026):** Freelancer: 1 500–5 000 zł netto; agencja: 3 000–15 000 zł netto; rozbudowane wdrożenia (wielojęzyczne, enterprise) przekraczają 30 000 zł. Czas realizacji: 2–6 tygodni.
+  - Źródło: https://epageo.pl/blog/ile-kosztuje-stworzenie-landing-page-w-2026-roku-realne-widelki-cenowe/ (linie 6–18) – „Koszt stworzenia landing page w 2026 roku w Polsce mieści się najczęściej w przedziale od kilkuset złotych do kilkunastu tysięcy złotych netto. (…) freelancer wyceni projekt zwykle na 1500 do 5000 zł, a profesjonalna agencja interaktywna na 3000 do 15000 zł netto (…) Rozbudowane wdrożenia wielojęzyczne lub enterprise potrafią przekroczyć 30000 zł.”
+  - Źródło: https://webyjuice.pl/blog/cennik-strony-internetowej-2026 (linie 11–13) – tabela: „Landing page / one-pager | 3 000 – 8 000 | 2–3 tygodnie”
+  - Źródło: https://digitalstorm.pl/blog/ile-kosztuje-landing-page-2026-cennik (linie 3–7) – „od ok. 1000 zł do 15 000+ zł”
+
+- **Strona dla producenta mebli – pakiety:** Start od 12 000 zł (autorska) / 8 000 zł (WordPress) / 4 500 zł (szablon); Pro od 18 000 zł (autorska) / 13 000 zł (WordPress) / 6 500 zł (szablon); Premium od 25 000 zł.
+  - Źródło: https://agencjamedialna.pl/blog/software-house/ile-kosztuje-strona-internetowa-dla-producenta-mebli (linie 24–37) – „### Pakiet START – od 12 000 zł (…) Wersja WordPress: od 8 000 zł – Na szablonie WordPress: od 4 500 zł ### Pakiet PRO – od 18 000 zł (…) Wersja WordPress: od 13 000 zł – Na szablonie WordPress: od 6 500 zł ### Pakiet PREMIUM – od 25 000 zł”
+
+- **Integracje podnoszą koszt:** Połączenie z PIM, ERP, katalogami lub sklepem internetowym zwiększa koszt; integracja z Comarch Optima lub SAP to 5–15 dni pracy.
+  - Źródło: https://agencjamedialna.pl/blog/software-house/ile-kosztuje-strona-internetowa-dla-producenta-mebli (linie 16–17) – „Integracje – połączenie z systemami PIM, ERP, katalogami lub sklepem internetowym podnosi koszt”
+  - Źródło: https://webyjuice.pl/blog/cennik-strony-internetowej-2026 (linie 27–28) – „Integracja z Comarch Optima albo SAP to 5-15 dni pracy.”
+
+- **Konfigurator 3D/AR dla mebli – koszt SaaS:** Abonament od 790 zł/miesiąc; ROI zwraca się średnio po 6–12 miesiącach; konwersja wzrasta o 30–50%.
+  - Źródło: https://arlity.com/koszt-i-zwrot-z-inwestycji-roi-w-konfigurator-3d-w-2026-roku/ (linie 4–12) – „Inwestycja w konfigurator 3D w branży meblarskiej zwraca się średnio po 6–12 miesiącach. (…) narzędzia 3D zwiększają współczynnik konwersji o 30–50% (…) Cena takiego konfiguratora to koszt jego abonamentu (…) zaczyna się już od 790zł za miesiąc.”
+
+- **Core Web Vitals – progi 2026:** LCP ≤ 2,5 s, INP ≤ 200 ms, CLS ≤ 0,1 (mierzone dla 75. percentyla realnych użytkowników).
+  - Źródło: https://sometech.work/insights/core-web-vitals-checklist-2026 (linie 4–6) – „2026 targets (good): LCP under 2.5s, INP under 200ms, CLS under 0.1.”
+  - Źródło: https://dev.to/... (linie 14–16) – „LCP | ≤ 2.5 s | (…) INP | ≤ 200 ms”
+
+- **Prawa autorskie – wymogi formalne:** Przeniesienie autorskich praw majątkowych wymaga formy pisemnej pod rygorem nieważności; umowa musi precyzyjnie wymieniać pola eksploatacji (m.in. kod źródłowy, layout, grafiki, treści); samo opłacenie faktury nie przenosi praw.
+  - Źródło: https://prawoportal.pl/jak-przeniesc-prawa-autorskie-do-logo-strony-lub-tekstu/ (linie 28–37) – „Umowa o przeniesienie autorskich praw majątkowych musi być zawarta w formie pisemnej pod rygorem nieważności. (…) Pola eksploatacji to konkretne sposoby wykorzystania utworu. Prawo wymaga, aby w umowie precyzyjnie wymienić, na jakich polach nabywasz prawa.”
+  - Źródło: https://prawodlabiznesu.eu/umowa-na-wykonanie-strony-internetowej-co-musi-zawierac-i-jak-zabezpieczyc-swoje-interesy/ (linie 6–9) – „Przeniesienie autorskich praw majątkowych to jeden z kluczowych zapisów – bez niego zamawiający może (…)”
+
+- **WCAG 2.1 AA – minimalne wymagania:** Kontrast tekstu min. 4,5:1 (3:1 dla dużych nagłówków); czcionka min. 16 px; logiczna kolejność tabulacji; pełna obsługa formularzy z klawiatury.
+  - Źródło: https://icommedia.pl/jak-projektowac-landing-page-dostepny-wcag/ (linie 10–12) – „konieczne jest zapewnienie odpowiedniego kontrastu między tekstem a tłem – co najmniej 4.5:1 dla zwykłego tekstu oraz 3:1 dla dużych nagłówków. (…) Czcionka na landing page powinna być wystarczająco duża, najczęściej minimum 16 px”
+
+- **Stawki UX/UI (2026):** Senior/Expert: 100–155 zł/h netto (B2B); miesięcznie 10 000–21 000 zł brutto na UoP.
+  - Źródło: https://justjoin.it/job-offer/emagine-polska-expert-ux-ui-designer-krakow-ux#1 (linie 9–12) – „Expert UX/UI Designer 150 – 155 PLNNet per hour – B2B”
+  - Źródło: https://nofluffjobs.com/... (linie 5–7) – „11 760 – 18 480 PLN + VAT (B2B) per month”
+
+
+### RYZYKA I PUŁAPKI
+
+- **Zdjęcia produktowe od klienta mogą wymagać odrębnej umowy.** Jeśli Perca dostarczy zdjęcia wykonane przez zewnętrznego fotografa, umowa na landing page nie przenosi automatycznie praw do tych fotografii. Konieczne jest uregulowanie pól eksploatacji dla zdjęć (osobna umowa lub oświadczenie klienta o posiadanych prawach).
+  - Źródło: https://www.rzetelnyregulamin.pl/pl/a/zdjecia-produktow-a-prawo-autorskie (linie 13–15) – „Zawsze jednak trzeba podpisać umowę, która określa, że w momencie zapłaty za zdjęcia nabywamy prawo do ich rozpowszechniania.”
+  - Źródło: https://prawodlabiznesu.eu/... (linie 23–25) – „Przeniesienie autorskich praw majątkowych musi być dokonane w sposób wyraźny, w formie pisemnej i z dokładnym wskazaniem pól eksploatacji.”
+
+- **Brak wskazania technologii w ogłoszeniu.** Klient nie określił, czy istnieje już strona (i na jakim CMS), czy landing ma być zintegrowany z systemem ERP/PIM, ani czy ma zawierać konfigurator 3D/AR. Każda z tych integracji znacząco podnosi zakres i cenę. Bez doprecyzowania grozi niedoszacowanie.
+  - Źródło: https://agencjamedialna.pl/... (linie 16–17) – „Integracje – połączenie z systemami PIM, ERP (…) podnosi koszt”
+  - Źródło: https://arlity.com/... (linie 10–12) – konfigurator 3D to dodatkowy abonament od 790 zł/mies.
+
+- **Ryzyko „nieskończonego scope'u” przy haśle „innowacyjne podejście”.** Klient oczekuje „materiału, który porwie nas i klientów” – bez zdefiniowanych kryteriów akceptacji. To klasyczna pułapka na freelancerów: klient może odrzucać kolejne propozycje, nie umiejąc sprecyzować oczekiwań.
+  - Źródło: https://prawodlabiznesu.eu/... (linie 37–38) – „wykonawcy często zmagają się z nieustannie rozszerzanym zakresem prac, które nie zostały nigdzie spisane”
+  - (Ocena ryzyka na podstawie treści ogłoszenia – niepotwierdzone źródłem zewnętrznym.)
+
+- **Prawa autorskie do kodu i layoutu.** Zlecenie obejmuje „Przeniesienie praw autorskich”. Umowa musi objąć **kod źródłowy**, nie tylko warstwę wizualną. Brak tego zapisu = klient nie może legalnie modyfikować strony przez innego wykonawcę.
+  - Źródło: https://prawoportal.pl/... (linie 12–14) – „Strona internetowa jest utworem złożonym. Przeniesienie praw powinno obejmować nie tylko warstwę wizualną (layout), ale również kod źródłowy, grafiki pomocnicze oraz treści.”
+
+
+### AMUNICJA DO OFERTY
+
+- **Konfigurator 3D/AR jako element „innowacyjnego podejścia”.** Dla producenta mebli premium (stoły, krzesła, tapicerka) konfigurator 3D to realny wyróżnik: klient może zobaczyć mebel w swojej przestrzeni przez AR, zmieniać tkaniny i wykończenia bez fizycznych próbek. Koszt SaaS od 790 zł/mies., ROI w 6–12 mies. To konkretny, wycenialny moduł, który można zaproponować jako opcję rozszerzającą.
+  - Źródło: https://arlity.com/... (linie 4–12) – „konfigurator 3D (…) zwraca się średnio po 6–12 miesiącach (…) narzędzia 3D zwiększają współczynnik konwersji o 30–50% (…) od 790zł za miesiąc”
+  - Źródło: https://www.roomle.com/documentation/ecommerce-best-practice (linie 33–36) – „By integrating an AR icon directly alongside the customize button (…) The AR icon allows for instant validation by projecting the specific model into the user's room, building immediate trust.”
+
+- **Landing page dla producenta mebli powinien być nastawiony na lead generation B2B, a nie tylko wizytówkę.** Szablony B2B dla producentów mebli (np. Rocket.new „Dormant”) kładą nacisk na twarde dane produkcyjne, specyfikacje i podwójny system przechwytywania leadów (formularz + gated PDF). To argument za rozszerzeniem zakresu poza prostą stronę wizualną.
+  - Źródło: https://www.rocket.new/templates/dormant-precision-mattress-landing-page-template (linie 8–11) – „Dormant is a single-page, stats-first landing page template built for precision mattress manufacturers. It combines a full-screen factory video header, a modular proof-point card grid, and a dual lead-capture system.”
+  - Źródło: https://www.rocket.new/... (linie 19–23) – „Serious B2B buyers need hard data fast, or they move on.”
+
+- **Benchmarki Core Web Vitals jako element profesjonalnej oferty.** Wskazanie, że projekt będzie spełniał progi LCP ≤ 2,5 s, INP ≤ 200 ms, CLS ≤ 0,1 (mierzone w Search Console), pokazuje techniczną świadomość i buduje zaufanie. To także argument przeciw wyborowi „taniego szablonu z kreatora”, który często nie spełnia tych progów.
+  - Źródło: https://sometech.work/insights/core-web-vitals-checklist-2026 (linie 4–6) – „2026 targets (good): LCP under 2.5s, INP under 200ms, CLS under 0.1.”
+  - Źródło: https://sometech.work/... (linie 39–41) – „Tag managers, chat widgets, heatmaps, and A/B tools often own INP and LCP regressions.”
+
+- **WCAG 2.1 AA jako standard (nie opcja).** Coraz więcej klientów B2B (zwłaszcza z rynków zachodnich) wymaga dostępności. Zapewnienie kontrastu, obsługi klawiatury i poprawnych formularzy to niski koszt, a wysoka wartość w oczach klienta premium.
+  - Źródło: https://icommedia.pl/jak-projektowac-landing-page-dostepny-wcag/ (linie 3–7) – „Strona docelowa, która uwzględnia zasady dostępności, potrafi znacząco zwiększyć konwersję, zmniejszyć współczynnik odrzuceń i budować wiarygodność marki.”
+
+
+### CENY RYNKOWE
+
+| Zakres | Widełki | Źródło |
+|---|---|---|
+| Landing page – freelancer | 1 500–5 000 zł netto | epageo.pl (2026) |
+| Landing page – agencja | 3 000–15 000 zł netto | epageo.pl (2026) |
+| Landing page – rozbudowane/enterprise | 30 000+ zł | epageo.pl (2026) |
+| Strona dla producenta mebli – pakiet START | od 12 000 zł (autorska) / od 4 500 zł (szablon WP) | agencjamedialna.pl (2025) |
+| Strona dla producenta mebli – pakiet PRO | od 18 000 zł (autorska) / od 6 500 zł (szablon WP) | agencjamedialna.pl (2025) |
+| Konfigurator 3D/AR – abonament | od 790 zł/mies. | arlity.com (2026) |
+| UX/UI Senior – stawka godzinowa | 100–155 zł/h netto (B2B) | justjoin.it, nofluffjobs.com (2026) |
+| Copywriting sprzedażowy – landing page | 800–3 000 zł | kcmobile.pl (2026) |
+| Sesja zdjęciowa pod firmę | 2 000–5 000 zł | webyjuice.pl (2026) |
+
+**Uwaga do kalibracji:** 71 oferentów w konkursie na Useme oznacza dużą konkurencję cenową. Ceny freelancerów na tej platformie będą prawdopodobnie bliżej dolnych widełek (1 500–3 000 zł). Jednak dla producenta premium z oczekiwaniem „innowacyjnego podejścia” i materiału „który porwie klientów” realny zakres może obejmować: projekt UX/UI od zera, copywriting pod konwersję, optymalizację Core Web Vitals, dostępność WCAG i potencjalnie konfigurator 3D/AR – co uzasadnia wycenę w przedziale 5 000–15 000 zł.
+
+===== WYCENA =====
+# Wycena: Landing page dla Perca Furniture (premium producent mebli)
+
+## KROK 0.5 — Confirmed scope vs brainstorm
+
+**CONFIRMED SCOPE (z ogłoszenia):**
+- Landing page na istniejącą stronę firmy (producent stołów, krzeseł, małej tapicerki klasy premium)
+- "Innowacyjne podejście" (ogólne, ale to wymóg jakościowy nie funkcjonalny)
+- Materiały udostępnione wybranemu oferentowi (czyli content/zdjęcia od klienta, my robimy warstwę wizualną + kod)
+- Przeniesienie praw autorskich (wymóg formalny, nie funkcjonalny)
+- Integracja z istniejącą stroną (domena, hosting — "domena internetowa" w tagach)
+
+**BRAINSTORM (do osobnej wyceny v2):**
+- Konfigurator 3D/AR mebli (research: od 790 zł/mies. SaaS, 30–50% wzrost konwersji)
+- Integracja PIM/ERP (research: 5–15 dni pracy)
+- Wielojęzyczność
+- Copywriting sprzedażowy pod B2B lead gen
+
+## KROK 1–2 — Moduły (confirmed scope)
+
+| Moduł | Kategoria | Godziny (opt–real) |
+|---|---|---|
+| Projekt UX/UI landing page (autorska oprawa, mockupy, system komponentów) | Projekt graficzny/UX | 10–20h |
+| Implementacja frontendu pixel-perfect z projektu | Responsywny frontend z Figmy ×1.3 do bazowej | 12–20h → **×1.3 = 16–26h** |
+| Sekcje treściowe + formularz leadowy + integracja z istniejącą stroną/CMS | WordPress/CMS customizacja | 8–16h |
+| SEO techniczne (meta, schema, CWV, sitemap, redirecty) | SEO techniczne jako osobny moduł | 6–12h |
+| Wdrożenie na hosting klienta (domena, SSL, konfiguracja) | VPS deploy + konfiguracja | 4–8h |
+
+**Nakładanie:** Implementacja frontendu i WordPress/CMS dzielą ten sam layout/sekcje — scalam częściowo, odejmuję 2h z CMS (bo motyw i tak zawiera strukturę sekcji).
+
+Skorygowane:
+- UX/UI: **10–20h**
+- Frontend pixel-perfect (×1.3): **16–26h**
+- CMS + formularz + integracja: **6–14h** (po odjęciu nakładania)
+- SEO techniczne: **6–12h**
+- Deploy: **4–8h**
+
+## KROK 2.5 — Testy + dokumentacja (+15%)
+
+Suma opt: 42h → +15% = **48,3h**
+Suma real: 80h → +15% = **92h**
+
+## KROK 3 — Suma
+
+- Optymistyczna: **48h**
+- Realistyczna: **92h**
+
+## KROK 4 — Buffer (+20%)
+
+Landing page = bufor standardowy +20%.
+
+92h × 1.20 = **110,4h**
+
+## KROK 5 — Mnożniki ryzyka
+
+- Klient NIE ma specyfikacji (opis ogólny, brak mockupów, "innowacyjne podejście"): **×1.3**
+- Brak wskazania technologii/CMS w ogłoszeniu (research: ryzyko niedoszacowania integracji): **nie dodaję ×1.25**, bo ograniczenie nie jest potwierdzone — buffer pokryje
+- Funkcje real-time: brak
+
+Łączny: ×1.3 (cap ×1.8 nie zadziałał)
+
+110,4h × 1.3 = **143,5h**
+
+## KROK 6 — Cena bazowa
+
+Stawka efektywna: **90 zł/h** (profil 2 miesiące, 5 umów, ×0.75)
+
+143,5h × 90 zł = **12 915 zł**
+
+## KROK 7 — Korekta konkurencyjna
+
+Zlecenie opublikowane **wczoraj** (1–3 dni), **71 ofert** → ×0.9
+
+12 915 × 0.9 = **11 623,5 zł**
+
+## KROK 8 — Prowizja/podatek
+
+11 623,5 zł to kwota do formularza. Netto na konto ~88% = ~10 228 zł. OK.
+
+## KROK 9 — Zaokrąglenie
+
+Ponad 10 000 zł → do 1 000 zł: **12 000 zł**
+
+## KROK 9.5 — Kotwica budżetu
+
+Budżet: "Do negocjacji" → pole kwoty = cena bazowa z KROK 7–9.
+
+**Cena ofertowa: 12 000 zł**
+
+## KROK 10 — Dni pracy
+
+143,5h ÷ 7h = 20,5 dnia → +30% (weekendy, komunikacja) = **26,6 → 27 dni**
+
+## KROK 10.6 — 2-pass audit
+
+1. **Czy moduły są niezależne?** Tak — UX/UI, frontend, CMS, SEO, deploy to logicznie wydzielone części.
+2. **Nakładanie?** Frontend ↔ CMS — usunięte 2h (CMS ma strukturę sekcji z frontendu).
+3. **Confirmed vs brainstorm?** Wszystkie moduły z confirmed scope. Konfigurator 3D/AR, PIM/ERP, wielojęzyczność → **v2 do osobnej wyceny**.
+4. **Odchylenie od instynktu?** Brak dostępu do instynktu senior developera. Mechanika dała 12 000 zł, co mieści się w widełkach research (5 000–15 000 zł dla premium producenta mebli).
+
+---
+
+## Rozbicie końcowe
+
+| Etap | Wartość |
+|---|---|
+| Moduły (opt–real, po nakładaniu) | 42–80h |
+| +15% testy/dokumentacja | 48–92h |
+| +20% buffer | 110,4h |
+| ×1.3 brak specyfikacji | 143,5h |
+| ×0.9 korekta konkurencyjna (71 ofert) | — |
+| Stawka 90 zł/h | 11 623,5 zł |
+| Zaokrąglenie | **12 000 zł** |
+| Dni (143,5h ÷ 7 × 1.3) | **27 dni** |
+
+**Potencjalne rozszerzenia v2 (do osobnej wyceny):**
+- Konfigurator 3D/AR mebli (SaaS od 790 zł/mies. + wdrożenie)
+- Integracja PIM/ERP (5–15 dni pracy)
+- Wielojęzyczność (research: rozbudowane wdrożenia >30 000 zł)
+- Copywriting sprzedażowy B2B (800–3 000 zł)
+- Sesja zdjęciowa (2 000–5 000 zł)
+
+[WYNIK_KONCOWY]
+KWOTA: 12000
+DNI: 27
+
+
+===== OFERTA =====
+Cześć,
+
+Piszę w imieniu dwuosobowego zespołu. Robimy landing page'e i sklepy dla marek premium, więc temat mebli i materiałów, które mają "porwać klientów", nie jest nam obcy.
+
+Zanim w ogóle ruszymy z projektowaniem, jedna rzecz do ustalenia, bo od niej zależy cała reszta. Landing dla producenta mebli klasy premium ma sens tylko jako maszynka do leadów B2B, a nie kolejna wizytówka. Klient biznesowy, który szuka stołów do restauracji czy hotelu, nie kupuje na emocjach ze zdjęcia - on chce szybko dane: wymiary, materiały, możliwości wykończenia, terminy. Jak tego nie ma, wychodzi zanim się zapisze na kontakt.
+
+Druga sprawa: 71 ofert w tym zleceniu oznacza, że większość wykonań skończy się na szablonie z kreatora. Problem w tym, że przy takim podejściu nie da się później dorobić niczego poważniejszego. Jeżeli w przyszłości będziecie chcieli konfigurator tkanin i wykończeń, integrację ze sklepem albo wersję pod konkretne rynki, całość trzeba wtedy przepisać od zera. Dlatego my projektujemy od razu w układzie, do którego da się dopinać kolejne moduły, a nie tylko "ładną stronę".
+
+Jak to robimy konkretnie: projekt UX/UI od zera pod waszą markę, potem frontend pisany ręcznie z tego projektu (nie gotowy motyw), sekcje produktowe z danymi technicznymi i wyraźnym formularzem zapytania ofertowego, które trafia od razu na wasz mail albo do CRM. Do tego techniczne SEO i Core Web Vitals pilnowane od pierwszego dnia - progi LCP poniżej 2,5 s i stabilność layoutu to coś, co kreatory bardzo często rozwalają, a Google to widzi. Dodatkowo zrobimy to zgodnie z dostępnością WCAG na poziomie AA (kontrast, obsługa z klawiatury), bo to realnie obniża odrzucenia i łapie też klientów zagranicznych.
+
+Jedna rzecz formalna, o którą warto zadbać już teraz: przenosimy na was prawa autorskie do kodu i całego layoutu. Jeżeli zdjęcia produktowe robił zewnętrzny fotograf, potrzebna jest osobna umowa albo wasze oświadczenie, że macie do nich prawa - bez tego nie da się legalnie użyć ich na stronie.
+
+Za projekt i wdrożenie landing page'a od A do Z, razem z formularzem leadowym, technicznym SEO i osadzeniem na waszym hostingu, liczymy 12 000 zł. Realizacja w 27 dni.
+
+Zdzwońmy się w tym tygodniu na 15 minut, powiemy co dokładnie potrzebujemy od was na start.
+
+Pozdrawiam

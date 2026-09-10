@@ -1,0 +1,23 @@
+### POST FACEBOOK ###
+
+Źródło: https://www.facebook.com/groups/6214467021932639/permalink/28081368241482536/
+Autor: Facebook
+Data pobrania: 2026-08-22 22:02:42
+Liczba unikalnych komentarzy: 2
+
+--- TREŚĆ POSTA ---
+SZUKAM TESTERÓW!
+Po tygodniu powstał:
+Hermes Agent Hyperspace-db Memory Plugin!
+Dlaczego hyperspace-db? Bo to chyba jedyna poza NietzscheDB baza wektorowa obsługująca hiperbolicznie lorentz.
+Co to robi: agent zamiast zapominać po każdej sesji, pamięta U MNIE JUŻ w 400-tysiącach wektorów. 10 narzędzi: search, store, grafy, hierarchie, klastry. Lorentz 129 wymiarów, metryka hiperboliczna, bo hierarchie pojęć żyją na siodle, nie na płaszczyźnie.
+Czego szukam: ludzi co mają Hermesa albo lubią grzebać w bazach wektorowych i chcą to rozbijać na złe inputy. Znajdziesz buga, dostaniesz podziękowania w README.
+Repo publiczne, kod leży na GitHubie. Link w komentarzu.
+Nie jest to: produkt, SaaS ani "AI które pamięta za ciebie". To plugin do agenta, testowany na jednym środowisku, czyli moim. Dlatego potrzebuję waszych środowisk.
+A JAK SIĘ PODOBA: POSTAW MI BLIKIEM KAWĘ NA 793093721
+
+--- KOMENTARZE I ODPOWIEDZI ---
+
+1. Łukasz Łukasz: Wow! Mega immersyjne
+
+2. Paulina Janowska: https://github.com/antydizajn/hermes-hyperspacedb-provider

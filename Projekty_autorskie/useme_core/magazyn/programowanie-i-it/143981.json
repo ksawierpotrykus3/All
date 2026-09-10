@@ -1,0 +1,44 @@
+{
+  "id": "143981",
+  "url": "https://useme.com/pl/jobs/integracja-api-cloudtalk-io-notion,143981/",
+  "title": "Integracja API - Cloudtalk.io -----> Notion",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-08T18:26:26.896123",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "143981",
+    "url": "https://useme.com/pl/jobs/integracja-api-cloudtalk-io-notion,143981/",
+    "title": "Integracja API - Cloudtalk.io -----> Notion",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "https://www.cloudtalk.io/ do Notion. Transkrypcja rozmów i notatki AI ----_ do CRM Notion. Zlecę konfigurację przez API chyba. Plan Essential  https://www.cloudtalk.io/pricing/\n\nSzukam kogoś kto to ładnie pomoże nam skonfigurować :)",
+    "category": "programowanie-i-it"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/integracja-api-cloudtalk-io-notion,143981/",
+    "title": "Integracja API - Cloudtalk.io -----> Notion",
+    "full_description": "<p>https://www.cloudtalk.io/ do Notion. Transkrypcja rozmów i notatki AI ----_ do CRM Notion. Zlecę konfigurację przez API chyba. Plan Essential  https://www.cloudtalk.io/pricing/</p>\n\n<p>Szukam kogoś kto to ładnie pomoże nam skonfigurować :)</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/143981/offer/start/",
+    "scraped_at": "2026-09-10T16:02:28"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nZanim ruszymy z konfiguracją, jedna rzecz do sprawdzenia na starcie: plan Essential, który macie, nie ma transkrypcji rozmów. Speech-to-Text jest dostępny dopiero od planu Expert i dodatkowo musi go ręcznie włączyć support CloudTalk. Jeśli zostaniecie na Essential, transkrypcja po prostu nie zadziała, choćby integracja była zrobiona idealnie. Także to jest pierwszy krok do ogarnięcia, zanim weźmiemy się za samo łączenie.\n\nDruga sprawa: CloudTalk nie ma natywnego konektora do Notion. Jest ponad 95 gotowych integracji z CRM-ami, ale Notion na tej liście nie ma. Da się to spiąć na dwa sposoby. Albo przez Make lub Zapier, gdzie CloudTalk i Notion mają gotowe moduły i całość stawiamy w kilka godzin, albo bezpośrednio przez API: webhook z CloudTalk na zdarzenie po rozmowie, transkrypcja i podsumowanie AI, potem push do Notion API. Drugie daje więcej kontroli i nie płacicie abonamentu za pośrednika, ale trzeba pilnować limitów obu API, bo CloudTalk ma 60 requestów na minutę, a Notion około 3 na sekundę. Przy większym wolumenie rozmów bez throttlingu i obsługi błędów 429 kolejka się wysypie.\n\nZanim cokolwiek zbudujemy, potrzebujemy od was trzech rzeczy: jak ma wyglądać baza w Notion (jakie pola, czy osobna baza na rozmowy, czy wpisy lecą do istniejącej bazy CRM), przykładowej rozmowy albo nagrania, żeby sprawdzić, jak wygląda transkrypcja i notatka AI, oraz informacji, czy chcecie tylko transkrypcje, czy też podsumowania AI z akcjami. Bez tego mapowanie pól będzie strzelaniem.\n\nRealizacja to 7 dni, licząc od momentu, gdy macie aktywny plan z włączoną transkrypcją. Za spięcie CloudTalk z Notion, konfigurację przepływu transkrypcji i notatek AI oraz obsługę limitów i błędów po obu stronach liczymy 1200 zł.\n\nZdzwońmy się w tym tygodniu na 15 minut, powiem dokładnie, co załatwić w CloudTalk przed startem.\n\nPozdrawiam",
+    "wycena": 1200,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "143981",
+    "wycena": 1200,
+    "dni": 7,
+    "final_url": "https://useme.com/pl/jobs/143981/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_143981.png",
+    "message": "Oferta #143981 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/143981/offer/finish/)."
+  },
+  "full_description": "<p>https://www.cloudtalk.io/ do Notion. Transkrypcja rozmów i notatki AI ----_ do CRM Notion. Zlecę konfigurację przez API chyba. Plan Essential  https://www.cloudtalk.io/pricing/</p>\n\n<p>Szukam kogoś kto to ładnie pomoże nam skonfigurować :)</p>",
+  "updated_at": "2026-09-10T16:16:15.367375"
+}

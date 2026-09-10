@@ -1,0 +1,52 @@
+{
+  "impersonate_get_ms": {
+    "chrome146": {
+      "ms": 1018.3,
+      "http": 200,
+      "hver": 3
+    },
+    "chrome136": {
+      "ms": 840.7,
+      "http": 200,
+      "hver": 3
+    },
+    "safari17_0": {
+      "ms": 664.9,
+      "http": 200,
+      "hver": 3
+    },
+    "firefox133": {
+      "ms": 744.8,
+      "http": 200,
+      "hver": 3
+    }
+  },
+  "steps": [
+    {
+      "step": "catalog",
+      "total_ms": 825.4,
+      "http": 200,
+      "hver": 3
+    },
+    {
+      "step": "conversations",
+      "total_ms": 1225.6,
+      "http": 200,
+      "hver": 3
+    },
+    {
+      "step": "build",
+      "total_ms": 133.4,
+      "http": 403,
+      "hver": 3
+    }
+  ],
+  "item": {
+    "id": 9826002871,
+    "seller": 98615349,
+    "title": "Świetna kurtka z kapturem na jesień zimę 🎀"
+  },
+  "txn_id": 21910450101,
+  "checkout_id": null,
+  "reservation_ms": 1359.7
+}

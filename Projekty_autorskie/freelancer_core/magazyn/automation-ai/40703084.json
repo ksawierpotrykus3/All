@@ -1,0 +1,79 @@
+{
+  "id": "40703084",
+  "url": "https://www.freelancer.pl/projects/machine-learning/Stock-Market-Prediction-Web-App/details",
+  "title": "Stock Market Prediction Web App",
+  "author": "Anonim",
+  "budget": "37500.0 - 75000.0 INR",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:28:38.913493",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703084",
+    "url": "https://www.freelancer.pl/projects/machine-learning/Stock-Market-Prediction-Web-App/details",
+    "seo_url": "machine-learning/Stock-Market-Prediction-Web-App",
+    "title": "Stock Market Prediction Web App",
+    "budget": "37500.0 - 75000.0 INR",
+    "budget_raw": {
+      "minimum": 37500.0,
+      "maximum": 75000.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I need a web application to predict Indian stock market index movements (Up, Down, or Sideways) in r",
+    "category": "automation-ai",
+    "project_type": "fixed",
+    "jobs": [
+      "Python",
+      "Machine Learning (ML)",
+      "Web Development",
+      "Backend Development",
+      "Frontend Development",
+      "Data Visualization",
+      "Data Analysis",
+      "API Development"
+    ],
+    "bid_stats": {
+      "bid_count": 68,
+      "bid_avg": 51462.88323529412
+    },
+    "local": false,
+    "time_submitted": 1789041072
+  },
+  "full_details": {
+    "id": "40703084",
+    "title": "Stock Market Prediction Web App",
+    "full_description": "I need a web application to predict Indian stock market index movements (Up, Down, or Sideways) in real-time using Random Forest and LSTM algorithms. \n\nData Sources:  \n- Historic stock prices  \n- Technical indicators  \n- Option chain OI data  \n- PCR data  \n\nFeatures to Consider:  \n- Volume data  \n- Option chain OI data  \n\nIdeal skills and experience:  \n- Proficiency in Random Forest and LSTM  \n- Experience in real-time prediction systems  \n- Strong background in stock market data analysis  \n- Web application development skills  \n\nPlease include relevant work samples in your bids.",
+    "budget_raw": {
+      "minimum": 37500.0,
+      "maximum": 75000.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "Python",
+      "Machine Learning (ML)",
+      "Web Development",
+      "Backend Development",
+      "Frontend Development",
+      "Data Visualization",
+      "Data Analysis",
+      "API Development"
+    ],
+    "bid_stats": {
+      "bid_count": 68,
+      "bid_avg": 51462.88323529412
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:48"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:48.399020"
+}

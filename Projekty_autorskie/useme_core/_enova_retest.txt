@@ -1,0 +1,62 @@
+===== WYCENA =====
+[WYNIK_KONCOWY]
+KWOTA: 6500
+DNI: 15
+[/WYNIK_KONCOWY]
+
+--- UZASADNIENIE DOBORU (model) ---
+Zlecenie ERP enova365 z trzema ponumerowanymi punktami zakresu — zgodnie z regułą dla ERP każdy punkt mapowany na osobny moduł integracyjny. (1) Uruchomienie i konfiguracja WebAPI (operator, uprawnienia, dostęp) = Integracja zewnętrznego API (1 serwis, auth + CRUD), górna widełka 10h. (2) Zestaw cyklicznych zadań eksportujących dokumenty sprzedaży z marżą, zapytania ofertowe i rozrachunki = Integracja zewnętrznego API (złożona, retry, error handling, queue), górna widełka 20h — obejmuje Harmonogram Zadań, logikę przetwarzania i wielokrotne źródła danych. (3) Własne kontrolery WebAPI dla marży obiektowej = Integracja zewnętrznego API (złożona) + praca z SDK, górna widełka 20h — marża w enova365 nie jest polem w bazie i wymaga statycznych kontrolerów C#/.NET osadzonych w serwerze WebAPI. Ustawienie nowa_technologia=true: profil 2 miesiące, 5 umów, brak realizacji enova365/WebAPI w portfolio — zespół nigdy nie pracował z tym niszowym ERP, dlatego należy się bufor +30% (KROK 4). Konsekwentnie NIE deklarujemy referencji enova365, których nie posiadamy (sprzeczność rozwiązana na korzyść realnego stanu portfolio). ograniczenia_api=false: research nie potwierdził twardych limitów architektonicznych WebAPI (brak potwierdzonych rate-limitów i brak gotowego endpointu marży to wyzwanie inżynierskie pokryte przez kontrolery statyczne i buffer, nie mnożnik ×1.25). brak_specyfikacji=false: klient dostarczył konkretny, ponumerowany zakres z flow i wymaganiami. widok Swaggera na instalacji klienta do weryfikacji przed startem.
+
+--- ROZBICIE (kalkulator deterministyczny) ---
+{
+  "tryb": "projekt",
+  "moduly": [
+    {
+      "nazwa": "Integracja zewnętrznego API (1 serwis, auth + CRUD)",
+      "godziny_real": 10
+    },
+    {
+      "nazwa": "Integracja zewnętrznego API (złożona, retry, error handling, queue)",
+      "godziny_real": 20
+    },
+    {
+      "nazwa": "Integracja zewnętrznego API (złożona) + praca z SDK",
+      "godziny_real": 20
+    }
+  ],
+  "godziny_real": 50.0,
+  "po_testach_15": 57.5,
+  "bufor": 0.3,
+  "po_buforze": 74.8,
+  "mnoznik_ryzyka": 1.0,
+  "cap_zadzialal": false,
+  "po_mnoznikach": 74.8,
+  "stawka": 90,
+  "cena_bazowa": 6727.5,
+  "korekta_konkurencyjna": 0.95,
+  "cena_po_korekcie": 6391.1,
+  "kwota_koncowa": 6500
+}
+
+===== OFERTA =====
+Cześć,
+
+Zaczynam od odpowiedzi na Wasze pytanie techniczne, bo od niego zależy reszta zakresu.
+
+Marża w enova365 nie jest polem w bazie, to prawda. System liczy ją obiektowo na poziomie dokumentów, kategorii produktowych i opiekunów klienta, więc standardowe kontrolery dynamiczne WebAPI zwrócą Wam surowe dane dokumentu, ale marży wprost nie będzie. Są dwie drogi. Pierwsza, którą rekomenduję, to statyczny kontroler WebAPI osadzony w serwerze enovy, który używa tej samej logiki biznesowej co system i wystawia gotową marżę już przeliczoną po stronie enova365. Kontroler rejestrujemy przez dodatek, bez modyfikacji rdzenia. Druga droga to odtworzenie algorytmu marży w Waszej warstwie analitycznej, ale wtedy przy każdym upgrade enovy musicie pilnować, czy logika się nie zmieniła, i utrzymywać własny kalkulator. Pierwsza opcja jest droższa w developmencie, ale znacznie tańsza w utrzymaniu.
+
+Od razu uczciwie: nie mamy zrealizowanych wdrożeń na enova365. Mamy doświadczenie z integracjami ERP i WebAPI/REST w innych systemach, ale nie będziemy Wam podawać cudzych projektów jako swoich. Jeśli to dyskwalifikuje nas w Waszym procesie, rozumiem. Jeśli nie, proponuję zacząć od krótkiej płatnej diagnozy, na której sprawdzicie nas na żywo na Waszej instalacji.
+
+Co konkretnie proponuję:
+
+Punkt pierwszy, uruchomienie i konfiguracja WebAPI. Na starcie potwierdzam z partnerem enova365, że moduł jest aktywny na Waszej licencji, i podglądam wygenerowany Swagger na Waszej instalacji, żeby zobaczyć realnie, które endpointy i metody są dostępne na wersji 2512.2.2. Potem operator, uprawnienia i dostępy. To 2 dni robocze, 440 zł za dzień.
+
+Punkt drugi, cykliczne eksporty. Trzy strumienie: dokumenty sprzedaży z marżą w podziale na klienta, rynek i handlowca, zapytania ofertowe ze statusem, oraz rozrachunki z przeterminowaniami. Dane wyciągamy kontrolerami dynamicznymi tam, gdzie się da, a rzeczy wychodzące z enovy puszczamy Harmonogramem Zadań na Wasz endpoint HTTPS. Od razu dorzucam monitoring zadań, bo bez niego sukces i cicha awaria wyglądają identycznie. Zadanie, które się nie uruchomiło, i zadanie, które nic nie znalazło, zostawiają ten sam ślad, czyli żaden. To 7 dni roboczych, 430 zł za dzień.
+
+Punkt trzeci, własne kontrolery dla marży i pozostałych danych obiektowych. Statyczne kontrolery C#/.NET osadzone w serwerze WebAPI, z użyciem logiki biznesowej Sonety, wystawiające marżę już przeliczoną. To najbardziej wrażliwa część projektu, bo nie ma tu gotowego szablonu i trzeba wejść w model danych enovy. To 6 dni roboczych, 435 zł za dzień.
+
+Razem 15 dni roboczych i 6500 zł.
+
+Jeśli pasuje Wam takie podejście, zdzwońmy się na 15 minut. Wspólnik zerknie od strony serwera i odpowie na pytania techniczne, których ja nie poruszę.
+
+Pozdrawiam

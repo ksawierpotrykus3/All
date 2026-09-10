@@ -1,0 +1,79 @@
+{
+  "id": "40702981",
+  "url": "https://www.freelancer.pl/projects/ai-chatbot-development/Customer-Support-Automation-40702981/details",
+  "title": "AI Customer Support Automation",
+  "author": "Anonim",
+  "budget": "250.0 - 750.0 USD",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:28:38.927269",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40702981",
+    "url": "https://www.freelancer.pl/projects/ai-chatbot-development/Customer-Support-Automation-40702981/details",
+    "seo_url": "ai-chatbot-development/Customer-Support-Automation-40702981",
+    "title": "AI Customer Support Automation",
+    "budget": "250.0 - 750.0 USD",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I want to automate our first-line customer support so every incoming message on WhatsApp and the web",
+    "category": "automation-ai",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Data Entry",
+      "WordPress",
+      "MySQL",
+      "API",
+      "AI Chatbot Development",
+      "AI Integration",
+      "AI Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 236,
+      "bid_avg": 430.88783898305087
+    },
+    "local": false,
+    "time_submitted": 1789038078
+  },
+  "full_details": {
+    "id": "40702981",
+    "title": "AI Customer Support Automation",
+    "full_description": "I want to automate our first-line customer support so every incoming message on WhatsApp and the website chat widget is routed through an AI that consults our knowledge base and replies instantly.\n\nScope of interactions  \n• Channel flow: Customer → WhatsApp / web chat → AI assistant → updated knowledge base.\n\nWhat the assistant must do  \n• Answer FAQs accurately.  \n• Handle account-level inquiries (e.g., order status, subscription details).  \n• Provide personalised product recommendations that link back to our catalogue.\n\nKnowledge base status  \nAbout 70 % of the material already exists; we will need to audit, clean, and expand it so the AI can retrieve up-to-date answers with full citations.\n\nTechnical expectations  \nThe solution should integrate with the WhatsApp Business API and an embeddable web chat widget, use retrieval-augmented generation (OpenAI, LangChain, Rasa, or a comparable framework) for traceable responses, log every conversation, and include an admin panel where my team can review chats and edit content. Deployment will be on our AWS account; please ship infrastructure-as-code or detailed setup notes so we can reproduce the environment.\n\nAcceptance criteria  \n1. Messages on both channels receive AI responses in under five seconds.  \n2. At least 90 % of test questions are answered correctly, referencing a knowledge-base source.  \n3. Admin panel shows real-time transcripts and allows manual take-over.  \n4. Clear hand-off procedure to human agents for edge cases.  \n5. Comprehensive documentation covering architecture, setup, and future training steps.\n\nIf you have proven experience building chat or WhatsApp AI agents, let’s discuss your approach and timeline.",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Data Entry",
+      "WordPress",
+      "MySQL",
+      "API",
+      "AI Chatbot Development",
+      "AI Integration",
+      "AI Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 236,
+      "bid_avg": 430.88783898305087
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:49"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:49.717464"
+}

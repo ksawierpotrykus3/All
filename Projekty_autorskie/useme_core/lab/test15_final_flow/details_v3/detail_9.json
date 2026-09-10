@@ -1,0 +1,32 @@
+{
+  "index": 9,
+  "offer": {
+    "title": "Stworzenie programu do automatycznego generowania etykiet produktowych z CSV",
+    "url": "https://useme.com/pl/jobs/stworzenie-programu-do-automatycznego-generowania-etykiet-produktowych-z-csv,143267/",
+    "author": "Tegro sp. z o.o.",
+    "offers_count": "35",
+    "expiry": "Znika za 30 dni",
+    "category": "Aplikacje webowe",
+    "budget": "Do negocjacji",
+    "description": "Szukamy osoby, która zaprojektuje i wykona dedykowany program do automatycznego generowania, gotowych do druku, etykiet produktowych oraz oznakowania opakowań zbiorczych na podstawie danych z plików CSV.\n\nProgram ma działać niezależnie od..."
+  },
+  "selection_reason": "Czysta automatyzacja - przetwarzanie plików CSV i generowanie gotowych do druku etykiet to klasyczne zadanie dla Pythona (biblioteki pandas, csv, reportlab). Projekt samodzielny, konkretny zakres, budżet do negocjacji. Idealne dopasowanie do profilu automatyzacji.",
+  "fetch_method": "evaluate+fetch",
+  "fallback_note": "",
+  "raw_html_size": 156124,
+  "detail_parsed": {
+    "status": "ok",
+    "source_url": "https://useme.com/pl/jobs/stworzenie-programu-do-automatycznego-generowania-etykiet-produktowych-z-csv,143267/",
+    "ld_json_types": [
+      "JobPosting"
+    ],
+    "title": "Stworzenie programu do automatycznego generowania etykiet produktowych z CSV",
+    "full_desc": "<p>Szukamy osoby, która zaprojektuje i wykona dedykowany program do automatycznego generowania, gotowych do druku, etykiet produktowych oraz oznakowania opakowań zbiorczych na podstawie danych z plików CSV.</p>\n\n<p>Program ma działać niezależnie od oprogramowania DTP (np. Adobe InDesign) i docelowo obsługiwać różne modele oraz wzory etykiet.</p>\n\n<p>Główne założenia:<br>* import danych produktowych z CSV,<br>* automatyczne rozmieszczanie tekstów, parametrów, norm i piktogramów,<br>* automatyczne dopasowanie tekstu do pól bez ucinania treści,<br>* generowanie gotowych do druku plików PDF,<br>* walidacja danych i wykrywanie błędów przed wygenerowaniem pliku,<br>* seryjne generowanie etykiet dla wszystkich wariantów/rozmiarów z CSV,<br>* możliwość dodawania kolejnych wzorów etykiet poprzez konfigurację/szablon, bez konieczności każdorazowej modyfikacji kodu,<br>* prosty interfejs do wczytania CSV i pobrania wygenerowanych plików.</p>\n\n<p>Zależy nam również na dokumentacji umożliwiającej samodzielne dodawanie kolejnych szablonów oraz możliwości wsparcia powdrożeniowego.</p>\n\n<p>W odpowiedzi proszę o:<br>* orientacyjną wycenę lub estymację godzinową,<br>* proponowaną technologię i sposób realizacji,<br>* przewidywany czas wykonania,<br>* informację o warunkach późniejszego wsparcia.</p>",
+    "budget": "Do negocjacji",
+    "category": "Programowanie i IT",
+    "author": "Tegro sp. z o.o.",
+    "skills": "",
+    "copyright": "",
+    "complete": true
+  }
+}

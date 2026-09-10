@@ -1,0 +1,83 @@
+{
+  "ts_start": "04:39:44.362Z",
+  "steps": [
+    {
+      "step": "wybor_itemu",
+      "elapsed_ms": 0.0,
+      "wall_utc": "04:39:44.364Z"
+    },
+    {
+      "step": "item 9824155323 seller=135841743 'Sukienka niebieska New Look 140'",
+      "elapsed_ms": 453.0,
+      "wall_utc": "04:39:44.825Z"
+    },
+    {
+      "step": "conversations conv=24722456741 txn=21906137817",
+      "elapsed_ms": 1297.0,
+      "wall_utc": "04:39:45.659Z",
+      "http": 200
+    },
+    {
+      "step": "build checkout=None",
+      "elapsed_ms": 1422.0,
+      "wall_utc": "04:39:45.787Z",
+      "http": 403
+    },
+    {
+      "step": "put payment_method",
+      "elapsed_ms": 1531.0,
+      "wall_utc": "04:39:45.893Z",
+      "http": 404,
+      "checksum": false
+    },
+    {
+      "step": "put pickup_details",
+      "elapsed_ms": 1625.0,
+      "wall_utc": "04:39:45.995Z",
+      "http": 404,
+      "checksum": false
+    },
+    {
+      "step": "PAYMENT (BLAD)",
+      "elapsed_ms": 1766.0,
+      "wall_utc": "04:39:46.140Z",
+      "http": 403,
+      "payment_status": null,
+      "redirect": "",
+      "success": false
+    },
+    {
+      "step": "txn status",
+      "elapsed_ms": 1953.0,
+      "wall_utc": "04:39:46.317Z",
+      "txn_status": 1,
+      "status_title": ""
+    },
+    {
+      "step": "start Camoufox do screena bramki",
+      "elapsed_ms": 1953.0,
+      "wall_utc": "04:39:46.317Z"
+    }
+  ],
+  "elapsed": {
+    "to_gateway_ms": null,
+    "txn_status_ms": 1953.0
+  },
+  "item": {
+    "id": 9824155323,
+    "seller": 135841743,
+    "title": "Sukienka niebieska New Look 140",
+    "price": {
+      "amount": "20.0",
+      "currency_code": "PLN"
+    }
+  },
+  "success": false,
+  "txn": {
+    "id": 21906137817,
+    "status": 1,
+    "status_title": "",
+    "purchase_id": null
+  },
+  "screenshot_error": "Page.goto: Protocol error (Page.navigate): Invalid url: \"\"\nCall log:\n  - navigating to \"\", waiting until \"domcontentloaded\"\n"
+}

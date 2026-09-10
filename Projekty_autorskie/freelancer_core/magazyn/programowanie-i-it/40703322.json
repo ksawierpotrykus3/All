@@ -1,0 +1,81 @@
+{
+  "id": "40703322",
+  "url": "https://www.freelancer.pl/projects/web-development/Web-Based-Freight-Logistics-Software/details",
+  "title": "Web-Based Freight Logistics Software",
+  "author": "Anonim",
+  "budget": "250.0 - 750.0 GBP",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.831141",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703322",
+    "url": "https://www.freelancer.pl/projects/web-development/Web-Based-Freight-Logistics-Software/details",
+    "seo_url": "web-development/Web-Based-Freight-Logistics-Software",
+    "title": "Web-Based Freight Logistics Software",
+    "budget": "250.0 - 750.0 GBP",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "GBP",
+    "author": "Anonim",
+    "short_desc": "I'm looking for a web-based software solution to track and plan freight lorry logistics jobs. The so",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "Google Maps API",
+      "UI / User Interface",
+      "Web Development",
+      "Logistics Company",
+      "Reefer Trucking",
+      "User Experience Research",
+      "Route Optimization"
+    ],
+    "bid_stats": {
+      "bid_count": 245,
+      "bid_avg": 581.5020408163265
+    },
+    "local": false,
+    "time_submitted": 1789049132
+  },
+  "full_details": {
+    "id": "40703322",
+    "title": "Web-Based Freight Logistics Software",
+    "full_description": "I'm looking for a web-based software solution to track and plan freight lorry logistics jobs. The software should be designed for manual entry of job information.\n\nKey requirements:\n- Route optimization feature to ensure the most efficient time and cost\n- User-friendly interface for easy manual job input\n\nIdeal Skills and Experience:\n- Proven experience in developing web-based logistics software\n- Expertise in route optimization algorithms\n- Strong UI/UX design skills for intuitive manual entry\n\nPlease provide examples of similar projects and your approach to ensure efficiency in route planning.\n\nhttps://chatgpt.com/share/6aa2afa4-fd54-83ed-8658-72d1eceec26d",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "GBP",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "Google Maps API",
+      "UI / User Interface",
+      "Web Development",
+      "Logistics Company",
+      "Reefer Trucking",
+      "User Experience Research",
+      "Route Optimization"
+    ],
+    "bid_stats": {
+      "bid_count": 245,
+      "bid_avg": 581.5020408163265
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:42"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:42.831706"
+}

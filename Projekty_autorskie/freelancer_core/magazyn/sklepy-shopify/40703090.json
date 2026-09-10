@@ -1,0 +1,75 @@
+{
+  "id": "40703090",
+  "url": "https://www.freelancer.pl/projects/shopify-development/Real-Time-Shopify-Accounting-Sync/details",
+  "title": "Real-Time Shopify Accounting Sync",
+  "author": "Anonim",
+  "budget": "30.0 - 250.0 USD",
+  "category": "sklepy-shopify",
+  "detected_at": "2026-09-10T17:28:38.961316",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703090",
+    "url": "https://www.freelancer.pl/projects/shopify-development/Real-Time-Shopify-Accounting-Sync/details",
+    "seo_url": "shopify-development/Real-Time-Shopify-Accounting-Sync",
+    "title": "Real-Time Shopify Accounting Sync",
+    "budget": "30.0 - 250.0 USD",
+    "budget_raw": {
+      "minimum": 30.0,
+      "maximum": 250.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I need my Shopify store to feed both sales and customer data straight into an accounting platform in",
+    "category": "sklepy-shopify",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Accounting",
+      "Excel",
+      "Software Development",
+      "Microsoft SQL Server",
+      "Shopify Development"
+    ],
+    "bid_stats": {
+      "bid_count": 22,
+      "bid_avg": 148.63636363636363
+    },
+    "local": false,
+    "time_submitted": 1789041127
+  },
+  "full_details": {
+    "id": "40703090",
+    "title": "Real-Time Shopify Accounting Sync",
+    "full_description": "I need my Shopify store to feed both sales and customer data straight into an accounting platform in real-time. I have not committed to QuickBooks, Xero, or FreshBooks yet, so I’m open to whichever of those three you feel will provide the most seamless and reliable integration.\n\nHere’s what I expect:  \n• A bi-directional or one-way connection (whichever is best practice) that pushes every new order, refund, and customer profile from Shopify to the chosen accounting tool within seconds of the event.  \n• Clear mapping of patments, taxes, discounts, payment fees, and any multi-currency amounts so that the books remain balanced automatically.  \n• A straightforward dashboard or log where I can verify that each sync succeeds and can manually re-push a record if something fails.  \n• Written hand-off instructions so I can troubleshoot or extend the setup myself later.\n\nAcceptance criteria: the feed runs for a full business day without manual intervention, all transactions in Shopify match dollar-for-dollar in the accounting software, and new customers appear with complete contact information.\n\nIf you’ve already tackled similar Shopify integrations, especially with QuickBooks, Xero, or FreshBooks, or indian software let me know—your experience there will weigh heavily in my decision.",
+    "budget_raw": {
+      "minimum": 30.0,
+      "maximum": 250.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Accounting",
+      "Excel",
+      "Software Development",
+      "Microsoft SQL Server",
+      "Shopify Development"
+    ],
+    "bid_stats": {
+      "bid_count": 22,
+      "bid_avg": 148.63636363636363
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:51"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:51.825738"
+}

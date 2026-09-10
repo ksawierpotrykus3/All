@@ -1,0 +1,126 @@
+Specjalista AI / Customer Success do obsługi i wdrożeń klientów B2B
+===================================================================
+URL: https://useme.com/pl/jobs/specjalista-ai-customer-success-do-obslugi-i-wdrozen-klientow-b2b,144044/
+
+Zleceniodawca
+headtrippl
+
+Opis
+Szukamy samodzielnej osoby do stałej współpracy przy obsłudze klientów korzystających z rozwijanego przez nas rozwiązania AI dla firm. Praca łączy wsparcie techniczne, kontakt z klientem oraz wdrażanie rozwiązań opartych na AI. Nie szukamy programisty. Zależy nam na osobie, która bardzo dobrze porusza się w narzędziach AI, jest techniczna, potrafi samodzielnie diagnozować problemy i jednocześnie dobrze czuje się w kontakcie z klientem biznesowym.
+
+Główne zadania będą obejmowały pomoc klientom przy instalacji i konfiguracji rozwiązania, wsparcie online, konfigurację środowiska Claude i narzędzi AI oraz prowadzenie wdrożeń. W przypadku części klientów współpraca będzie obejmowała pełniejsze wdrożenie: spotkanie lub warsztat, konfigurację środowiska, instalację dostarczonego przez nas rozwiązania, pomoc w przygotowaniu firmowej bazy wiedzy, konfigurację uzgodnionych integracji oraz przeszkolenie klienta lub jego zespołu. Większość pracy odbywa się zdalnie, ale część wdrożeń może być realizowana bezpośrednio w siedzibach klientów na terenie Polski.
+
+Szukamy osoby do dłuższej współpracy B2B. Na początku będzie to obsługa pierwszych klientów i pojedynczych wdrożeń, a wraz ze wzrostem sprzedaży zakres współpracy będzie się zwiększał.
+
+Opublikowano
+godzinę temu
+
+Kategoria
+Projekty IT
+
+Prawa autorskie
+Bez przeniesienia praw autorskich
+
+Budżet
+Do negocjacji
+
+Ważne przez
+30 dni
+
+Miejsce wykonania::
+Współpraca B2B, głównie zdalna. Okazjonalnie konieczne będą wdrożenia lub warsztaty bezpośrednio w siedzibach klientów na terenie Polski. Z tego względu mile widziane jest prawo jazdy kat. B oraz własny samochód.
+
+Przy zgłoszeniu prosimy o podanie miasta, z którego pracujesz, oraz informacji, czy jesteś dostępny/a również na okazjonalne wyjazdy do klientów.
+
+Wymagane funkcje::
+* bardzo dobra praktyczna znajomość Claude, ChatGPT i innych narzędzi AI,
+* swobodne poruszanie się w aplikacjach i usługach online,
+* umiejętność samodzielnego diagnozowania i rozwiązywania problemów technicznych,
+* dobra komunikacja z klientem biznesowym,
+* umiejętność prowadzenia spotkań, onboardingu i krótkich warsztatów,
+* samodzielność, odpowiedzialność i dobra organizacja pracy,
+* gotowość do okazjonalnych wyjazdów do klientów,
+* mile widziane doświadczenie w customer success, SaaS, automatyzacjach, wdrożeniach IT lub szkoleniach,
+* mile widziane prawo jazdy kat. B i własny samochód.
+
+Ważne: jeżeli w zgłoszeniu powołujesz się na wcześniejsze doświadczenie przy wdrożeniach AI, automatyzacjach, szkoleniach lub projektach dla klientów, musi być ono możliwe do udokumentowania lub zweryfikowania, np. poprzez portfolio, referencje, profil zawodowy, stronę projektu lub inne materiały potwierdzające udział w realizacji.
+
+Wymagane umiejętności / tagi:
+AI, API, CRM, + 15 więcej
+
+Wysłane oferty (4)
+------------------------------
+[TE& Technology_Solutions | 0 umów](https://useme.com/pl/roles/contractor/686958/) - dzisiaj
+  * AI
+  * API
+  * CRM
+  * git
+  * javascript
+  * linux
+  * n8n
+  * Next.js
+  * postgresql
+  * python
+  * React
+  * REST
+  * SaaS
+  * testy automatyczne
+  * typescript
+  * web api
+  * web development
+  * zapier
+
+[Heyneuron.com | 1 umowa](https://useme.com/pl/roles/contractor/148433/) - dzisiaj
+  * AI
+  * Airtable
+  * API
+  * aplikacje webowe
+  * blockchain
+  * CRM
+  * facebook
+  * Facebook Pixel
+  * gmail
+  * google analytics
+  * Google Tag Manager
+  * hubspot
+  * landing page
+  * LANDINGPAGE
+  * marketing internetowy
+  * n8n
+  * Next.js
+  * Nocode
+  * React
+  * strona www
+  * web api
+  * web development
+  * zapier
+
+[KARTS DESIGN | 10 umów](https://useme.com/pl/roles/contractor/113377/) - dzisiaj
+  * adobe illustrator
+  * adobe photoshop
+  * aplikacje mobilne
+  * apps
+  * architektura
+  * banner
+  * fotografia
+  * fotografia biznesowa
+  * fotografia mody
+  * fotografia produktowa
+  * grafika
+  * grafika na stronę
+  * grafika www
+  * identyfikacja wizualna
+  * layout design
+  * logo
+  * plakat
+  * sklep internetowy
+  * strona www
+  * UI
+  * ulotki
+  * user experience design
+  * UX design
+  * web development
+  * wizytówki
+  * wordpress
+
+[Vernex | 0 umów](https://useme.com/pl/roles/contractor/514385/) - dzisiaj

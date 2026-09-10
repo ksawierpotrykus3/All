@@ -1,0 +1,161 @@
+ANALIZA PROJEKTU — POZOSTAŁE ELEMENTY DO ARCHIWIZACJI
+=====================================================
+
+Data: 2 września 2026
+Status: PEŁNA ANALIZA KOMPLETNA
+
+ELEMENTÓW ZIDENTYFIKOWANYCH DO ARCHIWIZACJI: 12 kategorii
+
+PRIORYTET 1 — src/ (Porzucona stara wersja)
+═════════════════════════════════════════════
+Zawiera: bot/, debug/, gui/, shared/, lastz_bot.egg-info/, config.dev.json
+Rozmiar: ~200-300 MB
+Powód: Całkowicie zastąpiony przez mvp/
+Status: 100% bezpieczne do archiwizacji
+Akcja: ARCHIWIOWAĆ TERAZ
+
+PRIORYTET 2 — Cache Directories
+═════════════════════════════════
+.pytest_cache/      (5 plików)     — regeneruj: pytest --tb=no
+.ruff_cache/        (46 plików)    — regeneruj: ruff check
+__pycache__/        (10 plików)    — regeneruj: python -m py_compile
+.uv-cache/          (wiele)        — regeneruj: uv sync
+.uvcache/           (wiele)        — regeneruj: uv sync
+.npm-cache/         (jeśli istnieje) — regeneruj: npm ci
+.hypothesis/        (50+ plików)   — regeneruj: pytest
+
+Rozmiar: ~100-200 MB łącznie
+Powód: Redundantne, mogą być wygenerowane
+Status: 100% bezpieczne do archiwizacji
+Akcja: ARCHIWIOWAĆ TERAZ
+
+PRIORYTET 3 — Katalogi Tymczasowe
+═══════════════════════════════════
+_tmp_pcap/          (128 plików)   — stare pcap z network sniffing
+temp_frames/        (3 pliki)      — tymczasowe frames z testów
+logs/               (11 plików)    — logi runtime'u (duplikaty)
+
+Rozmiar: ~1-5 MB
+Powód: Tymczasowe, już zbędne
+Status: 100% bezpieczne do archiwizacji
+Akcja: ARCHIWIOWAĆ TERAZ
+
+PRIORYTET 4 — Stare Specyfikacje w .kiro/specs/
+═════════════════════════════════════════════════
+.kiro/specs/build-optimization-and-diagnostics/
+.kiro/specs/dev-build-terminal-crash/
+.kiro/specs/macro-hybrid-csharp-python-tests/ (DUŻA!)
+.kiro/specs/macro-hybrid-integration-tests/
+.kiro/specs/symulator-gry-skalowanie-obrazow/
+
+Rozmiar: ~50-100 MB
+Powód: Ukończone/nieaktualne specyfikacje
+Status: Bezpieczne do archiwizacji
+UWAGA: Zachować .kiro/specs/watch-timer-spam-click-efficiency/ (AKTYWNA)
+Akcja: ARCHIWIOWAĆ TERAZ
+
+PRIORYTET 5 — Tools (NIE UŻYWANE W KODZIE)
+═════════════════════════════════════════════
+tools/Interception_installer/      (17 plików)
+tools/MinHook/                      (64 plików)
+
+Rozmiar: ~30-50 MB
+Powód: Nie są importowane w kodzie
+Status: Bezpieczne do archiwizacji (można przywrócić z gita jeśli potrzeba)
+Akcja: ARCHIWIOWAĆ TERAZ
+
+PRIORYTET 6 — MCP Logs
+═════════════════════════
+.playwright-mcp/console-*.log       (1 log)
+
+Rozmiar: <1 MB
+Powód: Stary log
+Status: Bezpieczne do archiwizacji
+Akcja: ARCHIWIOWAĆ
+
+PRIORYTET 7 — Raporty (Opcjonalne)
+═════════════════════════════════════
+raporty/Raport_Audytu_MVP_OCR_Sniffing.md
+raporty/.trae (nieznany plik)
+
+Rozmiar: <1 MB
+Powód: Stare raporty
+Status: Można archiwizować
+Akcja: OPCJONALNIE ARCHIWIOWAĆ
+
+PRIORYTET 8 — Pusty Katalog
+════════════════════════════
+backups/            — pusty katalog
+
+Rozmiar: 0 MB
+Powód: Pusty
+Status: Można usunąć z repo
+Akcja: ROZPATRZEĆ (usunięcie z repo lub archiwiowanie)
+
+CO ZACHOWAĆ (NIE ARCHIWIZOWAĆ)
+═══════════════════════════════════════════════════════════════
+
+✓ mvp/                             — Aktywny kod, testy
+✓ deploy/                          — Docker, instrukcje deploymentu
+✓ docs/                            — Dokumentacja bieżąca
+✓ assets/                          — Zasoby (makra, czcionki)
+✓ data/                            — Dane testowe
+✓ scripts/                         — Narzędzia pomocnicze
+✓ .kiro/specs/watch-timer-spam-click-efficiency/ — AKTYWNA SPEC
+✓ .kiro/ (poza specs)              — Konfiguracja Kiro
+✓ mcp-config/                      — MCP setup
+✓ config.json                      — Konfiguracja produkcyjna
+✓ pyproject.toml                   — Dependencies
+✓ uv.lock                          — Lockfile
+✓ README.md, AGENTS.md             — Dokumentacja
+
+SZACUNKOWE OSZCZĘDNOŚCI
+═════════════════════════════════════════════════════════════════
+
+Rozmiar repo PRZED archiwizacją:   ~1000-1500 MB
+Rozmiar repo PO archiwizacji:      ~150-200 MB
+Zmniejszenie:                       ~85-90%
+
+(Cache i artefakty buildów będą regenerowane na demandzie)
+
+PROCEDURA ARCHIWIZACJI (REKOMENDOWANA KOLEJNOŚĆ)
+════════════════════════════════════════════════════
+
+1. Utwórz nowe archiwum: comprehensive_20260902-131000_PHASE2
+2. Stwórz kategorie: OLD_SRC, OLD_CACHE, OLD_TEMP, OLD_SPECS_ARCHIVED, OLD_TOOLS, OLD_MCP_LOGS, OLD_REPORTS
+3. Archiwizuj w kolejności (dla atomowości):
+   a) src/ → OLD_SRC/
+   b) Cache'e → OLD_CACHE/
+   c) Katalogi tymczasowe → OLD_TEMP/
+   d) Stare specs → OLD_SPECS_ARCHIVED/
+   e) tools/ → OLD_TOOLS/
+   f) MCP logs → OLD_MCP_LOGS/
+   g) Raporty → OLD_REPORTS/
+4. Stwórz INDEX.md z opisem
+5. Commit do git
+
+SZACUNKOWY CZAS ARCHIWIZACJI
+══════════════════════════════
+
+Analiza:        5 minut (już zrobiona)
+Archiwizacja:   10-15 minut (przesunięcie plików)
+Commit:         1-2 minuty
+ŁĄCZNIE:        20-30 minut
+
+UWAGI
+═════════════════════════════════════════════════════════════════
+
+1. Wszystkie elementy są bezpieczne do archiwizacji (nic nie usunięte)
+2. src/ jest całkowicie zastąpiony przez mvp/
+3. Cache'e są automatycznie regenerowalne
+4. tools/ nie są używane w aktualnym kodzie
+5. Stare specs są ukończone i nieaktualne
+6. Archiwizacja zmniejszy repo size o ~85-90%
+
+NASTĘPNE KROKI
+══════════════════════════════════════════════════════════════
+
+1. Zatwierdź rekomendacje
+2. Wykonaj archiwizację FAZY 2
+3. Commit i push do git
+4. Verify workspace jest czysty

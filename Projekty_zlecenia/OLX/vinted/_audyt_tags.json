@@ -1,0 +1,4085 @@
+{
+ "untagged_claims": 597,
+ "unknown_tags": 69,
+ "files_scanned": 73,
+ "per_file_untagged": {
+  "vinted\\testy_camoufox\\docs\\synthesis\\DETEKCJA_STATUS.md": 1,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_BRAMKA_PLATNOSCI_PAYMENT_CONTINUE.md": 1,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_FLOW_ZAPISU_KARTY.md": 1,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_INCOGNIA_NATIVE_VS_WEB.md": 8,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_JAK_APKA_PYTA_BACKEND_CHECKOUT.md": 3,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_MAPA_WYMAGAN_INCOGNIA.md": 2,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_NAGLOWKI_TRUST_BACKEND.md": 5,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_OPTYMALIZACJE_CHECKOUT.md": 3,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_UKRYTE_SCIEZKI.md": 3,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_VINTED_26_33_1.md": 5,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_WYPROWADZALNOSC_ID.md": 3,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_CHECKSUM_DETERMINISTYCZNOSC.md": 4,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_CHECKSUM_ZRODLO_FORMAT.md": 1,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_FINGERPRINT_DATADOME.md": 9,
+  "vinted\\testy_camoufox\\docs\\reports\\analiza_headed_incognia_speed.md": 5,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_LIVE_INCOGNIA_PLAYWRIGHT.md": 3,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_LUK_CURL_CFFI_JS.md": 3,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PRZYSPIESZENIA_CURL_CFFI_2_3S.md": 9,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PURCHASE_ID_ZRODLO.md": 3,
+  "vinted\\testy_camoufox\\docs\\reports\\ARCHITEKTURA_ZAJEB_Z_PRZEGLADARKI.md": 3,
+  "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md": 244,
+  "vinted\\testy_camoufox\\docs\\reports\\ENDPOINTY_TRANSAKCYJNE_I_BUILD_BEZ_STRONY.md": 5,
+  "vinted\\testy_camoufox\\docs\\reports\\PLAN_BADAN_WYDAJNOSC.md": 8,
+  "vinted\\testy_camoufox\\docs\\reports\\PLAN_TESTY_DATADOME.md": 3,
+  "vinted\\testy_camoufox\\docs\\reports\\PLAN_WDROZENIA_CHECKOUT.md": 10,
+  "vinted\\testy_camoufox\\docs\\reports\\RAPORT_FINALNY_curl_cffi_JS_engine_wymagania.md": 5,
+  "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md": 13,
+  "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md": 12,
+  "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md": 18,
+  "vinted\\raporty\\ANALIZA_DOKUMENTACJI_CAMOUFOX.md": 5,
+  "vinted\\raporty\\ANALIZA_NIEPORZADKU_TESTS.md": 2,
+  "vinted\\raporty\\CZEGO_NIE_MAMY.md": 11,
+  "vinted\\raporty\\DZIENNIK_DZIALAN.md": 5,
+  "vinted\\raporty\\KONFRONTACJA_CZEGO_NIE_MAMY.md": 3,
+  "vinted\\raporty\\PLAN_REORGANIZACJI_TESTS.md": 1,
+  "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_4_5.md": 3,
+  "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_CHECKOUT.md": 2,
+  "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_TRANSACTIONS.md": 2,
+  "vinted\\raporty\\WERYFIKACJA_OPTYMALIZACJI_2026_09_02.md": 5,
+  "vinted\\raporty\\WYNIKI_TESTOW_Z_DOWODAMI.md": 7,
+  "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md": 27,
+  "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md": 15,
+  "vinted\\raporty\\02_reverse_engineering\\ANALIZA_AUTORYZACJI_APK_VS_WEB.md": 3,
+  "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_BENCHMARK.md": 4,
+  "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_DATADOME.md": 8,
+  "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_PREWARMING.md": 4,
+  "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_ROWNOWAZNOLEGLOSC.md": 6,
+  "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_SEKWENCJA_APK.md": 6,
+  "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_WALLET_VS_KARTA.md": 2,
+  "vinted\\raporty\\02_reverse_engineering\\DOWODY_INZYNIERIA_VINTED.md": 1,
+  "vinted\\raporty\\02_reverse_engineering\\KOMPENDIUM_ARCHITEKTURY_VINTED.md": 1,
+  "vinted\\raporty\\02_reverse_engineering\\PROFILE_KONFLIKT.md": 1,
+  "vinted\\raporty\\03_weryfikacja\\AUDYT_PRAWDY.md": 9,
+  "vinted\\raporty\\03_weryfikacja\\DZIENNIK_DZIALAN.md": 5,
+  "vinted\\raporty\\03_weryfikacja\\OCENA_WERYFIKACJI.md": 5,
+  "vinted\\raporty\\03_weryfikacja\\WYNIKI_TESTOW_Z_DOWODAMI.md": 7,
+  "vinted\\raporty\\04_niewiadome\\CZEGO_NIE_MAMY.md": 11,
+  "vinted\\raporty\\05_konkurencja\\analiza_kops_gg.md": 4,
+  "vinted\\raporty\\05_konkurencja\\jak_zejsc_ponizej_kopsa.md": 4,
+  "vinted\\raporty\\06_biznes\\odpowiedz_klient_uczciwa.md": 8,
+  "vinted\\raporty\\06_biznes\\wycena_vinted.md": 18,
+  "vinted\\raporty\\09_biezaca_sesja\\RAPORT_STATUS_2026-08-29.md": 9
+ },
+ "per_file_unknown": {
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_JAK_APKA_PYTA_BACKEND_CHECKOUT.md": 1,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_MAPA_WYMAGAN_INCOGNIA.md": 1,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_OPTYMALIZACJE_CHECKOUT.md": 4,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_UKRYTE_SCIEZKI.md": 1,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_WYPROWADZALNOSC_ID.md": 4,
+  "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PRZYSPIESZENIA_CURL_CFFI_2_3S.md": 1,
+  "vinted\\testy_camoufox\\docs\\reports\\ARCHITEKTURA_ZAJEB_Z_PRZEGLADARKI.md": 1,
+  "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md": 24,
+  "vinted\\testy_camoufox\\docs\\reports\\ENDPOINTY_TRANSAKCYJNE_I_BUILD_BEZ_STRONY.md": 1,
+  "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md": 20,
+  "vinted\\raporty\\KONFRONTACJA_CZEGO_NIE_MAMY.md": 1,
+  "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_TRANSACTIONS.md": 2,
+  "vinted\\raporty\\WERYFIKACJA_OPTYMALIZACJI_2026_09_02.md": 2,
+  "vinted\\raporty\\02_reverse_engineering\\ANALIZA_AUTORYZACJI_APK_VS_WEB.md": 4,
+  "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_ROWNOWAZNOLEGLOSC.md": 1,
+  "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_WALLET_VS_KARTA.md": 1
+ },
+ "findings": [
+  {
+   "file": "vinted\\testy_camoufox\\docs\\synthesis\\DETEKCJA_STATUS.md",
+   "line": 32,
+   "text": "3. **Pominięcie DataDome** - [MIT - aktualizacja] od 2026-09-01 ROZWIĄZANE sliderem; nie wymaga stabilnego fingerprintu ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_BRAMKA_PLATNOSCI_PAYMENT_CONTINUE.md",
+   "line": 13,
+   "text": "`POST payments/{purchase_id}/checkout/payment/continue` przyjmuje tylko `purchase_id` + `PaymentRequest` i **NIE wymaga ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_FLOW_ZAPISU_KARTY.md",
+   "line": 17,
+   "text": "Bazowy host: `payments/public/api` (scena central payments — wymaga weryfikacji hosta, najpewniej `api.vinted.pl`).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_INCOGNIA_NATIVE_VS_WEB.md",
+   "line": 28,
+   "text": "**Wniosek:** replikacja tokenu native wymaga odtworzenia obfuskowanego szyfru AES",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_INCOGNIA_NATIVE_VS_WEB.md",
+   "line": 74,
+   "text": "**Realny moduł nie jest czytelny bez deobfuskacji.**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_INCOGNIA_NATIVE_VS_WEB.md",
+   "line": 88,
+   "text": "**Wniosek:** odwzorowanie na czysty Python wymaga rekonstrukcji S-boxów i pełnej",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_INCOGNIA_NATIVE_VS_WEB.md",
+   "line": 93,
+   "text": "## 🌐 Gdzie token jest wysyłany",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_INCOGNIA_NATIVE_VS_WEB.md",
+   "line": 113,
+   "text": "- Nazwa biblioteki jest zaszyfrowana (obfuskowana stała `ad.qf`)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_INCOGNIA_NATIVE_VS_WEB.md",
+   "line": 115,
+   "text": "- Potwierdza, że część logiki (kryptografia / fingerprint) jest poza Dex w `.so`",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_INCOGNIA_NATIVE_VS_WEB.md",
+   "line": 138,
+   "text": "To jest tańszy eksperyment niż odtwarzanie white-box AES.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_INCOGNIA_NATIVE_VS_WEB.md",
+   "line": 140,
+   "text": "i okaże się, że fingerprint device (poza Dex) jest wymagany przez serwer.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_JAK_APKA_PYTA_BACKEND_CHECKOUT.md",
+   "line": 56,
+   "text": "**Brak etapu „sprawdź dostępność\" między weryfikacją a buildem.** `check_availability` (gateway) to **osobny, opcjonalny",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_JAK_APKA_PYTA_BACKEND_CHECKOUT.md",
+   "line": 63,
+   "text": "2. `check_availability` NIE jest częścią ścieżki tworzenia checkoutu — to tylko pre-filter.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_JAK_APKA_PYTA_BACKEND_CHECKOUT.md",
+   "line": 65,
+   "text": "4. Incognia token jest generowany **tylko przed buildem** (krok 3), i tylko gdy feature flag on.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_JAK_APKA_PYTA_BACKEND_CHECKOUT.md",
+   "line": 75,
+   "text": "└─ else ?  generateRequestToken() [Incognia] → POST checkout/build (purchase_items=[{id,type}])",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_MAPA_WYMAGAN_INCOGNIA.md",
+   "line": 11,
+   "text": "**Tylko 2 endpointy wymagają nagłówka `X-Incognia-Request-Token`.** Cała reszta flow checkoutu/płatności chroniona jest ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_MAPA_WYMAGAN_INCOGNIA.md",
+   "line": 34,
+   "text": "{ \"purchaseItems\": [PurchaseItem] }  // PurchaseItem = {id, type}",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_MAPA_WYMAGAN_INCOGNIA.md",
+   "line": 64,
+   "text": "Kluczowe: `secure_3ds_details` ma `@SerializedName` (snake_case) — reszta jest camelCase. To ma znaczenie przy ręcznym b",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_NAGLOWKI_TRUST_BACKEND.md",
+   "line": 58,
+   "text": "**To jest sygnatura, po której backend rozróżnia klienta.** Web nie wysyła `X-Device-UUID`, `X-App-Version`, `X-V-Udt`, ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_NAGLOWKI_TRUST_BACKEND.md",
+   "line": 68,
+   "text": "3. **Sprawdzić, czy X-V-Udt jest powiązany z sesją/cookies** — to jest „device token\" używany do optymalizacji/szybszego",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_NAGLOWKI_TRUST_BACKEND.md",
+   "line": 83,
+   "text": "To **deterministyczny fingerprint urządzenia liczony lokalnie** (MD5 hex lowercase). Nie jest sekretem serwerowym — możn",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_NAGLOWKI_TRUST_BACKEND.md",
+   "line": 92,
+   "text": "To token **wydawany i rotowany przez backend** — nie da się go wyliczyć, trzeba mieć ważny (z sesji/profilu). W przechwy",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_NAGLOWKI_TRUST_BACKEND.md",
+   "line": 97,
+   "text": "- `X-V-Udt`: token serwerowy — **trzeba mieć ważny** (jest w cookies profilu).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_OPTYMALIZACJE_CHECKOUT.md",
+   "line": 110,
+   "text": "### 3.4 Czy Incognia jest wymagana? [UDOWODNIONE — WAŻNE]",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_OPTYMALIZACJE_CHECKOUT.md",
+   "line": 111,
+   "text": "Tak — `X-Incognia-Request-Token` jest wymagany **na buildzie i na payment**. Co kluczowe: **mobile też go wymaga** (nagł",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_OPTYMALIZACJE_CHECKOUT.md",
+   "line": 118,
+   "text": "Skoro token Incognia jest wymagany na buildu i payment, a w naszym kodzie build przechodzi **z pustym tokenem** (`_build",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_OPTYMALIZACJE_CHECKOUT.md",
+   "line": 156,
+   "text": "1. **[WYSOKI]** Pre-warm tokenu Incognia w tle (cache TTL) — przygotuj się na egzekwowanie.",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_OPTYMALIZACJE_CHECKOUT.md",
+   "line": 157,
+   "text": "2. **[WYSOKI]** Pre-filter `check_availability` w pollerze (batch itemIds).",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_OPTYMALIZACJE_CHECKOUT.md",
+   "line": 158,
+   "text": "3. **[WYSOKI]** Test pominięcia `PUT` z pustymi komponentami (build → payment bez PUT).",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_OPTYMALIZACJE_CHECKOUT.md",
+   "line": 159,
+   "text": "4. **[ŚREDNI]** `payment/continue` do retry bez re-buildu.",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_UKRYTE_SCIEZKI.md",
+   "line": 11,
+   "text": "**Nie istnieje ukryty, jednokrokowy ani szybszy skrót zakupowy.** Po przebadaniu wszystkich interfejsów API, ViewModeli,",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_UKRYTE_SCIEZKI.md",
+   "line": 17,
+   "text": "### 2.1 `instant_buy` — to NIE jest endpoint",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_UKRYTE_SCIEZKI.md",
+   "line": 53,
+   "text": "### 3.4 `GET .../checkout/payment_methods` [pomijalny]",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_UKRYTE_SCIEZKI.md",
+   "line": 101,
+   "text": "**Poza tym: flow jest wyczerpany.** Nie ma ukrytej furtki.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_VINTED_26_33_1.md",
+   "line": 10,
+   "text": "## 1. Co to jest za plik",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_VINTED_26_33_1.md",
+   "line": 51,
+   "text": "1. **`X-Incognia-Request-Token` jest wymagany** w `initiateCheckout` → Incognia działa również na mobile (falsyfikuje te",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_VINTED_26_33_1.md",
+   "line": 58,
+   "text": "Wcześniejszy skan stringów wykazał `/v2/purchase` — po dekompilacji okazuje się to **fragment nazwy klasy/URL wewnętrzne",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_VINTED_26_33_1.md",
+   "line": 113,
+   "text": "- **DataDome jest natywnie w apce** (`api-sdk.datadome.co/sdk/`). To falsyfikuje luźną tezę z AGENTS.md „mobile API = lż",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_VINTED_26_33_1.md",
+   "line": 141,
+   "text": "4. **[NAKAZ konfrontacja]** Zaktualizować syntezę o fakt: mobilny DataDome SDK istnieje → teza „lżejszy DataDome na mobi",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_WYPROWADZALNOSC_ID.md",
+   "line": 61,
+   "text": "**`\"item\"` NIE jest poprawnym typem.** To była eksploracyjna próba, nie działający skrót. Poprawny typ do zakupu to wyłą",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_WYPROWADZALNOSC_ID.md",
+   "line": 63,
+   "text": "Pozostałe typy (`push_up`, `closet_promotion`, `direct_donation`, `return_label`) dotyczą innych operacji — **żaden nie ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_WYPROWADZALNOSC_ID.md",
+   "line": 97,
+   "text": "1. **[WYSOKI]** Pre-filter `POST checkout/purchases/check_availability` z batch `itemIds[]` — odfiltruj niedostępne item",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_WYPROWADZALNOSC_ID.md",
+   "line": 98,
+   "text": "2. **[WYSOKI]** Pre-warm `X-Incognia-Request-Token` w tle (cache TTL) — eliminacja subprocesu Node na zakup.",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_WYPROWADZALNOSC_ID.md",
+   "line": 99,
+   "text": "3. **[ŚREDNI]** Pomijalne GET-y: `payment_methods` (znasz `pay_in_method_id`), `pickup_points` (użyj `suggested_shipping",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_WYPROWADZALNOSC_ID.md",
+   "line": 100,
+   "text": "4. **[ŚREDNI]** `payment/continue` do retry bez re-buildu.",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_APK_WYPROWADZALNOSC_ID.md",
+   "line": 103,
+   "text": "**Nie ma drogi do przewidzenia ID.** Sekwencja `conversations → build → PUT → payment` z pobieraniem ID po drodze jest j",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_CHECKSUM_DETERMINISTYCZNOSC.md",
+   "line": 9,
+   "text": "## Werdykt: NIE — checksum jest generowany wyłącznie po stronie backendu",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_CHECKSUM_DETERMINISTYCZNOSC.md",
+   "line": 11,
+   "text": "Sprawdzono wszystkie punkty z planu. Konkluzja jednoznaczna: **checksum nie jest liczony ani po stronie aplikacji (APK),",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_CHECKSUM_DETERMINISTYCZNOSC.md",
+   "line": 35,
+   "text": "`checksum` jest polem **wejściowego obiektu `e`** (czyli odpowiedzi serwera), a nie wyniku żadnej funkcji haszującej. Kl",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_CHECKSUM_DETERMINISTYCZNOSC.md",
+   "line": 52,
+   "text": "Brak emulatora Android, ale **nie jest potrzebna**: skoro checksum nie jest liczony lokalnie (ani w APK, ani w JS), nie ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_CHECKSUM_ZRODLO_FORMAT.md",
+   "line": 36,
+   "text": "Czyli **`GET /api/v2/purchases/{checkout_id}/checkout`** zwraca checksum. To jest darmowe źródło — bez buildu, bez Incog",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_FINGERPRINT_DATADOME.md",
+   "line": 10,
+   "text": "Payment wymaga pełnego fingerprintu DataDome, który obejmuje:",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_FINGERPRINT_DATADOME.md",
+   "line": 31,
+   "text": "**Wniosek:** C++ daje WebGL/Canvas, ale **fingerprint jest inny** niż przeglądarka — DataDome to wykrywa.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_FINGERPRINT_DATADOME.md",
+   "line": 39,
+   "text": "| **rust-headless-chrome** | Sterowanie Chrome | **To nie jest lekki silnik** — to pełna przeglądarka |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_FINGERPRINT_DATADOME.md",
+   "line": 50,
+   "text": "**Wniosek:** Julia nie jest przeznaczona do fingerprintu przeglądarki — brak bibliotek WebGL/Canvas.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_FINGERPRINT_DATADOME.md",
+   "line": 66,
+   "text": "| **Token Incognia** | Node.js (AES-GCM) | ✅ Działa (sekcja 22) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_FINGERPRINT_DATADOME.md",
+   "line": 67,
+   "text": "| **Detekcja** | curl_cffi | ✅ Działa (247 ms/req) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_FINGERPRINT_DATADOME.md",
+   "line": 68,
+   "text": "| **Build** | curl_cffi + cookie jar | ✅ Działa (Faza J) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_FINGERPRINT_DATADOME.md",
+   "line": 71,
+   "text": "**Payment wymaga przeglądarki** — nie da się tego obejść przez C++/Rust/Julia. Lekki silnik JS pozostaje dla tokena Inco",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_FINGERPRINT_DATADOME.md",
+   "line": 83,
+   "text": "To jest **lżejsze** niż pełna przeglądarka, ale **cięższe** niż curl_cffi — wymaga uruchomionej przeglądarki w tle.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\analiza_headed_incognia_speed.md",
+   "line": 15,
+   "text": "| UA | Firefox/152 (Camoufox spoof działa) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\analiza_headed_incognia_speed.md",
+   "line": 22,
+   "text": "- Flaga `headless=False` NIE zmienia zachowania SDK — więc przyczyna nie leży w wykrywaniu headless, a w tym, że SDK Inc",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\analiza_headed_incognia_speed.md",
+   "line": 36,
+   "text": "1. Klik syntetyczny (`el.click()`, `isTrusted: false`, bez `humanize` na tym konkretnym elemencie — `humanize=True` dzia",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\analiza_headed_incognia_speed.md",
+   "line": 37,
+   "text": "2. Frontend Vinted przy \"Kup teraz\" wymaga tokena Incognia; SDK niezaładowane → request `checkout/build` nie został wysł",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\analiza_headed_incognia_speed.md",
+   "line": 38,
+   "text": "3. Wygaszenie sesji (~25 h od weryfikacji) to możliwy czynnik dodatkowy, ale nie konieczny do wytłumaczenia timeoutu — b",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_LIVE_INCOGNIA_PLAYWRIGHT.md",
+   "line": 9,
+   "text": "## 1. Werdykt: Incognia DZIAŁA w czystym Playwright",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_LIVE_INCOGNIA_PLAYWRIGHT.md",
+   "line": 13,
+   "text": "To rozstrzyga wątpliwość z [analiza_headed_incognia_speed.md](file:///f:/PROJEKTY/vinted/vinted/testy_camoufox/docs/repo",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_LIVE_INCOGNIA_PLAYWRIGHT.md",
+   "line": 43,
+   "text": "- Kod `initSdk` jest zminifikowany (tablica `t(1847)`, `t(1259)` itd.) — spójne z obfuskowanym SDK z dekompilacji APK (`",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_LUK_CURL_CFFI_JS.md",
+   "line": 97,
+   "text": "| **Prawdziwe sygnały Incognia** | Zastąpić mocki prawdziwymi: canvas (npm `canvas`), WebGL (npm `canvas` + `gl`), audio",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_LUK_CURL_CFFI_JS.md",
+   "line": 200,
+   "text": "| Obecne rozwiązanie (Camoufox) | Działa, 20s/rezerwacja, 100% pass-rate |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_LUK_CURL_CFFI_JS.md",
+   "line": 243,
+   "text": "**Najlepsza ścieżka:** Użyj Camoufox do checkoutu, curl_cffi do detekcji. To co masz **już działa**.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PRZYSPIESZENIA_CURL_CFFI_2_3S.md",
+   "line": 22,
+   "text": "**Kluczowy wniosek:** `curl_cffi` nie skraca czasów serwerowych Vinted. Usuwa wyłącznie narzut kliencki (handshake TLS, ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PRZYSPIESZENIA_CURL_CFFI_2_3S.md",
+   "line": 50,
+   "text": "Ścieżka zakupowa jest w 100% na `curl_cffi` (impersonacja Firefox 152/135), bez Camoufox w krytycznej ścieżce. Camoufox ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PRZYSPIESZENIA_CURL_CFFI_2_3S.md",
+   "line": 58,
+   "text": "4. [opcjonalnie] _payment                            → status / redirect_url",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PRZYSPIESZENIA_CURL_CFFI_2_3S.md",
+   "line": 130,
+   "text": "**Konsekwencja:** suma serwerowych czasów obowiązkowych kroków do buildu wynosi **~2.7 s minimum**. Żaden klient HTTP ni",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PRZYSPIESZENIA_CURL_CFFI_2_3S.md",
+   "line": 209,
+   "text": "Dla pojedynczego konta obecne `ThreadPoolExecutor` jest wystarczające. `AsyncSession` (`max_clients`) jest zasadne dopie",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PRZYSPIESZENIA_CURL_CFFI_2_3S.md",
+   "line": 221,
+   "text": "## 8. Granice fizyczne — co jest niemożliwe",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PRZYSPIESZENIA_CURL_CFFI_2_3S.md",
+   "line": 234,
+   "text": "1. **`curl_cffi` jest właściwym narzędziem** — dostarcza zarówno zgodność fingerprintu (JA3/JA4/Akamai Firefox 152), jak",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PRZYSPIESZENIA_CURL_CFFI_2_3S.md",
+   "line": 236,
+   "text": "2. **Przedział 2–3 s jest realny, ale wyłącznie jako czas do buildu.** Udowodniony floor ~2.7 s wynika z dwóch serwerowy",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PRZYSPIESZENIA_CURL_CFFI_2_3S.md",
+   "line": 238,
+   "text": "3. **Wąskim gardłem zakupu nie jest transport, lecz obowiązkowa sekwencja serwerowa + DataDome.** Rzeczywisty czas do br",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PRZYSPIESZENIA_CURL_CFFI_2_3S.md",
+   "line": 240,
+   "text": "4. **Pozostały potencjał optymalizacyjny po stronie klienta jest już w dużej mierze wyczerpany** — kod stosuje keep-aliv",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PURCHASE_ID_ZRODLO.md",
+   "line": 11,
+   "text": "**`purchase_id` jest identyfikatorem checkoutu (checkout_id), NIE transakcji.**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PURCHASE_ID_ZRODLO.md",
+   "line": 35,
+   "text": "`checkout.id` = `purchase_id`. To jest **jedyne miejsce, gdzie purchase_id jest tworzony**.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ANALIZA_PURCHASE_ID_ZRODLO.md",
+   "line": 63,
+   "text": "Nie ma alternatywnego źródła. Dla nowego zakupu **build jest obowiązkowy**, bo to jedyny endpoint tworzący checkout (i t",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ARCHITEKTURA_ZAJEB_Z_PRZEGLADARKI.md",
+   "line": 23,
+   "text": "| **Token Incognia** | Node.js (WebCrypto) | AES-GCM z HKDF — działa w Node.js |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ARCHITEKTURA_ZAJEB_Z_PRZEGLADARKI.md",
+   "line": 24,
+   "text": "| **Transport** | curl_cffi (Python) | TLS, HTTP/2 — działa w Pythonie |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ARCHITEKTURA_ZAJEB_Z_PRZEGLADARKI.md",
+   "line": 30,
+   "text": "[Camoufox] → fingerprint DataDome (WebGL, Canvas, AudioContext)",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ARCHITEKTURA_ZAJEB_Z_PRZEGLADARKI.md",
+   "line": 58,
+   "text": "- Python jest naturalny dla curl_cffi (transport)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 90,
+   "text": "a użyciem (headless) jest warunkiem koniecznym.** Uzyskano ją przez `user_data_dir`",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 103,
+   "text": "Wartość tokenu jest **stała** (hardcoded) — nie jest liczona dynamicznie z sesji.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 116,
+   "text": "`500 server_error` przy **bzdurnym ID** jest oczekiwane: serwer przyjął i zweryfikował",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 170,
+   "text": "| Filtr kategorii | NIE działa w API (sztywne 960) — tylko HTML SSR `catalog[]=ID` |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 195,
+   "text": "- **BLIK wymaga ręki (10–20 s)** — eliminuje go jako metodę zakupu < 1 s.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 232,
+   "text": "**Znaczenie dla interpretacji wyniku 500:** nagłówek `X-CSRF-Token` NIE jest jedynym",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 303,
+   "text": "### 3.15 Metody wywołania checkoutu — co działa, a co nie",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 313,
+   "text": "**Wniosek:** `el.click()` jest jedyną i optymalną metodą. Szybsze ścieżki albo gubią Incognia",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 322,
+   "text": "| Detekcja (katalog, `users/current`) | ✅ działa | `curl_cffi` + cookies → 200 |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 323,
+   "text": "| Zakup (`checkout/build`) | ❌ NIE działa | `curl_cffi` + cookies → 403 + interstitial `geo.captcha-delivery.com` |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 325,
+   "text": "**Dlaczego zakup wymaga przeglądarki:** (1) DataDome wiąże sesję transakcyjną z fingerprintem",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 328,
+   "text": "jest wiązany z sesją przeglądarki.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 353,
+   "text": "1. **Token Incognia nie jest jedynym warunkiem.** Nawet ważny, świeżo wygenerowany przez",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 356,
+   "text": "2. **Kopia tokenu z HAR nie działa** w innym środowisku (Playwright, curl_cffi → 403).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 357,
+   "text": "Token JWE jest wiązany z sesją/fingerprintem.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 359,
+   "text": "Camoufox (Firefox) i Playwright (Chromium) zawodzą identycznie. Regresja NIE jest winą",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 361,
+   "text": "4. **Blokada jest czasowa** (zanika po ~1 h, obserwacja poranna) i **endpoint-specyficzna**:",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 370,
+   "text": "jeśli build i tak kończy się 403. Realne przejście wymaga albo (a) odczekania na wygaśnięcie",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 413,
+   "text": "| „Zakup w 0.8 s\" | niemożliwy — samo `checkout/build` wymaga przejścia DataDome + CSRF |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 471,
+   "text": "zmienić przy kolejnym deployu. NIE zweryfikowano cyklu życia tego tokenu.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 529,
+   "text": "| Marka, rozmiar, stan, cena, słowa kluczowe | DZIAŁA w API (zmierzone) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 530,
+   "text": "| Kategoria | NIE działa w API — wymaga parsowania HTML SSR |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 533,
+   "text": "| Wyprzedzenie kopsa w checkoucie | **NIEZMIERZONE** — wymaga prototypu na kontach klienta |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 552,
+   "text": "BLIK). Nie dotyczy Vinted i jest tu odnotowane wyłącznie jako kontekst roboczy.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 572,
+   "text": "dzięki czemu cookie `datadome`/`access_token` jest wiązane z \"tym samym urządzeniem\".",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 619,
+   "text": "3. Zbadać 3DS na zapisanej karcie (wymaga realnego testu płatności — wyższe ryzyko).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 624,
+   "text": "`page.evaluate`; fallback `ctx.request` działa tylko częściowo (run6).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 641,
+   "text": "Przyśpieszenie pojedynczego zakupu **poniżej** progu kopsa (5–6 s) wymaga trwale otwartej,",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 662,
+   "text": "| Metoda wywołania | tylko `el.click()` działa | UDOWODNIONE |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 663,
+   "text": "| Architektura „load once → API\" na zakupie | NIE działa (wymaga przeglądarki) | UDOWODNIONE |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 669,
+   "text": "| Trwałość sesji / bany | sesja wygasa po ~2h, wymaga ręcznego re-logowania | DOMNIEMANE (częściowo potwierdzone) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 722,
+   "text": "**Wniosek inżynierski:** przyśpieszenie poniżej progu kopsa (5-6s) NIE jest osiągalne przy",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 730,
+   "text": "`sub`) — nie da się programowo przywrócić zalogowanej sesji. Wymagane jest ręczne ponowne",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 732,
+   "text": "Google OAuth wymaga interakcji człowieka (CAPTCHA/wybór konta).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 761,
+   "text": "jest mierzalny wyłącznie jako **latencja wewnętrzna** (parse odpowiedzi → callback). Czas od",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 762,
+   "text": "wystawienia oferty jest ograniczony do ≤ 1 interwału pollingu — nieprzekraczalny.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 780,
+   "text": "zalogowanej sesji; anonimowy odczyt `brand_ids` jest odrzucany.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 786,
+   "text": "**Wniosek:** realny pomiar liczbowy detekcji wymaga nowej, ważnej sesji (Google OAuth +",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 799,
+   "text": "i wymaga ręcznego re-logowania — jest **błędne** (dla świeżej, ważnej sesji `refresh_token_web`).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 827,
+   "text": "- **Pierwsze logowanie** (Google OAuth + CAPTCHA) **zawsze wymaga człowieka** — nie da się go",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 829,
+   "text": "dlatego, że profil miał **jeszcze ważną** sesję; teraz, po ~2h, sesja jest martwa.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 835,
+   "text": "**Operacyjnie:** docelowy bot na VPS wymaga raz zalogowanego trwałego profilu, a potem",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 870,
+   "text": "jest spełniony z ogromnym zapasem — wewnętrzne przetwarzanie bota nie jest wąskim gardłem.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 872,
+   "text": "~0.7 s mieści się w tym limicie (jedno żądanie na ~0.7–1 s jest bezpieczne).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 875,
+   "text": "(potwierdzone: <1 ms). Czas „od wystawienia oferty do wykrycia\" jest fizycznie ograniczony",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 876,
+   "text": "przez RTT (~0.7 s) + interwał pollingu (~1 s) → realnie ~1.7–2 s. To jest nieprzekraczalny",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 895,
+   "text": "### 11.2 Interpretacja (dlaczego Faza C jest wykluczona)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 899,
+   "text": "rozstrzyga Fazę C, pochodzi z sekcji 3.14 i jest tu potwierdzony ponownie:",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 904,
+   "text": "3. „Skopiowany token jest wiązany z sesją przeglądarki\" (sekcja 3.14) — nawet gdyby zdobyć",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 952,
+   "text": "Dlaczego SDK Incognia nie ładuje się w headless Camoufox, skoro fingerprint jest realny?",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 984,
+   "text": "1. **SDK Incognia NIE jest wymagane** do przejścia `checkout/build`. Vinted w tej sesji",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 989,
+   "text": "zakupu → zero requestów. `page.click()` wysyła prawdziwy event → flow działa.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 999,
+   "text": "- Czy strona checkout wymaga dodatkowego kroku (wybór metody płatności / adresu) —",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1005,
+   "text": "### 12.5 Faza 2/3/4 — rezerwacja działa, pomiary czasów, dowód trwałości rezerwacji (2026-08-29)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1083,
+   "text": "1. **Rezerwacja jest powtarzalna** w warunkach produkcyjnych (bench v2 — 4/4 sukces),",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1084,
+   "text": "ale **pomiar minimalnego czasu jest zbyt niestabilny** dla spike'ów.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1085,
+   "text": "2. **Cel <3 s jest poza zasięgiem** tej implementacji (Page.click actionability",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1089,
+   "text": "co wymaga natywnego rozszerzenia Firefox), LUB",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1093,
+   "text": "click ~0.5 s przy ciepłym DOM), co **jest porównywalne z kopsem** (klient raportuje",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1138,
+   "text": "retry podnosi to do 100%). Flakiness page.click jest realna, ale retry rozwiązuje.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1140,
+   "text": "rezerwacja jest trwała (min. ~30 min, realnie prawdopodobnie >1 h).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1194,
+   "text": "| GET /api/v2/items/9807925466 | **404** | 93 (endpoint niedostępny z tego URL — pełny URL items/{id} wymaga innego rout",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1198,
+   "text": "Endpoint items wymaga innego routingu (prawdopodobnie `/api/v2/items/{id}?...`).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1237,
+   "text": "- Próg opłacalności: hybryda jest opłacalna od 2 polling req/s (zysk > start Camoufox).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1287,
+   "text": "**`curl_cffi` NIE jest w stanie wykonać checkout/build** w architekturze Vinted.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1306,
+   "text": "- Ograniczenie: checkout/build **zawsze** wymaga przeglądarki (potwierdzone 33 próbami)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1312,
+   "text": "- Endpointy wewnętrzne Vinted (np. graphql zamiast REST) — wymaga MITM na istniejącej sesji",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1379,
+   "text": "| **`incognia`** | **0 plików** | — | **PRZEŁOM — SDK NIE jest w bundle** |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1380,
+   "text": "| **`x-incognia-request-token`** | **0 plików** | — | nagłówek nie jest w żadnym pliku |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1422,
+   "text": "1. **SDK Incognia nie jest w bundle Vinted** — klucz API jest w `__CONFIG__`, ale kod",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1511,
+   "text": "Plik wyjściowy: `k7v3q2_BEAUTIFIED.js`. Po beautify kod jest czytelny (wcięcia 2 spacje), ale nazwy zmiennych pozostają ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1526,
+   "text": "[krypto] HKDF_SALT length: 32 bytes",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1527,
+   "text": "[krypto] HKDF_SALT: L6ZhSbP9TciQDgxC7pjukGhl4vYis56m",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1528,
+   "text": "[krypto] DEFAULT_CONFIG: {flushIntervalMs: 5000, bufferLimit: 50, dispatchRetries: 3, maxDispatchFailures: 3, retryBaseD",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1529,
+   "text": "[sdk] CONSUME_SUFFIX: /v1/consume",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1532,
+   "text": "[deriveAesKey] type: CryptoKey algo: AES-GCM OK",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1533,
+   "text": "[aesGcmEncrypt] plaintext: 27 B  IV||ciphertext: 55 B (12 IV + 43 ct)",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1629,
+   "text": "**[DOMNIEMANE — wymaga weryfikacji serwerowej]** Faza B (sekcja 13.7) wskazywała, że silnik JS jest niewykonalny. Analiz",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1641,
+   "text": "#### A. Replay istniejących sygnałów z HAR [NIETESTOWANE]",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1649,
+   "text": "#### B. Lekki silnik w Node.js (bez pełnej przeglądarki) [NIETESTOWANE]",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1655,
+   "text": "- **collective signals** (snapshot) — wymaga implementacji WebGL canvas, audio fingerprint, screen/permissions, navigato",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1657,
+   "text": "#### C. Weryfikacja serwerowa (najważniejsza do zrobienia) [NIETESTOWANE]",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1695,
+   "text": "**Rekomendacja:** następnym krokiem jest **F8** — wysłanie prawdziwego (odszyfrowanego z HAR) snapshota z nowym `sdkInst",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1700,
+   "text": "**Cel:** pełna inwentaryzacja wiedzy z całego dokumentu z jawnym oznaczeniem wiarygodności każdego faktu. Umożliwia szyb",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1737,
+   "text": "### 15.2 Baza wiedzy DOMNIEMANA (wymaga weryfikacji serwerowej)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1748,
+   "text": "| 8 | WebSocket `?token=JWE` jest krótkotrwały (~5 min) | typowy wzorzec JWE | zmierzyć czas życia tokenu |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1749,
+   "text": "| 9 | DataDome analizuje TLS JA3/JA4 (nie tylko nagłówki) | wykluczenie z 33 prób curl_cffi | wymaga zewnętrznego narzęd",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1751,
+   "text": "| 11 | `anon_id` jest powiązany z `sdkInstanceId` Incognia | typowy wzorzec korelacji | porównać w HAR |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1774,
+   "text": "8. Czy strategia hybrydowa (curl_cffi detekcja + Camoufox checkout) jest wystarczająca? (potwierdzone w 12.8, ale brak s",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1796,
+   "text": "1. **Kryptografia Incognia jest w 100% rozpracowana** (30 faktów UDOWODNIONYCH vs 0 DOMNIEMANYCH w sekcji 14).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1797,
+   "text": "2. **Ścieżka klienta do checkoutu jest w 100% rozpracowana** (fakty 1-6, 24-27 — wszystkie UDOWODNIONE).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1798,
+   "text": "3. **Walidacja serwerowa Incognia jest w 0% rozpracowana** (14 faktów DOMNIEMANYCH vs 0 UDOWODNIONYCH w sekcji 14.9).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1804,
+   "text": "- **Nie zmierzono:** czy `sdkInstanceId` jest podpisany przez serwer.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1805,
+   "text": "- **Nie zmierzono:** czy fingerprint z HAR >7 dni wstecz jest nadal akceptowany.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1822,
+   "text": "1. **Transport TLS** — fingerprint JA3/JA4/Akamai, HTTP/2 settings, custom extensions (delegated credentials, record siz",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1862,
+   "text": "curl_cffi 0.15.0 z parametrami `ja3`, `akamai`, `extra_fp` osiąga **100% match JA3 hash** z Firefox 152 (weryfikowane `s",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1950,
+   "text": "**Weryfikacja**: encrypt → decrypt roundtrip w Node.js **poprawny**. Klucz publiczny RSA nie jest w HAR — endpoint zwrac",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1976,
+   "text": "1. **Podział transport / kryptografia jest wykonalny i czysty** — curl_cffi robi to, w czym jest najlepszy (TLS fingerpr",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1978,
+   "text": "2. **Firefox 152 fingerprint wymaga własnego JA3/Akamai/extra_fp** — wbudowane profile curl_cffi (`firefox133`, `firefox",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1980,
+   "text": "3. **JWE z cchd_config nie zawiera klucza publicznego** — to JWE (RSA-OAEP + A128CBC-HS256), klucz prywatny jest tylko u",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1988,
+   "text": "- Analizować bezpieczeństwo: dlaczego HKDF z stałą solą `\"iid\"` jest słabe, jak rotować `sdkInstanceId`",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 1990,
+   "text": "### 16.8 Granice demonstracji (co NIE jest w tym wektorze)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2023,
+   "text": "2. **Automatyczne odświeżanie tokenów** — Camoufox działa jako daemon co N minut, curl_cffi i Node.js czytają świeże tok",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2132,
+   "text": "| `hybrid_camoufox_refresher.py` | ~12 KB | [GOTOWY] | Camoufox daemon z interceptem |",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2133,
+   "text": "| `hybrid_curl_cffi_poller.py` | ~10 KB | [GOTOWY] | Poller + checkout z auto-wait |",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2134,
+   "text": "| `hybrid_consume_loop.js` | ~8 KB | [GOTOWY] | Node.js consume loop (WebCrypto) |",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2135,
+   "text": "| `hybrid_orchestrator.py` | ~6 KB | [GOTOWY] | Process manager (3 subprocessy) |",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2157,
+   "text": "1. **Architektura hybrydowa jest wykonalna i daje realne zyski** — detekcja 3× szybsza, checkout działa, skalowanie ułat",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2160,
+   "text": "4. **Node.js WebCrypto w pełni zastępuje przeglądarkę dla kryptografii Incognia** — HKDF, AES-GCM, JWE działają identycz",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2176,
+   "text": "- **fingerprint urządzenia** (canvas, WebGL, audio, navigator, screen, permissions, storage, media) — wymaga przeglądark",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2260,
+   "text": "Prawdziwa akceptacja snapshota wymaga obserwacji **efektu końcowego** (czy `checkout/build`",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2277,
+   "text": "2. **Harvest z Camoufox (nie headless Chromium) jest warunkiem spójności** fingerprintu z warstwą TLS.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2281,
+   "text": "więc weryfikacja akceptacji musi opierać się na efekcie końcowym, który z kolei wymaga przeglądarki.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2296,
+   "text": "[Camoufox] → cookies_profil.json (raz, przy setupie / gdy wygasną)",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2297,
+   "text": "[Camoufox] → fingerprint_datadome.json (raz, przy setupie)",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2303,
+   "text": "raz, a `curl_cffi` używa ich wielokrotnie. Payment nie wymaga aktywnej sesji przeglądarki.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2338,
+   "text": "1. **Payment przez curl_cffi jest możliwy** — DataDome nie wymaga aktywnej sesji przeglądarki",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2341,
+   "text": "jest akceptowany przez DataDome (w połączeniu z cookies).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2342,
+   "text": "3. **Token AES-GCM działa** — Node.js generuje token bez przeglądarki, Vinted go akceptuje.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2343,
+   "text": "4. **Camoufox redukowany do setupu** — nie jest potrzebny dla każdego paymentu, tylko do",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2350,
+   "text": "- **Cookies wygasają** — `cookies_profil.json` wymaga odświeżania (przez `export_cookies_json.py`",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2368,
+   "text": "przez `curl_cffi` **nie działa** — `/checkout/build` zwraca 403 DataDome. Payment działa,",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2409,
+   "text": "**Wniosek:** `/checkout/build` jest chroniony przez **behawioralną analizę DataDome** —",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2411,
+   "text": "To wymaga aktywnej sesji przeglądarki z prawdziwą nawigacją.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2416,
+   "text": "[Camoufox] → cookies + fingerprint (raz, przy setupie)",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2418,
+   "text": "[curl_cffi] → /checkout/build → ❌ 403 DataDome (wymaga aktywnej sesji)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2423,
+   "text": "**Praktyczna konsekwencja:** Payment przez curl_cffi działa tylko dla **istniejących checkoutów**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2424,
+   "text": "(utworzonych wcześniej przez Camoufox lub przez frontend). Nie działa dla nowych checkoutów",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2430,
+   "text": "[Camoufox] → build (raz, przy tworzeniu checkoutu) → checkout_id + checksum",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2435,
+   "text": "Camoufox jest niezbędny do **utworzenia** checkoutu, ale nie do **płatności** za niego.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2447,
+   "text": "Użytkownik zasugerował: \"może wymaga raz na jakiś czas warmupu camoufoxem tylko?\" — czyli",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2468,
+   "text": "[Camoufox] → KLIK \"Kup teraz\" → build (200) → checkout_id + checksum",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2473,
+   "text": "**Camoufox jest niezbędny do kliknięcia \"Kup teraz\"** (build), ale nie do płatności.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2480,
+   "text": "**Status: [UDOWODNIONE — PRZEŁOM CZĘŚCIOWY]** `/checkout/build` **działa przez curl_cffi**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2511,
+   "text": "### 28.3 Dlaczego build działa teraz, a nie wcześniej?",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2524,
+   "text": "wymaga wcześniejszego pobrania pickup points i PUT z `rate_uuid`/`point_code`.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2531,
+   "text": "└── działa (flaky, wymaga retry)              └── wymaga pickup_details",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2534,
+   "text": "**Camoufox nie jest wymagany dla build** — wystarczy prawdziwa transakcja przez `/conversations`.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2543,
+   "text": "nadal zwraca 403 nawet z ważnym tokenem. Build wymaga aktywnej sesji przeglądarki.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2568,
+   "text": "[Camoufox] → klik \"Kup teraz\" → build (200) → checkout_id + checksum",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2573,
+   "text": "**Camoufox jest niezbędny do build** (aktywna sesja), ale nie do płatności.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2580,
+   "text": "**Status: [BLOKADA — wymaga ręcznego logowania]** Hybrydowe rozwiązanie (Camoufox build + curl_cffi payment)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2581,
+   "text": "wymaga zalogowanego użytkownika. Cookies z pliku są nieważne (przekierowanie na stronę logowania).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2594,
+   "text": "**Wniosek:** Logowanie wymaga ręcznej interakcji (OAuth z Google/Facebook lub CAPTCHA).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2619,
+   "text": "checkout — co znaczy: warstwa TLS i detekcji jest pokonana, a warstwy DataDome + Incognia blokują.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2638,
+   "text": "| S2 | **Kryptografia Incognia w Node.js WebCrypto** (HKDF/AES-GCM/JWE) | ✅ w pełni | krypto działa, ale nie rozwiązuje ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2641,
+   "text": "| S5 | **Hybryda: Camoufox checkout + curl_cffi detekcja** | ✅ jedyna produkcyjna | checkout zawsze wymaga przeglądarki ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2646,
+   "text": "| S10 | **Trzymaj stronę otwartą + dispatchEvent trusted** (cel <3 s) | ❌ poza curl_cffi | wymaga natywnej injekcji even",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2652,
+   "text": "trustToken). To jest twarda granica architektoniczna, nie luka w implementacji.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2654,
+   "text": "2. **Podział ról jest jednoznaczny:**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2685,
+   "text": "> **⚠️ Uwaga o statusie (aktualizacja):** ta sekcja jest nadpisana przez **Fazę J** (sekcja 20.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2689,
+   "text": "> wymaga tokena Incognia). Kluczową brakującą cegłą okazała się **warstwa biznesowa**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2694,
+   "text": "checkout przez `curl_cffi` + lekki silnik JS **nie jest fundamentalnie niemożliwy**. Analiza dowodów",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2698,
+   "text": "### 20.1 Korekta tezy — gdzie naprawdę jest blokada",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2700,
+   "text": "Dotychczasowa teza („curl_cffi nie przechodzi checkoutu\") jest prawdziwa, ale **przyczynę zawężono",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2709,
+   "text": "Wniosek: **nie kryptografia i nie Incognia, a DataDome** jest blokerem. Dokładniej — DataDome",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2710,
+   "text": "wiązuje cookie `datadome` z konkretnym fingerprintem TLS/JA3-JA4 oraz IP i wymaga rozwiązania",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2714,
+   "text": "### 20.2 Co już jest syntezowalne bez przeglądarki (potwierdzone)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2724,
+   "text": "Czyli cała **warstwa aplikacyjna** żądania checkout/build jest odtworzalna poza przeglądarką,",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2738,
+   "text": "| D | **Synteza `x-incognia-request-token` w Node + cookie z harvestu** | Łączy A i C: cookie DataDome z harvestu + toke",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2758,
+   "text": "### 20.5 Co pozostaje niewiadome (wymaga pomiaru)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2760,
+   "text": "1. **Format `x-incognia-request-token`** — czy jest to AES-GCM (syntezowalny, D) czy JWE",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2761,
+   "text": "(wymaga klucza serwera, niesyntezowalny). Sekcja 16.4.2 sugeruje AES-GCM, ale nie potwierdzono",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2765,
+   "text": "3. **Czy Incognia jest wymagana** dla `checkout/build` w obecnej wersji — sekcja 12.4 pokazała",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2770,
+   "text": "Poprawna kwalifikacja nie brzmi „checkout przez curl_cffi + lekki silnik JS jest niemożliwy\",",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2771,
+   "text": "lecz: **jest wykonalny, jeśli domknie się jedną lukę — ważny cookie DataDome związany z JA3 FF152**.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2783,
+   "text": "- Kluczowe: cookie jest wygenerowany przez stos TLS o JA3 **FF152** — identyczny z tym, który",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2792,
+   "text": "- Build **nie wymaga** `x-incognia-request-token` → lekki silnik JS nie jest tu potrzebny.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2810,
+   "text": "powiązanym JA3**. Wszystko inne (kryptografia, warstwa aplikacyjna, transakcja) działa na",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2820,
+   "text": "| Incognia (build) | nic — build nie wymaga tokena | ✅ bez przeglądarki |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2833,
+   "text": "z przeglądarki (warmup Camoufox) jest w stanie wykonać `checkout/build` i **zarezerwować**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2861,
+   "text": "- **`x-incognia-request-token` NIE jest wysyłany — build działa bez Incognia!**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2872,
+   "text": "(jest w transakcji/rezerwacji) — **pośredni dowód rezerwacji**.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2882,
+   "text": "POST  /purchases/{id}/checkout/payment               → 200 (wymaga checksum + payment_options)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2900,
+   "text": "| Incognia | ❌ blokada | ✅ **build NIE wymaga tokena Incognia** (payment tak) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 2934,
+   "text": "### 20.8 [PRZEŁOM] Skąd pochodzi transaction_id — `POST /api/v2/conversations` z `initiator:\"buy\"` (2026-08-30)",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3011,
+   "text": "- **Rezerwacja (do payment) jest w 100% curl_cffi** — bez lekkiego silnika JS, bez Camoufox na ścieżce krytycznej.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3030,
+   "text": "2. **Rezerwacja itemu przez curl_cffi jest w pełni możliwa BEZ Incognia** — sekwencja: conversations → build → PUT payme",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3041,
+   "text": "Pytanie: czy item, na którym mamy aktywną transakcję (status 200 pending payment), jest zablokowany dla innych użytkowni",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3053,
+   "text": "1. **Rezerwacja (status 200/pending) NIE blokuje itemu publicznie** — item jest widoczny w katalogu, a przycisk „Kup ter",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3054,
+   "text": "2. **`/api/v2/items/{id}` nie jest miarodajny do sprawdzania dostępności** — zawsze 404. Miarodajne: (a) katalog API (`i",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3055,
+   "text": "3. **Dla pollera/bota**: obecność przycisku „Kup teraz” u INNEGO użytkownika NIE gwarantuje, że item nie jest zarezerwow",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3066,
+   "text": "- **LIMITACJA (ważna!)**: intensywne testy zakupowe wyzwalają **soft-ban DataDome na `checkout/build`** — po ~4 udanych ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3074,
+   "text": "1. **Transakcja przez `POST /conversations` (initiator=buy) tworzy trwałą transakcję** (status 1 → 200 → 220), która poz",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3110,
+   "text": "| **`x-incognia-request-token`** | ❌ **NIE** — wymaga klucza publicznego RSA serwera | **JWE, nie AES-GCM** |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3113,
+   "text": "payment — wymaga to klucza publicznego RSA, którego nie mamy. Jedyną ścieżką jest **przeglądarka",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3145,
+   "text": "> \"Klucz publiczny RSA nie jest potrzebny do warstwy biznesowej Incognia. Klucz AES jest wyprowadzany lokalnie z `sdkIns",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3148,
+   "text": "> \"Generowanie `x-incognia-request-token` wymaga klucza sesyjnego z HKDF (sdkInstanceId), a nie klucza z cchd_config.\"",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3183,
+   "text": "| Node.js (HKDF + AES-GCM) | ✅ Token wygenerowany (długość: 40) | Architektura z sekcji 22 działa |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3188,
+   "text": "**Kluczowe:** token AES-GCM z Node.js **przeszedł walidację** — nie ma błędu 401/403 z powodu tokena. Blokada jest na **",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3191,
+   "text": "1. **Architektura z sekcji 22 jest poprawna** — Node.js może generować token Incognia (AES-GCM)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3192,
+   "text": "2. **Payment wymaga cookie jar z Camoufox** — dla DataDome, nie dla Incognia",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3193,
+   "text": "3. **Faza J była precyzyjna** — build działa z cookie jar, payment wymaga więcej (DataDome)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3197,
+   "text": "**Payment nie wymaga przeglądarki dla tokena Incognia (AES-GCM z Node.js), ale wymaga jej dla DataDome (cookie jar).** T",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3217,
+   "text": "Payment wymaga pełnego fingerprintu DataDome (WebGL, Canvas, AudioContext), którego nie da się uzyskać przez curl_cffi +",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3231,
+   "text": "**Payment wymaga przeglądarki dla DataDome, nie dla tokena Incognia.**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3235,
+   "text": "| Token Incognia | Node.js (AES-GCM) | ✅ Działa (sekcja 22) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3236,
+   "text": "| Detekcja | curl_cffi | ✅ Działa (247 ms/req) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3237,
+   "text": "| Build | curl_cffi + cookie jar | ✅ Działa (Faza J) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3274,
+   "text": "1. **Faza M / sekcja 29 jest prawdziwa** — `checkout/build` wymaga Camoufox trusted click.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3277,
+   "text": "3. **`impersonate` nie jest przyczyną** — oba `firefox133` i `chrome146` dają 403.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3278,
+   "text": "4. **Soft-ban nie jest jedynym mechanizmem** — 403 pojawia się od pierwszej próby (nie po ~4",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3318,
+   "text": "**Status: [CZĘŚCIOWO UDOWODNIONE]** — `hybrid_e2e.py`; build 200 + PUT 200 działa,",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3336,
+   "text": "2. **`rate_uuid` NIE jest w elemencie `point`**, tylko w osobnym polu",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3351,
+   "text": "### 31.4 Rozstrzygnięcie: przycisk \"Kup teraz\" jest w DOM, ale `visible=False` po hydratacji",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3362,
+   "text": "`page.click()` czeka na element widoczny → timeout 15 s, mimo że element jest w DOM.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3367,
+   "text": "potwierdzenia w katalogu — `size_title` jest pojedynczą wartością (nie listą wariantów),",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3376,
+   "text": "1. To NIE jest warunek biznesowy ani ukryty przycisk — `visible` zmienia się **między",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3381,
+   "text": "Prawdopodobna przyczyna: element jest poza viewportem, przykryty overlayem, albo",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3386,
+   "text": "sprawdzenie liczby otwartych kart (`ctx.pages`). To jest sedno niezawodności buildu.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3390,
+   "text": "hydratacji\") wymaga rewizji — przynajmniej część \"flaky\" to ukryty przycisk, nie losowa",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3393,
+   "text": "### 31.6 Rozstrzygnięcie flakiness — `evaluate click` działa, build 403 = blokada czasowa (run 2026-08-30 po południu)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3409,
+   "text": "To potwierdza, że 403 nie jest winą `hybrid_e2e.py` ani kliku.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3416,
+   "text": "**natywny `evaluate click` (`b.click()`) jest wymagany** zamiast `page.click()`.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3436,
+   "text": "To koryguje wniosek z sekcji 3.17 pkt 1: token Incognia NIE jest wiązany z przeglądarką",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3441,
+   "text": "(bez Camoufoxa), gdy DataDome nie blokuje. Camoufox jest potrzebny tylko jako rezerwowy",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3472,
+   "text": "2. **`POST /conversations` jest nie do ominięcia.** Frontend (chunk `0~~ak8p40jr.6.js`, `initiateSingleCheckout`)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3479,
+   "text": "5. `x-incognia-request-token` NIE jest wymagany dla build 200 (bench_curl_gateway działał bez niego).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3493,
+   "text": "| `POST /conversations` | **200** (1297 ms) | działa w trakcie blokady |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3495,
+   "text": "| `PUT /purchases/{id}/checkout` | **200** (1273 ms) | **NIE jest blokowany** nawet w trakcie blokady build/payment |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3528,
+   "text": "- Użytkownik deklaruje brak rate limitu u siebie — jesli dziala z tego samego IP, rozbieznosc",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3529,
+   "text": "wymaga wyjasnienia (rozwiązana captcha? inny IP?).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3565,
+   "text": "tokenem — k9T15 403) dostają 403 do resetu okna (~1 h bez build/payment). To jest dokładnie „rate limit\",",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3570,
+   "text": "4. **„Zapisany profil + nowa tożsamość\" NIE pomaga:** limit jest per-IP; dodatkowo wstrzyknięcie cookie",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3596,
+   "text": "pierwszy zakup wymaga builda (raz, tworzy purchase_id).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3598,
+   "text": "**Flow BEZ builda działa w całości (item 9807925466, istniejący purchase_id):**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3611,
+   "text": "2. PUT działa też na transakcji status 220 (`is_reserved: false`) — checkout pozostaje \"żywy\".",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3613,
+   "text": "4. Jedyna bariera na retry: `POST payment` też jest pod DataDome (403 w czasie blokady IP) —",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3622,
+   "text": "### 31.10 BUILD NIE DA SIĘ WYWOŁAĆ Z LISTINGU — build wymaga transaction_id, nie item_id (2026-08-30, analiza frontendu)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3634,
+   "text": "- Ten sam `id` jest potem używany w `navigateToSingleCheckout(id, type, checkout.id)` jako",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3639,
+   "text": "- `useNavigateToCheckout` (moduł 401438/42718) jest używany w 2 kontekstach:",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3675,
+   "text": "### 32.2 Ustalenie kluczowe: cookie DataDome jest przypięte do stacka TLS klienta, który je odebrał",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3680,
+   "text": "`datadome` z przeglądarki Firefoksa.** Cookie wydane przez FF jest związane z **fingerprintem TLS**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3697,
+   "text": "- **Slider nie jest jedyną drogą.** W nowej sesji z trwałym profilem DataDome wydaje czyste cookie",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3706,
+   "text": "### 32.4 Payment MINIMAL jest niemożliwy — pickup point code jest wymagany",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3728,
+   "text": "(status != 200 → powtórz przez APIRequestContext; tam endpoint jest publiczny i przechodzi).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3742,
+   "text": "(Zgodne z skip-build 31.9 — conversations jest pomijane, a nie build.)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3749,
+   "text": "„Dobry\", „Nowy bez metki\"), **nie** status sprzedaży. Filtr `status != \"sold\"` jest więc bezwartościowy",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3756,
+   "text": "- Efekt: run12 wybrał dobry item **za pierwszym razem** (`[OK] item ... ma buttona 'Kup teraz'`),",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3776,
+   "text": "i **nie wymaga merge cookie** (naturalny stack przeglądarki).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3793,
+   "text": "> (rezerwacja już jest); brak screena traktujemy jako wadliwy wynik i wymaga powtórzenia runu.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3800,
+   "text": "Fallback na `ctx.request` jest konieczny w kodzie produkcyjnym.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3802,
+   "text": "bez zapisu JSON, zostaje `parent.lock` w profilu → kolejny start wymaga usunięcia locka.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3844,
+   "text": "Dokument nie jest posortowany numerycznie — sekcje 19–32 powstały równolegle przez różnych",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3876,
+   "text": "| Token Incognia: **JWE** vs **AES-GCM** | 21 vs 22 | **AES-GCM** — klucz wyprowadzany z `sdkInstanceId` przez HKDF, gen",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3878,
+   "text": "| Przyczyna blokady: **TLS/JA3** vs **cookie DataDome** vs **per-IP rate limit** | 3.17 / 31.8 / 32.2 | **Cookie `datado",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3906,
+   "text": "3. **Sekcja 15 (Audyt wiedzy) obejmowała tylko do Fazy F** — finalny audyt jest w 33.3 powyżej.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3965,
+   "text": "build (~1.5 s) + 2× PUT + pickup (~3.4 s) + payment (~2.5 s) ≈ **~10 s**. „1–2 s\" jest osiągalne",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 3970,
+   "text": "Profilowanie przez Playwright MCP potwierdza, że **wąskim gardłem jest serwerowy czas",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4001,
+   "text": "**Teza użytkownika potwierdzona pomiarem:** frontend nie wymaga selektorów ani DOM — cała",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4060,
+   "text": "**34.6.2 Skip-build (V4) obalony — `purchase_id` nie jest zachowane**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4093,
+   "text": "| **Nowy** | `POST /messaging/main/inquiries` | `{item_ids:[itemId], receiver_id}` | `{conversation_id, transaction_id?,",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4096,
+   "text": "**Różnica semantyczna [DOMNIEMANE — wymaga weryfikacji na żywo]:** nowy backend **nie wysyła",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4108,
+   "text": "jest szybszy lub ma inny rate-limit niż `/conversations`, oraz czy w ogóle tworzy transakcję",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4117,
+   "text": "| `/messaging/main/inquiries` (NOWY, `api.vinted.pl`) | `{item_ids:[str], receiver_id:str}` — **oba stringi** (schemat G",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4124,
+   "text": "2. **Schemat typów jest rygorystyczny (Go):** `item_ids` musi być listą **stringów**, `receiver_id`",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4129,
+   "text": "Brak jednoznacznego zysku prędkości; wymaga serii pomiarów z naprzemienną kolejnością, by",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4181,
+   "text": "2. **`curl_cffi` jako ścieżka transakcyjna jest odrzucona** — obcy stack TLS + transfer cookie",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4183,
+   "text": "3. **Pozostały błąd `payment 400 code 114` jest biznesowy**, nie antyscrapingowy: „Użyj innej",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4196,
+   "text": "> curl_cffi **przechodzi** checkout, dopóki reputacja konta/IP nie jest zaniżona serią buildów.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4203,
+   "text": "1. **Blokada NIE jest per-IP w sensie twardym** (jak sugerowała 31.8) — bo telefon na tym samym IP",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4208,
+   "text": "(`curl_cffi` na zapisanych cookies) znów działa.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4209,
+   "text": "3. **`bench_fresh_identity.py` dał `login:0` nie dlatego, że „auth jest nierozdzielnie związany",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4244,
+   "text": "(Wcześniejsza hipoteza „konto oflagowane po stronie providera\" jest obalona tym dowodem.)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4252,
+   "text": "checkoutu. To kwestia kolejności żądań, nie detekcji. Stealth jest domknięty (sekcja 34.9).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4273,
+   "text": "| id | code | nazwa | wymaga karty |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4305,
+   "text": "- Camoufox jest użyty **wyłącznie** do renderowania screena (poza ścieżką krytyczną).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\DOKUMENTACJA_INZYNIERSKA_CAMOUFOX.md",
+   "line": 4310,
+   "text": "1. `PUT payment_method` z kartą (`id=1`) → **400** — karta wymaga najpierw rejestracji karty",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ENDPOINTY_TRANSAKCYJNE_I_BUILD_BEZ_STRONY.md",
+   "line": 16,
+   "text": "| Body | `{\"initiator\":\"buy\",\"item_id\":int,\"opposite_user_id\":int}` | `{\"item_ids\":[str],\"receiver_id\":str}` |",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ENDPOINTY_TRANSAKCYJNE_I_BUILD_BEZ_STRONY.md",
+   "line": 44,
+   "text": "[checkout.py](file:///f:/PROJEKTY/vinted/bot/src/vintedbot/checkout.py#L134-L270) woła `zrealizuj_zakup(o.id, o.seller_i",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ENDPOINTY_TRANSAKCYJNE_I_BUILD_BEZ_STRONY.md",
+   "line": 66,
+   "text": "## 4. Strona checkoutu NIE jest shortcutem",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ENDPOINTY_TRANSAKCYJNE_I_BUILD_BEZ_STRONY.md",
+   "line": 75,
+   "text": "**Wniosek:** dla produkcyjnego wyścigu o ofertę bot przez czyste API (`build → PUT → payment`) jest szybszy i nie potrze",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ENDPOINTY_TRANSAKCYJNE_I_BUILD_BEZ_STRONY.md",
+   "line": 96,
+   "text": "## 7. Co jest potrzebne do payment i skąd wziąć dane BEZ buildu",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\ENDPOINTY_TRANSAKCYJNE_I_BUILD_BEZ_STRONY.md",
+   "line": 145,
+   "text": "1. **`purchase_id` jest `null` dla świeżego itemu.** [checkout_skip_build_new.py](file:///f:/PROJEKTY/vinted/vinted/test",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_BADAN_WYDAJNOSC.md",
+   "line": 26,
+   "text": "stronie klienta. Celem realnym do osiągnięcia jest więc:",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_BADAN_WYDAJNOSC.md",
+   "line": 30,
+   "text": "- **czas do bramki ≈ 7.5 s** dla świeżego itemu — **1–2 s do bramki jest fizycznie nierealne**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_BADAN_WYDAJNOSC.md",
+   "line": 47,
+   "text": "| **H6** | „1–2 s do bramki\" jest osiągalne **tylko** jako (a) czas do buildu, lub (b) pre-warm istniejącej transakcji —",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_BADAN_WYDAJNOSC.md",
+   "line": 84,
+   "text": "dokumentuje, że „1–2 s do bramki\" jest nierealne dla świeżego itemu.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_BADAN_WYDAJNOSC.md",
+   "line": 144,
+   "text": "jest faktem, a nie postulatem.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_BADAN_WYDAJNOSC.md",
+   "line": 152,
+   "text": "`payment`) — ale to nie jest realny scenariusz wyścigu o nową ofertę i zostanie oznaczone jako",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_BADAN_WYDAJNOSC.md",
+   "line": 194,
+   "text": "- **„1–2 s\" jest osiągalne wyłącznie dla detekcji** (328 ms) lub time-to-build na ciepłym połączeniu (~2.7–3.2 s), **NIE",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_BADAN_WYDAJNOSC.md",
+   "line": 233,
+   "text": "2. **Realny czas do bramki to ~10 s**, NIE 1–2 s. „1–2 s\" jest osiągalne wyłącznie dla detekcji",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_TESTY_DATADOME.md",
+   "line": 4,
+   "text": "**Status:** PLAN — do wykonania (wymaga zgody na rezerwacje na żywo)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_TESTY_DATADOME.md",
+   "line": 30,
+   "text": "- **H-E (pre-tokenizacja karty):** `card_registrations` działa w curl_cffi bez tokenu Incognia [UDOWDOWODNIONE w APK] → ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_TESTY_DATADOME.md",
+   "line": 89,
+   "text": "**Następny krok:** wykonanie Testu 1 (wymaga zgody na rezerwacje).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_WDROZENIA_CHECKOUT.md",
+   "line": 15,
+   "text": "| `checkout/build` działa przez `curl_cffi` + cookie jar (bez Incognia) | Faza J | Rezerwacja możliwa bez przeglądarki |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_WDROZENIA_CHECKOUT.md",
+   "line": 17,
+   "text": "| `curl_cffi` przechodzi detekcję (247 ms/req), nie checkout bez cookie jar | Sekcja 12.8/12.9 | Cookie jar z Camoufox j",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_WDROZENIA_CHECKOUT.md",
+   "line": 25,
+   "text": "> \"Klucz publiczny RSA nie jest potrzebny do warstwy biznesowej Incognia. Klucz AES jest wyprowadzany lokalnie z `sdkIns",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_WDROZENIA_CHECKOUT.md",
+   "line": 31,
+   "text": "**Payment wymaga przeglądarki dla DataDome, nie dla tokena Incognia.** Cookie jar z Camoufox wystarcza dla build, ale **",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_WDROZENIA_CHECKOUT.md",
+   "line": 46,
+   "text": "- Dla payment: **Camoufox z CDP** (nie curl_cffi) — wymaga pełnego fingerprintu DataDome.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_WDROZENIA_CHECKOUT.md",
+   "line": 62,
+   "text": "- Dla JWE: `cffi` nie jest używany — JWE wymaga klucza publicznego RSA serwera, którego nie mamy.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_WDROZENIA_CHECKOUT.md",
+   "line": 111,
+   "text": "**Ryzyka:** Token JWE nie działa z `curl_cffi`. **Mitigacja:** test z różnymi wariantami cookie jar.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_WDROZENIA_CHECKOUT.md",
+   "line": 120,
+   "text": "| 3.2 | Test end-to-end: detekcja → rezerwacja → payment | Pełny flow działa |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_WDROZENIA_CHECKOUT.md",
+   "line": 135,
+   "text": "**Ryzyka:** 3DS wymaga interakcji użytkownika. **Mitigacja:** payment kończy się na 3DS redirect, nie na finalizacji.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\PLAN_WDROZENIA_CHECKOUT.md",
+   "line": 145,
+   "text": "| 5.3 | Weryfikacja cookie jar TTL | Odświeżanie co ~4–5 min działa |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_FINALNY_curl_cffi_JS_engine_wymagania.md",
+   "line": 76,
+   "text": "| **DataDome** | **OffscreenCanvas, WebGL, AudioContext, trustToken, behavioral** | ❌ **NIE** — wymaga przeglądarki |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_FINALNY_curl_cffi_JS_engine_wymagania.md",
+   "line": 124,
+   "text": "**Zweryfikowane cross-verified:** Node.js WebCrypto ≡ Python `cryptography` (identyczne klucze/ciphertext).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_FINALNY_curl_cffi_JS_engine_wymagania.md",
+   "line": 173,
+   "text": "**Ważne:** To **NIE jest surowy klucz publiczny RSA** — to zaszyfrowany payload. Klucz prywatny jest tylko u serwera Inc",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_FINALNY_curl_cffi_JS_engine_wymagania.md",
+   "line": 329,
+   "text": "3. **Cross-verified crypto** — Python `cryptography` ≡ Node.js WebCrypto (identyczne wyniki)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_FINALNY_curl_cffi_JS_engine_wymagania.md",
+   "line": 337,
+   "text": "4. **`x-incognia-request-token` Generation** — wymaga uruchomionego SDK z sygnałami",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 148,
+   "text": "// ✅ WSZYSTKO DZIAŁA W NODE.JS (WebCrypto API)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 167,
+   "text": "**Status:** ✅ Zaimplementowane i zweryfikowane cross-verified (Node.js ≡ Python `cryptography`) w Faza G.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 197,
+   "text": "✅ Cross-verified Python ≡ Node.js crypto",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 210,
+   "text": "| **`x-incognia-request-token`** | Generować po snapshot phase (wymaga sygnałów) | Średnia | ⚠️ Tak (gdy mamy sygnały) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 270,
+   "text": "│     ├── trustToken → **TYLKO CHROME**, nie działa w Node/Firefox │",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 340,
+   "text": "2. **Incognia SDK ładuje się z zewnętrznego CDN** — nie jest w bundle Vinted",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 346,
+   "text": "- ✅ **Kryptografia Incognia jest czysta i przenośna** (HKDF, AES-GCM, JWE działają w Node.js)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 348,
+   "text": "- ✅ **Podział transport/kryptografia jest czysty i edukacyjny**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 353,
+   "text": "- ❌ **Incognia SDK wymaga browser environment** — 15+ collectorów używają DOM/API",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 409,
+   "text": "| ✅ **POTRAFI (z Faza G)** | ❌ **NIE POTRAFI (wymaga przeglądarki)** |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 412,
+   "text": "| HTTP/2 + cookie management | Incognia SDK loading z CDN (wymaga window/document/navigator) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 414,
+   "text": "| Cross-verified crypto (Python ≡ Node.js) | Behavioral signals z `isTrusted=true` (mouse, keyboard, scroll, pointer) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\RAPORT_INZYNIERSKI_curl_cffi_JS_engine_luki.md",
+   "line": 428,
+   "text": "- DataDome challenge (wymaga browser GPU/audio API)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md",
+   "line": 12,
+   "text": "Pełny flow (scrapowanie → transakcja → rezerwacja → płatność) jest wykonywalny w **100% przez",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md",
+   "line": 14,
+   "text": "Vinted. **Camoufox nie jest potrzebny w runtime** — ani do scrapowania, ani do kupowania po",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md",
+   "line": 23,
+   "text": "| D3 | Payment przechodzi DataDome, błąd jest biznesowy | `wynik_payment_flow.json` | `payment` 200, `x-datadome:protect",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md",
+   "line": 26,
+   "text": "**Wniosek:** zero kroków w flow wymaga selektorów CSS ani kliknięcia „Kup teraz\". Wybór przedmiotu",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md",
+   "line": 30,
+   "text": "### 1.3 Gdzie naprawdę jest granica (i dlaczego nie jest to „trzeba przeglądarki\")",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md",
+   "line": 39,
+   "text": "To jest wymóg **spójności konfiguracji** (stały `impersonate`, brak rotacji fingerprintów,",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md",
+   "line": 55,
+   "text": "Wymaganie zleceniodawcy jest w pełni osiągalne i już udowodnione:",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md",
+   "line": 68,
+   "text": "- **CO NIE DZIAŁA** [UDOWODNIONE — sekcja 13.7, 32.2]: lekki silnik **nie** symuluje",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md",
+   "line": 104,
+   "text": "(sekcje 31–32) — i w ścieżce bezprzeglądarkowej jest zbędny.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md",
+   "line": 136,
+   "text": "| **S10** | **Fallback awaryjny Camoufox** | tylko na wypadek per-IP soft-banu wymagającego challenge DataDome | ⚠️ awar",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md",
+   "line": 153,
+   "text": "S9**. Żaden krok nie wymaga przeglądarki w runtime; jedyny punkt kontaktu z przeglądarką to",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\testy_camoufox\\docs\\reports\\STRATEGIA_SCRAPOWANIA_WDROZENIE.md",
+   "line": 220,
+   "text": "i płatność — jest w pełni wykonywalny przez `curl_cffi` + lekki silnik JS (Node.js WebCrypto),",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 12,
+   "text": "- **Endpoint katalogu działa**: `GET /api/v2/catalog/items` zwraca JSON, HTTP 200.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 13,
+   "text": "- **Sortowanie działa**: `order=newest_first` / `oldest_first` realnie sortuje po najnowszych/najstarszych.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 18,
+   "text": "- **Filtr kategorii NIE działa w API**: `catalog[]`/`catalog_ids` zwraca sztywne 960 ofert. Kategoria tylko przez HTML S",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 23,
+   "text": "Powtarza się w `05_konkurencja` (2 pliki) i jest zgodna z `06_biznes`:",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 26,
+   "text": "- Pełna szybkość kopsa (Cop Faster + Parallel) jest za planem Pro **€79,99/mc**.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 39,
+   "text": "### Sprzeczność 1 — Czy checkout jest rozpracowany?",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 44,
+   "text": "**Podsumowanie:** status „rozpracowany w 100%\" jest sprzeczny z brakiem realnego przechwycenia checkoutu. To najpoważnie",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 50,
+   "text": "📄 **[DOKUMENTACJA]** Zobacz: `ROZSTRZYGNIECIE_KONFLIKTU_CHECKOUT.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 56,
+   "text": "**Podsumowanie:** research twierdzi, że checkout jest zmierzony; audyt udowadnia, że to fikcja AI. Zostały przeniesione ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 61,
+   "text": "🔬 **[NAKAZ]** Oznaczenie wszystkich AI research jako [NIEPOTWIERDZONY]",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 62,
+   "text": "📄 **[DOKUMENTACJA]** Zobacz: `ROZSTRZYGNIECIE_KONFLIKTU_TRANSACTIONS.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 74,
+   "text": "📄 **[DOKUMENTACJA]** Zobacz: `ROZSTRZYGNIECIE_KONFLIKTU_TEST_ITEMS.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 78,
+   "text": "- `03_weryfikacja/OCENA_WERYFIKACJI.md` uznaje to za **przesadzone** (to nie jest przełom, tylko normalna cecha JSON-a l",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 81,
+   "text": "- `03_weryfikacja/AUDYT_PRAWDY.md` stwierdza: ogólny kierunek (kops wolny przez Discorda i kolejkę) jest prawdziwy, ale ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 101,
+   "text": "Warstwa **detekcji** (katalog, filtry, rate-limit, losowość ID) jest solidnie zmierzona i spójna. Warstwa **zakupu** (ch",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 116,
+   "text": "📄 **[DOKUMENTACJA]** Zobacz: `KONFRONTACJA_CZEGO_NIE_MAMY.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 127,
+   "text": "📄 **[DOKUMENTACJA]** Zobacz: `ANALIZA_DOKUMENTACJI_CAMOUFOX.md` i `SYNTEZA_CAMOUFOX_FIREFOX.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 139,
+   "text": "📄 **[DOKUMENTACJA]** Zobacz: `ANALIZA_INCOGNIA_PLAINTEXT_POZYSKANY.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 149,
+   "text": "📄 **[DOKUMENTACJA]** Zobacz: `ANALIZA_INCOGNIA_PLAINTEXT_POZYSKANY.md` sekcja 6",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 175,
+   "text": "📄 **[DOKUMENTACJA]** Zobacz: `ANALIZA_APK_MAPA_WYMAGAN_INCOGNIA.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 194,
+   "text": "- Endpointy: `POST payments/public/api/card_registrations` (utwórz) → PUT z `token` + `encrypted_card_details` → POST `a",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 198,
+   "text": "**Wniosek:** błąd `payment error 114 \"Purchase card is not valid\"` to najpewniej konsekwencja braku prawdziwej ztokenizo",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 205,
+   "text": "📄 **[DOKUMENTACJA]** Zobacz: `ANALIZA_APK_FLOW_ZAPISU_KARTY.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 219,
+   "text": "📄 **[DOKUMENTACJA]** Zobacz: `ANALIZA_CHECKSUM_ZRODLO_FORMAT.md` i `ANALIZA_CHECKSUM_DETERMINISTYCZNOSC.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 231,
+   "text": "📄 **[DOKUMENTACJA]** Zobacz: `ANALIZA_PURCHASE_ID_ZRODLO.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 240,
+   "text": "✅ **[ZAMKNIĘTY]** Dokładny cennik kops.gg jest **nieistotny** dla rozwoju bota i jego architektury.",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 242,
+   "text": "📄 **[DOKUMENTACJA]** Zobacz: `analiza_kops_gg.md` vs `KOPS_GG_ANALIZA.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 270,
+   "text": "📄 **[DOKUMENTACJA]** `bot/output/rtt_per_page.json`, `bot/output/bench_post_opt.json`, `bot/scripts/pomiar_rtt_per_page.",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 307,
+   "text": "📄 **[DOKUMENTACJA]** `vinted/testy_camoufox/docs/reports/PLAN_TESTY_DATADOME.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 309,
+   "text": "✅ **[STATUS]** DataDome na build ROZWIĄZANY (slider+curl 200) — testy 1-5 mają domknąć determinizm i TTL",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 331,
+   "text": "📄 **[DOKUMENTACJA]** `bot/src/vintedbot/detection.py`, `checkout.py`, `refresh.py`, `walkthrough.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 348,
+   "text": "📄 **[DOKUMENTACJA]** `bot/src/vintedbot/adyen_cse.py`, `card_manager.py`, `incognia.py`, `minimal_checkout_1788180166.js",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 362,
+   "text": "📄 **[DOKUMENTACJA]** `bot/src/vintedbot/json_utils.py`, `bot/tests/test_json_utils.py`, `raport_optymalizacje.md`",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 372,
+   "text": "4. ✅ **\"0 ms decyzja\" jest przesadą** - wymaga parsowania JSON",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 375,
+   "text": "7. ✅ **Dokument inżynierski wymaga integracji** - nie zintegrowany z systemem AGENTS.md",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 454,
+   "text": "- W parametrze `on_early_item` callback zakupu jest wywoływany **natychmiast w locie**, bez konieczności oczekiwania na ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 492,
+   "text": "- **Wniosek:** Krok 2 (`conversations`) stanowi nienaruszalną barierę transakcyjną — `_build` może wystartować dopiero p",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\00_POWTORZENIA_I_SPRZECZNOSCI.md",
+   "line": 506,
+   "text": "- **W stanie Cold Start (puste cache):** Wątek `_get_pickup_point` jest blokowany i musi czekać na zakończenie `_build`,",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ANALIZA_DOKUMENTACJI_CAMOUFOX.md",
+   "line": 9,
+   "text": "4. ✅ **Rozszerzyć badania** - co wymaga weryfikacji",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ANALIZA_DOKUMENTACJI_CAMOUFOX.md",
+   "line": 109,
+   "text": "\"problem\": \"Czy ten endpoint jest faktycznie w captured_requests.json z nagłówkami?\",",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ANALIZA_DOKUMENTACJI_CAMOUFOX.md",
+   "line": 110,
+   "text": "\"nakaz_AGENTS.md\": \"Jeśli brak w captured_requests = wymaga weryfikacji\"",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ANALIZA_DOKUMENTACJI_CAMOUFOX.md",
+   "line": 134,
+   "text": "\"5\": \"checkout/build wymaga type='transaction' a nie 'item'\",",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ANALIZA_DOKUMENTACJI_CAMOUFOX.md",
+   "line": 235,
+   "text": "**ZGODNOŚĆ:** ⚠️ Częściowa - wymaga integracji z systemem syntez i captured_requests.json",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ANALIZA_NIEPORZADKU_TESTS.md",
+   "line": 8,
+   "text": "3. ✅ **Rozszerzyć badania** - sprawdzić co jest używane",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ANALIZA_NIEPORZADKU_TESTS.md",
+   "line": 90,
+   "text": "#### **Sprawdzenie co jest rzeczywiście używane:**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\CZEGO_NIE_MAMY.md",
+   "line": 10,
+   "text": "„Dojść do przycisku Kup teraz na moment przed kliknięciem\" to NIE jest koniec wyścigu. Kliknięcie przycisku uruchamia co",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\CZEGO_NIE_MAMY.md",
+   "line": 24,
+   "text": "| 1 | `GET /api/v2/catalog/items` działa, HTTP 200 | skrypty `testy/probe_api.py` i inne |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\CZEGO_NIE_MAMY.md",
+   "line": 25,
+   "text": "| 2 | `GET /api/v2/catalog/filters` działa, HTTP 200 | skrypty `testy/` |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\CZEGO_NIE_MAMY.md",
+   "line": 31,
+   "text": "| 8 | Kategoria NIE działa w API (śmieciowe 960) — trzeba parsować HTML SSR (`/catalog?catalog[]=ID`) | `testy/probe_kat",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\CZEGO_NIE_MAMY.md",
+   "line": 60,
+   "text": "- Brak danych o przeżywalności kont przy szybkich zakupach. To niewiadoma, której nie da się wywnioskować z kodu — wymag",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\CZEGO_NIE_MAMY.md",
+   "line": 64,
+   "text": "- To jedyna ZMIERZONA odpowiedź endpointu zakupu — i jest to błąd, nie sukces.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\CZEGO_NIE_MAMY.md",
+   "line": 121,
+   "text": "| Endpoint wymaga nagłówków `X-CSRF-Token`, `Authorization: Bearer` itd. | Kod interceptorów w `0c3ke5w13nf6o.js` ustawi",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\CZEGO_NIE_MAMY.md",
+   "line": 133,
+   "text": "To jest przepływ, którego NIE widać w zminifikowanym kodzie — pochodzi z ręcznego przejścia całego procesu w przeglądarc",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\CZEGO_NIE_MAMY.md",
+   "line": 153,
+   "text": "| **BLIK wymaga ręki (10–20 s)** | BLIK to: wpisanie 6-cyfrowego kodu + akceptacja w telefonie. To eliminuje BLIK jako m",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\CZEGO_NIE_MAMY.md",
+   "line": 181,
+   "text": "2. **Wywołać `POST /purchases/checkout/build` z ważną sesją** na własnym przedmiocie testowym i zapisać SUROWĄ odpowiedź",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\CZEGO_NIE_MAMY.md",
+   "line": 182,
+   "text": "3. **Zbadać, czy rezerwacja jest odwracalna** (czy da się ją anulować przed zapłatą) — to rozstrzygnie, czy można „podej",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\DZIENNIK_DZIALAN.md",
+   "line": 15,
+   "text": "- Konto `aneta_003` (id 161574001) — **NIE jest kontem docelowym** (nie należy do zleceniodawcy ani do Weroniki; zostało",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\DZIENNIK_DZIALAN.md",
+   "line": 23,
+   "text": "| 1 | Sesja działa | `GET /api/v2/users/current` | 200, login `weraa13` | odpowiedź JSON |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\DZIENNIK_DZIALAN.md",
+   "line": 44,
+   "text": "- `curl_cffi` — dostępny, działa (używany do bezpiecznych odczytów GET).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\DZIENNIK_DZIALAN.md",
+   "line": 84,
+   "text": "1. **Uruchomić Playwright w trybie HEADED (widoczna przeglądarka), nie headless** — bo headless jest natychmiast wykrywa",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\DZIENNIK_DZIALAN.md",
+   "line": 111,
+   "text": "| „Zakup w 0.8 s\" | Samo `checkout/build` wymaga przejścia DataDome (403) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\KONFRONTACJA_CZEGO_NIE_MAMY.md",
+   "line": 79,
+   "text": "\"status\": \"AI research jest fikcją bez pokrycia w danych\"",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\KONFRONTACJA_CZEGO_NIE_MAMY.md",
+   "line": 85,
+   "text": "# RÓŻNICA: Co jest opisane vs co jest udowodnione",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\KONFRONTACJA_CZEGO_NIE_MAMY.md",
+   "line": 114,
+   "text": "# CEL: Potwierdzić czy analiza kodu z CZEGO_NIE_MAMY.md jest poprawna",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\KONFRONTACJA_CZEGO_NIE_MAMY.md",
+   "line": 139,
+   "text": "3. `testy_camoufox/docs/logs/checkout_test_[date].log` - logi z testów",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\PLAN_REORGANIZACJI_TESTS.md",
+   "line": 135,
+   "text": "1. 🔄 **Testowanie nowej struktury** - czy wszystko działa",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_4_5.md",
+   "line": 25,
+   "text": "3. ❌ **\"0 ms decyzja\" jest przesadą** - wymaga parsowania JSON, walidacji, decyzji",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_4_5.md",
+   "line": 26,
+   "text": "4. ✅ **Interpretacja z 03_weryfikacji jest poprawna** - to nie przełom, tylko normalna cecha API",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_4_5.md",
+   "line": 61,
+   "text": "3. ✅ **Kategoryzacja w AUDYT_PRAWDY.md jest poprawna**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_CHECKOUT.md",
+   "line": 28,
+   "text": "2. ✅ **Deklaracja \"100% zweryfikowany\" jest nieprawdziwa** bez captured_requests",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_CHECKOUT.md",
+   "line": 29,
+   "text": "3. ✅ **Checkout flow jest nieudowodniony** - nigdy nie przechwycono rzeczywistego zakupu",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_TRANSACTIONS.md",
+   "line": 27,
+   "text": "2. ✅ **Research AI jest zmyślony** - nie ma pokrycia w rzeczywistych danych",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_TRANSACTIONS.md",
+   "line": 52,
+   "text": "→ JEŚLI BRAK DOWODÓW → OZNACZ JAKO [NIEPOTWIERDZONY]",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_TRANSACTIONS.md",
+   "line": 53,
+   "text": "→ JEŚLI SPRZECZNE DOWODY → OZNACZ JAKO [ZMYŚLONY]",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\ROZSTRZYGNIECIE_KONFLIKTU_TRANSACTIONS.md",
+   "line": 80,
+   "text": "**STATUS:** Konflikt ROZSTRZYGNIĘTY - research AI jest fikcją",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\WERYFIKACJA_OPTYMALIZACJI_2026_09_02.md",
+   "line": 5,
+   "text": "Status: ✅ O1, O2, O3, O5 wdrożone i zweryfikowane (111/111 testów). O4 — [SPRZECZNOŚĆ] udokumentowana, wymaga rozszerzen",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\WERYFIKACJA_OPTYMALIZACJI_2026_09_02.md",
+   "line": 85,
+   "text": "// komentarz wprost: \"nie JWE, nie wymaga klucza RSA\"",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\WERYFIKACJA_OPTYMALIZACJI_2026_09_02.md",
+   "line": 92,
+   "text": "**Wniosek:** `incognia.py` (generator Node) produkuje token AES-GCM, który NIE jest zgodny z formatem JWE wymaganym prze",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\WERYFIKACJA_OPTYMALIZACJI_2026_09_02.md",
+   "line": 98,
+   "text": "Grep po `bot/src` nie znajduje żadnego źródła `sdk_instance_id` — występuje tylko w skrypcie eksploracyjnym `test_incogn",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\WERYFIKACJA_OPTYMALIZACJI_2026_09_02.md",
+   "line": 100,
+   "text": "### Decyzja [UDOKUMENTOWANA]",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\WERYFIKACJA_OPTYMALIZACJI_2026_09_02.md",
+   "line": 106,
+   "text": "Implementacja O4 wymaga najpierw **[NAKAZ ROZSZERZENIA BADAŃ]** (AGENTS.md): rozstrzygnięcia czy generator AES-GCM jest ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\WERYFIKACJA_OPTYMALIZACJI_2026_09_02.md",
+   "line": 132,
+   "text": "3. O4 jest **blokowane sprzecznością formatu tokenu** — wymaga rozszerzenia badań, nie naiwnej implementacji.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 18,
+   "text": "### Test 1 — Sesja działa",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 35,
+   "text": "- **Wniosek:** parametr `user_id` jest przez API ignorowany (lub ma inne znaczenie). Nie służy do listowania własnych pr",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 61,
+   "text": "**To jest pierwszy twardy dowód w całym projekcie**, że:",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 62,
+   "text": "1. Endpoint `POST /purchases/checkout/build` **istnieje i jest chroniony** (nie zwraca 404 — zwraca 403 DataDome).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 65,
+   "text": "4. `x-datadome: protected` potwierdza, że endpoint transakcyjny jest pod aktywną ochroną DataDome.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 89,
+   "text": "**Najważniejsze odkrycie:** endpoint rezerwacji działa, ale jest w pełni chroniony przez DataDome. Sama sesja (cookies) ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 91,
+   "text": "To też obala wcześniejsze twierdzenia Flasha o „zakupie w 0.8 s\" — bo nawet samo `checkout/build` (pierwszy krok, bez pł",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 11,
+   "text": "1. **API `/api/v2/catalog/items`** — JSON, działa dla: search_text, brand_ids, size_ids, status_ids, price_from/price_to",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 15,
+   "text": "- 5 działa w API (marka, stan, cena, słowa, rozmiar)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 16,
+   "text": "- 1 (kategoria) działa TYLKO przez stronę HTML, nie przez API",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 32,
+   "text": "Metoda: bzdurna wartość parametru. Jeśli filtr działa, bzdurna wartość daje 0 wyników. Jeśli ignorowany, daje 960 (pełny",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 36,
+   "text": "| brand_ids=999999999 | bzdurny | 0 wyników | DZIAŁA |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 37,
+   "text": "| size_ids=999999999 | bzdurny | 0 wyników | DZIAŁA |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 38,
+   "text": "| status_ids=999999999 | bzdurny | 0 wyników | DZIAŁA |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 39,
+   "text": "| search_text=xyzqwerty999 | bzdurny | 0 wyników | DZIAŁA |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 40,
+   "text": "| price_from=1&price_to=2 | realny zakres | first_price=1.0 | DZIAŁA |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 41,
+   "text": "| catalog[]=999999999 | bzdurny | 960 | NIE DZIAŁA w API |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 43,
+   "text": "Dowód marki: brand_ids=53 → 96/96 ofert marki Nike (0 innych). To jest czysty dowód.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 66,
+   "text": "To jest twardy cap Vinted: żadne zapytanie nie zwróci więcej niż 960 ofert.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 68,
+   "text": "### 3b. Sortowanie order — działa (w przeciwieństwie do OLX)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 71,
+   "text": "Na OLX analogiczny parametr sortowania był ignorowany — na Vinted działa poprawnie.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 83,
+   "text": "Wniosek: kategoria działa przez STRONĘ HTML (SSR), nie przez API. Żeby filtrować po kategorii, trzeba scrapować stronę H",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 105,
+   "text": "1. **Cena:** pierwszy test uznał filtr za ignorowany, bo patrzył na markę (babymonster) zamiast na cenę. Poprawna kontro",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 106,
+   "text": "2. **Kategoria:** testowałem złe nazwy parametru (catalog_ids, catalog_id, category_ids). Prawdziwa nazwa to `catalog[]`",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 110,
+   "text": "### Co działa i jak (pewne)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 113,
+   "text": "| Marka | API brand_ids | DZIAŁA |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 114,
+   "text": "| Stan | API status_ids | DZIAŁA |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 115,
+   "text": "| Cena | API price_from/price_to | DZIAŁA |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 116,
+   "text": "| Słowa kluczowe | API search_text | DZIAŁA |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 117,
+   "text": "| Rozmiar | API size_ids | DZIAŁA |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 118,
+   "text": "| Kategoria | STRONA HTML (SSR) + parsowanie flight data | DZIAŁA, inna ścieżka |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 128,
+   "text": "Klient mówi \"kops.gg jest wolny\". Prawdziwe powody wolności publicznego bota:",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 133,
+   "text": "Prywatny bot na VPS wycina Discorda i robi własny polling. To realna przewaga w WYKRYWANIU ofert. Ale checkout jest ogra",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\RAPORT_FINALNY.md",
+   "line": 158,
+   "text": "- `raport_sonda_api.md` — raport wcześniejszy (częściowo nieaktualny, ten plik jest wersją ostateczną)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 8,
+   "text": "(DataDome/Cloudflare) oraz jakie jest realne tempo (rate-limit) do wyceny botów.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 36,
+   "text": "### Działa — 200 OK, pełny JSON",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 60,
+   "text": "- Strona HTML itemu **działa bez blokad** (200, ~1.95 MB HTML, zawiera JSON-LD",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 76,
+   "text": "| Szczegóły oferty (opis, zdjęcia) | ✅ działa | przez HTML strony itemu (JSON-LD), ~1 req/ofertę |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 104,
+   "text": "**`total_entries` jest zawsze 960, niezależnie od filtra.**",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 114,
+   "text": "- To jest punkt, który warto podkreślić klientowi: \"inni\" liczą bazę nie magicznie,",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 118,
+   "text": "Prawidłowy test: bzdurne ID. Jeśli filtr działa, bzdurny ID daje **0** wyników.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 119,
+   "text": "Jeśli filtr jest ignorowany, bzdurny ID daje **960** (pełny, nieprzefiltrowany katalog).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 123,
+   "text": "| `brand_ids=999999999` | 999999999 | **0** | **DZIAŁA** |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 124,
+   "text": "| `size_ids=999999999` | 999999999 | **0** | **DZIAŁA** |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 125,
+   "text": "| `status_ids=999999999` | 999999999 | **0** | **DZIAŁA** |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 126,
+   "text": "| `price_from=1&price_to=2` | — | first_price=1.0 | **DZIAŁA** |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 127,
+   "text": "| `search_text=xyzqwerty999` | — | **0** | **DZIAŁA** |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 138,
+   "text": "dla bzdurnego ID; wymaga dalszego sprawdzenia przed obiecywaniem klientowi.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\01_sonda_api\\raport_sonda_api.md",
+   "line": 147,
+   "text": "- Szczegóły: przez **HTML strony itemu** (`/items/{id}`) z JSON-LD — działa bez blokad,",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\ANALIZA_AUTORYZACJI_APK_VS_WEB.md",
+   "line": 39,
+   "text": "| `User-Agent` | [ApiHeadersInterceptor](file:///f:/PROJEKTY/vinted/vinted/dane/apk/jadx_out/sources/com/vinted/shared/n",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\ANALIZA_AUTORYZACJI_APK_VS_WEB.md",
+   "line": 42,
+   "text": "| `X-Platform` | [HeadersInterceptor](file:///f:/PROJEKTY/vinted/vinted/dane/apk/jadx_out/sources/com/vinted/shared/netw",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\ANALIZA_AUTORYZACJI_APK_VS_WEB.md",
+   "line": 50,
+   "text": "| `X-Device-UUID` | [DeviceFingerprintHeaderInterceptor](file:///f:/PROJEKTY/vinted/vinted/dane/apk/jadx_out/sources/com",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\ANALIZA_AUTORYZACJI_APK_VS_WEB.md",
+   "line": 51,
+   "text": "| `X-Play-Integrity` | [SecurityProtectionInterceptor](file:///f:/PROJEKTY/vinted/vinted/dane/apk/jadx_out/sources/com/v",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\ANALIZA_AUTORYZACJI_APK_VS_WEB.md",
+   "line": 219,
+   "text": "działa po stronie **odpowiedzi** (nie nagłówków żądania):",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\ANALIZA_AUTORYZACJI_APK_VS_WEB.md",
+   "line": 228,
+   "text": "między `SecurityProtectionInterceptor` a `DataDomeInterceptor` — jest to interceptor",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\ANALIZA_AUTORYZACJI_APK_VS_WEB.md",
+   "line": 233,
+   "text": "**tylko** gdy ustawiona jest preferencja `trackerPin` (debug). W produkcji nieobecny.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_BENCHMARK.md",
+   "line": 53,
+   "text": "2. Samo cookie + ważna sesja to **za mało** — prawdopodobnie wymagana jest dodatkowa sygnatura urządzenia (Incognia toke",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_BENCHMARK.md",
+   "line": 60,
+   "text": "- Część \"detekcja\" jest zmierzona i szybka: catalog **406 ms** → item znaleziony.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_BENCHMARK.md",
+   "line": 62,
+   "text": "- Czas conversations (1172 ms) jest już znany i wpada w ścieżkę krytyczną.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_BENCHMARK.md",
+   "line": 85,
+   "text": "2. Czy `build` wymaga wcześniejszego wejścia na stronę checkoutu (prefetch `X-DD-B` przez JS)? → nast. test: `page.goto`",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_DATADOME.md",
+   "line": 25,
+   "text": "- Dla nas oznacza to: **web może być \"lżejszy\"** (SDK natywny może wymagać więcej sygnatur urządzenia niż web), ale blok",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_DATADOME.md",
+   "line": 80,
+   "text": "- **Uwaga:** po odrzuceniu H1 i H2, najbardziej prawdopodobne jest, że DataDome na build **zawsze** wymaga rozwiązania c",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_DATADOME.md",
+   "line": 91,
+   "text": "- Konsekwencja: tokenizacja karty musi iść przez **webowy flow** (nieznany) albo przez APK gateway (wymaga odtworzenia b",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_DATADOME.md",
+   "line": 98,
+   "text": "- Potwierdza [CHECKOUT_KONFLIKTY.md](../../testy_camoufox/docs/synthesis/CHECKOUT_KONFLIKTY.md): DataDome na checkout — ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_DATADOME.md",
+   "line": 126,
+   "text": "- **403 na build = profil wymaga rozwiązania captcha slider (raz).** Po rozwiązaniu cookie DataDome jest \"czyste\" i buil",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_DATADOME.md",
+   "line": 127,
+   "text": "- Token Incognia **nie jest wymagany** przy build (potwierdza to też odrzucenie H1 — token nie pomaga ani nie szkodzi).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_DATADOME.md",
+   "line": 128,
+   "text": "- Bloker **NIE jest nierozwiązany** — istnieje działający solver slidera w `slider_solver.py`.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_DATADOME.md",
+   "line": 132,
+   "text": "2. Jeśli tak — problem \"DataDome 403\" jest **rozwiązany** (slider solver działa), a projekt może iść do pomiaru payment/",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_PREWARMING.md",
+   "line": 9,
+   "text": "## 1. PRE-WARMING KARTY — czy token jest wielokrotnego użytku?",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_PREWARMING.md",
+   "line": 19,
+   "text": "**Wniosek:** sam zaszyfrowany blok karty (JWE Adyen) nie może być użyty wielokrotnie — flaga `singleUseCard` jest jawnie",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_PREWARMING.md",
+   "line": 21,
+   "text": "### [DOMNIEMANE — wymaga testu na żywo] Access key (POST card_registrations) NIE musi być single-use",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_PREWARMING.md",
+   "line": 24,
+   "text": "- Pytanie otwarte: czy **jeden** access_key może posłużyć do zaszyfrowania karty **wielokrotnie** (różne szyfrogramy, bo",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_ROWNOWAZNOLEGLOSC.md",
+   "line": 8,
+   "text": "## 1. ZALEŻNOŚCI DANYCH (co wymaga czego)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_ROWNOWAZNOLEGLOSC.md",
+   "line": 23,
+   "text": "- **Wniosek 2:** `access_key` z `POST card_registrations` jest potrzebny ZANIM zaczniemy szyfrować — ale szyfrowanie jes",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_ROWNOWAZNOLEGLOSC.md",
+   "line": 34,
+   "text": "- **Wniosek:** CVV stored card **zależy od checkoutu** (init data z backendu). Nie da się pre-warmować w pełni — ale sam",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_ROWNOWAZNOLEGLOSC.md",
+   "line": 58,
+   "text": "- `PaymentOptions` przy nowej karcie zawiera `encryptedCardDetails` (Adyen CSE) → wymaga ukończenia wątku B krok 2.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_ROWNOWAZNOLEGLOSC.md",
+   "line": 75,
+   "text": "- gdy płatność wymaga ponownego CVV, Vinted używa PayRails do zaszyfrowania tylko CVV (szybciej niż pełne Adyen CSE).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_ROWNOWAZNOLEGLOSC.md",
+   "line": 86,
+   "text": "1. ~~Czy `POST card_registrations` wymaga Incognia token?~~ **[ROZSTRZYGNIĘTE]** NIE. [CardRegistrationsCentralApi.java]",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_ROWNOWAZNOLEGLOSC.md",
+   "line": 103,
+   "text": "**Wniosek:** card_registrations jest **lżejszą ścieżką niż checkout/build** — nie wymaga tokenu Incognia. To zwiększa sz",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_SEKWENCJA_APK.md",
+   "line": 72,
+   "text": "- **Tokenizacja karty (card_registrations)** — **niezależna** od kroków 2-6. Access key nie wymaga purchase_id.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_SEKWENCJA_APK.md",
+   "line": 81,
+   "text": "2. **Payment nie zaczyna się od razu** — między build a payment jest interakcja UI (PUT checkout), więc build można zrob",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_SEKWENCJA_APK.md",
+   "line": 82,
+   "text": "3. **`check_availability` to osobny gateway** (`checkout/purchases/check_availability`) — najszybsza droga do poznania c",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_SEKWENCJA_APK.md",
+   "line": 84,
+   "text": "5. **checksum jest generowany po stronie backendu** — przychodzi w `PaymentInitiationData` (setupInitiatePaymentData), j",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_SEKWENCJA_APK.md",
+   "line": 86,
+   "text": "### [DOMNIEMANE — wymaga weryfikacji]",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_SEKWENCJA_APK.md",
+   "line": 88,
+   "text": "- Czy token Adyen (card_registration) jest wielokrotnego użytku? (pre-warm raz, użyj wiele razy)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_WALLET_VS_KARTA.md",
+   "line": 26,
+   "text": "Z [handlePaymentDataResponse](file:///f:/PROJEKTY/vinted/vinted/dane/apk/jadx_out/sources/com/vinted/feature/payments/Pa",
+   "reason": "unknown_tag"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_WALLET_VS_KARTA.md",
+   "line": 71,
+   "text": "- Wallet jest akceptowany tylko gdy saldo ≥ cena (weryfikacja po stronie backendu — brak lokalnej kontroli w APK).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\CHECKOUT_WALLET_VS_KARTA.md",
+   "line": 73,
+   "text": "- Jeśli saldo nie wystarcza, Vinted i tak użyje karty — różnica jest czysto proceduralna po stronie backendu.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\DOWODY_INZYNIERIA_VINTED.md",
+   "line": 59,
+   "text": "* **Wniosek:** Endpoint **istnieje i działa**, a blokada 403 pochodzi wprost z silnika **DataDome WAF** (`geo.captcha-de",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\KOMPENDIUM_ARCHITEKTURY_VINTED.md",
+   "line": 94,
+   "text": "* Endpoint `POST /purchases/checkout/build` jest chroniony przez reguły behawioralne DataDome (`geo.captcha-delivery.com",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\02_reverse_engineering\\PROFILE_KONFLIKT.md",
+   "line": 27,
+   "text": "### Build=200 działa TYLKO na `profil_firefox_135`:",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\AUDYT_PRAWDY.md",
+   "line": 1,
+   "text": "# AUDYT PRAWDY — co jest zmierzone, a co zmyślone w materiałach Vinted",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\AUDYT_PRAWDY.md",
+   "line": 14,
+   "text": "Odpowiedź na pytanie \"czy Gemini pierdoli\": **częściowo tak**. Jego ogólny kierunek (kops wolny przez Discorda + kolejkę",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\AUDYT_PRAWDY.md",
+   "line": 24,
+   "text": "| A1 | Endpoint katalogu `GET /api/v2/catalog/items` działa i zwraca JSON | raport_sonda_api.md, probe_api.py |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\AUDYT_PRAWDY.md",
+   "line": 27,
+   "text": "| A4 | Filtr kategorii NIE działa w API (zwraca sztywne 960) | RAPORT_FINALNY.md (catalog[]=2954 → 960) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\AUDYT_PRAWDY.md",
+   "line": 67,
+   "text": "logi. **Zero** endpointów transakcyjnych. To znaczy: na dzień dzisiejszy checkout Vinted jest dla nas",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\AUDYT_PRAWDY.md",
+   "line": 68,
+   "text": "**całkowicie niezmapowany** — i to jest dokładnie to, co RAPORT_FINALNY pisze uczciwie jako \"muszę zmierzyć\".",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\AUDYT_PRAWDY.md",
+   "line": 90,
+   "text": "twardy dowód, że sortowanie po najnowszych DZIAŁA (zmierzone). ID są losowe, więc trik z predykcją ID",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\AUDYT_PRAWDY.md",
+   "line": 97,
+   "text": "nie jest zmapowany, więc każda konkretna liczba (\"<1s\") to teraz wróżenie, nie inżynieria.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\AUDYT_PRAWDY.md",
+   "line": 99,
+   "text": "> Co jest do zrobienia?",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\DZIENNIK_DZIALAN.md",
+   "line": 15,
+   "text": "- Konto `konto_B` (id 222222222) — **NIE jest kontem docelowym** (nie należy do zleceniodawcy ani do właścicielka konta ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\DZIENNIK_DZIALAN.md",
+   "line": 23,
+   "text": "| 1 | Sesja działa | `GET /api/v2/users/current` | 200, login `konto_A` | odpowiedź JSON |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\DZIENNIK_DZIALAN.md",
+   "line": 44,
+   "text": "- `curl_cffi` — dostępny, działa (używany do bezpiecznych odczytów GET).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\DZIENNIK_DZIALAN.md",
+   "line": 84,
+   "text": "1. **Uruchomić Playwright w trybie HEADED (widoczna przeglądarka), nie headless** — bo headless jest natychmiast wykrywa",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\DZIENNIK_DZIALAN.md",
+   "line": 111,
+   "text": "| „Zakup w 0.8 s\" | Samo `checkout/build` wymaga przejścia DataDome (403) |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\OCENA_WERYFIKACJI.md",
+   "line": 13,
+   "text": "| `GET /api/v2/catalog/items` działa | skrypty `testy/probe_api.py` i inne, status HTTP 200 | POTWIERDZONE |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\OCENA_WERYFIKACJI.md",
+   "line": 14,
+   "text": "| `GET /api/v2/catalog/filters` działa | skrypty `testy/`, status HTTP 200 | POTWIERDZONE |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\OCENA_WERYFIKACJI.md",
+   "line": 26,
+   "text": "| `vinted_real_endpoints.json` zawiera odkryte endpointy | plik jest pusty (`[]`) | FAŁSZ |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\OCENA_WERYFIKACJI.md",
+   "line": 28,
+   "text": "| „Decyzja o zakupie w 0 ms\" jako przełom inżynierski | to banalna obserwacja, że katalog już zawiera wszystkie dane ofe",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\OCENA_WERYFIKACJI.md",
+   "line": 51,
+   "text": "Praca Flasha jest w części prawdziwa (katalog, filtry, struktura danych, obecność DataDome), ale jej najważniejsze twier",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 18,
+   "text": "### Test 1 — Sesja działa",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 35,
+   "text": "- **Wniosek:** parametr `user_id` jest przez API ignorowany (lub ma inne znaczenie). Nie służy do listowania własnych pr",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 61,
+   "text": "**To jest pierwszy twardy dowód w całym projekcie**, że:",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 62,
+   "text": "1. Endpoint `POST /purchases/checkout/build` **istnieje i jest chroniony** (nie zwraca 404 — zwraca 403 DataDome).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 65,
+   "text": "4. `x-datadome: protected` potwierdza, że endpoint transakcyjny jest pod aktywną ochroną DataDome.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 89,
+   "text": "**Najważniejsze odkrycie:** endpoint rezerwacji działa, ale jest w pełni chroniony przez DataDome. Sama sesja (cookies) ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\03_weryfikacja\\WYNIKI_TESTOW_Z_DOWODAMI.md",
+   "line": 91,
+   "text": "To też obala wcześniejsze twierdzenia Flasha o „zakupie w 0.8 s\" — bo nawet samo `checkout/build` (pierwszy krok, bez pł",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\04_niewiadome\\CZEGO_NIE_MAMY.md",
+   "line": 10,
+   "text": "„Dojść do przycisku Kup teraz na moment przed kliknięciem\" to NIE jest koniec wyścigu. Kliknięcie przycisku uruchamia co",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\04_niewiadome\\CZEGO_NIE_MAMY.md",
+   "line": 24,
+   "text": "| 1 | `GET /api/v2/catalog/items` działa, HTTP 200 | skrypty `testy/probe_api.py` i inne |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\04_niewiadome\\CZEGO_NIE_MAMY.md",
+   "line": 25,
+   "text": "| 2 | `GET /api/v2/catalog/filters` działa, HTTP 200 | skrypty `testy/` |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\04_niewiadome\\CZEGO_NIE_MAMY.md",
+   "line": 31,
+   "text": "| 8 | Kategoria NIE działa w API (śmieciowe 960) — trzeba parsować HTML SSR (`/catalog?catalog[]=ID`) | `testy/probe_kat",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\04_niewiadome\\CZEGO_NIE_MAMY.md",
+   "line": 54,
+   "text": "- Brak danych o przeżywalności kont przy szybkich zakupach. To niewiadoma, której nie da się wywnioskować z kodu — wymag",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\04_niewiadome\\CZEGO_NIE_MAMY.md",
+   "line": 58,
+   "text": "- To jedyna ZMIERZONA odpowiedź endpointu zakupu — i jest to błąd, nie sukces.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\04_niewiadome\\CZEGO_NIE_MAMY.md",
+   "line": 115,
+   "text": "| Endpoint wymaga nagłówków `X-CSRF-Token`, `Authorization: Bearer` itd. | Kod interceptorów w `0c3ke5w13nf6o.js` ustawi",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\04_niewiadome\\CZEGO_NIE_MAMY.md",
+   "line": 127,
+   "text": "To jest przepływ, którego NIE widać w zminifikowanym kodzie — pochodzi z ręcznego przejścia całego procesu w przeglądarc",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\04_niewiadome\\CZEGO_NIE_MAMY.md",
+   "line": 147,
+   "text": "| **BLIK wymaga ręki (10–20 s)** | BLIK to: wpisanie 6-cyfrowego kodu + akceptacja w telefonie. To eliminuje BLIK jako m",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\04_niewiadome\\CZEGO_NIE_MAMY.md",
+   "line": 175,
+   "text": "2. **Wywołać `POST /purchases/checkout/build` z ważną sesją** na własnym przedmiocie testowym i zapisać SUROWĄ odpowiedź",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\04_niewiadome\\CZEGO_NIE_MAMY.md",
+   "line": 176,
+   "text": "3. **Zbadać, czy rezerwacja jest odwracalna** (czy da się ją anulować przed zapłatą) — to rozstrzygnie, czy można „podej",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\05_konkurencja\\analiza_kops_gg.md",
+   "line": 6,
+   "text": "## Czym jest kops.gg",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\05_konkurencja\\analiza_kops_gg.md",
+   "line": 20,
+   "text": "3-dniowy trial na Starter (wymaga karty).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\05_konkurencja\\analiza_kops_gg.md",
+   "line": 31,
+   "text": "## JAK TECHNICZNIE DZIAŁA \"SZYBKOŚĆ\" kopsa",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\05_konkurencja\\analiza_kops_gg.md",
+   "line": 81,
+   "text": "Klient mówi \"kops.gg jest wolny\". Prawdziwy powód: kops realnie robi ~2.3s (nie deklarowane <1s), a pełna szybkość (Cop ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\05_konkurencja\\jak_zejsc_ponizej_kopsa.md",
+   "line": 60,
+   "text": "4. **Karta bez 3DS** — eliminuje cały krok autoryzacji (OTP/strona banku). To jest największy pojedynczy zysk w checkouc",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\05_konkurencja\\jak_zejsc_ponizej_kopsa.md",
+   "line": 62,
+   "text": "6. **Własny mostek 3DS bez reloadu strony** (tak jak kops w v1.8) — gdy 3DS jest wymagane.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\05_konkurencja\\jak_zejsc_ponizej_kopsa.md",
+   "line": 70,
+   "text": "## REALNE LATENCJE NA RYNKU (co jest osiągalne)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\05_konkurencja\\jak_zejsc_ponizej_kopsa.md",
+   "line": 103,
+   "text": "- Że limit Vinted ~1 req/s jest twardy",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\odpowiedz_klient_uczciwa.md",
+   "line": 11,
+   "text": "Zanim cokolwiek wycenię, chcę Ci pokazać, co ustaliłem na żywo na API Vinted, bo część rzeczy z Twojej wiadomości wymaga",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\odpowiedz_klient_uczciwa.md",
+   "line": 15,
+   "text": "Kategoria w API nie działa. Wybrałem wąską kategorię, która realnie nie może mieć 960 ofert, a serwer i tak zwrócił 960.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\odpowiedz_klient_uczciwa.md",
+   "line": 17,
+   "text": "Co do prędkości. Sprawdziłem kops i wiem, skąd wrażenie wolności. Kops w marketingu pisze, że kupuje poniżej sekundy, al",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\odpowiedz_klient_uczciwa.md",
+   "line": 36,
+   "text": "| Marka działa w API | brand_ids=53 → 96/96 Nike |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\odpowiedz_klient_uczciwa.md",
+   "line": 37,
+   "text": "| Rozmiar działa | size_ids bzdurny → 0 |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\odpowiedz_klient_uczciwa.md",
+   "line": 38,
+   "text": "| Stan działa | status_ids bzdurny → 0 |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\odpowiedz_klient_uczciwa.md",
+   "line": 39,
+   "text": "| Cena działa | price_from=1&price_to=2 → 1.0 zł |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\odpowiedz_klient_uczciwa.md",
+   "line": 41,
+   "text": "| Kategoria NIE działa w API | catalog_ids=2954 → 960 |",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 17,
+   "text": "Klient płaci 345 zł/mc za produkt, który **sam przyznaje że jest za wolny**.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 18,
+   "text": "To jest kotwica: cokolwiek zaproponujemy, mierzy to do 345 zł/mc i 90% strat.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 27,
+   "text": "| Pełna budowa | 3 000 zł | checkout Vinted nie jest udokumentowany; multikonto + parallel + anty-ban to poważna robota ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 34,
+   "text": "- Multikonto 3–4 konta + parallel wymaga osobnej architektury (1 IP = 1 konto, inaczej bany).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 48,
+   "text": "To jest uczciwa cena: klient dostaje własność + szybszy bot, płaci mniej niż strata z 90% ofert.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 52,
+   "text": "## SUFIT (defensywny — ile to jest warte dla niego)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 99,
+   "text": "### Dlaczego prototyp jest płatny i osobny",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 104,
+   "text": "### Dlaczego utrzymanie jest stałe",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 130,
+   "text": "- NIE obiecywać \"checkout poniżej X sekund\" — limit Vinted ~1 req/s jest twardy",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 132,
+   "text": "- NIE sprzedawać one-time — utrzymanie jest warunkiem koniecznym",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 138,
+   "text": "To jest ta część, której nie piszę klientowi — to moje wewnętrzne uzasadnienie.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 145,
+   "text": "klienta wymaga konfiguracji 3 osobnych sesji (1 IP = 1 konto, inaczej bany).",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 147,
+   "text": "**Nie 5000 zł:** prototyp nie jest gotowym botem. Nie ma tu parallel mode, multikonta,",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 151,
+   "text": "**Dlaczego 1200–1500 zł jest akurat:** pokrywa 1–2 dni realnej pracy inżynieryjnej",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 162,
+   "text": "**Nie 10000 zł:** klient jest mądry — sam policzy, że 10000 zł to 29 miesięcy kopsa Pro.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 178,
+   "text": "**Dlaczego 400–500 zł/mc:** delikatnie powyżej kopsa (345 zł), co jest uzasadnione",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 185,
+   "text": "Czyli płaci za coś, co NIE działa dla niego. To znaczy, że jego realny budżet to nie",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\06_biznes\\wycena_vinted.md",
+   "line": 192,
+   "text": "Dlatego sufit 8000 zł + 600–800 zł/mc jest wciąż defensywny: to mniej niż jego",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\09_biezaca_sesja\\RAPORT_STATUS_2026-08-29.md",
+   "line": 34,
+   "text": "2. **Główna przyczyna timeout:** nie jest to kwestia czasu czy nawigacji. Po kliku **zero requestów** do `/checkout?purc",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\09_biezaca_sesja\\RAPORT_STATUS_2026-08-29.md",
+   "line": 37,
+   "text": "3. **Blokada antyfraud jest niezależna od sesji.** Nawet z ważną sesją (świeżą) w headless wcześniej `curl_cffi` z CSRF ",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\09_biezaca_sesja\\RAPORT_STATUS_2026-08-29.md",
+   "line": 41,
+   "text": "- `humanize=True` działa dla API Playwright, nie dla `page.evaluate`",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\09_biezaca_sesja\\RAPORT_STATUS_2026-08-29.md",
+   "line": 46,
+   "text": "### 🟢 PRZEŁOM Fazy 1/2: Incognia NIE jest blokerem — winowajcą był nietrusted click (2026-08-29)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\09_biezaca_sesja\\RAPORT_STATUS_2026-08-29.md",
+   "line": 59,
+   "text": "1. SDK Incognia **nie jest wymagane** do `checkout/build` — Vinted w ogóle nie serwuje SDK na stronie przedmiotu.",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\09_biezaca_sesja\\RAPORT_STATUS_2026-08-29.md",
+   "line": 87,
+   "text": "**Faza 1 nie jest zamknięta.** Mamy twardy dowód, że:",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\09_biezaca_sesja\\RAPORT_STATUS_2026-08-29.md",
+   "line": 88,
+   "text": "- H1 (headless) — nie działa",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\09_biezaca_sesja\\RAPORT_STATUS_2026-08-29.md",
+   "line": 89,
+   "text": "- Headed — **też** nie działa (Incognia nie obecne nawet z GUI)",
+   "reason": "untagged_claim"
+  },
+  {
+   "file": "vinted\\raporty\\09_biezaca_sesja\\RAPORT_STATUS_2026-08-29.md",
+   "line": 92,
+   "text": "**To jest bloker krytyczny** — bez niego Fazy 2–9 są niewykonalne.",
+   "reason": "untagged_claim"
+  }
+ ]
+}

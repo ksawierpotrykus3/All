@@ -1,0 +1,83 @@
+{
+  "id": "40703106",
+  "url": "https://www.freelancer.pl/projects/computer-vision/Face-Body-Detection-Python/details",
+  "title": "Face-Body Detection in Python",
+  "author": "Anonim",
+  "budget": "30.0 - 250.0 USD",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:28:38.909967",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703106",
+    "url": "https://www.freelancer.pl/projects/computer-vision/Face-Body-Detection-Python/details",
+    "seo_url": "computer-vision/Face-Body-Detection-Python",
+    "title": "Face-Body Detection in Python",
+    "budget": "30.0 - 250.0 USD",
+    "budget_raw": {
+      "minimum": 30.0,
+      "maximum": 250.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I’m building a computer-vision pipeline focused on reliable detection and recognition of human faces",
+    "category": "automation-ai",
+    "project_type": "fixed",
+    "jobs": [
+      "Python",
+      "Software Architecture",
+      "CUDA",
+      "Machine Learning (ML)",
+      "Image Processing",
+      "OpenCV",
+      "Computer Vision",
+      "Deep Learning",
+      "Object Detection",
+      "YOLO"
+    ],
+    "bid_stats": {
+      "bid_count": 98,
+      "bid_avg": 134.10204081632654
+    },
+    "local": false,
+    "time_submitted": 1789041562
+  },
+  "full_details": {
+    "id": "40703106",
+    "title": "Face-Body Detection in Python",
+    "full_description": "I’m building a computer-vision pipeline focused on reliable detection and recognition of human faces and full-body figures. The core of the job is a clean, well-documented Python implementation that can take still images or short video clips and return bounding boxes, class labels, and confidence scores for each detected person.\n\nI already have test media and the computing environment; what’s missing is the detection logic itself—ideally leveraging familiar libraries such as OpenCV, TensorFlow, PyTorch, or a proven YOLO/SSD variant. Accuracy on varied lighting and crowded scenes is more important to me than sheer speed, but the code should still run in real time on a modern GPU.\n\nDeliverables  \n• Python source code with clear inline comments  \n• Pre-trained weights (or training notebook) and instructions for further fine-tuning  \n• Short report outlining model choice, evaluation metrics, and sample results  \n• Simple CLI or notebook demo that shows the system working on my test set\n\nAcceptance criteria  \n• ≥90 % precision and recall on the provided images  \n• No external dependencies beyond standard Python CV/ML stacks  \n• Reproducible setup: a requirements.txt or environment.yml that builds without errors\n\nOnce this module is solid, there may be follow-on tasks for simulation apps and thesis-level documentation, but for now the priority is a robust, plug-and-play face-and-body detector.you are cute",
+    "budget_raw": {
+      "minimum": 30.0,
+      "maximum": 250.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "Python",
+      "Software Architecture",
+      "CUDA",
+      "Machine Learning (ML)",
+      "Image Processing",
+      "OpenCV",
+      "Computer Vision",
+      "Deep Learning",
+      "Object Detection",
+      "YOLO"
+    ],
+    "bid_stats": {
+      "bid_count": 98,
+      "bid_avg": 134.10204081632654
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:48"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:48.132421"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "40702955",
+  "url": "https://www.freelancer.pl/projects/large-language-models/RAG-Internal-Document-Assistant/details",
+  "title": "RAG Internal Document AI Assistant",
+  "author": "Anonim",
+  "budget": "15.0 - 25.0 USD",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:28:38.930996",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40702955",
+    "url": "https://www.freelancer.pl/projects/large-language-models/RAG-Internal-Document-Assistant/details",
+    "seo_url": "large-language-models/RAG-Internal-Document-Assistant",
+    "title": "RAG Internal Document AI Assistant",
+    "budget": "15.0 - 25.0 USD",
+    "budget_raw": {
+      "minimum": 15.0,
+      "maximum": 25.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I’m looking to turn our scattered know-how—hundreds of PDFs, policies, detailed reports, emails, mee",
+    "category": "automation-ai",
+    "project_type": "hourly",
+    "jobs": [
+      "Data Processing",
+      "Machine Learning (ML)",
+      "Embedded Systems",
+      "Natural Language Processing",
+      "AI Chatbot Development",
+      "AI Model Development",
+      "Large Language Models (LLMs)",
+      "Vector Databases",
+      "Retrieval-Augmented Generation (RAG)",
+      "Data Annotation"
+    ],
+    "bid_stats": {
+      "bid_count": 98,
+      "bid_avg": 20.79591836734694
+    },
+    "local": false,
+    "time_submitted": 1789037577
+  },
+  "full_details": {
+    "id": "40702955",
+    "title": "RAG Internal Document AI Assistant",
+    "full_description": "I’m looking to turn our scattered know-how—hundreds of PDFs, policies, detailed reports, emails, meeting minutes, and assorted documentation—into a single Retrieval-Augmented Generation assistant that answers questions instantly and finds the exact source passage behind every reply.\n\nWhat I already have in mind\n• Ingestion pipeline that automatically pulls new or updated PDFs, email archives, and other internal files, cleans the text, and embeds it in a vector store (FAISS, Pinecone, or a similar tool).  \n• A lightweight search layer so staff can type a query and receive both a concise answer and the ranked source documents.  \n• Chat-style interface (web or Slack/Teams bot) backed by an LLM with citations, guardrails, and role-based access.  \n• Modular codebase so I can swap models or storage later without a rewrite.\n\nWhat I need from you\n1. End-to-end architecture diagram and tech stack recommendation.  \n2. Working prototype deployed in our cloud (AWS or Azure) with clear setup scripts.  \n3. Brief hand-over guide outlining how to add new document types or retrain embeddings.\n\nAcceptance criteria\n• The assistant must correctly return the top-3 source snippets for at least 80 % of test questions drawn from our reports, policies, and emails.  \n• Query response time under five seconds on a mid-range VM with ~10 k documents indexed.  \n• No sensitive data leaves the private network; any third-party API calls must be boxed inside our VPC.\n\nIf you’ve built RAG pipelines, semantic search, or document chatbots before, I’d love to see a short demo link and hear which vector DB-LLM combo you prefer.",
+    "budget_raw": {
+      "minimum": 15.0,
+      "maximum": 25.0
+    },
+    "currency": "USD",
+    "project_type": "hourly",
+    "jobs": [
+      "Data Processing",
+      "Machine Learning (ML)",
+      "Embedded Systems",
+      "Natural Language Processing",
+      "AI Chatbot Development",
+      "AI Model Development",
+      "Large Language Models (LLMs)",
+      "Vector Databases",
+      "Retrieval-Augmented Generation (RAG)",
+      "Data Annotation"
+    ],
+    "bid_stats": {
+      "bid_count": 98,
+      "bid_avg": 20.79591836734694
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:50"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:50.232346"
+}

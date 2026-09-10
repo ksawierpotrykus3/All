@@ -1,0 +1,189 @@
+Tester portalu mGiełda.pl
+=========================
+URL: https://useme.com/pl/jobs/tester-portalu-mgielda-pl,144036/
+
+Zleceniodawca
+mGiełda.pl
+
+Opis
+Tester mGiełda.pl – kompleksowy test portalu i płatności Stripe
+
+Szukamy osoby do kompleksowego przetestowania portalu mGiełda.pl, ze szczególnym uwzględnieniem procesu zakupu, płatności oraz wypłaty środków za pośrednictwem "Stripe Connect".
+
+Zakres testu:
+
+Najważniejsza część – rzeczywiste transakcje:
+
+Tester musi wykonać minimum 3 rzeczywiste transakcje na różne kwoty – transakcje nie mogą być identyczne – tak aby środki przypisane sprzedającemu przekroczyły 10 zł.
+
+Należy sprawdzić całą ścieżkę:
+
+Kupujący → płatność → środki sprzedającego w Stripe → wypłata → rachunek bankowy.
+
+Dodatkowo prosimy o sprawdzenie, w miarę możliwości, nieudanej płatności, przerwania płatności, ponowienia, anulowania oraz zwrotu środków.
+
+Tester powinien również zgłosić znalezione błędy, niedziałające przyciski, problemy z formularzami, wyświetlaniem oraz działaniem strony na komputerze i telefonie.
+
+Wymagane:
+
+Wynagrodzenie: 150 zł + zwrot środków wykorzystanych na transakcje testowe.
+
+Celem jest sprawdzenie całego procesu od wystawienia ogłoszenia, przez zakup i płatność, aż do wypłaty środków sprzedającemu.
+
+Opublikowano
+4 godziny temu
+
+Kategoria
+Obsługa stron internetowych
+
+Prawa autorskie
+Decyzja freelancera
+
+Budżet
+Do negocjacji
+
+Ważne przez
+30 dni
+
+Wymagane umiejętności / tagi:
+artykuł, bazy danych, blog, + 12 więcej
+
+Wysłane oferty (7)
+------------------------------
+[OLMA 2005 | 12 umów](https://useme.com/pl/roles/contractor/300928/) - dzisiaj
+  * artykuł
+  * bazy danych
+  * blog
+  * copywriting
+  * e-marketing
+  * HR
+  * korepetycje online
+  * opis produktu
+  * redakcja tekstu
+  * seo
+  * social media
+  * teksty pozycjonujące
+  * tłumaczenia
+  * video
+  * wirtualna asystentka
+
+[Adrianna Wesołowska | 7 umów](https://useme.com/pl/roles/contractor/607385/) - dzisiaj
+  * canva
+  * excel
+  * jira
+  * MS Word
+  * OpenAI
+  * PowerBi
+  * power point
+  * wordpress
+
+[Vulcanoo - CodeOlympus.studio | 112 umów](https://useme.com/pl/roles/contractor/156740/) - dzisiaj
+  * analiza danych
+  * API
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * cms
+  * css
+  * html
+  * mysql
+  * PHP
+  * prestashop
+  * python
+  * sklep internetowy
+  * sql
+  * strona www
+  * web development
+  * wordpress
+
+[Dawid Ogrodowski | 2 umów](https://useme.com/pl/roles/contractor/656470/) - dzisiaj
+  * bootstrap
+  * cms
+  * css
+  * e-commerce
+  * Figma
+  * google analytics
+  * html
+  * javascript
+  * jquery
+  * landing page
+  * PHP
+  * React
+  * rwd
+  * seo
+  * shopify
+  * UI
+  * WooCommerce
+  * wordpress
+
+[KARTS DESIGN | 10 umów](https://useme.com/pl/roles/contractor/113377/) - dzisiaj
+  * adobe illustrator
+  * adobe photoshop
+  * aplikacje mobilne
+  * apps
+  * architektura
+  * banner
+  * fotografia
+  * fotografia biznesowa
+  * fotografia mody
+  * fotografia produktowa
+  * grafika
+  * grafika na stronę
+  * grafika www
+  * identyfikacja wizualna
+  * layout design
+  * logo
+  * plakat
+  * sklep internetowy
+  * strona www
+  * UI
+  * ulotki
+  * user experience design
+  * UX design
+  * web development
+  * wizytówki
+  * wordpress
+
+[SednoTech | 3 umów](https://useme.com/pl/roles/contractor/481175/) - dzisiaj
+  * analiza danych
+  * API
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * cms
+  * css
+  * html
+  * mysql
+  * PHP
+  * prestashop
+  * python
+  * sklep internetowy
+  * sql
+  * strona www
+  * web development
+  * wordpress
+
+[Heyneuron.com | 1 umowa](https://useme.com/pl/roles/contractor/148433/) - dzisiaj
+  * AI
+  * Airtable
+  * API
+  * aplikacje webowe
+  * blockchain
+  * CRM
+  * facebook
+  * Facebook Pixel
+  * gmail
+  * google analytics
+  * Google Tag Manager
+  * hubspot
+  * landing page
+  * LANDINGPAGE
+  * marketing internetowy
+  * n8n
+  * Next.js
+  * Nocode
+  * React
+  * strona www
+  * web api
+  * web development
+  * zapier

@@ -1,0 +1,83 @@
+{
+  "ts_start": "04:39:17.004Z",
+  "steps": [
+    {
+      "step": "wybor_itemu",
+      "elapsed_ms": 0.0,
+      "wall_utc": "04:39:17.005Z"
+    },
+    {
+      "step": "item 9824154789 seller=3138405043 'NYE x 3 træ skærebrætter'",
+      "elapsed_ms": 437.0,
+      "wall_utc": "04:39:17.439Z"
+    },
+    {
+      "step": "conversations conv=24722454689 txn=21906135822",
+      "elapsed_ms": 1406.0,
+      "wall_utc": "04:39:18.407Z",
+      "http": 200
+    },
+    {
+      "step": "build checkout=None",
+      "elapsed_ms": 1546.0,
+      "wall_utc": "04:39:18.553Z",
+      "http": 403
+    },
+    {
+      "step": "put payment_method",
+      "elapsed_ms": 1656.0,
+      "wall_utc": "04:39:18.658Z",
+      "http": 404,
+      "checksum": false
+    },
+    {
+      "step": "put pickup_details",
+      "elapsed_ms": 1765.0,
+      "wall_utc": "04:39:18.768Z",
+      "http": 404,
+      "checksum": false
+    },
+    {
+      "step": "PAYMENT (BLAD)",
+      "elapsed_ms": 1875.0,
+      "wall_utc": "04:39:18.883Z",
+      "http": 403,
+      "payment_status": null,
+      "redirect": "",
+      "success": false
+    },
+    {
+      "step": "txn status",
+      "elapsed_ms": 2062.0,
+      "wall_utc": "04:39:19.078Z",
+      "txn_status": 1,
+      "status_title": ""
+    },
+    {
+      "step": "start Camoufox do screena bramki",
+      "elapsed_ms": 2062.0,
+      "wall_utc": "04:39:19.078Z"
+    }
+  ],
+  "elapsed": {
+    "to_gateway_ms": null,
+    "txn_status_ms": 2062.0
+  },
+  "item": {
+    "id": 9824154789,
+    "seller": 3138405043,
+    "title": "NYE x 3 træ skærebrætter",
+    "price": {
+      "amount": "29.37",
+      "currency_code": "PLN"
+    }
+  },
+  "success": false,
+  "txn": {
+    "id": 21906135822,
+    "status": 1,
+    "status_title": "",
+    "purchase_id": null
+  },
+  "screenshot_error": "Page.goto: Protocol error (Page.navigate): Invalid url: \"\"\nCall log:\n  - navigating to \"\", waiting until \"domcontentloaded\"\n"
+}

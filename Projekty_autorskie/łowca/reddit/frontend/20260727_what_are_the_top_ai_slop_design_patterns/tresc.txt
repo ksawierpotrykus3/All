@@ -1,0 +1,41 @@
+### What are the top AI slop design patterns? ###
+
+Źródło: https://www.reddit.com/r/UXDesign/s/q2c3RdV2wy
+
+I'm sure you know that feeling when opening a website and immediately noticing that it's purely AI generated.
+
+What are the top patterns that let your AI slop alarm go off?
+
+For me it's left borders like these:
+https://preview.redd.it/jt4qcnnrqsqg1.png?width=870&amp;format=png&amp;auto=webp&amp;s=c2db26dce9772f207da8fa4c0bdf72ca976512e0
+
+### HIERARCHIA KOMENTARZY ###
+
+1. de_bazer: The generic flat sidebar with emojis as icons
+    1.1. FactorHour2173: AI loves an emoji.
+
+2. Notwerk: VibeCode Purple^(TM)
+
+3. torokaiju: Anything thats shadcn (unmodified defaults)
+
+4. sabre35_: CENTER ALIGNED INTER AND OVERUSE OF INSTRUMENT SERIF. In all seriousness though there’s just a general sterile feeling. No risks being taken. Uninspired.
+
+5. UX-Ink: Dark background with a medium color text, icons, all caps titles and headers. Perma dark mode look. Minimal style or flair.
+
+6. Xieneus: That side border is one example but you can usually just tell, it just doesn't feel like it was made by someone.
+
+7. hitoq: Space Grotesk as the headline typeface, once you see it you can never unsee it.
+
+8. Mysterious-Royal-814: Inconsistency, color styles asymmetry, unflattering buttons with weird text layouts
+
+9. Candid_Molasses_1391: Gradient everything
+
+10. BenRoachDesign: Dark mode + Purple accent color + Glows and gradients everywhere + Bad glassmorphism effects + Some combo of Space Grotesk / Instrument Serif / Inter as the font…
+
+11. ReasonableClub2554: Data visualization without narrative or good execution.
+
+12. mrcoy: That’s an actual pattern. Is it overused by your ai? Maybe. So why don’t you just instill your own rules and patterns?
+
+13. pdlwn: Buttons with coloured drop shadow…
+
+14. Chupa-Skrull: Barely passing text contrast is a big one. Being just over the line for AAA is not enough for body text in dark themes. Get those numbers up. Lately I've been clocking typographic choices: models defaulting to top 200 Google Fonts (Fraunces, Bricolage, Space Grotesk, Sora, Young Serif, Bodoni, Geist, Syne) due to skill prompts asking for 'nonstandard' typography, turning them into slop signage overnight.

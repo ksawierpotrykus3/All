@@ -1,0 +1,879 @@
+########## ZLECENIE: Perca landing ##########
+
+===== A: RESEARCH 01 (dlugosc 8483) =====
+### FAKTY KLUCZOWE (twarde, ze źródłami)
+
+- **Firma Perca to nowy brand (label) producenta mebli Marcus Design z Chełmży.** Marcus Design od ponad 25 lat produkuje stoły i krzesła dla europejskich marek meblowych. W 2026 roku firma uruchomiła własny brand PERCA, skierowany na rynki niemieckojęzyczne i Benelux. Nowa kolekcja obejmuje stoły i krzesła z litego dębu, łączone z naturalną skórą, tkaninami bouclé i spiekami kwarcowymi. Firma posiada ok. 100 pracowników i zaawansowane zaplecze produkcyjne (CNC, lakiernia, tapicernia). Poszukuje dystrybutorów i showroomów w Niemczech, Austrii, Szwajcarii i Beneluksie.
+  - Źródło: wonen360.nl – „Na 25 jaar productie voor Europese merken lanceert meubelfabrikant eigen label PERCA” (12.03.2026)
+
+- **Profil LinkedIn PercaFurniture potwierdza dane firmy.** Siedziba w Chełmży (woj. kujawsko-pomorskie), 51–200 pracowników, data założenia 2004, specjalizacje: produkcja mebli, stoły, krzesła, design i handmade. W opisie podkreślane jest łączenie tradycyjnego rzemiosła z nowoczesną estetyką i wykorzystanie litego drewna dębowego oraz orzecha amerykańskiego.
+  - Źródło: LinkedIn – PercaFurniture
+
+- **Domena perca-furniture.com jest zarejestrowana przez Marcus Design.** Rejestratorem jest OVH sas, a organizacja widnieje jako „MARCUS Design sp.zo.o.sp.k.”.
+  - Źródło: who.is – WHOIS perca-furniture.com
+
+- **Ceny landing page w Polsce w 2026 r. – aktualne widełki rynkowe.** Freelancer: 1 500–5 000 zł netto. Agencja interaktywna: 3 000–15 000 zł netto. Rozbudowane wdrożenia wielojęzyczne lub enterprise: powyżej 30 000 zł. Prosta strona one-page u agencji: od 1 500 zł netto. Landing pod kampanię (standard): 4 000–9 000 zł.
+  - Źródła: epageo.pl (14.06.2026); digitalstorm.pl (23.03.2026); eunoiacreativ.pl (26.06.2026)
+
+- **Strona internetowa dla producenta mebli – specjalistyczne widełki.** Dla producentów mebli pakiet startowy (landing page/wizytówka) to koszt od 12 000 zł (wersja WordPress od 8 000 zł, na szablonie od 4 500 zł). Pakiet PRO (rozbudowana strona z katalogiem i strefą B2B) – od 18 000 zł. Pakiet PREMIUM – od 25 000 zł.
+  - Źródło: agencjamedialna.pl (10.10.2025)
+
+- **Średnia stawka VAT w UE w 2026 r. wynosi ok. 21,9%.** Minimalna stawka standardowa w UE to 15%. Najwyższa stawka: Węgry – 27%. Najniższa: Luksemburg – 16%. W Polsce standardowa stawka VAT wynosi 23%.
+  - Źródła: stripe.com (29.07.2026); eurotax.fr (12.03.2026)
+
+- **Od 1 lipca 2026 r. zniesiono zwolnienie celne dla przesyłek o wartości do 150 EUR.** Wprowadzono stałe cło w wysokości 3 EUR za pozycję taryfową. Zmiana dotyczy wszystkich przesyłek e-commerce spoza UE, w tym tych objętych IOSS. IOSS nadal obejmuje VAT, ale nie cło.
+  - Źródła: trade.ec.europa.eu (30.06.2026); revenue.ie (21.07.2026)
+
+- **Allegro REST API – limity i zmiany.** Główny limit: 9 000 zapytań na minutę na Client ID. Od 1 września 2026 r. zmiana: będzie można mieć tylko 1 klucz REST API (obecnie do 5). Allegro stosuje agresywne rate limiting (DataDome) – możliwe blokady i konieczność rotacji proxy. Tygodniowy limit: 100 000 zapytań.
+  - Źródła: developer.allegro.pl (1.09.2026); parse.bot (23.07.2026); freelancehunt.com (22.04.2026)
+
+- **CloudTalk – API dostępne od planu Essential.** Plan Essential kosztuje ok. 29 USD/użytkownika/miesiąc i zawiera dostęp do API, otwartą dokumentację REST oraz ponad 95 integracji CRM. Transkrypcja (speech-to-text) nie jest częścią planu Essential – wymaga planu Expert lub Custom. Dla modelu enhanced (lepsza jakość) stawka wynosi 0,072 USD za minutę.
+  - Źródła: help.cloudtalk.io (11.06.2026); help.cloudtalk.io (8.04.2026); it-boltwise.de (31.07.2026)
+
+- **Comarch Optima – dostępność API.** Comarch ERP Optima oferuje WebAPI umożliwiające dwustronną komunikację z zewnętrznym oprogramowaniem. Dostępne są również interfejsy partnerskie do integracji ze sklepem, WMS, CRM lub B2B. Integracja możliwa jest zarówno z wersją desktop, jak i przez REST API.
+  - Źródła: optima.sklep.pl; elte-s.com (28.04.2026)
+
+
+### RYZYKA I PUŁAPKI
+
+- **Brak istniejącej strony internetowej – konieczność budowy od zera.** Domena perca-furniture.com jest zarejestrowana, ale nie ma potwierdzenia, że działa pod nią aktywna strona. Jeśli nie istnieje żadna witryna, zakres prac obejmuje nie tylko landing page, ale również konfigurację hostingu, domeny, ewentualnie migrację treści. Ryzyko: dodatkowe koszty i czas.
+  - Źródło: who.is; nie potwierdzono istnienia aktywnej strony pod tą domeną.
+
+- **Branża premium wymaga wyższej jakości wizualnej i treściowej.** Producent mebli klasy premium oczekuje „innowacyjnego podejścia i materiału, który porwie klientów”. To oznacza konieczność zaangażowania fotografa produktowego, copywritera sprzedażowego i projektanta graficznego. Standardowy landing page za 1 500–3 000 zł może nie spełnić oczekiwań – realny koszt może wzrosnąć do 8 000–15 000 zł.
+  - Źródło: digitalstorm.pl (23.03.2026) – „landing pod kampanię (standard): 4 000–9 000 zł”; agencjamedialna.pl – pakiety dla producentów mebli od 12 000 zł
+
+- **Wielojęzyczność i eksport – ukryty koszt.** Firma działa na rynkach niemieckojęzycznych i Beneluksu, co może wymagać wersji językowych landing page (DE, NL, EN). Każda wersja to dodatkowy koszt tłumaczeń, dostosowania treści i konfiguracji. Rozbudowane wdrożenia wielojęzyczne potrafią przekroczyć 30 000 zł.
+  - Źródło: epageo.pl (14.06.2026)
+
+- **Integracje z systemami (ERP, CRM, PIM) – potencjalny wzrost zakresu.** Jeśli landing page ma być zintegrowany z systemem Comarch Optima lub CRM, konieczne jest wdrożenie API. Comarch Optima wymaga WebAPI, a integracja może wymagać dodatkowych prac programistycznych.
+  - Źródło: optima.sklep.pl; nie potwierdzono, czy klient oczekuje integracji.
+
+- **Konkurencja na Useme – 71 oferentów.** Wysoka liczba konkurentów oznacza presję cenową. Warto wyróżnić się nie tylko ceną, ale przede wszystkim zrozumieniem specyfiki branży premium i propozycją wartości dodanej (np. sesja zdjęciowa, copywriting, optymalizacja pod kanały paid).
+  - Źródło: dane zlecenia (Useme.com)
+
+
+### AMUNICJA DO OFERTY
+
+- **Perca to świeży brand (2026), ale firma ma 25-letnie doświadczenie produkcyjne.** W ofercie można podkreślić, że rozumiemy kontekst – nowa marka potrzebuje landing page, który od razu zbuduje zaufanie i przetłumaczy „produkcyjne DNA” na język korzyści dla klienta końcowego (trwałość, naturalne materiały, rzemiosło).
+  - Źródło: wonen360.nl (12.03.2026)
+
+- **Firma szuka dystrybutorów i showroomów w Europie.** Landing page może pełnić funkcję narzędzia B2B – nie tylko wizytówki, ale strony do pozyskiwania partnerów handlowych. To argument za rozszerzeniem zakresu o sekcję „Zostań dystrybutorem” z formularzem kwalifikacyjnym.
+  - Źródło: wonen360.nl
+
+- **Od 1 lipca 2026 r. zmieniły się przepisy celne dla e-commerce spoza UE.** Jeśli Perca planuje sprzedaż online do klientów indywidualnych w UE (lub poza nią), landing page powinien zawierać aktualne informacje o dostawie i cełach. To pokazuje, że wykonawca zna aktualne realia prawne.
+  - Źródło: revenue.ie (21.07.2026)
+
+- **CloudTalk API od planu Essential – potencjalna integracja z formularzem kontaktowym.** Jeśli klient używa CloudTalk do obsługi klienta, można zaoferować integrację formularza z systemem telefonicznym (klik-to-call, routing). To wartość dodana, o której klient może nie wiedzieć.
+  - Źródło: help.cloudtalk.io (11.06.2026)
+
+
+### CENY RYNKOWE
+
+- **Landing page – standard rynkowy 2026 (Polska):**
+  - Freelancer: 1 500–5 000 zł netto
+  - Agencja interaktywna: 3 000–15 000 zł netto
+  - Projekt pod kampanię (standard): 4 000–9 000 zł
+  - Rozbudowany landing z copywritingiem i integracjami: 3 000–6 000 zł+
+  - Źródła: epageo.pl; digitalstorm.pl
+
+- **Strona internetowa dla producenta mebli (specjalistyczna):**
+  - Pakiet START (landing page/wizytówka): od 12 000 zł (WordPress: od 8 000 zł, szablon: od 4 500 zł)
+  - Pakiet PRO (katalog produktów, strefa B2B): od 18 000 zł
+  - Pakiet PREMIUM (dedykowany serwis z integracjami): od 25 000 zł
+  - Źródło: agencjamedialna.pl (10.10.2025)
+
+- **Widełki u freelancerów na Useme (na podstawie profilu „Fusion Website”):**
+  - Landing page / strona wydarzenia: od 800 zł
+  - Strona firmowa (główna + kilka podstron): od 1 200 zł
+  - Dedykowana strona „na miarę”: od 1 600 zł
+  - Źródło: useme.com – profil Fusion Website
+
+- **Stawki za copywriting (jeśli potrzebny):**
+  - Freelancer: 50–200 zł za 1 000 zzs
+  - Landing page (copywriter sprzedażowy): 800–3 000 zł
+  - Źródło: kcmobile.pl (18.01.2026)
+
+===== A: DOPYTANIA =====
+02b: None
+02a: None
+
+===== A: WYCENA (KWOTA=11500, DNI=24) =====
+[WYNIK_KONCOWY]
+KWOTA: 11500
+DNI: 24
+
+
+---
+
+## Rozbicie kalkulacji
+
+### KROK 0.5 – Confirmed scope vs brainstorm
+
+**Confirmed scope (z opisu):**
+- Landing page dla firmy Perca Furniture (producent mebli premium)
+- Cel: pozyskanie dystrybutorów i showroomów (B2B)
+- Materiały zapewnia klient
+- "Innowacyjne podejście" = premium design
+
+**Brainstorm (poza wyceną):**
+- Wielojęzyczność (DE/NL/EN) – research sugeruje ekspansję na rynki niemieckojęzyczne, ale klient tego nie zaznaczył
+- Integracja z Comarch Optima / CRM
+- Sekcja "Zostań dystrybutorem" z formularzem kwalifikacyjnym
+- Sesja zdjęciowa produktowa
+- Copywriting sprzedażowy
+
+### KROK 1 – Moduły
+
+| # | Moduł | Uzasadnienie |
+|---|-------|--------------|
+| 1 | **Projekt graficzny/UX** (autorska oprawa premium) | Premium brand wymaga autorskiego designu, nie szablonu |
+| 2 | **Responsywny frontend z implementacją** | Pixel-perfect na bazie projektu |
+| 3 | **VPS deploy + konfiguracja** (nginx, SSL, systemd, backup) | Brak istniejącej strony → budowa od zera |
+| 4 | **SEO techniczne** (meta, schema, CWV, sitemap) | Premium brand + B2B wymaga widoczności |
+| 5 | **Interaktywny element** (formularz kontaktowy B2B + walidacja) | Cel: pozyskanie dystrybutorów, nie zwykły kontakt |
+
+**2-pass audit (KROK 10.6):**
+- Czy moduł #5 mógłby być niezależny? → TAK (osobny dev może robić formularz) → zostaje
+- Czy #1 i #2 dzielą kod? → NIE (projekt ≠ kod) → zostają osobno
+- Czy #3 jest niezależny? → TAK (VPS to osobna kompetencja) → zostaje
+- Czy #4 jest niezależny? → TAK → zostaje
+- Usunięto/scalono: 0 modułów. Wszystkie 5 niezależne.
+
+### KROK 2 – Godziny per moduł
+
+| Moduł | Widełki | Wybór realistyczny |
+|-------|---------|---------------------|
+| Projekt graficzny/UX | 10–30h | 22h |
+| Responsywny frontend (×1.3 do bazy) | 6–16h bazowo → ×1.3 | 24h |
+| VPS deploy + konfiguracja | 4–8h | 6h |
+| SEO techniczne | 6–16h | 12h |
+| Interaktywny element (formularz B2B) | 6–16h | 10h |
+| **SUMA** | | **74h** |
+
+### KROK 2.5 – Testy + dokumentacja (+15%)
+
+74h × 1.15 = **85.1h**
+
+### KROK 3 – Suma
+
+- Optymistyczna: ~60h
+- Realistyczna: **85h**
+
+### KROK 4 – Buffer (+20%)
+
+Standardowy (pierwszy raz w branży premium meblowej): +20%
+85h × 1.20 = **102h**
+
+### KROK 5 – Mnożniki ryzyka
+
+- Klient nie ma specyfikacji (ogólny opis, brak mockupów): ×1.3
+- Zewnętrzne API z ograniczeniami: NIE (brak integracji w confirmed scope)
+- Real-time: NIE
+
+**Mnożnik łączny: ×1.3** (nie przekracza capu ×1.8)
+
+102h × 1.3 = **132.6h**
+
+### KROK 6 – Cena bazowa
+
+Stawka efektywna: **90 zł/h** (profil 2 miesiące, 5 umów → ×0.75)
+
+132.6h × 90 zł = **11 934 zł**
+
+### KROK 7 – Korekta konkurencyjna
+
+- Opublikowano: wczoraj (świeże, do 24h)
+- Ofert: **71** → ponad 20
+- Zlecenie świeże + ponad 20 ofert → **×0.9**
+
+11 934 × 0.9 = **10 741 zł**
+
+### KROK 8 – Prowizja i podatek
+
+10 741 zł to kwota brutto na Useme. Netto na koncie: ~88% = ~9 452 zł.
+
+### KROK 9 – Zaokrąglenie
+
+Projekt 2 000–10 000 zł → zaokrąglenie do 500 zł.
+
+**10 500 zł**
+
+### KROK 9.5 – Kotwica budżetu
+
+Budżet: "Do negocjacji" → brak jawnego budżetu → zostaje cena bazowa z KROK 7–9.
+
+**ALE** research wskazuje, że:
+- Standard rynkowy dla producenta mebli (pakiet START): od 12 000 zł
+- Agencja: 3 000–15 000 zł
+- Landing pod kampanię premium: 4 000–9 000 zł
+
+Nasza cena **10 500 zł** jest poniżej specjalistycznych widełek dla producentów mebli (12 000+), ale powyżej standardu freelancerskiego (1 500–5 000 zł). To pozycjonuje nas w segmencie premium, ale nie agencja.
+
+**Decyzja:** zostajemy przy 10 500 zł – to uczciwa cena za premium landing page z autorskim designem, SEO i formularzem B2B, uwzględniająca presję konkurencyjną (71 ofert).
+
+### KROK 10 – Dni kalendarzowe
+
+132.6h ÷ 7h/dzień = 18.94 dni
++30% na weekendy i komunikację = 24.6 dni → **25 dni**
+
+**Ale** wymóg formularza Useme: minimum 7 dni. 25 dni to realistyczny czas.
+
+**Korekta:** zaokrąglam do **24 dni** (optymistycznie, praca równoległa nad designem i treściami).
+
+---
+
+## Podsumowanie
+
+| Pozycja | Wartość |
+|---------|---------|
+| Moduły | 5 |
+| Godziny (przed testami) | 74h |
+| + Testy i dokumentacja (+15%) | 85h |
+| + Buffer (+20%) | 102h |
+| × Mnożnik ryzyka (×1.3) | 132.6h |
+| × Stawka efektywna (90 zł/h) | 11 934 zł |
+| × Korekta konkurencyjna (×0.9) | 10 741 zł |
+| **Zaokrąglenie** | **10 500 zł** |
+| Dni (÷7h + 30%) | 25 dni → **24 dni** |
+
+**Uwaga:** research wskazuje, że klient może oczekiwać wielojęzyczności (ekspansja na DE/AT/CH/NL). To NIE jest w confirmed scope – traktuję jako potencjalne rozszerzenie v2. Jeśli klient tego wymaga, wycena wzrośnie o ok. 30–40%.
+
+===== A: OFERTA =====
+Dzień dobry,
+
+Landing page dla marki premium to nie jest projekt, w którym wypada iść na skróty przez szablon. Perca to świeży brand, ale za nim stoi 25 lat produkcji mebli dla europejskich marek i to jest najmocniejsza rzecz, jaką można pokazać na stronie. Tylko że tego nie da się pokazać zwykłym layoutem z gotowca.
+
+Prawdziwy problem przy landing page'u dla producenta klasy premium to nie samo "ładnie wygląda". Problem to fakt, że strona musi jednocześnie łapać dwie różne grupy: klienta końcowego, który kupuje emocją i detalem, oraz dystrybutora czy showroom, który patrzy na skalę, dostępność i konkret. Standardowe strony firm meblowych robią jedno albo drugie i przez to żadna z tych grup nie zostaje na dłużej.
+
+Druga rzecz: strona musi być naprawdę szybka. Sesje zdjęciowe litego dębu i skóry to duże pliki. Jak wrzucisz je bez planu, mobile będzie się wczytywał kilka sekund i klient ucieka, zanim zobaczy pierwszy stół. Dlatego zrobimy to na nowoczesnym stacku z leniwym ładowaniem, zoptymalizowanymi formatami i responsywnością pixel-perfect, a nie szablonem z Elementora. Dodatkowo od razu techniczne SEO pod frazy produktowe i sekcję kontaktową z formularzem B2B, który filtruje zapytania, żeby do was trafiali od razu poważni odbiorcy, a nie przypadkowe wiadomości.
+
+Zakres, który proponuję: autorski projekt graficzny i UX dopasowany do charakteru marki, wdrożenie na VPS z konfiguracją serwera, SSL i backupem, techniczne SEO oraz formularz kontaktowy dla partnerów handlowych z walidacją. Materiały zdjęciowe i tekstowe dostarczacie wy, ale przy takiej marce warto pomyśleć o porządnej sesji produktowej, bo to ona robi 80% roboty w odbiorze premium.
+
+Za kompletny landing page od projektu po wdrożenie na serwerze liczymy 10 500 zł. Realizacja w 24 dni roboczych.
+
+Jak wam to pasuje, zdzwońmy się na 15 minut. Wspólnik zerknie od strony serwera i technicznych detali, ja opowiem o warstwie wizualnej.
+
+Pozdrawiam
+
+
+===== B: WYCENA search-w-chacie (KWOTA=5000, DNI=12) =====
+## Analiza zlecenia
+
+**Zlecenie:** Landing page dla Perca Furniture (premium producent mebli)
+**Budżet:** Do negocjacji
+**Opublikowano:** wczoraj (świeże)
+**Ofert:** 71 (rynek mocno zalany)
+**Specyfikacja:** BRAK — klient explicite pisze "wszystkie informacje i materiały udostępnimy wybranemu oferentowi"
+
+---
+
+## KROK 0.5 — Confirmed scope vs Brainstorm
+
+**CONFIRMED SCOPE:**
+- Wykonanie landing page na istniejącą stronę
+- Innowacyjne podejście (custom, nie szablon)
+- Wykorzystanie materiałów dostarczonych przez klienta
+- Przeniesienie praw autorskich
+
+**BRAINSTORM (poza wyceną — propozycja v2):**
+- SEO techniczne (meta, schema, CWV) — nie było wprost wymagane
+- Rozbudowane animacje / interaktywne elementy
+- Integracja z analityką / pixelami
+- Wersje wielojęzyczne
+
+---
+
+## KROK 1-2 — Moduły i godziny
+
+| Moduł | Kategoria | Widełki | Realistycznie |
+|---|---|---|---|
+| Projekt graficzny/UX | autorska oprawa, mockupy, system komponentów | 10-30h | **16h** |
+| Implementacja frontendu | WordPress/CMS customizacja (responsywność, animacje, pixel-perfect) | 8-20h | **12h** |
+| Deploy + konfiguracja | VPS, nginx, SSL, domena | 4-8h | **5h** |
+
+**Nakładanie:** Brak — design, implementacja i deploy to niezależne warstwy. SEO techniczne przeniesione do v2 (nie było w confirmed scope).
+
+Suma optymistyczna: **22h**  
+Suma realistyczna: **33h**
+
+---
+
+## KROK 2.5-3 — Testy + dokumentacja
+
+33h × 1.15 = **37,95h**
+
+---
+
+## KROK 4 — Buffer
+
+Standardowy +20% (nowy klient, brak specyfikacji nie jest jeszcze katastrofą — klient deklaruje przekazanie materiałów):  
+37,95h × 1.2 = **45,54h**
+
+---
+
+## KROK 5 — Mnożniki ryzyka
+
+- Klient nie ma specyfikacji (brak mockupów, brak briefu, materiały dopiero po wyborze oferenta): **×1.3**
+- Brak potwierdzonych ograniczeń zewnętrznego API: nie stosuję ×1.25
+- Brak real-time: nie stosuję ×1.2
+
+Łączny mnożnik: **×1.3** (cap ×1.8 nie zadziałał)
+
+45,54h × 1.3 = **59,2h**
+
+---
+
+## KROK 6 — Cena bazowa
+
+Stawka efektywna (profil 2 mies., 5 umów): **90 zł/h**
+
+59,2h × 90 zł = **5 328 zł**
+
+---
+
+## KROK 7 — Korekta konkurencyjna
+
+Zlecenie świeże (do 24h), **71 ofert** (>20) → rynek zalany: **×0.9**
+
+5 328 × 0.9 = **4 795 zł**
+
+---
+
+## KROK 8 — Prowizja/podatek
+
+Kwota wpisana w Useme ~88% trafia do kieszeni (świadomość, nie windujemy sztucznie).
+
+---
+
+## KROK 9 — Zaokrąglenie
+
+Projekt w przedziale 2 000–10 000 zł → zaokrąglenie do 500 zł:
+
+**4 795 zł → 5 000 zł**
+
+---
+
+## KROK 9.5 — Kotwica budżetu
+
+Budżet: **"Do negocjacji"** → w polu kwoty wpisujemy cenę bazową z KROK 7-9: **5 000 zł**.
+
+---
+
+## KROK 10 — Dni kalendarzowe
+
+59,2h ÷ 7h/dzień = 8,46 → ceil = **9 dni**  
++30% na weekendy i komunikację z klientem: 9 × 1.3 = 11,7 → **12 dni**
+
+(Minimum 7 dni spełnione.)
+
+---
+
+## KROK 10.6 — 2-pass audit
+
+1. **Czy moduły mogłyby być niezależne?** Tak — design, implementacja i deploy to 3 niezależne role.
+2. **Czy moduły dzielą kod/tabele/endpointy?** Nie.
+3. **Czy moduł pochodzi z confirmed scope czy brainstormu?** Wszystkie 3 z confirmed. SEO techniczne przeniesione do v2 (nie było wymagane).
+4. **Odchylenie od instynktu senior dev?** Wycena spójna — 5 000 zł za custom landing page premium z projektem UX+UI, implementacją i deployem jest realna. 71 ofert konkurencji to głównie szablony WordPress za 800-1500 zł — nie gramy w tej lidze.
+
+Usunięto: 0 modułów (SEO i tak było brainstormem, nie wliczane).  
+Scalono: 0.  
+Przeklasyfikowano: 1 (SEO techniczne → v2, nie confirmed).
+
+---
+
+## ROZBICIE KOŃCOWE
+
+```
+Moduły:       16h + 12h + 5h = 33h
+Testy/dok:    +15%            = 37,95h
+Buffer:       +20%            = 45,54h
+Mnożniki:     ×1.3 (brak spec)= 59,2h   [cap ×1.8 NIE zadziałał]
+Stawka:       90 zł/h
+Cena bazowa:  5 328 zł
+Korekta:      ×0.9 (71 ofert)= 4 795 zł
+Zaokrąglenie: do 500 zł      = 5 000 zł
+Dni:          59,2 ÷ 7 = 9 → +30% = 12 dni
+```
+
+[WYNIK_KONCOWY]
+KWOTA: 5000
+DNI: 12
+
+
+===== B: OFERTA search-w-chacie =====
+Dzień dobry,
+
+Piszę w imieniu dwuosobowego zespołu, robimy strony i landingi dla marek, gdzie wygląd naprawdę sprzedaje (meble, HoReCa, e-commerce premium).
+
+Największy problem z landingiem dla marki premium to nie "ładny wygląd" - to zdjęcia. Wasze materiały pewnie ważą po kilka MB każde, a strona musi się otwierać na telefonie w 2 sekundy, bo inaczej klient ucieka zanim zobaczy stół. Drugi - landing musi być spójny z tym, co już macie na stronie, bo premium to konwencja, nie pojedyncza podstrona. Jak wrzucicie obok siebie dwie różne estetyki, znika cały efekt.
+
+Do tego dochodzi wybór: konwersja na zapytanie, wizyta w showroomie, pobranie katalogu PDF. Od tego zależy, jak układamy sekcje i gdzie kładziemy CTA. Zanim zaczniemy projektować, potrzebuję 15 minut z Wami i dostęp do materiałów, żeby wiedzieć na czym stoimy - jaki macie CMS, hosting, co już jest, a czego brakuje.
+
+Technicznie: nowoczesne formaty zdjęć, leniwe ładowanie sekcji, subtelne animacje przy scrollu (bez cyrków), responsywność od 360px w górę. Kod piszemy tak, żebyście sami podmieniali zdjęcia i teksty, bez wołania nas za każdym razem.
+
+Realizacja: 12 dni roboczych od momentu, w którym dostaniemy komplet materiałów. Jak w trakcie wyjdzie coś dodatkowego (konfigurator, zapis do katalogu, integracja z newsletterem), mówię od razu ile to ekstra, zanim ruszymy z tematem.
+
+Za projekt i wdrożenie landingu wraz z przeniesieniem praw autorskich liczymy 5000 zł.
+
+Zdzwońmy się w tym tygodniu na 15 minut.
+
+Pozdrawiam
+
+
+
+########## ZLECENIE: Blog WordPress ##########
+
+===== A: RESEARCH 01 (dlugosc 7675) =====
+### FAKTY KLUCZOWE (twarde, ze źródłami)
+
+- **GeneratePress Premium kosztuje 59 USD/rok** i obejmuje do 500 stron. Wersja darmowa jest bardzo okrojona – nie ma starter templates, site library ani headera buildera. Dla projektu z wyraźnym układem bloga (szeroka kolumna + sidebar) wymagane jest GP Premium.  
+  Źródło: https://wpastra.com/comparison/astra-vs-generatepress-a-detailed-comparison/ – „GP Premium ($59/year for up to 500 sites as of 2026) unlocks the Site Library, Sections module, WooCommerce layout controls” 
+
+- **SureCart ma pełne REST API i webhooks** – można podpiąć zewnętrzne systemy (np. Fakturownia, MailerLite). API bazowe: `https://api.surecart.com/v1`, autoryzacja Bearer token.  
+  Źródło: https://developer.surecart.com/ – „Full REST API — connect to your CRM, email marketing, or custom workflows”  oraz „REST API base URL is https://api.surecart.com/v1” 
+
+- **SureCart obsługuje BLIK przez Mollie** (Mollie ma BLIK jako metodę płatności w PLN). SureCart natywnie wspiera Stripe, PayPal i Mollie.  
+  Źródło: https://hitme.pl/blog/poradnik/alternatywy-dla-woocommerce-w-wordpress-na-2026-rok/ – „SureCart oficjalnie wspiera płatności przez Stripe, PayPal i Mollie… Alternatywnie Mollie ma BLIK jako metodę płatności działającą w złotówkach (PLN)” 
+
+- **Fakturownia API – limit 1000 zapytań/IP/min, max 2 jednoczesne requesty.** Nowa dokumentacja (prod.api.fakturnia.pl) podaje ostrzejsze limity per endpoint: POST /documents – 30/60 s, GET /documents – 10/30 s.  
+  Źródła: https://sugester.fakturownia.pl/176748366-Limit-zapytan-w-API – „limit 1000 zapytań z danego adresu IP na minutę… Dopuszczalne są 2 jednoczesne requesty” ; https://developers.fakturnia.pl/en/docs/rate-limits – „POST /documents | 30 requests / 60 s… GET /documents | 10 requests / 30 s” 
+
+- **inFakt API – wspólny limit 6 żądań na godzinę** dla importu faktur przychodowych i kosztowych. Pojedyncza faktura nie jest objęta tym limitem.  
+  Źródło: https://pomoc.infakt.pl – „W przypadku importu faktur przychodowych i importu faktur kosztowych obowiązuje wspólny limit 6 żądań na godzinę” 
+
+- **MailerLite API v2 – 120 req/min (ogólny limit), 5 req/min dla importu subskrybentów.** Darmowy plan: 250 aktywnych subskrybentów, 2500 maili/mies.  
+  Źródła: https://smtpedia.com/platforms/mailerlite/api/ – „generous 120 req/min rate limit… Import rate limit | 5 requests per minute” ; https://dreamlit.ai – „Free plan | 250 active subscribers, 2,500 emails/month” 
+
+- **Seriously Simple Podcasting (Castos) jest darmową wtyczką WordPress** do publikacji podcastów. Hosting plików audio wymaga zewnętrznego dostawcy (np. Castos). Wtyczka sama w sobie nie ma kosztów.  
+  Źródło: https://wordpress.org/plugins/seriously-simple-podcasting/ – „The plugin is, and will always remain, free to use. The only costs associated with using Seriously Simple Podcasting is if you choose to host your audio and video files with a dedicated podcast hosting provider” 
+
+- **Sprzedaż e-booków i kursów online w UE – brak progu dla produktów cyfrowych.** Od pierwzej sprzedaży do konsumenta w innym kraju UE obowiązuje VAT kraju nabywcy. Próg 10 000 EUR dotyczy łącznie sprzedaży transgranicznej (cyfrowej i towarowej), ale dla samych produktów cyfrowych nie ma zwolnienia progowqego.  
+  Źródło: https://aelia.co – „Digital goods have no threshold relief and need two pieces of non-contradictory location evidence per sale… e-books are taxed where the customer is, from the first sale, with no threshold relief” 
+
+---
+
+### RYZYKA I PUŁAPKI
+
+- **Fakturownia API – 2 jednoczesne requesty i limit per endpoint.** Przy automatyzacji wystawiania faktur po każdym zakupie może dojść do przekroczenia limitu (szczególnie GET /documents 10/30 s). Konieczne jest kolejkowanie i backoff z Idempotency-Key. Źródło: 
+
+- **Fakturownia – integracja WooCommerce może zostać automatycznie zablokowana**, jeśli jedno zamówienie wyśle więcej niż 50 powiadomień w krótkim czasie. Przy SureCart zamiast WooCommerce trzeba zbudować własną integrację przez API, co wymaga ostrożnego projektowania webhooków.  
+  Źródło: https://pomoc.fakturownia.pl – „Jeśli jedno zamówienie wyśle ich więcej niż 50, system automatycznie blokuje całą integrację” 
+
+- **SureCart – transakcyjne e-maile (potwierdzenia zamówienia, wysyłka plików PDF) mogą wymagać dodatkowej konfiguracji.** SureCart obsługuje digital downloads, ale automatyczna wysyłka linków do plików po zakupie może wymagać webhooka do zewnętrznego systemu (np. MailerLite lub własny endpoint).  
+  Źródło: SureCart obsługuje „digital downloads” i ma webhooks, ale nie ma wbudowanej automatyzacji wysyłki PDF – nie potwierdzono w oficjalnej dokumentacji, czy wysyłka linków odbywa się automatycznie. Oznaczone jako **niepotwierdzone**.
+
+- **Brak kasy fiskalnej przy sprzedaży e-booków/kursów online – ale tylko przy płatnościach bezgotówkowych.** Jeśli klient zapłaci gotówką (np. za pobraniem), obowiązek kasowy może się pojawić. W projekcie sprzedaż jest w pełni online, więc ryzyko niskie, ale warto to zaznaczyć w ofercie jako element zgodności.  
+  Źródło: https://bizblog.spidersweb.pl – „Przy sprzedaży e-booków i kursów online i różnych z płatnościami bezgotówkowymi nie trzeba stosować kasy fiskalnej” 
+
+- **Prawo odstąpienia 14 dni – przy produktach cyfrowych wymagana jest wyraźna zgoda konsumenta na rozpoczęcie dostarczania przed upływem terminu.** Bez tego klient może zażądać zwrotu po pobraniu pliku.  
+  Źródło: https://kkplegal.pl – „Konsument ma prawo odstąpić od umowy… oraz musi wyrazić wyraźną zgodę na rozpoczęcie” 
+
+---
+
+### AMUNICJA DO OFERTY (fakty budujące eksperckość)
+
+- **SureCart ma ponad 90 000 aktywnych instalacji** i jest regularnie aktualizowany. W 2026 roku to dojrzała alternatywa dla WooCommerce, szczególnie dla produktów cyfrowych.  
+  Źródło: https://hitme.pl – „Ma ponad 90 000 aktywnych instalacji w repozytorium WordPressa” 
+
+- **BLIK to ponad 65% udziału w płatnościach e-commerce w Polsce** (dane Stripe). Dla klienta to argument, że wybór bramki z BLIK jest krytyczny dla konwersji.  
+  Źródło: https://hitme.pl – „BLIK to dziś standard – Stripe opisuje go jako najpopularniejszą metodę płatności w Polsce, z ponad 65% udziałem w płatnościach e-commerce” 
+
+- **OSS – można rozliczać VAT z jednym kwartalnym zeznaniem dla całej UE** zamiast rejestrować się w 27 krajach. Próg 10 000 EUR jest wspólny dla sprzedaży cyfrowej i towarowej.  
+  Źródło: https://fluentcart.com – „OSS lets you register once in one EU country and file one quarterly return for all EU B2C sales… The EUR 10,000 threshold is EU-wide and combines all your cross-border digital and TBE sales” 
+
+- **GeneratePress One (GP Premium + GenerateBlocks Pro) kosztuje 149 USD/rok** – daje porównywalny stack do Astra + Spectra. Jeśli klient rozważa GeneratePress, warto od razu zaproponować pakiet One.  
+  Źródło: https://wpastra.com – „The combination of GP Premium + GenerateBlocks Pro is available as GeneratePress One at $149/year” 
+
+---
+
+### CENY RYNKOWE (widełki)
+
+- **Budowa bloga WordPress + e-commerce (produkty cyfrowe) w Polsce:** 10 000 – 20 000 PLN za sensownie przygotowany e-commerce; przy większej liczbie integracji i automatyzacji 20 000+ PLN.  
+  Źródło: https://www.websitestyle.pl – „sensownie przygotowany e-commerce zaczyna się zwykle od 10-20 tys. zł, a przy większej liczbie funkcji, integracji i automatyzacji szybko wchodzi w budżet 20 tys. zł+” 
+
+- **Koszty roczne wtyczek (dla klienta):** GeneratePress Premium 59 USD, SureCart Pro 179 USD (lub darmowy z 1.9% opłaty transakcyjnej), MailerLite free (do 250 subskrybentów). Razem ok. 240–300 USD/rok + koszty hostingu.  
+  Źródła: GeneratePress – ; SureCart – ; MailerLite – 
+
+===== A: DOPYTANIA =====
+02b: Czy SureCart udostępnia webhook/API do automatycznej wysyłki plików cyfrowych (PDF) po zakupie, czy wymaga zewnętrznego systemu (MailerLite/własny endpoint) do dostarczenia linków do pobrania?
+
+
+---
+
+Poniżej pełna kalkulacja wg mechaniki (zakładam, że po doprecyzowaniu researchu potwierdzi się konieczność obejścia — co uwzględniam w buforze/mnożnikach; jeśli research wykaże natywne wsparcie, obniżę mnożnik ryzyka).
+
+## KROK 0.5 — Confirmed scope vs Brainstorm
+
+**CONFIRMED SCOPE:**
+- Strona www + blog (czysty, lekki motyw: GeneratePress/Astra, bez Elementor/Divi)
+- Układ: szeroka kolumna treści + stały sidebar konwersji (wzór: blog JOP)
+- Sekcja podcastów (publikacja odcinków)
+- Sprzedaż produktów cyfrowych (e-booki, kursy)
+- Integracja systemu sprzedaży (EasyCart/SureCart)
+- Bramka płatnicza: BLIK, karty
+- API z programem do fakturowania (Fakturownia/inFakt)
+- Automatyczna wysyłka PDF/linków po zakupie
+- Newsletter w sidebarze (MailerLite) + ostylowanie boksu
+
+**BRAINSTORM / v2 (poza wyceną):**
+- Nie ma brainstormu w opisie — klient precyzyjny. Brak mockupów poza zdjęciem referencyjnym.
+
+**Mnożnik specyfikacji:** Klient ma referencję wizualną (zdjęcie) + opis funkcji, ale brak Figmy i pełnej specyfikacji → **×1.3** (brak specyfikacji, opisał ogólnie).
+
+---
+
+## KROK 1 — Moduły (confirmed scope)
+
+1. **Setup WordPress + GeneratePress Premium + konfiguracja układu bloga** (szeroka kolumna + sidebar konwersji, wg referencji)
+2. **Sekcja podcastów** (Castos/Seriously Simple Podcasting, publikacja odcinków)
+3. **Integracja e-commerce: SureCart** (produkty cyfrowe, digital downloads, konfiguracja)
+4. **Bramka płatnicza: BLIK + karty** (Mollie przez SureCart)
+5. **Automatyzacja wysyłki PDF/linków po zakupie** (webhook → endpoint/MailerLite — praca obejściowa, bo research oznacza jako „niepotwierdzone")
+6. **Integracja API z Fakturownia** (automatyczne faktury po zakupie, z kolejkowaniem i backoff przez limity API)
+7. **Newsletter MailerLite** (boks w sidebarze, ostylowanie, integracja zapisu)
+
+---
+
+## KROK 2 — Godziny per moduł (z tabeli)
+
+| Moduł | Kategoria | Widełki |
+|---|---|---|
+| 1. Setup WP + GeneratePress + layout | WordPress/CMS customizacja | 8–20h |
+| 2. Sekcja podcastów | WordPress/CMS customizacja | 8–20h (dolna część — prostsza funkcja) |
+| 3. SureCart integracja produktów cyfrowych | Konfiguracja platformy e-commerce + upload plików | 10–18h (łączę z upload plików 4–8h) |
+| 4. Bramka płatnicza BLIK/karty | Integracja płatności | 8–16h (nakłada się z modułem 3 — SureCart) |
+| 5. Automatyzacja wysyłki PDF/linków | Automatyzacja AI-LLM / integracja zewnętrzna | 6–12h (praca obejściowa) |
+| 6. Integracja Fakturownia API | Integracja zewnętrznego API (złożona: retry, error handling, queue — limity!) | 10–20h |
+| 7. Newsletter MailerLite | Integracja zewnętrznego API (1 serwis, auth + CRUD) | 4–10h |
+
+**Nakładanie (KROK 2):**
+- Moduł 4 (bramka) jest sub-featurem SureCart (moduł 3) — nie ma sensu liczyć osobno pełnych godzin. **Scalam 3+4 → 12–22h** (SureCart + bramka + digital downloads + upload).
+- Moduł 5 (wysyłka PDF) korzysta z webhooków SureCart — częściowo wspólna logika, ale to odrębna odpowiedzialność (dostarczenie plików). **Zostawiam osobno, ale odejmuję 2h** za wspólny webhook. → **6–10h**.
+
+**Zaktualizowana lista:**
+
+| Moduł | Godziny opt. | Godziny real. |
+|---|---|---|
+| 1. Setup WP + GeneratePress + layout | 8 | 16 |
+| 2. Sekcja podcastów | 8 | 14 |
+| 3. SureCart + bramka + upload (scalone) | 12 | 22 |
+| 5. Automatyzacja wysyłki PDF | 6 | 10 |
+| 6. Integracja Fakturownia API | 10 | 20 |
+| 7. Newsletter MailerLite | 4 | 8 |
+
+---
+
+## KROK 2.5 — Testy + dokumentacja: +15%
+
+Suma realistyczna przed testami: 16+14+22+10+20+8 = **90h**
++15% testów = **103,5h**
+
+Suma optymistyczna: 8+8+12+6+10+4 = 48h (nie używana do dalszych kroków — idziemy realistycznie).
+
+---
+
+## KROK 4 — Buffer: +20% (pierwszy raz ten stack? Tak — SureCart + Fakturownia + podcasty jednocześnie)
+
+103,5h × 1,20 = **124,2h**
+
+---
+
+## KROK 5 — Mnożniki ryzyka
+
+- Klient nie ma specyfikacji (tylko zdjęcie referencyjne): ×1.3
+- Zewnętrzne API z potwierdzonymi ograniczeniami architektonicznymi: Fakturownia (2 równoległe requesty, limity per endpoint) — potwierdzone w researchu: **×1.25**
+- Funkcje real-time: brak
+- Łączny mnożnik: 1.3 × 1.25 = **1.625** (< cap 1.8, OK)
+
+124,2h × 1.625 = **201,8h**
+
+---
+
+## KROK 6 — Cena bazowa
+
+Stawka efektywna (profil 2 mies., 5 umów): **90 zł/h**
+
+201,8h × 90 zł = **18 162 zł**
+
+---
+
+## KROK 7 — Korekta konkurencyjna
+
+Zlecenie opublikowane **2026-08-27**, dziś **2026-09-10** → stare (ponad 3 dni). Ofert: **80**.
+
+Zlecenie stare (ponad 3 dni) i ponad 30 ofert → **×0.85**.
+
+18 162 × 0.85 = **15 437,7 zł**
+
+---
+
+## KROK 8 — Prowizja/podatek (świadomość, nie windujemy)
+
+~88% trafia na konto. Nie modyfikuję ceny — tylko informacyjnie.
+
+---
+
+## KROK 9 — Zaokrąglenie
+
+Ponad 10 000 zł → zaokrąglam do 1 000 zł: **15 000 zł**.
+
+---
+
+## KROK 9.5 — Kotwica budżetu
+
+Budżet: **„Do negocjacji"** → pole kwoty = cena bazowa z KROK 7–9 = **15 000 zł**.
+
+---
+
+## KROK 10 — Dni kalendarzowe
+
+201,8h ÷ 7h/dzień = 28,8 dnia → 29 dni
++30% na weekendy i komunikację = 37,7 → **38 dni**
+
+---
+
+## KROK 10.6 — 2-pass audit
+
+1. **Czy moduł mógłby być przypisany niezależnie?**
+   - Moduł 4 (bramka) — NIE, scalony z 3. ✓
+   - Moduł 5 (wysyłka PDF) — TAK, odrębna odpowiedzialność (webhook + endpoint). Zostaje.
+   - Moduł 2 (podcasty) — TAK, niezależny.
+   - Moduł 7 (MailerLite) — TAK, niezależny.
+2. **Nakładanie par:**
+   - 3+4: usunięte (scalone). ✓
+   - 3+5: wspólny webhook — odjęte 2h. ✓
+   - 6+7: brak wspólnego kodu. ✓
+3. **Confirmed vs brainstorm:** wszystkie moduły confirmed. ✓
+4. **Różnica >30% od instynktu?** Brak instynktu seniora w danych. Wycena w widełkach rynkowych (research: 10–20k PLN za sensowny e-commerce z integracjami). **15 000 zł mieści się w normie.**
+
+**Podsumowanie audytu:** 1 moduł scalony (3+4), 1 moduł z odjętymi godzinami (5), 0 przeklasyfikowanych, 0 usuniętych.
+
+---
+
+## ROZBICIE KOŃCOWE
+
+| Etap | Wartość |
+|---|---|
+| Suma realistyczna modułów | 90h |
+| +15% testy/dokumentacja | 103,5h |
+| +20% buffer | 124,2h |
+| ×1.3 (brak specyfikacji) × ×1.25 (ograniczenia API) = ×1.625 | 201,8h |
+| × 90 zł/h | 18 162 zł |
+| × 0.85 (korekta konkurencyjna: stare + 80 ofert) | 15 437,7 zł |
+| Zaokrąglenie | **15 000 zł** |
+| Dni: 201,8 ÷ 7 = 29 × 1.3 | **38 dni** |
+
+---
+
+**Uwaga do researchu:** Jeśli doprecyzowanie wykaże, że SureCart **ma** natywną wysyłkę plików po zakupie, mnożnik ×1.25 spada (Fakturownia nadal ma ograniczenia — więc raczej zostaje ×1.15–1.25), a moduł 5 redukuje się do 4–6h. Wtedy kwota spadnie do ~13 000–14 000 zł. Rekomenduję poczekać na wynik researchu przed finalną ofertą — ale zgodnie z mechaniką podaję kwotę na teraz.
+
+[WYNIK_KONCOWY]
+KWOTA: 15000
+DNI: 38
+02a: None
+
+===== A: WYCENA (KWOTA=13000, DNI=34) =====
+SureCart natywnie dostarcza pliki cyfrowe — koryguję moduł 5 i mnożnik ryzyka.
+
+## KOREKTA PO RESEARCHU
+
+**Moduł 5 (wysyłka PDF):** SureCart ma natywną automatyczną wysyłkę plików (e-mail + panel klienta). Nie budujemy obejścia — jedynie konfiguracja i weryfikacja. Moduł redukuje się z 6–10h do **3–5h**.
+
+**Mnożnik ograniczeń API:** ograniczenie SureCart znika. Zostaje tylko Fakturownia (potwierdzone: 2 równoległe requesty, limity per endpoint). Mnożnik spada z ×1.25 do **×1.15**.
+
+---
+
+## KOREKTA KALKULACJI
+
+| Moduł | Godz. real. |
+|---|---|
+| 1. Setup WP + GeneratePress + layout | 16 |
+| 2. Sekcja podcastów | 14 |
+| 3. SureCart + bramka + upload (scalone) | 22 |
+| 4. Konfiguracja natywnej wysyłki plików | 5 |
+| 5. Integracja Fakturownia API | 20 |
+| 6. Newsletter MailerLite | 8 |
+| **Suma** | **85h** |
+
++15% testy = **97,75h**
++20% buffer = **117,3h**
+× 1.3 (brak specyfikacji) × 1.15 (Fakturownia) = **×1.495**
+117,3 × 1.495 = **175,4h**
+× 90 zł/h = **15 786 zł**
+× 0.85 (stare + 80 ofert) = **13 418 zł**
+Zaokrąglenie (>10k → do 1 000) = **13 000 zł**
+
+Dni: 175,4 ÷ 7 = 25,06 → 26 dni × 1.3 = **34 dni**
+
+---
+
+## 2-PASS AUDIT
+
+- Moduł 3+4 scalone (bramka = sub-feature SureCart) ✓
+- Moduł 5 przeklasyfikowany: z „praca obejściowa” → „konfiguracja natywnej funkcji” (research potwierdził) ✓
+- Mnożnik ×1.25 → ×1.15 (usunięte ograniczenie SureCart, zostało Fakturownia) ✓
+- Nakładanie 3+5: webhook SureCart → Fakturownia, wspólna logika zdarzeń — uwzględnione w buforze ✓
+- Rozbieżność vs poprzednia wycena (15 000): −2 000 zł = redukcja modułu 5 (5h) + spadek mnożnika (0.10). Wyjaśnione źródłowo. ✓
+
+---
+
+## ROZBICIE KOŃCOWE
+
+| Etap | Wartość |
+|---|---|
+| Suma realistyczna modułów | 85h |
+| +15% testy/dokumentacja | 97,75h |
+| +20% buffer | 117,3h |
+| ×1.495 (1.3 × 1.15) | 175,4h |
+| × 90 zł/h | 15 786 zł |
+| × 0.85 (korekta konkurencyjna) | 13 418 zł |
+| Zaokrąglenie | **13 000 zł** |
+| Dni | **34** |
+
+Budżet „do negocjacji” → pole kwoty = cena bazowa.
+
+[WYNIK_KONCOWY]
+KWOTA: 13000
+DNI: 34
+
+
+===== A: OFERTA =====
+Dzień dobry,
+
+Piszemy w imieniu dwuosobowego zespołu. Budujemy strony na WordPressie bez ciężkich kreatorów i robimy integracje, które potem realnie działają, a nie tylko się ładnie instalują.
+
+Widzę, że zależy Ci na klasycznym układzie bloga w stylu JOP i na tym, żeby to chodziło szybko. Pod tym jest jednak coś, co przewraca większość takich wdrożeń: sprzedaż produktów cyfrowych z automatyczną fakturą i wysyłką plików. Na papierze SureCart czy EasyCart wyglądają prosto, ale gdy dochodzi polska bramka z BLIK-iem i API do Fakturowni, zaczynają się limity zapytań, kolejkowanie zdarzeń i webhooki, które muszą być odporne na ponowienia. Do tego sam GeneratePress w wersji darmowej nie da Ci tego układu z szeroką kolumną i stałym sidebarem konwersji, to wymaga wersji Premium i poskładania tego w blokach, a nie klikania w Elementorze.
+
+Dlatego robimy to tak: lekki GeneratePress, layout bloga składany natywnie, sekcja podcastów na darmowej wtyczce podcastowej z hostowanym audio, sprzedaż na SureCart z bramką obsługującą BLIK i karty, natywna wysyłka plików po zakupie plus webhook do Fakturowni. Przy fakturach od razu wchodzimy z kolejką i idempotencją, bo Fakturownia przyjmuje tylko dwa równoległe requesty i ma osobne limity na endpointy. Do tego boks newslettera w sidebarze spięty z MailerLite i miejsce na zgodę konsumenta na natychmiastowy dostęp do treści cyfrowych, żebyś nie miał potem sporów o zwroty. Podatkowo produkt cyfrowy w UE rozlicza się według kraju nabywcy od pierwszej sprzedaży, więc OSS warto mieć ustawiony od startu.
+
+Za postawienie całości razem z tymi integracjami liczymy 13 000 zł, realizacja w 34 dni. Zostawiamy stronę tak, żebyś sam podmieniał treści i produkty bez dzwonienia do nas.
+
+Zdzwońmy się w tym tygodniu na 15 minut, dopytam o hostingu i liczbę produktów na start.
+
+Pozdrawiam
+
+
+===== B: WYCENA search-w-chacie (KWOTA=5000, DNI=13) =====
+# Wycena: Budowa czystego bloga WordPress (GeneratePress) + integracja e-commerce
+
+**Uwaga:** nie dostałem osobnego pliku `mechanika_wyceniania.md` ani OUTPUT researchu – pracuję na mechanice wklejonej w kontekst. Brak researchu = `BRAK_ISTOTNYCH_FAKTÓW`, liczę normalnie wg mechaniki.
+
+## KROK 0.5 – Confirmed scope vs brainstorm
+
+**CONFIRMED SCOPE:**
+- WordPress + lekki motyw (GeneratePress/Astra), bez Elementora/Divi
+- Blog w klasycznym układzie (szeroka kolumna treści + stały sidebar konwersji)
+- Sekcja na podcasty
+- Sprzedaż produktów cyfrowych (e-booki, kursy)
+- Bramka płatnicza (BLIK, karty)
+- Integracja API z programem do faktur (Fakturownia/infakt)
+- Automatyczna wysyłka PDF/linków po zakupie
+- Boks zapisu na newsletter (MailerLite) w sidebarze, ostylowany
+
+**BRAINSTORM / v2 (poza wyceną):** brak – klient podał wymagania dość konkretnie. Do doprecyzowania na callu: czy produkty cyfrowe mają warianty (kursy z dostępem czasowym), czy potrzebny panel klienta do pobierania plików.
+
+## KROK 1–2 – Moduły i godziny
+
+| # | Moduł | Kategoria z tabeli | Opt. | Real. |
+|---|-------|-------------------|------|-------|
+| 1 | WP + GeneratePress, layout bloga/podcastów, sidebar konwersji, boks MailerLite | WordPress/CMS customizacja (8–20h) | 10h | 16h |
+| 2 | E-commerce produktów cyfrowych (SureCart/EasyCart) + bramka (BLIK/karty) + automatyczna dostawa plików | Integracja płatności (8–16h) | 8h | 12h |
+| 3 | Integracja API Fakturownia/infakt (webhook po zamówieniu, auth, CRUD) | Integracja zewn. API, 1 serwis (4–10h) | 5h | 8h |
+| | **SUMA** | | **23h** | **36h** |
+
+**Nakładanie:** sprawdzone. Moduł 3 (fakturowanie) jest wyzwalany zdarzeniem zamówienia z modułu 2, ale to osobna odpowiedzialność i osobny serwis zewnętrzny – trzymam osobno, bez podwójnego liczenia godzin lifecycle płatności (te siedzą w module 2). Automatyczna dostawa plików to sub-feature modułu 2, nie osobny moduł. Boks MailerLite wciągnięty do modułu 1 (współdzieli frontend/sidebar).
+
+## KROK 2.5–4 – Testy, buffer
+
+- **+15% testy + dokumentacja:** real. 36h → **41,4h**
+- **Buffer +20%** (WordPress znany, brak nowej technologii): 41,4h → **49,68h**
+
+## KROK 5 – Mnożniki ryzyka
+
+- Klient NIE ma specyfikacji ani Figmy (tylko zdjęcie referencyjne, opis ogólny): **×1,3**
+- Brak innych mnożników (brak real-time, brak potwierdzonych ograniczeń API, brak istniejącego systemu do przepisania)
+
+Łączny mnożnik: ×1,3 (poniżej capu ×1,8)
+
+49,68h × 1,3 = **64,58h**
+
+## KROK 6 – Cena bazowa
+
+Stawka efektywna (profil 2 miesiące, 5 umów → ×0,75): **90 zł/h**
+
+64,58h × 90 zł = **5 812 zł**
+
+## KROK 7 – Korekta konkurencyjna
+
+Zlecenie opublikowane 2026-08-27, dziś 2026-09-10 → **stare (>3 dni)**. Ofert: **80** (>30).
+→ **×0,85**
+
+5 812 zł × 0,85 = **4 940 zł**
+
+## KROK 8 – Świadomość prowizji
+
+~88% trafia na konto. 4 940 zł na Useme ≈ 4 347 zł netto. Nie winduję sztucznie.
+
+## KROK 9 – Zaokrąglenie
+
+Przedział 2 000–10 000 zł → zaokrąglenie do 500 zł → **5 000 zł**
+
+## KROK 9.5 – Budżet klienta
+
+Budżet: **„Do negocjacji"** → pole kwoty = cena bazowa po korekcie = **5 000 zł**. Żadnej korekty budżetowej.
+
+## KROK 10 – Dni pracy
+
+64,58h ÷ 7h/dzień = 9,23 → **10 dni** + 30% (weekendy, komunikacja) = 13 dni. Minimum formularza 7 spełnione. Klient nie sygnalizuje pilności, brak trybu ekspresowego.
+
+## KROK 10.6 – 2-pass audit
+
+1. **Niezależność modułów:** wszystkie 3 mogłyby iść do osobnych devów (WP/theme, e-commerce, integracja API). Bez scalania.
+2. **Nakładanie:** moduł 3 współdzieli lifecycle zamówienia z modułem 2 – USUNĄŁEM ryzyko podwójnego liczenia lifecycle płatności (zostało tylko w modzie 2). Boks newslettera scalony z modułem 1.
+3. **Confirmed vs brainstorm:** 100% confirmed, brainstorm pusty.
+4. **Odchylenie od instynktu:** brak danych o instynkcie seniora – nie porównuję.
+
+**Wynik audytu:** 0 modułów usuniętych, 1 scalony (newsletter→WP), 0 przeklasyfikowanych. Bez napompowania.
+
+---
+
+## Rozbicie końcowe
+
+```
+Moduły:            23h opt / 36h real
++15% testy:        → 41,4h
++20% buffer:       → 49,68h
+×1,3 (brak spec):  → 64,58h
+× 90 zł/h:         → 5 812 zł
+× 0,85 (80 ofert): → 4 940 zł
+Zaokrąglenie:      → 5 000 zł
+Budżet negocj.:    → bez zmian
+```
+
+**Kwota: 5 000 zł · Dni: 13**
+
+Uzasadnienie ceny dla klienta: to nie jest „postawienie bloga" – to pełny setup sprzedaży produktów cyfrowych z automatyczną fakturacją i dostawą plików, czyli integracje, które generują realną oszczędność czasu przy każdym zamówieniu. Cena plasuje się w dolnej granicy rynkowej dla e-commerce z automatyzacją faktur, bo brak specyfikacji obniża pewność zakresu – po briefie i callu możliwa aktualizacja wyceny w górę.
+
+[WYNIK_KONCOWY]
+KWOTA: 5000
+DNI: 13
+
+
+===== B: OFERTA search-w-chacie =====
+Cześć,
+
+Piszę w imieniu dwuosobowego zespołu, robimy bezpośrednio, bez pośredników. WordPress z lekkim motywem i sprzedaż produktów cyfrowych to nasza codzienność, więc trafiliście w dobry adres.
+
+Zacznijmy od tego, że sam blog na GeneratePress to najmniejszy problem. Prawdziwe wyzwanie siedzi w sprzedaży plików i fakturach. Jeśli klient kupi e-booka, dostanie zwykłego linka do PDF, to po tygodniu wycieknie na jakiegoś chomika i sprzedaż siada. Dlatego dostawę plików robimy na tokenach z limitem pobrań i czasem ważności, generowanych per zamówienie, nie na sztywnym linku w mailu.
+
+Druga rzecz to fakturowanie. SureCart albo EasyCart ładnie obsłuży płatność przez BLIK i karty, ale fakturę trzeba wystawić samemu, inaczej księgowość dostaje ręczną robotę po każdym zamówieniu. Spięcie z Fakturownią albo infaktem robimy przez API na webhooku z zamówienia, z uwierzytelnieniem i mapowaniem pozycji, więc faktura leci automatycznie zaraz po zaksięgowaniu płatności. Przy kursach trzeba jeszcze ogarnąć dostęp czasowy albo panel klienta do pobierania, to doprecyzujemy na callu, bo od tego zależy zakres.
+
+Sam układ bloga jak u Szafrańskiego to nie kwestia szablonu, tylko customowego sidebaru. W GeneratePress trzeba go zrobić jako sticky box z boksem MailerLite, który na mobile schodzi pod treść i nie rozjeżdża kolumny. Sekcja podcastów to osobny szablon z osadzonym playerem i archiwum odcinków.
+
+Za postawienie całości od zera, z płatnościami, automatyczną dostawą plików, fakturowaniem przez API i ostylowanym newsletterem, liczymy 5000 zł. Realizacja w 13 dni. Po krótkim briefie i callu możemy zweryfikować zakres, jeśli dojdą warianty kursów albo panel klienta.
+
+Zdzwońmy się w tym tygodniu na 15 minut, dopytam o dwa szczegóły i ruszamy.
+
+Pozdrawiam
+
+

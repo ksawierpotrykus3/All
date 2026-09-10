@@ -1,0 +1,3 @@
+| 5 | 5. Apartamenty | projekt/male | 36h | 14000 | 33 | 201.2 | PASS |
+| 6 | 6. Strapi+LiveKit | projekt/male | 12h | 12000 | 29 | 180.8 | PASS |
+| 7 | 7. SEO rumunski Woo | projekt/male | 16h | 3500 | 7 | 176.8 | PASS |

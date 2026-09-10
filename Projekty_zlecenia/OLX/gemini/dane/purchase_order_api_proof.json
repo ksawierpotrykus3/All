@@ -1,0 +1,33 @@
+{
+  "timestamp": 1788370251.2311618,
+  "url": "https://pl.ps.prd.eu.olx.org/order/v1/purchase-order",
+  "method": "POST",
+  "status_code": 201,
+  "latency_ms": 686.35,
+  "payload": {
+    "adId": 1018987579
+  },
+  "headers_sent": {
+    "Authorization": "Bearer [REDACTED]",
+    "Content-Type": "application/json"
+  },
+  "response_headers": {
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "54",
+    "x-b3-traceid": "466ae45487df996e",
+    "x-b3-spanid": "2597828bd9765ed8",
+    "x-b3-sampled": "1",
+    "date": "Wed, 02 Sep 2026 17:30:36 GMT",
+    "access-control-allow-origin": "https://www.olx.pl",
+    "access-control-allow-credentials": "true",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 90ecdc7529deb4cf6ecb56c4626e0ac8.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "WAW51-P1",
+    "x-amz-cf-id": "6lVimvsAe0_rm1A15BFbsU_V3fhXqd2Bpymh77Avegvsp40W-nn4EQ=="
+  },
+  "response_body": {
+    "data": {
+      "id": "c9eb83c9-4c03-9721-a0f7-ad0c3e7b5f98"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "40703083",
+  "url": "https://www.freelancer.pl/projects/data-management/Comprehensive-Document-Review-Entry/details",
+  "title": "Comprehensive Document Review & Entry",
+  "author": "Anonim",
+  "budget": "5000.0 - 45000.0 INR",
+  "category": "scraping-dane",
+  "detected_at": "2026-09-10T17:28:39.050077",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703083",
+    "url": "https://www.freelancer.pl/projects/data-management/Comprehensive-Document-Review-Entry/details",
+    "seo_url": "data-management/Comprehensive-Document-Review-Entry",
+    "title": "Comprehensive Document Review & Entry",
+    "budget": "5000.0 - 45000.0 INR",
+    "budget_raw": {
+      "minimum": 5000.0,
+      "maximum": 45000.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I have a backlog of invoices, contracts, and internal reports that must be reviewed for accuracy and",
+    "category": "scraping-dane",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Data Cleansing",
+      "Data Management",
+      "Data Annotating",
+      "Data Labeling"
+    ],
+    "bid_stats": {
+      "bid_count": 33,
+      "bid_avg": 22469.696969696968
+    },
+    "local": false,
+    "time_submitted": 1789040965
+  },
+  "full_details": {
+    "id": "40703083",
+    "title": "Comprehensive Document Review & Entry",
+    "full_description": "I have a backlog of invoices, contracts, and internal reports that must be reviewed for accuracy and then keyed into our proprietary software. After examining each document you’ll capture customer details, financial figures, and any inventory-related data exactly as they appear, standardising where necessary so the records line up with our existing database structure.\n\nYou will be working directly in the software we already use, so previous experience with specialised or in-house business platforms will help you get up to speed quickly. Accuracy and confidentiality are critical; every field you enter feeds our live system.\n\nAcceptance criteria  \n• Every invoice, contract, and report reviewed and cross-checked for completeness  \n• Customer, financial, and inventory fields populated in the software with 100 % consistency to source documents  \n• Any discrepancies or missing information flagged in a short summary log  \n\nI’ll provide secure access credentials, a brief walkthrough of the workflow, and sample completed entries so you can mirror the required format from day one.\n\nyou can expect this to be a long term job. the pay will be around 40k INR per month.",
+    "budget_raw": {
+      "minimum": 5000.0,
+      "maximum": 45000.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Data Cleansing",
+      "Data Management",
+      "Data Annotating",
+      "Data Labeling"
+    ],
+    "bid_stats": {
+      "bid_count": 33,
+      "bid_avg": 22469.696969696968
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:57"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:57.021854"
+}

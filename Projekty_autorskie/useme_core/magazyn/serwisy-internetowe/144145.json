@@ -1,0 +1,44 @@
+{
+  "id": "144145",
+  "url": "https://useme.com/pl/jobs/konfiguracja-prostego-sklepu-autorskiego-na-shoper-storefront,144145/",
+  "title": "Konfiguracja prostego sklepu autorskiego na Shoper Storefront",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-10T15:25:31.175303",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144145",
+    "url": "https://useme.com/pl/jobs/konfiguracja-prostego-sklepu-autorskiego-na-shoper-storefront,144145/",
+    "title": "Konfiguracja prostego sklepu autorskiego na Shoper Storefront",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Witam\n\nMam już uruchomiony sklep testowy na platformie Shoper oraz własną domenę.\n\nSzukam osoby, która skonfiguruje prosty, elegancki sklep autorski na gotowym szablonie Storefront. Nie potrzebuję indywidualnego projektu od zera ani...",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/konfiguracja-prostego-sklepu-autorskiego-na-shoper-storefront,144145/",
+    "title": "Konfiguracja prostego sklepu autorskiego na Shoper Storefront",
+    "full_description": "<p>Witam</p>\n\n<p>Mam już uruchomiony sklep testowy na platformie Shoper oraz własną domenę.</p>\n\n<p>Szukam osoby, która skonfiguruje prosty, elegancki sklep autorski na gotowym szablonie Storefront. Nie potrzebuję indywidualnego projektu od zera ani rozbudowanych funkcji.<br>Zdjęcia i opisy przygotuję pod wytyczne wykonawcy.</p>\n\n<p>Sklep będzie służył do sprzedaży książek jednego lub kilku autorów w wersji papierowej, ebook i audiobook.</p>\n\n<p>Zakres:</p>\n\n<p>wybór i dostosowanie gotowego szablonu Storefront,<br>estetyczna strona główna,<br>konfiguracja kolorystyki, fontów i podstawowej grafiki,<br>dodanie książki papierowej,<br>dodanie e-booka EPUB jako produktu cyfrowego,<br>przygotowanie sklepu pod późniejszy audiobook,<br>konfiguracja BLIK / karty / szybkie płatności,<br>konfiguracja InPost Paczkomat / kurier,<br>podpięcie własnej domeny,<br>konfiguracja automatycznego wysyłania e-booka po płatności,<br>podstawowe strony: kontakt, dostawa, regulamin, polityka prywatności,<br>sprawdzenie poprawności działania sklepu na telefonie,<br>test pełnej ścieżki zakupowej.</p>\n\n<p>Na start sklep będzie miał tylko kilka produktów.<br>Zależy mi przede wszystkim na prostocie, estetyce i bardzo łatwej późniejszej obsłudze.</p>\n\n<p>Proszę o:</p>\n\n<p>cenę za całość,<br>2–3 przykłady sklepów wykonanych na Shoperze,<br>przewidywany termin realizacji.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144145/offer/start/",
+    "scraped_at": "2026-09-10T15:26:17"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu. Shoper i produkty cyfrowe to nasza codzienność, robiliśmy już sklepy z automatyczną wysyłką e-booków, więc wiem gdzie ludzie się wykladają.\n\nNajwiększy problem w takich sklepach autorskich to nie sama konfiguracja, tylko sprzedaż treści cyfrowych. E-book i audiobook muszą trafić do klienta automatycznie po zaksięgowaniu płatności, a nie po ręcznym kliknięciu przez Ciebie. W Shoperze robi się to przez statusy zamówienia i e-maile transakcyjne: ustawiamy konkretny status (np. \"opłacone\"), który wyzwala wysyłkę pliku, czas ważności linku i limit pobrań. Wtedy nawet w środku nocy klient dostaje e-booka w kilka sekund. Pod audiobooka przygotowujemy osobny szablon produktu cyfrowego, żebyś później wrzucała plik bez grzebania w konfiguracji.\n\nDruga rzecz, o której mało kto mówi przy audiobookach: limity miejsca na pliki w Shoperze szybko się kończą, bo jeden audiobook to często kilkaset MB. Jeśli masz plan Standard lub Standard+, limit to 10 GB, więc przy kilku audiobookach robi się ciasno. Możemy od razu ustawić produkty cyfrowe jako linki do plików trzymanych poza Shoperem (np. na Twojej chmurze), wtedy miejsce w sklepie nie jest problemem, a klient nadal dostaje wszystko automatycznie po opłaceniu.\n\nPłatności: BLIK 0, czyli płatność bez wychodzenia ze sklepu, działa w Shoperze tylko przez bramkę Przelewy24, więc skonfigurujemy to tak, żeby klient nie musiał się przeklikiwać na zewnętrzną stronę. To realnie podnosi konwersję, bo mniej osób porzuca koszyk. Karty i szybkie płatności ustawiamy na tej samej bramce.\n\nDomena: podpinamy Twoją przez panel (Ustawienia, Ogólne, Domeny), przepisujemy rekordy DNS i sprawdzamy, czy certyfikat SSL zaskoczył. Nie ma przestoju, stary sklep testowy działa do momentu przełączenia.\n\nRegulamin, polityka prywatności i zwroty: Shoper ma aplikację Shoper Regulaminy od Legal Geek, która generuje gotowe dokumenty zgodne z RODO i sama pilnuje zmian w prawie. To najbezpieczniejsza opcja, bo dostawcy płatności weryfikują te dokumenty przed aktywacją szybkich płatności, więc nie zablokuje nam to uruchomienia BLIK-a.\n\nSzablon: wybierzemy darmowy motyw Storefront, który pasuje do książek, bez opłat licencyjnych.\n\nInPost: sama integracja jest wbudowana, ale InPost wymaga abonamentu po stronie Twojej umowy (około 150 zł netto miesięcznie). Warto sprawdzić, czy już masz umowę, bo bez tego nie podepniemy Paczkomatów. Jeśli nie masz, powiemy jak to załatwić.\n\nZa całość liczymy 3200 zł, realizacja w 7 dni. W cenie dajemy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali w praniu oraz krótkie wideo pokazujące jak samodzielnie obsługiwać panel, dodawać kolejne książki i podmieniać pliki.\n\nPrzykłady sklepów na Shoperze podeślemy na priv, razem z konkretnym szablonem, który proponujemy pod książki autorskie.\n\nZdzwońmy się na 15 minut w tym tygodniu, albo napisz na priv i dopniemy szczegóły. Jeśli chcesz zobaczyć jak to zadziała w praktyce, możemy wcześniej przygotować krótkie demo.\n\nPozdrawiam",
+    "wycena": 3200,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144145",
+    "wycena": 3200,
+    "dni": 7,
+    "final_url": "https://useme.com/pl/jobs/144145/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144145.png",
+    "message": "Oferta #144145 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144145/offer/finish/)."
+  },
+  "updated_at": "2026-09-10T17:07:04.813888",
+  "error": "Łańcuch AI zwrócił błąd/abort dla zlecenia 144145"
+}

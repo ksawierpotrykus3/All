@@ -1,0 +1,79 @@
+{
+  "id": "40703485",
+  "url": "https://www.freelancer.pl/projects/java/Comprehensive-Automation-Strategy/details",
+  "title": "Comprehensive AI Automation Strategy & Workflow Optimization for Jewelry Business -- 2",
+  "author": "Anonim",
+  "budget": "12500.0 - 37500.0 INR",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:44:24.149908",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703485",
+    "url": "https://www.freelancer.pl/projects/java/Comprehensive-Automation-Strategy/details",
+    "seo_url": "java/Comprehensive-Automation-Strategy",
+    "title": "Comprehensive AI Automation Strategy & Workflow Optimization for Jewelry Business -- 2",
+    "budget": "12500.0 - 37500.0 INR",
+    "budget_raw": {
+      "minimum": 12500.0,
+      "maximum": 37500.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "We are a jewelry trading company aiming to modernize and optimize our operations. Currently, our wor",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "Java",
+      "JavaScript",
+      "Python",
+      "Software Architecture",
+      "AI Consulting",
+      "AI Development",
+      "RPA Development",
+      "AI Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 19,
+      "bid_avg": 22475.438421052633
+    },
+    "local": false,
+    "time_submitted": 1789054634
+  },
+  "full_details": {
+    "id": "40703485",
+    "title": "Comprehensive AI Automation Strategy & Workflow Optimization for Jewelry Business -- 2",
+    "full_description": "We are a jewelry trading company aiming to modernize and optimize our operations. Currently, our workflow relies heavily on manual processes and communications via WhatsApp for design research, feedback, data audits, and decision-making for manufacturing. As we expand into online sales, we also need support with product research and creative tasks like mood shoots.\n\nWe are looking for an experienced AI professional who can:\n\n- Audit our current workflow to identify inefficiencies and explore areas where intelligent automation can make the biggest impact.  \n- Suggest improvements in our processes that we may not even be aware of, ensuring faster and more efficient operations.\n- Implement AI-powered solutions for trend analysis, centralized communication systems, decision-making automation, product selection for online sales, and process tracking.  \n- Help streamline or integrate offline/WhatsApp communications into a singular system for better data consolidation.  \n- Provide end-to-end recommendations suitable for scaling online B2C and B2B sales while maintaining operational excellence.  \n\nDeliverables:\n\n- A comprehensive workflow diagnosis and recommendations report.\n- Implementation of agreed-upon AI/automation tools tailored to our needs.\n- Training sessions and user-friendly documentation to empower our team in managing these systems independently.\n\nThe goal is not only to solve existing bottlenecks but also to uncover innovative approaches that will elevate the efficiency of our business operations.",
+    "budget_raw": {
+      "minimum": 12500.0,
+      "maximum": 37500.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "Java",
+      "JavaScript",
+      "Python",
+      "Software Architecture",
+      "AI Consulting",
+      "AI Development",
+      "RPA Development",
+      "AI Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 19,
+      "bid_avg": 22475.438421052633
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:44:24"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:44:24.979156"
+}

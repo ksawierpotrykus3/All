@@ -1,0 +1,46 @@
+===== WYCENA (kalkulator) =====
+[WYNIK_KONCOWY]
+KWOTA: 3000
+DNI: 8
+[/WYNIK_KONCOWY]
+
+--- UZASADNIENIE DOBORU (model) ---
+Zlecenie to kompletny Landing page / One-Page (zgodnie z regułą: JEDEN moduł, nie rozbijamy na UX/SEO/deploy). Wybrano górną widełkę 22h, bo klient premium oczekuje 'innowacyjnego podejścia', scroll-driven storytellingu i immersyjnego doświadczenia (hero video, sticky sections, editorial typography) – to mieści się w górnej granicy modułu. Materiały i brief dopiero po wyborze oferenta → brak mockupów i specyfikacji → brak_specyfikacji=true (×1.3). Brak wzmianki o Figmie w treści. Brak API, brak real-time. 'Nowa technologia'=false (zwykły landing). Zlecenie świeże (1 dzień) z 71 ofertami → konkurencja zalana, kalkulator zastosuje korektę ×0.9. Budżet 'do negocjacji' → null.
+
+--- ROZBICIE (kalkulator deterministyczny) ---
+{
+  "tryb": "projekt",
+  "moduly": [
+    {
+      "nazwa": "Landing page / One-Page",
+      "godziny_real": 22
+    }
+  ],
+  "godziny_real": 22.0,
+  "po_testach_15": 25.3,
+  "bufor": 0.2,
+  "po_buforze": 30.4,
+  "mnoznik_ryzyka": 1.3,
+  "cap_zadzialal": false,
+  "po_mnoznikach": 39.5,
+  "stawka": 90,
+  "cena_bazowa": 3552.1,
+  "korekta_konkurencyjna": 0.9,
+  "cena_po_korekcie": 3196.9,
+  "kwota_koncowa": 3000
+}
+
+===== OFERTA =====
+Cześć,
+
+Piszę w imieniu dwuosobowego zespołu. Robimy strony i sklepy dla marek, które sprzedają produkt, a nie ilość. Landing page dla producenta mebli premium to nasza bajka.
+
+Zacznijmy od tego, że sam landing to nie problem. Problem jest inny. Strony marek premium w 2026 siedzą na scroll-driven storytellingu: sticky sekcje, editorial typografia, dużo światła, wideo w tle. I tu jest pułapka. Wrzucenie hero video bez optymalizacji zabija LCP i INP, a Google od 2026 rozlicza to na danych rzeczywistych użytkowników, nie z labu. Efekt jest taki, że strona wygląda dobrze przez pierwsze 2 sekundy, a potem klient z mobile scrolluje po klatkach i wychodzi.
+
+To ogarniamy tak: sekcje piszemy modularnie, więc hero, manifest marki, kategorie (stoły, krzesła, tapicerka) i formularz układasz jak klocki bez ruszania kodu. Wideo i duże zdjęcia produktowe idą przez lazy loading i formaty nowej generacji, tylko to, co widać na starcie, ładuje się od razu. Sticky header robimy tak, żeby nie zasłaniał elementu z fokusem przy nawigacji klawiaturą, bo to nowy wymóg WCAG 2.2 i większość wdrożeń go łamie. Formularz kontaktowy przygotujemy z klauzulą RODO i rozdzielonymi zgodami na kontakt mailowy i telefoniczny, żebyś nie zbierał leadów po omacku.
+
+Materiały i brief dostaniemy od Was dopiero po wyborze, więc wiem, że na starcie będzie gorąco. Dlatego pierwszą wersję layoutu robimy na Waszych realnych zdjęciach, nie na placeholdery. Jeśli nie macie jeszcze zdjęć w wysokiej rozdzielczości, powiedz od razu, bo to jedyna rzecz, która może przesunąć termin.
+
+Za kompletny landing z sekcjami modułowymi, optymalizacją pod Core Web Vitals i formularzem zgodnym z RODO liczymy 3000 zł, realizacja w 8 dni od przekazania materiałów.
+
+Napisz, to zrzucimy okiem na Wasze materiały i pogadamy o detalach. Możemy się zgadać na krótkiego calla.

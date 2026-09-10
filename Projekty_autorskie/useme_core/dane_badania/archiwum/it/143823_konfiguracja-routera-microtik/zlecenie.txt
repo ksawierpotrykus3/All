@@ -1,0 +1,191 @@
+Konfiguracja routera MicroTik
+=============================
+URL: https://useme.com/pl/jobs/konfiguracja-routera-microtik,143823/
+
+Zleceniodawca
+Ensoft
+
+Opis
+Poszukuję osoby z Łodzi do konfiguracji routera MicroTik. Zakres:
+
+1. Konfiguracja Wi-Fi wraz z switch/AP MicroTik tak, aby switch/AP działały jako repeater
+
+2. Konfiguracja VPN.
+
+Proszę o kontakt tylko osoby z Łodzi, które są w stanie podjechać i skonfigurować urządzenia na miejscu.
+
+Opublikowano
+4 dni temu
+
+Kategoria
+Administracja serwerami
+
+Prawa autorskie
+Bez przeniesienia praw autorskich
+
+Budżet
+Do negocjacji
+
+Ważne przez
+7 dni
+
+Wymagane umiejętności / tagi:
+allegro, API, bazy danych, + 26 więcej
+
+Wysłane oferty (8)
+------------------------------
+[TomaszMyszak | 1 umowa](https://useme.com/pl/roles/contractor/225461/) - wczoraj
+  * allegro
+  * API
+  * bazy danych
+  * C plus plus
+  * C Sharp
+  * css
+  * domena internetowa
+  * drupal
+  * html
+  * html5
+  * java
+  * javascript
+  * linux
+  * mysql
+  * .NET
+  * PHP
+  * plsql
+  * postgresql
+  * prestashop
+  * programowanie zwinne
+  * programy użytkowe
+  * serwer
+  * sklep internetowy
+  * sql
+  * strona www
+  * windows
+  * WooCommerce
+  * wordpress
+  * xml
+
+[HUNQIS | 1 umowa](https://useme.com/pl/roles/contractor/547568/) - wczoraj
+  * analiza biznesowa
+  * analiza danych
+  * analiza finansowa
+  * audyt
+  * audyt finansowy
+  * finanse
+  * helpdesk
+  * service desk
+
+[Serhii Matsapura | 0 umów](https://useme.com/pl/roles/contractor/693482/) - 3 dni temu
+
+[MIGADA | 0 umów](https://useme.com/pl/roles/contractor/599629/) - 3 dni temu
+  * administracja serwerów
+  * administracja sieci
+  * administracja systemów
+  * AI
+  * audyt
+  * bezpieczeństwo it
+  * cyberbezpieczeństwo
+  * debian
+  * IT
+  * linux
+  * LLM
+  * SysAdmin
+
+[Vulcanoo - CodeOlympus.studio | 112 umów](https://useme.com/pl/roles/contractor/156740/) - 4 dni temu
+  * analiza danych
+  * API
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * cms
+  * css
+  * html
+  * mysql
+  * PHP
+  * prestashop
+  * python
+  * sklep internetowy
+  * sql
+  * strona www
+  * web development
+  * wordpress
+
+[Heyneuron.com | 1 umowa](https://useme.com/pl/roles/contractor/148433/) - 4 dni temu
+  * AI
+  * Airtable
+  * API
+  * aplikacje webowe
+  * blockchain
+  * CRM
+  * facebook
+  * Facebook Pixel
+  * gmail
+  * google analytics
+  * Google Tag Manager
+  * hubspot
+  * landing page
+  * LANDINGPAGE
+  * marketing internetowy
+  * n8n
+  * Next.js
+  * Nocode
+  * React
+  * strona www
+  * web api
+  * web development
+  * zapier
+
+[KARTS DESIGN | 10 umów](https://useme.com/pl/roles/contractor/113377/) - 4 dni temu
+  * adobe illustrator
+  * adobe photoshop
+  * aplikacje mobilne
+  * apps
+  * architektura
+  * banner
+  * fotografia
+  * fotografia biznesowa
+  * fotografia mody
+  * fotografia produktowa
+  * grafika
+  * grafika na stronę
+  * grafika www
+  * identyfikacja wizualna
+  * layout design
+  * logo
+  * plakat
+  * sklep internetowy
+  * strona www
+  * UI
+  * ulotki
+  * user experience design
+  * UX design
+  * web development
+  * wizytówki
+  * wordpress
+
+[hexabit | 0 umów](https://useme.com/pl/roles/contractor/318431/) - 4 dni temu
+  * adwords
+  * bazy danych
+  * django
+  * drupal
+  * html5
+  * javascript
+  * Magento
+  * mysql
+  * .NET
+  * perl
+  * PHP
+  * postgresql
+  * python
+  * ruby
+  * scrum
+  * seo
+  * shoper
+  * sklep internetowy
+  * sql
+  * strona www
+  * VB.net
+  * WooCommerce
+  * wordpress
+  * xml
+  * zend

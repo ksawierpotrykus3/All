@@ -1,0 +1,27 @@
+### I've cleaned up a dozen vibe-coded apps this year. The same 7 problems show up every single time ###
+
+Źródło: https://www.reddit.com/r/vibecoding/s/waLFZXIYJA
+
+I run a dev team and a big chunk of our work this year has quietly become taking AI-built apps and getting them ready for real users. Same story almost every time: the app works, the founder is (rightly) proud of it, then the first real user does something weird and everything catches fire.
+
+These are the 7 things we find in almost every codebase we open:
+
+1. Secrets in the code: API keys in the frontend or committed to the repo. Search your own code for sk- and secret and password. If real values come up, rotate them today, not after launch.
+2. The UI is the only security: Buttons hidden from non-admin users, but the API happily answers anyone who calls it directly. AI tools build the happy path. Attackers don't use your UI. Every endpoint needs its own server-side permission check.
+3. One user can see another user's data (IDOR): If your app has accounts, make two, create data in the first, then try to fetch it by ID from the second. You'd be shocked how often this just works.
+4. Zero error tracking: Users don't report bugs, they leave. Sentry's free tier takes 20 minutes to set up, or you can use any open-source tool for logging.
+5. Backups that have never been restored: Everyone says they have backups. Almost nobody has ever actually restored one. If you haven't done a restore, you don't have backups, you have hope.
+6. Payments trusting the client: Prices coming from the frontend, webhook signatures never verified. Stripe's own integration checklist is boring and correct, just follow it.
+7. Silent rewrites: The AI changed things in parts of the app you weren't looking at. Screenshot tests on your five most important pages (Playwright, one afternoon of setup) catch what your eyes skip.
+
+None of this needs a rewrite. Most of it is days of work, not months. It's just a lot nicer to do it before launch than during the fire.
+
+### HIERARCHIA KOMENTARZY (PODSUMOWANIE MERYTORYCZNE) ###
+
+1. p8inKill3r & lossendae & NorthKoreanCaptive [Zarządzanie AI i AI Drift]:
+   - **Steering Markdown:** Używanie plików takich jak AGENTS.md / SKILL.md pozwala określić reguły dla AI, ale AI nie jest w 100% deterministyczne i bywa, że ignoruje wytyczne przy długich zadaniach.
+   - **Wzorcowe kodowanie:** Warto dołączać folder z udaną, działającą i spójną i implementacją obok tworzonego projektu – daje to AI jasny wzorzec architektury.
+   - **Testowanie AI:** Nakazuj AI pisać automatyczne testy jednostkowe/integracyjne weryfikujące reguły, oraz stosuj testy zrzutów ekranu (np. Playwright), aby natychmiast wykrywać ciche regresje ("AI drift").
+
+2. Canadian_Commander & Jean1985 [Error Tracking vs Observability]:
+   - **Sentry vs OpenTelemetry:** Sentry służy stricte do śledzenia błędów w czasie rzeczywistym z pełnym kontekstem kodu (stack trace z podglądem linii kodu), podczas gdy OpenTelemetry (OTEL + Grafana/LGTM) to otwarta infrastruktura do ogólnej obserwowalności (metryki, ślady, logi).

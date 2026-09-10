@@ -1,0 +1,75 @@
+{
+  "id": "40703217",
+  "url": "https://www.freelancer.pl/projects/copywriting/Clothing-Product-Listing-Specialist/details",
+  "title": "Clothing Product Listing Specialist",
+  "author": "Anonim",
+  "budget": "10.0 - 30.0 USD",
+  "category": "scraping-dane",
+  "detected_at": "2026-09-10T17:28:39.028563",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703217",
+    "url": "https://www.freelancer.pl/projects/copywriting/Clothing-Product-Listing-Specialist/details",
+    "seo_url": "copywriting/Clothing-Product-Listing-Specialist",
+    "title": "Clothing Product Listing Specialist",
+    "budget": "10.0 - 30.0 USD",
+    "budget_raw": {
+      "minimum": 10.0,
+      "maximum": 30.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I’m ready to launch a new line of clothing and need someone who can turn my supplier information int",
+    "category": "scraping-dane",
+    "project_type": "fixed",
+    "jobs": [
+      "Copywriting",
+      "Data Entry",
+      "Virtual Assistant",
+      "Web Search",
+      "Product Descriptions",
+      "Content Writing"
+    ],
+    "bid_stats": {
+      "bid_count": 29,
+      "bid_avg": 20.24137931034483
+    },
+    "local": false,
+    "time_submitted": 1789045587
+  },
+  "full_details": {
+    "id": "40703217",
+    "title": "Clothing Product Listing Specialist",
+    "full_description": "I’m ready to launch a new line of clothing and need someone who can turn my supplier information into polished, accurate product listings. The core of the work is product listing, supported by straightforward copy-pasting data entry.\n\nHere’s what I’m looking for:\n• Create and publish 100 clothing listings in my store’s backend (Shopify or a compatible CSV template).  \n• Copy-paste size charts, materials, care instructions, and pricing exactly as provided.  \n• Organise each item into the correct category, add variants for size and colour, and upload images I supply.  \n• Write clear, engaging English titles and bullet-point features; being able to add a short Turkish description or tag is a welcome bonus.  \n• Double-check spelling, punctuation, and formatting before marking each SKU complete.\n\nI’ll give you supplier catalogues, image folders, and examples of past listings so you can match the style quickly. Familiarity with Shopify bulk import tools or similar e-commerce platforms is essential. Let me know your turnaround time and share any apparel listing samples you’ve done—once we agree, I’d like to get started right away.",
+    "budget_raw": {
+      "minimum": 10.0,
+      "maximum": 30.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "Copywriting",
+      "Data Entry",
+      "Virtual Assistant",
+      "Web Search",
+      "Product Descriptions",
+      "Content Writing"
+    ],
+    "bid_stats": {
+      "bid_count": 29,
+      "bid_avg": 20.24137931034483
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:55"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:55.743423"
+}

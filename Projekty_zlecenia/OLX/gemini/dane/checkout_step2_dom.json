@@ -1,0 +1,947 @@
+[
+  {
+    "tag": "HEADER",
+    "text": "CzatPowiadomieniaTwoje kontoKsawid: 2553769477Twoje kontoOgłoszeniaCzatPłatnościOcenyNowośćSzukam pr",
+    "testId": "app-header",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "testId": "olx-logo-link",
+    "href": "/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Czat",
+    "testId": "header-chat-button",
+    "href": "/myaccount/answers/",
+    "name": null,
+    "type": "button",
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "testId": "observed-page-link",
+    "href": "/obserwowane/search/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "testId": "notification-hub",
+    "href": null,
+    "name": null,
+    "type": "button",
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "Powiadomienia",
+    "testId": "notification-hub-dropdown",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "H4",
+    "text": "Powiadomienia",
+    "testId": "notification-hub-title",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "Twoje kontoKsawid: 2553769477Twoje kontoOgłoszeniaCzatPłatnościOcenyNowośćSzukam pracyPracodawcy na ",
+    "testId": "qa-user-dropdown",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Twoje konto",
+    "testId": "myolx-link",
+    "href": "/mojolx",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Ogłoszenia",
+    "testId": null,
+    "href": "/mojolx",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Czat",
+    "testId": null,
+    "href": "/myaccount/answers/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Płatności",
+    "testId": null,
+    "href": "/mojolx/history/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "OcenyNowość",
+    "testId": null,
+    "href": "/myaccount/my-ratings/pending",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Szukam pracy",
+    "testId": null,
+    "href": "/mojolx/szukampracy",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Pracodawcy na OLXNowość",
+    "testId": null,
+    "href": "/pracodawcy/?bs=my_olx",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Profil",
+    "testId": null,
+    "href": "/myaccount/profile",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Ustawienia",
+    "testId": null,
+    "href": "/mojolx/user-settings/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Twoje przesyłki",
+    "testId": null,
+    "href": "https://www.olx.pl/myaccount/delivery/seller",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "OLX PlusNowość",
+    "testId": null,
+    "href": "/mojolx/programy-lojalnosciowe",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Ogłoszenia0",
+    "testId": null,
+    "href": "https://www.olx.pl/observed",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Wyszukiwania0",
+    "testId": null,
+    "href": "https://www.olx.pl/observed/search",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "Wyloguj",
+    "testId": "logout-dropdown",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Wyloguj",
+    "testId": null,
+    "href": "https://www.olx.pl/account/logout",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Dodaj ogłoszenie",
+    "testId": "post-new-ad-button",
+    "href": "/adding",
+    "name": null,
+    "type": "button",
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Dla biznesuopens in a new tab",
+    "testId": "bep-button",
+    "href": "https://biznes.olx.pl",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "testId": "button-arrow-back",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "H1",
+    "text": "Kup z przesyłką",
+    "testId": "input-title",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "SECTION",
+    "text": "LEGO Star Wars Anakin Skywalker50,00 zł",
+    "testId": "item-card",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "IMG",
+    "text": "",
+    "testId": "item-card-image",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "LEGO Star Wars Anakin Skywalker",
+    "testId": "item-card-title",
+    "href": "https://www.olx.pl/d/oferta/lego-star-wars-anakin-skywalker-CID88-ID16Xzdx.html",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "P",
+    "text": "50,00 zł",
+    "testId": "item-card-price",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "Metoda dostawyInPost Paczkomat® 24/7Odbierz przez Paczkomat lub w Punkcie Obsługi Paczek InPost 6,49",
+    "testId": "spec_fulfillment",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "SECTION",
+    "text": "Metoda dostawyInPost Paczkomat® 24/7Odbierz przez Paczkomat lub w Punkcie Obsługi Paczek InPost 6,49",
+    "testId": "delivery-product-selection",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "LABEL",
+    "text": "InPost Paczkomat® 24/7Odbierz przez Paczkomat lub w Punkcie Obsługi Paczek InPost 6,49 zł",
+    "testId": "INPOST",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "LABEL",
+    "text": "",
+    "testId": "label",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "INPUT",
+    "text": "",
+    "testId": null,
+    "href": null,
+    "name": "deliverySelection",
+    "type": "radio",
+    "value": "INPOST"
+  },
+  {
+    "tag": "DIV",
+    "text": "",
+    "testId": "radio",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "SECTION",
+    "text": "6,49 zł",
+    "testId": "cost-component",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "SECTION",
+    "text": "Punkt odbioruWybierz punkt odbioru",
+    "testId": "delivery-method-p2p",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Wybierz punkt odbioru",
+    "testId": "select-locker",
+    "href": null,
+    "name": null,
+    "type": "button",
+    "value": null
+  },
+  {
+    "tag": "SECTION",
+    "text": "Dane odbiorcyWprowadź dane osoby, która otrzyma ten przedmiotImięNazwiskoE-mailNumer telefonu+48Być ",
+    "testId": "personal-details-form",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "Imię",
+    "testId": "textField",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "INPUT",
+    "text": "",
+    "testId": "personalDetails.firstName",
+    "href": null,
+    "name": "personalDetails.firstName",
+    "type": "text",
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "Nazwisko",
+    "testId": "textField",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "INPUT",
+    "text": "",
+    "testId": "personalDetails.lastName",
+    "href": null,
+    "name": "personalDetails.lastName",
+    "type": "text",
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "E-mail",
+    "testId": "textField",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "INPUT",
+    "text": "",
+    "testId": "personalDetails.email",
+    "href": null,
+    "name": "personalDetails.email",
+    "type": "email",
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "Numer telefonu+48Być może dostawca będzie musiał się z Tobą skontaktować w sprawie zamówienia",
+    "testId": "textField",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "INPUT",
+    "text": "",
+    "testId": "personalDetails.phoneNumber",
+    "href": null,
+    "name": "personalDetails.phoneNumber",
+    "type": "tel",
+    "value": null
+  },
+  {
+    "tag": "SECTION",
+    "text": "Metoda płatnościWybierz sposób, w jaki chcesz zapłacićPłatność onlineBLIK, przelew bankowy, karta kr",
+    "testId": "payment-method",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "Płatność onlineBLIK, przelew bankowy, karta kredytowa lub debetowa albo raty",
+    "testId": "BANK_TRANSFER",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "LABEL",
+    "text": "",
+    "testId": "label",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "INPUT",
+    "text": "",
+    "testId": "radio-BANK_TRANSFER-selected",
+    "href": null,
+    "name": "paymentSelection",
+    "type": "radio",
+    "value": "BANK_TRANSFER"
+  },
+  {
+    "tag": "DIV",
+    "text": "",
+    "testId": "radio",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "Płatność onlineBLIK, przelew bankowy, karta kredytowa lub debetowa albo raty",
+    "testId": "payment-method-details",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "Wspieraj potrzebującychPomóż nam nieść pomoc humanitarną. Za pośrednictwem OLX możesz przekazać daro",
+    "testId": "donation-selection",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Dowiedz się więcej o tej inicjatywie.",
+    "testId": "donation-ngo-link",
+    "href": "https://blog.olx.pl/2025/11/19/uzytkownicy-olx-moga-wspierac-polska-akcje-humanitarna",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "0 zł5 zł10 zł15 zł",
+    "testId": "donation-options-wrapper",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "LABEL",
+    "text": "0 zł",
+    "testId": "label",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "",
+    "testId": "radio",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "LABEL",
+    "text": "5 zł",
+    "testId": "label",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "",
+    "testId": "radio",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "LABEL",
+    "text": "10 zł",
+    "testId": "label",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "",
+    "testId": "radio",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "LABEL",
+    "text": "15 zł",
+    "testId": "label",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "",
+    "testId": "radio",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Sprawdź regulamin",
+    "testId": "donation-regulations-link",
+    "href": "https://pomoc.olx.pl/olxplhelp/s/article/aktualny-regulamin-V32-olx",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "Pakiet OchronnyTo zamówienie jest objęte Pakietem Ochronnym. Jeśli przedmiot nie zgadza się z opisem",
+    "testId": "safe-deal-info",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "SECTION",
+    "text": "Pakiet OchronnyTo zamówienie jest objęte Pakietem Ochronnym. Jeśli przedmiot nie zgadza się z opisem",
+    "testId": "safe-deal-container",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Dowiedz się więcej o Pakiecie Ochronnym",
+    "testId": null,
+    "href": null,
+    "name": null,
+    "type": "button",
+    "value": null
+  },
+  {
+    "tag": "SECTION",
+    "text": "FakturaWystawimy fakturę za Pakiet Ochronny.",
+    "testId": "spec_billing",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "DIV",
+    "text": "FakturaWystawimy fakturę za Pakiet Ochronny.",
+    "testId": "billing-available",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "INPUT",
+    "text": "",
+    "testId": "billing-needed-toggle",
+    "href": null,
+    "name": null,
+    "type": "checkbox",
+    "value": "on"
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Dalej",
+    "testId": "button-action",
+    "href": null,
+    "name": null,
+    "type": "button",
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Aplikacje mobilne OLX.pl",
+    "testId": null,
+    "href": "https://www.olx.pl/mobileapps",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Pomoc",
+    "testId": null,
+    "href": "https://pomoc.olx.pl/olxplhelp/s/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Wyróżnione ogłoszenia",
+    "testId": null,
+    "href": "https://www.olx.pl/platnosci/dlaczego-warto-promowac/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Oferta dla firm",
+    "testId": null,
+    "href": "http://biznes.olx.pl/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Blog",
+    "testId": null,
+    "href": "https://blog.olx.pl",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Regulamin",
+    "testId": null,
+    "href": "https://pomoc.olx.pl/olxplhelp/s/article/aktualny-regulamin-V32-olx",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Polityka prywatności",
+    "testId": null,
+    "href": "https://pomoc.olx.pl/olxplhelp/s/article/polityka-prywatno%C5%9Bci-V27-olx",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Reklama",
+    "testId": null,
+    "href": "https://ad.olx.pl/reklama_olx/?utm_source=footer&utm_medium=link&utm_campaign=footerolxpl",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Informacja o realizowanej strategii podatkowej",
+    "testId": null,
+    "href": "https://pomoc.olx.pl/olxplhelp/s/topic/0TO09000000kfhMGAQ/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Ustawienia plików cookie",
+    "testId": null,
+    "href": null,
+    "name": null,
+    "type": "button",
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Zasady bezpieczeństwa",
+    "testId": null,
+    "href": "https://www.olx.pl/safetyuser",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Mapa kategorii",
+    "testId": null,
+    "href": "/sitemap/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Mapa miejscowości",
+    "testId": null,
+    "href": "/sitemap/regions/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Mapa ministron",
+    "testId": null,
+    "href": "/sitemap/shops/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Popularne wyszukiwania",
+    "testId": null,
+    "href": "/popularne/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Kariera",
+    "testId": null,
+    "href": "https://www.olxgroup.com/careers",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Pracodawcy na OLX",
+    "testId": null,
+    "href": "/pracodawcy/?bs=footer",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Jak działa OLX.pl",
+    "testId": null,
+    "href": "https://www.olx.pl/howitworks",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Cennik",
+    "testId": null,
+    "href": "https://pomoc.olx.pl/olxplhelp/s/article/cennik-V25-olx",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Zawodowo OLX - serwis o pracy",
+    "testId": null,
+    "href": "https://www.olx.pl/zawodowo/",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Polityka cookies",
+    "testId": null,
+    "href": "https://pomoc.olx.pl/olxplhelp/s/article/polityka-dotycz%C4%85ca-cookies-i-podobnych-technologii-V14-olx",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "testId": "google",
+    "href": "https://play.google.com/store/apps/details?id=pl.tablica&referrer=utm_source%3Dolx.pl%26utm_medium%3Dcpc%26utm_campaign%3Dandroid-app-footer",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "testId": "apple",
+    "href": "https://itunes.apple.com/pl/app/olx.pl-darmowe-og-oszenia/id531717763?l=pl&ls=1&mt=8",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "UL",
+    "text": "OLX.bgOLX.roOLX.uaOLX.ptOtodom.plOtomoto.plobido.pl",
+    "testId": "partner-logos-strip",
+    "href": null,
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "OLX.bg",
+    "testId": null,
+    "href": "https://olx.bg",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "OLX.ro",
+    "testId": null,
+    "href": "https://olx.ro",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "OLX.ua",
+    "testId": null,
+    "href": "https://olx.ua",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "OLX.pt",
+    "testId": null,
+    "href": "https://olx.pt",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Otodom.pl",
+    "testId": null,
+    "href": "https://otodom.pl",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "Otomoto.pl",
+    "testId": null,
+    "href": "https://www.otomoto.pl/?utm_source=footer-olx&utm_medium=footer&utm_campaign=OLX",
+    "name": null,
+    "type": null,
+    "value": null
+  },
+  {
+    "tag": "A",
+    "text": "obido.pl",
+    "testId": null,
+    "href": "https://www.obido.pl",
+    "name": null,
+    "type": null,
+    "value": null
+  }
+]

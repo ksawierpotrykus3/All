@@ -1,0 +1,44 @@
+﻿# Dependencies & Virtual Environments
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Build outputs & Large binaries
+dist/
+build/
+*.rar
+*.zip
+*.7z
+*.tar.gz
+*.exe
+*.dll
+*.pyd
+*.so
+*.dylib
+*.bin
+*.obj
+*.pth
+ffmpeg/
+
+# Browser profiles, sessions & caches
+*chrome_slot*
+*profil_vinted*
+*olx_profile*
+*gemini_profile*
+Cache/
+Code Cache/
+GPUCache/
+Crashpad/
+Service Worker/
+startupCache/
+
+# Environment files & logs
+.env
+.env.local
+.env.*.local
+*.log

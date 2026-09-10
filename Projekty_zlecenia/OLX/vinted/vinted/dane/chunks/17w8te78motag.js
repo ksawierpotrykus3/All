@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,716667,t=>{"use strict";t.s(["ADMIN_CATALOG_ITEM_URL",0,"/admin/catalog_items","CATALOG_URL",0,"/catalog","OUR_PLATFORM_URL",0,"/our-platform","ROOT_URL",0,"/"])}]);

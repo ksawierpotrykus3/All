@@ -1,0 +1,79 @@
+{
+  "id": "40703200",
+  "url": "https://www.freelancer.pl/projects/seo/Manutenzione-sito-WordPress-ONG/details",
+  "title": "Manutenzione sito WordPress ONG",
+  "author": "Anonim",
+  "budget": "250.0 - 750.0 USD",
+  "category": "web-dev",
+  "detected_at": "2026-09-10T17:28:38.877169",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703200",
+    "url": "https://www.freelancer.pl/projects/seo/Manutenzione-sito-WordPress-ONG/details",
+    "seo_url": "seo/Manutenzione-sito-WordPress-ONG",
+    "title": "Manutenzione sito WordPress ONG",
+    "budget": "250.0 - 750.0 USD",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "Siamo una piccola ONG con un sito WordPress già online. Mi serve un professionista che si occupi di ",
+    "category": "web-dev",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "SEO",
+      "WordPress",
+      "HTML",
+      "Website Management",
+      "Website Optimization",
+      "Web Design"
+    ],
+    "bid_stats": {
+      "bid_count": 230,
+      "bid_avg": 384.35434782608695
+    },
+    "local": false,
+    "time_submitted": 1789044625
+  },
+  "full_details": {
+    "id": "40703200",
+    "title": "Manutenzione sito WordPress ONG",
+    "full_description": "Siamo una piccola ONG con un sito WordPress già online. Mi serve un professionista che si occupi di mantenerlo efficiente e aggiornato nel tempo.\n\nCosa voglio che tu gestisca:\n• Contenuti e testi – pubblicazione di nuove pagine o modifiche, formattazione coerente, ottimizzazione SEO di base.  \n• Design e layout – piccoli ritocchi grafici o di struttura per tenere il sito moderno, sempre restando fedeli al tema esistente.  \n• Funzionalità e plugin – aggiornamenti sicuri, sostituzione di plugin obsoleti, configurazioni mirate (backup, sicurezza, caching).\n\nFrequenza degli interventi: Occasionalmente, quando necessario. Alcuni mesi potremmo non avere richieste, altri potremmo averne più di una: cerco quindi un rapporto flessibile a richiesta.\n\nTema: Mantenere il tema attuale. Eventuali migliorie o child-theme saranno bene accetti purché non stravolgano l’identità visiva.\n\nAspetti tecnici desiderati:\n– Versioni WordPress e plugin sempre aggiornate senza downtime.  \n– Backup completo prima di ogni modifica sostanziale.  \n– Controllo compatibilità PHP e sicurezza di base (firewall, limit login, ecc.).  \n– Report rapido via e-mail o chat al termine di ogni intervento con lista delle azioni svolte.\n\nSe hai esperienza con WordPress, sicurezza, copy editing leggero e un buon occhio per l’usabilità, fammi sapere: descrivi brevemente casi simili gestiti e indicami le tempistiche tipiche per un piccolo update.",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "SEO",
+      "WordPress",
+      "HTML",
+      "Website Management",
+      "Website Optimization",
+      "Web Design"
+    ],
+    "bid_stats": {
+      "bid_count": 230,
+      "bid_avg": 384.35434782608695
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:45"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:45.588159"
+}

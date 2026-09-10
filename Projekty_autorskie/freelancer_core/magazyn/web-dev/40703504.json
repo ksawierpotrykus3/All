@@ -1,0 +1,97 @@
+{
+  "id": "40703504",
+  "url": "https://www.freelancer.pl/projects/web-design/Personal-Portfolio-Website-Built-with/details",
+  "title": "Personal Portfolio Website Built with Plain HTML and CSS",
+  "author": "Anonim",
+  "budget": "10.0 - 30.0 USD",
+  "category": "web-dev",
+  "detected_at": "2026-09-10T17:45:28.088270",
+  "status": "DRY_RUN_OK",
+  "list_details": {
+    "id": "40703504",
+    "url": "https://www.freelancer.pl/projects/web-design/Personal-Portfolio-Website-Built-with/details",
+    "seo_url": "web-design/Personal-Portfolio-Website-Built-with",
+    "title": "Personal Portfolio Website Built with Plain HTML and CSS",
+    "budget": "10.0 - 30.0 USD",
+    "budget_raw": {
+      "minimum": 10.0,
+      "maximum": 30.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I need a clean, modern portfolio website built with plain HTML and CSS to showcase my work, skills, ",
+    "category": "web-dev",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "HTML5",
+      "HTML",
+      "Tiling",
+      "Web Development",
+      "CSS3",
+      "Frontend Development",
+      "Web Design"
+    ],
+    "bid_stats": {
+      "bid_count": 0
+    },
+    "local": false,
+    "time_submitted": 1789055105
+  },
+  "full_details": {
+    "id": "40703504",
+    "title": "Personal Portfolio Website Built with Plain HTML and CSS",
+    "full_description": "I need a clean, modern portfolio website built with plain HTML and CSS to showcase my work, skills, and experience. The site will be fully static, but it still has to look polished and professional to potential clients, recruiters, and employers.\n\nScope of pages:\n\nHomepage: hero section with my name, professional title, a short intro, and a \"View My Work\" button, followed by a few featured projects\nAbout Me: bio, professional photo, and a short summary of my background\nPortfolio: a grid of project cards, each with an image, title, short description, and an optional link to the live project\nResume: work experience, education, skills, and a button to download my resume as a PDF\nContact: contact form plus links to my email and professional profiles (e.g., LinkedIn, GitHub, Behance)\n\nThe Contact page must contain a working contact form that forwards enquiries to my email address. A simple mailto action, a lightweight PHP handler, or a form service such as Formspree is fine—whichever works best with my hosting and doesn't add heavy frameworks.\n\nVisual direction:\n\nI favour a clean, modern, and professional feel: plenty of white space, a restrained colour palette (a neutral base with one strong accent colour that reflects my personal brand), and typography that reads crisply on both desktop and mobile. The design should put my work front and centre, letting project images do most of the talking. Subtle hover states on project cards and a hero section on the homepage are welcome, but avoid flashy animations.\n\nTechnical notes:\n\nPure HTML5 and CSS3 only—no page builders, no Bootstrap or Tailwind, and no JavaScript beyond what the form may require.\nFully responsive layout that works on mobile, tablet, and desktop.\nCode must be neatly commented so I can make small edits myself later, like adding new projects or updating my bio.\nStructure each page in its own file and group shared assets (CSS, images, resume PDF) in clearly named folders.\nInclude the basics for search and accessibility: unique page titles, meta descriptions, and alt text on all images.\n\nAcceptance criteria:\n\nAll five pages display correctly on Chrome, Safari, Edge, and Firefox, on both desktop and mobile.\nThe contact form sends test messages successfully.\nW3C validation passes with no critical errors.\nA new project can be added to the Portfolio page by copying a single, clearly commented block of code.\nDelivery includes the full, ready-to-deploy source in a zipped folder.\n\nIf any clarification is needed before you start, let me know so we can keep the build smooth and on schedule.",
+    "budget_raw": {
+      "minimum": 10.0,
+      "maximum": 30.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "HTML5",
+      "HTML",
+      "Tiling",
+      "Web Development",
+      "CSS3",
+      "Frontend Development",
+      "Web Design"
+    ],
+    "bid_stats": {
+      "bid_count": 0
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:45:28"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nZgłaszam gotowość do realizacji zlecenia 'Personal Portfolio Website Built with Plain HTML and CSS'.\nPosiadam doświadczenie w wymaganym zakresie i gwarantuję terminowe dowiezienie projektu.\n\nPozdrawiam,\nZespół",
+    "wycena": 500,
+    "dni": 7,
+    "powod": "Deterministyczny mock dla testu szkieletu"
+  },
+  "submission_result": {
+    "status": "DRY_RUN_OK",
+    "job_id": "40703504",
+    "final_url": "https://www.freelancer.pl/projects/web-design/Personal-Portfolio-Website-Built-with/details",
+    "wycena": 500,
+    "dni": 7,
+    "filled": {
+      "amount": 500,
+      "days": 7,
+      "description": true
+    },
+    "proof_screenshot": "C:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\freelancer_core\\debug\\bid_form_40703504.png",
+    "message": "Formularz wypelniony; zatrzymano przed 'Zloz oferte' (DRY_RUN)."
+  },
+  "updated_at": "2026-09-10T17:45:40.519230"
+}

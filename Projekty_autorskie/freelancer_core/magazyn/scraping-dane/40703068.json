@@ -1,0 +1,79 @@
+{
+  "id": "40703068",
+  "url": "https://www.freelancer.pl/projects/data-extraction/Extract-Property-Data-from-IGRSUP/details",
+  "title": "Extract Property Data from IGRSUP",
+  "author": "Anonim",
+  "budget": "75000.0 - 150000.0 INR",
+  "category": "scraping-dane",
+  "detected_at": "2026-09-10T17:28:39.060302",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703068",
+    "url": "https://www.freelancer.pl/projects/data-extraction/Extract-Property-Data-from-IGRSUP/details",
+    "seo_url": "data-extraction/Extract-Property-Data-from-IGRSUP",
+    "title": "Extract Property Data from IGRSUP",
+    "budget": "75000.0 - 150000.0 INR",
+    "budget_raw": {
+      "minimum": 75000.0,
+      "maximum": 150000.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I need property registration details from igrsup.gov.in. The data should be organized in an Excel sp",
+    "category": "scraping-dane",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Entry",
+      "Excel",
+      "Web Scraping",
+      "Data Mining",
+      "Data Extraction",
+      "Data Analysis",
+      "Data Collection",
+      "Data Management"
+    ],
+    "bid_stats": {
+      "bid_count": 25,
+      "bid_avg": 98699.96
+    },
+    "local": false,
+    "time_submitted": 1789040603
+  },
+  "full_details": {
+    "id": "40703068",
+    "title": "Extract Property Data from IGRSUP",
+    "full_description": "I need property registration details from igrsup.gov.in. The data should be organized in an Excel spreadsheet.\n\nRequired Information:\n- Owner's name and address\n- Property description and location\n- Transaction history\n\nIdeal skills and experience:\n- Familiarity with igrsup.gov.in\n- Proficiency in data extraction and Excel\n- Attention to detail and accuracy",
+    "budget_raw": {
+      "minimum": 75000.0,
+      "maximum": 150000.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Entry",
+      "Excel",
+      "Web Scraping",
+      "Data Mining",
+      "Data Extraction",
+      "Data Analysis",
+      "Data Collection",
+      "Data Management"
+    ],
+    "bid_stats": {
+      "bid_count": 25,
+      "bid_avg": 98699.96
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:57"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:57.704196"
+}

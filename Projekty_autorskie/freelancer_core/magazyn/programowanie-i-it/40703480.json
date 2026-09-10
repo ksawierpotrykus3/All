@@ -1,0 +1,79 @@
+{
+  "id": "40703480",
+  "url": "https://www.freelancer.pl/projects/web-design/Corporate-Logistics-Website-Development/details",
+  "title": "Corporate Logistics Website Development",
+  "author": "Anonim",
+  "budget": "1500.0 - 12500.0 INR",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:44:24.153391",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703480",
+    "url": "https://www.freelancer.pl/projects/web-design/Corporate-Logistics-Website-Development/details",
+    "seo_url": "web-design/Corporate-Logistics-Website-Development",
+    "title": "Corporate Logistics Website Development",
+    "budget": "1500.0 - 12500.0 INR",
+    "budget_raw": {
+      "minimum": 1500.0,
+      "maximum": 12500.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I need a clean, corporate-style website built with plain HTML and CSS for my logistics company. The ",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "CSS",
+      "HTML5",
+      "HTML",
+      "CSS3",
+      "Web Design",
+      "Website Development"
+    ],
+    "bid_stats": {
+      "bid_count": 53,
+      "bid_avg": 19579.05113207547
+    },
+    "local": false,
+    "time_submitted": 1789054410
+  },
+  "full_details": {
+    "id": "40703480",
+    "title": "Corporate Logistics Website Development",
+    "full_description": "I need a clean, corporate-style website built with plain HTML and CSS for my logistics company. The site will be fully static, but it still has to look polished and trustworthy to decision-makers in the supply-chain industry.\n\nScope of pages  \n• Homepage  \n• Services  \n• About Us  \n• Why Us  \n• Contact Us  \n\nThe Contact Us page must contain a working contact form that forwards enquiries to my email address (a simple mailto action or a lightweight PHP handler is fine—whichever you find easier to wire up without adding heavy frameworks).\n\nVisual direction  \nI favour a corporate and professional feel: plenty of white space, a restrained colour palette that matches a logistics brand (think navy, grey, and a strong accent), and typography that reads crisply on both desktop and mobile. Subtle hover states and a hero banner on the homepage are welcome, but avoid flashy animations.\n\nTechnical notes  \n• Pure HTML5 and CSS3 only—no page builders, no Bootstrap or Tailwind, and no JavaScript beyond what the form may require.  \n• Code must be neatly commented so my in-house team can make small edits later.  \n• Structure each page in its own file and group shared assets (CSS, images) in clearly named folders.\n\nAcceptance criteria  \n1. All five pages display correctly on Chrome, Safari, Edge, and Firefox.  \n2. The contact form sends test messages successfully.  \n3. W3C validation passes with no critical errors.  \n4. Delivery includes the full, ready-to-deploy source in a zipped folder.\n\nIf any clarification is needed before you start, let me know so we can keep the build smooth and on schedule.",
+    "budget_raw": {
+      "minimum": 1500.0,
+      "maximum": 12500.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "CSS",
+      "HTML5",
+      "HTML",
+      "CSS3",
+      "Web Design",
+      "Website Development"
+    ],
+    "bid_stats": {
+      "bid_count": 54,
+      "bid_avg": 19309.068703703702
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:44:25"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:44:25.274474"
+}

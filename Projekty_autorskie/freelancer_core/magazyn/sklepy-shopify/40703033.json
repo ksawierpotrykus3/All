@@ -1,0 +1,79 @@
+{
+  "id": "40703033",
+  "url": "https://www.freelancer.pl/projects/google-ads/Remove-Unauthorized-Email-AdSense/details",
+  "title": "Remove Unauthorized Email on AdSense",
+  "author": "Anonim",
+  "budget": "30.0 - 250.0 USD",
+  "category": "sklepy-shopify",
+  "detected_at": "2026-09-10T17:28:38.976624",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703033",
+    "url": "https://www.freelancer.pl/projects/google-ads/Remove-Unauthorized-Email-AdSense/details",
+    "seo_url": "google-ads/Remove-Unauthorized-Email-AdSense",
+    "title": "Remove Unauthorized Email on AdSense",
+    "budget": "30.0 - 250.0 USD",
+    "budget_raw": {
+      "minimum": 30.0,
+      "maximum": 250.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "My Google AdSense account is linked to an email address that I’ve never owned, and I need that unaut",
+    "category": "sklepy-shopify",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "WordPress",
+      "Technical Support",
+      "Google Adsense",
+      "Account Management",
+      "Google Ads",
+      "Incident Response"
+    ],
+    "bid_stats": {
+      "bid_count": 106,
+      "bid_avg": 117.23113207547169
+    },
+    "local": false,
+    "time_submitted": 1789039366
+  },
+  "full_details": {
+    "id": "40703033",
+    "title": "Remove Unauthorized Email on AdSense",
+    "full_description": "My Google AdSense account is linked to an email address that I’ve never owned, and I need that unauthorized access removed so I can regain full control of the account. I haven’t attempted any recovery steps yet, so you’ll be starting with a clean slate.\n\nThe job involves:\n• Tracing how the incorrect email is associated with the account and confirming the scope of the access.  \n• Guiding me through (or directly handling, if possible) Google’s identity-verification and recovery workflow until the unauthorized address is completely detached.  \n• Setting up my legitimate email as the sole administrator and confirming that all future notifications and payments route exclusively to me.  \n\nAcceptance criteria:\n1. The foreign email no longer appears anywhere in my AdSense user-management panel.  \n2. I can log in with my own Google credentials and see up-to-date performance and payment data.  \n3. You provide a brief, step-by-step summary of what was done and any security best practices I should follow to prevent a repeat incident.\n\nExperience with AdSense policy, account recovery forms, and Google support escalation will be essential here. Let me know your approach and an estimated timeline—once those three criteria are met, the project is complete.",
+    "budget_raw": {
+      "minimum": 30.0,
+      "maximum": 250.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "WordPress",
+      "Technical Support",
+      "Google Adsense",
+      "Account Management",
+      "Google Ads",
+      "Incident Response"
+    ],
+    "bid_stats": {
+      "bid_count": 106,
+      "bid_avg": 117.23113207547169
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:53"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:53.008749"
+}

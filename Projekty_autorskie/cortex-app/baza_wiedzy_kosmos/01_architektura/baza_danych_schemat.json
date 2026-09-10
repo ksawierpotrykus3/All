@@ -1,0 +1,11 @@
+{
+  "wersja": "2.0.0",
+  "moduly": [
+    "kosmos",
+    "supervisor",
+    "canvas",
+    "storage"
+  ],
+  "storage": "StorageEngine (atomic writes)",
+  "status": "stabilny"
+}

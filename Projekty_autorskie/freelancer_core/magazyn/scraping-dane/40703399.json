@@ -1,0 +1,81 @@
+{
+  "id": "40703399",
+  "url": "https://www.freelancer.pl/projects/data-entry/Assist-with-Business-Identity/details",
+  "title": "Assist with UK Business Identity Verification",
+  "author": "Anonim",
+  "budget": "10.0 - 15.0 USD",
+  "category": "scraping-dane",
+  "detected_at": "2026-09-10T17:28:38.986944",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703399",
+    "url": "https://www.freelancer.pl/projects/data-entry/Assist-with-Business-Identity/details",
+    "seo_url": "data-entry/Assist-with-Business-Identity",
+    "title": "Assist with UK Business Identity Verification",
+    "budget": "10.0 - 15.0 USD",
+    "budget_raw": {
+      "minimum": 10.0,
+      "maximum": 15.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I need a reliable pair of hands to jump onto Companies House with me and get my company’s identity v",
+    "category": "scraping-dane",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Customer Support",
+      "Virtual Assistant",
+      "Compliance",
+      "Account Management",
+      "Administrative Support",
+      "Business Consulting",
+      "Data Management"
+    ],
+    "bid_stats": {
+      "bid_count": 8,
+      "bid_avg": 13.25
+    },
+    "local": false,
+    "time_submitted": 1789051646
+  },
+  "full_details": {
+    "id": "40703399",
+    "title": "Assist with UK Business Identity Verification",
+    "full_description": "I need a reliable pair of hands to jump onto Companies House with me and get my company’s identity verification completed. The account is already set up; what’s holding me back is the identity check Companies House now asks for before I can update my details. I will provide secure, time-limited login access and the necessary personal documents. Your role is to navigate the WebFiling/Verify screens, upload the documents, confirm the required selfie-match step, and finish the update so the system shows my information as verified.\n\nOnce the verification is accepted, I also want to change a couple of minor data points in the company record—nothing complex, just straightforward “Update information” clicks so the public profile is current.\n\nDeliverable: a quick call or chat while you complete the steps, followed by a confirmation screenshot (or PDF receipt) from Companies House showing the green tick for identity and the revised company details.\n\nFamiliarity with Companies House processes and UK KYC requirements will make this a painless twenty-minute job, and I’m ready to start as soon as you are.",
+    "budget_raw": {
+      "minimum": 10.0,
+      "maximum": 15.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Customer Support",
+      "Virtual Assistant",
+      "Compliance",
+      "Account Management",
+      "Administrative Support",
+      "Business Consulting",
+      "Data Management"
+    ],
+    "bid_stats": {
+      "bid_count": 8,
+      "bid_avg": 13.25
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:53"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:53.583338"
+}

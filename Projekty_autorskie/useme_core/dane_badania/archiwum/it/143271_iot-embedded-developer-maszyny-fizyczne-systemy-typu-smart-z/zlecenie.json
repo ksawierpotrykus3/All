@@ -1,0 +1,162 @@
+{
+  "id": "143271",
+  "url": "https://useme.com/pl/jobs/iot-embedded-developer-maszyny-fizyczne-systemy-typu-smart-zamki,143271/",
+  "title": "IoT / Embedded Developer (Maszyny fizyczne, systemy typu smart zamki)",
+  "fields": {
+    "Zleceniodawca": "KARTS DESIGN",
+    "Opis": "Szukamy programisty IoT do integracji oprogramowania z urządzeniami fizycznymi (np. systemy kontroli dostępu, zamki, maszyny).\n\nW zgłoszeniu podaj: Stawkę godzinową netto, opis wykonanych projektów IoT oraz dowody na ich realizację.",
+    "Opublikowano": "2026-08-25",
+    "Kategoria": "Projekty IT",
+    "Prawa autorskie": "Decyzja freelancera",
+    "Wymagane funkcje:": "Doświadczenie w łączeniu aplikacji z hardwarem, poparte referencjami lub namacalnymi wdrożeniami.",
+    "Budżet": "Do negocjacji",
+    "Ważne przez": "30 dni"
+  },
+  "job_tags": [
+    "c",
+    "C plus plus"
+  ],
+  "competitors_count": 7,
+  "competitors": [
+    {
+      "name": "kedzior",
+      "profile_url": "https://useme.com/pl/roles/contractor/28384/",
+      "deals": "2 umów",
+      "created_on": "wczoraj",
+      "tags": [
+        "c",
+        "C plus plus"
+      ],
+      "avatar": null
+    },
+    {
+      "name": "p o o n s",
+      "profile_url": "https://useme.com/pl/roles/contractor/692920/",
+      "deals": "0 umów",
+      "created_on": "6 dni temu",
+      "tags": [],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/020/692920.png"
+    },
+    {
+      "name": "Rizky Pradana",
+      "profile_url": "https://useme.com/pl/roles/contractor/635608/",
+      "deals": "1 umowa",
+      "created_on": "2026-08-26",
+      "tags": [],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/008/635608.png"
+    },
+    {
+      "name": "CloudFloo | Michał Wiatr",
+      "profile_url": "https://useme.com/pl/roles/contractor/689468/",
+      "deals": "0 umów",
+      "created_on": "2026-08-26",
+      "tags": [
+        "AI",
+        "API",
+        "bazy danych",
+        "DevOps",
+        "docker",
+        "git",
+        "kubernetes",
+        "Langchain",
+        "LlamaIndex",
+        "Next.js",
+        "NodeJS",
+        "OpenAI",
+        "postgresql",
+        "React",
+        "typescript"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/068/689468.png"
+    },
+    {
+      "name": "GOLDAI",
+      "profile_url": "https://useme.com/pl/roles/contractor/570266/",
+      "deals": "0 umów",
+      "created_on": "2026-08-25",
+      "tags": [
+        "AI",
+        "analiza danych",
+        "angular",
+        "aplikacje mobilne",
+        "AutoCAD software",
+        "backend",
+        "bazy danych",
+        "blockchain",
+        "c",
+        "CAD",
+        "chatbot",
+        "chatgpt",
+        "cloud",
+        "CRM",
+        "Flutter",
+        "Flutterflow",
+        "frontend",
+        "git",
+        "java",
+        "javascript",
+        "kodowanie",
+        "LLM",
+        "matematyka",
+        "montaż",
+        "mysql",
+        "n8n",
+        "Next.js",
+        "NLP",
+        "NodeJS",
+        "OpenAI",
+        "postgresql",
+        "python",
+        "React",
+        "react native",
+        "SaaS",
+        "seo",
+        "stable diffusion",
+        "uczenie maszynowe",
+        "web development",
+        "wizualizacje danych"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/066/570266.png"
+    },
+    {
+      "name": "Heyneuron.com",
+      "profile_url": "https://useme.com/pl/roles/contractor/148433/",
+      "deals": "1 umowa",
+      "created_on": "2026-08-25",
+      "tags": [
+        "AI",
+        "Airtable",
+        "API",
+        "aplikacje webowe",
+        "blockchain",
+        "CRM",
+        "facebook",
+        "Facebook Pixel",
+        "gmail",
+        "google analytics",
+        "Google Tag Manager",
+        "hubspot",
+        "landing page",
+        "LANDINGPAGE",
+        "marketing internetowy",
+        "n8n",
+        "Next.js",
+        "Nocode",
+        "React",
+        "strona www",
+        "web api",
+        "web development",
+        "zapier"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/033/148433_UVXlWri.png"
+    },
+    {
+      "name": "Jakub Kaczmarek",
+      "profile_url": "https://useme.com/pl/roles/contractor/137876/",
+      "deals": "25 umów",
+      "created_on": "2026-08-25",
+      "tags": [],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/076/137876.png"
+    }
+  ]
+}

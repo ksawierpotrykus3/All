@@ -1,0 +1,31 @@
+{
+  "id": "144036",
+  "url": "https://useme.com/pl/jobs/tester-portalu-mgielda-pl,144036/",
+  "title": "Tester portalu mGiełda.pl",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-08T18:26:26.902063",
+  "status": "NOWA",
+  "list_details": {
+    "id": "144036",
+    "url": "https://useme.com/pl/jobs/tester-portalu-mgielda-pl,144036/",
+    "title": "Tester portalu mGiełda.pl",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Tester mGiełda.pl – kompleksowy test portalu i płatności Stripe\n\nSzukamy osoby do kompleksowego przetestowania portalu mGiełda.pl, ze szczególnym uwzględnieniem procesu zakupu, płatności oraz wypłaty środków za pośrednictwem \"Stripe...",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/tester-portalu-mgielda-pl,144036/",
+    "title": "Tester portalu mGiełda.pl",
+    "full_description": "<p>Tester mGiełda.pl – kompleksowy test portalu i płatności Stripe</p>\n\n<p>Szukamy osoby do kompleksowego przetestowania portalu mGiełda.pl, ze szczególnym uwzględnieniem procesu zakupu, płatności oraz wypłaty środków za pośrednictwem &quot;Stripe Connect&quot;.</p>\n\n<p>Zakres testu:</p>\n\n<p>* rejestracja, logowanie, konto kupującego i sprzedającego,<br>* dodanie, edycja, publikacja i usunięcie ogłoszenia,<br>* zdjęcia, opis, cena, kategorie i parametry,<br>* wyszukiwarka, filtry, sortowanie i przeglądanie ogłoszeń,<br>* kontakt ze sprzedającym,<br>* pełny proces zakupu i płatności,<br>* sprawdzenie statusów zamówienia i płatności,<br>* sprawdzenie działania Stripe Connect i podłączenia rachunku bankowego.</p>\n\n<p>Najważniejsza część – rzeczywiste transakcje:</p>\n\n<p>Tester musi wykonać minimum 3 rzeczywiste transakcje na różne kwoty – transakcje nie mogą być identyczne – tak aby środki przypisane sprzedającemu przekroczyły 10 zł.</p>\n\n<p>Należy sprawdzić całą ścieżkę:<br>Kupujący → płatność → środki sprzedającego w Stripe → wypłata → rachunek bankowy.</p>\n\n<p>Dodatkowo prosimy o sprawdzenie, w miarę możliwości, nieudanej płatności, przerwania płatności, ponowienia, anulowania oraz zwrotu środków.</p>\n\n<p>Tester powinien również zgłosić znalezione błędy, niedziałające przyciski, problemy z formularzami, wyświetlaniem oraz działaniem strony na komputerze i telefonie.</p>\n\n<p>Wymagane:</p>\n\n<p>* rachunek bankowy,<br>* możliwość założenia i obsługi Stripe Connect,<br>* możliwość wykonania minimum 3 rzeczywistych transakcji,<br>* dokładność i umiejętność opisania błędów.</p>\n\n<p>Wynagrodzenie: 150 zł + zwrot środków wykorzystanych na transakcje testowe.</p>\n\n<p>Celem jest sprawdzenie całego procesu od wystawienia ogłoszenia, przez zakup i płatność, aż do wypłaty środków sprzedającemu.</p>",
+    "has_add_offer_button": false,
+    "add_offer_href": null,
+    "scraped_at": "2026-09-10T16:03:05"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "full_description": "<p>Tester mGiełda.pl – kompleksowy test portalu i płatności Stripe</p>\n\n<p>Szukamy osoby do kompleksowego przetestowania portalu mGiełda.pl, ze szczególnym uwzględnieniem procesu zakupu, płatności oraz wypłaty środków za pośrednictwem &quot;Stripe Connect&quot;.</p>\n\n<p>Zakres testu:</p>\n\n<p>* rejestracja, logowanie, konto kupującego i sprzedającego,<br>* dodanie, edycja, publikacja i usunięcie ogłoszenia,<br>* zdjęcia, opis, cena, kategorie i parametry,<br>* wyszukiwarka, filtry, sortowanie i przeglądanie ogłoszeń,<br>* kontakt ze sprzedającym,<br>* pełny proces zakupu i płatności,<br>* sprawdzenie statusów zamówienia i płatności,<br>* sprawdzenie działania Stripe Connect i podłączenia rachunku bankowego.</p>\n\n<p>Najważniejsza część – rzeczywiste transakcje:</p>\n\n<p>Tester musi wykonać minimum 3 rzeczywiste transakcje na różne kwoty – transakcje nie mogą być identyczne – tak aby środki przypisane sprzedającemu przekroczyły 10 zł.</p>\n\n<p>Należy sprawdzić całą ścieżkę:<br>Kupujący → płatność → środki sprzedającego w Stripe → wypłata → rachunek bankowy.</p>\n\n<p>Dodatkowo prosimy o sprawdzenie, w miarę możliwości, nieudanej płatności, przerwania płatności, ponowienia, anulowania oraz zwrotu środków.</p>\n\n<p>Tester powinien również zgłosić znalezione błędy, niedziałające przyciski, problemy z formularzami, wyświetlaniem oraz działaniem strony na komputerze i telefonie.</p>\n\n<p>Wymagane:</p>\n\n<p>* rachunek bankowy,<br>* możliwość założenia i obsługi Stripe Connect,<br>* możliwość wykonania minimum 3 rzeczywistych transakcji,<br>* dokładność i umiejętność opisania błędów.</p>\n\n<p>Wynagrodzenie: 150 zł + zwrot środków wykorzystanych na transakcje testowe.</p>\n\n<p>Celem jest sprawdzenie całego procesu od wystawienia ogłoszenia, przez zakup i płatność, aż do wypłaty środków sprzedającemu.</p>",
+  "updated_at": "2026-09-10T16:03:05.647443"
+}

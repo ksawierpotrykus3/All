@@ -1,0 +1,44 @@
+{
+  "id": "144176",
+  "url": "https://useme.com/pl/jobs/przygotowanie-strony-www-dla-suplementow-diety,144176/",
+  "title": "Przygotowanie strony www dla suplementów diety",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-10T15:25:31.145726",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144176",
+    "url": "https://useme.com/pl/jobs/przygotowanie-strony-www-dla-suplementow-diety,144176/",
+    "title": "Przygotowanie strony www dla suplementów diety",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Szukam wykonawcy do zaprojektowania i wdrożenia prostej, nowoczesnej oraz responsywnej strony internetowej dla marki suplementów diety dla dzieci.\n\nPortfolio na start obejmuje 3 produkty (SKU) w formie żelków. Strona będzie miała charakter...",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/przygotowanie-strony-www-dla-suplementow-diety,144176/",
+    "title": "Przygotowanie strony www dla suplementów diety",
+    "full_description": "<p>Szukam wykonawcy do zaprojektowania i wdrożenia prostej, nowoczesnej oraz responsywnej strony internetowej dla marki suplementów diety dla dzieci.</p>\n\n<p>Portfolio na start obejmuje 3 produkty (SKU) w formie żelków. Strona będzie miała charakter informacyjno-wizerunkowy — bez sklepu internetowego i bez płatności online. Użytkownik powinien móc zapoznać się z produktami, ich najważniejszymi informacjami oraz przejść do zewnętrznych sklepów lub partnerów w celu zakupu.</p>\n\n<p>Zakres prac<br>Projekt graficzny strony w wersji desktopowej i mobilnej</p>\n\n<p>Wdrożenie responsywnej strony WWW w prostym CMS umożliwiającym samodzielną edycję treści</p>\n\n<p>Konfiguracja kilku wersji językowych z widocznym przełącznikiem języka</p>\n\n<p>Strona główna</p>\n\n<p>Zakładka „O marce”</p>\n\n<p>Zakładka „Produkty” z prezentacją 3 produktów</p>\n\n<p>3 osobne karty produktowe<br>3 zakładki edukacyjne/materiały dla dzieci</p>\n\n<p>Zakładka „Gdzie kupić” z linkami do sklepów zewnętrznych</p>\n\n<p>FAQ</p>\n\n<p>Kontakt z formularzem</p>\n\n<p>Podstrony prawne: regulamin, polityka prywatności, polityka cookies</p>\n\n<p>Baner cookies</p>\n\n<p>Podstawowa obróbka i dostosowanie dostarczonych grafik / packshotów do formatu internetowego</p>\n\n<p>Wdrożenie strony na hostingu i przekazanie pełnych dostępów administracyjnych</p>\n\n<p>Krótkie szkolenie z obsługi CMS po zakończeniu prac</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144176/offer/start/",
+    "scraped_at": "2026-09-10T15:26:03"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu. Robimy strony i aplikacje, a ostatnio sporo stron właśnie dla marek suplementów, więc temat znamy od podszewki.\n\nNajwiększy haczyk w takiej stronie to nie wygląd, tylko teksty. Od tego roku przepisy mocno się zaostrzyły.\n\nWyrok TSUE z lutego 2026 i unijne rozporządzenie z maja 2026 praktycznie zamknęły furtkę na oświadczenia zdrowotne, które nie mają pełnej akceptacji EFSA. A dla produktów kierowanych do dzieci zatwierdzonych oświadczeń jest bardzo mało.\n\nW praktyce: każdy tekst na karcie produktowej czy w sekcji edukacyjnej trzeba zweryfikować, bo np. \"wspiera koncentrację\" może narazić Cię na kary. Zaprojektujemy stronę tak, żeby treści było łatwo podmienić, a przy copywritingu doradzimy, co jest bezpieczne. Warto też, żeby finalne teksty przeszły przez prawnika od prawa żywnościowego.\n\nDrugi haczyk to wielojęzyczność. WordPress sam z siebie nie generuje tagów hreflang, czyli tych informacji, które mówią Google, którą wersję językową ma pokazać jakiemu krajowi.\n\nBez tego np. Niemiec trafi na polską wersję. Zrobimy to na WPML albo Polylang, przełącznik języka i wersje językowe będą działać jak trzeba.\n\nHostingu nie można wziąć najtańszego, bo wielojęzyczny WordPress z wtyczką tłumaczeniową lubi zwalniać. Dobierzemy plan, który to udźwignie.\n\nZ projektu robimy standard: projekt graficzny desktop plus mobile, motyw na WordPressie, wszystkie zakładki i elementy z Twojego zakresu, baner cookies, obróbka packshotów, wdrożenie na hostingu i szkolenie z obsługi. Wszystko z pełnymi dostępami dla Ciebie.\n\nBrak sklepu upraszcza sprawę, nie ma co się bać płatności ani koszyka.\n\nZa całość liczymy 5000 zł, realizacja w 11 dni. W cenie dajemy 21 dni bezpłatnej asysty po wdrożeniu oraz krótkie wideo pokazujące, jak samodzielnie edytować treści.\n\nZdzwońmy się na 15 minut albo napisz na priv, dopniemy szczegóły. Jak chcesz, przygotujemy też krótkie demo.\n\nPozdrawiam",
+    "wycena": 5000,
+    "dni": 11,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144176",
+    "wycena": 5000,
+    "dni": 11,
+    "final_url": "https://useme.com/pl/jobs/144176/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144176.png",
+    "message": "Oferta #144176 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144176/offer/finish/)."
+  },
+  "updated_at": "2026-09-10T17:19:44.650718",
+  "error": "Łańcuch AI zwrócił błąd/abort dla zlecenia 144176"
+}

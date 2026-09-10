@@ -1,0 +1,67 @@
+{
+  "id": "40703270",
+  "url": "https://www.freelancer.pl/projects/plc/Beckhoff-PLC-Oven-Control-Code/details",
+  "title": "Beckhoff PLC Oven Control Code",
+  "author": "Anonim",
+  "budget": "250.0 - 750.0 USD",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:28:38.898797",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703270",
+    "url": "https://www.freelancer.pl/projects/plc/Beckhoff-PLC-Oven-Control-Code/details",
+    "seo_url": "plc/Beckhoff-PLC-Oven-Control-Code",
+    "title": "Beckhoff PLC Oven Control Code",
+    "budget": "250.0 - 750.0 USD",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I need code development for a Beckhoff PLC to control an oven. The primary functionality required is",
+    "category": "automation-ai",
+    "project_type": "fixed",
+    "jobs": [
+      "Automation",
+      "PLC"
+    ],
+    "bid_stats": {
+      "bid_count": 41,
+      "bid_avg": 444.780487804878
+    },
+    "local": false,
+    "time_submitted": 1789047479
+  },
+  "full_details": {
+    "id": "40703270",
+    "title": "Beckhoff PLC Oven Control Code",
+    "full_description": "I need code development for a Beckhoff PLC to control an oven. The primary functionality required is temperature monitoring and recording.\n\nKey requirements:\n- Develop PLC program for oven temperature monitoring through visualizing the reading for 44 thermocouples on the HMI and recording the data every (15 seconds)\n- data recorded should include date-time of the patch start (patch start will be recognized through one digital input)\n- alarm to be raised through HMI if memory going to be full\n\nIdeal skills and experience:\n- Proficiency in Beckhoff PLC programming \n- Knowledge of temperature sensors and data logging\n\nLooking for a freelancer who can deliver accurate and reliable control code.",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "Automation",
+      "PLC"
+    ],
+    "bid_stats": {
+      "bid_count": 41,
+      "bid_avg": 444.780487804878
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:47"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:47.120189"
+}

@@ -1,0 +1,62 @@
+# Pre-commit hooks for Vinted Bot workspace.
+# Install: `pip install pre-commit && pre-commit install`
+# Run manually: `pre-commit run --all-files`
+#
+# Note: hooks run on git commit. If a hook fails, the commit is aborted.
+# To skip: `git commit --no-verify` (use sparingly, only for emergency commits).
+#
+# Philosophy: enforce hygiene (no secrets, valid YAML/JSON, Markdown tags)
+# but stay LENIENT on legacy code — most research files are probes, not prod.
+
+repos:
+  # Standard hygiene hooks (cheap, catch common issues)
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+        # Markdown documents may use trailing spaces for line breaks (rarely); skip those
+        exclude: '\.md$'
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-toml
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: detect-private-key
+        # Critical: blocks accidental commit of API keys, SSH keys, certificates
+      - id: no-commit-to-branch
+        args: ['--branch=main', '--branch=master']
+        # Block direct commits to main/master — force feature branch workflow
+
+  # Local hook: validate confidence tags in Markdown documentation
+  # Per AGENTS.md nakaz #2 — every claim must have [UDOWODNIONE]/[HIPOTEZA] tag
+  - repo: local
+    hooks:
+      - id: validate-confidence-tags
+        name: "Validate confidence tags in .md (AGENTS.md nakaz #2)"
+        # LENIENT MODE: only warn on unknown tags (return 0 exit), don't block.
+        # Rationale: legacy docs may have untagged claims from before this rule.
+        # New docs SHOULD be tagged; validator logs violations for cleanup.
+        entry: python vinted/testy_camoufox/tools/validate_confidence_tags.py --ci-only
+        language: system
+        files: '\.md$'
+        pass_filenames: false
+        stages: [pre-commit]
+
+  # Local hook: forbid committing sensitive files (cookies, sqlite profiles, HAR)
+  - repo: local
+    hooks:
+      - id: no-secrets
+        name: "Block commit of sensitive files (cookies, sqlite, .har, .env)"
+        entry: |
+          bash -c '
+          if git status --porcelain --ignored | grep -E "(cookies_.*\.txt|.*_session.*\.json|.*_token.*\.js|.*\.har$|.*\.sqlite.*|datadome.*\.json|\.env$)"; then
+            echo "ERROR: sensitive files detected in working tree. Commit aborted."
+            echo "See AGENTS.md section \"ZAKAZANE ZACHOWANIA\" for cleanup procedure."
+            exit 1
+          fi
+          '
+        language: system
+        always_run: true
+        pass_filenames: false
+        stages: [pre-commit]

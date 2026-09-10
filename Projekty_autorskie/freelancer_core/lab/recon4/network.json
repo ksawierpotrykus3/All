@@ -1,0 +1,407 @@
+[
+  {
+    "url": "https://sentry.io/api/1410063/envelope/?sentry_version=7&sentry_key=29cfb544702b48e0985e69cd3ef5e84f&sentry_client=sentry.javascript.angular%2F9.47.1",
+    "status": 200,
+    "body": "{}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/users?users%5B%5D=90851053&avatar=true&online_offline_details=true&status=true&support_status_details=true&limited_account=true&preferred_details=true&rising_star=true&shareholder_details=true&staff_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"users\":{\"90851053\":{\"id\":90851053,\"username\":\"maksks00\",\"suspended\":false,\"closed\":false,\"avatar\":\"/ppic/297363816/logo/90851053/profile_logo_90851053.jpg\",\"email\":\"makspotrykus0@gmail.com\",\"hourly_rate\":30.0,\"registration_date\":1769088169,\"limited_account\":false,\"display_name\":\"maksks00\",\"location\":{\"country\":{\"name\":\"Poland\"},\"city\":\"\\u017bukowo\"},\"avatar_large\":\"/ppic/297363815/logo/90851053/5rEGP/profile_logo_HAQRD_355e3a31f9cbcbf4c89d1e267cff9510.png\",\"role\":\"freelancer\",\"chosen_role\":\"freelancer\",\"status\":{\"payment_verified\":false,\"email_verified\":true,\"deposit_made\":true,\"profile_complete\":true,\"phone_verified\":true,\"identity_verified\":true,\"facebook_connected\":true,\"freelancer_verified_user\":false,\"linkedin_connected\":true,\"custom_charge_verified\":true},\"avatar_cdn\":\"//cdn6.f-cdn.com/ppic/297363816/logo/90851053/profile_logo_90851053.jpg\",\"avatar_large_cdn\":\"//cdn6.f-cdn.com/ppic/297363815/logo/90851053/5rEGP/profile_logo_HAQRD_355e3a31f9cbcbf4c89d1e267cff9510.png\",\"primary_currency\":{\"id\":1,\"code\":\"USD\",\"sign\":\"$\",\"name\":\"US Dollar\",\"exchange_rate\":1.0,\"country\":\"US\"},\"primary_language\":\"en\",\"preferred_freelancer\":false,\"first_name\":\"Maksymilian\",\"last_name\":\"Potrykus\",\"public_name\":\"Maksymilian\",\"address\":{\"address1\":\"ulica Jab\\u0142oniowa 11C/36\",\"address2\":\"\",\"city\":\"\\u017bukowo\",\"state_code\":\"Pomorskie\",\"zip\":\"83330\",\"country\":\"Poland\"},\"company\":\"Sentinel Audit Systems\",\"pool_ids\":[],\"enterprise_ids\":[],\"date_of_birth\":{\"day\":27,\"m"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/projects?limit=1&attachment_details=true&full_description=true&job_details=true&location_details=true&nda_details=true&project_collaboration_details=true&seo_urls%5B%5D=photography%2FSite-Machinery-Photo-Inspection&selected_bids=true&qualification_details=true&upgrade_details=true&review_availability_details=true&local_details=true&equipment_details=true&invited_freelancer_details=true&client_engagement_details=true&contract_signature_details=true&enterprise_linked_projects_details=true&equipment_group_details=true&service_offering_details=true&owner_info=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"projects\":[{\"id\":40703457,\"title\":\"On-Site Machinery Photo Inspection\",\"status\":\"active\",\"seo_url\":\"photography/Site-Machinery-Photo-Inspection\",\"currency\":{\"id\":1,\"code\":\"USD\",\"sign\":\"$\",\"name\":\"US Dollar\",\"exchange_rate\":1.0,\"country\":\"US\",\"is_external\":false,\"is_escrowcom_supported\":true},\"description\":\"I\\u2019ve just bought a piece of industrial machinery online and, before it ships, I want to see exactly what I\\u2019m paying for. I need someone in or near Santa Fe Springs who can visit the seller\\u2019s location and take a full set of high-resolution images that let me judge the machine\\u2019s true condition.\\n\\nPlease capture:\\n\\n\\u2022 Clear front and side views that show the machine in its entirety  \\n\\u2022 Close, sharply focused shots of every visible serial or ID plate  \\n\\u2022 Additional overview photos that give me a feel for the overall condition (paint wear, dents, leaks, rust, missing parts, etc.)\\n\\nNatural light is fine if available, but bring a flash or portable LED so the serial numbers and hard-to-reach areas are readable. A phone is acceptable as long as it produces crisp, detailed images; a DSLR is even better.\\n\\nOnce you\\u2019ve finished, upload the original, uncompressed files to a shared drive or cloud link of your choice and label each image logically (e.g., \\u201cFront\\u201d, \\u201cSide\\u201d, \\u201cSerialPlate1\\u201d). No editing beyond basic exposure correction is necessary.\\n\\nThat\\u2019s all there is to it\\u2014"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/projects?limit=1&seo_urls%5B%5D=photography%2FSite-Machinery-Photo-Inspection&selected_bids=true&file_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"projects\":[{\"id\":40703457,\"title\":\"On-Site Machinery Photo Inspection\",\"status\":\"active\",\"seo_url\":\"photography/Site-Machinery-Photo-Inspection\",\"currency\":{\"id\":1,\"code\":\"USD\",\"sign\":\"$\",\"name\":\"US Dollar\",\"exchange_rate\":1.0,\"country\":\"US\",\"is_external\":false,\"is_escrowcom_supported\":true},\"submitdate\":1789053679,\"preview_description\":\"I\\u2019ve just bought a piece of industrial machinery online and, before it ships, I want to see exactly \",\"deleted\":false,\"nonpublic\":false,\"hidebids\":false,\"type\":\"fixed\",\"bidperiod\":7,\"budget\":{\"minimum\":30.0,\"maximum\":250.0},\"featured\":false,\"urgent\":false,\"bid_stats\":{\"bid_count\":0},\"time_submitted\":1789053679,\"upgrades\":{\"featured\":false,\"sealed\":false,\"nonpublic\":false,\"fulltime\":false,\"urgent\":false,\"qualified\":false,\"NDA\":false,\"ip_contract\":false,\"non_compete\":false,\"project_management\":false,\"pf_only\":false,\"premium\":false,\"enterprise\":false},\"language\":\"en\",\"hireme\":false,\"frontend_project_status\":\"open\",\"location\":{\"country\":{},\"timezone\":{}},\"true_location\":{\"country\":{},\"timezone\":{}},\"local\":true,\"time_free_bids_expire\":1789050042,\"pool_ids\":[1],\"enterprise_ids\":[],\"is_escrow_project\":false,\"is_seller_kyc_required\":false,\"is_buyer_kyc_required\":false,\"enterprises\":[],\"group_ids\":[]}],\"selected_bids\":{}},\"request_id\":\"3f4be0eb89b2c379eea9a0290cdd1b5b\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/ajax-api/user/interactions.php?eventName=search-saved-alerts-onboarding&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"isValidAgainstSchema\":true,\"result\":{\"interactions\":[{\"id\":64128361,\"eventName\":\"search-saved-alerts-onboarding\"}]}}"
+  },
+  {
+    "url": "https://www.freelancer.com/ajax-api/user/interactions.php?eventName=search-saved-alerts-navbar-onboarding&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"isValidAgainstSchema\":true,\"result\":{\"interactions\":[{\"id\":64128362,\"eventName\":\"search-saved-alerts-navbar-onboarding\"}]}}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/messages/0.1/comment_feeds/?context_ids%5B%5D=40703457&context_type=project&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"comment_feeds\":[]},\"request_id\":\"7a26e31f29edf82abc474a304800603d\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/messages/0.1/threads?limit=1&folders%5B%5D=archived&unread_count=true&last_message=true&context_details=true&user_read_times=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"threads\":[],\"context_details\":{}},\"request_id\":\"fc35c95969e3d6fca22f28f6a6a93143\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/pools?is_insource_enabled=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"pool_models\":[]},\"request_id\":\"7400eb30abd537a08c1d1f9c7d44bf97\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/groups?project_ids%5B%5D=40703457&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"project_groups\":[]},\"request_id\":\"a927fcec353d357285d4f93b4b1837d8\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/milestones_v2?limit=1&projects%5B%5D=40703457&statuses%5B%5D=cleared&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"milestones_list\":[]},\"request_id\":\"0b40e1b30774ad877fedf8f9019d4a0c\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/messages/0.1/threads?is_read=false&folders%5B%5D=requests&unread_count=true&last_message=true&context_details=true&user_read_times=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"threads\":[{\"id\":426219899,\"thread\":{\"id\":426219899,\"thread_type\":\"private_chat\",\"time_created\":1783699325,\"members\":[2896024,90851053],\"owner\":2896024,\"context\":{\"type\":\"chat_request\",\"id\":90851053},\"read_privacy\":\"members\",\"owner_read_privacy\":\"members\",\"write_privacy\":\"members\",\"message\":{\"id\":2249906076,\"from_user\":2896024,\"thread_id\":426219899,\"time_created\":1783699325,\"message\":\"Hello Makymilian,\\n\\nMy name is Alonso and I currently provide high-quality B2B leads specifically targeted for web design and digital marketing agencies. Currently, I have a verified dataset of businesses in Bavaria, Germany that are operating outdated, non-responsive, or legacy websites.\\n\\nThese companies have a documented need for a website relaunch, making them high-conversion acquisition targets for your web design business.\\n\\nKey Details of the Dataset:\\nTarget Sectors: Tax advisors, law firms, dentists, architects, medical practices, IT consultants, hotels/guesthouses, among other businesses.\\n\\nData Fields Included: Company Name, Current Website URL, Telephone Number, and Email Address.\\n\\nTo let you verify the data quality and conversion potential firsthand, I can offer an initial trial batch of 50 leads at a discounted price.\\n\\nPlease let me know if you are interested, and I will send over the pricing and details for the trial batch.\\n\\nBest regards,\\nAlonso\",\"attachments\":[],\"message_source\":\"inbox\",\"text_entities\":[],\"versions\":[]},\"user_read_times\":{"
+  },
+  {
+    "url": "https://www.freelancer.com/api/messages/0.1/threads?limit=1&unread_count=true&last_message=true&context_details=true&user_read_times=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"threads\":[{\"id\":386162834,\"thread\":{\"id\":386162834,\"thread_type\":\"admin_preferred_chat\",\"time_created\":1769594645,\"members\":[75359445,90851053],\"owner\":75359445,\"context\":{\"type\":\"support_session\",\"id\":52995393},\"read_privacy\":\"members\",\"owner_read_privacy\":\"members\",\"write_privacy\":\"members\",\"message\":{\"id\":2279008992,\"from_user\":75359445,\"thread_id\":386162834,\"time_created\":1788932082,\"message\":\"Hey Maksymilian! I'm Alexi, here to help you enhance your freelancing journey with our membership plans. I noticed you're currently not subscribed to any membership. Are you interested in exploring some options that could boost your visibility and success on the platform?\",\"attachments\":[],\"message_source\":\"default_msg\",\"text_entities\":[],\"versions\":[]},\"user_read_times\":{\"75359445\":1788932082,\"90851053\":1774384301}},\"is_muted\":false,\"is_read\":false,\"folder\":\"inbox\",\"time_read\":1774384301,\"time_updated\":1788932082,\"message_unread_count\":5,\"is_blocked\":false,\"is_starred\":false}],\"context_details\":{\"support_sessions\":{\"52995393\":{\"id\":52995393,\"user_id\":90851053,\"support_type\":\"aiEscalations\",\"source_id\":90851053,\"create_time\":1769594643,\"agent_session\":{\"id\":123630526,\"support_type\":\"aiEscalations\",\"support_agent\":{\"id\":1807,\"user_id\":75359445},\"support_session_id\":52995393,\"create_time\":1788932081,\"is_latest\":true}}}}},\"request_id\":\"c880f07f25454dc97be4288f35a9a539\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/common/0.1/enterprise_metadata_fields?resource_type=project&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"enterprise_metadata_fields\":{}},\"request_id\":\"d7842436fcd536b1bde85bd455556f0c\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/support/0.1/agents/?support_types%5B%5D=client_resurrection_c&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"agents\":[{\"id\":1860,\"user_id\":84164711,\"support_type\":\"client_resurrection_c\",\"create_time\":1750049727,\"state\":\"unavailable\"},{\"id\":1786,\"user_id\":49148575,\"support_type\":\"client_resurrection_c\",\"create_time\":1729154507,\"state\":\"disabled\"},{\"id\":1767,\"user_id\":77668429,\"support_type\":\"client_resurrection_c\",\"create_time\":1722226107,\"state\":\"available\"}]},\"request_id\":\"0aad8c94fc9eb5c0f720d1cd32b515fc\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/ajax-api/user/interactions.php?eventName=prototyper-new-tag-clicked&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"isValidAgainstSchema\":true,\"result\":{\"interactions\":[{\"id\":64182663,\"eventName\":\"prototyper-new-tag-clicked\"}]}}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/projects/40703457/project_title_edit_request?webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"project_title_edit_request\":[]},\"request_id\":\"7f99d017f6235c8702e271c5b36b096d\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/users/90851053/settings/?limit=1&contexts%5B%5D=chatbox_auto_close&targets%5B%5D=user&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"user_settings\":[{\"user_id\":90851053,\"context\":\"chatbox_auto_close\",\"target\":\"user\",\"value\":\"disabled\"}]},\"request_id\":\"8a1d7402391989a40df9b34a71b20a16\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/ajax-api/manage/bids.php?limit=100&type=ongoing&filter=All&query=&order_by=check_in_status_time_asc&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"isValidAgainstSchema\":true,\"result\":[{\"id\":479690539,\"projectId\":40250982,\"employerId\":22563582,\"recruiter\":false,\"milestoneCount\":1,\"milestoneAmount\":80,\"deadline\":1772317582,\"bidAmount\":80}]}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/teams?permissions%5B%5D=projects&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"teams\":{},\"users\":{}},\"request_id\":\"08ad4874c7beddae2a87ec095cb6ff8e\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/pools?webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"pool_models\":[]},\"request_id\":\"9dc948c30d79fd58500d8f3b86a73562\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/memberships/0.1/renewals?webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"renewals\":[]},\"request_id\":\"6961e5303f73cba671ea8be74c50b9ff\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/canvas/0.1/canvas?user_id=90851053&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"canvases\":[{\"id\":36730,\"context_id\":386935841,\"context_type\":\"thread\",\"created_by\":90851053,\"created_at\":1769994778}]},\"request_id\":\"4aff25da31629f1694c1eb18ae9dddf0\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/discover_collection/lists_group_feed_items?limit=1&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"collection\":{\"id\":154326558,\"name\":\"Bookmarked Group Posts\",\"description\":\"Here you can find all group posts that you have bookmarked.\",\"owner_id\":90851053,\"collection_type\":\"lists_group_feed_items\",\"is_private\":true,\"date_created\":1769088172000,\"last_updated\":1769088172000,\"preview_items\":[],\"count\":0,\"is_deleted\":false}},\"request_id\":\"f01e537d6120e60ad46fc4b36da94193\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/users/90851053/discover_collections/?limit=14&collection_type=lists_custom&sort_direction=asc&sort_field=collection_name&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"collections\":[]},\"request_id\":\"4539455e8f260d3ed89d9d9d4f2c934a\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/discover_collection/lists_recently_viewed_users?limit=1&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"collection\":{\"id\":154326559,\"name\":\"Recently Viewed Users\",\"description\":\"Here you can find users whose profiles you have recently viewed.\",\"owner_id\":90851053,\"collection_type\":\"lists_recently_viewed_users\",\"is_private\":true,\"date_created\":1769088172000,\"last_updated\":1774384222000,\"preview_items\":[\"\",\"\",\"\"],\"count\":30,\"is_deleted\":false,\"max_item_count\":50}},\"request_id\":\"815fb829b5fc12c00b48c21d703f716f\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/discover_collection/lists_favorites?limit=1&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"collection\":{\"id\":154326561,\"name\":\"Favorites\",\"description\":\"\",\"owner_id\":90851053,\"collection_type\":\"lists_favorites\",\"is_private\":true,\"date_created\":1769088172000,\"last_updated\":1769088172000,\"preview_items\":[],\"count\":0,\"is_deleted\":false}},\"request_id\":\"d623f8a7d553057108bbd063ae6514bd\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/discover_collection/lists_my_hires?limit=1&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"collection\":{\"id\":154326560,\"name\":\"My Hires\",\"description\":\"Here you can find all freelancers who you've worked with in the past.\",\"owner_id\":90851053,\"collection_type\":\"lists_my_hires\",\"is_private\":true,\"date_created\":1769088172000,\"last_updated\":1769088172000,\"preview_items\":[],\"count\":0,\"is_deleted\":false}},\"request_id\":\"18468100f0b1e12959a175e0a465f327\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/payment_sharing/whitelist?webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"whitelist_items\":[]},\"request_id\":\"a312b13b890cbca764195d5fcfb31a7f\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/tasks/0.1/tasks/groups?status%5B%5D=open&user_ids%5B%5D=90851053&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"task_groups\":[{\"id\":5787135,\"owner_id\":90851053,\"linked_sources\":[],\"status\":\"open\",\"name\":\"@maksks00's tasklist\",\"workflow_type\":\"none\",\"created_time\":1770010691646}]},\"request_id\":\"79abb65bad397aa85c0412972b213adf\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/discover_collection/lists_my_clients?limit=1&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"collection\":{\"id\":154326557,\"name\":\"My Clients\",\"description\":\"Here you can find all employers who you've worked with in the past.\",\"owner_id\":90851053,\"collection_type\":\"lists_my_clients\",\"is_private\":true,\"date_created\":1769088172000,\"last_updated\":1769088172000,\"preview_items\":[\"\"],\"count\":1,\"is_deleted\":false}},\"request_id\":\"db24aaf609cacdd26af125196ead3e24\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/groups/0.1/groups?limit=25&group_member_status=is_member&types%5B%5D=official&status%5B%5D=live&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"groups\":[{\"id\":744,\"name\":\"General Announcements\",\"creator_type\":\"admin\",\"creator_id\":1473,\"group_type\":\"official\",\"created\":1619195864988,\"seo_url\":\"general-announcements\",\"is_deleted\":false,\"description\":\"The latest news and important announcements from Freelancer.\",\"updated\":1789026859474,\"is_feed_read\":true,\"cover_image_url\":\"https://cdn2.f-cdn.com/files/download/295449396/57eec7.jpg\",\"last_active_time\":1789026859472,\"cover_image_url_new\":\"https://cdn3.f-cdn.com/files/download/295449395/0a5c17.png\",\"status\":\"live\",\"pool_ids\":[1]},{\"id\":1365,\"name\":\"Welcome to Freelancer\",\"creator_type\":\"admin\",\"creator_id\":1521,\"group_type\":\"official\",\"created\":1663769739120,\"seo_url\":\"freelancer-showcase\",\"is_deleted\":false,\"description\":\"Welcome to Freelancer! You've just arrived in a magical place full of possibilities. Whatever you've been itching to accomplish, you can get it done here, thanks to millions of expert freelancers ranging every imaginable skillset. So, what are you waiting for?! Get in and Make it Real.\",\"updated\":1788748128518,\"is_feed_read\":true,\"cover_image_url\":\"https://cdn6.f-cdn.com/files/download/295448999/f25a83.jpg\",\"last_active_time\":1788748128515,\"cover_image_url_new\":\"https://cdn5.f-cdn.com/files/download/295448998/12a072.png\",\"status\":\"live\",\"pool_ids\":[1]}]},\"request_id\":\"84d74fc3865808a164845ba416692c4b\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/groups/0.1/groups?limit=1&group_member_status=is_member&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"groups\":[{\"id\":744,\"name\":\"General Announcements\",\"creator_type\":\"admin\",\"creator_id\":1473,\"group_type\":\"official\",\"created\":1619195864988,\"seo_url\":\"general-announcements\",\"is_deleted\":false,\"description\":\"The latest news and important announcements from Freelancer.\",\"updated\":1789026859474,\"is_feed_read\":true,\"cover_image_url\":\"https://cdn2.f-cdn.com/files/download/295449396/57eec7.jpg\",\"last_active_time\":1789026859472,\"cover_image_url_new\":\"https://cdn3.f-cdn.com/files/download/295449395/0a5c17.png\",\"status\":\"live\",\"pool_ids\":[1]}]},\"request_id\":\"5daef8bb1ef6c6b52a93551bbe626d58\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/ajax-api/navigation/user-info.php?compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"isValidAgainstSchema\":true,\"result\":{\"id\":\"90851053\",\"username\":\"maksks00\",\"publicName\":\"Maksymilian\",\"isCorporate\":false,\"isFreeTrialEligible\":false,\"isPlusTrialEligible\":false,\"isPremium\":false,\"logo\":\"https:\\/\\/cdn6.f-cdn.com\\/ppic\\/297363816\\/logo\\/90851053\\/profile_logo_90851053.jpg\",\"membership\":\"free member\",\"hideMembershipUpgradeButton\":false,\"monthlyTrial\":false,\"canSwitchToUsers\":[],\"isNoCommissionEligibleReferrer\":true}}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/memberships/0.1/history_logs/?statuses%5B%5D=active&statuses%5B%5D=pending&period_details=true&price_details=true&trial_details=true&package_details=true&include_tax=true&category_names%5B%5D=legacy&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":[],\"request_id\":\"f528a2066578cd40ae5234b0e4141989\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/memberships/0.1/downgrades/?category_names%5B%5D=legacy&statuses%5B%5D=pending&price_details=true&package_details=true&include_tax=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"downgrades\":[]},\"request_id\":\"8bee72454bf6be970ff1b52da96c28d8\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/self?balance_details=1&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"id\":90851053,\"username\":\"maksks00\",\"suspended\":false,\"closed\":false,\"email\":\"makspotrykus0@gmail.com\",\"hourly_rate\":30.0,\"registration_date\":1769088169,\"limited_account\":false,\"display_name\":\"maksks00\",\"location\":{\"country\":{\"name\":\"Poland\"},\"city\":\"\\u017bukowo\"},\"role\":\"freelancer\",\"chosen_role\":\"freelancer\",\"status\":{\"email_verified\":true},\"primary_currency\":{\"id\":1,\"code\":\"USD\",\"sign\":\"$\",\"name\":\"US Dollar\",\"exchange_rate\":1.0,\"country\":\"US\"},\"account_balances\":{\"balances\":[{\"amount\":-12.29,\"currency\":{\"id\":1,\"code\":\"USD\",\"sign\":\"$\",\"name\":\"US Dollar\",\"exchange_rate\":1.0,\"country\":\"US\"},\"bonus_amount\":0.0},{\"amount\":0.0,\"currency\":{\"id\":11,\"code\":\"INR\",\"sign\":\"\\u20b9\",\"name\":\"Indian Rupee\",\"exchange_rate\":0.01046,\"country\":\"IN\"},\"bonus_amount\":0.0},{\"amount\":0.0,\"currency\":{\"id\":19,\"code\":\"PLN\",\"sign\":\"z\\u0142\",\"name\":\"Polish Zloty\",\"exchange_rate\":0.26888,\"country\":\"PL\"},\"bonus_amount\":0.0}],\"bids_remaining\":6,\"jobs_remaining\":0,\"job_changes_remaining\":100000,\"service_postings_remaining\":3,\"pending_funds\":[],\"equivalent_amount\":-12.29},\"primary_language\":\"en\",\"first_name\":\"Maksymilian\",\"last_name\":\"Potrykus\",\"public_name\":\"Maksymilian\",\"address\":{\"address1\":\"ulica Jab\\u0142oniowa 11C/36\",\"address2\":\"\",\"city\":\"\\u017bukowo\",\"state_code\":\"Pomorskie\",\"zip\":\"83330\",\"country\":\"Poland\"},\"company\":\"Sentinel Audit Systems\",\"pool_ids\":[],\"enterprise_ids\":[],\"date_of_birth\":{\"day\":27,\"month\":6,\"year\":2000},\"escrowcom_account_linked\":true,\"escrowcom_int"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/teams?webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"teams\":{},\"users\":{}},\"request_id\":\"830cb7df5211c240dd5245a6f2a90e45\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/self?jobs=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"id\":90851053,\"username\":\"maksks00\",\"suspended\":false,\"closed\":false,\"email\":\"makspotrykus0@gmail.com\",\"jobs\":[{\"id\":3,\"name\":\"PHP\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"php\",\"local\":false},{\"id\":9,\"name\":\"JavaScript\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"javascript\",\"local\":false},{\"id\":13,\"name\":\"Python\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"python\",\"local\":false},{\"id\":44,\"name\":\"Mobile App Development\",\"category\":{\"id\":9,\"name\":\"Mobile Phones & Computing\"},\"seo_url\":\"mobile_app_development\",\"local\":false},{\"id\":59,\"name\":\"Android\",\"category\":{\"id\":9,\"name\":\"Mobile Phones & Computing\"},\"seo_url\":\"android\",\"local\":false},{\"id\":69,\"name\":\"WordPress\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"wordpress\",\"local\":false},{\"id\":102,\"name\":\"Troubleshooting\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"troubleshooting\",\"local\":false},{\"id\":103,\"name\":\"Technical Writing\",\"category\":{\"id\":2,\"name\":\"Writing & Content\"},\"seo_url\":\"technical_writing\",\"local\":false},{\"id\":137,\"name\":\"eCommerce\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"ecommerce\",\"local\":false},{\"id\":305,\"name\":\"MySQL\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"mysql\",\"local\":false},{\"id\":335,\"name\":\"HTML\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"html\",\"local\":false},{\"id\":613,\"name\":\"Software Development\",\"cat"
+  },
+  {
+    "url": "https://www.freelancer.com/api/messages/0.1/threads?limit=2&unread_count=true&last_message=true&context_details=true&user_read_times=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"threads\":[{\"id\":386162834,\"thread\":{\"id\":386162834,\"thread_type\":\"admin_preferred_chat\",\"time_created\":1769594645,\"members\":[75359445,90851053],\"owner\":75359445,\"context\":{\"type\":\"support_session\",\"id\":52995393},\"read_privacy\":\"members\",\"owner_read_privacy\":\"members\",\"write_privacy\":\"members\",\"message\":{\"id\":2279008992,\"from_user\":75359445,\"thread_id\":386162834,\"time_created\":1788932082,\"message\":\"Hey Maksymilian! I'm Alexi, here to help you enhance your freelancing journey with our membership plans. I noticed you're currently not subscribed to any membership. Are you interested in exploring some options that could boost your visibility and success on the platform?\",\"attachments\":[],\"message_source\":\"default_msg\",\"text_entities\":[],\"versions\":[]},\"user_read_times\":{\"75359445\":1788932082,\"90851053\":1774384301}},\"is_muted\":false,\"is_read\":false,\"folder\":\"inbox\",\"time_read\":1774384301,\"time_updated\":1788932082,\"message_unread_count\":5,\"is_blocked\":false,\"is_starred\":false},{\"id\":392827574,\"thread\":{\"id\":392827574,\"thread_type\":\"private_chat\",\"time_created\":1771868481,\"members\":[90851053,22563582],\"inactive_members\":[21683972],\"owner\":22563582,\"context\":{\"type\":\"project\",\"id\":40250982},\"read_privacy\":\"members\",\"owner_read_privacy\":\"members\",\"write_privacy\":\"members\",\"message\":{\"id\":2261680706,\"from_user\":90851053,\"thread_id\":392827574,\"parent_id\":2258023784,\"time_created\":1785653423,\"message\":\"Updated fixed many other things, \\\"measured\\\" now shows "
+  },
+  {
+    "url": "https://www.freelancer.com/api//users/0.1/referral_invitations/check?bonus_id=16&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":true,\"request_id\":\"fd0ae24a834357c103328a648ef0fe5d\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/projects/bid_stats?project_ids%5B%5D=40703457&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"project_bid_stats\":{}},\"request_id\":\"c495da2743182410e8fc76fca2724835\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/self?status=true&marketing_mobile_number=true&limited_account=true&secure_phone=true&directory_follow_preferences=true&nominated_payment_control_status=true&operating_areas=true&equipment_group_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"id\":90851053,\"username\":\"maksks00\",\"suspended\":false,\"closed\":false,\"email\":\"makspotrykus0@gmail.com\",\"hourly_rate\":30.0,\"registration_date\":1769088169,\"limited_account\":false,\"display_name\":\"maksks00\",\"location\":{\"country\":{\"name\":\"Poland\"},\"city\":\"\\u017bukowo\"},\"role\":\"freelancer\",\"chosen_role\":\"freelancer\",\"status\":{\"payment_verified\":false,\"email_verified\":true,\"deposit_made\":true,\"profile_complete\":true,\"phone_verified\":true,\"identity_verified\":true,\"facebook_connected\":true,\"freelancer_verified_user\":false,\"linkedin_connected\":true,\"custom_charge_verified\":true},\"primary_currency\":{\"id\":1,\"code\":\"USD\",\"sign\":\"$\",\"name\":\"US Dollar\",\"exchange_rate\":1.0,\"country\":\"US\"},\"primary_language\":\"en\",\"first_name\":\"Maksymilian\",\"last_name\":\"Potrykus\",\"public_name\":\"Maksymilian\",\"address\":{\"address1\":\"ulica Jab\\u0142oniowa 11C/36\",\"address2\":\"\",\"city\":\"\\u017bukowo\",\"state_code\":\"Pomorskie\",\"zip\":\"83330\",\"country\":\"Poland\"},\"company\":\"Sentinel Audit Systems\",\"pool_ids\":[],\"enterprise_ids\":[],\"date_of_birth\":{\"day\":27,\"month\":6,\"year\":2000},\"escrowcom_account_linked\":true,\"escrowcom_interaction_required\":false,\"secure_phone\":{\"phone_number\":\"503047555\",\"country_code\":\"48\",\"country\":\"PL\"},\"directory_follow_preferences\":{\"allow_listing\":true,\"allow_watch\":true,\"allow_seal_price_on_review\":false},\"is_nominated_payment_controlled\":false,\"enterprises\":[],\"timezone\":{\"id\":291,\"country\":\"PL\",\"timezone\":\"Europe/Warsaw\",\"offset\":2.0},\"oauth_password_credentials_a"
+  },
+  {
+    "url": "https://www.freelancer.com/api/newsfeed/0.1/newsfeed/notifications?limit=11&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\n  \"result\": {\n    \"_shards\": {\n      \"failed\": 0, \n      \"successful\": 40, \n      \"total\": 40\n    }, \n    \"facets\": {\n      \"unread\": {\n        \"_type\": \"filter\", \n        \"count\": 15\n      }, \n      \"unseen\": {\n        \"_type\": \"filter\", \n        \"count\": 15\n      }\n    }, \n    \"hits\": {\n      \"hits\": [\n        {\n          \"_id\": \"fcd2fbe563ef893aa5ed3a0edcbcb9c8a779597b1f8380b34b002d6cc4654f260317d4a8edc0cdf1e769c8ad623724f3a74b3b16ab27af96a60430c2ddb3cc28\", \n          \"_index\": \"newsfeed\", \n          \"_score\": null, \n          \"_source\": {\n            \"aggregated\": null, \n            \"data\": {\n              \"accountId\": 32810741, \n              \"amount\": \"1500\", \n              \"currencycode\": \"INR\", \n              \"currencysign\": \"\\u20b9\", \n              \"id\": 40197029, \n              \"img\": {\n                \"logo_url\": false, \n                \"profile_logo_url\": \"https://www.freelancer.com/img/unknown.png\"\n              }, \n              \"imgUrl\": \"https://www.freelancer.com/img/unknown.png\", \n              \"linkUrl\": \"/projects/microsoft-word/word-vba-audio-question-navigation.html\", \n              \"milestoneId\": 186297725, \n              \"name\": \"Word VBA Audio Question Navigation\", \n              \"otherReason\": \"Word\", \n              \"publicName\": \"Sam X.\", \n              \"seoUrl\": \"microsoft-word/word-vba-audio-question-navigation\", \n              \"submitDate\": \"2026-02-01 19:31:34\", \n              \"time\": 1772606133, \n              \"title\": \"Word VBA Audio Questio"
+  },
+  {
+    "url": "https://www.freelancer.com/ajax-api/user/consent.php?limit=1&dataType=tracking&usageType=marketing&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"isValidAgainstSchema\":true,\"result\":[]}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/messages/0.1/threads?limit=100&is_read=false&unread_count=true&last_message=true&context_details=true&user_read_times=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"threads\":[{\"id\":386162834,\"thread\":{\"id\":386162834,\"thread_type\":\"admin_preferred_chat\",\"time_created\":1769594645,\"members\":[75359445,90851053],\"owner\":75359445,\"context\":{\"type\":\"support_session\",\"id\":52995393},\"read_privacy\":\"members\",\"owner_read_privacy\":\"members\",\"write_privacy\":\"members\",\"message\":{\"id\":2279008992,\"from_user\":75359445,\"thread_id\":386162834,\"time_created\":1788932082,\"message\":\"Hey Maksymilian! I'm Alexi, here to help you enhance your freelancing journey with our membership plans. I noticed you're currently not subscribed to any membership. Are you interested in exploring some options that could boost your visibility and success on the platform?\",\"attachments\":[],\"message_source\":\"default_msg\",\"text_entities\":[],\"versions\":[]},\"user_read_times\":{\"75359445\":1788932082,\"90851053\":1774384301}},\"is_muted\":false,\"is_read\":false,\"folder\":\"inbox\",\"time_read\":1774384301,\"time_updated\":1788932082,\"message_unread_count\":5,\"is_blocked\":false,\"is_starred\":false},{\"id\":426219899,\"thread\":{\"id\":426219899,\"thread_type\":\"private_chat\",\"time_created\":1783699325,\"members\":[2896024,90851053],\"owner\":2896024,\"context\":{\"type\":\"chat_request\",\"id\":90851053},\"read_privacy\":\"members\",\"owner_read_privacy\":\"members\",\"write_privacy\":\"members\",\"message\":{\"id\":2249906076,\"from_user\":2896024,\"thread_id\":426219899,\"time_created\":1783699325,\"message\":\"Hello Makymilian,\\n\\nMy name is Alonso and I currently provide high-quality B2B leads specifically targeted"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/reputations?role=freelancer&rehire_rates=true&users%5B%5D=90851053&retention_rate=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"90851053\":{\"entire_history\":{\"overall\":5.0,\"on_budget\":1.0,\"on_time\":1.0,\"positive\":0.0,\"category_ratings\":{\"quality\":5.0,\"communication\":5.0,\"expertise\":5.0,\"professionalism\":5.0,\"hire_again\":5.0},\"all\":1,\"reviews\":1,\"incomplete_reviews\":0,\"complete\":1,\"incomplete\":0,\"earnings\":48.476136000000004,\"completion_rate\":1.0,\"rehire_rate\":0.0,\"user_id\":90851053},\"last3months\":{\"overall\":0.0,\"on_budget\":0.0,\"on_time\":0.0,\"positive\":0.0,\"category_ratings\":{\"quality\":0.0,\"communication\":0.0,\"expertise\":0.0,\"professionalism\":0.0,\"hire_again\":0.0},\"all\":0,\"reviews\":0,\"incomplete_reviews\":0,\"complete\":0,\"incomplete\":0,\"earnings\":0.0,\"completion_rate\":0.0,\"rehire_rate\":0.0,\"user_id\":90851053},\"last12months\":{\"overall\":5.0,\"on_budget\":1.0,\"on_time\":1.0,\"positive\":0.0,\"category_ratings\":{\"quality\":5.0,\"communication\":5.0,\"expertise\":5.0,\"professionalism\":5.0,\"hire_again\":5.0},\"all\":1,\"reviews\":1,\"incomplete_reviews\":0,\"complete\":1,\"incomplete\":0,\"earnings\":48.476136000000004,\"completion_rate\":1.0,\"rehire_rate\":0.0,\"user_id\":90851053},\"user_id\":90851053,\"role\":\"freelancer\",\"earnings_score\":1.3711,\"accept_rate\":1.0,\"retention_rate\":{\"rate\":0.0}}},\"request_id\":\"551262f91304e0c9286d276955cb4dd6\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/messages/0.1/threads?limit=100&is_read=false&folders%5B%5D=inbox&folders%5B%5D=sent&folders%5B%5D=freelancer&folders%5B%5D=none&unread_count=true&last_message=true&context_details=true&user_read_times=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"threads\":[{\"id\":386162834,\"thread\":{\"id\":386162834,\"thread_type\":\"admin_preferred_chat\",\"time_created\":1769594645,\"members\":[75359445,90851053],\"owner\":75359445,\"context\":{\"type\":\"support_session\",\"id\":52995393},\"read_privacy\":\"members\",\"owner_read_privacy\":\"members\",\"write_privacy\":\"members\",\"message\":{\"id\":2279008992,\"from_user\":75359445,\"thread_id\":386162834,\"time_created\":1788932082,\"message\":\"Hey Maksymilian! I'm Alexi, here to help you enhance your freelancing journey with our membership plans. I noticed you're currently not subscribed to any membership. Are you interested in exploring some options that could boost your visibility and success on the platform?\",\"attachments\":[],\"message_source\":\"default_msg\",\"text_entities\":[],\"versions\":[]},\"user_read_times\":{\"75359445\":1788932082,\"90851053\":1774384301}},\"is_muted\":false,\"is_read\":false,\"folder\":\"inbox\",\"time_read\":1774384301,\"time_updated\":1788932082,\"message_unread_count\":5,\"is_blocked\":false,\"is_starred\":false},{\"id\":412101285,\"thread\":{\"id\":412101285,\"thread_type\":\"admin_preferred_chat\",\"time_created\":1778008578,\"members\":[90851053,86396623],\"owner\":86396623,\"context\":{\"type\":\"support_session\",\"id\":58057079},\"read_privacy\":\"members\",\"owner_read_privacy\":\"members\",\"write_privacy\":\"members\",\"message\":{\"id\":2233987970,\"from_user\":86396623,\"thread_id\":412101285,\"time_created\":1780046599,\"message\":\"Hey Maksymilian! How's it going? I'm Mandy from Freelancer's Talent Success Team. Do you have"
+  },
+  {
+    "url": "https://www.freelancer.com/api/messages/0.1/threads?limit=21&folders%5B%5D=inbox&folders%5B%5D=sent&folders%5B%5D=freelancer&folders%5B%5D=none&unread_count=true&last_message=true&context_details=true&user_read_times=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"threads\":[{\"id\":386162834,\"thread\":{\"id\":386162834,\"thread_type\":\"admin_preferred_chat\",\"time_created\":1769594645,\"members\":[75359445,90851053],\"owner\":75359445,\"context\":{\"type\":\"support_session\",\"id\":52995393},\"read_privacy\":\"members\",\"owner_read_privacy\":\"members\",\"write_privacy\":\"members\",\"message\":{\"id\":2279008992,\"from_user\":75359445,\"thread_id\":386162834,\"time_created\":1788932082,\"message\":\"Hey Maksymilian! I'm Alexi, here to help you enhance your freelancing journey with our membership plans. I noticed you're currently not subscribed to any membership. Are you interested in exploring some options that could boost your visibility and success on the platform?\",\"attachments\":[],\"message_source\":\"default_msg\",\"text_entities\":[],\"versions\":[]},\"user_read_times\":{\"75359445\":1788932082,\"90851053\":1774384301}},\"is_muted\":false,\"is_read\":false,\"folder\":\"inbox\",\"time_read\":1774384301,\"time_updated\":1788932082,\"message_unread_count\":5,\"is_blocked\":false,\"is_starred\":false},{\"id\":392827574,\"thread\":{\"id\":392827574,\"thread_type\":\"private_chat\",\"time_created\":1771868481,\"members\":[90851053,22563582],\"inactive_members\":[21683972],\"owner\":22563582,\"context\":{\"type\":\"project\",\"id\":40250982},\"read_privacy\":\"members\",\"owner_read_privacy\":\"members\",\"write_privacy\":\"members\",\"message\":{\"id\":2261680706,\"from_user\":90851053,\"thread_id\":392827574,\"parent_id\":2258023784,\"time_created\":1785653423,\"message\":\"Updated fixed many other things, \\\"measured\\\" now shows "
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/users?avatar=true&badge_details=true&country_details=true&display_info=true&employer_reputation=true&jobs=true&location_details=true&membership_details=true&preferred_details=true&qualification_details=true&responsiveness=true&reputation=true&sanction_details=true&status=true&users%5B%5D=90851053&profile_description=true&shareholder_details=true&rising_star=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"users\":{\"90851053\":{\"id\":90851053,\"username\":\"maksks00\",\"suspended\":false,\"closed\":false,\"avatar\":\"/ppic/297363816/logo/90851053/profile_logo_90851053.jpg\",\"email\":\"makspotrykus0@gmail.com\",\"reputation\":{\"entire_history\":{\"overall\":5.0,\"on_budget\":1.0,\"on_time\":1.0,\"positive\":0.0,\"category_ratings\":{\"quality\":5.0,\"communication\":5.0,\"expertise\":5.0,\"professionalism\":5.0,\"hire_again\":5.0},\"all\":1,\"reviews\":1,\"incomplete_reviews\":0,\"complete\":1,\"incomplete\":0,\"earnings\":48.476136000000004,\"completion_rate\":1.0,\"user_id\":90851053},\"last3months\":{\"overall\":0.0,\"on_budget\":0.0,\"on_time\":0.0,\"positive\":0.0,\"category_ratings\":{\"quality\":0.0,\"communication\":0.0,\"expertise\":0.0,\"professionalism\":0.0,\"hire_again\":0.0},\"all\":0,\"reviews\":0,\"incomplete_reviews\":0,\"complete\":0,\"incomplete\":0,\"earnings\":0.0,\"completion_rate\":0.0,\"user_id\":90851053},\"last12months\":{\"overall\":5.0,\"on_budget\":1.0,\"on_time\":1.0,\"positive\":0.0,\"category_ratings\":{\"quality\":5.0,\"communication\":5.0,\"expertise\":5.0,\"professionalism\":5.0,\"hire_again\":5.0},\"all\":1,\"reviews\":1,\"incomplete_reviews\":0,\"complete\":1,\"incomplete\":0,\"earnings\":48.476136000000004,\"completion_rate\":1.0,\"user_id\":90851053},\"user_id\":90851053,\"role\":\"freelancer\",\"earnings_score\":1.3711},\"jobs\":[{\"id\":3,\"name\":\"PHP\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"php\",\"local\":false},{\"id\":9,\"name\":\"JavaScript\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"javascript\",\"local\":false}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/abtest/0.1/enrollments/?compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"test_id\":1645,\"variation_name\":\"control\",\"state\":\"finished\"},\"request_id\":\"943656b60e7497cc3c4abd0c0304818f\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/jobs/?active_project_count_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":[{\"id\":3,\"name\":\"PHP\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"active_project_count\":688,\"seo_url\":\"php\",\"local\":false},{\"id\":4,\"name\":\"Perl\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"perl\",\"local\":false},{\"id\":5,\"name\":\"ASP\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"asp\",\"local\":false},{\"id\":6,\"name\":\"C Programming\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"active_project_count\":43,\"seo_url\":\"c_programming\",\"local\":false},{\"id\":7,\"name\":\"Java\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"active_project_count\":101,\"seo_url\":\"java\",\"local\":false},{\"id\":8,\"name\":\"JSP\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"jsp\",\"local\":false},{\"id\":9,\"name\":\"JavaScript\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"active_project_count\":290,\"seo_url\":\"javascript\",\"local\":false},{\"id\":10,\"name\":\"XML\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"active_project_count\":6,\"seo_url\":\"xml\",\"local\":false},{\"id\":11,\"name\":\"Cold Fusion\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"cold_fusion\",\"local\":false},{\"id\":12,\"name\":\"Adobe Flash\",\"category\":{\"id\":3,\"name\":\"Design, Media & Architecture\"},\"active_project_count\":11,\"seo_url\":\"flash\",\"local\":false},{\"id\":13,\"name\":\"Python\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"active_project_count\":190,\"seo_url\":\"python\",\"local\":false},{\"id\":14,\"name\":\"Visual Basic\",\"category\":{\"id\":1,\""
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/self/sales_tax_settings/?webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"user_sales_tax_settings\":[]},\"request_id\":\"f356006a7698f64679864e3840b6dff2\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/search/saved_filters?type=project&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"saved_searches\":[{\"id\":839293,\"user_id\":90851053,\"name\":\"proofreading english\",\"type\":\"project\",\"filters\":{\"project_filters\":{\"keyword\":\"proofreading english\",\"skill_ids\":[3,9,13,38,69,102,103,137,305,335,662,1031,1093,2292,2701,2723],\"language_codes\":[\"en\",\"pl\"]}}}]},\"request_id\":\"e69dfb70d2d810c7c7bb243f26711ae7\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/bids?bidders%5B%5D=90851053&projects%5B%5D=40703457&quotations=true&include_profile_id=true&bid_billing_info=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"bids\":[]},\"request_id\":\"66a9ffa9427ece3d1114ed375bf4201b\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/discover_collections/154326557/discover_collection_items?limit=1&collection_id=154326557&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"discover_collection_items\":[{\"id\":2089410339,\"collection_id\":154326557,\"item_id\":32810741,\"item_type\":\"user\",\"order\":0,\"is_deleted\":false}]},\"request_id\":\"770cac5bb6187e6db72bebe5c98a670e\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/self/following?webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"user_follows\":[]},\"request_id\":\"d71142e8cdec93d5b2ff10ee8094716f\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/users/90851053/settings/?contexts%5B%5D=newsfeed&targets%5B%5D=group&target_ids%5B%5D=744&target_ids%5B%5D=1365&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"user_settings\":[{\"user_id\":90851053,\"context\":\"newsfeed\",\"target\":\"group\",\"target_id\":744,\"value\":\"active\"},{\"user_id\":90851053,\"context\":\"newsfeed\",\"target\":\"group\",\"target_id\":1365,\"value\":\"active\"}]},\"request_id\":\"2be41b6beb12e842a3f916dfc1c173cb\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/groups/0.1/groups?limit=10&group_member_status=is_member&status%5B%5D=live&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"groups\":[{\"id\":744,\"name\":\"General Announcements\",\"creator_type\":\"admin\",\"creator_id\":1473,\"group_type\":\"official\",\"created\":1619195864988,\"seo_url\":\"general-announcements\",\"is_deleted\":false,\"description\":\"The latest news and important announcements from Freelancer.\",\"updated\":1789026859474,\"is_feed_read\":true,\"cover_image_url\":\"https://cdn2.f-cdn.com/files/download/295449396/57eec7.jpg\",\"last_active_time\":1789026859472,\"cover_image_url_new\":\"https://cdn3.f-cdn.com/files/download/295449395/0a5c17.png\",\"status\":\"live\",\"pool_ids\":[1]},{\"id\":1365,\"name\":\"Welcome to Freelancer\",\"creator_type\":\"admin\",\"creator_id\":1521,\"group_type\":\"official\",\"created\":1663769739120,\"seo_url\":\"freelancer-showcase\",\"is_deleted\":false,\"description\":\"Welcome to Freelancer! You've just arrived in a magical place full of possibilities. Whatever you've been itching to accomplish, you can get it done here, thanks to millions of expert freelancers ranging every imaginable skillset. So, what are you waiting for?! Get in and Make it Real.\",\"updated\":1788748128518,\"is_feed_read\":true,\"cover_image_url\":\"https://cdn6.f-cdn.com/files/download/295448999/f25a83.jpg\",\"last_active_time\":1788748128515,\"cover_image_url_new\":\"https://cdn5.f-cdn.com/files/download/295448998/12a072.png\",\"status\":\"live\",\"pool_ids\":[1]}]},\"request_id\":\"ad03c763cd664044cd8c4a50a85a6538\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/reputations?role=employer&rehire_rates=true&project_stats=true&users%5B%5D=90851053&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"90851053\":{\"entire_history\":{\"overall\":0.0,\"positive\":0.0,\"category_ratings\":{\"clarity_spec\":0.0,\"communication\":0.0,\"payment_prom\":0.0,\"professionalism\":0.0,\"work_for_again\":0.0},\"user_id\":90851053},\"last3months\":{\"overall\":0.0,\"positive\":0.0,\"category_ratings\":{\"clarity_spec\":0.0,\"communication\":0.0,\"payment_prom\":0.0,\"professionalism\":0.0,\"work_for_again\":0.0},\"user_id\":90851053},\"last12months\":{\"overall\":0.0,\"positive\":0.0,\"category_ratings\":{\"clarity_spec\":0.0,\"communication\":0.0,\"payment_prom\":0.0,\"professionalism\":0.0,\"work_for_again\":0.0},\"user_id\":90851053},\"user_id\":90851053,\"role\":\"employer\",\"earnings_score\":0.0,\"project_stats\":{\"open\":0,\"work_in_progress\":0,\"complete\":0,\"pending\":0,\"draft\":0},\"accept_rate\":1.0}},\"request_id\":\"38b7b89ba5d90659c01a8e693616e70b\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/ajax-api/user/getUserRestrictionDetails.php?user_id=90851053&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"isValidAgainstSchema\":true,\"result\":{\"user_id\":90851053,\"is_restricted\":false}}"
+  },
+  {
+    "url": "https://www.freelancer.com/ajax-api/projects/getBidLimit.php?userId=90851053&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"isValidAgainstSchema\":true,\"result\":{\"userId\":90851053,\"bidsRemaining\":6,\"bidLimit\":6,\"bidsLastRefilled\":\"1774656157\",\"bidRefreshTime\":438290,\"bidRefreshRate\":1,\"unlimitedBids\":false}}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/bids?bidders%5B%5D=90851053&projects%5B%5D=40703457&quotations=true&include_profile_id=true&bid_billing_info=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"bids\":[]},\"request_id\":\"9b2d693f168bc8bee63b501282dcbb35\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/self?avatar=true&display_info=true&location_details=true&profile_description=true&search_language_details=true&status=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"id\":90851053,\"username\":\"maksks00\",\"suspended\":false,\"closed\":false,\"avatar\":\"/ppic/297363816/logo/90851053/profile_logo_90851053.jpg\",\"email\":\"makspotrykus0@gmail.com\",\"profile_description\":\"\\u26a1 Rapid technical fixes from an R&D Engineer. Currently building my reputation on the platform, offering Premium-grade support at promotional rates for my first 10 reviews. Specialist in n8n troubleshooting, API integrations, and business process automation\\n\\nI am a Senior Software Engineer specializing in advanced Web Applications (React), Automation (Python), and Cybersecurity. My unique advantage? I don't just write code that works; I write code that is secure, scalable, and mathematically precise\\u2014attributes derived from my background in R&D and Security.\\n\\n\\ud83d\\udee1\\ufe0f Why hire a Security Expert for Web Development?\\nStandard developers build features. I build Architectures. When I create a React dashboard or a Python bot for you, it comes with \\\"Security by Design\\\"\\u2014optimized, bulletproof, and professional.\\n\\n\\ud83d\\udc8e Core Services:\\nAdvanced Web Apps: React.js dashboards, Three.js (3D) visualizers, and interactive tools that feel premium (Glassmorphism, Cyber-Corporate aesthetics).\\nPython Automation: Custom bots, scrapers, and data pipelines that run reliably 24/7.\\nCybersecurity & Repair: RASP integration, Penetration Testing, and Forensic Malware Removal.\\n\\ud83d\\ude80 Tech Stack:\\nFrontend: React, TypeScript, Three.js, "
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/projects/is_free_bids?projectIds%5B%5D=40703457&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"is_free_bids\":[{\"project_id\":40703457,\"is_free_bid\":false,\"reasons\":[]}]},\"request_id\":\"3484080152ab7dc6f230d801d77e5f97\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/projects?projects%5B%5D=40250982&job_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"projects\":[{\"id\":40250982,\"owner_id\":22563582,\"title\":\"ThingSpeak Monitor Widget APK.\",\"status\":\"closed\",\"sub_status\":\"closed_awarded\",\"seo_url\":\"kotlin/Android-ThingSpeak-Monitor-Widget-IoT\",\"currency\":{\"id\":1,\"code\":\"USD\",\"sign\":\"$\",\"name\":\"US Dollar\",\"exchange_rate\":1.0,\"country\":\"US\",\"is_external\":false,\"is_escrowcom_supported\":true},\"jobs\":[{\"id\":7,\"name\":\"Java\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"java\",\"local\":false},{\"id\":44,\"name\":\"Mobile App Development\",\"category\":{\"id\":9,\"name\":\"Mobile Phones & Computing\"},\"seo_url\":\"mobile_app_development\",\"local\":false},{\"id\":58,\"name\":\"iPhone\",\"category\":{\"id\":9,\"name\":\"Mobile Phones & Computing\"},\"seo_url\":\"iphone_app_development\",\"local\":false},{\"id\":59,\"name\":\"Android\",\"category\":{\"id\":9,\"name\":\"Mobile Phones & Computing\"},\"seo_url\":\"android\",\"local\":false},{\"id\":716,\"name\":\"Mobile App Testing\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"mobile_app_testing\",\"local\":false},{\"id\":1004,\"name\":\"Kotlin\",\"category\":{\"id\":9,\"name\":\"Mobile Phones & Computing\"},\"seo_url\":\"kotlin\",\"local\":false},{\"id\":1314,\"name\":\"React Native\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"react_native\",\"local\":false},{\"id\":1315,\"name\":\"Flutter\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"flutter\",\"local\":false}],\"submitdate\":1771801126,\"preview_description\":\"I need a small Android APK that acts as a homescreen-ready widget and pulls dat"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/users?avatar=true&cover_image=false&display_info=true&country_details=true&jobs=true&portfolio_details=true&preferred_details=true&profile_description=true&qualification_details=true&recommendations=true&responsiveness=true&status=true&users%5B%5D=90851053&operating_areas=true&equipment_group_details=false&document_submissions=true&rising_star=true&staff_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"users\":{\"90851053\":{\"id\":90851053,\"username\":\"maksks00\",\"suspended\":false,\"closed\":false,\"avatar\":\"/ppic/297363816/logo/90851053/profile_logo_90851053.jpg\",\"email\":\"makspotrykus0@gmail.com\",\"reputation\":{\"entire_history\":{\"overall\":5.0,\"on_budget\":1.0,\"on_time\":1.0,\"positive\":0.0,\"category_ratings\":{\"quality\":5.0,\"communication\":5.0,\"expertise\":5.0,\"professionalism\":5.0,\"hire_again\":5.0},\"all\":1,\"reviews\":1,\"incomplete_reviews\":0,\"complete\":1,\"incomplete\":0,\"earnings\":48.476136000000004,\"completion_rate\":1.0,\"user_id\":90851053},\"last3months\":{\"overall\":0.0,\"on_budget\":0.0,\"on_time\":0.0,\"positive\":0.0,\"category_ratings\":{\"quality\":0.0,\"communication\":0.0,\"expertise\":0.0,\"professionalism\":0.0,\"hire_again\":0.0},\"all\":0,\"reviews\":0,\"incomplete_reviews\":0,\"complete\":0,\"incomplete\":0,\"earnings\":0.0,\"completion_rate\":0.0,\"user_id\":90851053},\"last12months\":{\"overall\":5.0,\"on_budget\":1.0,\"on_time\":1.0,\"positive\":0.0,\"category_ratings\":{\"quality\":5.0,\"communication\":5.0,\"expertise\":5.0,\"professionalism\":5.0,\"hire_again\":5.0},\"all\":1,\"reviews\":1,\"incomplete_reviews\":0,\"complete\":1,\"incomplete\":0,\"earnings\":48.476136000000004,\"completion_rate\":1.0,\"user_id\":90851053},\"user_id\":90851053,\"role\":\"freelancer\",\"earnings_score\":1.3711},\"jobs\":[{\"id\":3,\"name\":\"PHP\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"php\",\"local\":false},{\"id\":9,\"name\":\"JavaScript\",\"category\":{\"id\":1,\"name\":\"Websites, IT & Software\"},\"seo_url\":\"javascript\",\"local\":false}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/users?users%5B%5D=75359445&users%5B%5D=22563582&users%5B%5D=86396623&users%5B%5D=18104650&users%5B%5D=75569387&users%5B%5D=91709673&avatar=true&online_offline_details=true&status=true&support_status_details=true&limited_account=true&preferred_details=true&rising_star=true&shareholder_details=true&staff_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"users\":{\"18104650\":{\"id\":18104650,\"username\":\"ssajidullah\",\"closed\":false,\"avatar\":\"/img/unknown.png\",\"hourly_rate\":10.0,\"registration_date\":1452023367,\"limited_account\":false,\"display_name\":\"Sajid\",\"location\":{\"country\":{\"name\":\"China\"},\"city\":\"Xi an\"},\"avatar_large\":\"/img/unknown.png\",\"role\":\"freelancer\",\"chosen_role\":\"employer\",\"status\":{\"payment_verified\":true,\"email_verified\":true,\"deposit_made\":true,\"profile_complete\":true,\"phone_verified\":true,\"identity_verified\":true,\"facebook_connected\":false,\"freelancer_verified_user\":false,\"linkedin_connected\":false,\"custom_charge_verified\":false},\"avatar_cdn\":\"//cdn6.f-cdn.com/img/unknown.png\",\"avatar_large_cdn\":\"//cdn6.f-cdn.com/img/unknown.png\",\"primary_currency\":{\"id\":1,\"code\":\"USD\",\"sign\":\"$\",\"name\":\"US Dollar\",\"exchange_rate\":1.0,\"country\":\"US\"},\"primary_language\":\"en\",\"preferred_freelancer\":false,\"public_name\":\"Syed\",\"company\":\"\",\"pool_ids\":[],\"enterprise_ids\":[],\"escrowcom_account_linked\":true,\"escrowcom_interaction_required\":false,\"enterprises\":[],\"timezone\":{\"id\":166,\"country\":\"CN\",\"timezone\":\"Asia/Chongqing\",\"offset\":8.0},\"online_offline_status\":{\"status\":\"online\",\"last_updated_timestamp\":1789046200},\"oauth_password_credentials_allowed\":false,\"registration_completed\":true,\"is_profile_visible\":true,\"avatar_xlarge\":\"/img/unknown.png\",\"avatar_xlarge_cdn\":\"//cdn6.f-cdn.com/img/unknown.png\",\"is_shareholder\":false,\"is_staff\":false},\"22563582\":{\"id\":22563582,\"username\":\"louisoswaldo\",\"closed\":fals"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/projects/bid_stats?project_ids%5B%5D=40703457&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"project_bid_stats\":{}},\"request_id\":\"77c2c3017b39193a1d07f7aeb6123781\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/users/90851053/notification_settings/?frequency=true&targets%5B%5D=saved_search_project&delivery_types%5B%5D=push_notification&target_ids%5B%5D=839293&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"notification_settings\":[{\"id\":754141,\"setting_id\":754141,\"user_id\":90851053,\"delivery_type\":\"push_notification\",\"target\":\"saved_search_project\",\"target_id\":839293,\"value\":\"mute\",\"updated\":1773387699075,\"created\":1769284751300}]},\"request_id\":\"af1df6fc4702e3e89e59f033b9f2a46e\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/common/0.1/countries/?extra_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"countries\":[{\"name\":\"Afghanistan\",\"code\":\"AF\",\"iso3\":\"AFG\",\"region_id\":2,\"phone_code\":93,\"demonym\":\"Afghan\",\"person\":\"an Afghan\",\"seo_url\":\"afghanistan\",\"sanction\":false,\"language_code\":\"fas\",\"language_id\":43},{\"name\":\"Aland Islands\",\"code\":\"AX\",\"iso3\":\"ALA\",\"phone_code\":358,\"seo_url\":\"aland-islands\",\"sanction\":false,\"language_code\":\"swe\",\"language_id\":157},{\"name\":\"Albania\",\"code\":\"AL\",\"iso3\":\"ALB\",\"region_id\":3,\"phone_code\":355,\"demonym\":\"Albanian\",\"person\":\"an Albanian\",\"seo_url\":\"albania\",\"sanction\":false,\"language_code\":\"sqi\",\"language_id\":152},{\"name\":\"Algeria\",\"code\":\"DZ\",\"iso3\":\"DZA\",\"region_id\":6,\"phone_code\":213,\"demonym\":\"Algerian\",\"person\":\"an Algerian\",\"seo_url\":\"algeria\",\"sanction\":false,\"language_code\":\"ara\",\"language_id\":8},{\"name\":\"American Samoa\",\"code\":\"AS\",\"iso3\":\"ASM\",\"region_id\":4,\"phone_code\":1,\"demonym\":\"American Samoan\",\"person\":\"an American Samoan\",\"seo_url\":\"american-samoa\",\"sanction\":false,\"language_code\":\"smo\",\"language_id\":149},{\"name\":\"Andorra\",\"code\":\"AD\",\"iso3\":\"AND\",\"region_id\":3,\"phone_code\":376,\"demonym\":\"Andorran\",\"person\":\"an Andorran\",\"seo_url\":\"andorra\",\"sanction\":false,\"language_code\":\"cat\",\"language_id\":23},{\"name\":\"Angola\",\"code\":\"AO\",\"iso3\":\"AGO\",\"region_id\":6,\"phone_code\":244,\"demonym\":\"Angolan\",\"person\":\"an Angolan\",\"seo_url\":\"angola\",\"sanction\":false,\"language_code\":\"por\",\"language_id\":134},{\"name\":\"Anguilla\",\"code\":\"AI\",\"iso3\":\"AIA\",\"region_id\":1,\"phone_code\":1,\"demonym\":\"Anguillan\",\"person\":\"an An"
+  },
+  {
+    "url": "https://www.freelancer.com/api/memberships/0.1/benefits?benefit_names%5B%5D=client_engagement&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"benefits\":[{\"id\":46,\"internal_name\":\"client_engagement\",\"display_name\":\"Client Engagement\",\"value\":0.0,\"duplicate_rule\":\"exists\"}]},\"request_id\":\"f038312c5da5f9af3af9a73cc3edf2b6\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/projects?attachment_details=true&full_description=true&job_details=true&location_details=true&nda_details=true&projects%5B%5D=40250982&project_collaboration_details=true&selected_bids=true&qualification_details=true&upgrade_details=true&review_availability_details=true&local_details=true&equipment_details=true&invited_freelancer_details=true&client_engagement_details=true&contract_signature_details=true&enterprise_linked_projects_details=true&equipment_group_details=true&service_offering_details=true&owner_info=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"projects\":[{\"id\":40250982,\"owner_id\":22563582,\"title\":\"ThingSpeak Monitor Widget APK.\",\"status\":\"closed\",\"sub_status\":\"closed_awarded\",\"seo_url\":\"kotlin/Android-ThingSpeak-Monitor-Widget-IoT\",\"currency\":{\"id\":1,\"code\":\"USD\",\"sign\":\"$\",\"name\":\"US Dollar\",\"exchange_rate\":1.0,\"country\":\"US\",\"is_external\":false,\"is_escrowcom_supported\":true},\"description\":\"I need a small Android APK that acts as a homescreen-ready widget and pulls data directly from one or more ThingSpeak channels. For this first phase, I only need the Android installer available on the internet because is an open-source application. So I can test performance and usability; if everything meets expectations we will commission a full iOS counterpart later.\\n\\nCore features I must see:\\n\\u2022 Real-time data display refreshed in near-instant intervals.  \\n\\u2022 Customizable alerts I can set per field or threshold (push or local notification is fine).  \\n\\u2022 Historical data charts that let me scroll through previous hours, days, or a custom date range.\\n\\nTech flexibility:\\nI am open to Flutter, React Native, Kotlin, or any other modern stack you feel is best for a lean, stable APK. If Flutter or Kotlin keeps the footprint smaller and future iOS parity simpler, that\\u2019s a plus. Feel free to integrate AdMob placeholders so I can test how ads might fit in the layout.\\n\\nDeliverables:\\n1. Signed APK ready to sideload on Android 9+.  \\n2. Source code with clear build instructions.  \\"
+  },
+  {
+    "url": "https://www.freelancer.com/api/groups/0.1/feed?limit=10&group_ids%5B%5D=744&group_ids%5B%5D=1365&order_by=updated_desc&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"group_feed\":[{\"feed_item\":{\"id\":431436,\"context_type\":\"group\",\"context_id\":744,\"reference_type\":\"post\",\"reference_id\":431436,\"feed_meta_id\":757,\"is_deleted\":false,\"updated\":1789026854760,\"created\":1789026854760},\"post\":{\"id\":431436,\"content\":\"New essay. I burned 4 billion tokens in a day, cut the bill 500-fold with 14 keystrokes, and now I have concerns about $5 trillion of other people's debt.\\nhttps://x.com/matt_barrie/status/2097955070822555673\",\"owner_type\":\"group_member\",\"owner_id\":56821,\"attachments\":[{\"id\":269409,\"attached_to_type\":\"post\",\"attached_to_id\":431436,\"attached_object_type\":\"file\",\"attached_object_id\":\"035b294e-f2cc-4657-96bc-e8c640da1626\",\"attached_by_type\":\"user\",\"attached_by_id\":1082831,\"created\":1789026859430,\"attachment_uuid\":\"035b294e-f2cc-4657-96bc-e8c640da1626\",\"position\":1.0,\"file_metadata\":{\"id\":5678115,\"metadata\":{\"image\":{\"width\":1536,\"height\":864,\"blur_hash\":\"L99ZyBof4;t6~pWVIos:_2WCIos.\"}}}}],\"entities\":[],\"is_deleted\":false,\"commenting_disabled\":false,\"created\":1789026854759,\"updated\":1789026854759,\"text_entities\":[],\"attachment_files\":[{\"id\":151566,\"user_id\":1082831,\"file_id\":\"035b294e-f2cc-4657-96bc-e8c640da1626\",\"file_name\":\"image.png\",\"file_size\":2132992,\"content_type\":\"image/png\",\"s3_bucket\":\"freelancer-post-files\",\"s3_obj\":\"1082831/035b294e-f2cc-4657-96bc-e8c640da1626\",\"is_temp\":false,\"created\":1789026859428,\"updated\":1789026859428}],\"content_rich_text\":[]},\"group_id\":744,\"permissions\":[\"comment_create_by_t"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "status": 200,
+    "body": "{}\n"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/users?users%5B%5D=88121494&users%5B%5D=10796426&users%5B%5D=89875454&users%5B%5D=32810741&users%5B%5D=88260357&users%5B%5D=6769906&users%5B%5D=53817938&users%5B%5D=91108807&users%5B%5D=79360087&users%5B%5D=28200582&users%5B%5D=30414363&users%5B%5D=77437454&users%5B%5D=38651698&avatar=true&online_offline_details=true&status=true&support_status_details=true&limited_account=true&preferred_details=true&rising_star=true&shareholder_details=true&staff_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"users\":{\"6769906\":{\"id\":6769906,\"username\":\"sabarikptm\",\"closed\":false,\"avatar\":\"/ppic/279928872/logo/6769906/profile_logo_6769906.jpg\",\"hourly_rate\":30.0,\"registration_date\":1355484433,\"limited_account\":false,\"display_name\":\"sabarikptm\",\"location\":{\"country\":{\"name\":\"India\"},\"city\":\"Kaveripattinam\"},\"avatar_large\":\"/ppic/279928871/logo/6769906/cU5YP/profile_logo_RLKSF_689cb2d3dd100c886ec4e745fe00f657.jpg\",\"role\":\"freelancer\",\"chosen_role\":\"both\",\"status\":{\"payment_verified\":true,\"email_verified\":true,\"deposit_made\":true,\"profile_complete\":true,\"phone_verified\":true,\"identity_verified\":true,\"facebook_connected\":true,\"freelancer_verified_user\":true,\"linkedin_connected\":true,\"custom_charge_verified\":false},\"avatar_cdn\":\"//cdn5.f-cdn.com/ppic/279928872/logo/6769906/profile_logo_6769906.jpg\",\"avatar_large_cdn\":\"//cdn2.f-cdn.com/ppic/279928871/logo/6769906/cU5YP/profile_logo_RLKSF_689cb2d3dd100c886ec4e745fe00f657.jpg\",\"primary_currency\":{\"id\":11,\"code\":\"INR\",\"sign\":\"\\u20b9\",\"name\":\"Indian Rupee\",\"exchange_rate\":0.01046,\"country\":\"IN\"},\"primary_language\":\"en\",\"preferred_freelancer\":true,\"public_name\":\"Sabarinathan\",\"company\":\"\",\"pool_ids\":[],\"enterprise_ids\":[],\"escrowcom_account_linked\":true,\"escrowcom_interaction_required\":false,\"enterprises\":[],\"timezone\":{\"id\":297,\"country\":\"CX\",\"timezone\":\"Indian/Christmas\",\"offset\":7.0},\"online_offline_status\":{\"status\":\"offline\",\"last_updated_timestamp\":1789045304},\"oauth_password_credentials_allowed\":false,\"re"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/projects?projects%5B%5D=40295150&projects%5B%5D=40249854&projects%5B%5D=40209446&job_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"projects\":[]},\"request_id\":\"e31a3ff4fca0c847042cc7981982912c\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/users/0.1/users?users%5B%5D=1082831&users%5B%5D=24295157&users%5B%5D=86607429&users%5B%5D=30621210&users%5B%5D=14503668&avatar=true&online_offline_details=true&status=true&support_status_details=true&limited_account=true&preferred_details=true&rising_star=true&shareholder_details=true&staff_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"users\":{\"1082831\":{\"id\":1082831,\"username\":\"quartermaster\",\"closed\":false,\"avatar\":\"/ppic/206743048/logo/1082831/profile_logo_1082831.jpg\",\"hourly_rate\":999.0,\"registration_date\":1244299632,\"limited_account\":false,\"display_name\":\"Quartermaster\",\"location\":{\"country\":{\"name\":\"Australia\"},\"city\":\"Riverview\"},\"avatar_large\":\"/ppic/206743047/logo/1082831/aHhwo/profile_logo_FSUIV_0478826840d594f319eeaa142b31bbeb.jpg\",\"role\":\"employer\",\"chosen_role\":\"both\",\"status\":{\"payment_verified\":true,\"email_verified\":true,\"deposit_made\":true,\"profile_complete\":true,\"phone_verified\":true,\"identity_verified\":true,\"facebook_connected\":true,\"freelancer_verified_user\":true,\"linkedin_connected\":false,\"custom_charge_verified\":true},\"avatar_cdn\":\"//cdn3.f-cdn.com/ppic/206743048/logo/1082831/profile_logo_1082831.jpg\",\"avatar_large_cdn\":\"//cdn2.f-cdn.com/ppic/206743047/logo/1082831/aHhwo/profile_logo_FSUIV_0478826840d594f319eeaa142b31bbeb.jpg\",\"primary_currency\":{\"id\":3,\"code\":\"AUD\",\"sign\":\"$\",\"name\":\"Australian Dollar\",\"exchange_rate\":0.71702,\"country\":\"AU\"},\"primary_language\":\"en\",\"preferred_freelancer\":false,\"support_status\":{\"short_name\":\"Matt\"},\"public_name\":\"Matt\",\"company\":\"Freelancer.com\",\"pool_ids\":[],\"enterprise_ids\":[198],\"escrowcom_account_linked\":true,\"escrowcom_interaction_required\":false,\"enterprises\":[\"freelancer\"],\"timezone\":{\"id\":234,\"country\":\"AU\",\"timezone\":\"Australia/NSW\",\"offset\":10.0},\"online_offline_status\":{\"status\":\"online\",\"last_updated_timestam"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/projects?projects%5B%5D=40295150&projects%5B%5D=40249854&projects%5B%5D=40209446&job_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"projects\":[]},\"request_id\":\"a412324962ec349e98aeb358d28476ae\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/projects/bid_stats?project_ids%5B%5D=40703457&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"project_bid_stats\":{}},\"request_id\":\"0a2aa14e79167a44f70cea0cf947ff4f\"}"
+  },
+  {
+    "url": "https://www.freelancer.com/api/projects/0.1/projects?projects%5B%5D=40295150&projects%5B%5D=40249854&projects%5B%5D=40209446&job_details=true&webapp=1&compact=true&new_errors=true&new_pools=true",
+    "status": 200,
+    "body": "{\"status\":\"success\",\"result\":{\"projects\":[]},\"request_id\":\"ca866e19ffb6520481549966a9709b62\"}"
+  }
+]

@@ -1,0 +1,31 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.6.0 -- F:\PROJEKTY\joaxx\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+hypothesis profile 'default'
+rootdir: F:\PROJEKTY\joaxx
+configfile: pyproject.toml
+plugins: anyio-4.14.2, hypothesis-6.167.1, cov-7.1.0, timeout-2.4.0
+collecting ... collected 20 items
+
+tests/simulator/test_timeline_widget.py::TestTimelineWidgetInitialization::test_timeline_configures_text_font_and_height PASSED [  5%]
+tests/simulator/test_timeline_widget.py::TestTimelineWidgetInitialization::test_timeline_creates_scrollable_text_widget PASSED [ 10%]
+tests/simulator/test_timeline_widget.py::TestTimelineWidgetInitialization::test_timeline_init_with_root_frame PASSED [ 15%]
+tests/simulator/test_timeline_widget.py::TestEventRendering::test_add_multiple_events_batch PASSED [ 20%]
+tests/simulator/test_timeline_widget.py::TestEventRendering::test_add_single_event PASSED [ 25%]
+tests/simulator/test_timeline_widget.py::TestEventRendering::test_auto_scroll_to_latest_event PASSED [ 30%]
+tests/simulator/test_timeline_widget.py::TestEventRendering::test_event_rendering_on_text_widget PASSED [ 35%]
+tests/simulator/test_timeline_widget.py::TestTimestampFormatting::test_format_timestamp_almost_one_hour PASSED [ 40%]
+tests/simulator/test_timeline_widget.py::TestTimestampFormatting::test_format_timestamp_hh_mm_ss_mmm PASSED [ 45%]
+tests/simulator/test_timeline_widget.py::TestTimestampFormatting::test_format_timestamp_zero_ms PASSED [ 50%]
+tests/simulator/test_timeline_widget.py::TestEventScrolling::test_max_50_events_buffer_oldest_deleted PASSED [ 55%]
+tests/simulator/test_timeline_widget.py::TestEventScrolling::test_scrollbar_binding_counts_events PASSED [ 60%]
+tests/simulator/test_timeline_widget.py::TestQueueIntegration::test_batch_processing_multiple_events_no_blocking PASSED [ 65%]
+tests/simulator/test_timeline_widget.py::TestQueueIntegration::test_thread_safe_read_with_queue_get_nowait PASSED [ 70%]
+tests/simulator/test_timeline_widget.py::TestColorCoding::test_alert_state_red_color PASSED [ 75%]
+tests/simulator/test_timeline_widget.py::TestColorCoding::test_chat_state_green_color PASSED [ 80%]
+tests/simulator/test_timeline_widget.py::TestColorCoding::test_treasure_state_orange_color PASSED [ 85%]
+tests/simulator/test_timeline_widget.py::TestTimelineWidgetGetters::test_export_events_as_strings PASSED [ 90%]
+tests/simulator/test_timeline_widget.py::TestTimelineWidgetGetters::test_get_event_count PASSED [ 95%]
+tests/simulator/test_timeline_widget.py::TestTimelineWidgetGetters::test_get_events PASSED [100%]
+
+============================= 20 passed in 0.66s ==============================

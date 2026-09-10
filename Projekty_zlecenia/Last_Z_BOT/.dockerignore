@@ -1,0 +1,28 @@
+# Docker build context is the repo root; keep the image lean and keep
+# secrets out of the daemon context. Only deploy/ and mvp/ are copied.
+
+# VCS / tooling
+.git/
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local env (Stripe/JWT secrets)
+.env
+
+# Heavy / irrelevant project dirs
+data/
+assets/
+tools/
+scripts/
+raporty/
+profiles/
+docs/
+dist/
+mvp/build/vendor/
+
+# Artifacts
+*.db
+*.log

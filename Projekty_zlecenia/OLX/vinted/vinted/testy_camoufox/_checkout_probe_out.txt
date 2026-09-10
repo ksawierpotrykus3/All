@@ -1,0 +1,13 @@
+t0 import
+t1 import ok
+t2 open context headless=False
+t3 context open
+t4 new page
+t5 goto item
+t6 goto done: https://www.vinted.pl/items/9807925466-genesis-krypton-700
+t7 buy button: button[data-testid="item-buy-button"]
+t8 click buy
+t9 final_url=https://www.vinted.pl/items/9807925466-genesis-krypton-700
+status=None token=False
+SAVING JSON
+DONE

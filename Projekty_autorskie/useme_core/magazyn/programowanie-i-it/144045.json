@@ -1,0 +1,43 @@
+{
+  "id": "144045",
+  "url": "https://useme.com/pl/jobs/programista-wordpress,144045/",
+  "title": "Programista Wordpress",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-08T18:26:26.886833",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144045",
+    "url": "https://useme.com/pl/jobs/programista-wordpress,144045/",
+    "title": "Programista Wordpress",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Poszukuję programisty WordPress z dobrą znajomością PHP i minimum 3-letnim doświadczeniem komercyjnym.\n\nPraca w niepełnym wymiarze godzin (part-time), z perspektywą współpracy przez kilka miesięcy.\n\nProjekt obejmuje modernizację istniejącego...",
+    "category": "programowanie-i-it"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/programista-wordpress,144045/",
+    "title": "Programista Wordpress",
+    "full_description": "<p>Poszukuję programisty WordPress z dobrą znajomością PHP i minimum 3-letnim doświadczeniem komercyjnym.</p>\n\n<p>Praca w niepełnym wymiarze godzin (part-time), z perspektywą współpracy przez kilka miesięcy.</p>\n\n<p>Projekt obejmuje modernizację istniejącego serwisu internetowego oraz przygotowanie go do skalowania na kolejne rynki. Zakres prac to rozwój i refaktoryzacja, tworzenie dedykowanych rozwiązań oraz rozwiązywanie problemów technicznych.</p>\n\n<p>Wymagania:<br>- Minimum 3 lata doświadczenia w pracy z WordPressem.<br>- Znajomość SOLID.<br>- Dobra znajomość PHP.<br>- Bardzo dobra znajomość API WordPressa.<br>- Znajomość GIT Flow.<br>- Otwartość na nowoczesne rozwiązania i umiejętność ich praktycznego wykorzystania.<br>- Umiejętność tworzenia i modyfikowania motywów oraz wtyczek.<br>- Znajomość HTML, CSS i JavaScript.<br>- Samodzielność, terminowość i dobra komunikacja.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144045/offer/start/",
+    "scraped_at": "2026-09-08T18:33:07"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu. WordPress to nasza codzienność, robimy w nim zarówno wtyczki i motywy od zera, jak i refaktoryzację legacy kodu do ogarniętej architektury. Pracujemy bezpośrednio, więc nie ma między nami żadnego pośrednika, który dolicza marżę.\n\nZ ogłoszenia widzę \"modernizacja i przygotowanie do skalowania na kolejne rynki\". To brzmi jak jedno zlecenie, ale tak naprawdę to trzy zupełnie różne problemy, które trzeba rozłożyć na czynniki pierwsze. Pierwszy: czy modernizacja oznacza refaktoryzację kodu pod SOLID, czy migrację motywu z klasycznego na block theme. Jeśli modernizacja obejmie motyw, a okaże się, że siedzi tam klasyk, to nie da się tego zrobić porządnie bez odtworzenia nadpisań szablonów na template parts i block patterns. Klasyczne motywy są na ścieżce deprecjacji, więc jeśli i tak dotykacie tej warstwy, lepiej od razu ustawić to pod przyszłość niż łatać coś, co za chwilę będzie wymagało kolejnej roboty.\n\nDrugi problem: \"skalowanie na kolejne rynki\" to decyzja architektoniczna, nie checkbox. Multisite vs single-site z WPML/Polylang vs headless, każda z tych dróg ma inne konsekwencje dla kosztu utrzymania, wydajności i tłumaczeń treści. Multisite daje scentralizowane zarządzanie wtyczkami i politykami bezpieczeństwa, ale trzeba go umieć utrzymać. Wtyczkowe tłumaczenia dorzucają zapytania do bazy na każdej stronie, więc bez warstwy cache (Redis albo Memcached) serwis zacznie się dusić przy ruchu. To trzeba wybrać świadomie na starcie, bo później przenoszenie między tymi modelami to przepisanie połowy systemu.\n\nTrzeci: refaktoryzacja pod SOLID zakłada, że kod da się refaktoryzować. Jak trafiamy na proceduralny legacy bez testów, to nie ma co strzelać wyceną w ciemno. Dlatego proponuję wejść przez audyt istniejącego kodu, analiza pod kątem długu technicznego, bezpieczeństwa i wydajności, i dopiero na tej podstawie układać zakres dalszych prac. Przy okazji audytu od razu rozbijemy sobie pracę na Git Flow: main i develop, feature branch per temat, release i hotfix tam gdzie trzeba. Composer plus namespacing i dependency injection w nowych modułach, żeby to nie rosło w kolejny legacy.\n\nZa wejście przez audyt kodu i pierwszy etap modernizacji, czyli rozpisanie architektury pod skalowanie, refaktoryzację kluczowych modułów pod SOLID i przygotowanie repo pod Git Flow, liczymy 3000 zł. Realizacja w 8 dni roboczych. Po audycie zobaczymy dokładnie, ile jest do zrobienia w kolejnych etapach i wycenimy je na bieżąco, bez zgadywania.\n\nZdzwońmy się w tym tygodniu na 15 minut, wspólnik zerknie od strony serwera i powiemy ci, co widzimy w kodzie.\n\nPozdrawiam",
+    "wycena": 3000,
+    "dni": 8,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144045",
+    "wycena": 3000,
+    "dni": 8,
+    "final_url": "https://useme.com/pl/jobs/144045/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144045.png",
+    "message": "Oferta #144045 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144045/offer/finish/)."
+  },
+  "updated_at": "2026-09-10T16:24:17.399600"
+}

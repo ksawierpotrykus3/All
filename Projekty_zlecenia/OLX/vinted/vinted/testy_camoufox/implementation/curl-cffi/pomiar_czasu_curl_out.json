@@ -1,0 +1,34 @@
+{
+  "started_utc": "2026-08-30T13:11:35.009546+00:00",
+  "steps": [
+    {
+      "step": "start",
+      "elapsed_ms": 0.0,
+      "wall_utc": "13:11:35.012Z"
+    },
+    {
+      "step": "catalog_items",
+      "elapsed_ms": 828.0,
+      "wall_utc": "13:11:35.851Z",
+      "http": 200,
+      "items": 3,
+      "item_id": 9829548764
+    },
+    {
+      "step": "conversations_create_txn",
+      "elapsed_ms": 2343.0,
+      "wall_utc": "13:11:37.355Z",
+      "http": 200,
+      "transaction_id": 21916128383,
+      "purchase_id": null
+    },
+    {
+      "step": "checkout_build",
+      "elapsed_ms": 4000.0,
+      "wall_utc": "13:11:39.010Z",
+      "http": 200,
+      "captcha": false
+    }
+  ],
+  "elapsed_total_ms": 4015.0
+}

@@ -1,0 +1,498 @@
+{
+  "status": "success",
+  "result": {
+    "id": 90851053,
+    "username": "maksks00",
+    "suspended": false,
+    "closed": false,
+    "is_active": null,
+    "force_verify": null,
+    "avatar": "/ppic/297363816/logo/90851053/profile_logo_90851053.jpg",
+    "email": "makspotrykus0@gmail.com",
+    "reputation": {
+      "entire_history": {
+        "overall": 5.0,
+        "on_budget": 1.0,
+        "on_time": 1.0,
+        "positive": 0.0,
+        "category_ratings": {
+          "quality": 5.0,
+          "communication": 5.0,
+          "expertise": 5.0,
+          "professionalism": 5.0,
+          "hire_again": 5.0
+        },
+        "all": 1,
+        "reviews": 1,
+        "incomplete_reviews": 0,
+        "complete": 1,
+        "incomplete": 0,
+        "earnings": 48.476136000000004,
+        "completion_rate": 1.0,
+        "rehire_rate": null,
+        "user_id": 90851053,
+        "completed_relevant_job_count": null,
+        "job_ranks": null,
+        "rehire_rank": null
+      },
+      "last3months": {
+        "overall": 0.0,
+        "on_budget": 0.0,
+        "on_time": 0.0,
+        "positive": 0.0,
+        "category_ratings": {
+          "quality": 0.0,
+          "communication": 0.0,
+          "expertise": 0.0,
+          "professionalism": 0.0,
+          "hire_again": 0.0
+        },
+        "all": 0,
+        "reviews": 0,
+        "incomplete_reviews": 0,
+        "complete": 0,
+        "incomplete": 0,
+        "earnings": 0.0,
+        "completion_rate": 0.0,
+        "rehire_rate": null,
+        "user_id": 90851053,
+        "completed_relevant_job_count": null,
+        "job_ranks": null,
+        "rehire_rank": null
+      },
+      "last12months": {
+        "overall": 5.0,
+        "on_budget": 1.0,
+        "on_time": 1.0,
+        "positive": 0.0,
+        "category_ratings": {
+          "quality": 5.0,
+          "communication": 5.0,
+          "expertise": 5.0,
+          "professionalism": 5.0,
+          "hire_again": 5.0
+        },
+        "all": 1,
+        "reviews": 1,
+        "incomplete_reviews": 0,
+        "complete": 1,
+        "incomplete": 0,
+        "earnings": 48.476136000000004,
+        "completion_rate": 1.0,
+        "rehire_rate": null,
+        "user_id": 90851053,
+        "completed_relevant_job_count": null,
+        "job_ranks": null,
+        "rehire_rank": null
+      },
+      "user_id": 90851053,
+      "role": "freelancer",
+      "earnings_score": 1.3711,
+      "job_history": null,
+      "project_stats": null,
+      "accept_rate": null,
+      "retention_rate": null
+    },
+    "jobs": [
+      {
+        "id": 3,
+        "name": "PHP",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "php",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 9,
+        "name": "JavaScript",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "javascript",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 13,
+        "name": "Python",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "python",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 44,
+        "name": "Mobile App Development",
+        "category": {
+          "id": 9,
+          "name": "Mobile Phones & Computing"
+        },
+        "active_project_count": null,
+        "seo_url": "mobile_app_development",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 59,
+        "name": "Android",
+        "category": {
+          "id": 9,
+          "name": "Mobile Phones & Computing"
+        },
+        "active_project_count": null,
+        "seo_url": "android",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 69,
+        "name": "WordPress",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "wordpress",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 102,
+        "name": "Troubleshooting",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "troubleshooting",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 103,
+        "name": "Technical Writing",
+        "category": {
+          "id": 2,
+          "name": "Writing & Content"
+        },
+        "active_project_count": null,
+        "seo_url": "technical_writing",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 137,
+        "name": "eCommerce",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "ecommerce",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 305,
+        "name": "MySQL",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "mysql",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 335,
+        "name": "HTML",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "html",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 613,
+        "name": "Software Development",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "software_development",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 627,
+        "name": "Compliance",
+        "category": {
+          "id": 7,
+          "name": "Business, Accounting, Human Resources & Legal"
+        },
+        "active_project_count": null,
+        "seo_url": "compliance",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 1031,
+        "name": "Web Development",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "web_development",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 1067,
+        "name": "iOS Development",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "ios_development",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 1093,
+        "name": "Frontend Development",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "frontend_development",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 1977,
+        "name": "Automation",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "automation",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 2165,
+        "name": "API Integration",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "api_integration",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 2292,
+        "name": "Data Management",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "data_management",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      },
+      {
+        "id": 2723,
+        "name": "WordPress Plugin",
+        "category": {
+          "id": 1,
+          "name": "Websites, IT & Software"
+        },
+        "active_project_count": null,
+        "seo_url": "wordpress_plugin",
+        "seo_info": null,
+        "local": false,
+        "questions": null
+      }
+    ],
+    "profile_description": "⚡ Rapid technical fixes from an R&D Engineer. Currently building my reputation on the platform, offering Premium-grade support at promotional rates for my first 10 reviews. Specialist in n8n troubleshooting, API integrations, and business process automation\n\nI am a Senior Software Engineer specializing in advanced Web Applications (React), Automation (Python), and Cybersecurity. My unique advantage? I don't just write code that works; I write code that is secure, scalable, and mathematically precise—attributes derived from my background in R&D and Security.\n\n🛡️ Why hire a Security Expert for Web Development?\nStandard developers build features. I build Architectures. When I create a React dashboard or a Python bot for you, it comes with \"Security by Design\"—optimized, bulletproof, and professional.\n\n💎 Core Services:\nAdvanced Web Apps: React.js dashboards, Three.js (3D) visualizers, and interactive tools that feel premium (Glassmorphism, Cyber-Corporate aesthetics).\nPython Automation: Custom bots, scrapers, and data pipelines that run reliably 24/7.\nCybersecurity & Repair: RASP integration, Penetration Testing, and Forensic Malware Removal.\n🚀 Tech Stack:\nFrontend: React, TypeScript, Three.js, Tailwind/Vanilla CSS.\nBackend: Python, Node.js, SQL.\nSecurity: OWASP Standards, RASP SDKs, Anti-Bot Engineering.\nMy Promise: No \"spaghetti code.\" No quick hacks. Just solid engineering that protects your business and impresses your customers.\n\nCheck my portfolio for examples of \"Engineering-Grade\" design.",
+    "hourly_rate": 30.0,
+    "registration_date": 1769088169,
+    "limited_account": false,
+    "display_name": "maksks00",
+    "tagline": null,
+    "location": {
+      "country": {
+        "name": "Poland",
+        "flag_url": null,
+        "code": null,
+        "highres_flag_url": null,
+        "flag_url_cdn": null,
+        "highres_flag_url_cdn": null,
+        "iso3": null,
+        "region_id": null,
+        "phone_code": null,
+        "demonym": null,
+        "person": null,
+        "seo_url": null,
+        "sanction": null,
+        "language_code": null,
+        "language_id": null
+      },
+      "city": "Żukowo",
+      "latitude": null,
+      "longitude": null,
+      "vicinity": null,
+      "administrative_area": null,
+      "full_address": null,
+      "administrative_area_code": null,
+      "postal_code": null,
+      "id": null,
+      "timezone": null
+    },
+    "avatar_large": "/ppic/297363815/logo/90851053/5rEGP/profile_logo_HAQRD_355e3a31f9cbcbf4c89d1e267cff9510.png",
+    "role": "freelancer",
+    "chosen_role": "freelancer",
+    "employer_reputation": null,
+    "status": {
+      "payment_verified": false,
+      "email_verified": true,
+      "deposit_made": true,
+      "profile_complete": true,
+      "phone_verified": true,
+      "identity_verified": true,
+      "facebook_connected": true,
+      "freelancer_verified_user": false,
+      "linkedin_connected": true,
+      "custom_charge_verified": true
+    },
+    "avatar_cdn": "//cdn6.f-cdn.com/ppic/297363816/logo/90851053/profile_logo_90851053.jpg",
+    "avatar_large_cdn": "//cdn6.f-cdn.com/ppic/297363815/logo/90851053/5rEGP/profile_logo_HAQRD_355e3a31f9cbcbf4c89d1e267cff9510.png",
+    "primary_currency": {
+      "id": 1,
+      "code": "USD",
+      "sign": "$",
+      "name": "US Dollar",
+      "exchange_rate": 1.0,
+      "country": "US",
+      "is_external": null,
+      "is_escrowcom_supported": null
+    },
+    "account_balances": null,
+    "membership_package": null,
+    "qualifications": null,
+    "badges": null,
+    "primary_language": "en",
+    "search_languages": null,
+    "cover_image": null,
+    "true_location": null,
+    "portfolio_count": 7,
+    "preferred_freelancer": null,
+    "support_status": null,
+    "first_name": "Maksymilian",
+    "last_name": "Potrykus",
+    "mobile_tracking": null,
+    "corporate": null,
+    "public_name": "Maksymilian",
+    "corporate_users": null,
+    "is_local": null,
+    "address": {
+      "address1": "ulica Jabłoniowa 11C/36",
+      "address2": "",
+      "city": "Żukowo",
+      "state_code": "Pomorskie",
+      "zip": "83330",
+      "country": "Poland"
+    },
+    "company": "Sentinel Audit Systems",
+    "recommendations": null,
+    "pool_ids": [],
+    "enterprise_ids": [],
+    "date_of_birth": {
+      "day": 27,
+      "month": 6,
+      "year": 2000
+    },
+    "escrowcom_account_linked": true,
+    "escrowcom_interaction_required": false,
+    "marketing_mobile_number": null,
+    "user_sanctions": null,
+    "freelancer_verified_status": null,
+    "secure_phone": null,
+    "directory_follow_preferences": null,
+    "is_payment_confirmation_required": null,
+    "is_nominated_payment_controlled": null,
+    "is_nominated_payment_share_setup_complete": null,
+    "enterprises": [],
+    "spam_profile": null,
+    "endorsements": null,
+    "timezone": {
+      "id": 291,
+      "country": "PL",
+      "timezone": "Europe/Warsaw",
+      "offset": 2.0
+    },
+    "responsiveness": null,
+    "bid_quality_details": null,
+    "test_user": null,
+    "online_offline_status": null,
+    "deposit_methods": null,
+    "oauth_password_credentials_allowed": false,
+    "registration_completed": true,
+    "is_profile_visible": true,
+    "enterprise_metadata_values": null,
+    "mfa": null,
+    "grants": null,
+    "operating_areas": null,
+    "equipment_groups": null,
+    "quality_details": null,
+    "avatar_xlarge": "/ppic/297363814/logo/90851053/5rEGP/CROPPED_profile_logo_HAQRD_355e3a31f9cbcbf4c89d1e267cff9510.png",
+    "avatar_xlarge_cdn": "//cdn2.f-cdn.com/ppic/297363814/logo/90851053/5rEGP/CROPPED_profile_logo_HAQRD_355e3a31f9cbcbf4c89d1e267cff9510.png",
+    "document_submissions": null,
+    "rising_star_status": null,
+    "is_shareholder": null,
+    "has_marketing_mobile_number": null,
+    "is_staff": null
+  },
+  "request_id": "dfea87a1f5e26dba6ee170eb6d8cc20e"
+}

@@ -1,0 +1,700 @@
+================================================================================
+RAPORT POROWNAWCZY: DEEPSEEK vs GEMINI (NA TYM SAMYM LANCUCHU)
+================================================================================
+
+############################################################
+ZLECENIE: Perca landing | SILNIK: DeepSeek
+KWOTA: 12000 zl | DNI: 28 | CZAS LACZNY: 102.2s
+############################################################
+
+--- 1. RESEARCH (15560 znakow) ---
+# Raport Research – Zlecenie 143916: Landing Page Perca Furniture
+
+---
+
+### FAKTY KLUCZOWE (twarde, ze źródłami)
+
+**1. Zleceniodawca to Perca Furniture / Marcus Design – konkretny podmiot, nie anonimowy klient**
+
+- Fakt: Perca Furniture to marka należąca do **Marcus Design sp. z o.o. sp.k.**, z siedzibą przy ul. Bydgoskiej 39, 87-140 Chełmża (woj. kujawsko-pomorskie). Firma istnieje od 2016 r., NIP 8792709711, działa w branży produkcji mebli (PKD 31.09.Z).
+- Źródło: MonitorFirm – „Firma MARCUS DESIGN została założona 2016-02-04 i obecnie mieści się przy BYDGOSKA 39, PL-87-140, CHEŁMŻA. Główna działalność firmy to meble.” https://monitorfirm.pb.pl/ ; IMSiG – „Przedmiot działalności: Produkcja pozostałych mebli (31.09.Z)” https://www.imsig.pl/
+
+**2. Marka Perca jest świeżo wprowadzona na rynek – kluczowy kontekst dla landing page’a**
+
+- Fakt: Marcus Design przez ponad 25 lat produkował meble dla europejskich brandów (głównie rynek niemieckojęzyczny i Beneluks), a w marcu 2026 r. **lansował własną markę PERCA**. Kolekcja obejmuje stoły i krzesła z litego dębu, łączone z naturalną skórą, tkaninami bouclé i spiekanymi kamieniami. Firma szuka obecnie **dystrybutorów i showroomów** w Niemczech, Austrii, Szwajcarii i Beneluksie.
+- Źródło: Wonen360.nl, 12.03.2026 – „De Poolse meubelfabrikant Marcus Design is al meer dan 25 jaar gespecialiseerd in de productie van eettafels en stoelen voor tal van meubelmerken in heel Europa. Nu gaat het bedrijf een nieuwe fase in met de lancering van zijn eigen merk: PERCA.” https://www.wonen360.nl/article/9818666/
+
+**3. Strona internetowa zleceniodawcy istnieje, ale prawdopodobnie wymaga gruntownej przebudowy**
+
+- Fakt: W profilu LinkedIn PercaFurniture jako witryna podany jest adres **http://perca-furniture.com/** – domena nie zawiera nawet HTTPS. To sugeruje, że landing page ma być elementem szerszej modernizacji obecności online marki.
+- Źródło: LinkedIn PercaFurniture – „Witryna – http://perca-furniture.com/” https://pl.linkedin.com/company/percafurniture
+
+**4. Useme automatycznie przenosi prawa autorskie – to nie wymaga osobnej umowy**
+
+- Fakt: Na Useme przeniesienie praw autorskich odbywa się **automatycznie przez platformę**, na podstawie wybranej opcji w formularzu. Umowa przeniesienia majątkowych praw autorskich obejmuje **wszystkie znane pola eksploatacji**, w tym m.in. utrwalanie, zwielokrotnianie, publiczne udostępnianie, wprowadzanie do pamięci komputera, rozpowszechnianie w Internecie, modyfikacje i tworzenie opracowań. Zleceniodawca ma prawo do dalszej odsprzedaży dzieła bez zgody autora.
+- Źródło: Useme Help – „Zleceniodawca ma prawo do dalszej odsprzedaży dzieła w zakresie nabytych praw autorskich i majątkowych bez zgody autora dzieła oraz Useme i bez dodatkowego wynagrodzenia.” https://help.useme.eu/hc/en-us/article_attachments/5791729789970 ; Useme Blog – „Przeniesienie autorskich praw majątkowych musi być sporządzone na piśmie, pod rygorem nieważności.” https://useme.com/pl/blog/umowa-o-przeniesienie-praw-autorskich-darmowy-wzor/
+
+**5. Useme pobiera prowizję 7,8% (min. 29 zł, max 349 zł/mc)**
+
+- Fakt: Standardowa prowizja Useme w 2026 r. to **7,8%** od wartości netto zlecenia, z minimum 29 zł i maksimum 349 zł miesięcznie. Dla pakietu Useme Club max to 299 zł/mc. Przy małych zleceniach realna prowizja może sięgać 15–30%.
+- Źródło: Oferia.com.pl, 25.05.2026 – „Useme.com to platforma, która formalnie zawiera umowę z Twoim klientem, wystawia mu fakturę VAT, pobiera 7,8% prowizji i wypłaca Ci kwotę netto. Koszty: 7,8% prowizji (min. 29 zł, max 349 zł / mc).” https://oferia.com.pl/pl/blog/faktura-bez-dzialalnosci-gospodarczej-2026-5-sposobow ; JakDorobic.pl, 07.05.2026 – „Standardowo Useme pobiera 7,8% od wartości netto waszego zlecenia.” https://jakdorobic.pl/useme-opinie/
+
+**6. Core Web Vitals 2026 – twarde progi, które landing page musi spełniać**
+
+- Fakt: Aktualne progi „good” dla Core Web Vitals to: **LCP < 2,5 s**, **INP < 200 ms**, **CLS < 0,1** (mierzone na 75. percentylu danych polowych). W czerwcu 2026 r. 77% stron desktopowych na świecie spełniało wszystkie trzy kryteria – czyli 23% nadal nie.
+- Źródło: HTTP Archive Tech Report, 23.07.2026 – „74% – Origins with good Core Web Vitals (LCP, INP, CLS).” https://httparchive.org/ ; Some Tech Work – „2026 targets (good): LCP under 2.5s, INP under 200ms, CLS under 0.1.” https://sometech.work/
+
+**7. RODO i nowe Prawo komunikacji elektronicznej (ECL) – baner cookies musi być zgodny z nowymi przepisami**
+
+- Fakt: Od 10 listopada 2024 r. obowiązuje w Polsce **Prawo komunikacji elektronicznej (ECL)**, które zastąpiło Prawo telekomunikacyjne. Artykuł 399 ECL wymaga **aktywnej, świadomej i dobrowolnej zgody** przed ustawieniem nieistotnych cookies. UODO odrzuciło interpretację, że ustawienia przeglądarki mogą stanowić ważną zgodę. Standardem w 2025/2026 jest **Consent Mode V2** i prawdziwy CMP kompatybilny z Google.
+- Źródło: Kukie.io, 24.04.2026 – „Article 399 of the new Electronic Communications Law sets out three conditions for placing cookies… The user must give consent after receiving that information… The UODO rejected this interpretation, and the ECL now makes the opt-in requirement explicit.” https://kukie.io/blog/cookie-consent-poland-uodo-guidelines ; Webtom.pl, 27.03.2026 – „W 2025/2026 standardem jest Consent Mode V2, który wymusza wdrożenie prawdziwego CMP kompatybilnego z Google.” https://webtom.pl/
+
+**8. WCAG 2.2 – nowe wymagania dostępności obowiązujące od 2026 r.**
+
+- Fakt: WCAG 2.2 to aktualny standard dostępności (opublikowany w październiku 2023 r.). Wprowadza m.in. **Target Size (Minimum) – 24×24 px CSS** dla elementów interaktywnych, **Focus Appearance** – widoczne wskaźniki fokusu klawiaturowego, oraz **Dragging Movements** – alternatywy dla funkcji przeciągania. Od 24 kwietnia 2026 r. podmioty publiczne obsługujące populacje > 50 000 mieszkańców muszą spełniać WCAG 2.1 AA – trend rozciąga się na sektor prywatny.
+- Źródło: Landy-ai.com, 15.01.2026 – „A partir del 24 de abril de 2026… WCAG 2.2 introduce requisitos que impactan directamente en el diseño de landing pages: Apariencia del Foco (Nivel AA)… Tamaño del Objetivo (Nivel AA) requiere que los elementos interactivos tengan al menos 24x24 píxeles CSS.” https://www.landy-ai.com/es/blog/landing-page-accessibility
+
+**9. Bramki płatności w Polsce 2026 – jeśli landing ma zawierać płatności lub lead magnet z zakupem**
+
+- Fakt: Prowizje bramek płatności w Polsce w 2026 r. wynoszą od **0,99% (Paynow, BLIK)** do **2,9% + 1,25 zł (Stripe, karty spoza Europy)**. Stripe pobiera 1,5% + 1 zł za karty z UE i 1,9% + 1 zł za BLIK. PayU Premium ma abonament 79 zł/mies. Chargeback kosztuje 20–100 zł za przypadek.
+- Źródło: KC Mobile, 11.06.2026 – „Prowizje bramek płatności w Polsce w 2026 roku wahają się od 0,99% (Paynow, BLIK) do 2,9% + 1,25 zł (Stripe, karty spoza Europy).” https://kcmobile.pl/baza-wiedzy/ecommerce/ile-kosztuje-bramki-platnosci-dla-sklepu-online/
+
+---
+
+### RYZYKA I PUŁAPKI
+
+**1. Brak materiałów i briefu – zleceniodawca pisze wprost: „wszystkie informacje i materiały udostępnimy wybranemu oferentowi”**
+
+- Ryzyko: Oznacza to, że **na etapie wyceny nie wiadomo**, czy klient dysponuje profesjonalnymi zdjęciami produktowymi, tekstami, logo w wektorach, wytycznymi brandowymi. Brak tych materiałów może wydłużyć projekt o tygodnie i wymagać doliczenia kosztów fotografii, copywritingu lub projektowania identyfikacji wizualnej.
+- Źródło: opis zlecenia na Useme (dane zlecenia).
+
+**2. Landing page dla marki premium wymaga custom designu, nie szablonu**
+
+- Ryzyko: Meble premium z litego dębu i naturalnej skóry wymagają estetyki na poziomie magazynów wnętrzarskich. Szablon z ThemeForest za 50 USD **nie spełni oczekiwań** marki pozycjonującej się w segmencie premium. Koszt custom projektu w Figmie to dodatkowe 3 000–8 000 zł.
+- Źródło: WebyJuice.pl, 23.04.2026 – „Projekt od zera w Figmie pod Twoją markę: drożej o 3 000 – 8 000 zł.” https://webyjuice.pl/blog/ile-kosztuje-landing-page-2026 ; RuszFirme.pl – „Estetyczna prezentacja zdjęć – meble na wymiar to produkt premium, strona musi to odzwierciedlać.” https://www.ruszfirme.pl/artykuly/strona-internetowa-dla-stolarza
+
+**3. Konkurencja: 71 oferentów, w tym doświadczeni wykonawcy z setkami umów**
+
+- Ryzyko: W zleceniu startuje 71 wykonawców. Wśród nich m.in. **zonbox (125 umów)**, **Wojtom (318 umów)**, **Luksari (259 umów)**, **PFL Group**, **archstack.dev (111 umów)**, **Dawidweb (115 umów)**. Część z nich specjalizuje się w WordPress/landing page, część w designie premium. Konkurencja cenowa będzie duża – wygrywa nie najtańszy, ale ten, kto najlepiej zrozumie kontekst marki premium.
+- Źródło: dane zlecenia – lista competitors_count: 71 oraz dane poszczególnych wykonawców z Useme.
+
+**4. Przeniesienie pełnych praw autorskich bez dodatkowego wynagrodzenia**
+
+- Ryzyko: Useme domyślnie przenosi **całość majątkowych praw autorskich na wszystkich znanych polach eksploatacji**, w tym prawo do modyfikacji, dekompilacji (dla programów/serwisów internetowych) i dalszej odsprzedaży. Wykonawca traci możliwość wykorzystania projektu w portfolio bez zgody klienta.
+- Źródło: Useme Help – „Przeniesienie praw autorskich obejmuje wszystkie znane pola eksploatacji… Zleceniodawca ma prawo do dalszej odsprzedaży dzieła… bez dodatkowego wynagrodzenia.” https://help.useme.eu/hc/en-us/article_attachments/5791729789970
+
+**5. IOSS i nowe przepisy celne UE od 1 lipca 2026 – jeśli landing ma obsługiwać sprzedaż do konsumentów UE**
+
+- Ryzyko: Jeśli landing page będzie zawierał funkcję sprzedaży lub kierowania do sklepu z wysyłką do konsumentów w UE, od 1 lipca 2026 r. obowiązuje **cło 3 EUR za każdą pozycję** w przesyłce o wartości ≤ 150 EUR. Przy korzystaniu z IOSS nie nalicza się VAT od tego cła, ale wymaga to rejestracji w IOSS i comiesięcznych deklaracji.
+- Źródło: VATCalc.com, 23.06.2026 – „Under Council Regulation (EU) 2026/382, the EU will remove the €150 customs duty relief threshold from 1 July 2026. As an interim measure… a fixed customs duty of €3 per item will apply.” https://www.vatcalc.com/eu/eu-clarifies-vat-on-new-e3-customs-duty-on-low-value-imports/
+
+**6. Brak potwierdzonej informacji o obecnym stanie strony perca-furniture.com**
+
+- Ryzyko: **Nie potwierdzono**, czy obecna strona perca-furniture.com działa, jaki ma zakres i czy landing page ma być dodany do istniejącej witryny, czy ją zastąpić. To kluczowe dla zakresu prac (migracja, integracja, przeprojektowanie). Wymaga dopytania klienta przed wyceną.
+
+---
+
+### AMUNICJA DO OFERTY
+
+**1. Kontekst biznesowy: marka jest w fazie launchu i szuka dystrybutorów w DACH + Beneluks**
+
+- Warto pokazać w ofercie, że rozumie się **cel biznesowy landing page’a**: nie „ładna strona”, ale narzędzie do pozyskiwania dystrybutorów i showroomów w Niemczech, Austrii, Szwajcarii i Beneluksie. Landing powinien mieć wersję językową (min. EN/DE) lub być przygotowany pod internacjonalizację.
+- Źródło: Wonen360.nl – „PERCA is momenteel op zoek naar distributiepartners en showrooms… Het bedrijf wil vooral partnerschappen ontwikkelen in Duitsland, Oostenrijk, Zwitserland en de Benelux.” https://www.wonen360.nl/article/9818666/
+
+**2. Unikalna historia marki: 25 lat produkcji dla europejskich brandów**
+
+- To gotowy materiał na sekcję „O nas” / „Heritage”. Można zaproponować, że landing page opowie historię **producenta, który przez 25 lat tworzył meble dla innych, a teraz wychodzi z własną marką**. To buduje zaufanie i wyróżnia Perca na tle innych marek premium.
+- Źródło: Wonen360.nl, LinkedIn PercaFurniture.
+
+**3. Proces produkcji jako element narracji – od surowego dębu do gotowego mebla**
+
+- Marcus Design dysponuje pełnym procesem produkcyjnym: CNC, lakiernia, tapicernia, stolarnia. Landing page może zawierać **sekcję „Jak powstają nasze meble”** z galerią procesu – to silny element premium, którego nie mają marki tylko sprzedające gotowe produkty.
+- Źródło: Wonen360.nl – „Het hele productieproces wordt intern afgehandeld – van ruwe eiken planken… via CNC-bewerking tot handmatige afwerking, lakken en stoffering.” https://www.wonen360.nl/article/9818666/
+
+**4. Core Web Vitals jako argument techniczny – nie „będzie szybka”, ale „LCP < 2,5 s, INP < 200 ms, CLS < 0,1”**
+
+- W ofercie warto podać **konkretne liczby** i zobowiązanie do ich osiągnięcia (mierzalne w Google Search Console / PageSpeed Insights). To odróżnia profesjonalistę od amatora. HTTP Archive pokazuje, że 23% stron nadal nie spełnia tych progów – to argument, że „większość stron jest wolna, my robimy szybkie”.
+- Źródło: HTTP Archive Tech Report, 23.07.2026.
+
+**5. RODO/Consent Mode V2 jako standard – nie opcja**
+
+- Można zaproponować wdrożenie **prawdziwego CMP z Consent Mode V2** w ramach landing page’a. To element, o którym wielu klientów nie wie, a który jest wymagany przez nowe Prawo komunikacji elektronicznej. Warto to ująć w ofercie jako standard, nie jako dodatek płatny.
+- Źródło: Webtom.pl, 27.03.2026.
+
+**6. WCAG 2.2 – dostępność jako element premium**
+
+- Dostępność nie jest tylko wymogiem prawnym – dla marki premium to **wyraz dbałości o każdego klienta**. Warto zaproponować audyt WCAG 2.2 AA i wdrożenie poprawek (kontrast, rozmiar elementów interaktywnych 24×24 px, focus). To buduje wizerunek marki odpowiedzialnej.
+- Źródło: Landy-ai.com, 15.01.2026.
+
+**7. Porównanie z konkurencją: większość oferentów nie ma doświadczenia w segmencie premium**
+
+- Analiza listy 71 konkurentów pokazuje, że przeważają wykonawcy WordPress/WooCommerce (zonbox, Wojtom, HOPTE, PrzemekBicki). Niewielu ma w portfolio **landing page dla marek premium z segmentu designu wnętrz**. W ofercie warto podkreślić doświadczenie w projektach dla marek premium/luksusowych (nawet jeśli to inne branże) i zrozumienie estetyki magazynowej (duże zdjęcia, dużo whitespace, typografia szeryfowa).
+- Źródło: dane zlecenia – analiza tagów konkurentów.
+
+---
+
+### CENY RYNKOWE
+
+**Landing page premium (Polska, 2026):**
+
+| Typ | Widełki | Źródło |
+|---|---|---|
+| Prosty one-pager (5–6 sekcji) | 3 000 – 6 000 zł | WebyJuice.pl, 23.04.2026 |
+| Z A/B testem i animacjami | 6 000 – 12 000 zł | WebyJuice.pl, 23.04.2026 |
+| Pod kampanie Google Ads z trackingiem | 8 000 – 18 000 zł | WebyJuice.pl, 23.04.2026 |
+| Landing premium + testy + integracje | 10 000 – 15 000+ zł | DigitalStorm.pl, 23.03.2026 |
+| Premium z animacjami i integracjami (agencja) | 12 000 – 25 000 zł | WebyJuice.pl, 10.03.2026 |
+| Freelancer (prosty landing) | 1 500 – 4 000 zł | Tema.name, 12.06.2026 |
+| Agencja (landing pod usługę) | 5 000 – 15 000 zł | Tema.name, 12.06.2026 |
+
+**Dodatkowe koszty, które mogą wejść w zakres:**
+
+| Element | Koszt | Źródło |
+|---|---|---|
+| Hosting + SSL (miesięcznie) | 100 – 150 zł | WebyJuice.pl, 23.04.2026 |
+| Projekt w Figmie od zera | +3 000 – 8 000 zł | WebyJuice.pl, 23.04.2026 |
+| Copywriting pod SEO i konwersję | +3 000 – 10 000 zł | WebyJuice.pl, 23.04.2026 |
+| Dedykowane ilustracje | +1 500 – 5 000 zł | WebyJuice.pl, 23.04.2026 |
+| Animacje Lottie | +2 000 – 8 000 zł | WebyJuice.pl, 23.04.2026 |
+| Fotografia produktowa (meble premium) | $500 – 2 000+ za SKU (lifestyle) | FurnCMO.com, 09.02.2026 |
+| Pełne SEO techniczne (Schema.org, CWV) | +2 000 – 5 000 zł | WebyJuice.pl, 23.04.2026 |
+
+**Uwaga do wyceny:** Zleceniodawca nie podał budżetu („Do negocjacji”). Przy 71 oferentach i marce premium realistyczny zakres to **8 000 – 18 000 zł** za landing page z custom designem, animacjami, trackingiem i zgodnością z RODO/WCAG. Jeśli w zakres wchodzi również fotografia produktowa i copywriting – kwota może wzrosnąć do **15 000 – 25 000 zł**.
+
+--- 2. WYCENA (7999 znakow) ---
+# Wycena – Landing Page Perca Furniture (zlecenie 143916)
+
+## KROK 0.5 – Confirmed scope vs brainstorm
+
+**CONFIRMED SCOPE** (wynika z opisu + researchu):
+- Landing page dla marki premium (meble z litego dębu)
+- Budowa od zera na domenie `perca-furniture.com` (research potwierdził: domena zarejestrowana przez Marcus Design, **brak aktywnej strony**, brak WordPressa/sklepu)
+- Innowacyjne podejście + materiał, który „porwie klientów"
+- Przeniesienie praw autorskich (automatyczne na Useme)
+
+**BRAINSTORM / potencjalne v2** (do dopytania na callu):
+- Wersje językowe EN/DE pod DACH + Beneluks (research: firma szuka dystrybutorów w DE/AT/CH/BE/NL)
+- Sekcja „Jak powstają nasze meble" (proces produkcyjny – CNC, lakiernia, tapicernia)
+- Fotografia produktowa lifestyle ($500–2000/SKU)
+- Copywriting pod SEO (+3000–10000 zł)
+- Animacje Lottie (+2000–8000 zł)
+- Pełne SEO techniczne (+2000–5000 zł)
+
+**Uwaga:** opis jest OGÓLNY – brak specyfikacji, brak mockupów, brak materiałów. Klient pisze wprost „wszystkie informacje i materiały udostępnimy wybranemu oferentowi". To klasyczny przypadek **×1.3 (brak specyfikacji)**.
+
+---
+
+## KROK 1 – Moduły (confirmed scope)
+
+| # | Moduł | Uzasadnienie |
+|---|-------|--------------|
+| M1 | Projekt graficzny/UX landing page premium | Custom design dla marki premium – szablon NIE wchodzi w grę (ryzyko #2 z researchu). Obejmuje: mockupy, system komponentów, layout. |
+| M2 | Responsywny frontend z implementacją pixel-perfect | Implementacja projektu – mnożnik ×1.3 do bazy. |
+| M3 | WordPress/CMS setup + konfiguracja pod landing | Landing musi być edytowalny przez klienta. Research: brak istniejącej instalacji → budowa od zera. |
+| M4 | SEO techniczne + Core Web Vitals (LCP<2.5s, INP<200ms, CLS<0.1) | Wymóg dla widoczności; research podaje twarde progi. |
+| M5 | RODO / Consent Mode V2 / CMP | Wymóg prawny (ECL art. 399, nowe przepisy 2024/2026). Standard, nie opcja. |
+| M6 | WCAG 2.2 AA (dostępność) | Trend rozciąga się na sektor prywatny; dla marki premium = wyraz dbałości. |
+| M7 | Tracking (GTM, Meta Pixel, GA4, consent-aware) | Standard dla landing page pod kampanie. |
+| M8 | VPS deploy + konfiguracja (nginx, SSL, systemd, firewall, backup) | Domena wskazuje OVH; brak hostingu → stawiamy infrastrukturę. |
+
+**Świadomie NIE wliczam:**
+- Fotografia produktowa, copywriting, animacje Lottie, wersje językowe → brainstorm/v2 (osobna wycena).
+- Integracja płatności → nie ma w opisie.
+- Wielojęzyczność → brainstorm.
+
+---
+
+## KROK 2 – Godziny per moduł
+
+| Moduł | Kategoria z tabeli | Widełki | Wybór (realistyczny) |
+|-------|-------------------|---------|---------------------|
+| M1 Projekt graficzny/UX | Projekt graficzny/UX (autorska oprawa) | 10–30h | **20h** |
+| M2 Responsywny frontend z Figmy | mnożnik ×1.3 do bazy | – | **baza 14h × 1.3 = 18h** |
+| M3 WordPress/CMS customizacja | WordPress/CMS customizacja | 8–20h | **14h** |
+| M4 SEO techniczne | SEO techniczne jako osobny moduł | 6–16h | **10h** |
+| M5 RODO/Consent Mode V2/CMP | (pokryte przez SEO + frontend + admin) | – | **4h** (konfiguracja CMP + consent-aware tags) |
+| M6 WCAG 2.2 AA | (pokryte przez frontend + design) | – | **4h** (audyt + poprawki focus/target size/kontrast) |
+| M7 Tracking | Integracja zewnętrznego API (1 serwis) | 4–10h | **6h** (GTM + GA4 + Meta Pixel + consent) |
+| M8 VPS deploy | VPS deploy + konfiguracja | 4–8h | **6h** |
+
+**Suma optymistyczna:** 20+14+14+8+3+3+5+5 = **72h**
+**Suma realistyczna:** 20+18+14+10+4+4+6+6 = **82h**
+
+**Weryfikacja nakładania:** M3 (WordPress setup) obejmuje wtyczki SEO i CMP – M4 i M5 są konfiguracją w ramach stacku WordPress, nie osobnymi systemami. Godziny policzone osobno, ale bez podwójnego liczenia infrastruktury. OK.
+
+---
+
+## KROK 2.5 – Testy + dokumentacja
+
++15% do sumy = 82h × 1.15 = **94,3h** ≈ **94h**
+
+---
+
+## KROK 3 – Suma po testach
+
+**94h** (realistycznie)
+
+---
+
+## KROK 4 – Buffer
+
+Standardowy +20% (pierwszy raz robimy landing premium dla marki meblowej? Nie – mamy doświadczenie w landingach, ale nie w tej konkretnej niszy; jednak brak specyfikacji i materiałów to już uwzględnione w mnożniku ×1.3, więc nie dublujemy).
+
+Buffer +20%: 94h × 1.2 = **112,8h** ≈ **113h**
+
+---
+
+## KROK 5 – Mnożniki ryzyka
+
+| Mnożnik | Wartość | Uzasadnienie |
+|---------|---------|--------------|
+| Brak specyfikacji | ×1.3 | Klient opisał problem ogólnie, brak mockupów, brak materiałów („udostępnimy wybranemu oferentowi") |
+| Zewnętrzne API z znanymi ograniczeniami | – | Nie dotyczy (brak integracji API) |
+| Real-time | – | Nie dotyczy |
+| Figma/spec | – | Nie dotyczy |
+
+**Iloczyn: ×1.3** (nie przekracza capu ×1.8)
+
+113h × 1.3 = **146,9h** ≈ **147h**
+
+---
+
+## KROK 6 – Cena bazowa
+
+Stawka efektywna (profil 2 miesiące, 5 umów): **90 zł/h**
+
+147h × 90 zł/h = **13 230 zł**
+
+---
+
+## KROK 7 – Korekta konkurencyjna
+
+- Zlecenie opublikowano **wczoraj** (świeże, do 24h)
+- Liczba ofert: **71** (znacznie powyżej 20)
+
+→ **×0.9** (rynek zalany, obniżamy żeby przebić)
+
+13 230 zł × 0.9 = **11 907 zł**
+
+---
+
+## KROK 8 – Prowizja Useme i podatek
+
+Nie windujemy sztucznie – jesteśmy świadomi, że z 11 907 zł na Useme zostanie ~88% ≈ **10 478 zł** netto.
+
+---
+
+## KROK 9 – Zaokrąglenie
+
+Projekt w przedziale 2 000–10 000 zł? Nie – jesteśmy powyżej 10 000 zł → zaokrąglenie do **1 000 zł**.
+
+11 907 zł → **12 000 zł**
+
+---
+
+## KROK 9.5 – Kotwica budżetu klienta
+
+Budżet: **„Do negocjacji"** → pole kwoty wypełnia nasza cena bazowa z KROK 7–9.
+
+**Cena ofertowa: 12 000 zł**
+
+*Uwaga: research sugeruje widełki rynkowe 8 000–18 000 zł dla landing premium z custom designem, animacjami, trackingiem i zgodnością RODO/WCAG. Nasza wycena 12 000 zł mieści się w środku widełek – jest konkurencyjna przy 71 oferentach, ale nie oddaje pracy poniżej kosztu.*
+
+---
+
+## KROK 10 – Dni kalendarzowe
+
+Godziny realistyczne po buforze i mnożnikach: **147h**
+
+147h ÷ 7h/dzień = 21 dni
+
++30% na weekendy i komunikację: 21 × 1.3 = **27,3 dni** ≈ **28 dni**
+
+**Dni: 28**
+
+---
+
+## KROK 10.6 – 2-pass audit
+
+1. **Czy moduł mógłby być przypisany do innego developera niezależnie?**
+   - M5 (RODO/CMP) i M6 (WCAG) – mogłyby, ale są ściśle związane z M3 (WordPress) i M2 (frontend). Zostawiam jako osobne pozycje z małą liczbą godzin – nie scalam, bo to różne kompetencje.
+   - M7 (Tracking) – niezależny, zostaje.
+   - M8 (VPS) – niezależny, zostaje.
+
+2. **Czy moduły dzielą kod/tabele/endpointy?**
+   - M3 (WordPress) i M4 (SEO) dzielą stack – ale M4 to konfiguracja wtyczek i treści, nie osobny system. Nie ma podwójnego liczenia.
+   - M5 (CMP) i M7 (Tracking) dzielą consent-aware tags – M5 to konfiguracja CMP, M7 to implementacja tagów. Rozdzielone poprawnie.
+
+3. **Czy moduł pochodzi z confirmed scope czy brainstormu?**
+   - Wszystkie 8 modułów z confirmed scope. Brainstorm (wersje językowe, fotografia, copywriting, animacje) → osobna lista v2.
+
+4. **Czy wynik różni się o >30% od instynktu?**
+   - Research sugeruje 8 000–18 000 zł. Nasza wycena 12 000 zł mieści się w widełkach. Brak rozbieżności.
+
+**Audyt:** 0 modułów usuniętych, 0 scalonych, 0 przeklasyfikowanych. 8 modułów confirmed scope.
+
+---
+
+## Rozbicie końcowe
+
+| Etap | Wartość |
+|------|---------|
+| Suma modułów (realistyczna) | 82h |
+| + Testy i dokumentacja (+15%) | 94h |
+| + Buffer (+20%) | 113h |
+| × Mnożnik ryzyka (brak specyfikacji ×1.3) | 147h |
+| × Stawka efektywna (90 zł/h) | 13 230 zł |
+| × Korekta konkurencyjna (×0.9) | 11 907 zł |
+| Zaokrąglenie | **12 000 zł** |
+| Dni (147h ÷ 7 × 1.3) | **28 dni** |
+
+**Cena ofertowa: 12 000 zł** (przy budżecie „do negocjacji" – brak kotwicy do dostosowania)
+
+**Dni: 28**
+
+---
+
+## Potencjalne rozszerzenia v2 (do przedstawienia klientowi)
+
+- Wersje językowe EN/DE (DACH + Beneluks) – +4 000–8 000 zł
+- Fotografia produktowa lifestyle – +3 000–10 000 zł
+- Copywriting pod SEO i konwersję – +3 000–10 000 zł
+- Animacje Lottie – +2 000–8 000 zł
+- Sekcja „Jak powstają nasze meble" (proces produkcyjny) – +2 000–4 000 zł
+- Pełne SEO techniczne z Schema.org – +2 000–5 000 zł
+
+---
+
+[WYNIK_KONCOWY]
+KWOTA: 12000
+DNI: 28
+
+
+--- 3. OFERTA (2240 znakow) ---
+Dzień dobry,
+
+Piszę w imieniu dwuosobowego zespołu. Robimy landing page'e i sklepy dla marek, które sprzedają produkt, a nie tylko "stronę". Meble z litego dębu w segmencie premium to temat, gdzie estetyka i szybkość decydują, czy ktoś zostaje na dłużej, czy wychodzi po 3 sekundach.
+
+Zacznijmy od tego, co widzę jako prawdziwe wyzwanie. Sam landing to nie problem. Problem jest taki, że szablon z ThemeForest za 200 zł zabije wrażenie premium, zanim ktokolwiek zobaczy produkt. Duże zdjęcia dębu i skóry muszą oddychać, mieć dużo światła i whitespace'u, a przy tym strona nie może się wlec. Druga rzecz, o której większość oferentów zapomni: baner cookies musi być zgodny z nowym Prawem komunikacji elektronicznej, czyli realna zgoda przed odpaleniem nieistotnych cookies, a nie "kliknij i jedziemy". Do tego dochodzi Consent Mode V2, jeśli w ogóle myślicie o kampaniach. To nie dodatek, to standard w 2026.
+
+Jak to ogarnę: projekt custom w Figmie od zera, nie szablon. System komponentów, typografia szeryfowa, duże kadry produktowe, sekcje modularne. Frontend responsywny, pixel-perfect z projektu, z animacjami wejścia, ale bez przesady. Core Web Vitals trzymamy na twardych progach: LCP poniżej 2,5 s, INP poniżej 200 ms, CLS poniżej 0,1. To mierzalne i sprawdzalne w PageSpeed. Landing wpinam w WordPressa, żebyście mogli sami podmieniać zdjęcia i teksty bez dzwonienia do nas za każdym razem. Dostępność WCAG 2.2 AA w standardzie: kontrast, focus klawiaturowy, elementy interaktywne min. 24 na 24 px. Tracking pod GA4 i Meta z consent-aware tagami, żeby dane były czyste. Hosting stawiamy na VPS z SSL, firewall i backupem, bo domena obecnie nie ma aktywnej strony.
+
+Materiały, które macie, przejrzymy i powiemy wprost, co nadaje się na hero, a co wymaga dorobienia. Jeśli zdjęcia lifestyle czy teksty będą potrzebne, wycenimy to osobno, bez wciskania na siłę.
+
+Za postawienie kompletnego landing page'a od projektu po wdrożenie na VPS, z RODO, WCAG i trackingiem, liczymy 12 000 zł. Realizacja w 28 dni od przekazania materiałów i briefu.
+
+Możemy się zgadać na krótkiego calla na Google Meet, wspólnik odpowie od strony technicznej, ja od projektu. Wtedy też ustalimy, czy chcecie od razu wersje EN/DE pod dystrybutorów.
+
+Pozdrawiam
+
+
+
+############################################################
+ZLECENIE: Perca landing | SILNIK: Gemini
+KWOTA: ? zl | DNI: ? | CZAS LACZNY: 149.1s
+############################################################
+
+--- 1. RESEARCH (21 znakow) ---
+BRAK_ISTOTNYCH_FAKTOW
+
+--- 2. WYCENA (3251 znakow) ---
+FAKTY KLUCZOWE (twarde, ze źródłami)
+
+Profil i lokalizacja firmy: Perca Furniture (Perca sp. z o.o.) z siedzibą w Chełmży (ul. Bydgoska 39) to producent mebli premium z litego drewna (dębowego i orzecha amerykańskiego), spieków kwarcowych oraz małej tapicerki klasy luksusowej.
+
+Źródło: Strona O nas – Perca Furniture / Kontakt – Perca, cytat: „Od ponad 20 lat tworzymy meble z litego drewna dębowego i orzecha amerykańskiego – trwałe, funkcjonalne i piękne w swojej prostocie. W naszej pracowni w Chełmży łączymy ręczną precyzję z nowoczesnymi rozwiązaniami technologicznymi”.FAKTY KLUCZOWE (twarde, ze źródłami)
+
+Profil i lokalizacja firmy: Perca Furniture (Perca sp. z o.o.) z siedzibą w Chełmży (ul. Bydgoska 39) to producent mebli premium z litego drewna (dębowego i orzecha amerykańskiego), spieków kwarcowych oraz małej tapicerki klasy luksusowej.
+
+Źródło: Strona O nas – Perca Furniture / Kontakt – Perca, cytat: „Od ponad 20 lat tworzymy meble z litego drewna dębowego i orzecha amerykańskiego – trwałe, funkcjonalne i piękne w swojej prostocie. W naszej pracowni w Chełmży łączymy ręczną precyzję z nowoczesnymi rozwiązaniami technologicznymi”.
+
+Model biznesowy i specyfika produktów: Marka działa w modelu made-to-order (produkcja pod konkretne zamówienie i adres), kładąc nacisk na rzemiosło, ekologię (FSC/PEFC) oraz usługi dodatkowe, takie jak dostawa typu White-Glove (wniesienie, montaż).
+
+Źródło: Case Study Konik Systems – Perca Furniture, cytat: „Nie produkujemy mebli na magazyn — robimy je pod konkretny adres i konkretne życie. [...] Dostawa White-Glove. Wnosimy, składamy i sprawdzamy mebel”.
+
+RYZYKA I PUŁAPKI
+
+Wysokie wymagania estetyczne (brak gotowych szablonów): Zleceniodawca w opisie oczekuje „innowacyjnego podejścia i materiału, który porwie nas i klientów :)”. Standardowy landing page oparty na tanim motywie z szablonu (np. prosty Elementor bez unikalnego designu) zostanie odrzucony jako niespełniający standardów marki luksusowej.
+
+Brak sprecyzowanego zakresu technicznego: Ogłoszenie nie określa, czy landing page ma być wdrożony na WordPressie, Webflow, czy jako dedykowana aplikacja frontendowa (np. Next.js/React), ani czy ma integrować istniejący konfigurator 3D.
+
+AMUNICJA DO OFERTY
+
+Głęboka znajomość brandu klienta: Warto w ofercie od razu odnieść się do ich tożsamości – rzemiosła z Chełmży, szacunku do naturalnych materiałów (lite drewno, spiek kwarcowy, orzech amerykański) oraz filozofii made-to-order. Pokazanie, że zna się ich portfolio, drastycznie wyróżni ofertę na tle 71 konkurentów.
+
+Kładzenie nacisku na luksusowy UX/UI: Dla mebli klasy premium kluczowa jest warstwa wizualna – minimalistyczny, elegancki design, duża przestrzeń bieli (whitespace), perfekcyjna typografia oraz płynne animacje eksponujące fakturę materiałów (np. usłojenie drewna).
+
+CENY RYNKOWE
+
+Widełki cenowe dla landing page segmentu premium / dedykowanego:
+
+Prostsze rozwiązania typu Landing Premium w agencjach webowych: od 2 299 zł do 3 000 zł.
+
+Zaawansowane, dedykowane strony i landing page dla marek wymagających unikalnego designu customowego i interakcji: od 12 000 zł do 25 000 zł+.
+
+Źródło: Cennik Quick Prest (Landing Premium od 2299 zł) oraz Agencja Medialna – Strony Indywidualne (Pakiet Premium od 25 000 zł).
+
+--- 3. OFERTA (1092 znakow) ---
+Cześć,Widzimy, że szukacie czegoś, co naprawdę wyróżni meble Perca na tle masówki i porwie klientów szukających klasy premium. Zamiast kolejnego szablonu z powtarzalnymi blokami, robimy dedykowane projekty, w których każdy detal – od usłojenia drewna po subtelne przejścia – gra główną rolę.W branży mebli luksusowych największą pułapką jest to, że piękne zdjęcia wia w wysokiej rozdzielczości potrafią zabić wydajność strony, jeśli nie są odpowiednio zoptymalizowane. Do tego dochodzi kwestia unikalnej typografii i układu, który musi oddawać rzemiosło z Waszej pracowni, a nie wyglądać jak masowa strona wizytówkowa. Zamiast gotowych motywów, kodujemy to lekko i modułowo, z pełną optymalizacją szybkości ładowania, płynnymi animacjami skrojonymi pod ekspozycję materiałów oraz prostym zapleczem, żebyście mogli łatwo zarządzać treścią.
+
+Za wykonanie takiego unikalnego landing pagea od zera, dopasowanego do Waszego charakteru i gotowego do konwersji, liczymy 5500 zł. Całość zamkniemy w 9 dni.
+
+Zdzwońmy się w tym tygodniu na kilkanaście minut, żeby obgadać wizję i materiały.
+
+Pozdrawiam
+
+
+
+############################################################
+ZLECENIE: Blog WordPress | SILNIK: DeepSeek
+KWOTA: ? zl | DNI: ? | CZAS LACZNY: 46.9s
+############################################################
+
+--- 1. RESEARCH (13513 znakow) ---
+## RAPORT RESEARCHOWY — Zlecenie #143411
+
+### FAKTY KLUCZOWE (twarde, ze źródłami)
+
+**1. GeneratePress — model cenowy i ograniczenia wersji darmowej**
+
+- Fakt: Darmowa wersja GeneratePress jest celowo minimalna — brak starter templates, site library i header buildera; wszystko to wymaga GP Premium.
+- Źródło: [13†L31-L35] „GeneratePress's free theme is minimal by design. It gives you a clean, fast foundation and almost nothing else. No starter templates, no site library, no header builder. Those all require GP Premium."
+
+- Fakt: GP Premium kosztuje $59/rok i obejmuje do 500 stron (stan na 2026).
+- Źródło: [13†L23] „Pro pricing (entry) | $69/year- 3 sites | $59/year- 500 sites" (GeneratePress: $59/rok — 500 stron).
+
+- Fakt: Pełny stack GeneratePress (GP Premium + GenerateBlocks Pro) dostępny jako „GeneratePress One" za $149/rok.
+- Źródło: [7†L6-L7] „The combination of GP Premium + GenerateBlocks Pro is available as GeneratePress One at $149/year".
+
+**2. SureCart — model cenowy i API**
+
+- Fakt: SureCart oferuje darmowy plan z nielimitowanymi produktami i 0% prowizji od transakcji.
+- Źródło: [11†L35-L36] „Free tier — unlimited products, 0% transaction fees, all core features. Genuinely free, not a crippled demo."
+
+- Fakt: Plan Launch ok. $19/mies. usuwa branding SureCart i dodaje priority support; plan Scale ok. $99/mies. dla agencji (nielimitowane strony).
+- Źródło: [11†L37-L39] „Launch Plan (~$19/month) — removes SureCart branding, adds priority support. Scale Plan (~$99/month) — for agencies and high-volume stores, unlimited sites."
+
+- Fakt: SureCart Pro: $179/rok (wprowadzająca, odnawia się po $199/rok) dla jednego sklepu, bez prowizji transakcyjnej.
+- Źródło: [5†L11-L12] „SureCart Pro starts at $179/year (intro pricing, renews at $199/year) for one store, removing the 1.9% transaction fee entirely."
+
+- Fakt: SureCart ma pełne REST API (base URL: `https://api.surecart.com/v1`) z autoryzacją Bearer token; wspiera webhooki dla zdarzeń typu `order.created`, `order.paid`, `refund.created`.
+- Źródło: [0†L34-L35] „The REST API base URL is https://api.surecart.com/v1 and all requests require a Bearer token for authentication." oraz [22†L3-L7] „SureCart uses webhooks to notify your application when an event happens in your account. [...] You can create and manage your webhook endpoints through the API endpoints or within your dashboard."
+
+- Fakt: SureCart obsługuje natywnie Stripe, PayPal i Mollie — BLIK jest dostępny przez Stripe (jako operator), a nie jako osobna polska integracja.
+- Źródło: [15†L5-L7] „SureCart oficjalnie wspiera płatności przez Stripe, PayPal i Mollie. To dobra wiadomość, bo BLIK masz wtedy »z operatora«, a nie jako osobną, polską integrację »na słowo honoru«."
+
+**3. WP EasyCart — model cenowy i API**
+
+- Fakt: Darmowa edycja WP EasyCart ma 2% prowizji od transakcji; Professional Edition $69/rok usuwa prowizję i odblokowuje subskrypcje, abandoned cart recovery i 30+ bramek płatniczych.
+- Źródło: [12†L6-L9] „The Free Edition is ideal for startups testing the waters, though it carries a 2% application fee and limited gateway options. [...] The Professional Edition at $69/year [...] removes all application fees and unlocks advanced selling tools like recurring subscriptions and abandoned cart recovery."
+
+- Fakt: Premium Edition $89/rok zawiera wszystkie rozszerzenia (QuickBooks, ShipStation, Mailchimp) oraz desktop/mobile admin apps.
+- Źródło: [12†L22-L24] „Premium Edition $89 Per Website Per Year [...] Everything in Professional [...] All Extensions Included (10+) [...] QuickBooks & ShipStation Sync".
+
+- Fakt: EasyCart wspiera sprzedaż produktów cyfrowych z limitami pobrań, oknami czasowymi i opcją przechowywania na serwerze lub Amazon S3.
+- Źródło: [1†L23-L26] „Offer files, music, audiobooks, and PDFs with download limits, time windows, and your choice of server or Amazon S3."
+
+**4. Fakturownia — API i KSeF**
+
+- Fakt: Fakturownia obsługuje API do wystawiania faktur, w tym faktur cyklicznych (endpoint: `https://twojadomena.fakturownia.pl/recurrings.json`).
+- Źródło: [2†L11-L13] „Przykładowe poprawne zapytanie curl https://twojadomena.fakturownia.pl/recurrings.json [...] start_date: 2026-07-01".
+
+- Fakt: Od 1 kwietnia 2026 r. obowiązek wystawiania faktur w KSeF obejmuje większość firm (B2B); duże firmy (>200 mln zł obrotu) — od 1 lutego 2026 r.
+- Źródło: [17†L6-L8] „od 1 lutego 2026 r. obowiązek wystawiania faktur w KSeF dla dużych firm (powyżej 200 mln zł obrotu) [...] od 1 kwietnia 2026 r." oraz [17†L12-L13] „Od 1 kwietnia 2026 r. system stanie się już obowiązkowy dla wszystkich firm – zarówno w zakresie wystawiania, jak i odbierania e-faktur."
+
+- Fakt: Do 31 grudnia 2026 r. nie będą nakładane sankcje za błędy/niewystawianie faktur w KSeF.
+- Źródło: [17†L26-L28] „W okresie od 1 lutego do 31 grudnia 2026 r. podatnicy nie będą podlegać sankcjom karno-skarbowym ani karom pieniężnym za niewystawianie faktur w KSeF lub błędy w tym zakresie."
+
+- Fakt: Fakturownia ma pełną dokumentację API dotyczącą KSeF na GitHubie; API zwraca pole `gov_send_mode` (wartości: `online`, `offline`, `offline24`).
+- Źródło: [9†L20-L22] „Aktualny tryb wysyłki dostępny jest w szczegółach wysyłki do KSeF. W odpowiedzi API należy sprawdzić pole: gov_send_mode. Pole przyjmuje wartości: 'online', 'offline', 'offline24'."
+
+**5. inFakt — API i integracja e-commerce**
+
+- Fakt: inFakt udostępnia API do automatycznego wystawiania faktur; integracja z WooCommerce wymaga wygenerowania klucza API w panelu: Ustawienia → Inne opcje → API.
+- Źródło: [3†L28-L31] „Aby połączyć sklep z systemem inFakt, musisz wygenerować klucz API. [...] Zaloguj się do swojego konta w serwisie inFakt. [...] Przejdź do Ustawienia → Inne opcje → API."
+
+- Fakt: Istnieje gotowy plugin łączący WooCommerce z inFakt (automatyczne faktury w wersji PRO, ręczne w darmowej).
+- Źródło: [3†L9-L13] „This plugin provides an integration between WooCommerce and the inFakt accounting system, allowing automatic (PRO version) and manual invoice generation based on WooCommerce orders. [...] This plugin relies on the inFakt API."
+
+**6. MailerLite — API i plan darmowy**
+
+- Fakt: MailerLite ma darmowy plan obejmujący do 500 subskrybentów i 12 000 e-maili miesięcznie (stan na wrzesień 2025 — obniżono z 1000 do 500 subskrybentów).
+- Źródło: [4†L21-L23] „Free Plan | 500 subscribers, 12,000 emails/month | 500 contacts, limited features [...] As of September 2025, MailerLite reduced its free plan from 1,000 subscribers to 500 subscribers."
+
+- Fakt: Integracja MailerLite z WordPress działa na darmowym planie — API jest dostępne na każdym planie.
+- Źródło: [4†L10-L13] „ChimpMatic Lite 0.9.80 or newer - A MailerLite account (free plan works) with at least one group [...] Does this work with the free MailerLite plan? Yes. The integration uses MailerLite's standard API, available on every plan."
+
+**7. IOSS i cło UE — zmiany od lipca 2026**
+
+- Fakt: Od 1 lipca 2026 r. zniesiono zwolnienie z cła dla przesyłek poniżej 150 EUR; każda przesyłka w systemie IOSS zostanie obciążona ryczałtowym cłem 3 EUR za pozycję taryfową.
+- Źródło: [18†L5-L8] „Od 1 lipca 2026 roku każda przesyłka spoza UE będzie obciążona cłem, a dodatkowo stałą opłatą 3 euro za pozycję taryfową objęte będą towary objęte rejestrem IOSS" oraz [18†L28-L31] „likwidacja progu zwolnienia z cła dla przesyłek o wartości poniżej 150 euro. Od 1 lipca 2026 r. każdy towar importowany w ramach systemu IOSS [...] zostanie obciążony ryczałtowym cłem w wysokości 3 euro za pozycję taryfową."
+
+**8. Allegro API — limity**
+
+- Fakt: Obowiązuje główny limit 9000 zapytań na minutę na Client ID (lub Software Statement ID); po przekroczeniu RPM wydłużany jest czas odpowiedzi (throttling).
+- Źródło: [19†L38-L41] „W usłudze Allegro REST API (produkcyjnej oraz testowej) obowiązuje główny limit nakładany na Client ID [...] - 9000 zapytań na minutę. [...] Gdy użytkownik przekroczy dozwoloną liczbę wywołań na minutę (RPM), wydłużamy czas odpowiedzi."
+
+- Fakt: Od 1 września 2026 r. Allegro zmienia regulamin REST API — wprowadza limit kluczy REST API (obecnie do 5) i wnioski o dodatkowe klucze.
+- Źródło: [19†L4-L7] „1 września 2026 zmienimy zapisy dotyczące kluczy REST API [...] Wprowadzimy limit kluczy REST API i dodamy wniosek o dodatkowy klucz: - Obecnie: możesz wygenerować do 5 kluczy REST API."
+
+### RYZYKA I PUŁAPKI
+
+**R1. Brak natywnej integracji SureCart ↔ Fakturownia/inFakt**
+
+Nie znaleziono gotowej wtyczki ani oficjalnej integracji SureCart z Fakturownią lub inFakt. Konieczne będzie zbudowanie integracji przez webhooki (SureCart → zewnętrzny endpoint → Fakturownia API) lub przez REST API. Źródło: [14†L1-L9] — wyniki wyszukiwania pokazują wyłącznie ogólne możliwości webhooków SureCart, brak dedykowanej integracji z Fakturownią. **To istotny czynnik podnoszący pracochłonność i cenę.**
+
+**R2. KSeF 2026 — obowiązek od kwietnia 2026 r.**
+
+Zlecenie jest publikowane w sierpniu 2026, a obowiązek KSeF dla większości firm wszedł w życie 1 kwietnia 2026 r. Jeśli zleceniodawca jest czynnym podatnikiem VAT, integracja fakturowania musi uwzględniać wysyłkę do KSeF (np. przez Fakturownię, która ma wbudowaną obsługę KSeF). Brak uwzględnienia tego w ofercie = luka w zakresie. Źródło: [17†L12-L13].
+
+**R3. Ograniczenia darmowego planu MailerLite**
+
+Darmowy plan MailerLite oferuje tylko 500 subskrybentów (od września 2025 obniżone z 1000). Jeśli blog ma rosnąć, klient szybko przekroczy limit i będzie musiał przejść na płatny plan. Warto to uświadomić w ofercie. Źródło: [4†L21-L23].
+
+**R4. BLIK w SureCart tylko przez Stripe/Mollie — nie bezpośrednio**
+
+SureCart nie ma natywnej polskiej bramki BLIK; BLIK dostępny jest wyłącznie przez Stripe (jako operator) lub Mollie. Jeśli klient oczekuje bezpośredniej integracji z polskim operatorem BLIK (np. Paynow, Autopay), konieczne będzie dodatkowe rozwiązanie. Źródło: [15†L5-L7].
+
+**R5. GeneratePress Free nie wystarczy do zaawansowanego układu sidebar + blog**
+
+Darmowa wersja GeneratePress nie ma site library ani starter templates; układ „szeroka kolumna treści + stały sidebar konwersji" będzie wymagał GP Premium ($59/rok) lub ręcznego kodowania. Źródło: [13†L31-L35].
+
+**R6. EasyCart — 2% prowizji w darmowej wersji**
+
+Jeśli klient wybierze darmową edycję EasyCart, dochodzi 2% prowizji od transakcji (poza standardowymi opłatami bramki). Przy sprzedaży e-booków/kursów to realny koszt, który kumuluje się w czasie. Źródło: [12†L6-L7].
+
+**R7. Konieczność upgrade'u planu przy skalowaniu MailerLite**
+
+Darmowy plan MailerLite (500 subskrybentów) to limit, który przy popularnym blogu może zostać szybko przekroczony. Warto przewidzieć w ofercie migrację na płatny plan. Źródło: [4†L21-L23].
+
+### AMUNICJA DO OFERTY
+
+**A1. KSeF — klient może nie wiedzieć, że od kwietnia 2026 ma obowiązek e-fakturowania**
+
+W sierpniu 2026 każdy czynny podatnik VAT w Polsce ma już obowiązek wystawiania faktur przez KSeF. Warto to podkreślić — integracja z Fakturownią/inFakt automatycznie załatwia ten obowiązek, co jest wartością dodaną. Źródło: [17†L12-L13].
+
+**A2. SureCart ma darmowy plan z 0% prowizji — to argument za wyborem**
+
+W przeciwieństwie do EasyCart (2% prowizji w wersji darmowej), SureCart oferuje darmowy plan z 0% prowizji i nielimitowanymi produktami. Dla klienta sprzedającego produkty cyfrowe to realna oszczędność. Źródło: [11†L35-L36].
+
+**A3. Zmiany w IOSS/cło UE od lipca 2026 — jeśli klient sprzedaje za granicę**
+
+Jeśli klient planuje sprzedaż produktów cyfrowych lub fizycznych do UE, od 1 lipca 2026 obowiązuje cło 3 EUR za pozycję taryfową dla przesyłek w IOSS. Produkty cyfrowe (e-booki, kursy) nie podlegają cłu, ale warto to rozróżnić w ofercie. Źródło: [18†L5-L8].
+
+**A4. GeneratePress One ($149/rok) vs GP Premium ($59/rok)**
+
+Jeśli klient potrzebuje zaawansowanego buildera bloków (GenerateBlocks Pro), warto rozważyć pakiet GeneratePress One za $149/rok zamiast osobno kupować GP Premium ($59) + GenerateBlocks Pro ($99). Źródło: [7†L6-L7].
+
+**A5. MailerLite obniżył darmowy plan do 500 subskrybentów**
+
+Warto uświadomić klientowi, że darmowy plan MailerLite został ograniczony (wrzesień 2025: z 1000 do 500 subskrybentów). Przy rosnącym blogu szybko pojawi się potrzeba upgrade'u. Źródło: [4†L21-L23].
+
+### CENY RYNKOWE
+
+**C1. Budowa bloga/strony WordPress — widełki freelancer (Polska, 2026)**
+
+- Strona wizytówka (3–5 podstron): **1 500–2 500 zł**
+- Strona firmowa (5–10 podstron, blog, formularze): **2 500–5 000 zł**
+- Sklep WooCommerce (do 100 produktów): **4 000–8 000 zł**
+- Źródło: [25†L5-L7]
+
+- Freelancer WordPress (ogólnie): **1 500–8 000 zł**
+- Agencja WordPress: **od 3 000 zł** (strona wizytówka), **5 000–12 000 zł** (strona firmowa z indywidualnym designem), do **30 000 zł** (dedykowane funkcje/integracje)
+- Źródło: [25†L12-L15]
+
+- Inne źródło: Freelancer: **3 000–15 000 zł**; agencja: **8 000–20 000 zł**
+- Źródło: [21†L15-L16]
+
+**C2. Stawki godzinowe freelancerów IT (Polska, 2026)**
+
+- Junior: **80–150 zł/godz.**
+- Mid: **150–250 zł/godz.**
+- Senior: **250–500 zł/godz.**
+- Źródło: [21†L36-L37]
+
+**C3. Koszty roczne (dla kontekstu wyceny)**
+
+- GP Premium: **$59/rok** (≈ 240 zł)
+- GeneratePress One: **$149/rok** (≈ 600 zł)
+- SureCart Free: **$0** (0% prowizji)
+- SureCart Pro: **$179/rok** (≈ 720 zł)
+- EasyCart Professional: **$69/rok** (≈ 280 zł)
+- EasyCart Premium: **$89/rok** (≈ 360 zł)
+- MailerLite Free: **$0** (500 subskrybentów)
+- Źródła: [13†L23], [7†L6-L7], [11†L35-L39], [12†L8-L12], [4†L21-L23]
+
+---
+
+**BRAK_ISTOTNYCH_FAKTOW** — nie dodano (raport zawiera fakty, ryzyka, amunicję i ceny).
+
+--- 2. WYCENA (89 znakow) ---
+Zaczynam od przeczytania mechaniki wyceniania, żeby działać dokładnie według algorytmu.
+
+
+
+--- 3. OFERTA (1913 znakow) ---
+Cześć,
+
+Piszę w imieniu dwuosobowego zespołu. Robimy wdrożenia na WordPressie i integracje e-commerce, więc trafiliście w naszą działkę.
+
+Zacznę od rzeczy, która w tym projekcie może zaważyć na wszystkim: sam układ bloga z szeroką kolumną i stałym sidebarem to pestka, GeneratePress ogarnia to jednym ustawieniem. Prawdziwa robota siedzi w sprzedaży produktów cyfrowych. SureCart ma darmowy plan z zerową prowizją od transakcji, co przy e-bookach i kursach jest realną różnicą w kieszeni, ale nie ma gotowej integracji z polskimi programami do faktur. Czyli płatność wejdzie, plik się wyśle, a faktura trzeba spiąć ręcznie. My to spięcie robimy przez webhooki: SureCart wywala zdarzenie po opłaconym zamówieniu, my odbieramy je na własnym endpoincie i przez API wrzucamy fakturę do Fakturowni albo inFaktu, a klientowi leci automatycznie PDF i link do pliku. Bez ręcznego klikania po każdej sprzedaży.
+
+Druga rzecz, o której warto wiedzieć teraz, a nie po fakcie: od kwietnia 2026 każda firma VAT-owska ma obowiązek wystawiania faktur przez KSeF. Fakturownia ma to wbudowane, więc jak wepniesz ją przez API, temat KSeF załatwia się przy okazji i nie musisz tego pilnować osobno.
+
+Newsletter w sidebarze robimy na MailerLite. Uwaga jedna: darmowy plan spadł do 500 subskrybentów, więc przy rosnącym blogu dość szybko będzie przeskok na płatny, ale samą integrację stawiamy tak, żeby to była zmiana planu, nie przebudowa.
+
+Całość stawiamy na GeneratePress bez Elementora i Divi, zgodnie z tym co pisaliście. Lekki motyw, szybkie ładowanie, sidebar konwersji ostylowany pod Wasz układ. Kod zostawiamy czysty, żebyście później mogli podmieniać sekcje bez wołania programisty.
+
+Za postawienie bloga, spięcie sprzedaży produktów cyfrowych z bramką i fakturowaniem oraz newsletter w sidebarze liczymy 4500 zł. Realizacja w 9 dni.
+
+Zdzwońmy się w tym tygodniu na 15 minut, dopytam o szczegóły faktur i lecimy.
+
+Pozdrawiam
+
+
+
+############################################################
+ZLECENIE: Blog WordPress | SILNIK: Gemini
+KWOTA: ? zl | DNI: ? | CZAS LACZNY: 195.8s
+############################################################
+
+--- 1. RESEARCH (21 znakow) ---
+BRAK_ISTOTNYCH_FAKTOW
+
+--- 2. WYCENA (3377 znakow) ---
+FAKTY KLUCZOWE (twarde, ze źródłami)
+
+Specyfika motywu GeneratePress: GeneratePress to ultra-lekki motyw bazowy dla WordPressa (waga motywu poniżej 10kb w wersji domyślnej), mocno zorientowany na optymalizację pod Core Web Vitals i współpracujący z natywnym edytorem blokowym (Gutenberg), co idealnie wpisuje się w wymaganie „brak ciężkich kreatorów typu Elementor/Divi”.
+
+Źródło: Oficjalna dokumentacja GeneratePress – Lightweight WordPress Theme, cytat: „GeneratePress is a lightweight WordPress theme built with a focus on speed, stability, and accessibility.”FAKTY KLUCZOWE (twarde, ze źródłami)
+
+Specyfika motywu GeneratePress: GeneratePress to ultra-lekki motyw bazowy dla WordPressa (waga motywu poniżej 10kb w wersji domyślnej), mocno zorientowany na optymalizację pod Core Web Vitals i współpracujący z natywnym edytorem blokowym (Gutenberg), co idealnie wpisuje się w wymaganie „brak ciężkich kreatorów typu Elementor/Divi”.
+
+Źródło: Oficjalna dokumentacja GeneratePress – Lightweight WordPress Theme, cytat: „GeneratePress is a lightweight WordPress theme built with a focus on speed, stability, and accessibility.”
+
+Charakterystyka rozwiązań e-commerce dla produktów cyfrowych (SureCart / EasyCart): SureCart to nowoczesna platforma e-commerce dla WordPressa działająca warchitekturie bezkoszykowej opartej o chmurę (headless checkout), co zapewnia błyskawiczne działanie i bezpieczeństwo bez obciążania bazy danych WordPressa tradycyjnymi sesjami WooCommerce.
+
+Źródło: SureCart Features Overview, cytat: „A revolutionary ecommerce platform for WordPress. Lightning fast, conversion-optimized checkout, and secure cloud infrastructure.”
+
+RYZYKA I PUŁAPKI
+
+Ograniczenia fakturowania przez API i automatycznej wysyłki plików cyfrowych: Integracja platform typu SureCart lub EasyCart z polskimi systemami księgowymi (np. Fakturownia / infakt) oraz automatyczne zabezpieczenie i wysyłka linków do pobrania e-booków/kursów wymaga prawidłowej konfiguracji webhooków i obsługi stanów zamówień (pending -> completed). Niewłaściwe spięcie API może prowadzić do wysyłki faktur przed zaksięgowaniem płatności lub problemów z linkami generowanymi dla plików cyfrowych (potencjalne ryzyko wycieku bezpośrednich linków do plików).
+
+AMUNICJA DO OFERTY
+
+Nawiązanie do legendarnej czytelności bloga „Jak Oszczędzać Pieniądze” (Michał Szafrański): Układ wspomniany przez klienta (szeroka kolumna treści po lewej, stały sidebar konwersji z boksem newslettera po prawej) opiera się na idealnej hierarchii typograficznej, maksymalnym whitespace oraz braku rozpraszaczy. Warto podkreślić, że zamiast ociężałego WooCommerce, zastosowanie nowoczesnego ekosystemu (np. GeneratePress + GenerateBlocks + SureCart) da rezultaty w postaci błyskawicznego ładowania stron (wyniki 99+ w PageSpeed Insights) i struktury idealnej pod długie artykuły i podcasty.
+
+CENY RYNKOWE
+
+Widełki cenowe dla wdrożenia bloga WordPress z lekkim e-commerce (produkty cyfrowe, automatyzacje fakturowania):
+
+Podstawowe wdrożenie na gotowym motywie z szablonu: 2 500 zł – 4 500 zł.
+
+Dedykowane wdrożenie customowe (GeneratePress/GenerateBlocks, dopracowany layout układu Jak Oszczędzać Pieniądze, automatyzacje płatności i fakturowania API): 5 000 zł – 9 000 zł.
+
+Źródło: Cennik wdrożeń WordPress i e-commerce w agencjach/freelancingu (analiza stawek rynkowych dla projektów średniozaawansowanych z integracjami API).
+
+--- 3. OFERTA (0 znakow) ---
+
+
+

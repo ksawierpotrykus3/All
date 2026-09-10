@@ -1,0 +1,31 @@
+t0 import
+t1 open context (headless=True)
+t2 goto item
+t3 goto done: https://www.vinted.pl/items/9807925466-genesis-krypton-700
+t4 buy button: button[data-testid="item-buy-button"]
+t5 click buy
+t6 final_url=https://www.vinted.pl/items/9807925466-genesis-krypton-700
+canvas_from_token: seq=None session=293455fb-a3eb-4570-b2cb-f96c654dd083
+status=None token=False
+SAVED -> F:\PROJEKTY\vinted\vinted\testy_camoufox\docs\logs\_checkout_403_diag.json
+DONE
+t0 import
+t1 open context (headless=True)
+t2 goto item
+t3 goto done: https://www.vinted.pl/items/9807925466-genesis-krypton-700
+t4 buy button: button[data-testid="item-buy-button"]
+t5 click buy
+t6 final_url=https://www.vinted.pl/items/9807925466-genesis-krypton-700
+status=None token=False
+SAVED -> F:\PROJEKTY\vinted\vinted\testy_camoufox\docs\logs\_checkout_403_diag.json
+DONE
+t0 import
+t1 open context (headless=True)
+t2 goto item
+t3 goto done: https://www.vinted.pl/items/9807925466-genesis-krypton-700
+t4 buy button: button[data-testid="item-buy-button"]
+t5 click buy
+t6 final_url=https://www.vinted.pl/items/9807925466-genesis-krypton-700
+status=None token=False
+SAVED -> F:\PROJEKTY\vinted\vinted\testy_camoufox\docs\logs\_checkout_403_diag.json
+DONE

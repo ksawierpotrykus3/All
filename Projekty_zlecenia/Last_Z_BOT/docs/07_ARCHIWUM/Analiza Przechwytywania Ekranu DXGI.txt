@@ -1,0 +1,177 @@
+﻿Architektura przechwytywania obrazu DXGI: Przyczyny nieprawidłowości, obsługa wielosprzętowa i strategie odporności
+Metoda przechwytywania ekranu za pośrednictwem interfejsu DXGI Desktop Duplication API (DDA) stanowi powszechnie stosowane rozwiązanie w aplikacjach wymagających niskiego opóźnienia i wysokiej przepustowości danych obrazu1. Direct3D 11 w połączeniu z DirectX Graphics Infrastructure umożliwia bezpośredni dostęp do buforów ramki zarządzanych przez Desktop Window Manager (DWM)3. Jednakże wdrożenie tej technologii w zróżnicowanych środowiskach sprzętowych ujawnia szereg wyzwań architektonicznych4.
+Aplikacje opierające się na uproszczonych wrapperach, takich jak DXCam, często zmagają się z problemami czarnego ekranu, zniekształceń i zamiany kanałów barwnych oraz niespodziewanego zawieszenia wątku przechwytującego2. Zjawiska te nie wynikają z błędów pojedynczych bibliotek, lecz stanowią konsekwencję braku obsługi specyficznych stanów sprzętowo-systemowych: dynamicznych zmian formatów pikseli (SDR vs HDR), rozbieżności adapterów w układach wielokartowych (iGPU vs dGPU), mechanizmów harmonogramowania zadań GPU (HAGS) oraz unieważnienia zasobów graficznych podczas przełączeń kontekstu pulpitu3.
+1. Patologia i mechanizmy awarii DXGI Desktop Duplication
+1.1. Inkompatybilność przestrzeni barwnych i formatów pikselowych (SDR, HDR, Advanced Color)
+Standardowe wywołanie IDXGIOutput::DuplicateOutput automatycznie wymusza konwersję bufora ekranu do 32-bitowego formatu DXGI_FORMAT_B8G8R8A8_UNORM4. Sytuacja ulega fundamentalnej zmianie po aktywacji funkcji High Dynamic Range (HDR) lub szerokiej palety barw (Advanced Color / WCG) w systemach Windows 10 i Windows 113. W trybie HDR kompozytor DWM przechodzi w kanoniczną przestrzeń barw CCCS (Canonical Composition Color Space), opartą na liniowej przestrzeni scRGB (z liniową gammą i priorytetami BT.709/sRGB) oraz precyzji zmiennopozycyjnej FP16 (DXGI_FORMAT_R16G16B16A16_FLOAT)3. Gdy aplikacja korzysta z nowszego interfejsu IDXGIOutput5::DuplicateOutput1, przechwytywany bufor reprezentuje natywny format powierzchni pulpitu lub aplikacji pełnoekranowej, zwracając powszechnie formaty DXGI_FORMAT_R10G10B10A2_UNORM bądź DXGI_FORMAT_R16G16B16A16_FLOAT4.
+Poważne nieprawidłowości w przetwarzaniu obrazu powstają na styku natywnego formatu bufora a założeń kodu przetwarzającego. Jeśli moduł przechwytujący bezwzględnie rzutuje dane na 8-bitową macierz BGR, nadejście bufora FP16 (gdzie każdy piksel zajmuje 8 bajtów zamiast 3 lub 4) powoduje całkowite zniweczenie struktury macierzy pamięci2. Skutkuje to nieprawidłowym wymiarem tablicy, odczytem nieprawidłowych offsetów oraz interpretacją binarnych liczb zmiennopozycyjnych jako wartości całkowitych, co w praktyce objawia się całkowicie czarnym ekranem lub obrazem ze zniekształconą geometrią2.
+Dodatkowo, wartości luminancji w buforze FP16 scRGB wykraczają poza standardowy przedział   , osiągając wartości wielokrotnie wyższe, co odpowiada jasności wyrażonej w nitach3. Bez zastosowania algorytmu mapowania tonów (tone mapping), bezpośrednie przycięcie wartości do zakresu 8-bitowego powoduje odrzucenie informacji o jasności, objawiając się przepaleniem bieli lub nienaturalnymi artefaktami kolorystycznymi4. Z kolei w formacie DXGI_FORMAT_R10G10B10A2_UNORM kanały są ułożone w kolejności RGB, gdzie najmniej znaczące bity reprezentują czerwień4. Jeżeli kod przekazuje taki bufor bezpośrednio do funkcji oczekujących kolejności BGR (jak OpenCV cv2.COLOR_BGR2HSV), następuje zamiana kanału czerwonego z niebieskim, co uniemożliwia prawidłowe działanie OCR oraz detektorów obiektów4.
+1.2. Problematyka konfiguracji wielokartowych (Multi-GPU) i laptopów hybrydowych
+W laptopach hybrydowych oraz stacjach roboczych wyposażonych w zintegrowany procesor graficzny (iGPU) oraz dedykowaną kartę (dGPU), fizyczne wyjścia wideo (ekrany wbudowane oraz złącza HDMI/DisplayPort) są w większości przypadków podłączone do magistrali wyjściowej iGPU2. Próba inicjalizacji interfejsu przechwytywania kończy się niepowodzeniem, jeśli aplikacja utworzy urządzenie Direct3D 11 (ID3D11Device) na dedykowanej karcie graficznej, a następnie spróbuje powołać obiekt DuplicateOutput na wyjściu (IDXGIOutput), które fizycznie należy do adaptera zintegrowanego2.
+Różnica w przynależności urządzeń wyzwala natychmiastowy błąd interfejsu DXGI_ERROR_UNSUPPORTED (0x887A0004)2. Jeśli warstwa przechwytująca po napotkaniu tego błędu nie przeprowadzi alokacji urządzenia na właściwym adapterze ani nie przechwyci wyjątku, dalsze wywołania funkcji pobierającej klatkę alokują puste bufory, co skutkuje czarnym ekranem2. Prawidłowa obsługa wymaga pełnej zgodności pomiędzy adapterem Direct3D a fizycznym wyjściem monitora1.
+1.3. Wpływ Hardware-Accelerated GPU Scheduling (HAGS), Frame Generation i obciążenia GPU
+Funkcja Hardware-Accelerated GPU Scheduling (HAGS) przenosi zarządzanie kolejką zadań renderowania z jądra systemu Windows bezpośrednio do mikrokodowego harmonogramu karty graficznej8. Mimo że HAGS poprawia płynność gier, generuje poważne konflikty w procesach współdzielących zasoby GPU w tle8.
+Gdy aplikacja na pierwszym planie obciąża układ graficzny w 100%, harmonogram HAGS priorytetyzuje potok renderowania gry, redukując przydział czasu GPU dla operacji kopiowania pamięci w DWM i sterowniku DXGI8. W rezultacie wywołanie AcquireNextFrame nie otrzymuje na czas zaktualizowanych buforów, co prowadzi do drastycznego spadku liczby przechwytywanych klatek lub całkowitego zablokowania potoku8. Dodatkowo, obciążenie GPU w połączeniu z agresywnym zarządzaniem energią wywołuje opóźnienia w odpowiedzi sterownika, uruchamiając mechanizm TDR (Timeout Detection and Recovery)14. Skutkuje to zresetowaniem kontekstu graficznego i zgłoszeniem błędów DXGI_ERROR_DEVICE_HUNG lub DXGI_ERROR_DEVICE_REMOVED14.
+Zjawiskiem wpływającym na jakość przechwytywania jest również obecność technologii generowania klatek (DLSS Frame Generation / FSR Fluid Motion Frames)16. Klatki syntetyczne są generowane na poziomie sprzętowym poza standardowym łańcuchem prezentacji DWM16. DXGI Desktop Duplication przechwytuje jedynie klatki wyrenderowane pierwotnie przez silnik gry, co powoduje, że przechwycony materiał ma o połowę niższą płynność niż obraz wyświetlany na monitorze16.
+1.4. Unieważnienie sesji i sytuacje wyścigu (UAC, Fullscreen, TDR)
+Sesja przechwytywania IDXGIOutputDuplication jest powiązana ze stanem pulpitu kompozytora DWM9. Wszelkie zdarzenia zmieniające stan wyświetlania powodują natychmiastowe unieważnienie uchwytu i zgłoszenie błędu DXGI_ERROR_ACCESS_LOST (0x887A0026)5. Do zdarzeń tych należą:
+* Przełączenie na Bezpieczny Pulpit (Secure Desktop) podczas wyświetlania monitu UAC (User Account Control) lub ekranu blokady Winlogon9.
+* Zmiana rozdzielczości, częstotliwości odświeżania lub zmiana orientacji wyświetlacza9.
+* Uruchomienie, zminimalizowanie lub zmiana trybu gry w ekskluzywnym trybie pełnoekranowym (Exclusive Fullscreen)17.
+* Przejście monitora w tryb uśpienia lub sprzętowy reset karty graficznej5.
+Wywołanie metody AcquireNextFrame w stanie utraty dostępu bez uprzedniego zwolnienia zasobów i odtworzenia sesji powiązanego urządzenia powoduje nieskończoną pętlę błędów2. Aplikacja, która nie obsługuje pętli odzyskiwania sprawności, ulega trwałemu zawieszeniu na poziomie wątku przechwytującego2.
+2. Wykrywanie formatu kolorów, obsługa wyrównania pamięci i konwersja
+2.1. Zestawienie i właściwości formatów wyjściowych DXGI
+Zrozumienie właściwości fizycznych buforów zwracanych przez interfejsy DXGI stanowi warunek konieczny do zaprojektowania odpornego modułu konwersji kolorów.
+
+
+Format DXGI
+	Głębia bitowa i struktura
+	Układ kanałów w pamięci
+	Obsługiwana przestrzeń barwna
+	Zastosowanie i źródło
+	DXGI_FORMAT_B8G8R8A8_UNORM
+	32 bpp (8 bitów / kanał)
+	B, G, R, A
+	sRGB / Rec.709
+	Domyślne wyjście SDR (DuplicateOutput)4
+	DXGI_FORMAT_R10G10B10A2_UNORM
+	32 bpp (10b RGB + 2b Alpha)
+	R, G, B, A (w słowie 32b)
+	HDR10 / Rec.2020
+	Ekran HDR (DuplicateOutput1)4
+	DXGI_FORMAT_R16G16B16A16_FLOAT
+	64 bpp (16b FP / kanał)
+	R, G, B, A (FP16 IEEE)
+	scRGB Liniowa (CCCS)
+	Ekran HDR / DWM Kompozyt3
+	2.2. Problem skoku pamięci (RowPitch) i algorytm bezpiecznego kopiowania
+Kopiowanie danych z tekstury staging grafiki (D3D11_USAGE_STAGING) do pamięci RAM za pomocą funkcji ID3D11DeviceContext::Map udostępnia strukturę D3D11_MAPPED_SUBRESOURCE zawierającą wskaźnik do danych pData oraz wartość RowPitch4.
+Wartość RowPitch określa całkowitą szerokość wiersza w bajtach, uwzględniającą dodatkowy bufor wyrównania pamięci (padding) wymuszony przez architekturę GPU19. Istnienie bufora wyrównania oznacza, że RowPitch jest bardzo często większy niż iloczyn szerokości obrazu i rozmiaru pojedynczego piksela w bajtach19. Próba spłaszczenia pamięci i traktowania jej jako spójnego bloku bajtów bez uwzględnienia odstępu RowPitch skutkuje ukośnym przesunięciem pikseli (stride distortion) oraz pojawieniem się wielobarwnych pasów na obrazie19.
+Dla zapewnienia bezbłędnej interpretacji klatek moduł konwersji przeprowadza dwuetapową weryfikację. W pierwszym kroku odczytywany jest nagłówek tekstury D3D11_TEXTURE2D_DESC w celu określenia natywnego formatu4. W drugim kroku następuje kopiowanie i przekształcenie danych:
+Jeśli zarejestrowano format DXGI_FORMAT_B8G8R8A8_UNORM, sprawdzany jest warunek równości   19. Przy braku dopasowania pamięć jest odczytywana wiersz po wierszu z przesunięciem wskaźnika o długość RowPitch, odrzucając czwarty kanał Alpha celem uzyskania zwartej macierzy BGR 8-bit19.
+W przypadku formatu DXGI_FORMAT_R10G10B10A2_UNORM, dane są przetwarzane jako 32-bitowe słowa całkowitowidmowe. Każde słowo podlega operacjom przesunięcia bitowego i maskowania: kanał czerwony pozyskuje się ze wzoru   , zielony ze wzoru   , natomiast niebieski ze wzoru   . Tak wyodrębnione wartości 8-bitowe są układane w buforze docelowym w kolejności BGR.
+Dla formatu DXGI_FORMAT_R16G16B16A16_FLOAT odczytywane są 16-bitowe wartości zmiennopozycyjne. Konwersja do formy 8-bitowej BGR wymaga wykonania wstępnego tone mappingu. Wartości zmiennopozycyjne    są rzutowane na zakres SDR za pomocą funkcji nasycenia   , a następnie reorganizowane z układu RGB do BGR.
+3. Selektory kart graficznych i wymuszanie właściwego adaptera D3D11
+3.1. Przyczyny błędów powiązania adaptera (DXGI_ERROR_UNSUPPORTED)
+Próba wywołania DuplicateOutput na obiekcie wyjścia IDXGIOutput przy użyciu urządzenia ID3D11Device utworzonego na niewłaściwym adapterze stanowi główną przyczynę awarii w systemach wielokartowych2. Domyślne przekazanie wartości nullptr jako pierwszego parametru funkcji D3D11CreateDevice wymusza wybór domyślnego adaptera systemowego (index 0), co w laptopach z technologią NVIDIA Optimus lub AMD Enduro wybiera kartę dGPU2. Jeżeli wybrany wyświetlacz jest fizycznie zarządzany przez iGPU, następuje zgłoszenie błędu DXGI_ERROR_UNSUPPORTED2.
+Dla uniknięcia tego konfliktu aplikacja musi przeprowadzić jawną enumerację adapterów i monitorów przy użyciu fabryki DXGI (IDXGIFactory1)6.
+3.2. Procedura selekcji adaptera i komunikacja międzysprzętowa
+Aplikacja inicjalizująca przechwytywanie wykonuje ustrukturyzowaną procedurę wyszukiwania właściwego powiązania sprzętowego:
+1. Pobranie instancji fabryki IDXGIFactory1 oraz wywołanie metody EnumAdapters1 w celu iteracyjnego przejrzenia wszystkich dostępnych kart graficznych (device_idx = 0, 1, ...)6.
+2. Dla każdego adaptera wywoływana jest metoda EnumOutputs w celu pobrania podłączonych monitorów (output_idx = 0, 1, ...)6.
+3. Po odnalezieniu docelowego monitora odpowiadającego podanemu indeksowi wyjścia, aplikacja zachowuje wskaźnik do odpowiadającego mu obiektu IDXGIAdapter1.
+4. Tworzenie urządzenia ID3D11Device następuje z jawnym przekazaniem odnalezionego wskaźnika IDXGIAdapter1, co gwarantuje alokację kontekstu renderowania na właściwym układzie GPU2.
+5. Wywołanie DuplicateOutput lub DuplicateOutput1 odbywa się na zweryfikowanym obiekcie wyjścia.
+W sytuacjach, gdy przetworzony bufor klatki musi trafić do pamięci dGPU (na przykład celem zasilenia modelu detekcji w środowisku CUDA/CuPy), wykonuje się kopie międzysprzętową2. Klatka przechwycona z iGPU jest kopiowana do pamięci systemowej RAM (staging resource), po czym zostaje wczytana do kontekstu dGPU lub przesyłana z wykorzystaniem tekstur współdzielonych (ID3D11Device::OpenSharedResource), o ile obydwa sterowniki obsługują wspólną pamięć graficzną2.
+4. Kaskadowe strategie niezawodności i porównanie API przechwytywania
+4.1. Porównanie mechanizmów przechwytywania obrazu w systemie Windows
+Zapewnienie ciągłości przechwytywania wymaga zastosowania rozwiązań alternatywnych w przypadku braku możliwości użycia DXGI DDA.
+
+
+Cecha / API
+	DXGI Desktop Duplication (DDA)
+	Windows.Graphics.Capture (WGC)
+	GDI BitBlt
+	Opóźnienie (Latency)
+	Bardzo niskie (1–3 ms)2
+	Niskie (5–10 ms)1
+	Wysokie (20–50 ms)
+	Obciążenie CPU
+	Znikome (< 5% rdzenia)2
+	Niskie (< 10% rdzenia)
+	Umiarkowane do wysokiego
+	Zgodność Multi-GPU
+	Wymaga zgodności adaptera2
+	Pełna (zarządzana przez DWM)1
+	Pełna (przetwarzanie w CPU)
+	Obsługa HDR
+	Natywna (DuplicateOutput1)4
+	Automatyczna konwersja DWM
+	Brak (tylko 8-bit SDR)
+	Dostępność UAC / Logowanie
+	Nie (DXGI_ERROR_ACCESS_LOST)9
+	Nie (ograniczenie prywatności)
+	Tak (w kontekście SYSTEM)
+	Przechwytywanie okien
+	Tylko cały pulpit / region
+	Natywne okno (nawet zakryte)
+	Tylko widoczne obszary
+	4.2. Windows.Graphics.Capture (WGC) jako elastyczny mechanizm rezerwowy
+Interfejs Windows.Graphics.Capture (WGC), wprowadzony w systemie Windows 10 (wersja 1903), stanowi nowoczesną alternatywę dla DXGI DDA1. WGC działa w oparciu o serwer kompozycji DWM, który wykonuje konwersję i przesyłanie klatek między różnymi układami GPU na poziomie jądra systemu1.
+Przewaga WGC ujawnia się w środowiskach wielokartowych oraz podczas przechwytywania gier wyrenderowanych z użyciem technologii Frame Generation lub zawartych w oknach bezramkowych1. WGC przechwytuje zawartość bezpośrednio z potoku kompozytora, dzięki czemu nie doznaje błędów typu DXGI_ERROR_UNSUPPORTED1. W środowisku Python integracja WGC może być realizowana za pomocą wydajnych bibliotek, takich jak windows-capture21 lub natywnego pakietu bindings WinRT (winsdk.windows.graphics.capture.interop)23. Głównym ograniczeniem WGC pozostaje brak możliwości przechwytywania ekranów zabezpieczonych (UAC, ekran logowania)18.
+4.3. GDI BitBlt jako ostateczny bufor bezpieczeństwa
+Interfejs GDI BitBlt opiera się na tradycyjnym wywołaniu systemowym sterownika ekranu i pamięci RAM. Pomimo wysokiego zużycia zasobów procesora oraz braku synchronizacji z odświeżaniem monitora, GDI BitBlt pozostaje jedynym API zdolnym do pobrania obrazu w warunkach całkowitego załamania podsystemu Direct3D, resetu sterowników graficznych lub podczas pracy w uprzywilejowanym kontekście usługi systemowej (SYSTEM service) nad monitami bezpieczeństwa UAC.
+5. Odporność wątkowa: Parametryzacja grab() i cykl życia przechwytywania
+5.1. Zarządzanie limitami czasu (Timeout) i obsługa błędów AcquireNextFrame
+Wywołanie metody AcquireNextFrame wymaga jawnego określenia dopuszczalnego czasu oczekiwania na nową klatkę w milisekundach (TimeoutInMilliseconds)2. Przekazanie wartości    wymusza natychmiastowe odpytywanie (polling), co generuje setki tysięcy pustych wywołań i nadmierne zużycie procesora2. Z kolei przekazanie wartości nieskończonej (INFINITE) powoduje trwałe zablokowanie wątku w przypadku braku odświeżania pulpitu lub utraty urządzenia9.
+Optymalny przedział limitu czasu wynosi od 50 ms do 100 ms2. Odpowiedź interfejsu na wywołanie determinowana jest przez zwracany kod błędu (HRESULT):
+
+
+Zwracany kod HRESULT
+	Stan operacji
+	Wymagana reakcja aplikacji
+	S_OK
+	Klatka pobrana pomyślnie
+	Odczyt danych i wywołanie ReleaseFrame
+[cite: 2]
+	DXGI_ERROR_WAIT_TIMEOUT
+	Brak nowych zmian na pulpicie
+	Ponowne wywołanie pętli lub zwrot poprzedniej klatki2
+	DXGI_ERROR_ACCESS_LOST
+	Unieważnienie sesji (UAC, zmiana res)
+	Przejście do procedury odzyskiwania sprawności9
+	DXGI_ERROR_INVALID_CALL
+	Błąd stanu (niezgodne wywołanie)
+	Zwolnienie zasobów i re-inicjalizacja17
+	DXGI_ERROR_DEVICE_REMOVED
+	Reset sprzętowy GPU / TDR
+	Całkowite odtworzenie fabryki D3D11 i urządzeń15
+	5.2. Odporna architektura zarządcy przechwytywania (Recovery Protocol)
+Zapewnienie ciągłości działania wymaga zaimplementowania logiki zarządzania cyklem życia zasobów graficznych. Po wystąpieniu wyjątku sygnalizującego utratę dostępu (DXGI_ERROR_ACCESS_LOST), wątek przechwytujący wstrzymuje wykonywanie operacji pobierania i przechodzi do procedury odzyskiwania.
+W pierwszym kroku następuje jawne zwolnienie wszystkich powiązanych obiektów COM: wywoływane są metody Release() dla obiektu IDXGIOutputDuplication, tekstury staging ID3D11Texture2D oraz kontekstu ID3D11DeviceContext2. Niepełne zwolnienie chociażby jednego uchwytu blokuje możliwość ponownego utworzenia interfejsu podwojenia wyjścia przez sterownik systemowy17.
+W drugim kroku aplikacja wprowadza okres stabilizacji opóźnienia (typowo 200–500 ms), pozwalający systemowi operacyjnemu na dokończenie przełączenia pulpitu5. Po upływie tego czasu wykonywana jest ponowna ponowna enumeracja adapterów oraz próba powołania nowego obiektu IDXGIOutputDuplication. Jeżeli trzy kolejne próby odtworzenia sesji DXGI zakończą się niepowodzeniem, zarządca przełącza pobieranie na interfejs WGC lub GDI BitBlt, zapewniając ciągłą pracę aplikacji.
+6. Metodyka testowania bez bezpośredniego dostępu do sprzętu
+6.1. Emulacja HDR i zaawansowanych wyświetlaczy za pomocą IddSampleDriver
+Weryfikacja poprawności działania algorytmów konwersji kolorów HDR oraz obsługi formatów R10G10B10A2_UNORM i R16G16B16A16_FLOAT nie wymaga fizycznego posiadania monitora HDR4. Do tego celu wykorzystuje się wirtualne sterowniki wyświetlaczy oparte na szablonie Microsoft Indirect Display Driver Sample (IddSampleDriver)25.
+Instalacja wirtualnego sterownika ekranu (np. Virtual Display Driver) pozwala na programowe zdefiniowanie wirtualnego monitora w systemie Windows26. Z poziomu pliku konfiguracyjnego sterownika wymusza się obsługę palety barw Rec.2020 oraz trybu HDR104. Po aktywacji przełącznika HDR w systemowych ustawieniach ekranu dla emulowanego monitora, kompozytor DWM przechodzi w tryb renderowania HDR3. Aplikacja przechwytująca skierowana na wirtualne wyjście otrzymuje natywne ramki HDR, co umożliwia przetestowanie algorytmów tone mappingu i konwersji kanałów w środowisku deweloperskim3.
+6.2. Symulacja awarii sprzętowych, przełączeń ekranu i wyścigu TDR
+Stabilność logiki re-inicjalizacji oraz kaskady awaryjnej można weryfikować za pomocą kontrolowanych wymuszeń systemowych:
+Sztuczne wywołanie resetu sterownika graficznego (TDR) realizuje się poleceniem PowerShell z poziomu uprawnień administratora: Restart-PnpDevice -InstanceId (Get-PnpDevice -Class Display).InstanceId Wywołanie to wymusza natychmiastowe unieważnienie urządzeń D3D11, powiadamiając aplikację o błędzie DXGI_ERROR_DEVICE_REMOVED i testując odporność procedury odzyskiwania15.
+Przełączenie na Bezpieczny Pulpit symuluje się poprzez wywołanie systemowego okna UAC (np. próbę uruchomienia procesu wy wyższych uprawnieniach) lub programowe zablokowanie sesji użytkownika (LockWorkStation). Zdarzenie to wymusza wystąpienie DXGI_ERROR_ACCESS_LOST, weryfikując poprawność przełączenia na mechanizm fallback9.
+Wpływ funkcji HAGS oraz wysokiego obciążenia GPU testuje się poprzez równoległe uruchomienie wywołań shaderów obliczeniowych DirectCompute bądź narzędzi testów obciążeniowych (np. FurMark), obserwując zachowanie pętli grab() przy zadanych parametrach timeoutu8.
+7. Rekomendacje dla architektury aplikacji
+W celu wyeliminowania zidentyfikowanych problemów w aplikacjach wykorzystujących moduł DXCam, zaleca się wprowadzenie zmian w poszczególnych komponentach oprogramowania:
+W module przechwytywania należy wyeliminować wywołania grab() pozbawione parametru limitu czasu, zastępując je wywołaniami z określonym czasem oczekiwania (np. 50 ms)2. Kod wywołujący musi obsługiwać kody błędów HRESULT i w przypadku wykrycia DXGI_ERROR_ACCESS_LOST przechodzić do procedury zwolnienia zasobów i odbudowy sesji2. Należy również zaimplementować jawną enumerację fabryki DXGI, gwarantującą tworzenie urządzenia D3D11 na tym samym adapterze, do którego przypisany jest docelowy monitor2.
+W module analizy obrazu oraz detekcji obiektów należy usunąć statyczne założenie o otrzymywaniu 8-bitowej macierzy BGR. Przed przekazaniem bufora do funkcji przetwarzających należy odczytać pole Format z opisu tekstury oraz sprawdzić parametr RowPitch4. W przypadku obecności buforów o wyższej głębi bitowej lub odmiennej kolejności kanałów należy zastosować konwersję do formatu BGR 8-bit z uwzględnieniem bufora wyrównania pamięci4.
+W skali całej architektury systemu wskazane jest wdrożenie elastycznego zarządcy przechwytywania, który w przypadku trwałej awarii interfejsu DXGI (np. w konfiguracjach wielokartowych lub podczas wystąpienia ekranów zabezpieczonych) automatycznie przełączy źródło danych na interfejs Windows.Graphics.Capture lub GDI BitBlt, gwarantując ciągłość pracy aplikacji1.
+Cytowane prace
+1. Windows Graphics Capture vs DXGI Desktop Duplication - OBS Studio, https://obsproject.com/forum/threads/windows-graphics-capture-vs-dxgi-desktop-duplication.149320/
+2. Zaatra/Rapidshot: Windows screen capture for feeding ... - GitHub, https://github.com/Zaatra/Rapidshot
+3. Use DirectX with Advanced Color on high/standard dynamic range, https://learn.microsoft.com/en-us/windows/win32/direct3darticles/high-dynamic-range
+4. Using the Desktop Duplication API with HDR - Microsoft Learn, https://learn.microsoft.com/en-us/answers/questions/1457052/using-the-desktop-duplication-api-with-hdr-interpr
+5. unom/punktfunk - punktfunk - unom - Git, https://git.unom.io/unom/punktfunk/commits/commit/ce84861e3ac47505436a0661a169c49c73692d2c/crates/punktfunk-host/src/capture/dxgi.rs
+6. rapidshot - PyPI, https://pypi.org/project/rapidshot/
+7. _ctypes.COMError: (-2005270524, 'The specified device interface or, https://github.com/ra1nty/DXcam/issues/38
+8. GPU scheduling priority for DXGI/WGC capture under 100% GPU load, https://forums.developer.nvidia.com/t/gpu-scheduling-priority-for-dxgi-wgc-capture-under-100-gpu-load/371129
+9. Comparing e88c28c15c..8740cbd961 - punktfunk - unom - Git, https://git.unom.io/unom/punktfunk/compare/e88c28c15c7bf1fa18e7bb9e437edd1a169df4d4..v0.2.0
+10. Używanie funkcji DirectX z kolorem zaawansowanym na, https://learn.microsoft.com/pl-pl/windows/win32/direct3darticles/high-dynamic-range
+11. Newest 'directx-11' Questions - Stack Overflow, https://stackoverflow.com/questions/tagged/directx-11?tab=Newest
+12. Mouse feels heavy as soon as i start the stream? - OBS Studio, https://obsproject.com/forum/threads/mouse-feels-heavy-as-soon-as-i-start-the-stream.192295/
+13. Games run fine Windows 10, Crash constantly in Windows 11, https://learn.microsoft.com/en-us/answers/questions/3889471/games-run-fine-windows-10-crash-constantly-in-wind
+14. (DXGI_ERROR_DEVICE_HUNG) every session - 13405488, https://forums.ea.com/discussions/battlefield-6-technical-issues-en/dxgi-error-device-hung-every-session/13405488
+15. I am experiencing consistent GPU crashes on Intel Arc during focus, https://community.intel.com/t5/Graphics/I-am-experiencing-consistent-GPU-crashes-on-Intel-Arc-during/m-p/1742236/highlight/true?profile.language=es
+16. Automatic Display Capture now selects DXGI instead of Windows, https://github.com/obsproject/obs-studio/issues/13719
+17. clawmation/docs/MIGRATION-NOTES.md at master - Fastly, https://ithub.global.ssl.fastly.net/faadingnightmaares/clawmation/blob/master/docs/MIGRATION-NOTES.md
+18. NortheBridge/luminalshine - GitHub, https://github.com/NortheBridge/luminalshine
+19. Distorted Image Graphics Capture Api - Stack Overflow, https://stackoverflow.com/questions/77323435/distorted-image-graphics-capture-api
+20. OBS Studio Help Guide 2021-06-11 - Scribd, https://www.scribd.com/document/587936872/OBS-Studio-Help-Guide-2021-06-11
+21. windows-capture - crates.io: Rust Package Registry, https://crates.io/crates/windows-capture
+22. windows_capture - Rust - Docs.rs, https://docs.rs/windows-capture
+23. winsdk.windows namespace - Read the Docs, https://python-winsdk.readthedocs.io/en/latest/api/windows.html
+24. How to create and initialize a Direct3D Device #11 - GitHub, https://github.com/pywinrt/python-winsdk/issues/11
+25. HDR Virtual Display Driver Update! : r/cloudygamer - Reddit, https://www.reddit.com/r/cloudygamer/comments/1897jak/hdr_virtual_display_driver_update/
+26. Moonlight Streaming without Monitor (no dummy plug needed), https://www.reddit.com/r/MoonlightStreaming/comments/rzpcpc/moonlight_streaming_without_monitor_no_dummy_plug/
+27. Made a Windows Virtual Display Driver that supports up to 8K 240hz., https://www.reddit.com/r/cloudygamer/comments/17b39vm/made_a_windows_virtual_display_driver_that/
+28. PrPlanIT/DisplayWizard: Virtual Display Driver: Wizard is a GUI tool, https://github.com/PrPlanIT/DisplayWizard
+29. GitHub - VirtualDrivers/Virtual-Display-Driver, https://github.com/VirtualDrivers/Virtual-Display-Driver

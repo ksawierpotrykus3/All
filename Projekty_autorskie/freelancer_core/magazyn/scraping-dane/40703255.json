@@ -1,0 +1,79 @@
+{
+  "id": "40703255",
+  "url": "https://www.freelancer.pl/projects/computer-vision/Image-Bounding-Box-Annotation-40703255/details",
+  "title": "5,000 Image Bounding-Box Annotation",
+  "author": "Anonim",
+  "budget": "100.0 - 400.0 INR",
+  "category": "scraping-dane",
+  "detected_at": "2026-09-10T17:28:39.006073",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703255",
+    "url": "https://www.freelancer.pl/projects/computer-vision/Image-Bounding-Box-Annotation-40703255/details",
+    "seo_url": "computer-vision/Image-Bounding-Box-Annotation-40703255",
+    "title": "5,000 Image Bounding-Box Annotation",
+    "budget": "100.0 - 400.0 INR",
+    "budget_raw": {
+      "minimum": 100.0,
+      "maximum": 400.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I have a collection of 5,000 images that must be annotated with clear, tightly-fitted bounding boxes",
+    "category": "scraping-dane",
+    "project_type": "hourly",
+    "jobs": [
+      "Data Processing",
+      "Image Processing",
+      "Computer Vision",
+      "Deep Learning",
+      "Image Recognition",
+      "YOLO",
+      "Data Annotation",
+      "Data Labeling"
+    ],
+    "bid_stats": {
+      "bid_count": 3,
+      "bid_avg": 268.0
+    },
+    "local": false,
+    "time_submitted": 1789047611
+  },
+  "full_details": {
+    "id": "40703255",
+    "title": "5,000 Image Bounding-Box Annotation",
+    "full_description": "I have a collection of 5,000 images that must be annotated with clear, tightly-fitted bounding boxes around the single object of interest in each frame. These labels will feed directly into a new machine-learning pipeline, so consistency and pixel-accurate placement are essential.\n\nYou are free to work in any mainstream tool such as LabelImg, CVAT, Supervisely or an equivalent—that choice is yours as long as the final export is delivered in a widely-used format (YOLO, COCO JSON or Pascal VOC). I will supply the class list, detailed annotation guidelines and a small set of fully-labeled examples to make expectations crystal-clear before you begin.\n\nDeliverables  \n• Complete set of 5,000 bounding-box annotation files in the agreed-upon format  \n• A brief progress log (image count completed per day)  \n• Final compressed archive organized exactly as the original folder structure\n\nAcceptance criteria  \n• Each bounding box fully encloses the object with minimal background (≤ 2 px tolerance)  \n• No missed objects, duplicates or mislabeled files  \n• Dataset passes a random 5 % manual spot check without corrections required\n\nLet me know which export format you prefer and how quickly you can turn around the full set once guidelines are in hand.",
+    "budget_raw": {
+      "minimum": 100.0,
+      "maximum": 400.0
+    },
+    "currency": "INR",
+    "project_type": "hourly",
+    "jobs": [
+      "Data Processing",
+      "Image Processing",
+      "Computer Vision",
+      "Deep Learning",
+      "Image Recognition",
+      "YOLO",
+      "Data Annotation",
+      "Data Labeling"
+    ],
+    "bid_stats": {
+      "bid_count": 3,
+      "bid_avg": 268.0
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:54"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:54.431569"
+}

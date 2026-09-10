@@ -1,0 +1,297 @@
+Ustawienie podatków shopify USA UE (VAT ioss)
+=============================================
+URL: https://useme.com/pl/jobs/ustawienie-podatkow-shopify-usa-ue-vat-ioss,143654/
+
+Zleceniodawca
+Nataliaz61
+
+Opis
+Cześć! 😊
+
+Szukam osoby, która bardzo dobrze zna Shopify i ma duże doświadczenie w konfiguracji podatków w sklepie.
+
+Sklep mam już gotowy i nie potrzebuję żadnego udoskonalania strony, zmian wizualnych ani konfiguracji produktów. Potrzebuję wyłącznie konsultacji i przeprowadzenia mnie krok po kroku przez ustawienia związane z podatkami w Shopify.
+
+Będę sprzedawać do krajów europejskich oraz do USA i planuję rejestrację do VAT IOSS, dlatego zależy mi na osobie, która pomoże mi poprawnie skonfigurować naliczanie VAT dla poszczególnych krajów europejskich. Jeśli Shopify daje taką możliwość, chciałabym również ustawić automatyczne pobieranie odpowiednich stawek VAT i prawidłowe naliczanie ich klientowi w koszyku.
+
+Potrzebuję też pomocy w ustawieniach dotyczących sprzedaży do USA, w szczególności Nexusa oraz limitów obowiązujących w poszczególnych stanach (nie chcę przekraczać tych progów ani rejestrować się do Nexusa, dlatego zależy mi przede wszystkim na możliwości bieżącego śledzenia sprzedaży i limitów). Zależy mi również na pokazaniu, gdzie w Shopify można monitorować sprzedaż i sprawdzać, czy zbliżam się do progów powodujących obowiązek rejestracji w danym stanie.
+
+Jestem nowa na Shopify, wcześniej korzystałam ze SkyShop, dlatego zależy mi na konsultacji w formie: wchodzimy razem w panel Shopify, a osoba mówi mi dokładnie, gdzie wejść, co zaznaczyć i co wpisać.
+
+Szukam kogoś, kto faktycznie ma doświadczenie w konfiguracji Shopify, Taxes and Duties, Unia Europejska oraz USA, a nie tylko ogólnie w tworzeniu sklepów na Shopify.
+
+mam już obgadane wszystkie kwestie z księgową i doradcą podatkowym. Czekam tylko na księgową żeby razem z nią zarejestrować się do IOSS. To będzie sprzedaż w modelu dropshipping, towar idzie prosto z Chin do klienta w UE/USA, więc nie ma żadnego magazynowania. Stawki VAT w przypadku UE będą te najwyższe. Aktualnie mam tylko jeden produkt, w przyszłości będzie ich o kilka wiecej.
+
+Jeśli zajmujesz się takimi konfiguracjami, proszę o wiadomość z informacją o doświadczeniu oraz cenie😊
+
+Opublikowano
+2026-09-01
+
+Kategoria
+Sklepy internetowe
+
+Prawa autorskie
+Decyzja freelancera
+
+Budżet
+Do negocjacji
+
+Ważne przez
+30 dni
+
+Wymagane funkcje::
+.
+
+Szablon / własny projekt::
+Shopify
+
+Wymagane umiejętności / tagi:
+AI, canva, facebook, + 5 więcej
+
+Wysłane oferty (14)
+------------------------------
+[Tom Smart | 0 umów](https://useme.com/pl/roles/contractor/677782/) - dzisiaj
+
+[Rizky Pradana | 1 umowa](https://useme.com/pl/roles/contractor/635608/) - 4 dni temu
+
+[Aviral Chauhan | 0 umów](https://useme.com/pl/roles/contractor/683569/) - 4 dni temu
+
+[Jakub Kulig | 28 umów](https://useme.com/pl/roles/contractor/429215/) - 5 dni temu
+  * AI
+  * canva
+  * facebook
+  * Facebook Ads
+  * instagram
+  * reklamy Google
+  * video
+  * wordpress
+
+[Skalownia | 2 umów](https://useme.com/pl/roles/contractor/667086/) - 6 dni temu
+  * allegro
+  * Amazon Ads
+  * Amazon FBA
+  * Amazon Seller Central
+  * Amazon SEO
+  * API
+  * base
+  * baselinker
+  * chatgpt
+  * dodawanie produktów
+  * ebay
+  * e-commerce
+  * ERP
+  * Facebook Ads
+  * google ads
+  * google analytics
+  * idosell
+  * javascript
+  * NodeJS
+  * prestashop
+  * python
+  * SEO E-commerce
+  * shoper
+  * shopify
+  * sql
+  * tiktok
+  * WooCommerce
+  * xml
+
+[Daniel | 0 umów](https://useme.com/pl/roles/contractor/423848/) - 2026-09-01
+  * grafika
+  * IT
+  * SEO E-commerce
+  * tworzenie treści
+
+[ofylypczuk | 50 umów](https://useme.com/pl/roles/contractor/249828/) - 2026-09-01
+  * administracja serwerów
+  * AI
+  * analityka internetowa
+  * analiza danych
+  * angielski
+  * API
+  * aplikacje mobilne
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * contadu
+  * css
+  * film reklamowy
+  * frontend
+  * git
+  * google search console
+  * html
+  * influencer
+  * influencer marketing
+  * Inżynieria Danych
+  * javascript
+  * migracja stron www
+  * montaż video
+  * niemiecki
+  * python
+  * react native
+  * ruby
+  * SaaS
+  * seo
+  * shoper
+  * shopify
+  * sklep internetowy
+  * social media
+  * strona www
+  * Supabase
+  * szablon
+  * teksty pozycjonujące
+  * tłumaczenia
+  * uczenie maszynowe
+  * user experience design
+  * Web Scraping
+  * WooCommerce
+  * wordpress
+
+[fastwebsite | 6 umów](https://useme.com/pl/roles/contractor/128643/) - 2026-09-01
+  * abap
+  * administracja serwerów
+  * administracja stron
+  * administracja systemów
+  * adobe illustrator
+  * adobe indesign
+  * adobe photoshop
+  * allegro
+  * animacja
+  * API
+  * aplikacje webowe
+  * architektura
+  * backend
+  * banner
+  * bazy danych
+  * blog
+  * c
+  * cięcie grafiki
+  * cięcie strony
+  * cms
+  * C plus plus
+  * CRM
+  * C Sharp
+  * css
+  * dodawanie produktów
+  * dtp
+  * edycja video
+  * film reklamowy
+  * fotografia
+  * frontend
+  * grafika
+  * grafika na stronę
+  * grafika wektorowa
+  * grafika www
+  * html
+  * html5
+  * identyfikacja wizualna
+  * ilustracje
+  * java
+  * javascript
+  * joomla
+  * kodowanie
+  * layout design
+  * lektor
+  * logo
+  * Magento
+  * moduł płatności
+  * montaż video
+  * muzyka
+  * nagrania
+  * .NET
+  * perl
+  * PHP
+  * plakat
+  * podkład muzyczny
+  * postgresql
+  * prestashop
+  * przygotowanie do druku
+  * python
+  * ruby
+  * rwd
+  * scrum
+  * serwis
+  * shoper
+  * sklep internetowy
+  * spot radiowy
+  * strona www
+  * szablon
+  * szparowanie
+  * telemarketing
+  * typografia
+  * ulotki
+  * user experience design
+  * VB.net
+  * video
+  * videoblog
+  * visual basic
+  * web development
+  * wirtualne biuro
+  * wizytówki
+  * WooCommerce
+  * wordpress
+  * xml
+  * zend
+
+[Jakub Kaczmarek | 25 umów](https://useme.com/pl/roles/contractor/137876/) - 2026-09-01
+
+[Webyjuice - Kreujemy marki | 1 umowa](https://useme.com/pl/roles/contractor/467254/) - 2026-09-01
+  * AI
+  * android
+  * boty
+  * branding
+  * css
+  * logo
+  * python
+  * React
+  * rebranding
+  * wordpress
+
+[KARTS DESIGN | 10 umów](https://useme.com/pl/roles/contractor/113377/) - 2026-09-01
+  * adobe illustrator
+  * adobe photoshop
+  * aplikacje mobilne
+  * apps
+  * architektura
+  * banner
+  * fotografia
+  * fotografia biznesowa
+  * fotografia mody
+  * fotografia produktowa
+  * grafika
+  * grafika na stronę
+  * grafika www
+  * identyfikacja wizualna
+  * layout design
+  * logo
+  * plakat
+  * sklep internetowy
+  * strona www
+  * UI
+  * ulotki
+  * user experience design
+  * UX design
+  * web development
+  * wizytówki
+  * wordpress
+
+[Szymon Józefowski | 1 umowa](https://useme.com/pl/roles/contractor/656981/) - 2026-09-01
+
+[Voxquartz Systems | 4 umów](https://useme.com/pl/roles/contractor/622861/) - 2026-09-01
+  * AI
+  * Elementor
+  * Flutter
+  * Next.js
+  * NodeJS
+  * PHP
+  * React
+  * SaaS
+  * wordpress
+
+[Mikołaj | 5 umów](https://useme.com/pl/roles/contractor/331674/) - 2026-09-01
+  * aws
+  * C Sharp
+  * javascript
+  * laravel
+  * PHP
+  * vue

@@ -1,0 +1,1 @@
+"""Vinted bot — monitoring i rezerwacja ofert."""

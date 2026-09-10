@@ -1,0 +1,69 @@
+{
+  "id": "40703374",
+  "url": "https://www.freelancer.pl/projects/excel/Excel-Personal-Budget-Entry/details",
+  "title": "Excel Personal Budget Entry",
+  "author": "Anonim",
+  "budget": "750.0 - 1250.0 INR",
+  "category": "scraping-dane",
+  "detected_at": "2026-09-10T17:28:38.991869",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703374",
+    "url": "https://www.freelancer.pl/projects/excel/Excel-Personal-Budget-Entry/details",
+    "seo_url": "excel/Excel-Personal-Budget-Entry",
+    "title": "Excel Personal Budget Entry",
+    "budget": "750.0 - 1250.0 INR",
+    "budget_raw": {
+      "minimum": 750.0,
+      "maximum": 1250.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "Several months of personal income and expense transactions need to be transferred into a clear, well",
+    "category": "scraping-dane",
+    "project_type": "hourly",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Excel"
+    ],
+    "bid_stats": {
+      "bid_count": 10,
+      "bid_avg": 905.0
+    },
+    "local": false,
+    "time_submitted": 1789050999
+  },
+  "full_details": {
+    "id": "40703374",
+    "title": "Excel Personal Budget Entry",
+    "full_description": "Several months of personal income and expense transactions need to be transferred into a clear, well-structured Excel workbook. I will supply the source documents—bank statements, receipts, and notes—with dates, descriptions, and amounts listed; you will key them in accurately, label each line as credit or debit, and verify that running balances reconcile for every month.\n\nThe finished file should allow me to sort or filter by date, description, and basic category, and it must total income, expenses, and net difference automatically. If you have an efficient template or can suggest simple pivot-table or chart views for quick insights, feel free to incorporate them once the core data entry is complete; the main priority, however, is clean, mistake-free data.\n\nDeliverables\n• Excel workbook (.xlsx) containing all transactions, balanced and fully checked  \n• Automatic subtotals for monthly income, expenses, and net balance  \n• Brief note outlining any formulas, pivots, or custom formatting added\n\nAccuracy and confidentiality are both essential. Let me know your turnaround time and a quick example of similar personal budget work you have completed so I can gauge fit.",
+    "budget_raw": {
+      "minimum": 750.0,
+      "maximum": 1250.0
+    },
+    "currency": "INR",
+    "project_type": "hourly",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Excel"
+    ],
+    "bid_stats": {
+      "bid_count": 10,
+      "bid_avg": 905.0
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:53"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:53.855378"
+}

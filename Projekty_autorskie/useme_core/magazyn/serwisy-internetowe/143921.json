@@ -1,0 +1,44 @@
+{
+  "id": "143921",
+  "url": "https://useme.com/pl/jobs/programista-do-stworzenia-strony-konfiguratora-domow,143921/",
+  "title": "Programista do stworzenia strony + konfiguratora domów",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-08T18:26:26.913783",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "143921",
+    "url": "https://useme.com/pl/jobs/programista-do-stworzenia-strony-konfiguratora-domow,143921/",
+    "title": "Programista do stworzenia strony + konfiguratora domów",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Szukam programisty / freelancera do stworzenia nowoczesnej strony internetowej dla marki SCANDIC ELEMENTS – producenta domów szkieletowych w technologii skandynawskiej.\nStrona ma posiadać interaktywny konfigurator domu: wybór modelu, układu,...",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/programista-do-stworzenia-strony-konfiguratora-domow,143921/",
+    "title": "Programista do stworzenia strony + konfiguratora domów",
+    "full_description": "<p>Szukam programisty / freelancera do stworzenia nowoczesnej strony internetowej dla marki SCANDIC ELEMENTS – producenta domów szkieletowych w technologii skandynawskiej.<br>Strona ma posiadać interaktywny konfigurator domu: wybór modelu, układu, standardu, elewacji, dachu, ogrzewania, wentylacji i dodatków, z dynamiczną zmianą wizualizacji domu, ceny oraz kalkulatorem finansowania.<br>Zależy mi również na interaktywnej bryle domu 360° z możliwością zmiany wariantów.<br>Mam już przygotowaną identyfikację marki, koncepcję graficzną strony, wizualizacje oraz szczegółowe założenia dla programisty, więc nie zaczynamy od zera.<br>Szukam osoby, która zna się na nowoczesnych stronach webowych i chce podjąć się ciekawego projektu z możliwością dalszej, długoterminowej współpracy.<br>Proszę o przesłanie portfolio, przykładowych realizacji, technologii w których pracujesz oraz orientacyjnej wyceny projektu.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/143921/offer/start/",
+    "scraped_at": "2026-09-10T16:02:46"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu. Robimy strony i konfiguratory produktowe, w tym wizualizacje 3D w przeglądarce. Ten temat to dla nas chleb powszedni.\n\nNajwiększy problem w takich konfiguratorach to nie sam wybór opcji, tylko to, że każda zmiana od razu przelicza całą bryłę 3D i cenę. Jak zrobisz to naiwnie, to przy 20 wariantach elewacji strona zaczyna się ciąć na telefonie, a klient rezygnuje w połowie. Dlatego od razu rozdzielimy silnik konfiguratora (który trzyma stan wyborów i liczy cenę) od warstwy wizualnej (3D/360), żeby zmiana koloru dachu nie ładowała od nowa całego modelu. Wizualizację zrobimy na lekkim modelu 3D z leniwym doczytywaniem tekstur, więc będzie płynnie chodzić też na telefonie.\n\nDrugi temat, na który warto uważać, to kalkulator finansowania. Banki i instytucje finansowe regularnie zmieniają sposób liczenia zdolności i wkładu własnego, więc kalkulator musi mieć oddzieloną logikę od widoku, żebyś mógł sam podmienić parametry bez ruszania całej strony.\n\nSkoro masz już materiały gotowe, to nie tracimy czasu na ich wymyślanie, tylko od razu wchodzimy w składanie całości.\n\nZa postawienie strony z kompletnym konfiguratorem: silnikiem wyborów, wizualizacją 3D/360 i kalkulatorem finansowania liczymy 3000 zł. Realizacja w 7 dni. W cenie dajemy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali oraz krótkie nagranie, jak samodzielnie podmieniać modele i parametry.\n\nZdzwońmy się w tym tygodniu na 15 minut. Jeśli chcesz, przed decyzją przygotujemy krótkie demo konfiguratora na jednym modelu, żebyś zobaczył, jak to chodzi w praktyce.\n\nPozdrawiam",
+    "wycena": 3000,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "143921",
+    "wycena": 3000,
+    "dni": 7,
+    "final_url": "https://useme.com/pl/jobs/143921/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_143921.png",
+    "message": "Oferta #143921 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/143921/offer/finish/)."
+  },
+  "full_description": "<p>Szukam programisty / freelancera do stworzenia nowoczesnej strony internetowej dla marki SCANDIC ELEMENTS – producenta domów szkieletowych w technologii skandynawskiej.<br>Strona ma posiadać interaktywny konfigurator domu: wybór modelu, układu, standardu, elewacji, dachu, ogrzewania, wentylacji i dodatków, z dynamiczną zmianą wizualizacji domu, ceny oraz kalkulatorem finansowania.<br>Zależy mi również na interaktywnej bryle domu 360° z możliwością zmiany wariantów.<br>Mam już przygotowaną identyfikację marki, koncepcję graficzną strony, wizualizacje oraz szczegółowe założenia dla programisty, więc nie zaczynamy od zera.<br>Szukam osoby, która zna się na nowoczesnych stronach webowych i chce podjąć się ciekawego projektu z możliwością dalszej, długoterminowej współpracy.<br>Proszę o przesłanie portfolio, przykładowych realizacji, technologii w których pracujesz oraz orientacyjnej wyceny projektu.</p>",
+  "updated_at": "2026-09-10T16:49:34.427751"
+}

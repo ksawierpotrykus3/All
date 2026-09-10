@@ -1,0 +1,83 @@
+{
+  "ts_start": "04:38:42.565Z",
+  "steps": [
+    {
+      "step": "wybor_itemu",
+      "elapsed_ms": 0.0,
+      "wall_utc": "04:38:42.566Z"
+    },
+    {
+      "step": "item 9824154091 seller=227876778 'Balónek č.8 a svíčka č.8'",
+      "elapsed_ms": 469.0,
+      "wall_utc": "04:38:43.035Z"
+    },
+    {
+      "step": "conversations conv=24722451971 txn=21906133185",
+      "elapsed_ms": 1453.0,
+      "wall_utc": "04:38:44.025Z",
+      "http": 200
+    },
+    {
+      "step": "build checkout=None",
+      "elapsed_ms": 1578.0,
+      "wall_utc": "04:38:44.149Z",
+      "http": 403
+    },
+    {
+      "step": "put payment_method",
+      "elapsed_ms": 1672.0,
+      "wall_utc": "04:38:44.250Z",
+      "http": 404,
+      "checksum": false
+    },
+    {
+      "step": "put pickup_details",
+      "elapsed_ms": 1781.0,
+      "wall_utc": "04:38:44.349Z",
+      "http": 404,
+      "checksum": false
+    },
+    {
+      "step": "PAYMENT (BLAD)",
+      "elapsed_ms": 1891.0,
+      "wall_utc": "04:38:44.463Z",
+      "http": 403,
+      "payment_status": null,
+      "redirect": "",
+      "success": false
+    },
+    {
+      "step": "txn status",
+      "elapsed_ms": 2063.0,
+      "wall_utc": "04:38:44.630Z",
+      "txn_status": 1,
+      "status_title": ""
+    },
+    {
+      "step": "start Camoufox do screena bramki",
+      "elapsed_ms": 2063.0,
+      "wall_utc": "04:38:44.631Z"
+    }
+  ],
+  "elapsed": {
+    "to_gateway_ms": null,
+    "txn_status_ms": 2063.0
+  },
+  "item": {
+    "id": 9824154091,
+    "seller": 227876778,
+    "title": "Balónek č.8 a svíčka č.8",
+    "price": {
+      "amount": "1.82",
+      "currency_code": "PLN"
+    }
+  },
+  "success": false,
+  "txn": {
+    "id": 21906133185,
+    "status": 1,
+    "status_title": "",
+    "purchase_id": null
+  },
+  "screenshot_error": "Page.goto: Protocol error (Page.navigate): Invalid url: \"\"\nCall log:\n  - navigating to \"\", waiting until \"domcontentloaded\"\n"
+}

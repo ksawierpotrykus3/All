@@ -1,0 +1,83 @@
+{
+  "id": "40703180",
+  "url": "https://www.freelancer.pl/projects/web-development/Shopify-Digital-Subscription-Setup/details",
+  "title": "Shopify Digital Subscription Setup",
+  "author": "Anonim",
+  "budget": "750.0 - 1250.0 INR",
+  "category": "sklepy-shopify",
+  "detected_at": "2026-09-10T17:28:38.952705",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703180",
+    "url": "https://www.freelancer.pl/projects/web-development/Shopify-Digital-Subscription-Setup/details",
+    "seo_url": "web-development/Shopify-Digital-Subscription-Setup",
+    "title": "Shopify Digital Subscription Setup",
+    "budget": "750.0 - 1250.0 INR",
+    "budget_raw": {
+      "minimum": 750.0,
+      "maximum": 1250.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I’m setting up a Shopify store that will sell only digital products—downloadable files, templates, a",
+    "category": "sklepy-shopify",
+    "project_type": "hourly",
+    "jobs": [
+      "Website Design",
+      "Project Management",
+      "SEO",
+      "eCommerce",
+      "Product Management",
+      "Analytics",
+      "Shopify",
+      "Email Marketing",
+      "Web Development",
+      "Website Development"
+    ],
+    "bid_stats": {
+      "bid_count": 43,
+      "bid_avg": 1069.5113953488371
+    },
+    "local": false,
+    "time_submitted": 1789043754
+  },
+  "full_details": {
+    "id": "40703180",
+    "title": "Shopify Digital Subscription Setup",
+    "full_description": "I’m setting up a Shopify store that will sell only digital products—downloadable files, templates, and similar assets—and I need it to run on a clean, subscription-based model.\n\nHere’s what I need done:  \n• Configure a reliable subscription solution inside Shopify so customers can choose a plan, pay on a recurring basis, and instantly access their downloads.  \n• Integrate Stripe as the sole payment gateway, test end-to-end checkout, renewals, cancellations, and webhook callbacks.  \n• Upload a few sample digital items so I can verify the flow from purchase to file delivery.  \n• Set up automated customer emails for welcome, renewal, and cancellation events.  \n• Provide a concise guide showing how I can add new digital products and manage subscription tiers on my own.\n\nAcceptance criterion: a test purchase made with Stripe must create an active subscription, unlock the digital file, and trigger the correct emails without errors.\n\nIf you’ve recently built something similar with Shopify, especially where Stripe subscriptions and digital delivery are involved, I’d love to see it. Please include an estimated timeline for the first working version.",
+    "budget_raw": {
+      "minimum": 750.0,
+      "maximum": 1250.0
+    },
+    "currency": "INR",
+    "project_type": "hourly",
+    "jobs": [
+      "Website Design",
+      "Project Management",
+      "SEO",
+      "eCommerce",
+      "Product Management",
+      "Analytics",
+      "Shopify",
+      "Email Marketing",
+      "Web Development",
+      "Website Development"
+    ],
+    "bid_stats": {
+      "bid_count": 43,
+      "bid_avg": 1069.5113953488371
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:51"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:51.219721"
+}

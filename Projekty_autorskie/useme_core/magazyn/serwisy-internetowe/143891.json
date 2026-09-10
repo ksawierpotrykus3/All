@@ -1,0 +1,44 @@
+{
+  "id": "143891",
+  "url": "https://useme.com/pl/jobs/net-developer-needed-for-personal-task-expense-management-web-app,143891/",
+  "title": ".NET Developer Needed for Personal Task & Expense Management Web App",
+  "author": "Anonim",
+  "budget": "2000,00 USD",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-08T18:26:26.910990",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "143891",
+    "url": "https://useme.com/pl/jobs/net-developer-needed-for-personal-task-expense-management-web-app,143891/",
+    "title": ".NET Developer Needed for Personal Task & Expense Management Web App",
+    "budget": "2000,00 USD",
+    "author": "Anonim",
+    "short_desc": "I’m looking for a .NET developer to build a small personal web application for managing tasks and daily expenses. This is a private project intended for individual use, so the application should be simple, clean, responsive, and easy to...",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/net-developer-needed-for-personal-task-expense-management-web-app,143891/",
+    "title": ".NET Developer Needed for Personal Task & Expense Management Web App",
+    "full_description": "<p>I’m looking for a .NET developer to build a small personal web application for managing tasks and daily expenses. This is a private project intended for individual use, so the application should be simple, clean, responsive, and easy to maintain.</p>\n\n<p>The developer should be comfortable working independently and delivering a complete working application with source code and basic setup documentation.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/143891/offer/start/",
+    "scraped_at": "2026-09-10T16:02:41"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu, .NET i aplikacje webowe to nasza codzienność. Widzę, że szukasz kogoś do prywatnego projektu do zadań i wydatków, więc lecimy konkretnie.\n\nZanim wybierzemy technologię, jedna rzecz warta uwagi. .NET 8, który pewnie gdzieś tam się przewija w rozmowach, kończy wsparcie w listopadzie 2026. Budowanie nowej apki na nim oznacza migrację za kilka miesięcy. My celujemy w .NET 10 (wersja z długim wsparciem do 2028), więc aplikacja po prostu dłużej pożyje bez dodatkowych kosztów.\n\nDruga sprawa, którą warto ustalić na starcie: wydatki. Jeśli myślisz o automatycznym pobieraniu transakcji z banku, w Polsce to wymaga licencji AISP/PISP i rejestracji w KNF, co przy projekcie prywatnym jest praktycznie nie do przejścia. Alternatywa to agregator typu Nordigen czy Salt Edge, ale to abonament. Rozsądny kompromis dla jednej osoby to import CSV z banku. Wtedy masz wszystkie dane, zero kosztów miesięcznych i zero walki z regulacjami. Jeśli tego nie potrzebujesz, tym lepiej, zostaje czysty CRUD.\n\nCo dostaniesz: aplikację ASP.NET Core z zadaniami i wydatkami (dodawanie, edycja, filtrowanie, kategorie, walidacje), logowanie z kontem prywatnym, responsywny layout działający na telefonie i desktopie, całość wrzucona na VPS z SSL, backupem i dokumentacją setup krok po kroku, żebyś mógł to postawić od zera gdyby coś się stało. Kod i źródła oczywiście Twoje.\n\nZa całość liczymy 4500 zł, realizacja w 11 dni. W cenie masz 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali, które zwykle wychodzą w praniu, plus krótkie wideo pokazujące jak obsługiwać panel i wrzucać wydatki.\n\nMamy też taką zasadę, że jeśli klient nie ma rozpisanej specyfikacji, pomagamy ją ułożyć przed startem. Tutaj zakres jest prosty, więc wystarczy krótka rozmowa.\n\nZdzwońmy się na 15 minut w tym tygodniu, albo napisz na priv i dopniemy szczegóły. Jeśli chcesz zobaczyć jak to może wyglądać, mogę przygotować krótkie demo.\n\nPozdrawiam",
+    "wycena": 4500,
+    "dni": 11,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "143891",
+    "wycena": 4500,
+    "dni": 11,
+    "final_url": "https://useme.com/pl/jobs/143891/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_143891.png",
+    "message": "Oferta #143891 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/143891/offer/finish/)."
+  },
+  "full_description": "<p>I’m looking for a .NET developer to build a small personal web application for managing tasks and daily expenses. This is a private project intended for individual use, so the application should be simple, clean, responsive, and easy to maintain.</p>\n\n<p>The developer should be comfortable working independently and delivering a complete working application with source code and basic setup documentation.</p>",
+  "updated_at": "2026-09-10T16:44:57.223020"
+}

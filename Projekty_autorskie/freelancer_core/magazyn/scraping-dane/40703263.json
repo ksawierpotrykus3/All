@@ -1,0 +1,79 @@
+{
+  "id": "40703263",
+  "url": "https://www.freelancer.pl/projects/google-sheets/Blog-Article-Data-Entry/details",
+  "title": "Blog Article Data Entry",
+  "author": "Anonim",
+  "budget": "12500.0 - 37500.0 INR",
+  "category": "scraping-dane",
+  "detected_at": "2026-09-10T17:28:39.011406",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703263",
+    "url": "https://www.freelancer.pl/projects/google-sheets/Blog-Article-Data-Entry/details",
+    "seo_url": "google-sheets/Blog-Article-Data-Entry",
+    "title": "Blog Article Data Entry",
+    "budget": "12500.0 - 37500.0 INR",
+    "budget_raw": {
+      "minimum": 12500.0,
+      "maximum": 37500.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I have a collection of articles and blog posts online that need to be copied over accurately into my",
+    "category": "scraping-dane",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Proofreading",
+      "Excel",
+      "Copy Typing",
+      "Content Writing",
+      "Time Management",
+      "Google Sheets"
+    ],
+    "bid_stats": {
+      "bid_count": 5,
+      "bid_avg": 16400.0
+    },
+    "local": false,
+    "time_submitted": 1789047064
+  },
+  "full_details": {
+    "id": "40703263",
+    "title": "Blog Article Data Entry",
+    "full_description": "I have a collection of articles and blog posts online that need to be copied over accurately into my spreadsheet template. All the information is already published on the web; the task is simply to capture the text exactly as it appears, paste it into the correct columns, and keep basic formatting such as paragraph breaks and headings intact.\n\nKey points  \n• Source: publicly available web articles and blogs  \n• Content type: pure text (no images or tables)  \n• Tool of choice: Google Sheets – the template is ready for you  \n\nPlease work methodically, double-check for missing paragraphs, and flag any broken links you encounter. Once a batch is finished, let me review before you proceed to the next set so we stay perfectly aligned.",
+    "budget_raw": {
+      "minimum": 12500.0,
+      "maximum": 37500.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Proofreading",
+      "Excel",
+      "Copy Typing",
+      "Content Writing",
+      "Time Management",
+      "Google Sheets"
+    ],
+    "bid_stats": {
+      "bid_count": 5,
+      "bid_avg": 16400.0
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:54"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:54.902218"
+}

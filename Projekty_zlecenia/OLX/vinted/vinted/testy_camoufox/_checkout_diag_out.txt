@@ -1,0 +1,12 @@
+t0 import
+POPUP: about:blank
+t1 goto item
+t2 goto done: https://www.vinted.pl/items/9807925466-genesis-krypton-700
+buy button: button[data-testid="item-buy-button"]
+click buy
+FINAL URL: https://www.vinted.pl/items/9807925466-genesis-krypton-700
+POPUPS: ['about:blank']
+checkout REQS: []
+checkout RESPS: []
+screenshot saved
+DONE

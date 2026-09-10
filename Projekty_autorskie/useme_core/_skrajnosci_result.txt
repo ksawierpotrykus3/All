@@ -1,0 +1,96 @@
+########## APILO (retainer) ##########
+
+===== WYCENA =====
+[WYNIK_KONCOWY]
+KWOTA: 3500
+DNI: 7
+OKRES: miesiecznie (stala wspolpraca, nie kwota jednorazowa)
+[/WYNIK_KONCOWY]
+
+--- UZASADNIENIE DOBORU (model) ---
+Zlecenie to stała współpraca (retainer) — ogłoszenie wprost mówi 'do stałej współpracy' z zakresem day-to-day troubleshootingu i administracji integracjami e-commerce (Apilo, BaseLinker, Shopify, Make). To kategoria 'Opieka techniczna / administrator' (BaseLinker, hosting, reagowanie na awarie), stąd stawka miesięczna 2500 zł/mies (górna widełka 1500-2500 zł/mies) — zakres wymaga specjalistycznej wiedzy o API wymienionych systemów, więc lokujemy się na górze widełek opieki technicznej, nie wchodzimy w customer success (to nie rola B2B/CS). Flagę ograniczenia_api ustawiam na true, bo research potwierdził konkretne ograniczenia architektoniczne: BaseLinker nie wspiera już scope read_all_orders (zepsuta synchronizacja historycznych zamówień Shopify), Make używa przestarzałego REST API Shopify oznaczonego jako unsupported, tokeny Apilo wygasają co 21 dni (wymagany auto-refresh), limit BaseLinker 100 req/min. Brak specyfikacji - true (opis ogólny, brak mockupów i konkretnych wymagań). nowa_technologia - false (Apilo/BaseLinker/Shopify/Make to znane systemy e-commerce, nie niszowy ERP). figma_w_ogloszeniu - false.
+
+--- ROZBICIE (kalkulator deterministyczny) ---
+{
+  "tryb": "retainer",
+  "okres": "miesiecznie",
+  "stawka_bazowa": 2500.0,
+  "mnoznik": 1.625,
+  "korekta": 0.85
+}
+
+===== OFERTA =====
+Cześć,
+
+Piszę w imieniu dwuosobowego zespołu. Siedzimy w integracjach e-commerce na co dzień, a Apilo, BaseLinker, Shopify i Make to nasz chleb powszedni. Nie szukamy zleceń na sztuki, interesuje nas stała opieka nad czyimś stackiem, bo wtedy naprawdę widać efekty.
+
+Z opisu widzę, że szukasz kogoś do wyłapywania bieżących problemów. To jest dokładnie ta robota, w której najważniejsze nie jest gaszenie pożarów, tylko wiedza, gdzie one i tak wybuchną. Weźmy BaseLinkera spiętego ze Shopify. Na papierze wszystko działa, w praktyce synchronizacja zamówień starszych niż 60 dni nie przejdzie, bo scope read_all_orders nie jest już dostępny po stronie BaseLinkera i support tego nie odkręci. Jak tego nie wiesz, tydzień zleci na diagnozie, a zamówienia dalej będą się rozjeżdżać. Druga rzecz to Make. Scenariusze z modułem Shopify siedzą na starym REST API, które Shopify wygasza, i część z nich potrafi się po prostu zablokować. Nowe automatyzacje od razu stawiamy na GraphQL przez moduł Make an API Call, żeby nie wpaść w tę samą pułapkę za pół roku.
+
+Apilo ma osobny haczyk: tokeny żyją 21 dni. Jeśli integracja nie odświeża ich automatycznie, po trzech tygodniach cichnie i nikt nie wie dlaczego. Do tego BaseLinker tnie na 100 zapytaniach na minutę, co przy tokenie współdzielonym z innym systemem (ERP, faktury) kończy się błędami 429 dokładnie wtedy, kiedy jest gorączka. Przy takich integracjach nie chodzi o to, żeby napisać skrypt, tylko żeby poukładać kolejkowanie i osobne tokeny tak, żeby systemy nie zabijały się nawzajem.
+
+Jak to u nas wygląda w praktyce: wchodzimy, przechodzimy przez Wasze integracje punkt po punkcie, spisujemy co jest spięte i na czym, i mówimy wprost, które połączenia są kruche, a które do przepisania. Potem reagujemy na bieżąco na to, co się sypie, i przy okazji domykamy przyczynę, nie objaw. Zamówienia, stany, wysyłki, produkty, API, webhooki, wszystko co siedzi pomiędzy systemami.
+
+To stała współpraca rozliczana miesięcznie, liczymy 3500 zł miesięcznie. W tym masz naszą dyspozycyjność i bieżące ogarnianie problemów, a nie rozliczanie za każdą godzinę. Przy tej kwocie pierwszy przegląd integracji i lista ryzyk jest po naszej stronie, żebyś od razu wiedział, na czym stoisz.
+
+Zdzwońmy się w tym tygodniu na 15 minut, powiesz mi jakie systemy macie spięte i od czego zaczynamy.
+
+Pozdrawiam
+
+
+
+########## ENOVA365 (enterprise) ##########
+
+===== WYCENA =====
+[WYNIK_KONCOWY]
+KWOTA: 5000
+DNI: 12
+[/WYNIK_KONCOWY]
+
+--- UZASADNIENIE DOBORU (model) ---
+Zlecenie integracyjne enova365 przez Soneta WebAPI. Rozpoznane dwa niezależne moduły: (1) uruchomienie i konfiguracja WebAPI z autoryzacją JWT oraz uprawnieniami operatora (kategoria 'Integracja zewnętrznego API 1 serwis, auth + CRUD', górna widełka 10h), (2) cykliczne eksporty dokumentów/zapytań/rozrachunków z logiką marży oraz własne kontrolery statyczne WebAPI odtwarzające logikę obiektową marży (kategoria 'Integracja zewnętrznego API złożona, retry, error handling, queue', górna widełka 20h). Nie rozbijam na osobne moduły konfiguracji, eksportów i kontrolerów, bo dzielą tę samą wiedzę o modelu danych enovy i WebAPI - rozdzielenie powodowałoby podwójne liczenie godzin. Nowa technologia = true (niszowy ERP enova365, zespół nigdy wcześniej z nim nie pracował) -> bufor +30% zamiast standardowego +20% (KROK 4). Ograniczenia API = true na podstawie researchu: marża nie jest przechowywana jako pole w bazie, wymaga kontrolera statycznego C#/.NET; dodatkowo ryzyko licencyjne modułu WebAPI (płatny dodatek wg dokumentacji producenta, mimo twierdzenia klienta) -> mnożnik ×1.25 (KROK 5). Brak specyfikacji = false - klient opisał zakres konkretnie w trzech punktach z jasnymi wymaganiami. Figma nie występuje w ogłoszeniu. Zlecenie stare (6 dni) z 23 ofertami -> korekta konkurencyjna ×0.95. Stawka efektywna 90 zł/h (profil 2 miesiące, 5 umów).
+
+--- ROZBICIE (kalkulator deterministyczny) ---
+{
+  "tryb": "projekt",
+  "moduly": [
+    {
+      "nazwa": "Integracja zewnętrznego API (1 serwis, auth + CRUD)",
+      "godziny_real": 10
+    },
+    {
+      "nazwa": "Integracja zewnętrznego API (złożona, retry, error handling, queue)",
+      "godziny_real": 20
+    }
+  ],
+  "godziny_real": 30.0,
+  "po_testach_15": 34.5,
+  "bufor": 0.3,
+  "po_buforze": 44.9,
+  "mnoznik_ryzyka": 1.25,
+  "cap_zadzialal": false,
+  "po_mnoznikach": 56.1,
+  "stawka": 90,
+  "cena_bazowa": 5045.6,
+  "korekta_konkurencyjna": 0.95,
+  "cena_po_korekcie": 4793.3,
+  "kwota_koncowa": 5000
+}
+
+===== OFERTA =====
+Dzień dobry,
+
+Piszę w imieniu dwuosobowego zespołu. Robimy integracje API, automatyzacje i spięcia systemów ERP z zewnętrznymi narzędziami dla firm handlowych.
+
+Najpierw odpowiedź na wasze pytanie o marżę, bo to jest sedno tego projektu. Marża w enovie nie leży jako kolumna w bazie, jest wyliczana obiektowo na podstawie dokumentu, jego elementów, przecen, kosztów i kursów walut. Standardowe kontrolery dynamiczne Sonety tego nie wystawią, bo one zwracają surowe dane z modelu, a nie wskaźniki biznesowe. Trzeba napisać własny kontroler statyczny, czyli endpoint w C#/.NET po stronie enovy, który odtworzy tę logikę i wystawi już policzoną wartość przez REST. To jedyne sensowne podejście, bo nie zależy od tego, jak Soneta akurat trzyma kolumny w bazie, i nie zacznie cicho kłamać po kolejnej aktualizacji.
+
+Zanim zaczniemy cokolwiek kodować, warto żebyście zadzwonili do swojego resellera i potwierdzili, że moduł WebAPI jest aktywny na waszej licencji. Soneta licencjonuje go jako osobny dodatek, aktywowany przez partnera na konkretnej instalacji. Nawet jeśli producent pisemnie twierdzi, że nie musicie nic dokupywać, warto to zweryfikować telefonicznie, bo to pierwszy punkt kosztowy i czasowy projektu.
+
+Co do eksportów, jeśli pójdą przez Harmonogram Zadań, dorzućmy od razu heartbeat na zewnątrz. W enovie zadanie, które się nie uruchomiło, i to, które uruchomiło się i nic nie znalazło, wyglądają identycznie, nie zostawiają śladu. Bez monitoringu nie zauważycie, że dane przestały lecieć, dopóki ktoś nie zapyta o raport.
+
+Wycena: 5000 zł za 12 dni roboczych. Rozbijam na trzy punkty z waszego zakresu. Uruchomienie i konfiguracja WebAPI (operator, uprawnienia, dostęp, autoryzacja JWT) to 4 dni. Cykliczne eksporty dokumentów sprzedaży z marżą, zapytań ofertowych ze statusem oraz rozrachunków z przeterminowaniami to 5 dni. Własne kontrolery statyczne tam, gdzie standardowe dynamiczne nie pokryją zakresu, głównie marża, to 3 dni. Nasza stawka dzienna to 500 zł, ale przy całym zakresie rozliczamy się pakietowo, dlatego 12 dni zamyka się w 5000 zł, część pracy dzieli się bowiem tą samą wiedzą o modelu danych i nie ma sensu liczyć jej podwójnie.
+
+Co do referencji z enova365, nie mamy ich i nie będę zmyślał, że jest inaczej. To nasz pierwszy projekt na tym ERP. Mamy natomiast za sobą integracje API z systemami handlowymi i ERP przez REST, z autoryzacją tokenową i harmonogramem zadań z monitoringiem. Jeśli referencje enova365 są dla was warunkiem koniecznym, rozumiem i nie będę marnował waszego czasu. Jeśli chcecie pogadać o samym podejściu do marży i kontrolerów statycznych, zdzwońmy się na 15 minut.
+
+Pozdrawiam
+
+

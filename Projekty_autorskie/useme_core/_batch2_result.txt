@@ -1,0 +1,1 @@
+| 4 | 4. Integracja Base XML | projekt/male | 10h | 4500 | 11 | 150.7 | PASS |

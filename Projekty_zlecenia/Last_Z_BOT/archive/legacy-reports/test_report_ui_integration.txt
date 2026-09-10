@@ -1,0 +1,46 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.1.1, pluggy-1.6.0 -- F:\PROJEKTY\joaxx\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+hypothesis profile 'default'
+rootdir: F:\PROJEKTY\joaxx
+configfile: pyproject.toml
+plugins: anyio-4.14.2, hypothesis-6.167.1, cov-7.1.0, timeout-2.4.0
+collecting ... collected 35 items
+
+tests/simulator/test_ui_integration.py::TestInteractiveUIInitialization::test_interactive_ui_init_callbacks PASSED [  2%]
+tests/simulator/test_ui_integration.py::TestInteractiveUIInitialization::test_interactive_ui_init_canvas_renderer PASSED [  5%]
+tests/simulator/test_ui_integration.py::TestInteractiveUIInitialization::test_interactive_ui_init_creates_root_window PASSED [  8%]
+tests/simulator/test_ui_integration.py::TestInteractiveUIInitialization::test_interactive_ui_init_custom_dimensions PASSED [ 11%]
+tests/simulator/test_ui_integration.py::TestInteractiveUIInitialization::test_interactive_ui_init_default_dimensions PASSED [ 14%]
+tests/simulator/test_ui_integration.py::TestInteractiveUIInitialization::test_interactive_ui_init_queues PASSED [ 17%]
+tests/simulator/test_ui_integration.py::TestInteractiveUIInitialization::test_interactive_ui_init_timeline_events_buffer PASSED [ 20%]
+tests/simulator/test_ui_integration.py::TestPreloadMacroImages::test_preload_macro_images_directory_missing PASSED [ 22%]
+tests/simulator/test_ui_integration.py::TestPreloadMacroImages::test_preload_macro_images_loads_png_files PASSED [ 25%]
+tests/simulator/test_ui_integration.py::TestPreloadMacroImages::test_preload_macro_images_thread_safe PASSED [ 28%]
+tests/simulator/test_ui_integration.py::TestWindowCreationWinAPI::test_window_close_protocol PASSED [ 31%]
+tests/simulator/test_ui_integration.py::TestWindowCreationWinAPI::test_window_geometry_set PASSED [ 34%]
+tests/simulator/test_ui_integration.py::TestWindowCreationWinAPI::test_window_resizable_false PASSED [ 37%]
+tests/simulator/test_ui_integration.py::TestWindowCreationWinAPI::test_window_title_set PASSED [ 40%]
+tests/simulator/test_ui_integration.py::TestCanvasRendererInitialization::test_canvas_renderer_canvas_config PASSED [ 42%]
+tests/simulator/test_ui_integration.py::TestCanvasRendererInitialization::test_canvas_renderer_init PASSED [ 45%]
+tests/simulator/test_ui_integration.py::TestCanvasRendererInitialization::test_canvas_renderer_macro_image_paths_dict PASSED [ 48%]
+tests/simulator/test_ui_integration.py::TestCanvasRendererInitialization::test_canvas_renderer_macro_images_dict PASSED [ 51%]
+tests/simulator/test_ui_integration.py::TestCanvasRendererInitialization::test_canvas_renderer_timer_animator PASSED [ 54%]
+tests/simulator/test_ui_integration.py::TestCanvasRendererInitialization::test_canvas_renderer_unique_id PASSED [ 57%]
+tests/simulator/test_ui_integration.py::TestCanvasRendering::test_render_state_clears_canvas PASSED [ 60%]
+tests/simulator/test_ui_integration.py::TestCanvasRendering::test_render_state_handles_exception PASSED [ 62%]
+tests/simulator/test_ui_integration.py::TestCanvasRendering::test_render_state_returns_true_on_success PASSED [ 65%]
+tests/simulator/test_ui_integration.py::TestCanvasRendering::test_render_state_symbolic_fallback PASSED [ 68%]
+tests/simulator/test_ui_integration.py::TestCanvasImageLoading::test_load_and_render_image_not_found PASSED [ 71%]
+tests/simulator/test_ui_integration.py::TestCanvasImageLoading::test_load_and_render_image_success PASSED [ 74%]
+tests/simulator/test_ui_integration.py::TestCanvasImageLoading::test_photo_image_caching PASSED [ 77%]
+tests/simulator/test_ui_integration.py::TestCanvasImageLoading::test_render_image_uses_cache PASSED [ 80%]
+tests/simulator/test_ui_integration.py::TestTimerOverlayRendering::test_render_timer_overlay_default_effects PASSED [ 82%]
+tests/simulator/test_ui_integration.py::TestTimerOverlayRendering::test_render_timer_overlay_not_visible PASSED [ 85%]
+tests/simulator/test_ui_integration.py::TestTimerOverlayRendering::test_render_timer_overlay_stores_photo_image PASSED [ 88%]
+tests/simulator/test_ui_integration.py::TestTimerOverlayRendering::test_render_timer_overlay_with_effects PASSED [ 91%]
+tests/simulator/test_ui_integration.py::TestThreadSafeAccess::test_macro_images_concurrent_access PASSED [ 94%]
+tests/simulator/test_ui_integration.py::TestThreadSafeAccess::test_metrics_queue_thread_safe PASSED [ 97%]
+tests/simulator/test_ui_integration.py::TestClearMethod::test_canvas_clear PASSED [100%]
+
+============================= 35 passed in 13.77s =============================

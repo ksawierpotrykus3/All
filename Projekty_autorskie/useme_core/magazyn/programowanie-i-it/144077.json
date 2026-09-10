@@ -1,0 +1,42 @@
+{
+  "id": "144077",
+  "url": "https://useme.com/pl/jobs/system-chmurowy-do-rejestracji-i-rozliczania-czasu-przez-api,144077/",
+  "title": "System chmurowy do rejestracji i rozliczania czasu przez API",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T15:25:31.125986",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144077",
+    "url": "https://useme.com/pl/jobs/system-chmurowy-do-rejestracji-i-rozliczania-czasu-przez-api,144077/",
+    "title": "System chmurowy do rejestracji i rozliczania czasu przez API",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Poszukujemy wykonawcy do stworzenia chmurowego systemu do rejestracji zdarzeń i automatycznego rozliczania czasu.\n\nSystem ma odbierać dane z urządzeń zewnętrznych przez REST API, zapisywać zdarzenie w bazie wraz z datą, godziną i identyfikatorem...",
+    "category": "programowanie-i-it"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/system-chmurowy-do-rejestracji-i-rozliczania-czasu-przez-api,144077/",
+    "title": "System chmurowy do rejestracji i rozliczania czasu przez API",
+    "full_description": "<p>Poszukujemy wykonawcy do stworzenia chmurowego systemu do rejestracji zdarzeń i automatycznego rozliczania czasu.</p>\n\n<p>System ma odbierać dane z urządzeń zewnętrznych przez REST API, zapisywać zdarzenie w bazie wraz z datą, godziną i identyfikatorem urządzenia oraz rozpocząć naliczanie czasu.</p>\n\n<p>System powinien obsługiwać wiele niezależnych lokalizacji oraz wiele urządzeń przypisanych do konkretnych lokalizacji.</p>\n\n<p>Schemat działania:</p>\n\n<p>Urządzenie wysyła przez API informację o rozpoczęciu sesji.<br>System zapisuje sesję i nalicza czas.<br>Użytkownik skanuje kod QR i otwiera stronę internetową.<br>Wpisuje swój identyfikator.<br>System wyszukuje aktywną sesję i wylicza należną kwotę.<br>Po potwierdzeniu system wysyła przez API kwotę i dane sesji do naszego zewnętrznego urządzenia.<br>Po otrzymaniu potwierdzenia sesja zostaje zakończona.</p>\n\n<p>System powinien umożliwiać konfigurację taryf, m.in.:</p>\n\n<p>jednorazowa opłata za rozpoczęcie sesji,<br>stawka za każdą rozpoczętą lub pełną minutę,<br>różne stawki dla różnych lokalizacji.</p>\n\n<p>Panel administracyjny:</p>\n\n<p>zarządzanie lokalizacjami,<br>dodawanie i identyfikacja urządzeń,<br>podgląd aktywnych i zakończonych sesji,<br>konfiguracja taryf,<br>historia zdarzeń i rozliczeń.</p>\n\n<p>W kolejnym etapie planujemy dodać klientów VIP, zwolnienia z opłat oraz dostęp czasowy.</p>\n\n<p>Nie oczekujemy tworzenia systemu płatniczego ani fiskalnego. System ma jedynie przekazywać przez API dane sesji i wyliczoną kwotę do naszego urządzenia.</p>\n\n<p>Prosimy o orientacyjną wycenę, proponowaną technologię oraz koszty późniejszego utrzymania systemu.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144077/offer/start/",
+    "scraped_at": "2026-09-10T15:25:55"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu. Robimy systemy backendowe i integracje API na co dzień, w tym tematy związane z urządzeniami zewnętrznymi i rozliczaniem sesji. Ten projekt to dla nas chleb powszedni.\n\nNajwiększe ryzyko w tym projekcie nie leży w samym naliczaniu czasu, tylko w dwukierunkowej komunikacji z urządzeniami. Urządzenie wysyła start sesji, a potem system musi odesłać kwotę z powrotem i poczekać na potwierdzenie. Jeśli któreś urządzenie nie odpowie w porę albo sieć się zerwie, sesja może zostać otwarta na zawsze i nikt nie naliczy za nią opłaty. Dlatego zbudujemy to z kolejką i automatycznymi ponowieniami po stronie serwera, tak żeby żadne zdarzenie nie zginęło i żadna sesja nie została bez rozliczenia. Dodatkowo na endpointach API od razu wstawimy ograniczenie liczby wywołań na urządzenie, żeby jedno uszkodzone albo zapętlone urządzenie nie położyło całego systemu.\n\nDruga rzecz, o której warto pomyśleć już teraz: planujecie w kolejnym etapie klientów VIP, zwolnienia z opłat i dostęp czasowy. Jeśli model taryf i uprawnień zrobimy na sztywno pod obecne trzy stawki, to później czeka nas przepisywanie połowy systemu. Zaprojektujemy to od początku tak, żeby dało się dokładać nowe reguły bez ruszania tego, co już działa. Przy okazji warto ustalić jedną rzecz: przy rozliczaniu minutowym domyślnie przyjmujemy taktowanie 60/60, czyli każda rozpoczęta minuta liczy się jak pełna. Jeśli chcecie inaczej, dajcie znać.\n\nJeszcze kwestia identyfikatora użytkownika przy skanowaniu QR. To są dane osobowe w rozumieniu RODO, więc od razu zrobimy to porządnie: minimalizacja danych, możliwość usunięcia wpisu i rozdzielenie tego, co widzi admin, od tego, co trafia do rozliczeń. Ostrzegam też na przyszłość: jeśli ktoś w firmie wpadnie na pomysł identyfikacji biometrycznej przy ewidencji czasu, to UODO tego nie akceptuje. Zostajemy przy kodach QR i identyfikatorach.\n\nTechnicznie proponujemy backend w .NET albo Node.js, bazę PostgreSQL, panel admina na gotowym, sprawdzonym szablonie (oszczędza to kilka dni pracy, a wygląda profesjonalnie). Kody QR generujemy sprawdzoną biblioteką, więc tu nie ma żadnego ryzyka. Co do utrzymania: przy kilku do kilkudziesięciu urządzeniach najtaniej wychodzi model serverless (płacicie tylko za faktyczne wywołania, rzędu kilkudziesięciu złotych miesięcznie). Jeśli wolicie przewidywalny stały koszt, stawiamy to na zwykłym serwerze VPS, też za kilkadziesiąt złotych miesięcznie. Wskażemy dokładnie, co wybrać, jak już będziemy znali liczbę lokalizacji.\n\nZa postawienie kompletnego systemu razem z panelem administracyjnym, integracją z urządzeniami i stroną QR liczymy 12000 zł. Realizacja w 26 dni. W cenie zapewniamy 14 dni bezpłatnej opieki powdrożeniowej (wszelkie poprawki i dopracowanie szczegółów robimy od ręki) oraz krótkie wideo z nagraniem ekranu pokazujące krok po kroku jak obsługiwać wdrożone rozwiązanie.\n\nZdzwońmy się w tym tygodniu na krótkiego calla na Google Meet lub telefon na 15 minut, albo napisz na priv i dopniemy szczegóły. Jeśli chcesz zobaczyć jak to zadziała w praktyce, możemy bez problemu przygotować krótkie wstępne demo rozwiązania.\n\nPozdrawiam",
+    "wycena": 12000,
+    "dni": 26,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "final_url": "https://useme.com/pl/jobs/144077/offer/finish/",
+    "wycena": 12000,
+    "dni": 26,
+    "proof_screenshot": "c:/Users/Ksawier/Pictures/Screenshots/Projekty_autorskie/useme_core/debug/submitted_proof_144077.png"
+  },
+  "updated_at": "2026-09-10T16:33:39.642696",
+  "error": null
+}

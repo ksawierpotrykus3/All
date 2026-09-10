@@ -1,0 +1,79 @@
+{
+  "id": "40703326",
+  "url": "https://www.freelancer.pl/projects/data-processing/Winomkar-Excel-Data-Automation/details",
+  "title": "Winomkar Excel Data Automation",
+  "author": "Anonim",
+  "budget": "600.0 - 1500.0 INR",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.827766",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703326",
+    "url": "https://www.freelancer.pl/projects/data-processing/Winomkar-Excel-Data-Automation/details",
+    "seo_url": "data-processing/Winomkar-Excel-Data-Automation",
+    "title": "Winomkar Excel Data Automation",
+    "budget": "600.0 - 1500.0 INR",
+    "budget_raw": {
+      "minimum": 600.0,
+      "maximum": 1500.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I need an automated workflow that pulls mixed text-and-number records from our Winomkar Excel workbo",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "Python",
+      "Visual Basic",
+      "Data Processing",
+      "Excel",
+      "Software Architecture",
+      "Scripting",
+      "Data Analysis",
+      "Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 11,
+      "bid_avg": 1586.3636363636363
+    },
+    "local": false,
+    "time_submitted": 1789049473
+  },
+  "full_details": {
+    "id": "40703326",
+    "title": "Winomkar Excel Data Automation",
+    "full_description": "I need an automated workflow that pulls mixed text-and-number records from our Winomkar Excel workbooks, processes them, and returns clean, ready-to-use sheets without any manual touch-ups. The script (whether built in Python, VBA, Power Query, or another reliable tool you prefer) must open the source files, carry out the required data operations, and then save or export refreshed results in the same folder structure.\n\nPlease make sure the automation:\n\n• Sorts rows according to the parameters I can define at run time  \n• Filters data on multiple columns with dynamic criteria  \n• Performs built-in or custom calculations as specified in a config section  \n• Copies results to designated summary sheets  \n• Validates every entry against simple rules I will provide (e.g., mandatory fields, data type checks)  \n• Generates a concise report summarising any errors or outliers it found  \n\nA clear, well-commented codebase, brief setup instructions, and one example run on my sample files will be considered acceptance criteria.",
+    "budget_raw": {
+      "minimum": 600.0,
+      "maximum": 1500.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "Python",
+      "Visual Basic",
+      "Data Processing",
+      "Excel",
+      "Software Architecture",
+      "Scripting",
+      "Data Analysis",
+      "Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 11,
+      "bid_avg": 1586.3636363636363
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:42"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:42.564037"
+}

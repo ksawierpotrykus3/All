@@ -1,0 +1,44 @@
+{
+  "id": "144038",
+  "url": "https://useme.com/pl/jobs/szukam-administratora-baselinker,144038/",
+  "title": "Szukam Administratora Baselinker",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-08T18:26:26.890866",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144038",
+    "url": "https://useme.com/pl/jobs/szukam-administratora-baselinker,144038/",
+    "title": "Szukam Administratora Baselinker",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Poszukujemy osoby do stałej opieki technicznej nad naszym środowiskiem BaseLinker oraz powiązanymi z nim integracjami i automatyzacjami.\n\nNie szukamy osoby wyłącznie do wystawiania ofert czy obsługi zamówień. Zależy nam przede wszystkim na kimś,...",
+    "category": "programowanie-i-it"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/szukam-administratora-baselinker,144038/",
+    "title": "Szukam Administratora Baselinker",
+    "full_description": "<p>Poszukujemy osoby do stałej opieki technicznej nad naszym środowiskiem BaseLinker oraz powiązanymi z nim integracjami i automatyzacjami.</p>\n\n<p>Nie szukamy osoby wyłącznie do wystawiania ofert czy obsługi zamówień. Zależy nam przede wszystkim na kimś, kto bardzo dobrze zna BaseLinker od strony technicznej, potrafi diagnozować problemy, kontrolować działanie procesów oraz reagować w przypadku awarii.</p>\n\n<p>Zakres współpracy</p>\n\n<p>Do głównych zadań będzie należało:</p>\n\n<p>administracja i bieżące zarządzanie BaseLinkerem,<br>kontrola poprawności działania automatyzacji,<br>tworzenie i modyfikowanie automatycznych akcji,<br>diagnozowanie oraz usuwanie błędów,<br>kontrola przepływu zamówień, statusów i danych pomiędzy systemami,<br>nadzór nad integracją BaseLinker ↔ Comarch XL,<br>kontrola synchronizacji produktów, stanów magazynowych, zamówień i innych danych,<br>diagnozowanie problemów z integracjami kurierskimi oraz marketplace,<br>optymalizacja istniejących procesów w BaseLinkerze,<br>wychwytywanie potencjalnych problemów, zanim zaczną wpływać na realizację zamówień,<br>wsparcie techniczne w przypadku awarii lub nieprawidłowego działania systemu.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144038/offer/start/",
+    "scraped_at": "2026-09-10T16:02:36"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu, robimy integracje e-commerce i automatyzacje na co dzień. BaseLinker (teraz Base, choć API zostało pod starym adresem i to się nie zmieniło) to nasze codzienne środowisko pracy razem z Comarch XL.\n\nNajwiększy problem w takim układzie to nie sam BaseLinker, tylko integracja z Comarch XL. Base nie tworzy własnych integratorów ERP i nie wspiera ich technicznie, więc cała komunikacja z XL idzie przez zewnętrznego dostawcę (ELTE-S albo CDNPARTNERS). A XL to nie REST, tylko biblioteki DLL i model sesji logowanie, operacje, wylogowanie. Jak coś się sypie na styku Base-XL, trzeba umieć rozdzielić, czy problem jest po stronie Base, integratora, czy samego ERP, i wiedzieć kiedy zgłosić to do dostawcy, a kiedy naprawić samemu. My to rozdzielamy.\n\nDruga rzecz to limity API. Standardowo 100 zapytań na minutę i przy kilku procesach naraz łatwo to wyczerpać, zwłaszcza gdy ten sam token używany jest przez inne aplikacje. Monitorujemy zużycie i w razie skoku włączamy Accelerations, które rozliczają się dziennie, więc płaci się tylko za dni, kiedy faktycznie były potrzebne. Do tego webhooki w Base są nietypowe, przychodzą jako HTTP HEAD z payloadem w query stringu, bez podpisu i bez body, więc automatyzacje trzeba budować z głową, głównie na pollingu po dzienniku zdarzeń, żeby nie zajechać limitu.\n\nNasze podejście jest proste, pilnujemy środowiska tak, żeby problemy wychodziły zanim dotkną zamówień, a nie po fakcie.\n\nStawka: 3100 zł miesięcznie, stała współpraca rozliczana co miesiąc. To nie jest kwota jednorazowa za wdrożenie, tylko comiesięczna opieka nad środowiskiem i integracjami.\n\nZdzwońmy się w tym tygodniu na 15 minut, powiesz jak wygląda u was przepływ danych między Base a XL i ustalimy priorytety.\n\nPozdrawiam",
+    "wycena": 3100,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144038",
+    "wycena": 3100,
+    "dni": 7,
+    "final_url": "https://useme.com/pl/jobs/144038/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144038.png",
+    "message": "Oferta #144038 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144038/offer/finish/)."
+  },
+  "full_description": "<p>Poszukujemy osoby do stałej opieki technicznej nad naszym środowiskiem BaseLinker oraz powiązanymi z nim integracjami i automatyzacjami.</p>\n\n<p>Nie szukamy osoby wyłącznie do wystawiania ofert czy obsługi zamówień. Zależy nam przede wszystkim na kimś, kto bardzo dobrze zna BaseLinker od strony technicznej, potrafi diagnozować problemy, kontrolować działanie procesów oraz reagować w przypadku awarii.</p>\n\n<p>Zakres współpracy</p>\n\n<p>Do głównych zadań będzie należało:</p>\n\n<p>administracja i bieżące zarządzanie BaseLinkerem,<br>kontrola poprawności działania automatyzacji,<br>tworzenie i modyfikowanie automatycznych akcji,<br>diagnozowanie oraz usuwanie błędów,<br>kontrola przepływu zamówień, statusów i danych pomiędzy systemami,<br>nadzór nad integracją BaseLinker ↔ Comarch XL,<br>kontrola synchronizacji produktów, stanów magazynowych, zamówień i innych danych,<br>diagnozowanie problemów z integracjami kurierskimi oraz marketplace,<br>optymalizacja istniejących procesów w BaseLinkerze,<br>wychwytywanie potencjalnych problemów, zanim zaczną wpływać na realizację zamówień,<br>wsparcie techniczne w przypadku awarii lub nieprawidłowego działania systemu.</p>",
+  "updated_at": "2026-09-10T16:21:15.909896"
+}

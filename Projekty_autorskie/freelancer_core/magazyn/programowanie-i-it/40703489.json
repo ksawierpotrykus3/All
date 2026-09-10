@@ -1,0 +1,101 @@
+{
+  "id": "40703489",
+  "url": "https://www.freelancer.pl/projects/woocommerce/Illustrated-Kids-Books-Website-Build/details",
+  "title": "Illustrated Kids' Books Website Build",
+  "author": "Anonim",
+  "budget": "1500.0 - 12500.0 INR",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:44:24.145611",
+  "status": "DRY_RUN_OK",
+  "list_details": {
+    "id": "40703489",
+    "url": "https://www.freelancer.pl/projects/woocommerce/Illustrated-Kids-Books-Website-Build/details",
+    "seo_url": "woocommerce/Illustrated-Kids-Books-Website-Build",
+    "title": "Illustrated Kids' Books Website Build",
+    "budget": "1500.0 - 12500.0 INR",
+    "budget_raw": {
+      "minimum": 1500.0,
+      "maximum": 12500.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I run a children’s book publishing house and need a modern, mobile-friendly website that captures ou",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "JavaScript",
+      "Website Design",
+      "SEO",
+      "WordPress",
+      "CSS",
+      "CMS",
+      "HTML",
+      "WooCommerce",
+      "Web Development"
+    ],
+    "bid_stats": {
+      "bid_count": 27,
+      "bid_avg": 7085.888888888889
+    },
+    "local": false,
+    "time_submitted": 1789054709
+  },
+  "full_details": {
+    "id": "40703489",
+    "title": "Illustrated Kids' Books Website Build",
+    "full_description": "I run a children’s book publishing house and need a modern, mobile-friendly website that captures our illustrated, playful style while making it effortless for parents and teachers to discover—and buy—our titles. The core structure is straightforward: Home, About, Books, Shop, Blog, and Contact. On the Books page I’ll start with three titles, each showing a cover, short description, and a few sample pages (PDF flip or lightbox is fine).  \n\nSelling happens in two ways, so the shop must handle both: \n• a secure payment gateway for instant eBook checkout with automatic download delivery, and  \n• clear “Buy on Amazon / Apple / etc.” buttons that send visitors to those marketplaces.  \n\nPlease build on a CMS that lets me add future books, swap banners, or write blog posts without touching code—WordPress with WooCommerce or a similarly simple setup is perfect, but I’m open to any platform that meets that ease-of-use goal. Performance, basic on-page SEO, and responsive design are non-negotiable; the site should load quickly on phones and tablets and pass Google’s mobile-friendly test. A newsletter signup (Mailchimp or comparable), social sharing, and an easy way to see sales/download reports will round things out.\n\nWhen you reply, include:\n1. A link to two or three children’s/creative sites you’ve built that show personality.\n2. The tools or plugins you propose (theme builder, payment plugin, security, backup, etc.).\n3. A clear timeline with key milestones and your total project cost.\n\nDeliverables will be:\n• Fully functional website on my hosting with dummy content replaced by the three launch titles  \n• Tested payment flow with secure SSL and automatic eBook delivery  \n• Written hand-off guide (or short Loom walkthrough) so I can add new books on my own.  \n\nI’m ready to move quickly once I see the right fit and look forward to your proposal.",
+    "budget_raw": {
+      "minimum": 1500.0,
+      "maximum": 12500.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "JavaScript",
+      "Website Design",
+      "SEO",
+      "WordPress",
+      "CSS",
+      "CMS",
+      "HTML",
+      "WooCommerce",
+      "Web Development"
+    ],
+    "bid_stats": {
+      "bid_count": 28,
+      "bid_avg": 7047.107142857143
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:44:24"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nZgłaszam swoją gotowość do realizacji zlecenia 'Illustrated Kids' Books Website Build'.\nPosiadam doświadczenie w wymaganym zakresie i gwarantuję terminowe dowiezienie projektu.\n\nPozdrawiam,\nZespół",
+    "wycena": 15000125000,
+    "dni": 7,
+    "powod": "Deterministyczny mock dla testu szkieletu"
+  },
+  "submission_result": {
+    "status": "DRY_RUN_OK",
+    "job_id": "40703489",
+    "final_url": "https://www.freelancer.pl/projects/woocommerce/Illustrated-Kids-Books-Website-Build/details",
+    "wycena": 15000125000,
+    "dni": 7,
+    "filled": {
+      "amount": 15000125000,
+      "days": 7,
+      "description": true
+    },
+    "proof_screenshot": "C:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\freelancer_core\\debug\\bid_form_40703489.png",
+    "message": "Formularz wypelniony; zatrzymano przed 'Zloz oferte' (DRY_RUN)."
+  },
+  "updated_at": "2026-09-10T17:44:37.122406"
+}

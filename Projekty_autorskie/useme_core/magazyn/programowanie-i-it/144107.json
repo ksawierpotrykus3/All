@@ -1,0 +1,46 @@
+{
+  "id": "144107",
+  "url": "https://useme.com/pl/jobs/szukamy-specjalisty-ds-technicznej-opieki-nad-stronami-www-i-serwerami,144107/",
+  "title": "Szukamy specjalisty ds. technicznej opieki nad stronami www i serwerami",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T15:25:31.103969",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144107",
+    "url": "https://useme.com/pl/jobs/szukamy-specjalisty-ds-technicznej-opieki-nad-stronami-www-i-serwerami,144107/",
+    "title": "Szukamy specjalisty ds. technicznej opieki nad stronami www i serwerami",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Poszukujemy osoby do stałej administracji serwerami i hostingiem oraz comiesięcznej opieki technicznej nad stronami www (głównie WordPress, ale też projekty custom). Nie wymagamy tworzenia serwisów od zera — kluczowa jest sprawna administracja,...",
+    "category": "programowanie-i-it"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/szukamy-specjalisty-ds-technicznej-opieki-nad-stronami-www-i-serwerami,144107/",
+    "title": "Szukamy specjalisty ds. technicznej opieki nad stronami www i serwerami",
+    "full_description": "<p>Poszukujemy osoby do stałej administracji serwerami i hostingiem oraz comiesięcznej opieki technicznej nad stronami www (głównie WordPress, ale też projekty custom). Nie wymagamy tworzenia serwisów od zera — kluczowa jest sprawna administracja, utrzymanie i szybka reakcja na problemy.<br>Zakres obowiązków:<br>•\tObsługa serwerów i hostingu, migracje między hostingami, bazy danych<br>•\tZarządzanie panelem DirectAdmin, konta FTP, uprawnienia<br>•\tKonfiguracja domen, rekordów DNS, przekierowań i certyfikatów SSL<br>•\tComiesięczna opieka nad stronami wraz z raportem<br>•\tAktualizacje WordPressa, motywów i wtyczek bez uszkadzania strony (WP Rocket, Cookiebot) + szybka reakcja i naprawa<br>•\tKopie zapasowe (pliki + baza) z możliwością odtworzenia strony<br>•\tDiagnostyka problemów (błędy 500, biały ekran, konflikty wtyczek, spadki wydajności)<br>•\tPodstawowe zabezpieczenia stron i hostingu, reagowanie na awarie, boty, malware, SEO spam<br>•\tWdrażanie analityki: GTM, GA4, Search Console<br>•\tDrobne zmiany w panelu WP (teksty, grafiki, poprawki układu i mobile)</p>\n\n<p>W zgłoszeniu prosimy o:<br>•\tKrótki opis doświadczenia (w obszarach z ogłoszenia, w tym DirectAdmin)<br>•\tPrzykłady stron, którymi się opiekowałeś/aś lub które migrowałeś/aś<br>•\tDostępność tygodniową i czas reakcji na awarie<br>•\tProponowaną stawkę (miesięczną lub godzinową)</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144107/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-10T17:28:22"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu. Działamy bezpośrednio, bez pośredników, a utrzymanie stron (WordPress plus projekty custom) to nasza codzienność. DirectAdmin mamy obcykany w praktyce, podobnie migracje między hostingami, DNS i SSL.\n\nZanim przejdę do stawki, jedna rzecz do sprawdzenia na start. W sierpniu 2026 WP Rocket miał krytyczny błąd na WordPress 7.1: fatal error i biały ekran. Dotknął około 10 procent witryn z tą wtyczką, a wersja 3.23.2.2 dopiero to naprawia. Jeśli macie gdzieś starszą wersję, aktualizacja rdzenia WP bez wcześniejszej aktualizacji WP Rocket może położyć stronę. To pierwsze, co weryfikujemy przy przejęciu opieki.\n\nDruga pułapka to Cookiebot w parze z WP Rocket. Jeśli wtyczka optymalizacyjna minifikuje albo opóźnia skrypty, baner cookie potrafi się nie wyświetlić, co jest niezgodne z RODO. Trzeba wykluczyć skrypt Cookiebot w ustawieniach optymalizacji. Znamy ten temat z praktyki.\n\nTrzecia sprawa, o której mało kto pamięta: backup w DirectAdminie nie obejmuje widoków SQL. Standardowa kopia wygląda na kompletną, a przy odtwarzaniu bazy okazuje się, że brakuje widoków i strona nie wstaje. Dlatego kopie robimy tak, żeby dało się odtworzyć stronę w całości, pliki plus baza, z realnym testem odtworzenia.\n\nCzwarta rzecz to analityka. Zamiast ręcznego wklejania tagów wstawiamy Google Site Kit, oficjalną wtyczkę Google, która spina GTM, GA4 i Search Console w jednym panelu. Mniej błędów, szybsze wdrożenie.\n\nCo do dostępności: na awarie reagujemy w ciągu kilku godzin w dni robocze, a przy krytycznych rzeczach (biały ekran, błąd 500, strona leży) również poza godzinami. Tygodniowo mamy wystarczająco czasu, żeby obsłużyć comiesięczny pakiet prac i raport.\n\nStawka: 2000 zł miesięcznie za stałą opiekę. W tym aktualizacje WP, motywów i wtyczek z testem przed wdrożeniem, kopie plików i bazy z możliwością odtworzenia, monitoring bezpieczeństwa i reakcja na awarie, konfiguracja DNS i SSL, wdrożenie analityki oraz drobne zmiany w panelu WP plus miesięczny raport. To stała współpraca rozliczana miesięcznie, nie kwota jednorazowa za całość.\n\nPrzykłady stron i migracji, którymi się opiekowaliśmy, podeślę na priv. Zadzwońmy się na 15 minut w tym tygodniu i dopniemy szczegóły, albo napisz na priv to od razu ruszymy z tematem.\n\nPozdrawiam",
+    "wycena": 2000,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144107",
+    "wycena": 2000,
+    "dni": 7,
+    "final_url": "https://useme.com/pl/jobs/144107/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144107.png",
+    "message": "Oferta #144107 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144107/offer/finish/)."
+  },
+  "updated_at": "2026-09-10T17:30:36.242509",
+  "full_description": "<p>Poszukujemy osoby do stałej administracji serwerami i hostingiem oraz comiesięcznej opieki technicznej nad stronami www (głównie WordPress, ale też projekty custom). Nie wymagamy tworzenia serwisów od zera — kluczowa jest sprawna administracja, utrzymanie i szybka reakcja na problemy.<br>Zakres obowiązków:<br>•\tObsługa serwerów i hostingu, migracje między hostingami, bazy danych<br>•\tZarządzanie panelem DirectAdmin, konta FTP, uprawnienia<br>•\tKonfiguracja domen, rekordów DNS, przekierowań i certyfikatów SSL<br>•\tComiesięczna opieka nad stronami wraz z raportem<br>•\tAktualizacje WordPressa, motywów i wtyczek bez uszkadzania strony (WP Rocket, Cookiebot) + szybka reakcja i naprawa<br>•\tKopie zapasowe (pliki + baza) z możliwością odtworzenia strony<br>•\tDiagnostyka problemów (błędy 500, biały ekran, konflikty wtyczek, spadki wydajności)<br>•\tPodstawowe zabezpieczenia stron i hostingu, reagowanie na awarie, boty, malware, SEO spam<br>•\tWdrażanie analityki: GTM, GA4, Search Console<br>•\tDrobne zmiany w panelu WP (teksty, grafiki, poprawki układu i mobile)</p>\n\n<p>W zgłoszeniu prosimy o:<br>•\tKrótki opis doświadczenia (w obszarach z ogłoszenia, w tym DirectAdmin)<br>•\tPrzykłady stron, którymi się opiekowałeś/aś lub które migrowałeś/aś<br>•\tDostępność tygodniową i czas reakcji na awarie<br>•\tProponowaną stawkę (miesięczną lub godzinową)</p>"
+}

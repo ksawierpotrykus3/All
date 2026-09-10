@@ -1,0 +1,1001 @@
+Browse
+
+Manage
+
+Groups
+
+10
+20
+17
+Quote
+Post a Project
+
+@maksks00
+
+-$12.29 USD
+
+Projects with My Skills
+Browse Projects
+Browse Contests
+Browse Local Jobs
+Browse Categories
+Bookmarks
+Messages
+Chats
+16
+Requests
+1
+8 h
+
+Alexi
+
+@FLAlexi
+
+Yesterday
+
+Hey Maksymilian! I'm Alexi, here to help you enhance your freelancing journey with our membership plans. I noticed you're currently not subscribed to any membership. Are you interested in exploring some options that could boost your visibility and success on the platform?
+
+5
+L
+
+Louis
+
+@louisoswaldo
+
+Aug 2
+
+You: Updated fixed many other things, "measured" now shows real data fetched from API
+
+Mandy
+
+@FLMandy
+
+May 29
+
+Hey Maksymilian! How's it going? I'm Mandy from Freelancer's Talent Success Team. Do you have a few minutes to chat about a project?
+
+2
+S
+
+Syed
+
+@ssajidullah
+
+May 28
+
+and offer?
+
+1
+1 h
+
+Sabrina
+
+@FLSabrina
+
+May 20
+
+Hi Maksymilian! I'm Sabrina from the Verified by Freelancer Team. https://www.freelancer.com/verified I see that you're actively building your reputation as a Senior Software Engineer specializing in various tech services. That's fantastic! Have you considered how the Verified by Freelancer badge could enhance your credibility even further? Being Verified not only boosts client confidence but also opens up exclusive opportunities for high-value projects, which can significantly elevate your freelancing career. Let's chat about how this badge can help you stand out from the competition and maximize your earnings potential.
+
+3
+
+Mandy
+
+@FLMandy
+
+Apr 5
+
+Hey Maksymilian! It's great to chat with you. How's your day going so far? I'm part of the Freelancer Talent Success Team, and I'm here to help take you through a quick interview for a project that might fit you. Do you have a few minutes to chat about it?
+
+1
+
+Mandy
+
+@FLMandy
+
+Apr 3
+
+Hey Maksymilian! How's your day going? I'm Mandy from the Freelancer Enterprise Talent Success Team. I'm here to help you potentially land a project. Are you interested in the "Online Part Time Litigation and Media News Researcher" role that's available?
+
+D
+
+dilipa79
+
+@dilipa79
+
+Mar 21
+
+Hello, are you still interested in the project?
+
+4
+T
+
+Hetal
+
+@tailandthread
+
+Mar 17
+
+You: As we agreed on a delivery of 1,000 records, I need to clarify the data structure to avoid any misunderstandings, especially considering the current volume. I have started the process, and from just one of the streets you provided, I have already extracted almost 500 records. Currently, my scraper is extracting all known residents for each address. This means that for a single property, there might be 3 to 10 residents listed (family members, roommates, etc.). At this rate, we will reach the 1,000 records limit very quickly, but it will cover only a few of your requested streets. Please let me know which format you prefer
+
+Shubham
+
+@smartypareek2901
+
+Mar 16
+
+This project has been deleted
+
+Gourav
+
+@gouravk355
+
+Mar 11
+
+You: I appreciate your due diligence. Regarding my portfolio, I primarily work on high-stakes projects under strict NDAs. In the ASO/ASA niche, clients usually prohibit sharing direct links or outcome reports as it would reveal their exact growth strategies and 'winning' keyword sets to competitors. I position myself as a Technical ASO Specialist. While many marketers guess their keywords, I use a data-driven approach based on custom analysis scripts. 1. Proof of Technical Competence: You can review my repository here: https://github.com/MaXDev-CATHODE/ThingSpeak-monitor-widget-apk. Look MIT license. This demonstrates my ability to handle complex environment setups, proxy rotations (critical for accurate geo-specific keyword scraping), and automated data parsing – the same engine I will use to audit your competitors on the App Store. 2. My ASO Stack: For raw data extraction and volume analysis, I rely on AppTweak and Data.ai. To manage ASA, I focus on the 'Search Match' and 'Creative Sets' optimization within the Apple Search Ads Advanced dashboard. I don't just 'run ads'; I align ASA data with organic metadata to lower your CPA (Cost Per Acquisition). 3. Trial Proposition: Since this is a trial project, I propose we jump straight into the data. I have already performed a preliminary scan of the 'AI Baby' niche and identified 3 specific keyword clusters where your app is currently missing out on approximately 20% of potential organic traffic. I am ready to share these findings once we start. Should we proceed with the trial so I can demonstrate my process in real-time?
+
+X
+
+Sam
+
+@XSSS
+
+Mar 9
+
+👍
+
+8 h
+
+Mikhael
+
+@MikhaelRecruiter
+
+Feb 27
+
+Project: https://www.freelancer.com/projects/compliance/Toy-Marking-Consultation/details Location: Europe Must have experience in CE Marketing for toys Please check the link for project details and place a bid if interested, thank you.
+
+2 h
+
+Sabarinathan
+
+@sabarikptm
+
+Feb 23
+
+This project has been deleted
+
+N
+
+Naif
+
+@nalhajri88
+
+Feb 20
+
+You: I have solid experience building automated workflows using n8n and the WhatsApp Cloud API. It’s great that you already have the n8n cloud account and a verified Facebook business profile set up! That covers the hardest part of the onboarding and means we can jump right into the actual logic. Regarding the cost, it completely depends on the exact logic and complexity of the 'app' you want to build. To give you an accurate estimate, could you tell me a bit more about the main goal? For example: Is it a Customer Support Chatbot (e.g., connected to ChatGPT/OpenAI to answer FAQs)? Is it heavily focused on automated notifications (e.g., sending order updates, reminders from your CRM or database)? Does it involve a specific step-by-step booking or lead generation process? Let me know what the exact flow should look like, and I'll be happy to provide you with a timeframe and a quote!
+
+L
+
+lonelegend4
+
+@lonelegend4
+
+Feb 17
+
+Alright
+
+Aldino
+
+@Spectrecoder
+
+Feb 17
+
+What do you need?
+
+S
+
+Samuel
+
+@samuel042
+
+Feb 4
+
+You: Sure, here is the consolidated proposal detailing the workflow, cost, and timeline. 1. Technical Approach (How I will build it) I will build a custom Python application utilizing 3 core modules: Access & Scraping (Playwright): I will use Playwright (instead of basic Selenium) because Drouot.com is a modern dynamic site. Playwright allows for secure, reliable automated login and creates a 'browser context' that mimics a real user, preventing bans. Data Extraction & Filtering: The script will scan standard listings + your monitored keywords. It will extract high-res images, descriptions, and estimates into a structured JSON format. AI Integration (OpenAI API): The extracted data is sent to GPT-4o (via your API Key). I will design a System Prompt that acts as an 'Art Expert', analyzing the scraped data against the criteria you mentioned (undervalued assets, historical comparison). Reporting: The final output will be a daily PDF/HTML Dashboard delivered to you, highlighting only the "Interesting" opportunities. 2. Delivery & Installation (Zero-Hassle) The system is designed to run immediately on your machine without complex setup. I will provide a requirements.txt file. You run one single command to install dependencies. After that, you just click the script to run it. No manual driver installations or configuration needed. 3. Cost & Timeline Total Budget: $30.00 USD (Fixed Price) — I am keeping this competitive to build a long-term relationship with you. Lead Time: 3 Days. Day 1 (Tomorrow): Demo of the Scraping Engine (proving I can extract data from Drouot). Day 2-3: AI Integration & Reporting setup. Ready to start immediately.
+
+B
+
+Stacy
+
+@BlopNDrop
+
+Feb 16
+
+You: what do you need? a video?
+
+Saifeddine
+
+@EdinBen
+
+Feb 14
+
+You: Hi I don't know I'm weak in speaking. Do you have another work? Maybe some coding?
+
+Freelance Jobs and Contests
+	
+Certify your skills to win more jobs
+Employers prefer freelancers with certified skills. Get certified and increase your chance of being awarded a project.
+Browse Jobs on Freelancer
+Search
+Skills
+Job Types
+ Fixed Price Projects
+ Hourly Projects
+ Contests
+ More Options Clear Filters
+Results per page 
+20
+50
+100
+ 
+ 
+ 
+1
+ 
+2
+ 
+3
+ 
+4
+ 
+5
+ 
+ 
+PROJECT/CONTEST	BIDS/ENTRIES	STARTED	PRICE (USD)	
+
+RECRUITER
+ Nepali AI Automation Engineer Full Time
+
+**The Role** You inherit a system someone else built, work out how it behaves, extend it, and leave it working. Most of the work here is not greenfield. In your first months you would o...
+
+AI (Artificial Intelligence) HW/SW, AI Integration	
+12
+	Today
+6d 23h
+	$956
+	
+
+
+ Tech Sales Rep for Websites
+
+I need an experienced sales representative to sell our website creation services specifically to small businesses. You will be focusing on the technology sector. Key Responsibilities: - ...
+
+Internet Marketing, Telemarketing, Sales, Marketing, Sales Promotion, Account Management, Sales Management, Customer Strategy	
+6
+	Today
+6d 23h
+	$466
+	
+
+
+ AI Voice Call Cost Optimization
+
+We are developing a production-grade AI voice calling platform for the Indian market and are looking for an experienced Realtime Voice AI / Conversational AI / Telephony Engineer to optim...
+
+Audio Services, Education & Tutoring, Voice Talent, Audio Production, WebRTC, AI Model Development, Conversational AI, AI Development, AI Voice Agents, AI Automation	
+2
+	Today
+6d 23h
+	$127
+$
+	
+
+
+ eBay Warehouse Policy Block Assistance
+
+I run my eBay store from Guatemala while my stock is stored and dispatched from a verified third-party suppliers in the United States. eBay has now flagged the account with a “Wareh...
+
+Sales, Marketing, eCommerce, Product Descriptions, eBay, Account Management	
+8
+	Today
+6d 23h
+	$123
+Bid Now
+	
+
+
+ Viral Content Research for Instagram/TikTok
+
+# Viral Content Researcher for Instagram & TikTok We’re looking for a **Viral Content Researcher** to help us find proven short-form content ideas for Instagram Reels and TikTo...
+
+Social Media Marketing, Content Strategy	
+15
+	Today
+6d 23h
+	$327
+$
+	
+
+
+FEATUREDSEALEDRECRUITER
+ Family History Narrative Book
+
+I'm seeking a skilled writer to create a family history book. The book will be in a narrative style, structured around individual biographies. Each biography should include significa...
+
+Research, Editing, Ghostwriting, Research Writing, Genealogy, Creative Writing, Content Writing, Writing	
+9
+	Today
+6d 23h
+	$10000 - $20000
+	
+
+
+ Pixel-Perfect Elementor Page Fix
+
+I have three WordPress pages already built in Elementor that must mirror my Figma layouts down to the last pixel. The previous freelancer left a few nagging issues—unexpected line b...
+
+PHP, WordPress, CSS, HTML, Web Development, Figma, Elementor, Web Design	
+88
+	Today
+6d 23h
+	$22
+$
+Bid Now
+	
+
+
+ Dynamic 1080p Logo Intro
+
+I need a crisp 10-second intro rendered in full-HD (1920×1080) that relies on motion-graphics animation. The piece should revolve around my brand’s logo: reveal it in a polish...
+
+Video Services, Animation, After Effects, 3D Animation, Video Production, Video Editing, Video Post-editing, Video Ads	
+47
+	Today
+6d 23h
+	$25
+$
+	
+
+
+ Agente Ventas Servicios Legales Bilingüe
+
+Busco a un profesional de ventas radicado en Latinoamérica, fluido en español e inglés, que ya haya trabajado colocando servicios legales y esté listo para rep...
+
+Sales, CRM, Customer Service, Sales Promotion, Account Management, Sales Management, Lead Generation, Business Development	
+4
+	Today
+6d 23h
+	$475
+	
+
+
+ Facebook Page Gray Badge Verification
+
+I run a brick-and-mortar local business and my Facebook Business Page is already live. What I still need is the gray verification badge so customers immediately recognize the page as the ...
+
+Facebook Marketing, Social Media Marketing, Facebook API, Digital Marketing, Social Media Management, Content Strategy, Facebook Development, Facebook Ads	
+1
+	Today
+6d 23h
+	$10 / hr
+Unspecified
+	
+
+
+RECRUITER
+ Franchise Restaurant Site Drawing Update
+
+I need an experienced professional to update site drawings based on field verifications and modifications for a franchise restaurant fit-out. The project involves incorporating design gui...
+
+Website Design, Graphic Design, Building Architecture, 3D Rendering, Branding, AutoCAD, 3D Modelling, Construction Management	
+47
+	Today
+6d 23h
+	$36 / hr
+Unspecified
+	
+
+
+ Polish Import/Export Referral Support
+
+I’m an import-export compliance specialist ready to help multinationals operating in Poland strengthen their regulatory posture. What I need now is your local network: warm, persona...
+
+Sales, Market Research, Compliance, Account Management, Sales Management, Import/Export, Business Strategy, Lead Generation, Business Consulting, Business Development	
+2
+	Today
+6d 23h
+	$13
+$
+Bid Now
+	
+
+
+ Android APK Label Text Edits
+
+I have an existing Android APK and I only need five individual words replaced in the labels that appear on the main interface. I already know the exact words to swap in, so once I hand th...
+
+Java, XML, Mobile App Development, Android, Mobile Development, Android App Development, Android SDK, Android Studio	
+9
+	Today
+6d 23h
+	$11
+Bid Now
+	
+
+
+RECRUITER
+ Expert Social Media Ad Campaign Manager Needed
+
+Professional Social Media Ads Specialist Account Setup & Campaign Management I’m looking for an experienced and professional social media advertising specialist to help set up...
+
+Internet Marketing, Google Adwords, Facebook Marketing, Social Media Marketing, Digital Marketing, Instagram Marketing, Google Ads, Facebook Ads	
+26
+	Today
+6d 23h
+	$3307
+	
+
+
+ Colorful Abstract Vinyl Booth Wrap
+
+I'm looking for a custom vinyl design to wrap a 3-panel 10x10 booth. Requirements: - Bright and colorful theme - Abstract designs - Mixed/varied color schemes Ideal Skills and Exp...
+
+Graphic Design, Photoshop, Illustrator, Illustration, Advertisement Design, Creative Design, Adobe Illustrator, Color Design (Iro Shitei)	
+98
+	Today
+6d 23h
+	$323
+	
+
+
+RECRUITER
+ Project Update Presentation Designer
+
+# PowerPoint & Presentation Design Expert We are looking for an experienced **PowerPoint and presentation design expert** who can create polished, professional, and visually compelli...
+
+Graphic Design, Illustrator, Powerpoint, Biotechnology, Adobe InDesign, Adobe Illustrator, Data Visualization, Figma, Visual Design, Adobe Photoshop	
+40
+	Today
+6d 23h
+	$379
+$
+	
+
+
+ Termite Damage Inspection on Historic Home
+
+I have a wood-frame house built in 1902 with significant termite damage involving the subfloor and potentially wall framing. I need a structural assessment specifically to determine wheth...
+
+Structural Engineering, Building Inspection	
+19
+	Today
+6d 23h
+	$395
+	
+
+
+ Youthful Arm-Wrestling Match Video -- 4
+
+I want you to record your arm-wrestling match video (with friend/brother), requirements are: Both mans maximum 23 years old Only man 1-2 mins long My budget is 2-4 dollars per video
+
+Video Services, Social Networking, Animation, After Effects, Sports, Videography, Video Production, Video Editing, Esports	
+8
+	Today
+6d 23h
+	$6 / hr
+Unspecified
+$
+	
+
+
+ Instagram reels macking production team
+
+I have twenty unique sweater styles that need fully-fledged tech packs so my factory can move straight into sampling with zero back-and-forth. Every style sits in the knitted cotton categ...
+
+Graphic Design, Illustrator, Fashion Design, AutoCAD, Brochure Design, Pattern Making, Textile Engineering, Adobe Illustrator	
+2
+	Today
+6d 23h
+	$13
+	
+
+
+ T-Shirt Designer Needed for Start-Up
+
+Freelance Designer Opportunity | Let’s Create Something New We’re building a new-age premium T-shirt brand from the ground up — and we’re looking for a creative mi...
+
+Graphic Design, Branding, Typography, Fashion Design, Illustration, Photoshop Design, T-Shirts, Visual Arts, Creative Design, Print Design	
+16
+	Today
+6d 23h
+	$209
+	
+
+
+ Adobe InDesign Book Designer Needed – 105-Page Fertility/Wellness Book – Print + EPUB
+
+We are looking for an experienced editorial/book designer with strong Adobe InDesign skills to complete the professional layout and typesetting of a Spanish-language book titled: “5...
+
+Graphic Design, Publishing, Adobe InDesign, eBook Design, Book Design, Visual Design, Editorial Design	
+62
+	Today
+6d 23h
+	$115
+$
+	
+
+
+ Wide Diamond Men's Band CAD Design
+
+PLEASE READ BEFORE BIDDING: My maximum budget for this CAD design is $120 USD total. Please do not accept/place a bid if you intend to charge more than $120 I would like a men’s wi...
+
+Graphic Design, Photoshop, 3D Rendering, AutoCAD, 3D Modelling, 3D Design, 3D Printing, 3D CAD	
+17
+	Today
+6d 23h
+	$14
+	
+
+
+ Soporte WhatsApp en Español
+
+Busco a una persona con experiencia en atención al cliente para encargarse de nuestro canal de WhatsApp durante el horario laboral. Qué necesito: • Atender cada mensa...
+
+Data Entry, Customer Support, Report Writing, Virtual Assistant, CRM, Customer Service, Time Management, Email Handling	
+9
+	Today
+6d 23h
+	$11 / hr
+Unspecified
+	
+
+
+ Simple Animated Real Estate Website
+
+I’m looking to launch a clean, modern real-estate site that presents both residential and commercial listings with a touch of motion to keep visitors engaged. The build is small in ...
+
+JavaScript, CSS, Animation, HTML5, HTML, Web Development, CSS3, Web Design	
+57
+	Today
+6d 23h
+	$84
+Bid Now
+	
+
+
+RECRUITER
+ AI-Generated 3D Animation Video Creation
+
+I am looking for a freelancer to create a 1–2 minute high-quality 3D cartoon animation video. The project involves designing colorful and expressive characters, developing an engagi...
+
+Graphic Design, Animation, After Effects, 3D Modelling, 3D Animation	
+39
+	Today
+6d 23h
+	$15
+	
+
+
+FEATURED
+ Custom Aluminum Base Plate for Hozo Lazer
+
+Aluminum base plate made as two pieces, first piece like drawing all measurements provided, second piece is to hold the base plate to the pole using thumb screws, so the tool can be adjus...
+
+3D Design, 3D Modelling, CAD / SolidWorks, CAD/CAM, Manufacturing Design, Mechanical Engineering, Product Design, Solidworks	
+ 14
+Entries
+	Today
+6d 23h
+	$150
+GUARANTEED
+Post a contest like this
+	
+
+
+RECRUITERLOCAL
+ Sony Camera Operator Needed
+
+I’m preparing a YouTube video and will be visiting "Walk Your Plans" and tour one of my projects. I’ll be interviewing people who work there and documenting the proj...
+
+Post-Production, Sound Design, Video Production, Video Editing, Lighting, Cinematography, Content Creation, Film Production, Audio Engineering, YouTube Video Editing	
+0
+	Today
+6d 23h
+	$50+
+Unspecified
+	
+
+
+ ChatGPT Ads Conversion Setup
+
+I need help setting up ChatGPT ads conversion tracking with Google Tag Manager on my Shopify store. The main goal is to optimize my ad spend. Key Requirements: - Track purchases as the ...
+
+Internet Marketing, Google Analytics, Shopify, OpenAI Codex	
+4
+	Today
+6d 23h
+	$21
+	
+
+
+NDARECRUITER
+ Complete & Launch Existing React Native / Expo Driver App
+
+We are looking for an experienced React Native / Expo developer to take an existing mobile application prototype through to a fully functional, production-ready launch. The application is...
+
+Mobile App Development, User Interface / IA, PostgreSQL, Typescript, Backend Development, React Native, Android App Development, API Integration, Expo, Supabase	
+91
+	Today
+6d 23h
+	$1192
+$
+Bid Now
+	
+
+
+ Assist with UK Business Identity Verification
+
+I need a reliable pair of hands to jump onto Companies House with me and get my company’s identity verification completed. The account is already set up; what’s holding me bac...
+
+Data Processing, Data Entry, Customer Support, Virtual Assistant, Compliance, Account Management, Administrative Support, Business Consulting, Data Management	
+6
+	Today
+6d 23h
+	$11
+Bid Now
+	
+
+
+RECRUITER
+ Paid Social & Search for Pizza Shop Multi-Location
+
+Capital Corp. is looking for an ad agency or individual expert on paid social and paid search ads. Meta at ~4.8X ROI and $7.88 CPA; Google at ~44.55X ROI and ~3.87% CVR. Monthly media bu...
+
+Internet Marketing, Facebook Marketing, Advertising, Social Media Marketing, Video Production, Digital Marketing, Instagram Marketing, Content Creation, Google Ads, Facebook Ads	
+30
+	Today
+6d 23h
+	$2087
+$
+	
+
+
+ Idli Fermentation Yeast Strain Development
+
+I am looking for a biotechnology professional with a solid background in yeast and fermentation to help me develop a new strain specifically tailored for idli production. The goal is to c...
+
+Biotechnology, Microbiology, Research and Development, Product Development, Food Safety	
+0
+	Today
+6d 23h
+	$6 - $16
+$
+	
+
+
+ PDF Text Data Entry
+
+I have a collection of PDF documents that need to be re-typed with great care and accuracy so the content can be reused digitally. Your task is simple but demands focus: open each PDF, ty...
+
+Data Entry, Proofreading, Excel, PDF, Copy Typing, Word Processing, Data Management	
+8
+	Today
+6d 23h
+	$8 / hr
+Unspecified
++ 31 XP
+Bid Now
+	
+
+
+ Boost Android App Installs. Please bid ONLY if you can prove that you already worked on similar project and you can show real results!
+
+Please do not bid on this project if you cannot proove that you did a successfull marketing campaign of a brand new app with 0 installs! My health-and-wellness app is live on Google Pla...
+
+Internet Marketing, Mobile App Development, Android, Advertising, Analytics, Conversion Rate Optimization, Digital Marketing, Marketing Strategy, App Store Optimization, Google Ads	
+36
+	Today
+6d 23h
+	$87
+$
+Bid Now
+	
+
+
+ FinTech App Security Compliance Review
+
+I have built two independent FinTech solutions that I plan to submit to the Bank of Jamaica’s regulatory Sandbox. Before I take that step, I need a fresh set of expert eyes to valid...
+
+Compliance, Risk Management, Encryption, Financial Consulting, FinTech, Data Protection, Security Auditing	
+0
+	Today
+6d 23h
+	$15 - $131
+$
+Bid Now
+	
+
+
+URGENTRECRUITER
+ Interactive Tablet Ebook Development
+
+I have all core assets—final text, illustrations, audio tracks and several short animations—ready to be assembled into a single interactive ebook aimed at iPads and other mode...
+
+JavaScript, Mobile App Development, iPhone, Animation, HTML5, Web Development, CSS3, Audio Editing	
+88
+	Today
+23h 21m
+	$1037
+$
+Bid Now
+	
+
+
+RECRUITER
+ The Missing Market Behind Central Asia’s Green Energy Corridor
+
+I need a 1,200–1,500-word analytical article that explores the emerging Central Asia–Caspian–Europe Green Energy Corridor. Rather than another overview of new cables and...
+
+Research, Technical Writing, Business Plans, Article Writing, Business Analysis, Market Research, Energy, Content Writing, Business Writing, Energy Auditing	
+25
+	Today
+6d 23h
+	$103
+$
+Bid Now
+	
+
+
+LOCAL
+ Kodaikanal Homestay Online Listings
+
+I run a boutique homestay in Kodaikanal and want it live on every major travel site without delay. I need you to handle the entire rollout—from creating each listing to polishing th...
+
+Copywriting, Internet Marketing, Photography, SEO, Content Writing, Airbnb, Web Development, Keyword Research	
+4
+	Today
+6d 23h
+	$190
+$
+Bid Now
+	
+
+
+ UGC Testimonial Creators Needed – AI Wealth Accelerator Kit & AI Architecture Program
+
+We are looking for 10 professional UGC creators to create authentic testimonial-style videos for our AI education and business products. We are hiring: 5 creators for the AI Wealth Acce...
+
+Video Services, Voice Talent, Content Writing, Video Production, Video Editing, AI Content Creation, AI UGC, AI Automation, AI App Development, AI Video Editing	
+5
+	Today
+6d 23h
+	$24
+	
+
+
+ Robotics Mechanical Design Engineer: Full 3D CAD & DFM Package for Bipedal Humanoid Robot, (PA-CF 3D-Printed Chassis, 21 Actuators).
+
+The project is a compact, bipedal humanoid that will rely on a PA-CF 3D-printed chassis and 21 actuators. I need a complete mechanical design package created exclusively in Fusion 360, re...
+
+Solidworks, Mechanical Engineering, Product Design, 3D Modelling, Robotics, 3D Design, 3D Printing, DFM (Design for Manufacturing), Fusion 360, 3D CAD	
+11
+	Today
+6d 23h
+	$25
+	
+
+
+ Utility Litigation Pro-Se Attorney
+
+I am a self-represented plaintiff in active litigation against my regional electric utility over its refusal to let customers opt out of smart-meter installation. The company first assure...
+
+Legal, Legal Research, Legal Writing, Litigation, Legal Analysis, Legal Consultation	
+17
+	Today
+6d 23h
+	$441
+$
+	
+
+
+SEALEDNDARECRUITER
+ PhD Thesis Illustration Specialist
+
+I need a skilled illustrator to create and format various diagrams and tables for my PhD thesis. The complete text will be provided, and the final work needs to be formatted in Microsoft ...
+
+Graphic Design, Photoshop, Illustrator, Illustration, Datatables, Data Visualization, Microsoft Word	
+15
+	Today
+6d 23h
+	$24 - $49/hr
+Unspecified
+	
+
+
+ Excel Personal Budget Entry
+
+Several months of personal income and expense transactions need to be transferred into a clear, well-structured Excel workbook. I will supply the source documents—bank statements, r...
+
+Data Processing, Data Entry, Excel	
+9
+	Today
+6d 23h
+	$9 / hr
+Unspecified
+	
+
+
+LOCAL
+ On-Site Verification Paraguay
+
+1- Task is to visit an institute in National Council of Higher Education, Paraguay Piribebuy N° 460 casi Alberdi, Asunción, Paraguay physically and take atleast 10-15 geotagged...
+
+Photography, Project Management, Report Writing, PDF, Word, Geolocation, Documentation, Data Collection, Field Research	
+0
+	Today
+6d 17h
+	$10 - $50
+$
+	
+
+
+FEATUREDURGENTNDATOP CONTEST
+ Kurumsal Kimlik Tasarımı
+
+1. İnşaat sektöründe özel, resmi ve proje inşaat sektöründe faaliyet gösteren, konut üreten bir markayız. 2. Markamızın kurumsal ürünlerinin ...
+
+Adobe Illustrator, Adobe InDesign, Adobe Photoshop, Branding, Business Card Design, Corporate Identity, Graphic Design, Print Design	
+ 93
+Entries
+	Today
+23h 15m
+	$100
+GUARANTEED
+Post a contest like this
+	
+
+
+ Whatnot Live Seller & Fulfillment - USA (We provide the products) -- 2
+
+**Whatnot Live Seller & Fulfillment Partner – USA Only** Looking for an experienced Whatnot seller to run our Whatnot sales operation. **We ship inventory directly to you.** Y...
+
+Sales, eCommerce, Logistics, Order Processing, Inventory Management, Customer Service, Sales Management, Shipping, TikTok, WhatNot	
+20
+	Today
+6d 23h
+	$122
+$
+Bid Now
+	
+
+
+ Executive Corporate Office Park Logo Design
+
+Looking to create a brand for our new Class-A commercial park in Miami—premium warehousing and office space aimed at corporate and executive tenants—looking for a logo that in...
+
+Adobe Illustrator, Branding, Corporate Identity, Graphic Design, Illustrator, Logo Design, Print Design, Stationery Design, Typography, Vector Design	
+ 156
+Entries
+	Today
+6d 23h
+	$100
+GUARANTEED
+Post a contest like this
+	
+
+
+ API de Presupuestos Automotrices
+
+Ya tengo mis canales de Meta (incluido WhatsApp) enlazados y una IA que responde automáticamente a las consultas. El siguiente paso es disponer de una API capaz de generar presupue...
+
+Java, JavaScript, Python, Node.js, Software Development, JSON, RESTful API, API Development	
+131
+	Today
+6d 23h
+	$120
+$
++ 43 XP
+Bid Now
+	
+
+
+RECRUITER
+ Convert Books to Illustrated ePub
+
+I have a collection of my mom’s books in print and I want each one faithfully reproduced as an ePub file. Every page—text, photos, illustrations, captions—needs to appea...
+
+Illustrator, Editing, PDF, Adobe InDesign, OCR, ePub, Adobe Acrobat, Book Design	
+73
+	Today
+6d 23h
+	$22 / hr
+Unspecified
+$
+	
+
+
+ Manager for D2c brand needed
+
+We are an Indian mens brand selling jeans & mens apparell , we need someone who has experience in selling or managing a brand with Marketplaces , like amazon, flipkart, meesho & R...
+
+Internet Marketing, Twitter, Facebook Marketing, Social Media Marketing, Brand Management, Amazon	
+6
+	Today
+6d 23h
+	$199
+$
+	
+Showing 1 to 50 of 5,000 entries
+1
+2
+3
+4
+5
+89,878,091
+REGISTERED USERS
+25,827,112
+TOTAL JOBS POSTED 
+Network
+Browse Categories
+Browse Projects
+Browse Contests
+Browse Freelancers
+Enterprise
+Preferred Freelancer Program
+Project Management
+Freelancer Local
+Showcase
+API for Developers
+Escrow
+Warrior Forum
+About
+About us
+How it Works
+Team
+Mobile App
+Security
+Fees & Charges
+Investor
+Sitemap
+Stories
+Press
+In the News
+Press Releases
+Awards
+Testimonials
+Timeline
+Get in Touch
+Get Support
+Careers
+Community
+Affiliate Program
+Merchandise
+Help Translate
+Contact Us
+Freelancer
+Privacy Policy
+Terms and Conditions
+Copyright Infringement Policy
+Code of Conduct
+
+Freelancer ® is a registered Trademark of Freelancer Technology Pty Limited (ACN 142 189 759)
+
+Copyright © 2026 Freelancer Technology Pty Limited (ACN 142 189 759)
+
+ Poland / English
+Accessibility
+US (International)
+Australia
+United Kingdom
+Spain
+Japan
+India
+Germany
+Brazil
+France
+Canada
+China
+Hong Kong
+Indonesia
+Philippines
+Pakistan
+    
+  

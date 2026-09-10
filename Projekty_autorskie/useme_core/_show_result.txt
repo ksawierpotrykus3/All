@@ -1,0 +1,148 @@
+########## A. Redesign WP B2B (budzet 6000) ##########
+WYCENA:
+[WYNIK_KONCOWY]
+KWOTA: 5000
+DNI: 13
+[/WYNIK_KONCOWY]
+
+--- UZASADNIENIE DOBORU (model) ---
+Zlecenie premium WordPress B2B (redesign UX/UI + przebudowa + CWV + architektura informacji + SEO on-page) trafia wprost w moduł 'WordPress premium redesign + SEO' (max 40h) - nie rozbijam na osobne UX/SEO/deploy, bo ten moduł pokrywa cały zakres. Drugi moduł 'WordPress/CMS customizacja' (6h) tylko na przygotowanie pod przyszłą wersję niemiecką (WPML/Polylang, hreflang, struktura URL), integrację Microsoft Forms (iframe - bez API) i konfigurację łatwej edycji treści (Elementor vs Gutenberg) - reszta CMS pracy jest już w module redesignu, więc nie dubluję. brak_specyfikacji=false: klient dostarczył istniejącą stronę jako spec, branding, treści, formularze i szczegółową listę zakresu (nie 'ogólny opis problemu'), brak mockupów nie zmienia tego - istniejący system jest punktem odniesienia. ograniczenia_api=false: ograniczenie Microsoft Forms (tylko iframe, brak webhooków) jest potwierdzone w researchu, ale nie komplikuje istniejącego modułu - wystarczy osadzenie iframe, więc nie doliczam ×1.25 (zgodnie z zasadą braku podwójnego karania; ewentualna automatyzacja Power Automate to v2 poza confirmed scope). Figma nie występuje w ogłoszeniu. Budżet jawny 6000 PLN - kotwica dla kalkulatora. Wiek 4 dni i 50 ofert -> korekta konkurencyjna w dół (rynek przepełniony).
+
+--- ROZBICIE (kalkulator deterministyczny) ---
+{
+  "tryb": "projekt",
+  "moduly": [
+    {
+      "nazwa": "WordPress premium redesign + SEO",
+      "godziny_real": 40
+    },
+    {
+      "nazwa": "WordPress/CMS customizacja",
+      "godziny_real": 6
+    }
+  ],
+  "godziny_real": 46.0,
+  "po_testach_15": 52.9,
+  "bufor": 0.2,
+  "po_buforze": 63.5,
+  "mnoznik_ryzyka": 1.0,
+  "cap_zadzialal": false,
+  "po_mnoznikach": 63.5,
+  "stawka": 90,
+  "cena_bazowa": 5713.2,
+  "korekta_konkurencyjna": 0.85,
+  "cena_po_korekcie": 5100.0,
+  "kwota_koncowa": 5000
+}
+
+OFERTA:
+Dzień dobry,
+
+Piszę w imieniu dwuosobowego zespołu. Robimy strony WordPress pod firmy usługowe i B2B – nie zajmujemy się "wrzuceniem szablonu i podmianą tekstu", tylko siadamy do architektury i UX-u od zera, a dopiero potem składamy to w WordPressie. Zgłoszenie odbieramy tak samo, jak wy to opisaliście.
+
+Co do oceny obecnej strony – po wejściu na waszą obecną stronę widać dwa realne problemy, które nie są problemem estetycznym. Pierwszy: struktura jest płaska, brakuje hierarchii "dla kogo / co robimy / dowód / kontakt". Polscy przedsiębiorcy wchodzący na tę stronę nie wiedzą w 5 sekund, że mówicie do nich, więc nie zostają. Drugi: brakuje sekcji, która sprzedaje kompetencje przez fakty – case studies, konkretne procesy, liczby. Sam opis usług nie buduje zaufania w Niemczech.
+
+Drugi problem, którego nie widać gołym okiem: strona działa w realiach niemieckich, a od czerwca 2025 obowiązuje BFSG, czyli niemiecka ustawa o dostępności cyfrowej. Każdy redesign publikowany po tej dacie musi spełniać wymogi WCAG – kontrasty, nawigacja klawiaturą, alt-texty, poprawne ARIA. Jeśli tego nie uwzględnimy teraz, przy następnym relaunchu wracacie do tego samego punktu.
+
+Do tego Core Web Vitals. Od 2026 Google rozlicza INP na poziomie 200 ms w p75 i to jest próg, który WordPress z ciężkimi page builderami przegrywa. Jeśli zostawicie Elementor na całej stronie, będzie szybciej, ale nie "szybko". Rekomendujemy Gutenberg plus lekkie bloki własne (ACF) dla sekcji, które naprawdę tego wymagają – dostajecie stronę, którą da się edytować z panelu, ale bez ciągnięcia za sobą ciężkiego DOM-u. PHP podnosimy do 8.4, co samo w sobie daje kilkadziesiąt procent szybsze requesty.
+
+Pod przyszłą wersję niemiecką robimy to od razu poprawnie: osobne URL-e, hreflang, osobne meta, sitemap per język. Jeśli wrzucimy to dopiero później przez WPML albo Polylang na gotową stronę, te pluginy potrafią dołożyć 250–400 ms opóźnienia na pierwszym kliknięciu w nawigacji – dlatego architekturę URL planujemy teraz, a nie po fakcie.
+
+Schema dla firmy doradczej B2B: nie generyczne Organization, a Service plus ProfessionalService, plus FAQPage dla sekcji z tematami typu Finanzamt, A1, Bauabzugsteuer. To realnie przekłada się na to, jak Google wyświetla was w wynikach na frazy branżowe.
+
+Microsoft Forms – wiem, że macie to w wymaganiach. Osadzimy przez iframe, bo inne drogi nie istnieją (Forms nie ma publicznego API ani webhooków). Działa, ale jest jedna pułapka: z formularza nie da się automatycznie przetwarzać zgłoszeń. Jeśli będziecie chcieli w kolejnym kroku wrzucać je do CRM-a, trzeba to puścić przez Power Automate albo zamienić formularz na WPForms z integracją. To kwestia drugiego etapu, ale warto wiedzieć.
+
+Portfolio B2B podeślę w wiadomości prywatnej razem z krótkim rozbiciem, co w każdym przypadku było problemem i jak go rozwiązaliśmy.
+
+Za audyt, redesign UX/UI, przebudowę strony głównej i sekcji B2B, wdrożenie w WordPressie z Gutenbergiem i blokami ACF, pełne SEO on-page ze schema i przygotowaniem pod wersję niemiecką, plus optymalizację Core Web Vitals i zgodność z BFSG – liczymy 5000 zł. Termin realizacji: 13 dni od zebrania treści i materiałów.
+
+Zdzwońmy się w tym tygodniu na 15 minut, przejdę przez pomysł na architekturę i powiem, które sekcje obecnej strony warto wyciąć.
+
+Pozdrawiam
+
+
+
+########## B. Sklep Shopify premium ##########
+WYCENA:
+[WYNIK_KONCOWY]
+KWOTA: 5850
+DNI: 7
+[/WYNIK_KONCOWY]
+
+--- UZASADNIENIE DOBORU (model) ---
+Wybór trybu: zlecenie to pełny setup sklepu na platformie SaaS (Shopify) od zera — dokładnie pozycja tabeli 'Stworzenie sklepu na platformie SaaS od zera (Shopify/Shoper/IdoSell full setup: produkty, integracje, płatności, szkolenie)': 3000-8000 zł. Nie jest to projekt senior-developerski (brak custom kodu, brak aplikacji, brak złożonej integracji >8-12h), więc idziemy tabelą rynkową, nie godzinami. Wybór 6500 zł z widełek 3000-8000: (1) zakres jest rozbudowany — 18 ponumerowanych punktów wymaganych funkcji (motyw + custom layout, karta produktu z galerią, filtrowanie, BLIK/szybkie płatności, integracja Meta/IG, GA/Pixel, strony prawne, szkolenie z obsługi); (2) segment premium/luxury — klientka oczekuje indywidualnego dostosowania motywu pod identyfikację marki, nie szablonu 'stock', co podnosi pracochłonność względem typowego setupu; (3) brak gotowego projektu graficznego — wykonawca projektuje układ na bazie inspiracji (dodatkowa praca koncepcyjna); (4) nie ma jednak custom developmentu, multi-language ani integracji ERP, dlatego nie celujemy w górne 8000 zł. 6500 zł = górna połowa widełek uzasadniona zakresem i segmentem. KROK 7 — korekta konkurencyjna: zlecenie opublikowane wczoraj (<24h) i ma już 35 ofert (>20) → rynek zalany, ×0.9. Kwota końcowa: 6500 × 0.9 = 5850 zł (już zaokrąglona do 50 zł zgodnie z KROK 9). Flagi: brak_specyfikacji=true (klientka nie ma mockupów ani Figmy, tylko inspiracje słowne i zrzut ekranu), figma_w_ogloszeniu=false (brak słowa 'figma' i linku), ograniczenia_api=false (BLIK/Shopify Payments/Meta to standardowe, dobrze udokumentowane integracje), real_time=false, nowa_technologia=false (Shopify to technologia, którą zespół zna — nie jest niszowa), budzet_jawny=null ('Do negocjacji').
+
+--- ROZBICIE (kalkulator deterministyczny) ---
+{
+  "tryb": "tabela rynkowa",
+  "kwota_rynek": 5850.0
+}
+
+OFERTA:
+Cześć,
+
+Piszę w imieniu dwuosobowego zespołu. Robimy sklepy na Shopify, w tym takie, gdzie produkt jest sztuką jedyną i musi wyglądać jak w witrynie butiku, a nie jak w hurtowni.
+
+W vintage luxury prawdziwy problem nie leży w designie, tylko w tym, że każda torebka to egzemplarz jednorazowy. Standardowe motywy Shopify są projektowane pod produkty z wariantami i stanem magazynowym, a nie pod unikaty, gdzie zdjęcia detali (rogi, wnętrze, kod daty, hologram) decydują o sprzedaży. Przy garści produktów najważniejsze jest to, żeby karta produktu niosła zaufanie: duża galeria z zoomem, sekcja stanu i autentyczności, jasny proces zwrotu. To zbudujemy na porządnym motywie premium (np. z rodziny Prestige/Dawn), z własnym układem sekcji, a nie na szablonie, który zostanie rozpoznany przez klientki.
+
+Drugi temat, o którym większość wykonawców zapomina: sklep z rynku polskiego sprzedający przedmioty używane musi mieć poukładane rzeczy prawne. GPSR wymaga oznaczenia produktu i podmiotu odpowiedzialnego, Omnibus pokazywania najniższej ceny z 30 dni, a przy rękojmi konsument ma 2 lata. Zepniemy to w politykach i w szablonach maili tak, żeby przy sprzedaży torebki z drugiej ręki nie było potem sporu. Podobnie płatności: BLIK przez Shopify Payments lub Przelewy24, wyłączone zbędne metody, żeby checkout był krótki, bo przy koszyku premium każdy dodatkowy krok to porzucona transakcja.
+
+W zakresie poza tym, co wymieniłaś, dostajesz ode mnie szkolenie z obsługi (nagrane + call), żebyś sama dodawała torebki bez wołania nas za każdym razem, oraz konfigurację zgodną z wymogami rynku polskiego.
+
+Za postawienie kompletnego sklepu od A do Z, gotowego do sprzedaży i przekazanego ze szkoleniem, liczymy 5850 zł. Realizacja w 7 dni roboczych od momentu, gdy dostaniemy inspiracje i materiały.
+
+Zdzwońmy się na 15 minut, rzucę okiem na inspiracje i powiem, jaki motyw będzie tu najlepszy.
+
+Pozdrawiam
+
+
+
+########## C. Automatyzacja bot (male) ##########
+WYCENA:
+[WYNIK_KONCOWY]
+KWOTA: 2500
+DNI: 7
+[/WYNIK_KONCOWY]
+
+--- UZASADNIENIE DOBORU (model) ---
+Zlecenie skrajnie niedoprecyzowane: 'bot w node.js zbierający i wysyłający kody do bazy' bez wskazania źródła, formatu, wolumenu ani odbiorcy. Zgodnie z poprawką z weryfikacji przyjmuję WARIANT BAZOWY bota (16h, dolna granica tabeli 'Bot/scraper z anty-detekcją'), bo NIE wiadomo, czy źródło w ogóle posiada anti-bot. Wariant pełny 30h wchodzi warunkowo +14h wyłącznie po potwierdzeniu, że źródło stosuje DataDome/TLS fingerprinting/CAPTCHA lub że klient wymaga proxy residential. Zapis do bazy uznaję za sub-feature bota (nie osobny moduł CRUD), bo bez lifecycle bota nie istnieje. Brak specyfikacji → flaga true i mnożnik ×1.3 w KROKU 5. Nie stosuję ograniczenia_api=true, bo research wskazuje ograniczenia eBay/Amazon/Allegro/Telegram, ale ŻADNE z tych źródeł nie jest potwierdzone w zleceniu — karanie klienta za niesprawdzone założenie byłoby podwójnym liczeniem (feedback z weryfikacji). Node.js/JS to technologia standardowa, nie niszowa → nowa_technologia=false, bufor standardowy.
+
+--- ROZBICIE (kalkulator deterministyczny) ---
+{
+  "tryb": "projekt",
+  "moduly": [
+    {
+      "nazwa": "Bot/scraper z anty-detekcją (proxy rotation, rate limiting, stealth)",
+      "godziny_real": 16
+    }
+  ],
+  "godziny_real": 16.0,
+  "po_testach_15": 18.4,
+  "bufor": 0.2,
+  "po_buforze": 22.1,
+  "mnoznik_ryzyka": 1.3,
+  "cap_zadzialal": false,
+  "po_mnoznikach": 28.7,
+  "stawka": 90,
+  "cena_bazowa": 2583.4,
+  "korekta_konkurencyjna": 0.9,
+  "cena_po_korekcie": 2325.0,
+  "kwota_koncowa": 2500
+}
+
+OFERTA:
+Cześć,
+
+Piszę w imieniu dwuosobowego zespołu. Node.js i JavaScript to nasza codzienność, boty i scrapery robiliśmy nie raz.
+
+Problem z tym zleceniem jest taki, że opis jest za krótki, żeby zrobić to dobrze. "Bot który zbiera i wysyła kody do bazy" może znaczyć zupełnie co innego w zależności od tego, skąd te kody zbieramy i jak mają być wysyłane. Jak to zostanie niedoprecyzowane, to za tydzień okaże się, że źródło ma captchę, baza ma inny format, a wysyłka miała iść przez coś, o czym nikt nie pomyślał.
+
+Dlatego proponuję tak: przed startem potrzebuję trzech informacji. Skąd dokładnie zbieramy kody, do jakiej bazy mają trafiać i jak ma wyglądać wysyłka. Jeśli źródło ma regulamin zakazujący automatycznego dostępu, idziemy w oficjalne API, jeśli jest dostępne. Jeśli nie ma i trzeba scrapować, to zależy od tego, czy źródło w ogóle blokuje boty.
+
+W wariancie bazowym, czyli bot w Node.js z kolejką, throttlingiem, zapisem do bazy i logowaniem, wyceniamy to na 2500 zł i 7 dni. Jeśli okaże się, że źródło jest bronione i trzeba dorzucić rotację proxy czy inne obejścia, wrócimy z korektą przed startem, żeby nie strzelać w ciemno.
+
+Daj znać, czy pasuje krótka rozmowa. Dopytam o te trzy rzeczy i od razu będzie wiadomo, czy lecimy z bazowym wariantem, czy trzeba go rozszerzyć.
+
+Pozdrawiam
+
+

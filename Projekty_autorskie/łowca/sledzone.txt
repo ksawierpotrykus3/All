@@ -1,0 +1,17 @@
+# ============================================================
+# LISTA OBSERWOWANYCH ŹRÓDEŁ — MODUŁ RADAR (ŁOWCA)
+# ============================================================
+# Wklejaj linki do profili, kanałów i subredditów (jeden na linię).
+# Linie zaczynające się od # są ignorowane jako komentarze.
+
+# --- YouTube ---
+https://www.youtube.com/@GFDarwinyt
+
+# --- Reddit ---
+https://www.reddit.com/r/DeepSeek/
+
+# --- Facebook ---
+https://www.facebook.com/adam.jesionkiewicz
+
+# --- Instagram ---
+https://www.instagram.com/flamingocardsapp

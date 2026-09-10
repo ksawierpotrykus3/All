@@ -1,0 +1,95 @@
+{
+  "ts_start": "10:48:54.188Z",
+  "steps": [
+    {
+      "step": "wybor_itemu",
+      "elapsed_ms": 16.0,
+      "wall_utc": "10:48:54.189Z"
+    },
+    {
+      "step": "item 9827237713 seller=3154385298 'Anfernee Hardaway Magic #1'",
+      "elapsed_ms": 954.0,
+      "wall_utc": "10:48:55.132Z"
+    },
+    {
+      "step": "conversations conv=24728925909 txn=21912438032",
+      "elapsed_ms": 2329.0,
+      "wall_utc": "10:48:56.501Z",
+      "http": 200
+    },
+    {
+      "step": "build checkout=40U11NXIKdWFUMTwlNop-",
+      "elapsed_ms": 3907.0,
+      "wall_utc": "10:48:58.088Z",
+      "http": 200
+    },
+    {
+      "step": "put payment_method",
+      "elapsed_ms": 5000.0,
+      "wall_utc": "10:48:59.179Z",
+      "http": 200,
+      "checksum": true
+    },
+    {
+      "step": "pickup_points n=15",
+      "elapsed_ms": 5407.0,
+      "wall_utc": "10:48:59.582Z",
+      "http": 200
+    },
+    {
+      "step": "put pickup_details",
+      "elapsed_ms": 6797.0,
+      "wall_utc": "10:49:00.972Z",
+      "http": 200,
+      "checksum": true
+    },
+    {
+      "step": "PAYMENT -> BRAMKA",
+      "elapsed_ms": 9813.0,
+      "wall_utc": "10:49:03.989Z",
+      "http": 200,
+      "payment_status": "pending",
+      "redirect": "https://checkoutshopper-live.adyen.com/checkoutshopper/checkoutPaymentRedirect?redirectData=X3XtfGC9",
+      "success": true
+    },
+    {
+      "step": "txn status",
+      "elapsed_ms": 10000.0,
+      "wall_utc": "10:49:04.178Z",
+      "txn_status": 200,
+      "status_title": "Przetwarzanie płatności."
+    },
+    {
+      "step": "start Camoufox do screena bramki",
+      "elapsed_ms": 10000.0,
+      "wall_utc": "10:49:04.181Z"
+    },
+    {
+      "step": "screenshot bramki zapisany",
+      "elapsed_ms": 30719.0,
+      "wall_utc": "10:49:24.906Z",
+      "file": "F:\\PROJEKTY\\vinted\\vinted\\testy_camoufox\\bench_gateway_bramka.png"
+    }
+  ],
+  "elapsed": {
+    "to_gateway_ms": 9813.0,
+    "txn_status_ms": 10000.0
+  },
+  "item": {
+    "id": 9827237713,
+    "seller": 3154385298,
+    "title": "Anfernee Hardaway Magic #1",
+    "price": {
+      "amount": "3.5",
+      "currency_code": "PLN"
+    }
+  },
+  "success": true,
+  "txn": {
+    "id": 21912438032,
+    "status": 200,
+    "status_title": "Przetwarzanie płatności.",
+    "purchase_id": null
+  },
+  "screenshot_marked": "F:\\PROJEKTY\\vinted\\vinted\\testy_camoufox\\bench_gateway_bramka_dowod.png"
+}

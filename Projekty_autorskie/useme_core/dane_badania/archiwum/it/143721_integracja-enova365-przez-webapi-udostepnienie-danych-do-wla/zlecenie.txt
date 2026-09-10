@@ -1,0 +1,493 @@
+Integracja enova365 przez WebAPI udostępnienie danych do własnej warstwy analitycznej AI
+========================================================================================
+URL: https://useme.com/pl/jobs/integracja-enova365-przez-webapi-udostepnienie-danych-do-wlasnej-warstwy-anality,143721/
+
+Zleceniodawca
+AB
+
+Opis
+Firma handlowa z branży eksportowej. Pracujemy na enova365 (wersja platynowa, 2512.2.2, instalacja na własnym serwerze). Mamy na licencji moduły Handel, Przedstawiciel Handlowy i CRM oraz Harmonogram Zadań, który producent zastąpił modułem WebAPI. Producent potwierdził nam pisemnie, że nie musimy dokupywać żadnego modułu, żeby ruszyć z integracją.
+
+Budujemy własną warstwę analityczną i agentów AI działających na naszych danych. Szukamy osoby, która udostępni nam dane z enovy w sposób nadający się do dalszego przetwarzania.
+
+Zakres:
+
+Uruchomienie i konfiguracja WebAPI na naszej instalacji (operator, uprawnienia, dostęp).
+
+Zestaw cyklicznych zadań eksportujących dane przetworzone logiką systemu do zewnętrznych tabel: dokumenty sprzedaży z wyliczoną marżą w podziale na klienta, rynek i handlowca; zapytania ofertowe wraz ze statusem; rozrachunki i przeterminowania.
+
+W razie potrzeby własne kontrolery WebAPI, jeśli standardowe nie pokryją powyższego.
+
+Wymagamy:
+
+Udokumentowanych wdrożeń na enova365, konkretnie przy WebAPI, Integratorze albo Harmonogramie Zadań. Prosimy o referencje z możliwością kontaktu albo opis dwóch zrealizowanych integracji.
+
+Znajomości modelu danych enovy na tyle, żeby wiedzieć, które wartości są w bazie, a które system wylicza obiektowo.
+
+W zgłoszeniu prosimy o:
+
+Odpowiedź na pytanie techniczne: jak podejść do udostępnienia marży, skoro enova wylicza ją obiektowo, a nie przechowuje jako pole w bazie?
+
+Dwie referencje z wdrożeń na enova365.
+
+Wycenę w dniach roboczych i stawkę dzienną, osobno dla każdego z trzech punktów zakresu.
+
+Odpowiadamy na wszystkie zgłoszenia zawierające powyższe trzy elementy.
+
+Opublikowano
+6 dni temu
+
+Kategoria
+Projekty IT
+
+Prawa autorskie
+Decyzja freelancera
+
+Budżet
+Do negocjacji
+
+Ważne przez
+30 dni
+
+Wymagane funkcje::
+enova365 webapi integracja
+
+Umiejętności:
+API web api
+
+Wymagane umiejętności / tagi:
+administracja serwerów, administracja sieci, AI, + 62 więcej
+
+Wysłane oferty (23)
+------------------------------
+[Andrzej Nowicki | 8 umów](https://useme.com/pl/roles/contractor/572117/) - dzisiaj
+  * administracja serwerów
+  * administracja sieci
+  * AI
+  * ajax
+  * AMI
+  * angular JS
+  * ansible
+  * apache
+  * aws
+  * backend
+  * Bash
+  * bazy danych
+  * c
+  * centOS
+  * chatbot
+  * content marketing
+  * copywriting
+  * Dart
+  * debian
+  * DevOps
+  * docker
+  * Figma
+  * Flutter
+  * git
+  * google ads
+  * Google Adsense
+  * google analytics
+  * Google Tag Manager
+  * hosting
+  * html
+  * html5
+  * iOS
+  * javascript
+  * jenkins
+  * jira
+  * jquery
+  * konfiguracja sieci
+  * kubernetes
+  * LESS
+  * linux
+  * Llama
+  * LLM
+  * mac OS
+  * mailing
+  * mariadb
+  * migracja stron www
+  * mysql
+  * Next.js
+  * nginx
+  * NodeJS
+  * optymalizacja
+  * oracle
+  * OS X
+  * PHP
+  * python
+  * React
+  * redis
+  * SCSS
+  * selenium
+  * seo
+  * TCP
+  * web api
+  * web development
+  * WebGL
+  * xml
+
+[Fesiomatyzacja.pro | 0 umów](https://useme.com/pl/roles/contractor/675766/) - wczoraj
+  * administracja serwerów
+  * administracja systemów
+  * Antigravity
+  * Claude Opus
+  * e-marketing
+  * korepetycje online
+  * markdown
+  * OpenAI
+  * pozyskiwanie klientów
+  * prompt engineering
+
+[Jan Noga | 0 umów](https://useme.com/pl/roles/contractor/642957/) - 3 dni temu
+  * administracja systemów
+  * API
+  * chatgpt
+  * n8n
+  * OpenAI
+  * procesy biznesowe
+  * python
+  * SaaS
+  * sprzedaż
+  * Web Scraping
+
+[Rizky Pradana | 1 umowa](https://useme.com/pl/roles/contractor/635608/) - 4 dni temu
+
+[Adrian Smolczyk | 0 umów](https://useme.com/pl/roles/contractor/660905/) - 4 dni temu
+  * android
+  * aplikacje mobilne
+  * aplikacje webowe
+  * baselinker
+  * c
+  * cakePHP
+  * e-commerce
+  * iOS
+  * javascript
+  * laravel
+  * PHP
+  * PHP Offshore
+  * programy użytkowe
+  * python
+  * sztuczna inteligecja
+  * testy automatyczne
+  * uczenie maszynowe
+
+[Hubert Ptaszek | 0 umów](https://useme.com/pl/roles/contractor/416829/) - 4 dni temu
+  * AI
+  * analiza biznesowa
+  * BPMN
+  * cloud
+  * CRM
+  * DevOps
+  * ERP
+  * git
+  * LLM
+  * Microsoft Exchange
+  * .NET
+  * optymalizacja
+  * React
+  * sass
+  * sql
+  * UI
+  * UML
+  * UX
+  * web api
+  * zarządzanie instytucją
+
+[Ziemniaqs | 20 umów](https://useme.com/pl/roles/contractor/485196/) - 4 dni temu
+
+[Tom Smart | 0 umów](https://useme.com/pl/roles/contractor/677782/) - 5 dni temu
+
+[Dawidweb | 115 umów](https://useme.com/pl/roles/contractor/226189/) - 5 dni temu
+  * adwords
+  * Amazon Ads
+  * API
+  * aplikacje webowe
+  * cms
+  * edycja
+  * google ads
+  * Google Adsense
+  * html
+  * java
+  * javascript
+  * kampania reklamowa
+  * migracja stron www
+  * moduł płatności
+  * niemiecki
+  * opis produktu
+  * opis usługi
+  * pozycjonowanie
+  * python
+  * redakcja tekstu
+  * seo
+  * shoper
+  * shopify
+  * sklep internetowy
+  * strona www
+  * teksty pozycjonujące
+  * web api
+  * web development
+  * Webflow
+  * Web Scraping
+  * WooCommerce
+  * wordpress
+
+[Tomas | 0 umów](https://useme.com/pl/roles/contractor/597456/) - 5 dni temu
+
+[Szymon M | 2 umów](https://useme.com/pl/roles/contractor/581147/) - 6 dni temu
+  * API
+  * aplikacje webowe
+  * css
+  * html
+  * n8n
+  * Next.js
+  * python
+  * React
+
+[PROGRAMO | 0 umów](https://useme.com/pl/roles/contractor/679766/) - 6 dni temu
+
+[Jakub Kaczmarek | 25 umów](https://useme.com/pl/roles/contractor/137876/) - 6 dni temu
+
+[Kacper Zdziebło | 100+ projekt | 9 umów](https://useme.com/pl/roles/contractor/637585/) - 6 dni temu
+  * adobe xd
+  * AI
+  * css
+  * design
+  * e-commerce
+  * Figma
+  * html
+  * javascript
+  * PHP
+  * WooCommerce
+  * wordpress
+
+[Webyjuice - Kreujemy marki | 1 umowa](https://useme.com/pl/roles/contractor/467254/) - 6 dni temu
+  * AI
+  * android
+  * boty
+  * branding
+  * css
+  * logo
+  * python
+  * React
+  * rebranding
+  * wordpress
+
+[Vulcanoo - CodeOlympus.studio | 112 umów](https://useme.com/pl/roles/contractor/156740/) - 6 dni temu
+  * analiza danych
+  * API
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * cms
+  * css
+  * html
+  * mysql
+  * PHP
+  * prestashop
+  * python
+  * sklep internetowy
+  * sql
+  * strona www
+  * web development
+  * wordpress
+
+[SPINAMY. | 47 umów](https://useme.com/pl/roles/contractor/1130/) - 6 dni temu
+  * AI
+  * analiza biznesowa
+  * angielski
+  * API
+  * arkusze google
+  * Google Apps Script
+  * interfejs użytkownika
+  * java
+  * java ee
+  * javascript
+  * Microsoft Exchange
+  * MSSQL
+  * mysql
+  * n8n
+  * OpenAI
+  * oracle
+  * plsql
+  * postgresql
+  * python
+  * REST
+  * retusz
+  * soap
+  * sql
+  * SubiektGT
+  * video
+  * web api
+  * web development
+  * windows
+  * Windows forms
+  * xml
+  * zapier
+
+[KARTS DESIGN | 10 umów](https://useme.com/pl/roles/contractor/113377/) - 6 dni temu
+  * adobe illustrator
+  * adobe photoshop
+  * aplikacje mobilne
+  * apps
+  * architektura
+  * banner
+  * fotografia
+  * fotografia biznesowa
+  * fotografia mody
+  * fotografia produktowa
+  * grafika
+  * grafika na stronę
+  * grafika www
+  * identyfikacja wizualna
+  * layout design
+  * logo
+  * plakat
+  * sklep internetowy
+  * strona www
+  * UI
+  * ulotki
+  * user experience design
+  * UX design
+  * web development
+  * wizytówki
+  * wordpress
+
+[Mikołaj | 5 umów](https://useme.com/pl/roles/contractor/331674/) - 6 dni temu
+  * aws
+  * C Sharp
+  * javascript
+  * laravel
+  * PHP
+  * vue
+
+[Heyneuron.com | 1 umowa](https://useme.com/pl/roles/contractor/148433/) - 6 dni temu
+  * AI
+  * Airtable
+  * API
+  * aplikacje webowe
+  * blockchain
+  * CRM
+  * facebook
+  * Facebook Pixel
+  * gmail
+  * google analytics
+  * Google Tag Manager
+  * hubspot
+  * landing page
+  * LANDINGPAGE
+  * marketing internetowy
+  * n8n
+  * Next.js
+  * Nocode
+  * React
+  * strona www
+  * web api
+  * web development
+  * zapier
+
+[fastwebsite | 6 umów](https://useme.com/pl/roles/contractor/128643/) - 6 dni temu
+  * abap
+  * administracja serwerów
+  * administracja stron
+  * administracja systemów
+  * adobe illustrator
+  * adobe indesign
+  * adobe photoshop
+  * allegro
+  * animacja
+  * API
+  * aplikacje webowe
+  * architektura
+  * backend
+  * banner
+  * bazy danych
+  * blog
+  * c
+  * cięcie grafiki
+  * cięcie strony
+  * cms
+  * C plus plus
+  * CRM
+  * C Sharp
+  * css
+  * dodawanie produktów
+  * dtp
+  * edycja video
+  * film reklamowy
+  * fotografia
+  * frontend
+  * grafika
+  * grafika na stronę
+  * grafika wektorowa
+  * grafika www
+  * html
+  * html5
+  * identyfikacja wizualna
+  * ilustracje
+  * java
+  * javascript
+  * joomla
+  * kodowanie
+  * layout design
+  * lektor
+  * logo
+  * Magento
+  * moduł płatności
+  * montaż video
+  * muzyka
+  * nagrania
+  * .NET
+  * perl
+  * PHP
+  * plakat
+  * podkład muzyczny
+  * postgresql
+  * prestashop
+  * przygotowanie do druku
+  * python
+  * ruby
+  * rwd
+  * scrum
+  * serwis
+  * shoper
+  * sklep internetowy
+  * spot radiowy
+  * strona www
+  * szablon
+  * szparowanie
+  * telemarketing
+  * typografia
+  * ulotki
+  * user experience design
+  * VB.net
+  * video
+  * videoblog
+  * visual basic
+  * web development
+  * wirtualne biuro
+  * wizytówki
+  * WooCommerce
+  * wordpress
+  * xml
+  * zend
+
+[IgnacyDev | 2 umów](https://useme.com/pl/roles/contractor/608733/) - 6 dni temu
+  * css
+  * IT
+  * migracja stron www
+  * NodeJS
+  * python
+  * React
+  * strona www
+
+[Voxquartz Systems | 4 umów](https://useme.com/pl/roles/contractor/622861/) - 6 dni temu
+  * AI
+  * Elementor
+  * Flutter
+  * Next.js
+  * NodeJS
+  * PHP
+  * React
+  * SaaS
+  * wordpress

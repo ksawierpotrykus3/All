@@ -1,0 +1,162 @@
+=== no_chat.png blocks 4
+  'Purple Baby: In' 0.97
+  'Tassadar Xel: graciaslII' 0.6
+  'Hero' 1.0
+  'Headquarters' 1.0
+=== 1_scan_chat_without_arrow.png blocks 48
+  'Chat' 0.64
+  'New' 1.0
+  'World' 0.46
+  'Duel ' 0.58
+  'Alliance' 1.0
+  'Friend Post Private Chat ' 0.6
+  'Chat' 0.99
+  'Notice' 1.0
+  'send location' 0.91
+  'QYou' 0.75
+  '02:20' 1.0
+  'LV 24' 0.58
+  'Joker' 1.0
+  'SS' 0.41
+  'Headquarters' 0.99
+  'Lv:24 MAVEJJoker' 0.72
+  'SS' 0.51
+  'IState 751' 0.36
+  'X:474 Y:5oo' 0.75
+  '2d 01:02:1' 0.25
+  'Purple Baby' 0.9
+  'LV 25' 0.54
+  'Musc' 0.46
+  'R4' 0.93
+  'Empty Land' 0.99
+  'Empty Land  State 751' 0.77
+  'X469' 0.99
+  'Y:508' 1.0
+  'LV:25' 0.53
+  'Purple Baby' 0.86
+  'R4' 1.0
+  'Find a spot' 0.66
+  'If you fight go' 0.58
+  'in mud' 0.76
+  'If you use shield' 0.93
+  '08 00100' 0.35
+  'and reinforce go to grass' 0.91
+  'Muse' 0.81
+  '02:27' 1.0
+  'LV 24' 0.33
+  'Hrokr' 1.0
+  'Purple Baby' 0.81
+  'Muse' 0.96
+  'LV 25' 0.56
+  'R4' 0.99
+  'Empty Land' 0.7
+  'Emntv Land IState 751' 0.96
+  'Tap to enter text' 0.75
+=== helka_scrolled.png blocks 30
+  'New' 1.0
+  '584442' 0.72
+  '5153425957' 0.74
+  '217 9M' 0.97
+  '150:1M' 0.53
+  '189 9M' 0.7
+  '199 8M' 0.84
+  '30' 1.0
+  'Even' 0.99
+  '05:28:42' 0.72
+  'Center' 1.0
+  '00300305' 0.5
+  'State RulerHot Events' 1.0
+  'Champion 05:28342' 0.53
+  'Duel' 1.0
+  'Ist Buy' 0.88
+  'Module' 1.0
+  'aunch' 1.0
+  '073' 0.37
+  'Alliance' 1.0
+  '42' 0.14
+  'Mail' 1.0
+  'Donate to Alliance Techs' 0.95
+  '10 tites' 0.76
+  'Completeh' 0.55
+  'Warehouse' 0.9
+  'Purple Baby: In' 0.97
+  'Hero' 0.97
+  'Tassadar Xel: graciaslII' 0.6
+  'Headquarters' 1.0
+=== details.png blocks 27
+  'Details' 1.0
+  'Explore Treasure' 0.88
+  'Can obtain' 0.89
+  'IMAVEJ NeoSaver' 0.92
+  'Oops  you missed out on the rewardl' 0.58
+  'MMAEIxai x' 0.53
+  'Cost' 1.0
+  '08162 s' 0.48
+  'Lv:27' 0.8
+  '08-00:00' 0.36
+  'IMAVEIJ Kemen' 0.57
+  'Cost' 1.0
+  '06221' 0.49
+  'Lv:24' 0.65
+  'x2' 0.67
+  'MMAVEI CaCo3' 0.54
+  'Cost' 1.0
+  '0-228' 0.39
+  'Lv:26' 0.82
+  'MMAVEI Elbright' 0.27
+  'Cost' 1.0
+  'Jo232' 0.78
+  'Lv:25' 0.72
+  'MMAVEJ Hrek' 0.34
+  'Cost' 1.0
+  '06253' 0.81
+  'Lv:24' 0.58
+=== 1_scan_chat_with_arrow.png blocks 48
+  'Chat' 0.64
+  'New' 1.0
+  'World' 0.46
+  'Duel ' 0.58
+  'Alliance' 1.0
+  'Friend Post Private Chat ' 0.6
+  'Chat' 0.99
+  'Notice' 1.0
+  'send location' 0.91
+  'QYou' 0.75
+  '02:20' 1.0
+  'LV 24' 0.58
+  'Joker' 1.0
+  'SS' 0.41
+  'Headquarters' 0.99
+  'Lv:24 MAVEJJoker' 0.72
+  'SS' 0.51
+  'IState 751' 0.36
+  'X:474 Y:5oo' 0.75
+  '2d 01:02:1' 0.25
+  'Purple Baby' 0.9
+  'LV 25' 0.54
+  'Musc' 0.46
+  'R4' 0.93
+  'Empty Land' 0.99
+  'Empty Land  State 751' 0.77
+  'X469' 0.99
+  'Y:508' 1.0
+  'LV:25' 0.53
+  'Purple Baby' 0.86
+  'R4' 1.0
+  'Find a spot' 0.66
+  'If you fight go' 0.58
+  'in mud' 0.76
+  'If you use shield' 0.93
+  '08 00100' 0.35
+  'and reinforce go to grass' 0.91
+  'Muse' 0.81
+  '02:27' 1.0
+  'LV 24' 0.33
+  'Hrokr' 1.0
+  'Purple Baby' 0.81
+  'Muse' 0.96
+  'LV 25' 0.56
+  'R4' 0.99
+  'Empty Land' 0.7
+  'Emntv Land IState 751' 0.96
+  'Tap to enter text' 0.75

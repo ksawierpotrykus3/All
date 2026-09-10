@@ -1,0 +1,31 @@
+### POST FACEBOOK ###
+
+Źródło: https://www.facebook.com/photo/?fbid=122111075366633623&set=gm.1624018692642478&idorvanity=1517807616596920
+Autor: Ishrat Al Lab
+Data pobrania: 2026-08-21 10:55:50
+Liczba unikalnych komentarzy: 2
+
+--- TREŚĆ POSTA ---
+This Google DeepMind paper is f*cking brilliant
+A new research paper proves that turning verifiers into generative next-token predictors unlocks superhuman reasoning accuracy
+The result: chain-of-thought verification rationales, inference-time compute scaling, and seamless generalization from grade-school math to competition problems
+candidate solutions → CoT rationale generation → token probability scoring → majority-voted ensemble → optimal solution select
+Google DeepMind unified verification and generation under standard next-token prediction:
+→ Verification as Next-Token Prediction
+Replaces arbitrary scalar reward heads with the direct probability of generating a Yes or No token. Verification becomes native autoregressive text generation rather than artificial classification
+→ Chain-of-Thought Verification (GenRM-CoT)
+The verifier generates an explicit step-by-step critique before predicting correctness, catching hidden calculation bugs and hallucinations missed by direct scoring
+→ Inference-Time Compute Scaling
+Samples multiple independent verification rationales and averages the predicted Yes probabilities across majority votes, filtering out single-path errors and outperforming prompt-based LLM judges
+→ Easy-to-Hard Generalization
+A 9B generative verifier trained only on grade-school math successfully generalized to high-school competition problems on MATH500, boosting solve rates from 28.0% to 44.6%
+→ Hypothesis Verification & Empirical Results
+Google DeepMind hypothesized that generative critique with test-time compute scaling dramatically outperforms discriminative reward modeling. Practical validation on complex multi-step reasoning pipelines confirmed the findings: task accuracy surged from 73.0% to 93.4% on GSM8K while requiring 2.5x fewer candidate samples
+Treating verification as generative reasoning turns reward modeling into an autoregressive self-correction engine
+Read the complete breakdown in the article below ↓
+
+--- KOMENTARZE I ODPOWIEDZI ---
+
+1. Vasquez Gustavo: So, an article from 2025? I think there are a lot of changes since then bud. It says using Gemini 1.0 that’s all like outdated.
+
+    1.1. Ishrat Al Lab: Vasquez Gustavo h I think the point is that the methodology is what's important here, not the version number

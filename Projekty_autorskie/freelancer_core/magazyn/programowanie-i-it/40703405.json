@@ -1,0 +1,79 @@
+{
+  "id": "40703405",
+  "url": "https://www.freelancer.pl/projects/web-design/Simple-Animated-Real-Estate-Website/details",
+  "title": "Simple Animated Real Estate Website",
+  "author": "Anonim",
+  "budget": "1500.0 - 12500.0 INR",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.798945",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703405",
+    "url": "https://www.freelancer.pl/projects/web-design/Simple-Animated-Real-Estate-Website/details",
+    "seo_url": "web-design/Simple-Animated-Real-Estate-Website",
+    "title": "Simple Animated Real Estate Website",
+    "budget": "1500.0 - 12500.0 INR",
+    "budget_raw": {
+      "minimum": 1500.0,
+      "maximum": 12500.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I’m looking to launch a clean, modern real-estate site that presents both residential and commercial",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "JavaScript",
+      "CSS",
+      "Animation",
+      "HTML5",
+      "HTML",
+      "Web Development",
+      "CSS3",
+      "Web Design"
+    ],
+    "bid_stats": {
+      "bid_count": 65,
+      "bid_avg": 7730.210923076923
+    },
+    "local": false,
+    "time_submitted": 1789052118
+  },
+  "full_details": {
+    "id": "40703405",
+    "title": "Simple Animated Real Estate Website",
+    "full_description": "I’m looking to launch a clean, modern real-estate site that presents both residential and commercial listings with a touch of motion to keep visitors engaged. The build is small in scope—just three pages—but I want the experience to feel polished:\n\n• Home page: a full-width hero that slides in key messages, plus subtle loading animation while images prepare in the background.  \n• Property listings: grid or card layout where each property reveals extra details on hover.  \n• Contact us: straightforward form, again with light slide-in transitions so the page never feels static.\n\nAll animations should stay elegant—slide-in transitions for sections, hover effects for property cards, and a minimal loading indicator between page changes. Responsiveness is essential; I expect smooth behaviour on desktop, tablet, and mobile. Hand-code in HTML5/CSS3/JavaScript or a lightweight framework of your choice—just keep the code well-commented so I can update content later.\n\nDeliverables  \n• Fully functional three-page site, styled and animated as described  \n• Source files and assets neatly organised  \n• Brief hand-off notes on how to add new listings and tweak animations\n\nIf you can blend crisp design with subtle motion, I’d love to see your approach.",
+    "budget_raw": {
+      "minimum": 1500.0,
+      "maximum": 12500.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "JavaScript",
+      "CSS",
+      "Animation",
+      "HTML5",
+      "HTML",
+      "Web Development",
+      "CSS3",
+      "Web Design"
+    ],
+    "bid_stats": {
+      "bid_count": 65,
+      "bid_avg": 7730.210923076923
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:40"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:40.052496"
+}

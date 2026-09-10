@@ -1,0 +1,248 @@
+Programista Wordpress
+=====================
+URL: https://useme.com/pl/jobs/programista-wordpress,144045/
+
+Zleceniodawca
+kodiwo
+
+Opis
+Poszukuję programisty WordPress z dobrą znajomością PHP i minimum 3-letnim doświadczeniem komercyjnym.
+
+Praca w niepełnym wymiarze godzin (part-time), z perspektywą współpracy przez kilka miesięcy.
+
+Projekt obejmuje modernizację istniejącego serwisu internetowego oraz przygotowanie go do skalowania na kolejne rynki. Zakres prac to rozwój i refaktoryzacja, tworzenie dedykowanych rozwiązań oraz rozwiązywanie problemów technicznych.
+
+Wymagania:
+
+- Minimum 3 lata doświadczenia w pracy z WordPressem.
+
+- Znajomość SOLID.
+
+- Dobra znajomość PHP.
+
+- Bardzo dobra znajomość API WordPressa.
+
+- Znajomość GIT Flow.
+
+- Otwartość na nowoczesne rozwiązania i umiejętność ich praktycznego wykorzystania.
+
+- Umiejętność tworzenia i modyfikowania motywów oraz wtyczek.
+
+- Znajomość HTML, CSS i JavaScript.
+
+- Samodzielność, terminowość i dobra komunikacja.
+
+Opublikowano
+godzinę temu
+
+Kategoria
+Oprogramowanie
+
+Prawa autorskie
+Przeniesienie praw autorskich
+
+Budżet
+Do negocjacji
+
+Ważne przez
+30 dni
+
+Wymagane umiejętności / tagi:
+API, cyberbezpieczeństwo, laravel, + 6 więcej
+
+Wysłane oferty (15)
+------------------------------
+[Piotr Bujanowski | 9 umów](https://useme.com/pl/roles/contractor/622789/) - dzisiaj
+  * API
+  * cyberbezpieczeństwo
+  * laravel
+  * Next.js
+  * NodeJS
+  * PHP
+  * python
+  * sklep internetowy
+  * wordpress
+
+[deloskiyt | 0 umów](https://useme.com/pl/roles/contractor/620578/) - dzisiaj
+
+[LuroWeb.pl | 2 umów](https://useme.com/pl/roles/contractor/342530/) - dzisiaj
+
+[Ziemniaqs | 20 umów](https://useme.com/pl/roles/contractor/485196/) - dzisiaj
+
+[Webyjuice - Kreujemy marki | 1 umowa](https://useme.com/pl/roles/contractor/467254/) - dzisiaj
+  * AI
+  * android
+  * boty
+  * branding
+  * css
+  * logo
+  * python
+  * React
+  * rebranding
+  * wordpress
+
+[Jablonski DevOps | 119 umów](https://useme.com/pl/roles/contractor/331142/) - dzisiaj
+  * API
+  * CRM
+  * ERP
+  * html
+  * html5
+  * javascript
+  * joomla
+  * Magento
+  * MSSQL
+  * PHP
+  * prestashop
+  * python
+  * seo
+  * shoper
+  * shopify
+  * sql
+  * vue
+  * WooCommerce
+  * wordpress
+  * xml
+
+[hermsoft.pl | 3 umów](https://useme.com/pl/roles/contractor/335960/) - dzisiaj
+  * angular2
+  * bootstrap
+  * C Sharp
+  * MSSQL
+  * typescript
+
+[Ligmasick | 4 umów](https://useme.com/pl/roles/contractor/604482/) - dzisiaj
+
+[sebastian.szyja | 14 umów](https://useme.com/pl/roles/contractor/122676/) - dzisiaj
+  * bazy danych
+  * css
+  * domena internetowa
+  * frontend
+  * html
+  * html5
+  * javascript
+  * mysql
+  * PHP
+  * programy użytkowe
+  * python
+  * React
+  * serwer
+  * shoper
+  * web development
+  * wordpress
+
+[Heyneuron.com | 1 umowa](https://useme.com/pl/roles/contractor/148433/) - dzisiaj
+  * AI
+  * Airtable
+  * API
+  * aplikacje webowe
+  * blockchain
+  * CRM
+  * facebook
+  * Facebook Pixel
+  * gmail
+  * google analytics
+  * Google Tag Manager
+  * hubspot
+  * landing page
+  * LANDINGPAGE
+  * marketing internetowy
+  * n8n
+  * Next.js
+  * Nocode
+  * React
+  * strona www
+  * web api
+  * web development
+  * zapier
+
+[KARTS DESIGN | 10 umów](https://useme.com/pl/roles/contractor/113377/) - dzisiaj
+  * adobe illustrator
+  * adobe photoshop
+  * aplikacje mobilne
+  * apps
+  * architektura
+  * banner
+  * fotografia
+  * fotografia biznesowa
+  * fotografia mody
+  * fotografia produktowa
+  * grafika
+  * grafika na stronę
+  * grafika www
+  * identyfikacja wizualna
+  * layout design
+  * logo
+  * plakat
+  * sklep internetowy
+  * strona www
+  * UI
+  * ulotki
+  * user experience design
+  * UX design
+  * web development
+  * wizytówki
+  * wordpress
+
+[Kacper Zdziebło | 100+ projekt | 9 umów](https://useme.com/pl/roles/contractor/637585/) - dzisiaj
+  * adobe xd
+  * AI
+  * css
+  * design
+  * e-commerce
+  * Figma
+  * html
+  * javascript
+  * PHP
+  * WooCommerce
+  * wordpress
+
+[MysticNord | 49 umów](https://useme.com/pl/roles/contractor/10432/) - dzisiaj
+  * adobe illustrator
+  * adobe photoshop
+  * banner
+  * blog
+  * cięcie grafiki
+  * cięcie strony
+  * cms
+  * css
+  * dtp
+  * edycja video
+  * frontend
+  * grafika
+  * grafika na stronę
+  * grafika wektorowa
+  * grafika www
+  * html5
+  * identyfikacja wizualna
+  * kodowanie
+  * layout design
+  * logo
+  * montaż video
+  * PHP
+  * plakat
+  * prestashop
+  * przygotowanie do druku
+  * retusz
+  * rwd
+  * sklep internetowy
+  * strona www
+  * szablon
+  * ulotki
+  * video
+  * web development
+  * wizytówki
+  * WooCommerce
+  * wordpress
+
+[Konrad Szydłowski | 0 umów](https://useme.com/pl/roles/contractor/669076/) - dzisiaj
+
+[Voxquartz Systems | 4 umów](https://useme.com/pl/roles/contractor/622861/) - dzisiaj
+  * AI
+  * Elementor
+  * Flutter
+  * Next.js
+  * NodeJS
+  * PHP
+  * React
+  * SaaS
+  * wordpress

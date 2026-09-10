@@ -1,0 +1,71 @@
+{
+  "id": "40703401",
+  "url": "https://www.freelancer.pl/projects/google-analytics/ChatGPT-Ads-Conversion-Setup/details",
+  "title": "ChatGPT Ads Conversion Setup",
+  "author": "Anonim",
+  "budget": "600.0 - 1500.0 INR",
+  "category": "sklepy-shopify",
+  "detected_at": "2026-09-10T17:28:38.940066",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703401",
+    "url": "https://www.freelancer.pl/projects/google-analytics/ChatGPT-Ads-Conversion-Setup/details",
+    "seo_url": "google-analytics/ChatGPT-Ads-Conversion-Setup",
+    "title": "ChatGPT Ads Conversion Setup",
+    "budget": "600.0 - 1500.0 INR",
+    "budget_raw": {
+      "minimum": 600.0,
+      "maximum": 1500.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I need help setting up ChatGPT ads conversion tracking with Google Tag Manager on my Shopify store. ",
+    "category": "sklepy-shopify",
+    "project_type": "fixed",
+    "jobs": [
+      "Internet Marketing",
+      "Google Analytics",
+      "Shopify",
+      "OpenAI Codex"
+    ],
+    "bid_stats": {
+      "bid_count": 5,
+      "bid_avg": 2308.8
+    },
+    "local": false,
+    "time_submitted": 1789051775
+  },
+  "full_details": {
+    "id": "40703401",
+    "title": "ChatGPT Ads Conversion Setup",
+    "full_description": "I need help setting up ChatGPT ads conversion tracking with Google Tag Manager on my Shopify store. The main goal is to optimize my ad spend. \n\nKey Requirements:\n- Track purchases as the primary conversion action.\n- Integrate with Google Tag Manager\n- Ensure accurate data flow to measure ad effectiveness \n\nIdeal Skills and Experience:\n- Proficient in Google Tag Manager\n- Experience with Shopify and e-commerce tracking\n- Knowledge of ChatGPT ads and conversion metrics\n\nPlease provide a detailed plan and timeline.",
+    "budget_raw": {
+      "minimum": 600.0,
+      "maximum": 1500.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "Internet Marketing",
+      "Google Analytics",
+      "Shopify",
+      "OpenAI Codex"
+    ],
+    "bid_stats": {
+      "bid_count": 5,
+      "bid_avg": 2308.8
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:50"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:50.930135"
+}

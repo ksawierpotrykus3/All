@@ -1,0 +1,79 @@
+{
+  "id": "40703235",
+  "url": "https://www.freelancer.pl/projects/google-website-optimizer/WordPress-Malware-Cleanup-Expert/details",
+  "title": "WordPress Malware Cleanup Expert",
+  "author": "Anonim",
+  "budget": "400.0 - 750.0 INR",
+  "category": "web-dev",
+  "detected_at": "2026-09-10T17:28:38.869063",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703235",
+    "url": "https://www.freelancer.pl/projects/google-website-optimizer/WordPress-Malware-Cleanup-Expert/details",
+    "seo_url": "google-website-optimizer/WordPress-Malware-Cleanup-Expert",
+    "title": "WordPress Malware Cleanup Expert",
+    "budget": "400.0 - 750.0 INR",
+    "budget_raw": {
+      "minimum": 400.0,
+      "maximum": 750.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "My service-portfolio site is throwing browser security warnings, so I know malicious code has slippe",
+    "category": "web-dev",
+    "project_type": "hourly",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "Web Security",
+      "WordPress",
+      "Website Management",
+      "Internet Security",
+      "Web Development",
+      "Website Optimization"
+    ],
+    "bid_stats": {
+      "bid_count": 71,
+      "bid_avg": 631.0
+    },
+    "local": false,
+    "time_submitted": 1789046183
+  },
+  "full_details": {
+    "id": "40703235",
+    "title": "WordPress Malware Cleanup Expert",
+    "full_description": "My service-portfolio site is throwing browser security warnings, so I know malicious code has slipped in. I need someone who can quickly pinpoint the entry point, wipe out every infected file, snippet, or database injection, and harden the entire WordPress stack so the warnings disappear for good.\n\nHere is what has to be accomplished before we talk about any redesign:\n\n• Trace and document the exact backdoor or vulnerability that let the malware in.  \n• Eradicate all malicious files, scripts, and database entries without disrupting legitimate content.  \n• Patch core, theme, and plugin weaknesses, then apply best-practice hardening (firewall rules, secure file permissions, updated keys, etc.).  \n• Validate that the site loads cleanly across modern browsers with no security alerts and that all service-and-portfolio pages render and function as expected.\n\nI will supply server and wp-admin access, plus any logs you request, in a private chat once I shortlist candidates.\n\nProven WordPress malware-removal and security experience is essential; please share a brief note on similar cleanups you have completed. After the site is fully secured, I plan to start a separate project to revamp the design, so a smooth, documented cleanup now is critical for the next phase.",
+    "budget_raw": {
+      "minimum": 400.0,
+      "maximum": 750.0
+    },
+    "currency": "INR",
+    "project_type": "hourly",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "Web Security",
+      "WordPress",
+      "Website Management",
+      "Internet Security",
+      "Web Development",
+      "Website Optimization"
+    ],
+    "bid_stats": {
+      "bid_count": 71,
+      "bid_avg": 631.0
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:44"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:44.906424"
+}

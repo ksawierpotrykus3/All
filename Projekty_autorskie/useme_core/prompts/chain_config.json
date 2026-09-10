@@ -1,0 +1,115 @@
+{
+  "retry_max": 3,
+  "slots": [
+    {
+      "id": "01",
+      "name": "Research sieciowy",
+      "opis": "AI z dostępem do internetu zbiera aktualne fakty (API, stawki, progi, ryzyka, amunicja do oferty) z dowodami URL/cytat.",
+      "prompt_file": "generatory/agent_01_research.md",
+      "context_files": [],
+      "enabled": true,
+      "role": "generator",
+      "output_key": "research",
+      "model": "deepseek-v4-pro-search"
+    },
+    {
+      "id": "02b",
+      "name": "Wycena i dni",
+      "opis": "AI proponuje stawkę i liczbę dni pracy dla zlecenia na podstawie budżetu, zakresu i researchu.",
+      "prompt_file": "generatory/agent_02b_wycena_dni.md",
+      "context_files": ["kontekst/mechanika_wyceniania.md"],
+      "enabled": true,
+      "role": "generator",
+      "output_key": "wycena_dni",
+      "requires": ["research"]
+    },
+    {
+      "id": "02a",
+      "name": "Tresc oferty",
+      "opis": "AI pisze pełną treść odpowiedzi na ogłoszenie, dopasowaną do klienta, zakresu prac i researchu.",
+      "prompt_file": "generatory/agent_02a_opis_oferty.md",
+      "context_files": ["kontekst/jak_pisac_oferty.md", "kontekst/lore.md"],
+      "enabled": true,
+      "role": "generator",
+      "output_key": "opis",
+      "requires": ["wycena_dni", "research"]
+    },
+    {
+      "id": "03",
+      "name": "Walidator opisu",
+      "opis": "AI sprawdza, czy treść oferty pasuje do wymagań ogłoszenia.",
+      "prompt_file": "walidatory/agent_03_walidator_opisu.md",
+      "context_files": [],
+      "enabled": false,
+      "role": "validator",
+      "requires": ["opis"],
+      "on_fail": "retry_from_02a"
+    },
+    {
+      "id": "04",
+      "name": "Spojnosc",
+      "opis": "AI sprawdza, czy wycena jest spójna z zakresem prac.",
+      "prompt_file": "walidatory/agent_04_spojnosc.md",
+      "context_files": [],
+      "enabled": false,
+      "role": "validator",
+      "requires": ["opis", "wycena_dni"],
+      "on_fail": "abort"
+    },
+    {
+      "id": "05",
+      "name": "Ton i styl",
+      "opis": "AI sprawdza, czy ton oferty pasuje do oczekiwań zleceniodawcy.",
+      "prompt_file": "walidatory/agent_05_ton_i_styl.md",
+      "context_files": [],
+      "enabled": false,
+      "role": "validator",
+      "requires": ["opis"],
+      "on_fail": "retry_from_02a"
+    },
+    {
+      "id": "06",
+      "name": "Bledy jezykowe",
+      "opis": "AI sprawdza ortografię, gramatykę i stylistykę oferty.",
+      "prompt_file": "walidatory/agent_06_bledy_jezykowe.md",
+      "context_files": [],
+      "enabled": false,
+      "role": "validator",
+      "requires": ["opis"],
+      "on_fail": "retry_from_02a"
+    },
+    {
+      "id": "07",
+      "name": "Kompletnosc",
+      "opis": "AI sprawdza, czy oferta porusza wszystkie wymagania ogłoszenia.",
+      "prompt_file": "walidatory/agent_07_kompletnosc.md",
+      "context_files": [],
+      "enabled": false,
+      "role": "validator",
+      "requires": ["opis"],
+      "on_fail": "retry_from_02a"
+    },
+    {
+      "id": "08",
+      "name": "Weryfikator zasad",
+      "opis": "AI sprawdza ofertę i wycenę względem twardych zasad (jak_pisac_oferty, mechanika_wyceniania) i wskazuje konkretne poprawki.",
+      "prompt_file": "walidatory/agent_08_weryfikacja_zasad.md",
+      "context_files": ["kontekst/jak_pisac_oferty.md", "kontekst/mechanika_wyceniania.md"],
+      "enabled": true,
+      "role": "validator",
+      "requires": ["opis", "wycena_dni", "research"],
+      "on_fail": "retry_from_02a"
+    },
+    {
+      "id": "20",
+      "name": "Ostatni rzut oka",
+      "opis": "AI robi końcowy przegląd całej oferty przed wysłaniem.",
+      "prompt_file": "walidatory/agent_20_ostatni_rzut_oka.md",
+      "context_files": [],
+      "enabled": false,
+      "role": "validator",
+      "requires": ["opis", "wycena_dni"],
+      "on_fail": "abort"
+    }
+  ]
+}

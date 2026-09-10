@@ -1,0 +1,44 @@
+{
+  "id": "143984",
+  "url": "https://useme.com/pl/jobs/poszukiwany-informatyk-programista-do-wdrozenia-autorskiego-projektu-ai-praca-zd,143984/",
+  "title": "Poszukiwany informatyk / programista do wdrożenia autorskiego projektu AI (praca zdalna)",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-08T18:26:26.894206",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "143984",
+    "url": "https://useme.com/pl/jobs/poszukiwany-informatyk-programista-do-wdrozenia-autorskiego-projektu-ai-praca-zd,143984/",
+    "title": "Poszukiwany informatyk / programista do wdrożenia autorskiego projektu AI (praca zdalna)",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Szukam ambitnego i kreatywnego informatyka do współpracy przy stworzeniu dedykowanego systemu automatyzacji i obsługi procesów (z wykorzystaniem nowoczesnych narzędzi AI). Oczekuję elastyczności, dobrego zmysłu technicznego oraz zaangażowania....",
+    "category": "programowanie-i-it"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/poszukiwany-informatyk-programista-do-wdrozenia-autorskiego-projektu-ai-praca-zd,143984/",
+    "title": "Poszukiwany informatyk / programista do wdrożenia autorskiego projektu AI (praca zdalna)",
+    "full_description": "<p>Szukam ambitnego i kreatywnego informatyka do współpracy przy stworzeniu dedykowanego systemu automatyzacji i obsługi procesów (z wykorzystaniem nowoczesnych narzędzi AI). Oczekuję elastyczności, dobrego zmysłu technicznego oraz zaangażowania. Projekt podzielony będzie na etapy. Osoby zainteresowane proszę o kontakt w celu omówienia szczegółów i otrzymania pełnego zakresu zadań.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/143984/offer/start/",
+    "scraped_at": "2026-09-10T16:02:30"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu. Robimy systemy automatyzacji i moduły AI od kilku lat, pracujemy bezpośrednio, bez pośredników.\n\nW Twoim ogłoszeniu najważniejszy jest brak konkretów i to jest pierwszy problem do rozwiązania, zanim ktokolwiek napisze linijkę kodu. Bo \"system automatyzacji procesów z AI\" może znaczyć zarówno skrypt, który przepisuje maile do arkusza, jak i agenta, który samodzielnie podejmuje decyzje w firmie. To dwa różne światy, jeśli chodzi o architekturę, koszty utrzymania i ryzyko.\n\nPrawdziwy problem to nie \"napisać AI\", tylko zaprojektować to tak, żeby się nie rozjechało. Agenci AI mają to do siebie, że potrafią działać autonomicznie, a to oznacza konkretne ryzyko operacyjne i kosztowe. Dlatego od początku proponuję proporcjonalne poziomy autonomii: część zadań działa tylko obserwacyjnie, część doradczo, część wykonuje akcje z zatwierdzeniem, a dopiero najprostsze rzeczy w pełni autonomicznie. Do tego log zdarzeń i możliwość rollbacku każdej akcji. Bez tego po kilku miesiącach nikt nie wie, co agent zrobił i dlaczego, a to jest główny powód, dla którego firmy wycofują takie wdrożenia.\n\nDo orkiestracji procesów wchodzi u nas n8n w wersji self-hosted, żeby nie płacić miesięcznego abonamentu za każdy workflow. Model dobieramy pod zadanie: do klasyfikacji i ekstrakcji danych wystarczy tańszy, do generowania treści i analizy idzie mocniejszy. Przy większym wolumenie to realnie obniża koszt API. Do tego dedykowany panel admina z podglądem kolejek, statusem zadań i statystykami, żebyś widział, co się dzieje, bez wchodzenia w logi.\n\nSkoro zakres nie jest jeszcze dopięty, proponuję zacząć od pierwszego etapu: mapujemy procesy, które chcesz automatyzować, i budujemy działający rdzeń z jedną lub dwiema integracjami. To pozwala sprawdzić w praktyce, czy agent robi to, o co chodzi, zanim zainwestujesz w resztę.\n\nZa ten pierwszy etap liczymy 6000 zł, realizacja w 13 dni. Kolejne moduły wyceniamy na bieżąco, gdy będziemy dokładnie wiedzieć, co wchodzi w zakres.\n\nZdzwońmy się w tym tygodniu na 15 minut, opowiesz o procesach, a my powiemy, co da się zautomatyzować od razu.\n\nPozdrawiam",
+    "wycena": 6000,
+    "dni": 13,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "143984",
+    "wycena": 6000,
+    "dni": 13,
+    "final_url": "https://useme.com/pl/jobs/143984/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_143984.png",
+    "message": "Oferta #143984 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/143984/offer/finish/)."
+  },
+  "full_description": "<p>Szukam ambitnego i kreatywnego informatyka do współpracy przy stworzeniu dedykowanego systemu automatyzacji i obsługi procesów (z wykorzystaniem nowoczesnych narzędzi AI). Oczekuję elastyczności, dobrego zmysłu technicznego oraz zaangażowania. Projekt podzielony będzie na etapy. Osoby zainteresowane proszę o kontakt w celu omówienia szczegółów i otrzymania pełnego zakresu zadań.</p>",
+  "updated_at": "2026-09-10T16:17:49.398166"
+}

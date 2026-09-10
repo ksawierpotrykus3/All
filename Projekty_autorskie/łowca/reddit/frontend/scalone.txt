@@ -1,0 +1,96 @@
+### SCALONE CYTATY I WSKAZÓWKI DESIGN / UI / UX DLA AI REDESIGN ###
+
+Plik zawiera wyselekcjonowane, najważniejsze cytaty i praktyczne zasady dotyczące projektowania interfejsów (UI/UX, prototyppowanie, zasady wizualne, kontrast, architektura informacji), wyciągnięte z dyskusji, które w pozostałej części dotyczyły kwestii kariery/rynku pracy.
+
+================================================================================
+1. ŹRÓDŁO: 20260727_if_an_18_year_old_wanted_to_become_a_ux_designer
+================================================================================
+
+[Zasady wizualne i rzemiosło designera - bomchikawowow]
+"Great designers:
+- Care about the details
+- Understand proportion
+- Know how and when to take risks
+- Think about how things work over time (interiors, clothes, print or a screen)
+- Acknowledge and reckon with human factors and the influence of culture
+- Are willing to meaningfully contend with complexity
+- Can communicate their ideas clearly
+- Are relentlessly committed to quality"
+--> Kontekst dla AI Redesign: Przy przeprojektowywaniu interfejsu dbaj o proporcje (spacing, skalowanie elementów), dopracowanie mikro-szczegółów, uwzględnienie stanów w czasie (hovery, animacje, zmiana stanu) oraz radzenie sobie ze złożonością bez spłycania funkcji.
+
+[Projektowanie gęstych interfejsów B2B / Enterprise - No-vem-ber]
+"Would you find it genuinely interesting to spend a year... designing software pages with tables of data, filters, and settings? This is the reality of a lot of UX jobs - building enterprise software for random niche industries that need high data density."
+--> Kontekst dla AI Redesign: Przeprojektowując interfejsy B2B/SaaS, skup się na przejrzystości tabel danych, logice filtrowania i ustawień oraz odpowiedniej gęstości informacji (data density), a nie na sztucznym "upraszczaniu" poprzez usuwanie potrzebnych danych.
+
+[Specjalizacje i obszary składowe nowoczesnego UI/UX - SeaComfortable22]
+"Senior design focus areas:
+- Visual Design
+- Accessibility (Dostępność)
+- Component Architecture (Architektura komponentów)
+- Adoption & Best Practices
+- Motion & Micro-interactions
+- Quality Assurance (Jakość i spójność)
+- Data Visualization (Wizualizacja danych)
+- Tokens & AI Code Integration"
+--> Kontekst dla AI Redesign: Wykorzystaj tę listę jako checklistę audytu jakości interfejsu (Design System Tokens, dostępność WCAG, architektura komponentów, spójność wizualna).
+
+[Dostosowanie do realiów technologicznych / kodowych - coldlings]
+"Understand how the project is actually going to be built. Understanding how designs will be translated across into builds, knowing basic feasibility scopes whether something is too much work or development upfront."
+--> Kontekst dla AI Redesign: Redesign wygenerowany przez AI musi być osadzony w realiach wykonawczych (np. komponenty React, CSS/Tailwind, realistyczne układy grid/flexbox), a nie opierać się na niepraktycznych efektach wizualnych trudnych do wdrożenia.
+
+[Architektura Informacji - kirabug37]
+"Learn information architecture. It’s the hidden key to design and development."
+--> Kontekst dla AI Redesign: Zanim zaczniesz zmieniać kolory i fonty, przeanalizuj i popraw strukturę oraz hierarchię informacji (Information Architecture) na stronie.
+
+
+================================================================================
+2. ŹRÓDŁO: 20260727_ive_been_working_in_ux_for_15_years
+================================================================================
+
+[Dostępność w kluczowych ścieżkach użytkownika - UrgentlyFurtive]
+"I had to redo a whole checkout flow because I missed some basic accessibility stuff... fixing accessibility in core user flows pays off fastest."
+--> Kontekst dla AI Redesign: W kluczowych przepływach konwersyjnych (checkout, rejestracja, formularze) najwyższym priorytetem jest dostępność (kontrast, etykiety formularzy, obsługa z klawiatury, jasne komunikaty błędów).
+
+[Pełny proces projektowy nowoczesnego interfejsu - lolz2312 & Cressyda29]
+"Design process: Primary & secondary research -> Personas & User Journey Maps -> Feature prioritization -> Wireframing -> Ideation -> Visual inspiration -> Design system (components, variables, micro-interactions) -> High-fidelity prototypes -> Testing hypothesis vs outcome."
+--> Kontekst dla AI Redesign: Używaj wyznaczonej struktury przy generowaniu plany redesignu: zdefiniuj zmienne (variables/tokens), zbuduj spójne komponenty, określ mikro-interakcje i porównaj hipotezę z wynikiem.
+
+
+================================================================================
+3. ŹRÓDŁO: 20260727_10_yrs_exp_survival_guide_for_designers
+================================================================================
+
+[Prototypowanie dynamicznych przepływów - Gruntalka]
+"What can you do as a value add that wasn't possible before? Our scale of research is far larger, prototyping dynamic content beyond static flows."
+--> Kontekst dla AI Redesign: Redesign nie powinien ograniczać się do pojedynczej statycznej "makiety" – musi brać pod uwagę dynamiczną treść, skrajne długości tekstów (edge cases), stany ładowania i błędy.
+
+
+================================================================================
+4. ŹRÓDŁO: 20260727_ai_workflow_and_stakeholders
+================================================================================
+
+[Iteracyjny redesign AI vs 'Live Prompting' - Ben_26121 & GiggleShipSurvivor]
+"Do not make UI changes on the spot live in meetings based on instant prompts. Take note of requests and explore them in deliberate iterations. Prompting changes live rarely works well on the first try."
+--> Kontekst dla AI Redesign: Dobre ulepszenie interfejsu wymaga przemyślanej analizy i krokowej iteracji, a nie impulsywnego zmieniania elementów pojedynczymi promptami.
+
+
+================================================================================
+5. ŹRÓDŁO: 20260727_is_it_really_that_bad
+================================================================================
+
+[Łączenie złożoności systemu z przejrzystym UI - hodadthedoor & C_bells]
+"Complex ingestion, async background workers, multi-tenant flows... designing clean UI for highly technical underlying systems without hiding essential controls."
+--> Kontekst dla AI Redesign: Cel redesignu to wyczyścić visual chaos, ale zachować pełną kontrolę i czytelność dla zaawansowanych operacji.
+
+[Użyteczność biznesowa i rozwiązywanie problemów - powder87]
+"Focus on what experiences we can craft in products to make meaningful impact and drive revenue. Focus less on just tools or pretty mockups for the sake of visuals."
+--> Kontekst dla AI Redesign: Wszystkie decyzje wizualne muszą mieć swoje uzasadnienie w UX i realizacji celu użytkownika/aplikacji.
+
+
+================================================================================
+6. ŹRÓDŁO: 20260727_breaking_into_uxearly_career_job_hunting
+================================================================================
+
+[Hiarchia wizualna i redukcja szumu - Evening-Pool9090]
+"Reducing the amount of text overload, visual related feedback, visibility, accessibility, clean color hierarchy."
+--> Kontekst dla AI Redesign: Eliminacja zbędnego szumu tekstowego, poprawa skanowalności strony (hierarchia nagłówków i światła/paddingów).

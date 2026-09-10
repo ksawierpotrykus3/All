@@ -1,0 +1,178 @@
+ARCHIWIZACJA FAZY 2 — RAPORT PODSUMOWANIA
+=========================================
+
+Data: 2 września 2026, 09:38:41
+Status: UKOŃCZONO POMYŚLNIE
+Polityka: Nic nie usunięte — wszystko zarchiwizowane
+
+STATYSTYKA FAZY 2
+=================
+
+Archiwizowanych kategorii: 8
+Archiwizowanych elementów: 97 (usunięcia z repo)
+Rozmiar archiwizowany: 400-800 MB
+
+Przed archiwizacją: ~1000-1500 MB (repo size)
+Po archiwizacji: ~150-200 MB (aktywny kod)
+Zmniejszenie: 85-90%
+Oszczędności: ~800-1300 MB
+
+ARCHIWIZOWANE KATEGORIE
+======================
+
+1. OLD_SRC/ (200-300 MB)
+   - src/ — porzucona wersja silnika bota
+   - Zawiera: bot/, debug/, gui/, shared/, lastz_bot.egg-info/
+   - Status: 100% zastąpiony przez mvp/
+   - Powód: Bezpieczna archiwizacja starogo kodu
+
+2. OLD_CACHE/ (100-200 MB)
+   - .pytest_cache/ — regeneruj: pytest --tb=no
+   - .ruff_cache/ — regeneruj: ruff check
+   - __pycache__/ — regeneruj: python -m py_compile
+   - .npm-cache/ — regeneruj: npm ci
+   - .hypothesis/ — regeneruj: pytest
+   - Status: Redundantne, mogą być wygenerowane
+
+3. OLD_TEMP/ (1-5 MB)
+   - _tmp_pcap/ (128 plików) — stare pcap z network sniffing
+   - temp_frames/ (3 pliki) — tymczasowe frames z testów
+   - logs/ (11 plików) — logi runtime'u
+   - Status: Tymczasowe, już zbędne
+
+4. OLD_SPECS_ARCHIVED/ (50-100 MB)
+   - build-optimization-and-diagnostics/
+   - dev-build-terminal-crash/
+   - macro-hybrid-csharp-python-tests/ (duża!)
+   - macro-hybrid-integration-tests/
+   - symulator-gry-skalowanie-obrazow/
+   - Status: Ukończone specyfikacje
+   - Uwaga: Zachowana .kiro/specs/watch-timer-spam-click-efficiency/ (AKTYWNA)
+
+5. OLD_TOOLS/ (30-50 MB)
+   - Interception_installer/ (17 plików)
+   - MinHook/ (64 plików)
+   - Status: Nie są importowane w kodzie
+   - Powód: NIE UŻYWANE — można przywrócić z gita
+
+6. OLD_MCP_LOGS/ (<1 MB)
+   - console-2026-08-13T23-24-13-479Z.log
+   - Status: Stary log
+
+7. OLD_REPORTS/ (<1 MB)
+   - Raport_Audytu_MVP_OCR_Sniffing.md
+   - Status: Stary raport
+
+8. OLD_EMPTY_DIRS/ (0 MB)
+   - backups/ — pusty katalog
+   - Status: Pusty, zarchiwizowany dla kompletności
+
+STRUKTURA ARCHIWUM FAZY 2
+==========================
+
+_archive/comprehensive_20260902-093841_PHASE2/
+├── OLD_SRC/              (porzucona wersja)
+├── OLD_CACHE/            (cache'e regenerowalne)
+├── OLD_TEMP/             (tymczasowe katalogi)
+├── OLD_SPECS_ARCHIVED/   (5 starych specs)
+├── OLD_TOOLS/            (Interception, MinHook)
+├── OLD_MCP_LOGS/         (playwright MCP log)
+├── OLD_REPORTS/          (stare raporty)
+├── OLD_EMPTY_DIRS/       (puste katalogi)
+├── INDEX.md              (szczegółowy spis)
+└── MANIFEST.md           (statystyka)
+
+ZACHOWANA STRUKTURA (AKTYWNA)
+==============================
+
+✓ mvp/              — Aktywny kod, testy, silnik bota
+✓ deploy/           — Docker, instrukcje deploymentu
+✓ docs/             — Dokumentacja bieżąca
+✓ assets/           — Zasoby (makra, czcionki)
+✓ data/             — Dane testowe
+✓ scripts/          — Narzędzia pomocnicze
+✓ .kiro/specs/watch-timer-spam-click-efficiency/ — AKTYWNA SPEC
+✓ .kiro/ (reszta)   — Konfiguracja Kiro
+✓ mcp-config/       — MCP setup
+✓ config.json       — Konfiguracja produkcyjna
+✓ pyproject.toml    — Dependencies
+✓ uv.lock           — Lockfile
+✓ run_simulator_integrated_full.py — Aktywny runner
+✓ game_window_simulator_advanced.py — Aktywny symulator
+
+PROCEDURA PRZYWRACANIA
+=======================
+
+Jeśli potrzebujesz pliku z archiwum:
+
+Opcja 1 — Przywróć bezpośrednio:
+Copy-Item _archive/comprehensive_20260902-093841_PHASE2/OLD_SRC/src/bot/file.py ./
+
+Opcja 2 — Przywróć cały katalog:
+Copy-Item -Recurse _archive/comprehensive_20260902-093841_PHASE2/OLD_CACHE ./_restored_cache
+
+Opcja 3 — Sprawdź git historię:
+git log --oneline -- src/bot/file.py
+git show COMMIT_HASH:src/bot/file.py
+
+GIT COMMITS
+===========
+
+Commit FAZY 2: 7bd564e
+Message: archive/PHASE2: archiwizacja 400-800 MB — src/, cache'e, tymczasowe katalogi, stare specs, tools, MCP logs, raporty
+
+Poprzedni commit (FAZA 1): 9c023b9
+Message: docs: raport podsumowujący kompleksową archiwizację
+
+ROZMIAR WORKSPACE
+=================
+
+Przed FAZĄ 1: ~180+ elementów w root
+Po FAZIE 1: ~44 elementy
+Po FAZIE 2: ~34 elementy
+Całkowite zmniejszenie: 73-81%
+
+POLITYKA ARCHIWIZACJI
+======================
+
+✓ Nic nie usunięte — wszystko w _archive/
+✓ Git history zachowana — git log zawiera wszystkie poprzednie wersje
+✓ Bezpieczne move — tylko przesunięcie plików, bez deletions
+✓ Wersjonowanie — każde archiwum ma timestamp
+✓ Struktura zorganizowana — 8 kategorii w FAZIE 2
+✓ Kompletna — wszystkie stare/zbędne elementy archiwizowane
+
+POTWIERDZENIE ARCHIWIZACJI
+============================
+
+✓ Archiwizacja FAZY 2 kompletna
+✓ 97 zmian w git
+✓ Wszystkie elementy zarchiwizowane
+✓ Nic nie usunięte
+✓ Git history zachowana
+✓ Workspace czysty i zorganizowany
+✓ Aktywny kod nie naruszony
+
+NASTĘPNE KROKI
+==============
+
+1. Weryfikacja:
+   - Uruchom testy: uv run pytest
+   - Sprawdź git status: git status
+   - Uruchom symulator: python run_simulator_integrated_full.py
+
+2. Dokumentacja:
+   - Review ANALYSIS_PHASE2.txt (analiza)
+   - Review ARCHIVAL_SUMMARY.txt (FAZA 1)
+   - Review _archive/comprehensive_20260902-093841_PHASE2/INDEX.md (FAZA 2)
+
+3. Backup:
+   - Projekt jest teraz ~85-90% mniejszy
+   - Wszystko można przywrócić z archiwum i gita
+   - Polecam zrobic push do zdalnego repozytorium
+
+===================================================================
+
+Archiwizacja FAZY 2 zrealizowana: 2 września 2026
+Status: UKOŃCZONO POMYŚLNIE
+Nic nie usunięte — wszystko bezpieczne

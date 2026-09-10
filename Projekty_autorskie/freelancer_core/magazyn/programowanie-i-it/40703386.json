@@ -1,0 +1,79 @@
+{
+  "id": "40703386",
+  "url": "https://www.freelancer.pl/projects/animation/Interactive-Tablet-Ebook-Development/details",
+  "title": "Interactive Tablet Ebook Development",
+  "author": "Anonim",
+  "budget": "750.0 - 1500.0 USD",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.806122",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703386",
+    "url": "https://www.freelancer.pl/projects/animation/Interactive-Tablet-Ebook-Development/details",
+    "seo_url": "animation/Interactive-Tablet-Ebook-Development",
+    "title": "Interactive Tablet Ebook Development",
+    "budget": "750.0 - 1500.0 USD",
+    "budget_raw": {
+      "minimum": 750.0,
+      "maximum": 1500.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I have all core assets—final text, illustrations, audio tracks and several short animations—ready to",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "JavaScript",
+      "Mobile App Development",
+      "iPhone",
+      "Animation",
+      "HTML5",
+      "Web Development",
+      "CSS3",
+      "Audio Editing"
+    ],
+    "bid_stats": {
+      "bid_count": 89,
+      "bid_avg": 1034.0842696629213
+    },
+    "local": false,
+    "time_submitted": 1789051369
+  },
+  "full_details": {
+    "id": "40703386",
+    "title": "Interactive Tablet Ebook Development",
+    "full_description": "I have all core assets—final text, illustrations, audio tracks and several short animations—ready to be assembled into a single interactive ebook aimed at iPads and other modern tablets. Your task is to weave everything together so the reading experience feels native: page-wide transition effects, touch-triggered animations, synced audio playback and smooth navigation throughout the title.\n\nThe finished file should run flawlessly in Apple Books on iPad and the main Android tablet readers that support EPUB 3 (or an equally capable format you propose). I’m happy to hear your approach, but HTML5/CSS3/JavaScript inside a fixed-layout EPUB is what I have in mind.\n\nNeeded within one month, so please take on the project only if you can meet that window and demonstrate you have the skills to deliver.\n\nDeliverables  \n• A production-ready, tablet-tested interactive ebook file (EPUB 3 or agreed format)  \n• All associated source files for future updates  \n• Brief hand-off notes explaining how to update content or re-export  \n\nTo confirm your ability, share a concise example—video, link or build—that shows comparable interactive elements working on a tablet. If it proves you can replicate the page effects and user-driven animations described above, we can get started right away.",
+    "budget_raw": {
+      "minimum": 750.0,
+      "maximum": 1500.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "JavaScript",
+      "Mobile App Development",
+      "iPhone",
+      "Animation",
+      "HTML5",
+      "Web Development",
+      "CSS3",
+      "Audio Editing"
+    ],
+    "bid_stats": {
+      "bid_count": 89,
+      "bid_avg": 1034.0842696629213
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:40"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:40.749394"
+}

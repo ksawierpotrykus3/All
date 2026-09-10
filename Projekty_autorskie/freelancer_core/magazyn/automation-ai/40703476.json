@@ -1,0 +1,88 @@
+{
+  "id": "40703476",
+  "url": "https://www.freelancer.pl/projects/industrial-design/Industrial-ATS-Design-Guidance/details",
+  "title": "Industrial ATS Design Guidance",
+  "author": "Anonim",
+  "budget": "250.0 - 750.0 USD",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:31:36.887517",
+  "status": "PRZYGOTOWANA",
+  "list_details": {
+    "id": "40703476",
+    "url": "https://www.freelancer.pl/projects/industrial-design/Industrial-ATS-Design-Guidance/details",
+    "seo_url": "industrial-design/Industrial-ATS-Design-Guidance",
+    "title": "Industrial ATS Design Guidance",
+    "budget": "250.0 - 750.0 USD",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "Looking for someone that is an expert with ATS. Need some changes done both mechanical and electrica",
+    "category": "automation-ai",
+    "project_type": "fixed",
+    "jobs": [
+      "Engineering",
+      "Electronics",
+      "Industrial Design",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Engineering Drawing",
+      "Automation",
+      "Manufacturing Engineering",
+      "Process Engineering",
+      "Control Systems Engineering (PID / MPC)"
+    ],
+    "bid_stats": {
+      "bid_count": 1,
+      "bid_avg": 390.0
+    },
+    "local": false,
+    "time_submitted": 1789054262
+  },
+  "full_details": {
+    "id": "40703476",
+    "title": "Industrial ATS Design Guidance",
+    "full_description": "Looking for someone that is an expert with ATS. Need some changes done both mechanical and electrical. Need to show past work on this field",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "Engineering",
+      "Electronics",
+      "Industrial Design",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Engineering Drawing",
+      "Automation",
+      "Manufacturing Engineering",
+      "Process Engineering",
+      "Control Systems Engineering (PID / MPC)"
+    ],
+    "bid_stats": {
+      "bid_count": 8,
+      "bid_avg": 323.75
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:31:37"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nZgłaszam swoją gotowość do realizacji zlecenia 'Industrial ATS Design Guidance'.\nPosiadam doświadczenie w wymaganym zakresie i gwarantuję terminowe dowiezienie projektu.\n\nPozdrawiam,\nZespół",
+    "wycena": 25007500,
+    "dni": 7,
+    "powod": "Deterministyczny mock dla testu szkieletu"
+  },
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:31:37.313138"
+}

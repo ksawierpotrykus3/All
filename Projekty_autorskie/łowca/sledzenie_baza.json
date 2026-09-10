@@ -1,0 +1,107 @@
+{
+  "sources": {
+    "https://www.youtube.com/@GFDarwinyt": {
+      "typ": "YOUTUBE",
+      "znane_id": [
+        "r5_s38PFjo8",
+        "ZKkixeoKpDE",
+        "fJGu-ZVlIL8",
+        "mVvPaL78eU0",
+        "qF5j2irAa90",
+        "byrnHMNt6cc",
+        "UziijNFng1g",
+        "qyl-dELJsv0",
+        "kH-h5Iao2Q8",
+        "smmroNilIdA",
+        "GyNOrJrZAN4",
+        "gys9uVXg3kY",
+        "vJP6jwVkQbw",
+        "Sxc-x-5YYVk",
+        "uLHGIMeQDJg",
+        "REmV_JIkcZU",
+        "0WY51yAzans",
+        "3XXuLeTFO74",
+        "XjPxSIZU6qM",
+        "cf7bvRTx-f4"
+      ],
+      "ostatnie_sprawdzenie": "2026-08-15 14:58:34",
+      "status": "OK",
+      "error_count": 0,
+      "next_check": 1786799428.0485668
+    },
+    "https://www.reddit.com/r/DeepSeek/": {
+      "typ": "REDDIT",
+      "znane_id": [
+        "1vmhzcs",
+        "1vp1rvr",
+        "1vp10pv",
+        "1vp0cy8",
+        "1vp05ka",
+        "1vp00tl",
+        "1voznb0",
+        "1voziay",
+        "1vozhmp",
+        "1vozfqp",
+        "1voy9u9",
+        "1voy8d8",
+        "1voxjlh",
+        "1vows6n",
+        "1vncerl",
+        "1vowbk9",
+        "1vow81s",
+        "1vovxxc",
+        "1vovhm7",
+        "1vov1qu",
+        "1vousze",
+        "1vous75",
+        "1votovc",
+        "1votndx",
+        "1votel9",
+        "1votejd",
+        "1voroso",
+        "1vor4ef",
+        "1voq9au",
+        "1vkfgz7",
+        "1voq6wt",
+        "1ibfgwn",
+        "1imzzmy"
+      ],
+      "ostatnie_sprawdzenie": "2026-08-15 14:58:42",
+      "status": "OK",
+      "error_count": 0,
+      "next_check": 1786799423.646952
+    },
+    "https://www.facebook.com/adam.jesionkiewicz": {
+      "typ": "FACEBOOK",
+      "znane_id": [
+        "pfbid0jFBd5Bjd2BZqaQ7nRWZSPxpcE15pUBMbLHmBaFrtAyamc4RyDhxfNWLrti1Cpv9al"
+      ],
+      "ostatnie_sprawdzenie": "2026-08-15 14:59:23",
+      "status": "OK",
+      "error_count": 0,
+      "next_check": 1786800585.088961
+    },
+    "https://www.instagram.com/flamingocardsapp": {
+      "typ": "INSTAGRAM",
+      "znane_id": [
+        "DSXadVYinuy",
+        "DSffEY4kX0v",
+        "DSoIZPNiSSZ",
+        "DcD53_Om2jj",
+        "DcD1l6um6DC",
+        "DcDv2h9m5-1",
+        "DcDqRZ9m71_",
+        "DcDmaFMGwkp",
+        "DcDhIslG290",
+        "DcDbnORm-Zl",
+        "DcDWbN6m4Jv",
+        "DcDQ_0kG1vv"
+      ],
+      "ostatnie_sprawdzenie": "2026-08-15 14:59:31",
+      "status": "OK",
+      "error_count": 0,
+      "next_check": 1786800634.225953
+    }
+  },
+  "tasks": {}
+}

@@ -1,0 +1,81 @@
+{
+  "id": "40703464",
+  "url": "https://www.freelancer.pl/projects/linux/DevOps-para-correcciones-infraestructura/details",
+  "title": "DevOps para correcciones de infraestructura -- 2",
+  "author": "Anonim",
+  "budget": "30.0 - 250.0 USD",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:28:38.884863",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703464",
+    "url": "https://www.freelancer.pl/projects/linux/DevOps-para-correcciones-infraestructura/details",
+    "seo_url": "linux/DevOps-para-correcciones-infraestructura",
+    "title": "DevOps para correcciones de infraestructura -- 2",
+    "budget": "30.0 - 250.0 USD",
+    "budget_raw": {
+      "minimum": 30.0,
+      "maximum": 250.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "Necesito que un especialista DevOps intervenga sobre nuestra plataforma Linux y aplique, de forma to",
+    "category": "automation-ai",
+    "project_type": "fixed",
+    "jobs": [
+      "Linux",
+      "Cloud Computing",
+      "Ubuntu",
+      "VMware",
+      "Scripting",
+      "Technical Documentation",
+      "DevOps",
+      "Automation",
+      "CI/CD"
+    ],
+    "bid_stats": {
+      "bid_count": 26,
+      "bid_avg": 116.8076923076923
+    },
+    "local": false,
+    "time_submitted": 1789053846
+  },
+  "full_details": {
+    "id": "40703464",
+    "title": "DevOps para correcciones de infraestructura -- 2",
+    "full_description": "Necesito que un especialista DevOps intervenga sobre nuestra plataforma Linux y aplique, de forma totalmente alineada con nuestros protocolos internos, tres correcciones clave en los entornos de desarrollo, pruebas y producción. Debe quedar todo estandarizado.\n\nEl alcance incluye la actualización de software crítico, el ajuste fino de la configuración de servidores y la incorporación de medidas de seguridad adicionales. Cada cambio debe orquestarse mediante nuestros pipelines CI/CD, registrarse en el sistema de control de versiones y contar con la documentación técnica correspondiente para auditorías futuras.  \n\nEntrego inventario y acceso de lectura; espero pull requests firmados, scripts reproducibles y un informe final que evidencie la mejora sin afectar la disponibilidad comprometida por nuestros SLA. Si dominas entornos Linux y flujos DevOps end-to-end, coordinemos agendas para iniciar cuanto antes.",
+    "budget_raw": {
+      "minimum": 30.0,
+      "maximum": 250.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "Linux",
+      "Cloud Computing",
+      "Ubuntu",
+      "VMware",
+      "Scripting",
+      "Technical Documentation",
+      "DevOps",
+      "Automation",
+      "CI/CD"
+    ],
+    "bid_stats": {
+      "bid_count": 26,
+      "bid_avg": 116.8076923076923
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:46"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:46.263665"
+}

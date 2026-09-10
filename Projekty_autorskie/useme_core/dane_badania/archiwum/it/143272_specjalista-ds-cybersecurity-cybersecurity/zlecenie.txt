@@ -1,0 +1,166 @@
+Specjalista ds. Cybersecurity (Cybersecurity)
+=============================================
+URL: https://useme.com/pl/jobs/specjalista-ds-cybersecurity-cybersecurity,143272/
+
+Zleceniodawca
+KARTS DESIGN
+
+Opis
+Poszukujemy eksperta ds. bezpieczeństwa IT do audytu oraz zabezpieczenia tworzonych aplikacji i systemów.
+
+Stawkę godzinową netto, podsumowanie doświadczenia oraz dowody/referencje.
+
+Opublikowano
+2026-08-25
+
+Kategoria
+Projekty IT
+
+Prawa autorskie
+Decyzja freelancera
+
+Budżet
+Do negocjacji
+
+Ważne przez
+30 dni
+
+Wymagane funkcje::
+Udokumentowane doświadczenie w obszarze cybersecurity (audyty, testy penetracyjne, zabezpieczanie systemów) potwierdzone referencjami.
+
+Wymagane umiejętności / tagi:
+active directory, administracja sieci, administracja systemów, + 8 więcej
+
+Wysłane oferty (9)
+------------------------------
+[Tomas | 0 umów](https://useme.com/pl/roles/contractor/597456/) - 5 dni temu
+
+[Łukasz Czapracki | 0 umów](https://useme.com/pl/roles/contractor/690700/) - 2026-08-31
+  * active directory
+  * administracja sieci
+  * administracja systemów
+  * cyberbezpieczeństwo
+  * docker
+  * git
+  * linux
+  * PowerShell
+  * python
+  * windows
+  * windows server
+
+[Ignacy | 0 umów](https://useme.com/pl/roles/contractor/689188/) - 2026-08-26
+  * AI
+  * API
+  * aplikacje webowe
+  * testy bezpieczeństwa
+  * testy penetracyjne
+  * web api
+
+[magda_ski | 0 umów](https://useme.com/pl/roles/contractor/656356/) - 2026-08-26
+  * analiza ryzyka
+  * angular
+  * bezpieczeństwo it
+  * cyberbezpieczeństwo
+  * git
+  * laravel
+  * Next.js
+  * PHP
+  * React
+  * testy bezpieczeństwa
+  * wordpress
+
+[Kosma Pajor | 25 umów](https://useme.com/pl/roles/contractor/220493/) - 2026-08-26
+  * biznesowy angielski
+  * e-mail marketing
+  * marketing handlowy
+  * Marketing Małych Firm
+  * SaaS
+  * sprzedaż
+
+[Ligmasick | 4 umów](https://useme.com/pl/roles/contractor/604482/) - 2026-08-25
+
+[GOLDAI | 0 umów](https://useme.com/pl/roles/contractor/570266/) - 2026-08-25
+  * AI
+  * analiza danych
+  * angular
+  * aplikacje mobilne
+  * AutoCAD software
+  * backend
+  * bazy danych
+  * blockchain
+  * c
+  * CAD
+  * chatbot
+  * chatgpt
+  * cloud
+  * CRM
+  * Flutter
+  * Flutterflow
+  * frontend
+  * git
+  * java
+  * javascript
+  * kodowanie
+  * LLM
+  * matematyka
+  * montaż
+  * mysql
+  * n8n
+  * Next.js
+  * NLP
+  * NodeJS
+  * OpenAI
+  * postgresql
+  * python
+  * React
+  * react native
+  * SaaS
+  * seo
+  * stable diffusion
+  * uczenie maszynowe
+  * web development
+  * wizualizacje danych
+
+[Heyneuron.com | 1 umowa](https://useme.com/pl/roles/contractor/148433/) - 2026-08-25
+  * AI
+  * Airtable
+  * API
+  * aplikacje webowe
+  * blockchain
+  * CRM
+  * facebook
+  * Facebook Pixel
+  * gmail
+  * google analytics
+  * Google Tag Manager
+  * hubspot
+  * landing page
+  * LANDINGPAGE
+  * marketing internetowy
+  * n8n
+  * Next.js
+  * Nocode
+  * React
+  * strona www
+  * web api
+  * web development
+  * zapier
+
+[Vulcanoo - CodeOlympus.studio | 112 umów](https://useme.com/pl/roles/contractor/156740/) - 2026-08-25
+  * analiza danych
+  * API
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * cms
+  * css
+  * html
+  * mysql
+  * PHP
+  * prestashop
+  * python
+  * sklep internetowy
+  * sql
+  * strona www
+  * web development
+  * wordpress

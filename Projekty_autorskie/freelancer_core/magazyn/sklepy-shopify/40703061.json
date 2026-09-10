@@ -1,0 +1,69 @@
+{
+  "id": "40703061",
+  "url": "https://www.freelancer.pl/projects/facebook-pixel/Shopify-Tracking-Conversion-Audit/details",
+  "title": "Shopify Tracking & Conversion Audit",
+  "author": "Anonim",
+  "budget": "600.0 - 1500.0 INR",
+  "category": "sklepy-shopify",
+  "detected_at": "2026-09-10T17:28:38.968711",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703061",
+    "url": "https://www.freelancer.pl/projects/facebook-pixel/Shopify-Tracking-Conversion-Audit/details",
+    "seo_url": "facebook-pixel/Shopify-Tracking-Conversion-Audit",
+    "title": "Shopify Tracking & Conversion Audit",
+    "budget": "600.0 - 1500.0 INR",
+    "budget_raw": {
+      "minimum": 600.0,
+      "maximum": 1500.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "My Meta Advantage+ catalog campaigns are logging healthy volumes of Adds-to-Cart, Checkouts Started ",
+    "category": "sklepy-shopify",
+    "project_type": "fixed",
+    "jobs": [
+      "Shopify",
+      "Facebook Pixel",
+      "API Integration"
+    ],
+    "bid_stats": {
+      "bid_count": 10,
+      "bid_avg": 1241.5
+    },
+    "local": false,
+    "time_submitted": 1789040265
+  },
+  "full_details": {
+    "id": "40703061",
+    "title": "Shopify Tracking & Conversion Audit",
+    "full_description": "My Meta Advantage+ catalog campaigns are logging healthy volumes of Adds-to-Cart, Checkouts Started and Purchases, yet inside Shopify itself almost no Add-to-Cart events appear and Quickengage / GoKwik show the same gap. Because of this, customer records are incomplete and it is hard to understand where shoppers drop off.\n\nI need a deep technical review of every touch-point:\n\n• Verify the Facebook pixel and Conversions API implementation, test events in Events Manager and confirm that both browser and server events are de-duplicated correctly.  \n• Inspect Shopify theme, native pixel settings and any custom scripts to confirm the Add-to-Cart trigger fires on every product form and Ajax drawer.  \n• Check Quickengage and GoKwik integrations to be sure they receive and pass back the same events (cart, initiate checkout, purchase).  \n• Replicate the full customer journey—mobile and desktop—to spot any errors or blockers that might stop customers from completing payment.  \n• Provide a concise report outlining what was tested, issues found, fixes applied, and screen grabs or test-event IDs that prove the data now aligns across Meta, Shopify, Quickengage and GoKwik.\n\nAcceptance criteria: After your fixes, Add-to-Cart counts inside Shopify should match (within normal attribution variance) what Meta logs for the same period, and Quickengage / GoKwik should show consistent customer details.",
+    "budget_raw": {
+      "minimum": 600.0,
+      "maximum": 1500.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "Shopify",
+      "Facebook Pixel",
+      "API Integration"
+    ],
+    "bid_stats": {
+      "bid_count": 10,
+      "bid_avg": 1241.5
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:52"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:52.406117"
+}

@@ -1,0 +1,22 @@
+﻿{
+  \"title\": \"Stworzenie narzędzia do: drukowania w pdf zestawów z Płatnika\",
+  \"author\": \"RADI\",
+  \"published\": \"3 godziny temu\",
+  \"category\": \"Oprogramowanie\",
+  \"copyright\": \"Przeniesienie praw autorskich\",
+  \"short_desc\": \"Szukam programisty/freelancera, który stworzy prostą aplikację desktopową do generowani wydruków w pdf zestawów stworzonych w Płatniku\",
+  \"full_desc\": \"Szukam programisty/freelancera, który stworzy prostą aplikację desktopową do generowani wydruków w pdf zestawów stworzonych w Płatniku\n\nWymagane funkcje:\nNarzędzie ma automatycznie generować plik PDF z zestawów wprowadzonych wyeksportowany z programu Płatnik z bazą w access lub SQL do folderu zgodnego z symbolem firmy w Płatniku z ustaloną nazwą pliku.\",
+  \"skills\": [],
+  \"budget\": \"500,00 PLN\",
+  \"expires\": \"30 dni\",
+  \"offers_count\": 17,
+  \"add_offer_button_found\": true,
+  \"add_offer_button_text\": \"Dodaj ofertę\",
+  \"show_full_description_clicked\": false,
+  \"show_full_description_found\": false,
+  \"scraped_at\": \"2026-08-06 14:55:00\",
+  \"source_url\": \"https://useme.com/pl/jobs/stworzenie-narzedzia-do-drukowania-w-pdf-zestawow-z-platnika,142281/\",
+  \"cloudflare_blocked_playwright\": true,
+  \"note\": \"Dane pobrane przez WebFetch (API), ponieważ Cloudflare zablokował Playwright/Firefox headless. Strona oferty nie wymagała kliknięcia 'pokaż pełny opis' – cały opis był widoczny od razu.\",
+  \"skills_from_contractors\": [\"administracja systemów\", \"API\", \"bazy danych\", \"aws\", \"java\", \"java ee\", \"AI\", \"android\", \"boty\", \"C Sharp\", \"javascript\", \"css\", \"administracja serwerów\", \"administracja stron\", \"Claude\", \"Airtable\", \"angielski\", \"analiza biznesowa\"]
+}

@@ -1,0 +1,1997 @@
+[
+  {
+    "ts": 1788368377.4307709,
+    "method": "GET",
+    "url": "https://www.olx.pl/delivery/checkout/1084508890/",
+    "req_headers": {
+      "accept-language": "pl-PL",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368378.8859594,
+    "method": "GET",
+    "url": "https://login.olx.pl/oauth2/authorize?client_id=6j7elk01p32o648o1io8lvhhab&scope=openid+profile+email+offline_access&redirect_uri=https%3A%2F%2Fwww.olx.pl%2Fd%2Fcallback%2F&prompt=none&response_type=code&response_mode=web_message&state=UDUzUzhjUmtmcjUtQzh1c1IufjR2MXJkVmRBUzlQbHIxYVNqRURUdFYyOQ%3D%3D&code_challenge=HWzS-oPM2GQlARRjbFoc_T5pZLqwY-1_JXX8exzFz1A&code_challenge_method=S256",
+    "req_headers": {
+      "accept-language": "pl-PL",
+      "referer": "https://www.olx.pl/",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_text": "<!DOCTYPE html><html><head><title>Authorization Response</title></head><body><script type=\"text/javascript\" nonce=\"K7O396Yw8Vmw5keOQUf5Xw==\">(function(window, document) {var targetOrigin = \"https://www.olx.pl/d/callback/\";var authorizationResponse = {\"response\":{\"error\":\"login_required\",\"error_description\":\"User is not logged in, silent authentication is not possible\"},\"type\":\"authorization_response\"};var mainWin = (window.opener) ? window.opener : window.parent;mainWin.postMessage(authorizationResponse, targetOrigin);})(this, this.document);</script></body></html>"
+  },
+  {
+    "ts": 1788368378.9849818,
+    "method": "POST",
+    "url": "https://bam.nr-data.net/1/NRBR-4b04b28ea1f542d97be?a=66672666&sa=1&v=1.249.0&t=Unnamed%20Transaction&rst=1605&ck=0&s=49893c00f06c3c00&ref=https://www.olx.pl/delivery/checkout/1084508890/&af=err,xhr,stn,ins,spa&be=377&fe=977&dc=395&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1788368377050,%22n%22:0,%22f%22:1,%22dn%22:1,%22dne%22:25,%22c%22:25,%22s%22:121,%22ce%22:164,%22rq%22:164,%22rp%22:378,%22rpe%22:482,%22di%22:595,%22ds%22:772,%22de%22:772,%22dc%22:1352,%22l%22:1352,%22le%22:1354%7D,%22navigation%22:%7B%7D%7D",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.olx.pl/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "content-type": "text/plain",
+      "sec-ch-ua-mobile": "?0",
+      "accept-language": "pl-PL"
+    },
+    "post_data": "{\"ja\":{\"consent_C0001\":\"true\",\"consent_C0002\":\"true\",\"consent_C0003\":\"true\",\"consent_C0004\":\"true\",\"domErrorsMuted\":\"true\"}}",
+    "status": 200,
+    "resp_json": {
+      "stn": 0,
+      "err": 1,
+      "ins": 1,
+      "spa": 1,
+      "sr": 0,
+      "srs": 0,
+      "st": 1,
+      "sts": 0,
+      "log": 0,
+      "logapi": 0,
+      "app": {
+        "agents": [
+          {
+            "entityGuid": "MTM2NjYwNnxCUk9XU0VSfEFQUExJQ0FUSU9OfDY3MjE1Mzky"
+          }
+        ],
+        "nrServerTime": 1788368364085
+      }
+    }
+  },
+  {
+    "ts": 1788368379.0729413,
+    "method": "GET",
+    "url": "https://login.olx.pl/oauth2/authorize?client_id=6j7elk01p32o648o1io8lvhhab&scope=openid+profile+email+offline_access&redirect_uri=https%3A%2F%2Fwww.olx.pl%2Fd%2Fcallback%2F&st=eyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%3D&cc=eyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9&prompt=none&response_type=code&response_mode=web_message&state=eDg1SVlETk9Sd2VtNEQzZTFXY0thUzNOM0YzVHJ4X2FFZTVGVTZwYXJYRQ%3D%3D&code_challenge=0IzqxPR08GQrO5gukGKxJPHfjSYjCNTdAqHry5FNAuA&code_challenge_method=S256",
+    "req_headers": {
+      "accept-language": "pl-PL",
+      "referer": "https://www.olx.pl/",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_text": "<!DOCTYPE html><html><head><title>Authorization Response</title></head><body><script type=\"text/javascript\" nonce=\"M_jvy2F3quy_rca0VGcMsw==\">(function(window, document) {var targetOrigin = \"https://www.olx.pl/d/callback/\";var authorizationResponse = {\"response\":{\"error\":\"login_required\",\"error_description\":\"User is not logged in, silent authentication is not possible\"},\"type\":\"authorization_response\"};var mainWin = (window.opener) ? window.opener : window.parent;mainWin.postMessage(authorizationResponse, targetOrigin);})(this, this.document);</script></body></html>"
+  },
+  {
+    "ts": 1788368379.1679168,
+    "method": "POST",
+    "url": "https://bam.nr-data.net/events/1/NRBR-4b04b28ea1f542d97be?a=66672666&sa=1&v=1.249.0&t=Unnamed%20Transaction&rst=1958&ck=0&s=49893c00f06c3c00&ref=https://www.olx.pl/delivery/checkout/1084508890/",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://www.olx.pl/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "content-type": "text/plain",
+      "sec-ch-ua-mobile": "?0",
+      "accept-language": "pl-PL"
+    },
+    "post_data": "bel.7;1,5,,1hq,18n,c,'initialPageLoad,'https://www.olx.pl/delivery/checkout/1084508890/,1,1,,,!!!!'466bc3b5-7303-478d-b9cd-a3b679a4d0ff,'1,1e0,1e0;5,'consent_C0001,'true;5,'consent_C0002,5;5,'consent_C0003,5;5,'consent_C0004,5;5,'domErrorsMuted,5;b,,,,,1,,o,,2o,17,,5y,2w,!35,4x,,g4,,2",
+    "status": 200,
+    "resp_text": "GIF89a\u0001\u0000\u0001\u0000\u0000\u0000\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002"
+  },
+  {
+    "ts": 1788368379.7960005,
+    "method": "GET",
+    "url": "https://login.olx.pl/oauth2/authorize?client_id=6j7elk01p32o648o1io8lvhhab&scope=openid+profile+email+offline_access&redirect_uri=https%3A%2F%2Fwww.olx.pl%2Fd%2Fcallback%2F&st=eyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%3D&cc=eyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9&lang=pl&response_type=code&response_mode=query&state=WFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%3D%3D&code_challenge=TDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y&code_challenge_method=S256",
+    "req_headers": {
+      "accept-language": "pl-PL",
+      "referer": "https://www.olx.pl/",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null,
+    "status": 302,
+    "resp_error": "Response.text: Response body is unavailable for redirect responses"
+  },
+  {
+    "ts": 1788368379.9210863,
+    "method": "GET",
+    "url": "https://login.olx.pl/?cc=eyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9&client_id=6j7elk01p32o648o1io8lvhhab&code_challenge=TDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y&code_challenge_method=S256&lang=pl&redirect_uri=https%3A%2F%2Fwww.olx.pl%2Fd%2Fcallback%2F&st=eyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%3D&state=WFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%3D%3D",
+    "req_headers": {
+      "accept-language": "pl-PL",
+      "referer": "https://www.olx.pl/delivery/checkout/1084508890/",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368380.1242058,
+    "method": "GET",
+    "url": "blob:https://login.olx.pl/fc69b154-a221-4b54-bd5d-82405e868748",
+    "req_headers": {
+      "accept": "*/*",
+      "accept-language": "pl-PL"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_error": "Response.text: Target page, context or browser has been closed"
+  },
+  {
+    "ts": 1788368380.247605,
+    "method": "POST",
+    "url": "https://login.olx.pl/js/",
+    "req_headers": {
+      "sec-ch-ua-full-version-list": "\"Chromium\";v=\"145.0.7632.6\", \"Not:A-Brand\";v=\"99.0.0.0\"",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "accept-language": "pl-PL",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-model": "\"\"",
+      "sec-ch-device-memory": "8",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-arch": "\"x86\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "content-type": "application/x-www-form-urlencoded"
+    },
+    "post_data": "jspl=MK4q83C9gvS_zXElNYogZ7qbogwDLbeP5ubegTegDl6gJYnLXvcH4bznqgNQQqxI8pg935FEHyzzaovAGZVmxAhXpU78mXrY7_hLekCFBaN9YpmZjgU_NVVeWsPMPaDAgPQWh4KtuaJERDSFYb62_09QwmXodapN8dzMmlYAsIdQ7WH3XLMiohWW-60ytdFmGOFhZothP7bas-dlS92wFRTSmaYx3z59YQq1m8yzYJlZW4HDD7Y7BVkoN8XdN51wM1ygD-n4Is6jxViwwRbszx1MCz1QCtR5KaYOoiwCFO0c_JrVb6P9pgJ0zCpWRPYtKxmJSpFGHgWVKZvTBBZL-8gIMT9-8Ag9PVCHPi5k1RiRbW-XmBhAFuvNspkdT6ZiEJpwuNZSUnjwN74-31LctpaOxrqAvmwpv8GHmpe8Tul_b4_hMLH28qJwCWYoUB0efgcwVEepMdjauEZSpsXZfFQoJ_BDyapJ57zDH_GckACEDtucuahqBloxf5jmoL2y1kYVvTXetAdCnCORqFLPHplbiwRs6PPt_2ZBlsQ2wIbHfbxr2Yv1IJ2sIELEPJf0xFZzVyZH1J5Fw8cGebUjgdJTY4GWjOF4L6wI2shFMzfBQK1F3ET_w1DzdkEuETLALXDJOkrpjLEVzjKinaMg2ZgiUyOkf0uGO6Z_2hQ2Yy0NCOazYDSHpe4Ktc4A7NNMan1ToLsk7eALXHjEDLEDUVSrATlRQAzc06CDbJH3A4Iqu7bBA_qASQCNI91Kfk8m3D4QFp9w1LWGPC6j639EMVtm20s-pIsv97XHPryUm-Kg-u52omjclnJ6NQeS7fybxSScgvbLFolO0hG7-UAkO2QeDAonOzliFusydIMpG4kv4Kts5GJmWtsbTGDmfJcKAct6uwDMUqKg1zUcuCegmnRyzMud28HNFxJOwfTe2i-t6O-vupbrqf2hXkmktORkD72EtIuv1232xYsj2gr7taQoCSQzYpJBhg5GQ6uml4SwalxqGZoFdKz_46SgCBkswWPHM5qXisPThTV7Pn5AlW81hx1iZbjQS4nV8mDr_Ir8yw7f2HIfDv2P8ubLajTi17AOikMaUAOw9qsW_wZEj4uvFfAfM1OGRrfAq_WGXavKGEtwqm0sMGWuYGFP2AqeaGyT5mz0_HpWcs74J99Fg9SkBBwD7WQhDv6f0KjzfkWSsjENXBa9MAnH3VoMAGJXCVIeAIi-FWHrkimTmwY2k-zJUqLvFFIixXatdtQwPjNHYXK2SrOGm5L1KvfR32ylZL9jbP0ieFJUYIQSwoz34_HahTpIToUueJx228f0u8d-QvFgvG3lm3Iq2gDPp0CuGQoJTlAFFr15njGSmnTxmqnaFhcUlBoaurY-F4UQ635TaLueazwb2n7zUob_ksqHVlHQ2GgZJsN-6QndCk_1qbvp5Zal9BL8mvdMW7IQW7BVVr6ejIjCR5IMjxdsUZ0w57Eyf24DJzLZqAYWfissGC5OC4DIRNQ20xs1waltP-gl5-b_wRIjMbc78MMOwa58UoSAoi8Ib_5G9ZEZ5z30iCNnTg9hPAUbjl76wY8-PHyjQCM6RG0o5m2VDRcA4XXZQtiXwkU_Y88LFzTmn6KfPUMzr7YtB6ods4K2NFbbkoQ8CRbwyWss675VqX4r0FKjd3vUucsQTXKCWD7CgF9KvLqBFcpyCBZW8KbaHq_jA-SIIJQN5vE0u_VHbo7gNU2npRj-rcVl4QAwsw17QhYDWhIeGN1F6A08BjhvyN7092NOfFhPFsGq86tfRLISEDKEVTO0JLQ77Hpv9FOXoV-Ygb_uLg2UnuEJLfChDXEw-2Y54FJBvcuvpPomNZzhdkLZFQoXMK_QcvKTmqtppU8l9G-klBzM1vpDayBnT_xYO2thmArfzP29YF6HOg9cByYxVxijGW82Kk9xp_cfJg5l2ps7yblDlT733khkuMxx6rmRw5uOuTnVm-3VR2T1JBvlQ2exC9vuv0X7-A8UlpADpl7Z4wNJwybAscV6YRaSE3UX9Qh3St62cQMBQby4gu-67Ig0p9-nCCSfauxCNgTcHJgDijFXxtz6bcRo8uyjcYP7VNmBZao1OzcV6qgK6Fa39cNcAOU-x37ZfvP6l8HGWCnSonaeJHDt0tLAcvmWPdPzGHFn2Ulec8hHFX4YqLeHRFEg4VV4LlNvqosWWA5XakYQCGfQjXJSgXkbsLaHh6C4AgygX0OvzuwERvBwFmjLxmZUXsPWfo3zlCVwo56kWLmc9tMk5WBl262hRQEQglKUyEWcBVQ6R4jzS7iy-4NbODK6J5CjWIf9I_XbnnrdWgtZH-qXdg1bABQOpKDgRHBeK0LcEBomFV5s2ZcqQqIlruwIaxwa96U1oPiOY8vw9OI8UpDwP1j07-eDfAaRMuLx8p49nC1pba7ojxBgVtcE3o6THNfmE3SZOM6LQPM0lVNgYONpcCu6cbPocAvDRNHH4qWiFS1pNoTAix8ocDd_A9-VempbGgV3sRf-f_JqyO-glTwDG2OOobQPs0OyET252SFkE1PkI1sK_El51oBwjaSrbJaAndpoWOE60kS8XUBiNShJFnPz3pdXuU98DhUwznZbU19k22Z7D3KNno3vWOOPhx95qlhosO6VynfIifcuH_xmlXydyLe9bqHrlK2qYDQzJJVymINduMoYB0FxiK45aXh6KDJupJ3gyQf3euMhOsgXAdSR1ueyoTx_8xd6Hnrgnwb3WZZClunP6SuOGGh5rx4NIqVfgoetUsB4eYKPgrwCE_RY2lq00Jtnx9xgaPbznkoj5vPwn2VfSsZVpTUhsRn84LuACP5odZGw2MOOeyGJ300bCMUtA0QuwDu1uJc5KLR6T5jWFPqlMXAST4KjpLWOhVo6Phdd0m7TTvFULkfgQNpeZL49fYWkWmN1r-46cciNm83kuc-9MBsI_bt07oWiqsXXz5be7uZeSy8iTe1Xw0umxv3YY7E_osDuu7a5mFplp0LwvIWiGesKA2yV8NYx5jId51xT3Y7TxZCBUR0nYY5Ke1zgjG2D0h8reAYIb5zuYjvhdGFJQspSam5JmsAgNYPBBGRzn8BpcT2hwB-mp33ITBI9QqFHdA4c9vbkttuOGEUdMcaorGO3LBZKHOeZSAgeJtVh0bEImtfkO1eEaZ0BLyuuBkcyspKHia_9ZaTe1BAkD3MUQVnD2PwQOCERFC-HIZqwE1iqC_9okDyt4srUC5fp4GFtDJaASRiVsrtsZRMQkGOrYCV87tIVrxHRY-bzS3P0Yeu4YIN5tqtqtA1CRCjQs4L67qR1vFNAhXhO-u58wMKqSrgVW_3uTEkyXlEwDQ_bhzb2ijN6SKMoBdDWJumUQlv0nR053HfS3JMnRFXCLYzZucHk_Ncix8eNaCAms_GobWOncnifNONzYeFore-ElL6shQzd5qII6XEp_LIRQYarXBVNS3cQxehnY-3Q8Zs21wc40VY7WPBHhfZesjO65YhITpHbW2lIkn6AGaPZmWqQNPpuI_eKL0fZxPiI96NwLHZOjLA6jIudqBmHr-CTItBI1oWVgTzqun_2ea2INGIRuh77wHz4m5XpHSzZxP7rneacmfX_vfUhnfc7mEY8mYgKjyaujeTdSPvv2CgWy3KJew_JfC0CDjE8hEtvw0lcsCBiTVeJMUoIoHwxPdVAjnYfzVeBY5uXf89cjxgn9cZ84PIIUwjzQI9k3zTYW-oHVSWdH4Ig-MVGroii7x1p5qBEapQiETOGiamd4IXWjSxpFuTxW2nObhv9sgRLD16Tcmlvy71h-rfvAuT10nI6U-kCldFn_MOmDhh9tTCtJDuqHHOkwPJkYg3jjIYI0vIlbxQFktFu0eBu37ITuhjXD-LHTf9-IttATRRjEHV33ebbrWnGocZ3lel3YMproeLsogN2ZL4UMeWugm8DhNhN5lI2dw_sg6bbop_v7q9EjpZoJi1maLeIQbE8-SO1pFRAOz_DD1E_Wn7NVohS7jolTPTYMhrhsUg2VT_twSu-AI5manM2NkVI-ivT_ZcLQ4bGi9T5NUxmgmbYEtw0qDIIZgaNY8phNiMpzBFNe5Z2psnN-U7WTPwV0SS8KInaL8bl_r7GoqOpjehkNJo_loNjpipADBXU5-yKTWmQVUgLMAITKE3MrdHjzLyCZD_NXWIr4IDb2rnrzyr8_SNN6MkthsJr8jMYZKrJYCR38pD-q93xpg6fQzRTREkGA3zhh6hd82ZyMlfBLakLW3Q2P3SDa3a5yr9oFRxz1p7P3EUG-GC4dAaNL3XmSZdzNTh0bAK-Cu4WxWkYP5wOYe6IV2zwki-3yNB8sAG2Y4DByjG0DsyR9hwVPu0q13NQcRkbXxDx8YnDmukhurEFX9EpCwwKCdjP6k8EezR5C4hW9WKRQqZX8J1nIHw_hgMoVZHsWsQY1WpBIvjhu-yqfegOhStq_ux_f0h7a51xJPXVC_O52k4j_Cm_SOU_XH18S8j057e-0NyvHC83uo0FFRrHBLkn2IZyx7IM7_W2HLDjPArggp8Ak8Z0WgEsos1huathrYA2y8HrxvAUqXjlUOKZU68-EirsvQhdMgP3h-NRc2_di_0UUFmNf9fQJ8y02ZK1tRYafziQGLeVsIdkQfph2HzTz38FywV6wy3xLeUpWxUvRB_vc1pU4bPlbF7lrWMyUDe7l6qvrEz35Nceo5r4zL3aoftQ90ykv5psdCSHk7OemnP84qSbU2V_ayzP-spxofJS2Nld2w7378EeBGQdzksn7rq0Nn0fYIl_4UdgLgZ5lvqw0nop6AzogMSB1YUb_a5lqgdsyyvfLaLSOO1TVBEyjlr8puvdw8oZDPTofubQ_Vw7kNLIWY4lAKL34DPTRKn2aC9n5HUU-GblAIENCf_7RejzwoAIDawvmb3WTd39-Y-7WkwY5kG8mLm5GZiSE1aXhFQhdwp09FbbEKKdoTzLwojuNBGML09bcx_1LeLbxN9H3kPOe4ECqS85dvQ-4u2zqAo2HUZKvH563c0wmVk9wsjWVp2DzPmGURfdX1hNsoCIkFYiqSFkijqUGSSorVNKEBzVmntKEn8b2MQ6t70UtiAfVX7lYEV-AaAqhR4je7iRaIwVrWlH-AHt5tjUuR-3dqnmOis5zILlU_aKtVOaLz42uehf9yeLuosZs3ctSIkYZkQMbg_2w5RThXPVTgBfJTY2lDGx0DH4AyemipTOOd8nxlImHIJjhcAw1A-YJ8mT4w7MKcaXLvVw_jrfzRpJdFm8MldlrQiskJPjZvjIZ9e11GryrrxUIatsYDM_b4i97gDvkZPBFvw2hpbZ4ZnrmMbHPljNPYP7wkR6sJ9Uc1gLvBmJJE_POkcC476-bWBTXzjTD1gT4qnzK3mxO95e8HvSccuyos3g_bmvh1GbZFz9W50a6vDh6dE1R0J55GeG8KNkZx&eventCounters=%5B%5D&jsType=ch&cid=6ejM3HVLHERbn0KmEl_IwLQQXrtkbvKuG_XhH2VFxyD4gX3GHT~rwRH6CM6qZtYkue9F8ABPvZ_wOD4p6NeAOmZ7OaEPpqMYm4tvwF0Phg25YYb0UqY2~212v~Vu8srw&ddk=34A04C06C32B6D6E22CE8A29F6B192&Referer=https%253A%252F%252Flogin.olx.pl%252F%253Fcc%253DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%2526client_id%253D6j7elk01p32o648o1io8lvhhab%2526code_challenge%253DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%2526code_challenge_method%253DS256%2526lang%253Dpl%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.olx.pl%25252Fd%25252Fcallback%25252F%2526st%253DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%25253D%2526state%253DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%25253D%25253D&request=%252F%253Fcc%253DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%2526client_id%253D6j7elk01p32o648o1io8lvhhab%2526code_challenge%253DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%2526code_challenge_method%253DS256%2526lang%253Dpl%2526redirect_uri%253Dhttps%25253A%25252F%25252Fwww.olx.pl%25252Fd%25252Fcallback%25252F%2526st%253DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%25253D%2526state%253DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%25253D%25253D&responsePage=origin&ddv=5.9.4",
+    "status": 200,
+    "resp_json": {
+      "status": 200,
+      "cookie": "datadome=0SIjTwdXrhTUwcbVIY2whop_zuMVzKnfT0o0P_TdzMVSrYQep2kkkpSMHKRWCDc5NdNLUVAPP7A1O1ZGBFloSHlLVk2MAd162nPY334yxQLPvmaXx1GHriDeseIZIM38; Max-Age=31536000; Domain=.olx.pl; Path=/; Secure; SameSite=Lax"
+    }
+  },
+  {
+    "ts": 1788368380.7842593,
+    "method": "GET",
+    "url": "https://securepubads.g.doubleclick.net/pagead/ppub_config?ippd=login.olx.pl",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_json": [
+      [
+        "olx.pl",
+        null,
+        "login.olx.pl",
+        null,
+        null,
+        [
+          "55100874",
+          "26225854",
+          "192167958",
+          "89844762",
+          "24771682",
+          "145311308",
+          "23099459936"
+        ]
+      ],
+      [],
+      [
+        [
+          [
+            "55100874",
+            null,
+            1,
+            null,
+            [
+              [
+                1
+              ]
+            ]
+          ]
+        ]
+      ],
+      null,
+      null,
+      [
+        [
+          "192167958",
+          [
+            [
+              "google.com",
+              null,
+              1
+            ]
+          ]
+        ],
+        [
+          "26225854",
+          [
+            [
+              "bidswitch.net",
+              null,
+              1
+            ],
+            [
+              "yahoo.com",
+              null,
+              1
+            ],
+            [
+              "amazon.com"
+            ],
+            [
+              "loblawmedia.ca"
+            ],
+            [
+              "uidapi.com",
+              null,
+              1
+            ],
+            [
+              "liveramp.com"
+            ],
+            [
+              "id5-sync.com",
+              null,
+              1
+            ],
+            [
+              "utiq.com",
+              null,
+              1
+            ],
+            [
+              "novatiq.com"
+            ],
+            [
+              "first-id.fr"
+            ],
+            [
+              "crwdcntrl.net",
+              "https://tags.crwdcntrl.net/lt/c/16589/sync.min.js"
+            ],
+            [
+              "justtag.com",
+              null,
+              1
+            ],
+            [
+              "intimatemerger.com",
+              null,
+              1
+            ],
+            [
+              "openx",
+              "https://oa.openxcdn.net/esp.js"
+            ],
+            [
+              "openxtest",
+              "https://oa.openxcdn.net/esp.js"
+            ],
+            [
+              "openx.net"
+            ],
+            [
+              "esp.criteo.com",
+              "https://static.criteo.net/js/ld/publishertag.ids.js"
+            ],
+            [
+              "parrable.com"
+            ],
+            [
+              "pubcid.org",
+              null,
+              1
+            ],
+            [
+              "rubiconproject.com",
+              null,
+              1
+            ],
+            [
+              "liveintent.com",
+              null,
+              1
+            ],
+            [
+              "liveintent.triplelift.com",
+              null,
+              1
+            ],
+            [
+              "rtbhouse",
+              "https://invstatic101.creativecdn.com/encrypted-signals/encrypted-tag-g.js"
+            ],
+            [
+              "1plusx.com"
+            ],
+            [
+              "adserver.org",
+              null,
+              1
+            ],
+            [
+              "liveintent.indexexchange.com",
+              null,
+              1
+            ],
+            [
+              "esp.pubmatic.com",
+              null,
+              1
+            ],
+            [
+              "euid.eu",
+              null,
+              1
+            ],
+            [
+              "pubmatic.com",
+              null,
+              1
+            ],
+            [
+              "epsilon.com",
+              null,
+              1
+            ],
+            [
+              "audigent.com",
+              null,
+              1
+            ],
+            [
+              "ceeid.eu",
+              null,
+              1
+            ],
+            [
+              "mygaruID",
+              null,
+              1
+            ],
+            [
+              "liveintent.sovrn.com",
+              null,
+              1
+            ],
+            [
+              "criteo.com",
+              null,
+              1
+            ],
+            [
+              "acxiom.id",
+              null,
+              1
+            ],
+            [
+              "intentiq.com",
+              null,
+              1
+            ],
+            [
+              "google.com",
+              null,
+              1
+            ]
+          ]
+        ],
+        [
+          "55100874",
+          [
+            [
+              "1plusx.com",
+              null,
+              null,
+              1
+            ],
+            [
+              "rtbhouse",
+              "https://invstatic101.creativecdn.com/encrypted-signals/encrypted-tag-g.js",
+              null,
+              1
+            ],
+            [
+              "permutive-secure-signal",
+              null,
+              null,
+              1
+            ],
+            [
+              "esp.criteo.com",
+              "https://static.criteo.net/js/ld/publishertag.ids.js",
+              null,
+              1
+            ],
+            [
+              "euid.eu",
+              null,
+              1,
+              1
+            ],
+            [
+              "esp.pubmatic.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "liveintent.indexexchange.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "pubmatic.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "crwdcntrl.net",
+              null,
+              1,
+              1
+            ],
+            [
+              "epsilon.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "uidapi.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "ceeid.eu",
+              null,
+              1,
+              1
+            ],
+            [
+              "liveintent.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "mygaruID",
+              null,
+              1,
+              1
+            ],
+            [
+              "utiq.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "yahoo.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "intimatemerger.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "bidswitch.net",
+              null,
+              1,
+              1
+            ],
+            [
+              "acxiom.id",
+              null,
+              1,
+              1
+            ],
+            [
+              "liveramp.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "id5-sync.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "liveintent.sovrn.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "openx.net",
+              null,
+              1,
+              1
+            ],
+            [
+              "pubcid.org",
+              null,
+              1,
+              1
+            ],
+            [
+              "audigent.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "novatiq.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "adserver.org",
+              null,
+              1,
+              1
+            ],
+            [
+              "justtag.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "liveintent.triplelift.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "rubiconproject.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "intentiq.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "criteo.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "google.com",
+              null,
+              1
+            ]
+          ]
+        ],
+        [
+          "89844762",
+          [
+            [
+              "ceeid.eu",
+              null,
+              1
+            ],
+            [
+              "google.com",
+              null,
+              1
+            ]
+          ]
+        ]
+      ],
+      null,
+      [
+        [
+          [
+            "145311308",
+            1
+          ],
+          [
+            "192167958",
+            1
+          ],
+          [
+            "2156059",
+            1
+          ],
+          [
+            "23099459936",
+            1
+          ],
+          [
+            "233347010",
+            1
+          ],
+          [
+            "24771682",
+            1
+          ],
+          [
+            "26225854",
+            1
+          ],
+          [
+            "55100874",
+            1
+          ],
+          [
+            "89844762",
+            1
+          ]
+        ]
+      ],
+      null,
+      null,
+      null,
+      [
+        1
+      ],
+      null,
+      []
+    ]
+  },
+  {
+    "ts": 1788368380.8129578,
+    "method": "GET",
+    "url": "https://securepubads.g.doubleclick.net/pagead/ima_ppub_config?ippd=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_json": [
+      null,
+      [
+        [
+          [
+            "145311308"
+          ],
+          [
+            "192167958"
+          ],
+          [
+            "23099459936"
+          ],
+          [
+            "24771682"
+          ],
+          [
+            "26225854"
+          ],
+          [
+            "55100874"
+          ],
+          [
+            "89844762"
+          ],
+          [
+            "2156059"
+          ],
+          [
+            "233347010"
+          ]
+        ],
+        "olx.pl"
+      ],
+      [
+        [
+          [
+            "145311308",
+            1
+          ],
+          [
+            "192167958",
+            1
+          ],
+          [
+            "2156059",
+            1
+          ],
+          [
+            "23099459936",
+            1
+          ],
+          [
+            "233347010",
+            1
+          ],
+          [
+            "24771682",
+            1
+          ],
+          [
+            "26225854",
+            1
+          ],
+          [
+            "55100874",
+            1
+          ],
+          [
+            "89844762",
+            1
+          ]
+        ]
+      ],
+      null,
+      [
+        [
+          [
+            "55100874",
+            1,
+            [
+              [
+                1
+              ]
+            ]
+          ]
+        ]
+      ],
+      null,
+      [
+        [
+          "145311308",
+          [
+            [
+              "google.com",
+              null,
+              1
+            ]
+          ]
+        ],
+        [
+          "192167958",
+          [
+            [
+              "google.com",
+              null,
+              1
+            ]
+          ]
+        ],
+        [
+          "24771682",
+          [
+            [
+              "justtag.com",
+              null,
+              1
+            ],
+            [
+              "liveintent.triplelift.com",
+              null,
+              1
+            ],
+            [
+              "bidswitch.net",
+              null,
+              1
+            ],
+            [
+              "esp.pubmatic.com",
+              null,
+              1
+            ],
+            [
+              "liveintent.indexexchange.com",
+              null,
+              1
+            ],
+            [
+              "audigent.com",
+              null,
+              1
+            ],
+            [
+              "mygaruID",
+              null,
+              1
+            ],
+            [
+              "crwdcntrl.net",
+              null,
+              1
+            ],
+            [
+              "rubiconproject.com",
+              null,
+              1
+            ],
+            [
+              "novatiq.com",
+              null,
+              1
+            ],
+            [
+              "adserver.org",
+              null,
+              1
+            ],
+            [
+              "ceeid.eu",
+              null,
+              1
+            ],
+            [
+              "yahoo.com",
+              null,
+              1
+            ],
+            [
+              "intimatemerger.com",
+              null,
+              1
+            ],
+            [
+              "liveintent.sovrn.com",
+              null,
+              1
+            ],
+            [
+              "criteo.com",
+              null,
+              1
+            ],
+            [
+              "utiq.com",
+              null,
+              1
+            ],
+            [
+              "acxiom.id",
+              null,
+              1
+            ],
+            [
+              "id5-sync.com",
+              null,
+              1
+            ],
+            [
+              "pubmatic.com",
+              null,
+              1
+            ],
+            [
+              "epsilon.com",
+              null,
+              1
+            ],
+            [
+              "openx.net",
+              null,
+              1
+            ],
+            [
+              "pubcid.org",
+              null,
+              1
+            ],
+            [
+              "uidapi.com",
+              null,
+              1
+            ],
+            [
+              "liveintent.com",
+              null,
+              1
+            ],
+            [
+              "euid.eu",
+              null,
+              1
+            ],
+            [
+              "intentiq.com",
+              null,
+              1
+            ],
+            [
+              "liveramp.com",
+              null,
+              1
+            ],
+            [
+              "google.com",
+              null,
+              1
+            ]
+          ]
+        ],
+        [
+          "26225854",
+          [
+            [
+              "bidswitch.net",
+              null,
+              1
+            ],
+            [
+              "yahoo.com",
+              null,
+              1
+            ],
+            [
+              "amazon.com"
+            ],
+            [
+              "loblawmedia.ca"
+            ],
+            [
+              "uidapi.com",
+              null,
+              1
+            ],
+            [
+              "liveramp.com"
+            ],
+            [
+              "id5-sync.com",
+              null,
+              1
+            ],
+            [
+              "utiq.com",
+              null,
+              1
+            ],
+            [
+              "novatiq.com"
+            ],
+            [
+              "first-id.fr"
+            ],
+            [
+              "crwdcntrl.net",
+              "https://tags.crwdcntrl.net/lt/c/16589/sync.min.js"
+            ],
+            [
+              "justtag.com",
+              null,
+              1
+            ],
+            [
+              "intimatemerger.com",
+              null,
+              1
+            ],
+            [
+              "openx",
+              "https://oa.openxcdn.net/esp.js"
+            ],
+            [
+              "openxtest",
+              "https://oa.openxcdn.net/esp.js"
+            ],
+            [
+              "openx.net"
+            ],
+            [
+              "esp.criteo.com",
+              "https://static.criteo.net/js/ld/publishertag.ids.js"
+            ],
+            [
+              "parrable.com"
+            ],
+            [
+              "pubcid.org",
+              null,
+              1
+            ],
+            [
+              "rubiconproject.com",
+              null,
+              1
+            ],
+            [
+              "liveintent.com",
+              null,
+              1
+            ],
+            [
+              "liveintent.triplelift.com",
+              null,
+              1
+            ],
+            [
+              "rtbhouse",
+              "https://invstatic101.creativecdn.com/encrypted-signals/encrypted-tag-g.js"
+            ],
+            [
+              "1plusx.com"
+            ],
+            [
+              "adserver.org",
+              null,
+              1
+            ],
+            [
+              "liveintent.indexexchange.com",
+              null,
+              1
+            ],
+            [
+              "esp.pubmatic.com",
+              null,
+              1
+            ],
+            [
+              "euid.eu",
+              null,
+              1
+            ],
+            [
+              "pubmatic.com",
+              null,
+              1
+            ],
+            [
+              "epsilon.com",
+              null,
+              1
+            ],
+            [
+              "audigent.com",
+              null,
+              1
+            ],
+            [
+              "ceeid.eu",
+              null,
+              1
+            ],
+            [
+              "mygaruID",
+              null,
+              1
+            ],
+            [
+              "liveintent.sovrn.com",
+              null,
+              1
+            ],
+            [
+              "criteo.com",
+              null,
+              1
+            ],
+            [
+              "acxiom.id",
+              null,
+              1
+            ],
+            [
+              "intentiq.com",
+              null,
+              1
+            ],
+            [
+              "google.com",
+              null,
+              1
+            ]
+          ]
+        ],
+        [
+          "55100874",
+          [
+            [
+              "1plusx.com",
+              null,
+              null,
+              1
+            ],
+            [
+              "rtbhouse",
+              "https://invstatic101.creativecdn.com/encrypted-signals/encrypted-tag-g.js",
+              null,
+              1
+            ],
+            [
+              "permutive-secure-signal",
+              null,
+              null,
+              1
+            ],
+            [
+              "esp.criteo.com",
+              "https://static.criteo.net/js/ld/publishertag.ids.js",
+              null,
+              1
+            ],
+            [
+              "euid.eu",
+              null,
+              1,
+              1
+            ],
+            [
+              "esp.pubmatic.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "liveintent.indexexchange.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "pubmatic.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "crwdcntrl.net",
+              null,
+              1,
+              1
+            ],
+            [
+              "epsilon.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "uidapi.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "ceeid.eu",
+              null,
+              1,
+              1
+            ],
+            [
+              "liveintent.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "mygaruID",
+              null,
+              1,
+              1
+            ],
+            [
+              "utiq.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "yahoo.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "intimatemerger.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "bidswitch.net",
+              null,
+              1,
+              1
+            ],
+            [
+              "acxiom.id",
+              null,
+              1,
+              1
+            ],
+            [
+              "liveramp.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "id5-sync.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "liveintent.sovrn.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "openx.net",
+              null,
+              1,
+              1
+            ],
+            [
+              "pubcid.org",
+              null,
+              1,
+              1
+            ],
+            [
+              "audigent.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "novatiq.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "adserver.org",
+              null,
+              1,
+              1
+            ],
+            [
+              "justtag.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "liveintent.triplelift.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "rubiconproject.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "intentiq.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "criteo.com",
+              null,
+              1,
+              1
+            ],
+            [
+              "google.com",
+              null,
+              1
+            ]
+          ]
+        ],
+        [
+          "89844762",
+          [
+            [
+              "ceeid.eu",
+              null,
+              1
+            ],
+            [
+              "google.com",
+              null,
+              1
+            ]
+          ]
+        ]
+      ]
+    ]
+  },
+  {
+    "ts": 1788368381.1220915,
+    "method": "GET",
+    "url": "https://cm.g.doubleclick.net/partnerpixels?gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&gdpr=1&addtl_consent=2~20.57.89.161.236.255.313.314.320.358.370.429.469.621.723.797.798.827.955.959.986.1047.1048.1109.1220.1342.1421.1423.1514.1567.1598.1659.1660.1720.1735.1882.1898.1911.1928.1958.1985.1987.2008.2038.2069.2072.2084.2135.2141.2223.2224.2227.2251.2271.2275.2295.2322.2373.2415.2453.2465.2501.2506.2531.2559.2579.2624.2627.2689.2778.2814.2824.2826.2832.2833.2872.2958.2972.2999.3001.3023.3028.3031.3051.3107.3133.3137.3153.3165.3169.3177.3186.3200.3201.3213.3218.3225.3226.3231.3233.3235.3236.3237.3238.3240.3244.3250.3251.3253.3254.3257.3260.3266.3270.3272.3286.3288.3289.3290.3292.3293.3296.3299.3300.3306.3307.3309.3314.3315.3316.3318.3323.3324.3328.3330.3331.3531.3631.3731.3831.4131.4531.4631.4731.4831.5231.6931.7131.7235.7831.7931.8931.10231.10631.10831.11031.11531.11631.13431.13632.13731.14034.14133.14237.15731.16831.16931.21233.21731.23031.25131.25931.26031.26631.27731.27831.28031.28332.28731.29631.30331.30532.30732.32531.33931.34231.34631.34731.36831.39131.39531.40632.41131.41531.43631.43731.43831.45931.47232.47531.48131.49231.49332.49431.50831.52831.54231.56831.56931.57131.57231.57531.57931.58131~dv&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D",
+    "req_headers": {
+      "accept-language": "pl-PL",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_text": "<!DOCTYPE html><html><body></body></html>"
+  },
+  {
+    "ts": 1788368381.284949,
+    "method": "GET",
+    "url": "https://rtb.openx.net/esp?url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&rid=esp",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368381.4632316,
+    "method": "GET",
+    "url": "https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=login.olx.pl&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA",
+    "req_headers": {
+      "accept-language": "pl-PL",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368381.513458,
+    "method": "GET",
+    "url": "https://securepubads.g.doubleclick.net/gampad/ads?pvsid=817307441154000&correlator=962931191139569&eid=122880771%2C122880805&output=ldjh&gdfp_req=1&vrg=202608270101&ptt=17&impl=fifs&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&gdpr=1&addtl_consent=2~20.57.89.161.236.255.313.314.320.358.370.429.469.621.723.797.798.827.955.959.986.1047.1048.1109.1220.1342.1421.1423.1514.1567.1598.1659.1660.1720.1735.1882.1898.1911.1928.1958.1985.1987.2008.2038.2069.2072.2084.2135.2141.2223.2224.2227.2251.2271.2275.2295.2322.2373.2415.2453.2465.2501.2506.2531.2559.2579.2624.2627.2689.2778.2814.2824.2826.2832.2833.2872.2958.2972.2999.3001.3023.3028.3031.3051.3107.3133.3137.3153.3165.3169.3177.3186.3200.3201.3213.3218.3225.3226.3231.3233.3235.3236.3237.3238.3240.3244.3250.3251.3253.3254.3257.3260.3266.3270.3272.3286.3288.3289.3290.3292.3293.3296.3299.3300.3306.3307.3309.3314.3315.3316.3318.3323.3324.3328.3330.3331.3531.3631.3731.3831.4131.4531.4631.4731.4831.5231.6931.7131.7235.7831.7931.8931.10231.10631.10831.11031.11531.11631.13431.13632.13731.14034.14133.14237.15731.16831.16931.21233.21731.23031.25131.25931.26031.26631.27731.27831.28031.28332.28731.29631.30331.30532.30732.32531.33931.34231.34631.34731.36831.39131.39531.40632.41131.41531.43631.43731.43831.45931.47232.47531.48131.49231.49332.49431.50831.52831.54231.56831.56931.57131.57231.57531.57931.58131~dv&iu_parts=55100874%2COLX_PL_Desktop%2CLoginPage%2Clogin_box&enc_prev_ius=%2F0%2F1%2F2%2F3&prev_iu_szs=1x1%7C1363x655%7C1920x927%7C1920x1030%7C1920x1102%7C1920x1220&ifi=1&didk=706147108&dids=baxter-lp-box-inner&adfs=3972378986&sfv=1-0-45&eri=1&sc=1&cookie_enabled=1&abxe=1&dt=1788368380914&lmt=1788368380&adxs=-240&adys=0&biw=1440&bih=900&scr_x=0&scr_y=0&btvi=0&ucis=1&oid=2&u_his=2&u_h=900&u_w=1440&u_ah=900&u_aw=1440&u_cd=32&u_sd=1&u_tz=120&dmc=8&bc=31&nvt=1&uach=WyJXaW5kb3dzIiwiMTkuMC4wIiwieDg2IiwiIiwiMTQ1LjAuNzYzMi42IixudWxsLDAsbnVsbCwiNjQiLFtbIkNocm9taXVtIiwiMTQ1LjAuNzYzMi42Il0sWyJOb3Q6QS1CcmFuZCIsIjk5LjAuMC4wIl1dLDBd&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&vis=1&aee=0&a3p=Eh0KDmVzcC5jcml0ZW8uY29tGNrHv5iGNEgAUgIIZBIXCghydGJob3VzZRjax7-YhjRIAFICCGQ.&dlt=1788368379932&idt=921&prev_scp=container%3Dbaxter-lp-box%26slot%3Dlogin_box%26ad_request_source%3DnonLazyLoad&cust_params=sessionLong%3D1968339763cx6527289b%26page%3Daccount%26abTest%3Dcarparts-1035%2540a%252Ccarparts-794%2540b%252Ccarparts-940%2540b%252Ccarparts-985%2540a%252Cema-459%2540a%252Ceupp-4152%2540a%252Ceupp-4230%2540a%252Cjobs-11351%2540a%252Cjobs-11576%2540b%252Cjobs-11849%2540b%252Cjobs-11947%2540c%252Coesx-5713%2540a%252Colxmd-1990%2540a%252Colxmd-2069%2540a%252Cplatf-2731578%2540a%252Cplatf-2731776%2540b%252Cplatf-2733008%2540a%252Cplatf-2733164%2540a%252Cplatf-2733348%2540c%252Cplatf-28743%2540c%252Cplatf-60353%2540a%252Cream-3178%2540b%252Cream-3188%2540a%252Cream-3899%2540b%252Cream-4101%2540a%252Cream-4102%2540a&adks=398999867&frm=20&eoidce=1&pgls=CAk.",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_text": "{\"/55100874/OLX_PL_Desktop/LoginPage/login_box\":[\"html\",1,null,null,1,1220,1920,0,0,null,null,1,1,[[\"ID=191f5d2f7d855810:T=1788368366:RT=1788368366:S=ALNI_Mb_V41gmkJsAO04edho8VX_mZKdxA\",1822064366,\"/\",\"olx.pl\",1],[\"UID=000014f25718a9c9:T=1788368366:RT=1788368366:S=ALNI_MbB4ChoFvtvqaxGJj7P_RxLBoLZ7Q\",1822064366,\"/\",\"olx.pl\",2]],[138581446762],[7413642645],[20840834],[4177999331],null,null,null,[12149554],null,null,null,0,null,null,null,null,null,null,\"AOrYGsl6otrTbyvU3eZnthMfmjGiCK8GPlMe9BA2TwfnrhqXM5aU1ioDd7dRcQG4r3meF3ECM4l2y0auNg0doq63Ge99uKBPHzp3Atmub_dIKwwAV_xMpg\",\"COvjzKmv0JYDFeTWygAd2qM5FA\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,\"1\",null,null,null,null,null,null,null,null,null,null,null,\"AA-V4qMQp0QV-mAxoQNrrtdcG_2XS7WaayQ1SVqB9ZKq2QnlqsgDEWI9HrVLH5etUc6wlIhCEGcZHN-iSV2NTW7T-3bi-3vOj8jrSUYPNsj4zXEpZU0W1o6YrHn2DnIWgVKXjix8HdxQTIzBHV-SysWJyXTJ0BPfgFucMhQHNZf11XRK1iT2qNlptn0bBdYSRWV2XCiKdxDaKmW4-pDyx45fNe5KzadA4o_VTQT1Pw3E2CAhSeibNBWTSGMA0Rrgo2nWIscMEJYmRzmJMPRjPHEUWhD4JOoGho8hfpeDEmnKZRlcEprNtbdySZQhlO6TftAgT7rvRrF64YgD6gn3CJHjOuLM-7mzDlGIEuZ9MiTmHoWaeSdppVToyHBHx8Cr38PO1fTaj5jDJ7N74G1X3854EXeP_Ds7PAUGg1Vkyxlc-J_xe0zS2AlNQfhqIFr3bVjan_FeL_BBkBSWavAjNursnfmnm8kQinCDiHEljhclrVWt1ivR4nQabpGX0I65JY7TwpJxMu-kLdmkmT-2UDgJSytBJi4k4Y52MVN691JUfFuQoxOEhOqkmYPGqU5rejZC_qNeQT8Vz_mcqHeoDutj2fPGiF69rg5AACHQGj-QeC0KJWs4aQGd7Q064w\",null,null,null,null,null,null,[[\"ID=175636c7780d809d:T=1788368366:RT=1788368366:S=AA-AfjaC-d-HkUALZz6AeOgmeZ_a\",1803920366,\"/\",\"olx.pl\"]],null,null,null,null,\"https://adssettings.google.com/whythisad?source=display\\u0026reasons=ARXetyoq7To2T-6Tb4jHP_R0uMBj5MQt_I2PIomEhVOzvwbBmhTpcGYWsW7XcY5alqh1aoGE9ssm2iMvHaPQuczAn-CnWsMfzBNP7WnaQCxxFcJvBK0Iqz1mG4VEuB8LFfrIYUUSgeY2j8hzLVlY_kAAe6-J5o4yHZMblpqPTsdEdo6x9V8QQ7IBn62kEa7F9AVVEUjFN1evAN9plXSZtOtJfz2Uc5ywiRPE_54vV5GNHIrlFRW0IgYt5TltZwBnZURYVdUFo25zdghuiZN69K2M7VfMImYHN3KgJYKNQZ_qLpU56q9Qd2VaSsdtjdsXPVXCSAhr3N19UDTS28KdGA5etFIpioof0R2qUkJetZWiMHz3cou5eXjebo0DZEDLd4jCfEJUj279iDJOlZkVimuV34F340S6KofyiunnwbB0aaPBpYMjphJ41UYlt_zTSMi63eY9DhbJAkwYI8lktyzWc3L4zVDdPzhY1iQkgNK4HAh-ba3MODuoDICcCnY9qH2nZ5VYaQoCUPWSgBMiLqxYfB9ihIH8U6HU13_Zc4iJeycIg4iBIekx7D_Jx7fdlvjUWhH5p5smHNcTmHxvf8VZ6GElMBBCtLmajV8iWtkdzyYkidHqxmDsH9GdmhROBv29bL-ATRuPd53-MceWPuIZHX4XBRqNPXVHFGdo-rnBjKP9yXyoTdNSTE6sgPLaE10cQNxRBhm5EzKscf-NDHATIiIBpTvtV1eZ7-0r7NznHfpixzlpCSsPSuNB3eQNADPGOzyiOV-PLoSjIw7gOzIcLIjXSN5i6r0RHT38cslSlExn1_wM5HOTHb4no3GP25wnG6ta44GD2kahGdVM_LIBJqza7XpMLCkeO7q5ZTrxJUYvdLksRs6-Oit07IUyaLYD5dA2CRvNttT7f6l10oiF2RA25jJ_rXZHaJjdb9ePlvw9F42Sam0g_JnnlEDEU4q_vasqLWon5bfuF1drq-_VgGDgqUnjfvxI-O5QpPliUZBsVI6FfFVRB0H3RsPjW4bk8X99gCCZiyJY-GAOGdB7F5xS6e5ez96XLPejINseENC1fz8dHJUwGdzTR-Y2IwRkmI0r3nVBToyFjAUPP15Tc_lBmIHbZINsxpxunxP6mJmEEGSy2jfv0Xi0--tV5GRgiNgWZf_AK-VtyLz-T-HtDtEYhmM4ZC2r2B1qzSWRExghAZti554qx-GQrrLZGBEJcKUuX0NoMK76yxJXpTqwqSARyzeX4Xfs0ZTbJpGgx9ptoTRl2WuiS2wA4m9PD7qnV2rOol9lQIxnk0k770R3Cuab71dwk1ADXEX9IdHuTEvRYhRAnBcjp3EhUd93gm0QMLGUU5R6dFwDnb-CRKleWGG9aX9zWP43A3RPV9HEUMmKBSbQURCqWqwwGTbdSkFYQysSrwU9x0aWCtiVirFVIBMfxySM9_BeQccDOd3SRKfvs0oP0nI9d5R3aP-E9GrMFuwzzhDNDEoE00_xRDmCtQ7N6s3ezURfOc2_ptGiGSLkgpz6HWyu2RzebUkedAvEhultUH-aGioWc4oeCc6_ilUYo8qzpcTVw8A3RIHz5XI0BXglxLAB3QozMx1cDy9P6W1doXX4hjz0NDHnfjOPW9ga2KAvYNGLcgMJWEqAtZGeXlbJoawtCBJzIjeC1-mP34-7FE3L7ru2J9s-mOtSbEglF4mISNdmRNQ0yMfmvgaagcznaBp_jMUn_bjBbH0kCUiL2ltU5eja2qIAIs5JRMoSpW0JkIXAKc_vwOHdyAjQe2KKozPaD2AvdMOmX5Cg5Ab2r6Q-iUfltcNGmrePcKQbP7gh9VrKnvUzCP4HcAYmuoAcnbBQB2xOhKtp5CJnFMMh9LETsh1Z216jC7lugQwMt3ArmtBqgeD5mcArBzpRClAaMCIPBvRZ1Y7uce3Tk1nj5cMRIwIfGYL63gzZZ_j-LVIX8714Zeq0jAwNhCAl2_jTUzA65brgsp0P7HZgy2GWdtM-VMbM5eY-S1IbNNvwSnk207QhJlszyIp2-toSldCPgiCQjV6Wgzir-hl4uKkuZBhwWt0LcW1vBKLWVc2Q2XC5Ju1b\\u0026opi=122715837\",[\"pl\",\"Reklama\",\"Treść reklamy firmy zewnętrznej\",\"Czytaj dalej\"]]}\n<!doctype html><html><head><style></style></head><body leftMargin=\"0\" topMargin=\"0\" marginwidth=\"0\" marginheight=\"0\"><script src=\"https://tpc.googlesyndication.com/safeframe/1-0-45/js/ext.js\"></script><script>window.dicnf = {sbtru: \"https://securepubads.g.doubleclick.net/pcs/view?xai\\\\x3dAKAOjsvajDI7jN2cTDFrBt2Q4Plqd__aD1gf0MpG8iEGX9XGXd1w6ZZV7zJGBiGz2whxzALdmpjE_u7SNCcJGvDKHXP8Xi5JyFsKn85taMAnccyPijiY_35f8cZ5jaYLyazPZgtNMU-0I2Y2B7jJ1K6k9O91REbCPZfatJHjLKcx7SD863pP4w4T_oXEgqLGwpB2r-QD5iOYk6ItiQQ7jQ2lrkEJEDup7fH2k0Si4MZz-g7LkhjLU_veBjwSiQM_TfO6E0b-cooala_FqOhhyOuGent6thHPvTwUttXltXZ6Tki9GHGtY2IfCcKppB_dvZyovFfJXqX_CdvlualEvJr1l_nvhWJr5xIMy0x6w_T0JJQuWkYvXdkXlxqSYU_7ys48_L5HNe6cuC7iIdVdpSBbQM5MMZrUOToCJxU91B7ekmBCcyZ9g4Sn2K8whgTO\\\\x26sai\\\\x3dAMfl-YRwvwuAD07GFzvBaPR9-FsYdiCJ4426TmRsW9Ci6w976gg-k4_S0wirBs4CoQfeLkJKYvMPb_mPSrayioyf-UhVF_q7XignaGEGfDGefdkGqa-K2WYRJRZHORNbq6tCFtyLww4rlP4vIlfI9kYaoLRu6x3734W4jtnINpkoxYBy2crXdloSg1UUQu5gVqSui5teqMrMAb59c9iTW-VgLEHm4nZk0V0\\\\x26sig\\\\x3dCg0ArKJSzBbZ10mX9bpYEAE\\\\x26uach_m\\\\x3d%5BUACH%5D\\\\x26urlfix\\\\x3d1\\\\x26adurl\\\\x3d\",ebtro: 97,};</script><script data-jc=\"42\" data-jc-version=\"r20260901\" data-jc-flags=\"[&quot;x%72;13705!=wu}a($1601;5==&amp;&lt;cbotf+*01247;&gt;1%2bejvf/%72&gt;0&lt;337!=efdwa*&#39;76027;56$?wqrf+*0114564:%2pvs`~&quot;]\">(function(){'use strict';/*  Copyright The Closure Library Authors. SPDX-License-Identifier: Apache-2.0 */ var q=this||self;function C(a){C[\" \"](a);return a}C[\" \"]=function(){};function G(a){a.C=!0;return a};var aa=G(a=>typeof a===\"number\"),ba=G(a=>typeof a===\"string\"),ca=G(a=>typeof a===\"function\");var H=class{constructor(a,b=!1){this.key=a;this.defaultValue=b;this.valueType=\"boolean\"}};var da=new H(\"45368259\"),ea=new H(\"45357156\",!0),I=new H(\"45414892\"),fa=new H(\"45648564\"),ha=new H(\"45716539\",!0);var J=(a,b)=>a.substring(a.length-7)==\"&adurl=\"?a.substring(0,a.length-7)+b+\"&adurl=\":a+b;var K=q.dicnf||{};function ia(a,b){if(a)for(let c in a)Object.prototype.hasOwnProperty.call(a,c)&&b(a[c],c,a)};function ja(){if(!globalThis.crypto)return Math.random();try{let a=new Uint32Array(1);globalThis.crypto.getRandomValues(a);return a[0]/65536/65536}catch(a){return Math.random()}};function ka(a=document){return a.createElement(\"img\")};var L=[];function M(){var a=L;L=[];for(let b of a)try{b()}catch{}};function N(a,b,c){typeof a.addEventListener===\"function\"&&a.addEventListener(b,c,!1)}function O(a,b,c){typeof a.removeEventListener===\"function\"&&a.removeEventListener(b,c,!1)}function la(a,b){a.readyState===\"complete\"||a.readyState===\"interactive\"?(L.push(b),L.length===1&&(window.Promise?Promise.resolve().then(M):(a=window.setImmediate,ca(a)?a(M):setTimeout(M,0)))):a.addEventListener(\"DOMContentLoaded\",b)};function ma(a,b=null){na(a,b)}function na(a,b){q.google_image_requests||(q.google_image_requests=[]);var c=ka(q.document);if(b){let d=f=>{b&&b(f);O(c,\"load\",d);O(c,\"error\",d)};N(c,\"load\",d);N(c,\"error\",d)}c.src=a;q.google_image_requests.push(c)};var P=0;function oa(a,b=null){return b&&b.getAttribute(\"data-jc\")===String(a)?b:document.querySelector(`[data-jc=\"${a}\"]`)};function Q(a){R||(R=new pa);var b=R.h[a.key];if(a.valueType===\"proto\"){try{let c=JSON.parse(b);if(Array.isArray(c))return c}catch(c){}return a.defaultValue}return typeof b===typeof a.defaultValue?b:a.defaultValue}var qa=class{constructor(){this.h={}}};var pa=class extends qa{constructor(){super();var a=oa(P,document.currentScript);a=a&&a.getAttribute(\"data-jc-flags\")||\"\";try{let b=JSON.parse(a)[0];a=\"\";for(let c=0;c<b.length;c++)a+=String.fromCharCode(b.charCodeAt(c)^\"\\\\u0003\\\\u0007\\\\u0003\\\\u0007\\\\b\\\\u0004\\\\u0004\\\\u0006\\\\u0005\\\\u0003\".charCodeAt(c%10));this.h=JSON.parse(a)}catch(b){}}},R;var sa=class{constructor(a,b){this.error=a;this.meta={};this.context=b.context;this.msg=b.message||\"\";this.id=b.id||\"jserror\"}};function ta(a){var b=a.toString();a.name&&b.indexOf(a.name)==-1&&(b+=\": \"+a.name);a.message&&b.indexOf(a.message)==-1&&(b+=\": \"+a.message);if(a.stack)a:{a=a.stack;var c=b;try{a.indexOf(c)==-1&&(a=c+\"\\\\n\"+a);let d;for(;a!=d;)d=a,a=a.replace(RegExp(\"((https?:/..*/)[^/:]*:\\\\\\\\d+(?:.|\\\\n)*)\\\\\\\\2\"),\"$1\");b=a.replace(RegExp(\"\\\\n *\",\"g\"),\"\\\\n\");break a}catch(d){b=c;break a}b=void 0}return b};var ua=RegExp(\"^https?://(\\\\\\\\w|"
+  },
+  {
+    "ts": 1788368381.5575285,
+    "method": "GET",
+    "url": "https://gum.criteo.com/sid/json?origin=publishertagids&domain=olx.pl&sn=ChromeSyncframe&so=0&topUrl=login.olx.pl",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://gum.criteo.com/syncframe?origin=publishertagids&topUrl=login.olx.pl&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_json": {
+      "sid": null,
+      "removeSid": false,
+      "bundle": "dC0q6V9EdnlUcjdzUVpydkdzVlkzYzJESHFnR3dQaWV3N0tnZ3hOYmhuZDNNSmE4Vmc5UW9zNE1RT3BxNER2OFA1REFKMkxBV3ElMkJXcXg5emhWQzRFNkwyd043R3N1aUk0QlRweWQlMkJhJTJGcDA1V1h3bzVhaEdwR2lqOFRwdFQ5YyUyQmhvcGllViUyRnU4enppa0NVVWhFTUpzb2dOWDJ3JTNEJTNE",
+      "info": "PA3veF9EdnlUcjdzUVpydkdzVlkzYzJESHFnR3dQaWV3N0tnZ3hOYmhuZDNNSmE4Vmc5UW9zNE1RT3BxNER2OFA1REFKcnRSUlU4JTJCNTF4R3piS2lHJTJGQUNhN0ElM0QlM0Q",
+      "optout": false
+    }
+  },
+  {
+    "ts": 1788368381.623755,
+    "method": "POST",
+    "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-V1KE40XCLR&gtm=45je6910v869907134za200zd869907134&_p=1788368381074&_gaz=1&gcs=G111&gcd=13v3tPv2v5l1&npa=0&dma_cps=a&dma=1&tcfd=10s5b&_eu=EAAAAGAC&_platinum_request_status=ok&are=1&cid=19290441.1788368381&frm=0&ir=1&pscdl=noapi&rcb=1&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=pl-pl&gaf=2&_s=1&tag_exp=115938466~115938468~118869188~118897920~118897930~119259605~120213116~120385422~120469146~120469154&sid=1788368381&sct=1&seg=0&dl=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&dr=https%3A%2F%2Fwww.olx.pl%2F&dt=OLX.PL%20-%20Zaloguj%20si%C4%99&en=page_view&_fv=1&_nsi=1&_ss=2&_ee=1&ep.anonymize_ip=true&tfd=1862",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 204
+  },
+  {
+    "ts": 1788368381.6445577,
+    "method": "POST",
+    "url": "https://region1.analytics.google.com/measurement/conversion?random=1788368381437&cv=11&tid=G-V1KE40XCLR&fst=1788368381437&fmt=8&en=session_start&gtm=45je6910v869907134za200zd869907134xec&gcs=G111&gcd=13v3tPv2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115938466~115938468~118869188~118897920~118897930~119259605~120213116~120385422~120469146~120469154&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&gacid=19290441.1788368381&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&gtm_ee=1&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&rcb=1",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368381.7059588,
+    "method": "GET",
+    "url": "https://ad.doubleclick.net/ddm/trackimp/N980473.1912647OLX.PL/B36591175.455782106;dc_trk_aid=649772609;dc_trk_cid=263982237;ord=1518976578;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=1;gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA;ltd=;dc_tdv=1?",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cc3a819b599ead75545f2b7ce76fe19a.safeframe.googlesyndication.com/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 302,
+    "resp_error": "Response.text: Response body is unavailable for redirect responses"
+  },
+  {
+    "ts": 1788368381.8055115,
+    "method": "POST",
+    "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-V1KE40XCLR&gtm=45je6910v869907134za200zd869907134&_p=1788368381074&gcs=G111&gcd=13v3tPv2v5l1&npa=0&dma_cps=a&dma=1&tcfd=10s5b&_eu=EEIAAGQC&are=1&cid=19290441.1788368381&frm=0&ir=1&pscdl=noapi&rcb=1&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=pl-pl&gaf=2&_s=2&tag_exp=115938466~115938468~118869188~118897920~118897930~119259605~120213116~120385422~120469146~120469154&sid=1788368381&sct=1&seg=0&dl=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&dr=https%3A%2F%2Fwww.olx.pl%2F&dt=OLX.PL%20-%20Zaloguj%20si%C4%99&en=ad_impression&ep.anonymize_ip=true&ep.query_id=COvjzKmv0JYDFeTWygAd2qM5FA&_et=77&tfd=2066",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 204
+  },
+  {
+    "ts": 1788368381.9017532,
+    "method": "GET",
+    "url": "https://ad.doubleclick.net/ddm/trackimp/N980473.1912647OLX.PL/B36591175.455782106;dc_pre=CJTW76mv0JYDFSLw2wEdCogtuw;dc_trk_aid=649772609;dc_trk_cid=263982237;ord=1518976578;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=1;gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA;ltd=;dc_tdv=1?",
+    "req_headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "pl-PL",
+      "referer": "https://cc3a819b599ead75545f2b7ce76fe19a.safeframe.googlesyndication.com/"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_error": "'utf-8' codec can't decode byte 0x80 in position 10: invalid start byte"
+  },
+  {
+    "ts": 1788368381.9287386,
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=1&auid=1120236896.1788368381&dt=OLX.PL%20-%20Zaloguj%20si%C4%99&tid=DC-15063859&en=page_view&dl=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&dr=https%3A%2F%2Fwww.olx.pl%2F&scrsrc=www.googletagmanager.com&rnd=1965967147.1788368382&navt=n&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&gdid=dYWJhMj&gtm=45fe6910v9199913009z8831750024za20gzb831750024zd831750024xec&gcs=G111&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616986~115938466~115938469~118897920~118897930~119259605~119404698~120213116~120385422&tft=1788368381852&tfd=2260&tids=DC-15063859&fmt=8",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368381.9937215,
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=0&auid=1120236896.1788368381&dt=OLX.PL%20-%20Zaloguj%20si%C4%99&tid=AW-16520834999&en=page_view&dl=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&dr=https%3A%2F%2Fwww.olx.pl%2F&scrsrc=www.googletagmanager.com&rnd=1965967147.1788368382&navt=n&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&did=dYWJhMj&gdid=dYWJhMj&gtm=45be6910v9181977627z8831750024za20gzb831750024zd831750024xec&gcs=G111&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616986~115938466~115938468~118897920~118897930~119259605~120213116~120385423&tft=1788368381907&tfd=2315&tids=AW-16520834999&fmt=8",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368382.0009408,
+    "method": "POST",
+    "url": "https://www.google.com/rmkt/collect/16520834999/?random=1788368381873&cv=11&fst=1788368381873&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6910v9181977627z8831750024za20gzb831750024zd831750024xec&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616986~115938466~115938468~118897920~118897930~119259605~120213116~120385423&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&rcb=16&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368382.1534982,
+    "method": "GET",
+    "url": "https://15063859.fls.doubleclick.net/activityi;src=15063859;type=imp;cat=page_0;rcb=17;ord=8926606782219;gdpr=1;gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA;npa=0;auiddc=1120236896.1788368381;gdid=dYWJhMj;uaa=x86;uab=64;uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6910v9199913009z8831750024za20gzb831750024zd831750024xea;gcs=G111;gcd=13v3v3v2v5l1;dma_cps=a;dma=1;dc_fmt=2;tcfd=10s5b;tag_exp=115616986~115938466~115938469~118897920~118897930~119259605~119404698~120213116~120385422;epver=2;dc_random=1788368381_cSf7-qZdWfWY__wF9RiQdjAa4sKzX75lQw;_dc_test=1;~oref=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D?",
+    "req_headers": {
+      "accept-language": "pl-PL",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"><html><head><title></title></head><body style=\"background-color: transparent\"><img src=\"https://adservice.google.com/ddm/fls/z/src=15063859;type=imp;cat=page_0;rcb=17;ord=8926606782219;gdpr=1;gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA;npa=0;auiddc=*;gdid=dYWJhMj;uaa=x86;uab=64;uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6910v9199913009z8831750024za20gzb831750024zd831750024xea;gcs=G111;gcd=13v3v3v2v5l1;dma_cps=a;dma=1;dc_fmt=2;tcfd=10s5b;tag_exp=115616986~115938466~115938469~118897920~118897930~119259605~119404698~120213116~120385422;epver=2;dc_random=1788368381_cSf7-qZdWfWY__wF9RiQdjAa4sKzX75lQw;_dc_test=1;~oref=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D\"/></body></html>"
+  },
+  {
+    "ts": 1788368382.2044775,
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=0&auid=1120236896.1788368381&dt=OLX.PL%20-%20Zaloguj%20si%C4%99&tid=DC-9614495&en=page_view&dl=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&dr=https%3A%2F%2Fwww.olx.pl%2F&scrsrc=www.googletagmanager.com&rnd=1965967147.1788368382&navt=n&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&gdid=dYWJhMj&gtm=45Pe6910v9190666850z8831750024za20gzb831750024zd831750024xec&gcs=G111&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115938466~115938469~118897920~118897930~119259605~120213116~120385423&tft=1788368382145&tfd=2554&tids=DC-9614495&fmt=8",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368382.2574213,
+    "method": "POST",
+    "url": "https://www.google.com/rmkt/collect/16733982869/?random=1788368382164&cv=11&fst=1788368382164&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6910v9213325974z8831750024za20gzb831750024zd831750024xec&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616985~115938466~115938469~118897920~118897930~119259605~120213116~120385422~120420414&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&rcb=7&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368382.2595453,
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=0&auid=1120236896.1788368381&dt=OLX.PL%20-%20Zaloguj%20si%C4%99&tid=AW-16733982869&en=page_view&dl=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&dr=https%3A%2F%2Fwww.olx.pl%2F&scrsrc=www.googletagmanager.com&rnd=1965967147.1788368382&navt=n&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&did=dYWJhMj&gdid=dYWJhMj&gtm=45be6910v9213325974z8831750024za20gzb831750024zd831750024xec&gcs=G111&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616985~115938466~115938469~118897920~118897930~119259605~120213116~120385422~120420414&tft=1788368382198&tfd=2607&tids=AW-16733982869&fmt=8",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368382.314361,
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=13&frm=0&apvc=0&auid=1120236896.1788368381&dt=OLX.PL%20-%20Zaloguj%20si%C4%99&tid=AW-949615402&en=page_view&dl=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&dr=https%3A%2F%2Fwww.olx.pl%2F&scrsrc=www.googletagmanager.com&rnd=1965967147.1788368382&navt=n&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&did=dYWJhMj&gdid=dYWJhMj&gtm=45be6910v888962740z8831750024za20gzb831750024zd831750024xec&gcs=G111&gcd=13v3vPv2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616986~115938466~115938469~118897920~118897930~119259605~119404699~120213116~120385422&tft=1788368382249&tfd=2657&tids=AW-949615402&fmt=8",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368382.3273077,
+    "method": "POST",
+    "url": "https://www.google.com/rmkt/collect/949615402/?random=1788368382217&cv=11&fst=1788368382217&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6910v888962740z8831750024za20gzb831750024zd831750024xec&gcd=13v3vPv2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616986~115938466~115938469~118897920~118897930~119259605~119404699~120213116~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&rcb=13&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368382.328864,
+    "method": "GET",
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16733982869/?random=1788368382164&cv=11&fst=1788368382164&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6910v9213325974z8831750024za20gzb831750024zd831750024xec&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616985~115938466~115938469~118897920~118897930~119259605~120213116~120385422~120420414&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&rcb=7&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368382.3303351,
+    "method": "GET",
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16520834999/?random=1788368381873&cv=11&fst=1788368381873&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6910v9181977627z8831750024za20gzb831750024zd831750024xec&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616986~115938466~115938468~118897920~118897930~119259605~120213116~120385423&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&rcb=16&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368382.359007,
+    "method": "GET",
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/949615402/?random=1788368382217&cv=11&fst=1788368382217&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6910v888962740z8831750024za20gzb831750024zd831750024xec&gcd=13v3vPv2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616986~115938466~115938469~118897920~118897930~119259605~119404699~120213116~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&rcb=13&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368382.3775804,
+    "method": "GET",
+    "url": "https://9614495.fls.doubleclick.net/activityi;src=9614495;type=imp;cat=page_0;rcb=5;ord=4506168332264;gdpr=1;gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA;npa=0;auiddc=1120236896.1788368381;gdid=dYWJhMj;uaa=x86;uab=64;uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45Pe6910v9190666850z8831750024za20gzb831750024zd831750024xea;gcs=G111;gcd=13v3v3v2v5l1;dma_cps=a;dma=1;dc_fmt=2;tcfd=10s5b;tag_exp=115938466~115938469~118897920~118897930~119259605~120213116~120385423;epver=2;dc_random=1788368382_bDIjBHUqKNhOO38fXuUZYDldat0dBOwLAw;_dc_test=1;~oref=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D?",
+    "req_headers": {
+      "accept-language": "pl-PL",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\"><html><head><title></title></head><body style=\"background-color: transparent\"><img src=\"https://adservice.google.com/ddm/fls/z/src=9614495;type=imp;cat=page_0;rcb=5;ord=4506168332264;gdpr=1;gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA;npa=0;auiddc=*;gdid=dYWJhMj;uaa=x86;uab=64;uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45Pe6910v9190666850z8831750024za20gzb831750024zd831750024xea;gcs=G111;gcd=13v3v3v2v5l1;dma_cps=a;dma=1;dc_fmt=2;tcfd=10s5b;tag_exp=115938466~115938469~118897920~118897930~119259605~120213116~120385423;epver=2;dc_random=1788368382_bDIjBHUqKNhOO38fXuUZYDldat0dBOwLAw;_dc_test=1;~oref=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D\"/></body></html>"
+  },
+  {
+    "ts": 1788368382.3888102,
+    "method": "GET",
+    "url": "https://www.google.com/pagead/1p-user-list/16733982869/?random=1788368382164&cv=11&fst=1788364800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6910v9213325974z8831750024za20gzb831750024zd831750024xec&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616985~115938466~115938469~118897920~118897930~119259605~120213116~120385422~120420414&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&rcb=7&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQSXQBAziHcigBGhm62E2gEtIRhmULuLg0vvW7zoCsP42HEFulIAPUPecC68YuZe7u3gAffgzGDyYHT7NJ0bA0Noc3PLYiu1k9Wqnsp4qcvUzXY4aJm6RpnJhle_CCsrw&random=2214439303&rmt_tld=0&ipr=y",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_error": "'utf-8' codec can't decode byte 0x80 in position 10: invalid start byte"
+  },
+  {
+    "ts": 1788368382.4035358,
+    "method": "GET",
+    "url": "https://www.google.com/pagead/1p-user-list/16520834999/?random=1788368381873&cv=11&fst=1788364800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6910v9181977627z8831750024za20gzb831750024zd831750024xec&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616986~115938466~115938468~118897920~118897930~119259605~120213116~120385423&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&rcb=16&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQSXQBAziHca5S7-I2WSS4mOvs4O0OfiXkx3IHce2aukQ0Eof4BzddnHreEqbpciPzNtfpost1AhUulC9dk3ozl-PqiUf7Vhxj4NK_uhrZih7rABwCnQKhdM77EzleQvw&random=2260500461&rmt_tld=0&ipr=y",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_error": "'utf-8' codec can't decode byte 0x80 in position 10: invalid start byte"
+  },
+  {
+    "ts": 1788368382.4056764,
+    "method": "POST",
+    "url": "https://ad.doubleclick.net/activity;src=15063859;type=imp;cat=page_0;rcb=17;ord=8926606782219;gdpr=1;gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA;npa=0;auiddc=1120236896.1788368381;gdid=dYWJhMj;uaa=x86;uab=64;uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6910v9199913009z8831750024za20gzb831750024zd831750024xea;gcs=G111;gcd=13v3v3v2v5l1;dma_cps=a;dma=1;dc_fmt=3;tcfd=10s5b;tag_exp=115616986~115938466~115938469~118897920~118897930~119259605~119404698~120213116~120385422;epver=2;dc_random=1788368381_cSf7-qZdWfWY__wF9RiQdjAa4sKzX75lQw;~oref=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D?",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 302,
+    "resp_error": "Response.text: Response body is unavailable for redirect responses"
+  },
+  {
+    "ts": 1788368382.4068854,
+    "method": "GET",
+    "url": "https://www.google.com/gmp/conversion/_dc_unique_id=9067229417465637485;_dc_ptd=ChEI8JLf1AYQ3vWVq8T6pd7MARIfAP3HVIUTkdRConTDN8FWV-2oGZOwSE1Dyxlb0ablnQ;_dc_time=1788368367;src=15063859;type=imp;cat=page_0;rcb=17;ord=8926606782219;gdpr=1;gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA;npa=0;auiddc=1120236896.1788368381;gdid=dYWJhMj;uaa=x86;uab=64;uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6910v9199913009z8831750024za20gzb831750024zd831750024xea;gcs=G111;gcd=13v3v3v2v5l1;dma_cps=a;dma=1;dc_fmt=3;tcfd=10s5b;tag_exp=115616986~115938466~115938469~118897920~118897930~119259605~119404698~120213116~120385422;epver=2;dc_random=1788368381_cSf7-qZdWfWY__wF9RiQdjAa4sKzX75lQw;~oref=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D?",
+    "req_headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "pl-PL",
+      "referer": ""
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_error": "'utf-8' codec can't decode byte 0x80 in position 10: invalid start byte"
+  },
+  {
+    "ts": 1788368382.415592,
+    "method": "GET",
+    "url": "https://www.google.pl/pagead/1p-user-list/16733982869/?random=1788368382164&cv=11&fst=1788364800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6910v9213325974z8831750024za20gzb831750024zd831750024xec&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616985~115938466~115938469~118897920~118897930~119259605~120213116~120385422~120420414&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&rcb=7&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQSXQBAziHcigBGhm62E2gEtIRhmULuLg0vvW7zoCsP42HEFulIAPUPecC68YuZe7u3gAffgzGDyYHT7NJ0bA0Noc3PLYiu1k9Wqnsp4qcvUzXY4aJm6RpnJhle_CCsrw&random=2214439303&rmt_tld=1&ipr=y",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_error": "'utf-8' codec can't decode byte 0x80 in position 10: invalid start byte"
+  },
+  {
+    "ts": 1788368382.4339736,
+    "method": "GET",
+    "url": "https://www.google.pl/pagead/1p-user-list/16520834999/?random=1788368381873&cv=11&fst=1788364800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6910v9181977627z8831750024za20gzb831750024zd831750024xec&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616986~115938466~115938468~118897920~118897930~119259605~120213116~120385423&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&rcb=16&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQSXQBAziHca5S7-I2WSS4mOvs4O0OfiXkx3IHce2aukQ0Eof4BzddnHreEqbpciPzNtfpost1AhUulC9dk3ozl-PqiUf7Vhxj4NK_uhrZih7rABwCnQKhdM77EzleQvw&random=2260500461&rmt_tld=1&ipr=y",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_error": "'utf-8' codec can't decode byte 0x80 in position 10: invalid start byte"
+  },
+  {
+    "ts": 1788368382.4354112,
+    "method": "GET",
+    "url": "https://www.google.com/pagead/1p-user-list/949615402/?random=1788368382217&cv=11&fst=1788364800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6910v888962740z8831750024za20gzb831750024zd831750024xec&gcd=13v3vPv2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616986~115938466~115938469~118897920~118897930~119259605~119404699~120213116~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&rcb=13&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQSXQBAziHcP2m26a3wTQw-qXuXoC18qtGg3grR_khmBG4lRTGrFZLt9Y3c9dk0CA5IcX1WBuODhZvgGnCe8XAilewJcRg3pXeR6276CZjD4jJW1ctA2L8Rj2s2ofPHDQ&random=2333137119&rmt_tld=0&ipr=y",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_error": "'utf-8' codec can't decode byte 0x80 in position 10: invalid start byte"
+  },
+  {
+    "ts": 1788368382.458275,
+    "method": "GET",
+    "url": "https://www.google.pl/pagead/1p-user-list/949615402/?random=1788368382217&cv=11&fst=1788364800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6910v888962740z8831750024za20gzb831750024zd831750024xec&gcd=13v3vPv2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115616986~115938466~115938469~118897920~118897930~119259605~119404699~120213116~120385422&u_w=1440&u_h=900&url=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&ref=https%3A%2F%2Fwww.olx.pl%2F&rcb=13&frm=0&tiba=OLX.PL%20-%20Zaloguj%20si%C4%99&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&pscdl=noapi&auid=1120236896.1788368381&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQSXQBAziHcP2m26a3wTQw-qXuXoC18qtGg3grR_khmBG4lRTGrFZLt9Y3c9dk0CA5IcX1WBuODhZvgGnCe8XAilewJcRg3pXeR6276CZjD4jJW1ctA2L8Rj2s2ofPHDQ&random=2333137119&rmt_tld=1&ipr=y",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_error": "'utf-8' codec can't decode byte 0x80 in position 10: invalid start byte"
+  },
+  {
+    "ts": 1788368382.5382636,
+    "method": "GET",
+    "url": "https://adservice.google.com/ddm/fls/z/src=9614495;type=imp;cat=page_0;rcb=5;ord=4506168332264;gdpr=1;gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA;npa=0;auiddc=*;gdid=dYWJhMj;uaa=x86;uab=64;uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45Pe6910v9190666850z8831750024za20gzb831750024zd831750024xea;gcs=G111;gcd=13v3v3v2v5l1;dma_cps=a;dma=1;dc_fmt=2;tcfd=10s5b;tag_exp=115938466~115938469~118897920~118897930~119259605~120213116~120385423;epver=2;dc_random=1788368382_bDIjBHUqKNhOO38fXuUZYDldat0dBOwLAw;_dc_test=1;~oref=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://9614495.fls.doubleclick.net/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_error": "'utf-8' codec can't decode byte 0x80 in position 10: invalid start byte"
+  },
+  {
+    "ts": 1788368382.544209,
+    "method": "GET",
+    "url": "https://adservice.google.com/ddm/fls/z/src=15063859;type=imp;cat=page_0;rcb=17;ord=8926606782219;gdpr=1;gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA;npa=0;auiddc=*;gdid=dYWJhMj;uaa=x86;uab=64;uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6910v9199913009z8831750024za20gzb831750024zd831750024xea;gcs=G111;gcd=13v3v3v2v5l1;dma_cps=a;dma=1;dc_fmt=2;tcfd=10s5b;tag_exp=115616986~115938466~115938469~118897920~118897930~119259605~119404698~120213116~120385422;epver=2;dc_random=1788368381_cSf7-qZdWfWY__wF9RiQdjAa4sKzX75lQw;_dc_test=1;~oref=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://15063859.fls.doubleclick.net/",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_error": "'utf-8' codec can't decode byte 0x80 in position 10: invalid start byte"
+  },
+  {
+    "ts": 1788368382.6278183,
+    "method": "POST",
+    "url": "https://ad.doubleclick.net/activity;src=9614495;type=imp;cat=page_0;rcb=5;ord=4506168332264;gdpr=1;gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA;npa=0;auiddc=1120236896.1788368381;gdid=dYWJhMj;uaa=x86;uab=64;uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45Pe6910v9190666850z8831750024za20gzb831750024zd831750024xea;gcs=G111;gcd=13v3v3v2v5l1;dma_cps=a;dma=1;dc_fmt=3;tcfd=10s5b;tag_exp=115938466~115938469~118897920~118897930~119259605~120213116~120385423;epver=2;dc_random=1788368382_bDIjBHUqKNhOO38fXuUZYDldat0dBOwLAw;~oref=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D?",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 302,
+    "resp_error": "Response.text: Response body is unavailable for redirect responses"
+  },
+  {
+    "ts": 1788368382.6291416,
+    "method": "GET",
+    "url": "https://www.google.com/gmp/conversion/_dc_unique_id=14592942414854679317;_dc_ptd=ChEI8JLf1AYQ3vWVq8T6pd7MARIfAP3HVIUGUdQufCZA1Ax_5064k9RjSXLWBjtuCVDEAw;_dc_time=1788368367;cid=CAQSXQBAziHcDV-Bj1ycleeoHra41Vqu6BPv0caaqIcSndeqJB2mLtQLYOyGV4l_PiOwcehazTnwytDeGGrJPSfUx5fV3kthbhb0iMnE9rFJGwzsbxPs2ON87d5AuyYJLw;eps=AHas8cBMisCtdgjPuil68CBLcw5u91HAl4gVdX5Te3toofERVQGX0y65jT6XNWr-ny4J3mFizX6ZBjvJ02pok8HriXbX97aQnLf15vdkKL3pJ5QvtGC6BQ;src=9614495;type=imp;cat=page_0;rcb=5;ord=4506168332264;gdpr=1;gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA;npa=0;auiddc=1120236896.1788368381;gdid=dYWJhMj;uaa=x86;uab=64;uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45Pe6910v9190666850z8831750024za20gzb831750024zd831750024xea;gcs=G111;gcd=13v3v3v2v5l1;dma_cps=a;dma=1;dc_fmt=3;tcfd=10s5b;tag_exp=115938466~115938469~118897920~118897930~119259605~120213116~120385423;epver=2;dc_random=1788368382_bDIjBHUqKNhOO38fXuUZYDldat0dBOwLAw;~oref=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D?",
+    "req_headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "pl-PL",
+      "referer": ""
+    },
+    "post_data": null,
+    "status": 200,
+    "resp_error": "'utf-8' codec can't decode byte 0x80 in position 10: invalid start byte"
+  },
+  {
+    "ts": 1788368382.9712307,
+    "method": "POST",
+    "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=0&ae=g&auid=1120236896.1788368381&dt=OLX.PL%20-%20Zaloguj%20si%C4%99&en=page_view&dl=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&dr=https%3A%2F%2Fwww.olx.pl%2F&scrsrc=www.googletagmanager.com&rnd=1965967147.1788368382&navt=n&npa=0&gdpr=1&gdpr_consent=CQp273AQp273AAcABBPLCuF8AP_gAAAAAAYgKENR3G_fbXlj-TZ1abpkeYxf99hrrsQxBgbIkm4FyLvW7JwC32EbJAwapiIKmRIAu3DBIQFlHADUBUCgKIAVLTDMaEyEoTNKJ6BEiBMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy4hnn3KpfmS1UJCcIYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAAAAAAAAAF-QAAAAABAAAAUEAIgAOAIOARwAmgCVgE2gKQAWEAsQBf4DFgGQgNTAbQA24BugEBAkECACgAKgAcAA8ACCAF4AagA8ACKAEwAKoAbwA_ACEgEMARIAjgBNACtAGAAMMAZYA2QBzgDuAHtAPsA_QCAAEUgIuAjABGgCTAEpgJ-AoMBUQFXALmAXoAxQBogDaAG4AOIAe0BDsCPQJEATsAocBR4CkQFNgLYAXIAuwBeYDDYGRgZIAycBlwDMwGcwNXA1kBsYDbwG6gOTAcuBC4dBEAAXABQAFQAOAAggBcAGoAPAAmABVAC6AG8AP0AhgCJAE0AKMAVoAwABhgDRAGyAOcAdwA9oB9gH7ARQBGICOgJMASmAn4CgwFRAVcAsQBc4C8gL0AYoA2gBuADiAHmAPaAfYBDoCL4EegSIAmQBOwCh4FHgUgApsBVgCxQFsALdAXJAuwC7QF5gL6AYaAx6BkYGSQMnAyqBlgGXAMzAZyA02Bq4GsANvAbqA4sByYDlxwCKABwAHgAXABIAGgARwAywByAEAgIOAhABHACaAHSAQgAlYBMQCbQFJgK7AWIAtQBf4DFgGQgMmAaMA1MBtADbAG3AN0AceA5aBzoHPgQEIQGQAFgAUABcADUAKoAbwBgADnAHcARQAlIBQYCogKuAXMAxQBtAEegKsAWKAtEBcgC7AGRgMnAZyQAIgAPADQAMsAcgBHACxAJtAUmAsQBngDUwG2ANuAboA5YBz4EBCUB0ABYAFAAOAA8ACYAFWAQwBEgCOAFGAK0AYAA2QB-QFRAVcAuYBigEOgIvgR6BIgCjwFigLYAXYAvOBkYGSAMnAZyA1gBt5IAgABcAdwBAACDgEcASsAmIBNoCkwF_gMWAZYAzwBugDlgICFIG4AC4AKAAqABwAEAANAAeABMACqAH6AQwBEgCjAFaAMAAaIA2QBzgDvgH4AfoBFgCMQEdASIAlIBQYCogKuAXMAvIBigDaAG4APaAfYBDoCL4EegSIAnYBQ4CkAFNgKsAWKAtgBcgC7QF5gL6AYbAyMDJAGTwMsAy4BnMDWANZAbKA28BuoDkygBsAC4AJAAXAAyAEcAMsAcgA7gB9gEAAIOAWIA14B2wD_gJiATaAqQBXYDFgGTAM8AamA14BugDlgICA.f_wAAAAAAAAA.IKENR3G_fbXlj-TZ16bpkeYxf99hrrsQxBgbIsm4FyLvW7JwC32EbJEwapiIKmRIAu3DBIQFtHAjUBUChKIAVLTDMaEyEoTNKJ6BEiDMRYyJQCEhum4BDWQCZYsrvZkdwmR-N6dr-2dzyy5hnn3KtfuS1UJicKYcgAAAAAAAAAAAAAEAQAAAAFAAAAAAIAAAAAAAAAAAAgAAAAAAAF-QAAAAABAA&ep.ads_data_redaction=0&gdid=dYWJhMj&gtm=45He6910v831750024za200zd831750024xea&gcs=G111&gcd=13v3v3v2v5l1&dma_cps=a&dma=1&tcfd=10s5b&tag_exp=115938466~115938468~118897920~118897930~119259605~119793974~120385422&tft=1788368382898&tfd=3306&fmt=8",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "ts": 1788368383.1635447,
+    "method": "POST",
+    "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-6PZTQNYS5C&gtm=45je6910v9106713171z8831750024za20gzb831750024zd831750024&_p=1788368381425&_gaz=1&gcs=G111&gcd=13v3vPv2v5l1&npa=0&dma_cps=a&dma=1&tcfd=10s5b&gdid=dYWJhMj&_eu=AAAAAGAC&are=1&cid=19290441.1788368381&frm=0&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=pl-pl&gaf=2&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~119259605~120213116~120385422&sid=1788368383&sct=1&seg=0&dl=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&dr=https%3A%2F%2Fwww.olx.pl%2F&dt=OLX.PL%20-%20Zaloguj%20si%C4%99&en=page_view&_fv=1&_ss=1&ep.client_id_dimension=19290441.1788368381&up.client_id_dimension=19290441.1788368381&tfd=3490",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 204
+  },
+  {
+    "ts": 1788368383.2045786,
+    "method": "POST",
+    "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-1MNBX75RRH&gtm=45je6910v9114971225z8831750024za20gzb831750024zd831750024&_p=1788368381425&_gaz=1&gcs=G111&gcd=13v3vPv2v5l1&npa=0&dma_cps=a&dma=1&tcfd=10s5b&gdid=dYWJhMj&_eu=AAAAACAC&are=1&cid=19290441.1788368381&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=17&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=pl-pl&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119259605~120213116~120385423&sid=1788368383&sct=1&seg=0&dl=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&dr=https%3A%2F%2Fwww.olx.pl%2F&dt=OLX.PL%20-%20Zaloguj%20si%C4%99&en=page_view&_fv=1&_ss=1&ep.client_id_dimension=19290441.1788368381&up.client_id_dimension=19290441.1788368381&tfd=3541",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 204
+  },
+  {
+    "ts": 1788368383.3434672,
+    "method": "POST",
+    "url": "https://bam.nr-data.net/1/NRBR-4b04b28ea1f542d97be?a=1588693739&sa=1&v=1.245.0&t=Unnamed%20Transaction&rst=3572&ck=0&s=ceb4440b6e2978f6&ref=https://login.olx.pl/&af=err,xhr,stn,ins,spa&be=327&fe=2962&dc=671&perf=%7B%22timing%22:%7B%22of%22:1788368379591,%22n%22:0,%22r%22:2,%22re%22:203,%22f%22:203,%22dn%22:203,%22dne%22:203,%22c%22:203,%22s%22:203,%22ce%22:203,%22rq%22:204,%22rp%22:328,%22rpe%22:331,%22di%22:456,%22ds%22:998,%22de%22:998,%22dc%22:3282,%22l%22:3283,%22le%22:3289%7D,%22navigation%22:%7B%22rc%22:1%7D%7D&fp=528&fcp=528",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "content-type": "text/plain",
+      "sec-ch-ua-mobile": "?0",
+      "accept-language": "pl-PL"
+    },
+    "post_data": "{\"ja\":{\"ninja.jsLoaded\":\"true\",\"ciam.login\":\"loaded\",\"siteCode\":\"olxpl\"}}",
+    "status": 200,
+    "resp_json": {
+      "stn": 0,
+      "err": 1,
+      "ins": 1,
+      "spa": 1,
+      "sr": 0,
+      "srs": 0,
+      "st": 1,
+      "sts": 0,
+      "log": 0,
+      "logapi": 0,
+      "app": {
+        "agents": [
+          {
+            "entityGuid": "MTM2NjYwNnxCUk9XU0VSfEFQUExJQ0FUSU9OfDE1ODg2OTM3Mzk"
+          }
+        ],
+        "nrServerTime": 1788368368442
+      }
+    }
+  },
+  {
+    "ts": 1788368383.5103776,
+    "method": "POST",
+    "url": "https://bam.nr-data.net/ins/1/NRBR-4b04b28ea1f542d97be?a=1588693739&sa=1&v=1.245.0&t=Unnamed%20Transaction&rst=3751&ck=0&s=ceb4440b6e2978f6&ref=https://login.olx.pl/",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "content-type": "text/plain",
+      "sec-ch-ua-mobile": "?0",
+      "accept-language": "pl-PL"
+    },
+    "post_data": "{\"ins\":[{\"timestamp\":1788368380631,\"timeSinceLoad\":1.04,\"browserWidth\":1440,\"browserHeight\":900,\"referrerUrl\":\"https://www.olx.pl/\",\"currentUrl\":\"https://login.olx.pl/\",\"pageUrl\":\"https://login.olx.pl/\",\"eventType\":\"PageAction\",\"ninja.jsLoaded\":\"true\",\"ciam.login\":\"loaded\",\"siteCode\":\"olxpl\",\"baxterAccountId\":\"olxpl\",\"baxterVersionId\":1787921180053,\"baxterAppId\":\"rweb\",\"baxterCommitHash\":\"690f5b4a\",\"baxterContainerId\":\"baxter-lp-box\",\"baxterSource\":\"nonLazyLoad\",\"actionName\":\"BaxterContainerSetSlot\"}]}",
+    "status": 204
+  },
+  {
+    "ts": 1788368386.7880316,
+    "method": "POST",
+    "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-V1KE40XCLR&gtm=45je6910v869907134za200zd869907134&_p=1788368381074&gcs=G111&gcd=13v3vPv2v5l1&npa=0&dma_cps=a&dma=1&tcfd=10s5b&_eu=EAAAAGQC&are=1&cid=19290441.1788368381&frm=0&ir=1&pscdl=noapi&rcb=1&sr=1440x900&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.6%7CNot%253AA-Brand%3B99.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=pl-pl&gaf=2&_s=3&tag_exp=115938466~115938468~118869188~118897920~118897930~119259605~120213116~120385422~120469146~120469154&dt=login_page&dp=%2F&sid=1788368381&sct=1&seg=1&dl=https%3A%2F%2Flogin.olx.pl%2F%3Fcc%3DeyJjYyI6MSwiZ3JvdXBzIjoiQzAwMDE6MSxDMDAwMjoxLEMwMDAzOjEsQzAwMDQ6MSxnYWQ6MSJ9%26client_id%3D6j7elk01p32o648o1io8lvhhab%26code_challenge%3DTDyVv9u_cI-w4QKxjmRUgDwMkMuOWBBnmV1EUkc6I_Y%26code_challenge_method%3DS256%26lang%3Dpl%26redirect_uri%3Dhttps%253A%252F%252Fwww.olx.pl%252Fd%252Fcallback%252F%26st%3DeyJzbCI6IjE5NjgzMzk3NjNjeDY1MjcyODliIiwicyI6IjFhMDYzMGQ4NzhkeDYzODA4MGU5In0%253D%26state%3DWFJXazNOWGNXU3ZKUVRjWjYtam1ibGFNYnBsb2w2ZU1pQVAxSGJMeVBCNg%253D%253D&dr=https%3A%2F%2Fwww.olx.pl%2F&en=page_view&_ee=1&ep.anonymize_ip=true&_et=124&tfd=7075",
+    "req_headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\"Chromium\";v=\"145\", \"Not:A-Brand\";v=\"99\"",
+      "accept-language": "pl-PL",
+      "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null,
+    "status": 204
+  }
+]

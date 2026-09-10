@@ -1,0 +1,43 @@
+{
+  "id": "144116",
+  "url": "https://useme.com/pl/jobs/strona-internetowa-dla-biura-rachunkowego,144116/",
+  "title": "Strona internetowa dla biura rachunkowego",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-10T15:25:31.191640",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144116",
+    "url": "https://useme.com/pl/jobs/strona-internetowa-dla-biura-rachunkowego,144116/",
+    "title": "Strona internetowa dla biura rachunkowego",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Dzień dobry,\n\nPoszukuję osoby, która zrobi dla mnie prostą stronę internetową. Może być na gotowcu, szablonie, Wordpressie. Zależy mi na kilku zakładkach:\n- o firmie\n- usługi\n- cennik\n- kontakt \n- opcjonalnie FAQ lub blog.\nChciałbym żeby strona...",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/strona-internetowa-dla-biura-rachunkowego,144116/",
+    "title": "Strona internetowa dla biura rachunkowego",
+    "full_description": "<p>Dzień dobry,</p>\n\n<p>Poszukuję osoby, która zrobi dla mnie prostą stronę internetową. Może być na gotowcu, szablonie, Wordpressie. Zależy mi na kilku zakładkach:<br>- o firmie<br>- usługi<br>- cennik<br>- kontakt <br>- opcjonalnie FAQ lub blog.<br>Chciałbym żeby strona tworzyła spójną całość. Poza samą stroną są do przygotowania grafiki w tym przerobienie Logo.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144116/offer/start/",
+    "scraped_at": "2026-09-10T15:26:25"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu. Robimy strony firmowe na WordPressie i mamy sporo doświadczenia z tematami, gdzie najważniejsze jest zaufanie, a nie fajerwerki graficzne.\n\nNajwiększy problem przy takich stronach to nie sama budowa, tylko to, że klient wchodzi, widzi ładny nagłówek i nie ma pojęcia, co dalej. Dlatego układamy sekcje pod kolejność decyzji, a nie pod listę zakładek. Na pierwszym ekranie ląduje to, co buduje zaufanie od razu: jeśli masz uprawnienia, certyfikaty albo opinie klientów, wyeksponujemy je nad linią załamania, tak żeby były widoczne bez przewijania. Dalej idzie zakres usług, a cennik traktujemy jako element domykający, nie otwierający, bo cena bez kontekstu odstrasza, zanim ktoś zrozumie, co dostaje w pakiecie. Dopiero przy cenniku stawiamy wyraźne wezwanie do kontaktu.\n\nGrafiki i przerobienie logo robimy na bazie szablonu, więc nie płacisz za autorską oprawę, a strona i tak wygląda spójnie. Dorzucamy też politykę prywatności i baner cookies, bo biuro rachunkowe przetwarza dane finansowe i to pierwsze, o co zapyta klient B2B.\n\nZa postawienie kompletnej strony z podstronami, grafikami i przerobionym logo liczymy 3500 zł, realizacja w 7 dni. W cenie dajemy 14 dni bezpłatnej asysty po wdrożeniu oraz krótkie wideo pokazujące, jak samemu edytować treści na stronie.\n\nZdzwońmy się w tym tygodniu na 15 minut albo napisz na priv i dopniemy szczegóły. Jeśli chcesz, możemy wcześniej przygotować krótkie demo układu strony.\n\nPozdrawiam",
+    "wycena": 3500,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144116",
+    "wycena": 3500,
+    "dni": 7,
+    "final_url": "https://useme.com/pl/jobs/144116/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144116.png",
+    "message": "Oferta #144116 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144116/offer/finish/)."
+  },
+  "updated_at": "2026-09-10T17:01:50.463446"
+}

@@ -1,0 +1,397 @@
+Negative Balance
+
+To avoid disruption to your account, please add funds to resolve your negative balance.
+Add funds now
+
+Browse
+
+Manage
+
+Groups
+
+10
+20
+17
+Quote
+Post a Project
+
+@maksks00
+
+-$12.29 USD
+
+On-Site Machinery Photo Inspection
+Open
+
+Bids
+
+0
+
+Details
+Proposals
+Project Details
+
+$30.00 – 250.00 USD
+
+ BIDDING ENDS IN 6 DAYS, 23 HOURS
+I’ve just bought a piece of industrial machinery online and, before it ships, I want to see exactly what I’m paying for. I need someone in or near Santa Fe Springs who can visit the seller’s location and take a full set of high-resolution images that let me judge the machine’s true condition.
+
+Please capture:
+
+• Clear front and side views that show the machine in its entirety
+• Close, sharply focused shots of every visible serial or ID plate
+• Additional overview photos that give me a feel for the overall condition (paint wear, dents, leaks, rust, missing parts, etc.)
+
+Natural light is fine if available, but bring a flash or portable LED so the serial numbers and hard-to-reach areas are readable. A phone is acceptable as long as it produces crisp, detailed images; a DSLR is even better.
+
+Once you’ve finished, upload the original, uncompressed files to a shared drive or cloud link of your choice and label each image logically (e.g., “Front”, “Side”, “SerialPlate1”). No editing beyond basic exposure correction is necessary.
+
+That’s all there is to it—just solid, honest photos so I can make an informed decision before the machine is crated and shipped.
+Skills Required
+Photography
+Photo Editing
+Project Location
+
+Santa Fe Springs, CA 90670
+
+Date
+
+Sep 10, 2026
+
+Keyboard shortcuts
+Map data ©2026 Google
+Terms
+Report a map error
+
+Project ID: 40703457
+
+ Report Project
+
+Update your location
+
+Only freelancers near the project location can bid on it.
+
+Please update your location before bidding on the project
+Current Location
+
+You need to be within 150km of the project location
+
+Look for jobs close to my current location instead
+Save
+
+You have a negative balance
+
+You are restricted from bidding on this project. Please deposit funds to clear your negative balance.
+Add Funds
+Clarification Board
+No spam, self-promotion or advertisement is permitted.
+
+No questions yet
+
+Users who are Verified by Freelancer can leave a question.
+Get Verified
+About the Client
+
+Dallas
+
+United States
+
+0.0
+0
+
+Member since Sep 10, 2026
+
+Client Engagement
+Upgrade your membership to see client engagement
+Client Verification
+
+Identity verified
+
+Payment verified
+
+Deposit made
+
+Email verified
+
+Profile completed
+
+Phone verified
+
+Free Member
+Insights
+6 bids left out of 6
+
+How to write a winning bid
+
+Your best chance of winning this project is writing a great bid proposal here!
+
+Great bids are ones that:
+Are engaging and well written without spelling or grammatical errors
+Show a clear understanding of what is required for this specific project - personalize your response!
+Explain how your skills & experience relate to the project and your approach to working on it
+Ask questions to clarify any unclear details
+
+Most of all - don't spam or post cut-and-paste bids. You will be penalized or banned if you do so.
+
+Learn More
+Messages
+Chats
+16
+Requests
+1
+8 h
+
+Alexi
+
+@FLAlexi
+
+Yesterday
+
+Hey Maksymilian! I'm Alexi, here to help you enhance your freelancing journey with our membership plans. I noticed you're currently not subscribed to any membership. Are you interested in exploring some options that could boost your visibility and success on the platform?
+
+5
+L
+
+Louis
+
+@louisoswaldo
+
+Aug 2
+
+You: Updated fixed many other things, "measured" now shows real data fetched from API
+
+Mandy
+
+@FLMandy
+
+May 29
+
+Hey Maksymilian! How's it going? I'm Mandy from Freelancer's Talent Success Team. Do you have a few minutes to chat about a project?
+
+2
+S
+
+Syed
+
+@ssajidullah
+
+May 28
+
+and offer?
+
+1
+1 h
+
+Sabrina
+
+@FLSabrina
+
+May 20
+
+Hi Maksymilian! I'm Sabrina from the Verified by Freelancer Team. https://www.freelancer.com/verified I see that you're actively building your reputation as a Senior Software Engineer specializing in various tech services. That's fantastic! Have you considered how the Verified by Freelancer badge could enhance your credibility even further? Being Verified not only boosts client confidence but also opens up exclusive opportunities for high-value projects, which can significantly elevate your freelancing career. Let's chat about how this badge can help you stand out from the competition and maximize your earnings potential.
+
+3
+
+Mandy
+
+@FLMandy
+
+Apr 5
+
+Hey Maksymilian! It's great to chat with you. How's your day going so far? I'm part of the Freelancer Talent Success Team, and I'm here to help take you through a quick interview for a project that might fit you. Do you have a few minutes to chat about it?
+
+1
+
+Mandy
+
+@FLMandy
+
+Apr 3
+
+Hey Maksymilian! How's your day going? I'm Mandy from the Freelancer Enterprise Talent Success Team. I'm here to help you potentially land a project. Are you interested in the "Online Part Time Litigation and Media News Researcher" role that's available?
+
+D
+
+dilipa79
+
+@dilipa79
+
+Mar 21
+
+Hello, are you still interested in the project?
+
+4
+T
+
+Hetal
+
+@tailandthread
+
+Mar 17
+
+You: As we agreed on a delivery of 1,000 records, I need to clarify the data structure to avoid any misunderstandings, especially considering the current volume. I have started the process, and from just one of the streets you provided, I have already extracted almost 500 records. Currently, my scraper is extracting all known residents for each address. This means that for a single property, there might be 3 to 10 residents listed (family members, roommates, etc.). At this rate, we will reach the 1,000 records limit very quickly, but it will cover only a few of your requested streets. Please let me know which format you prefer
+
+Shubham
+
+@smartypareek2901
+
+Mar 16
+
+This project has been deleted
+
+Gourav
+
+@gouravk355
+
+Mar 11
+
+You: I appreciate your due diligence. Regarding my portfolio, I primarily work on high-stakes projects under strict NDAs. In the ASO/ASA niche, clients usually prohibit sharing direct links or outcome reports as it would reveal their exact growth strategies and 'winning' keyword sets to competitors. I position myself as a Technical ASO Specialist. While many marketers guess their keywords, I use a data-driven approach based on custom analysis scripts. 1. Proof of Technical Competence: You can review my repository here: https://github.com/MaXDev-CATHODE/ThingSpeak-monitor-widget-apk. Look MIT license. This demonstrates my ability to handle complex environment setups, proxy rotations (critical for accurate geo-specific keyword scraping), and automated data parsing – the same engine I will use to audit your competitors on the App Store. 2. My ASO Stack: For raw data extraction and volume analysis, I rely on AppTweak and Data.ai. To manage ASA, I focus on the 'Search Match' and 'Creative Sets' optimization within the Apple Search Ads Advanced dashboard. I don't just 'run ads'; I align ASA data with organic metadata to lower your CPA (Cost Per Acquisition). 3. Trial Proposition: Since this is a trial project, I propose we jump straight into the data. I have already performed a preliminary scan of the 'AI Baby' niche and identified 3 specific keyword clusters where your app is currently missing out on approximately 20% of potential organic traffic. I am ready to share these findings once we start. Should we proceed with the trial so I can demonstrate my process in real-time?
+
+X
+
+Sam
+
+@XSSS
+
+Mar 9
+
+👍
+
+8 h
+
+Mikhael
+
+@MikhaelRecruiter
+
+Feb 27
+
+Project: https://www.freelancer.com/projects/compliance/Toy-Marking-Consultation/details Location: Europe Must have experience in CE Marketing for toys Please check the link for project details and place a bid if interested, thank you.
+
+2 h
+
+Sabarinathan
+
+@sabarikptm
+
+Feb 23
+
+This project has been deleted
+
+N
+
+Naif
+
+@nalhajri88
+
+Feb 20
+
+You: I have solid experience building automated workflows using n8n and the WhatsApp Cloud API. It’s great that you already have the n8n cloud account and a verified Facebook business profile set up! That covers the hardest part of the onboarding and means we can jump right into the actual logic. Regarding the cost, it completely depends on the exact logic and complexity of the 'app' you want to build. To give you an accurate estimate, could you tell me a bit more about the main goal? For example: Is it a Customer Support Chatbot (e.g., connected to ChatGPT/OpenAI to answer FAQs)? Is it heavily focused on automated notifications (e.g., sending order updates, reminders from your CRM or database)? Does it involve a specific step-by-step booking or lead generation process? Let me know what the exact flow should look like, and I'll be happy to provide you with a timeframe and a quote!
+
+L
+
+lonelegend4
+
+@lonelegend4
+
+Feb 17
+
+Alright
+
+Aldino
+
+@Spectrecoder
+
+Feb 17
+
+What do you need?
+
+S
+
+Samuel
+
+@samuel042
+
+Feb 4
+
+You: Sure, here is the consolidated proposal detailing the workflow, cost, and timeline. 1. Technical Approach (How I will build it) I will build a custom Python application utilizing 3 core modules: Access & Scraping (Playwright): I will use Playwright (instead of basic Selenium) because Drouot.com is a modern dynamic site. Playwright allows for secure, reliable automated login and creates a 'browser context' that mimics a real user, preventing bans. Data Extraction & Filtering: The script will scan standard listings + your monitored keywords. It will extract high-res images, descriptions, and estimates into a structured JSON format. AI Integration (OpenAI API): The extracted data is sent to GPT-4o (via your API Key). I will design a System Prompt that acts as an 'Art Expert', analyzing the scraped data against the criteria you mentioned (undervalued assets, historical comparison). Reporting: The final output will be a daily PDF/HTML Dashboard delivered to you, highlighting only the "Interesting" opportunities. 2. Delivery & Installation (Zero-Hassle) The system is designed to run immediately on your machine without complex setup. I will provide a requirements.txt file. You run one single command to install dependencies. After that, you just click the script to run it. No manual driver installations or configuration needed. 3. Cost & Timeline Total Budget: $30.00 USD (Fixed Price) — I am keeping this competitive to build a long-term relationship with you. Lead Time: 3 Days. Day 1 (Tomorrow): Demo of the Scraping Engine (proving I can extract data from Drouot). Day 2-3: AI Integration & Reporting setup. Ready to start immediately.
+
+B
+
+Stacy
+
+@BlopNDrop
+
+Feb 16
+
+You: what do you need? a video?
+
+Saifeddine
+
+@EdinBen
+
+Feb 14
+
+You: Hi I don't know I'm weak in speaking. Do you have another work? Maybe some coding?
+
+Poland / English
+Help & Support
+Accessibility
+
+Freelancer
+
+Categories
+Projects
+Contests
+Freelancers
+Enterprise
+Innovation Challenges
+AI Development
+Membership
+Preferred Freelancer Program
+Project Management
+Local Jobs
+Photo Anywhere
+Showcase
+API for Developers
+Get Verified
+
+About
+
+About us
+How it Works
+Security
+Investor
+Sitemap
+Stories
+News
+Team
+Awards
+Press Releases
+Careers
+
+Terms
+
+Privacy Policy
+Terms and Conditions
+Copyright Policy
+Code of Conduct
+Fees and Charges
+
+Partners
+
+Escrow.com
+Loadshift
+Warrior Forum
+
+Apps
+
+89,877,901
+
+Registered Users
+
+25,827,095
+
+Total Jobs Posted
+
+Freelancer ® is a registered Trademark of Freelancer Technology Pty Limited (ACN 142 189 759)
+
+Copyright © 2026 Freelancer Technology Pty Limited (ACN 142 189 759)

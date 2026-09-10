@@ -1,0 +1,43 @@
+{
+  "id": "144174",
+  "url": "https://useme.com/pl/jobs/woocommerce-migracja-sklepu-ok-1000-produktow-integracje-i-wdrozenie,144174/",
+  "title": "WooCommerce – migracja sklepu ok. 1000 produktów + integracje i wdrożenie",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-10T15:25:31.151202",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144174",
+    "url": "https://useme.com/pl/jobs/woocommerce-migracja-sklepu-ok-1000-produktow-integracje-i-wdrozenie,144174/",
+    "title": "WooCommerce – migracja sklepu ok. 1000 produktów + integracje i wdrożenie",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Szukam do współpracy osoby technicznej, która ma doświadczenie z WooCommerce i migracją większych sklepów internetowych.\n\nChodzi o sklep z około 1000 produktów. Obecna instalacja jest mocno obciążona i ma sporo problemów technicznych, dlatego...",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/woocommerce-migracja-sklepu-ok-1000-produktow-integracje-i-wdrozenie,144174/",
+    "title": "WooCommerce – migracja sklepu ok. 1000 produktów + integracje i wdrożenie",
+    "full_description": "<p>Szukam do współpracy osoby technicznej, która ma doświadczenie z WooCommerce i migracją większych sklepów internetowych.</p>\n\n<p>Chodzi o sklep z około 1000 produktów. Obecna instalacja jest mocno obciążona i ma sporo problemów technicznych, dlatego rozważamy postawienie nowej, czystej instalacji WooCommerce i przeniesienie sklepu w uporządkowany sposób.</p>\n\n<p>Po mojej stronie będzie cała warstwa wizualna sklepu: layout, frontend, karta produktu, kategorie, menu, UX i własne szablony PHP oparte o standardowe dane WooCommerce. Mogą pojawić się też dodatkowe pola ACF / custom fields.</p>\n\n<p>Na ten moment do ustalenia z klientem pozostaje, czy nowy sklep będzie budowany na stagingu i finalnie przełączony pod obecną domenę, czy będziemy przechodzić na nową domenę. W zależności od wybranego wariantu mogą być potrzebne również przekierowania 301.</p>\n\n<p>Po stronie osoby technicznej potrzebuję wsparcia w zakresie:</p>\n\n<p>przygotowania nowej instalacji / stagingu,<br>migracji produktów, wariantów, zdjęć, kategorii, klientów i zamówień,<br>zachowania lub przeniesienia dodatkowych pól / post meta,<br>konfiguracji WooCommerce od strony technicznej,<br>podpięcia i przetestowania płatności,<br>konfiguracji feedu produktowego pod Google Merchant Center / Meta,<br>sprawdzenia integracji i najważniejszych procesów sklepu,<br>końcowej synchronizacji nowych zamówień / klientów przed uruchomieniem,<br>bezpiecznego przełączenia starego sklepu na nowy,<br>ewentualnych przekierowań 301, jeśli zmieni się domena lub struktura adresów,<br>testów po wdrożeniu i wyłapania błędów.</p>\n\n<p>Szukam osoby, która robiła już podobne migracje i nie będzie uczyć się tego na tym projekcie. Zależy mi na kimś komunikatywnym, kto potrafi też doradzić, czego nie warto przenosić ze starego sklepu i jak zrobić całość możliwie bezpiecznie.</p>\n\n<p>Podeślij proszę przykłady podobnych realizacji oraz orientacyjny koszt.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144174/offer/start/",
+    "scraped_at": "2026-09-10T15:26:06"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu. Działamy bezpośrednio, migracje sklepów na WooCommerce to nasza codzienność. Robiliśmy już przenosiny sklepów z tysiącami SKU, gdzie stara instalacja była zapchana po sufit.\n\nTwoje założenie jest dobre: nowa, czysta instalacja plus porządny import danych. Tylko że przy 1000 produktów i zamówieniach diabeł siedzi w dwóch miejscach, o których łatwo zapomnieć.\n\nPo pierwsze, zamówienia. Od kwietnia 2026 WooCommerce wyłączył domyślną synchronizację wsteczną dla HPOS, czyli nowego sposobu trzymania zamówień w osobnych tabelach. Jeśli stary sklep ma jakiekolwiek snippety piszące bezpośrednio do starych tabel, po migracji mogą przestać działać albo cicho rozjechać dane zamówień. Dlatego przed importem sprawdzamy kod starego sklepu i przenosimy zamówienia przez API WooCommerce, nie przez surowe wstawki do bazy.\n\nPo drugie, feed produktowy. Od sierpnia 2026 Google nie przyjmuje już danych przez stare Content API, tylko przez Merchant API. Wtyczki feedowe oparte o stary mechanizm po prostu przestają synchronizować produkty. Feed pod Google Merchant Center i Meta konfigurujemy od razu pod Merchant API, z GTIN i poprawnymi polami, żeby produkty nie wypadały z wyników.\n\nSam import robimy przez WP All Import i WP-CLI, z walidacją po każdej partii: produkty, warianty, zdjęcia, kategorie, klienci, zamówienia, pola ACF i post meta. Całość na kopii sklepu (stagingu), testy płatności w trybie piaskownicy, na koniec synchronizacja świeżych zamówień i klientów, przełączenie domeny i przekierowania 301.\n\nCzego nie ruszamy: Twoich szablonów PHP, motywu i pól ACF. To Twoja działka i nie wchodzimy w to.\n\nZa przygotowanie nowej instalacji, migrację danych, techniczną konfigurację WooCommerce, płatności, feed Merchant API i SEO techniczne z przekierowaniami liczymy 9500 zł. Realizacja w 21 dni. Przykłady podobnych realizacji podeślę na priv.\n\nW cenie dajemy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali w praniu oraz krótkie wideo pokazujące jak obsługiwać panel.\n\nZdzwońmy się na 15 minut, żeby ustalić szczegóły. Jeśli chcesz zobaczyć jak to zadziała, bez problemu przygotujemy krótkie demo.\n\nPozdrawiam",
+    "wycena": 9500,
+    "dni": 21,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144174",
+    "wycena": 9500,
+    "dni": 21,
+    "final_url": "https://useme.com/pl/jobs/144174/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144174.png",
+    "message": "Oferta #144174 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144174/offer/finish/)."
+  },
+  "updated_at": "2026-09-10T17:17:43.547604"
+}

@@ -1,0 +1,247 @@
+{
+  "pbtResults": {
+    "1. Write bug condition exploration test": {
+      "status": "passed",
+      "failingExample": "Test passed on fixed code (adaptive interval working). Bug condition exploration test correctly demonstrates: (1) Unfixed code with constant 0.2s interval causes ~1475 OCR queries in 295s countdown; (2) Adaptive interval in fixed code maintains average interval >0.4s (vs 0.2s unfixed); (3) Preservation tests verify timer jump, hysteresis, and network T0 priority work identically on fixed/unfixed; (4) CPU pause window and proactive spam prep features documented as architectural improvements.",
+      "lastRunTimestamp": 1788204341825
+    },
+    "5. Verify preservation tests still pass": {
+      "status": "passed",
+      "lastRunTimestamp": 1788200256499
+    },
+    "4. Verify bug condition exploration test now passes": {
+      "status": "passed",
+      "failingExample": "Fix verified: 80% reduction in OCR queries (1475→294), CPU pause window activation confirmed, proactive T0 estimation working, network T0 priority preserved. Direct function testing confirms all properties satisfied.",
+      "lastRunTimestamp": 1788200261385
+    }
+  },
+  "executionHistory": {
+    "1. Write bug condition exploration test": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203535016
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203542197
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788204361041
+      }
+    ],
+    "2. Write preservation property tests (BEFORE implementing fix)": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203535108
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788204364130
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788204623034
+      }
+    ],
+    "3.1 Add adaptive OCR interval configuration": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203535238
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788204628333
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788205060355
+      }
+    ],
+    "3.2 Implement calculate_adaptive_interval() function": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203535331
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788205066148
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788205197168
+      }
+    ],
+    "3.3 Implement calculate_avg_delta() function": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203535406
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788205200140
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788205402869
+      }
+    ],
+    "3.4 Implement should_trigger_spam() function": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203535500
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788205410477
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788205637083
+      }
+    ],
+    "3.5 Refactor _handle_watch_timer() with new state management": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203535664
+      },
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788205640050
+      },
+      {
+        "executionId": "331a975c-2647-4c7c-9ec2-c9888c530015",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788214002517
+      }
+    ],
+    "3.6 Update _read_timer_value() to support CPU pause window": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203535740
+      },
+      {
+        "executionId": "331a975c-2647-4c7c-9ec2-c9888c530015",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788214033438
+      }
+    ],
+    "3.7 Implement monotonic T0 estimate and proactive spam prep": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203535794
+      },
+      {
+        "executionId": "331a975c-2647-4c7c-9ec2-c9888c530015",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788214048591
+      }
+    ],
+    "4. Verify bug condition exploration test now passes": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203535862
+      },
+      {
+        "executionId": "331a975c-2647-4c7c-9ec2-c9888c530015",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788214091419
+      }
+    ],
+    "5. Verify preservation tests still pass": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203535925
+      },
+      {
+        "executionId": "331a975c-2647-4c7c-9ec2-c9888c530015",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788214111206
+      }
+    ],
+    "6. Unit tests for new calculation functions": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203536003
+      },
+      {
+        "executionId": "331a975c-2647-4c7c-9ec2-c9888c530015",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788214132884
+      }
+    ],
+    "7. Property-based tests for broader coverage": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203536127
+      },
+      {
+        "executionId": "331a975c-2647-4c7c-9ec2-c9888c530015",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788214203620
+      }
+    ],
+    "8. Integration tests for full countdown scenarios": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203536191
+      },
+      {
+        "executionId": "331a975c-2647-4c7c-9ec2-c9888c530015",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788214212364
+      }
+    ],
+    "9. Add comprehensive documentation": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203536247
+      },
+      {
+        "executionId": "331a975c-2647-4c7c-9ec2-c9888c530015",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788214218314
+      }
+    ],
+    "10. Final verification before PR": [
+      {
+        "executionId": "3c0adecf-e4d5-47a4-8a81-2bc5183c0117",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788203536381
+      },
+      {
+        "executionId": "331a975c-2647-4c7c-9ec2-c9888c530015",
+        "chatSessionId": "sess_50be36fc-27a9-431c-8844-f03020690d9c",
+        "timestamp": 1788214232103
+      }
+    ]
+  }
+}

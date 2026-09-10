@@ -1,0 +1,135 @@
+Specjalista ds. Badawczo-Rozwojowych B+R / R&D (wymagane referencje)
+====================================================================
+URL: https://useme.com/pl/jobs/specjalista-ds-badawczo-rozwojowych-b-r-r-d-wymagane-referencje,143274/
+
+Zleceniodawca
+KARTS DESIGN
+
+Opis
+Szukamy osoby z doświadczeniem w pracach badawczo-rozwojowych (B+R) przy innowacyjnych projektach technologicznych.
+
+Udokumentowane doświadczenie w projektach R&D, grantach lub innowacjach produktowych potwierdzone referencjami.
+
+Opublikowano
+2026-08-25
+
+Kategoria
+Projekty IT
+
+Prawa autorskie
+Decyzja freelancera
+
+Budżet
+Do negocjacji
+
+Ważne przez
+30 dni
+
+Wymagane funkcje::
+Stawkę godzinową netto, opis zrealizowanych projektów badawczych oraz dowody/referencje.
+
+Wymagane umiejętności / tagi:
+c, C plus plus
+
+Wysłane oferty (9)
+------------------------------
+[kedzior | 2 umów](https://useme.com/pl/roles/contractor/28384/) - wczoraj
+  * c
+  * C plus plus
+
+[Tomas | 0 umów](https://useme.com/pl/roles/contractor/597456/) - 5 dni temu
+
+[Katarzyna Kardyś | 0 umów](https://useme.com/pl/roles/contractor/691421/) - 2026-08-31
+  * C Sharp
+  * css
+  * Game Design
+  * git
+  * html
+  * python
+  * typescript
+  * unity3D
+
+[Wojtek Jurkowlaniec | 0 umów](https://useme.com/pl/roles/contractor/88802/) - 2026-08-28
+  * API
+  * cyberbezpieczeństwo
+  * python
+  * transkrypcja nagrań
+  * wordpress
+
+[Rizky Pradana | 1 umowa](https://useme.com/pl/roles/contractor/635608/) - 2026-08-26
+
+[GOLDAI | 0 umów](https://useme.com/pl/roles/contractor/570266/) - 2026-08-25
+  * AI
+  * analiza danych
+  * angular
+  * aplikacje mobilne
+  * AutoCAD software
+  * backend
+  * bazy danych
+  * blockchain
+  * c
+  * CAD
+  * chatbot
+  * chatgpt
+  * cloud
+  * CRM
+  * Flutter
+  * Flutterflow
+  * frontend
+  * git
+  * java
+  * javascript
+  * kodowanie
+  * LLM
+  * matematyka
+  * montaż
+  * mysql
+  * n8n
+  * Next.js
+  * NLP
+  * NodeJS
+  * OpenAI
+  * postgresql
+  * python
+  * React
+  * react native
+  * SaaS
+  * seo
+  * stable diffusion
+  * uczenie maszynowe
+  * web development
+  * wizualizacje danych
+
+[Heyneuron.com | 1 umowa](https://useme.com/pl/roles/contractor/148433/) - 2026-08-25
+  * AI
+  * Airtable
+  * API
+  * aplikacje webowe
+  * blockchain
+  * CRM
+  * facebook
+  * Facebook Pixel
+  * gmail
+  * google analytics
+  * Google Tag Manager
+  * hubspot
+  * landing page
+  * LANDINGPAGE
+  * marketing internetowy
+  * n8n
+  * Next.js
+  * Nocode
+  * React
+  * strona www
+  * web api
+  * web development
+  * zapier
+
+[Lukawski.eu (Rafał Łukawski) | 2 umów](https://useme.com/pl/roles/contractor/602686/) - 2026-08-25
+  * docker
+  * Next.js
+  * NodeJS
+  * PHP
+  * typescript
+
+[wiktor Franków | 0 umów](https://useme.com/pl/roles/contractor/583408/) - 2026-08-25

@@ -1,0 +1,24 @@
+{
+  "offer": {
+    "title": "API Allegro, Shopper",
+    "url": "https://useme.com/pl/jobs/api-allegro-shopper,142223/",
+    "author": "Jacek Ulman",
+    "has_avatar": true,
+    "offers_count": 37,
+    "expiry": "Znika za 29 dni",
+    "category": "Oprogramowanie",
+    "budget": "Do negocjacji",
+    "description": "Poszukuję osoby/osób do napisania API do integracji z serwisami Allegro i Shopper (w pierwszej kolejności. W dalszej możliwość rozbudowy o kolejne portale np. amazon, ebay).\nPreferowany język VBA pod access (opcjonalnie istnieje możliwość API w..."
+  },
+  "detail_html_length": 383006,
+  "detail_parsed": {
+    "source_url": "https://useme.com/pl/jobs/api-allegro-shopper,142223/",
+    "title": "API Allegro, Shopper",
+    "full_desc": "Szukam programisty/freelancera, który stworzy prostą aplikację desktopową do generowani wydruków...",
+    "budget": "Do negocjacji",
+    "category": "Niezbędne",
+    "published": "?"
+  },
+  "detail_file": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\useme\\lab\\test06_full_flow\\intermediate\\details\\detail_5.json",
+  "fetched_at": "2026-08-06 15:03:26"
+}

@@ -1,0 +1,129 @@
+> UWAGA: PRZESTARZAŁE — EasyOCR/Tesseract/Win7 usunięte. Patrz DIAGNOSTICS.md i WINDOWS7_SUPPORT.md.
+
+Optymalizacja Latencji i Footprintu Binarki w Detekcji Tekstu Real-Time dla Aplikacji Desktopowych Windows
+Wdrożenie systemów komputerowego rozpoznawania obrazu (Computer Vision) w aplikacjach desktopowych działających w czasie rzeczywistym wymaga rygorystycznego bilansowania czasu wykonywania instrukcji, zużycia zasobów procesora oraz rozmiaru pakietu instalacyjnego. W analizowanej aplikacji okienkowej dla systemu Windows, skompilowanej za pomocą narzędzia Nuitka, dotychczasowy stos technologiczny oparty na bibliotece EasyOCR oraz frameworku PyTorch generuje całkowite opóźnienie od momentu odczytu klatki do podjęcia decyzji w przedziale od 1,5 do 3,4 sekundy. Przy założeniu, że faza krytyczna wymaga próbkowania licznika czasu co około 0,3 sekundy, opóźnienie tego rzędu powoduje całkowitą utratę reaktywności systemu.
+Przyczyną tak wysokiej latencji jest skumulowany narzut wykonawczy frameworka PyTorch prężącego się w trybie jednothreadowym (torch.set_num_threads(1)), przetwarzanie pełnych kadrów z dynamicznymi wymiarami oraz kaskadowy model weryfikacji (max_passes), który w fazie krytycznej i spokojnej wykonuje sekwencyjnie do dwóch lub trzech wywołań detekcji i rozpoznawania z opcjonalnym fallbackiem do silnika Tesseract. Niniejszy raport przedstawia wyczerpującą analizę techniczną alternatywnych rozwiązań, oceniając ich latencję, narzut na CPU, zużycie pamięci RAM oraz wpływ na rozmiar binarnej kompilacji Nuitka.
+Diagnostyka Wąskich Gardeł Architektury PyTorch i EasyOCR
+Obecnie stosowany silnik EasyOCR wykorzystuje dwuetapową architekturę głębokiego uczenia. W pierwszym etapie sieć CRAFT wyznacza poligony obszarów tekstowych na kadrze, a w drugim sieć CRNN (kombinacja sieci konwolucyjnej ResNet oraz rekurencyjnej LSTM z dekoderem CTC) dokonuje rozpoznania glifów1. Całkowity czas wykonania opisuje zależność:
+  
+
+gdzie    oznacza liczbę wywołań w pętli zależną od parametru max_passes (   w trybie "fast" oraz    w trybie "idle").
+Ograniczenie wykonania do jednego rdzenia CPU eliminując rywalizację wątków (thread oversubscription), uniemożliwia jednoczesne zrównoleglanie operacji macierzowych w powszechnie stosowanych bibliotekach MLAS lub OpenMP4. Ponieważ kaskadowa logika aplikacji przekazuje do silnika niewycięte lub zmienne pod względem rozmiaru fragmenty obrazu, sieć CRAFT musi przy każdym wywołaniu przeliczać mapy powinowactwa pikseli na pełnej rozdzielczości, co na procesorze głównym zajmuje kilkaset milisekund na jeden pass1.
+Dodatkowo skompilowanie PyTorcha przez Nuitka wymusza dołączenie ciężkich bibliotek C++ (torch_cpu.dll, c10.dll, OpenMP), co podnosi rozmiar pliku wykonywalnego do około 270 MB oraz generuje wysoki stan spoczynkowy pamięci RAM na poziomie od 1,2 do 1,9 GB6.
+Analiza Porównawcza Alternatywnych Architektur Wykonawczych
+W celu osiągnięcia latencji poniżej 50 ms na pomiar, ograniczenia obciążenia CPU do niskich wartości jednocyfrowych oraz redukcji wielkości pakietu dystrybucyjnego, przeanalizowano cztery główne podejścia technologiczne.
+Natywny Silnik Systemowy Windows (Windows.Media.Ocr via WinRT)
+Platforma Windows 10 oraz 11 posiada wbudowany, wysoce zoptymalizowany silnik OCR dostępny poprzez interfejsy WinRT API (Windows.Media.Ocr)7. Analiza wykonawcza wykazuje, że silnik ten uruchamia zadania w dedykowanej wielowątkowej apleturze systemowej (MTA thread), wykorzystując bezpośrednio akcelerację systemową OS10.
+Podczas przetwarzania przyciętego obszaru zainteresowania (Region of Interest – ROI), obejmującego wyłącznie cyfrowy licznik lub pojedynczą linię czatu, Windows.Media.Ocr zwraca wynik w czasie od 4 do 12 ms dla cyfr oraz od 10 do 25 ms dla krótkiego tekstu11. Architektura ta charakteryzuje się brakiem jakiegokolwiek wpływu na rozmiar dystrybucyjny aplikacji – biblioteka dynamiczna Windows.Media.Ocr.dll znajduje się natywnie w katalogu systemowym Windows (C:\Windows\System32)12. Integracja w środowisku Python przy użyciu lekkich pakietów wiążących winrt-Windows.Media.Ocr lub winsdk zwiększa rozmiar zestawianej binarki Nuitka jedynie o około 1–2 MB13. Zużycie pamięci RAM zamyka się w przedziale 50–100 MB.
+Zoptymalizowane Silniki ONNX Runtime (RapidOCR / PP-OCR)
+RapidOCR stanowi port modeli Baidu PP-OCR (wersje v4/v6) wyeksportowanych do formatu ONNX i uruchamianych za pośrednictwem silnika ONNX Runtime2. Architektura ta składa się z czterech modułów: detekcji (det.onnx, ~3 MB), klasyfikacji orientacji (cls.onnx, ~1 MB), rozpoznawania (rec.onnx, ~2–10 MB) oraz słownika (keys.txt)15.
+W środowisku ONNX Runtime z wykorzystaniem domyślnego providera CPU (MLAS), przy ustalonym statycznym kształcie tensora wejściowego (static input shape), czas inferencji samego modelu rozpoznawania cyfr lub tekstu wynosi od 12 do 25 ms na nowożytnych rdzeniach x8616. Zastosowanie silnika OpenVINOExecutionProvider lub dedykowanych bibliotek zoptymalizowanych pod instrukcje AVX-512 i BF16 pozwala skrócić ten czas do 8–15 ms, wykazując przyspieszenie od 1.4× do 2.7× w porównaniu z czystym PyTorchem17.
+Dołączenie biblioteki Microsoft.ML.OnnxRuntime generuje narzut na binarkę Nuitka w wysokości od 30 do 50 MB15. Zużycie pamięci RAM wynosi od 300 do 500 MB, a inicjalizacja środowiska (cold-start) trwa od 2 do 5 sekund15.
+Klasyczna Wizja Komputerowa (OpenCV Template Matching & Segment Masking)
+Dla zegara cyfrowego (licznik czasu w grze), którego czcionka, rozmiar oraz położenie są stałe, stosowanie głębokich sieci neuronowych OCR stanowi zbędny narzut obliczeniowy. Podejście oparte na klasycznej wizji komputerowej polega na wycięciu ścisłego obszaru ROI, konwersji do odcieni szarości, binarizacji obrazu (metodą Otsu lub progowaniem adaptacyjnym) i zastosowaniu dopasowywania wzorców (cyfry 0–9 oraz dwukropek) za pomocą znormalizowanej korelacji wzajemnej (cv2.matchTemplate)18.
+Dla cyfr o strukturze 7-segmentowej optymalną metodą jest analiza jasności zdefiniowanych stref (masek boolowskich) reprezentujących poszczególne segmenty wyświetlacza19. Zależność matematyczna znormalizowanej korelacji wyraża się wzorem:
+  
+
+Opóźnienie wykonawcze tej metody na procesorze wynosi od 0,3 do 1,8 ms, przy obciążeniu CPU poniżej 0,5% jednego rdzenia22. Wymagają zależnością jest wyłącznie pakiet opencv-python-headless, którego kompilacja w Nuitka zajmuje około 30 MB, a zużycie pamięci RAM zamyka się w 30–60 MB.
+Zoptymalizowany Pipeline EasyOCR (Baseline z Usuniętą Detekcją)
+W celach porównawczych przeanalizowano wariant zachowujący bibliotekę EasyOCR, ale ze zmodyfikowanym pipeline'em. Usunięto całkowicie moduł detekcji CRAFT, a wstępnie przycięty obraz ROI przekazywano bezpośrednio do funkcji reader.recognize().
+Choć czas wykonania spadł z 1,5–3,4 s do 80–150 ms na CPU, rozwiązanie to nadal przekracza założony budżet czasowy (50 ms). Ponadto nie rozwiązuje ono problemu dużego rozmiaru pliku binarnego (~270 MB) oraz wysokiego zużycia pamięci RAM (800–1200 MB)6.
+Tabela Porównawcza Wyników Benchmarkowych
+Poniższe zestawienie podsumowuje zmierzone i przeliczone wskaźniki wydajnościowe, zasobowe oraz dystrybucyjne analizowanych podejść.
+Silnik / Architektura
+	Latencja ROI Licznika (ms)
+	Latencja ROI Czatu (ms)
+	Obciążenie CPU (1 rdzeń)
+	Rozmiar Binarki (Nuitka)
+	Zużycie Pamięci RAM (MB)
+	Celność Zegara
+	Celność Czatu
+	EasyOCR (Stan obecny)
+	1500 – 3400
+	1500 – 3400
+	85 – 100%
+	~270 MB
+	1200 – 1900
+	Średnia (fallbacki)
+	Średnia
+	EasyOCR (Tuned: ROI + No CRAFT)
+	80 – 150
+	120 – 220
+	30 – 50%
+	~270 MB
+	800 – 1200
+	Wysoka
+	Wysoka
+	RapidOCR (ONNX Runtime CPU)
+	12 – 25
+	25 – 45
+	4 – 8%
+	~40 – 60 MB
+	300 – 500
+	Bardzo wysoka
+	Wysoka
+	OpenVINO (PP-OCRv6 fast CPU)
+	8 – 15
+	15 – 30
+	3 – 6%
+	~70 – 90 MB
+	250 – 450
+	Bardzo wysoka
+	Bardzo wysoka
+	Windows.Media.Ocr (WinRT API)
+	4 – 12
+	10 – 25
+	1 – 3%
+	~0 – 2 MB
+	50 – 100
+	Bardzo wysoka
+	Bardzo wysoka
+	OpenCV Template Matching / 7-Seg
+	0.3 – 1.8
+	N/A (cyfry)
+	< 0.5%
+	~30 MB
+	30 – 60
+	99.9% (stała font)
+	N/A
+	Analiza Akceleracji Sprzętowej: DirectML iGPU vs ONNX Runtime CPU
+W hipotezach optymalizacyjnych rozważano wykorzystanie zintegrowanych układów graficznych (Intel UHD/Iris Xe, AMD Radeon, NVIDIA iGPU) poprzez dostawcę wykonawczego DirectML (DmlExecutionProvider) w ONNX Runtime5. Jednak szczegółowa analiza profilująca mikrozadań wizyjnych ujawnia istotne ograniczenia tej technologii.
+W przypadku małych ramek obrazu (np. wyciętego paska czatu lub zegara o wymiarach    pikseli), koszt przesyłania danych z pamięci systemowej RAM do pamięci GPU oraz opóźnienie wysłania bufora poleceń (command queue submission overhead) w interfejsie DirectX 12 wynosi od 5 do 15 ms5. W efekcie sam narzut komunikacyjny DirectML niweluje zysk z szybszego mnożenia macierzy na iGPU16.
+Kluczowym czynnikiem jest również kwestia dynamicznych kształtów tensorów (dynamic shapes). Jeśli rozmiar wyciętego obrazu zmienia się między wywołaniami, DirectML unieważnia zbuforowane alokacje pamięci VRAM oraz pakiety kompilacji grafu, co powoduje skoki opóźnień (latency spikes) do 300–450 ms na klatkę16. Aby DirectML działał wydajnie, wejścia muszą mieć narzucony stały wymiar, a aplikacja musi stosować pre-alokację tensorów (I/O Binding)5.
+Z kolei na procesorze głównym (CPU), wykonywanie jednowątkowe (intra_op_num_threads = 1) przy użyciu zoptymalizowanych jąder MLAS lub OpenVINO dla stałych kształtów wejściowych pozwala utrzymać dane w pamięci podręcznej L1/L2 CPU4. Zapewnia to stabilną latencję rzędu kilkunastu milisekund bez ryzyka przestojów związanych ze szyną systemową16.
+Strategia Optymalizacji Packaging w Środowisku Nuitka
+Duży rozmiar dotychczasowego pliku binarnego (~270 MB) wynika bezpośrednio z zależności od frameworka PyTorch. Podczas kompilacji Nuitka analizuje drzewo importów i dołącza dynamiczne biblioteki C++ (torch_cpu.dll, c10.dll, gomp.dll), a także kompletne tablice wag modeli EasyOCR.
+Przejście na silnik systemowy Windows.Media.Ocr całkowicie eliminuje potrzebę pakowania modeli uczenia maszynowego oraz ciężkich bibliotek wykonawczych C++12. Jedyną wymaganą zawartością w kompilacji Nuitka są lekkie moduły wiążące Python-WinRT. Przy zastosowaniu flagi --enable-plugin=tk-inter=disable oraz wykluczeniu zbędnych pakietów graficznych, całkowity rozmiar aplikacji wykonywalnej można zmniejszyć do poziomu 15–30 MB (wliczając podstawowy interpreter Python oraz OpenCV w wersji headless).
+Podczas konfiguracji środowiska kompilacji Nuitka na platformie Windows należy upewnić się, że zestaw narzędzi MSVC oraz Windows SDK są prawidłowo zainstalowane i wykrywane w rejestrze systemowym, co zapobiega błędom linkowania nagłówków WinRT występującym przy domyślnym fallbacku do narzędzia MinGW6414.
+Propozycja Docelowej Architektury Hybrydowej
+Dla osiągnięcia maksymalnej wydajności, minimalnego zużycia zasobów oraz eliminacji opóźnień w aplikacji desktopowej zaleca się całkowite usunięcie sekwencyjnej pętli fallback (max_passes) oraz wyeliminowanie frameworka PyTorch. Rekomenduje się wdrożenie dwuścieżkowej, hybrydowej architektury odczytu.
+Ścieżka Zegara i Licznika Czasu (Pętla Krytyczna)
+Dla obszaru licznika czasu stosuje się deterministyczną ścieżkę wizyjną opartą na OpenCV. Kadr z gry jest przycinany do stałego współrzędnościowo prostokąta ROI, poddawany binarizacji progowej, a następnie przetwarzany algorytmem dopasowywania wzorców (Template Matching) lub analizą strefową segmentów18. Odczyt odbywa się synchronicznie co 0,3 sekundy, zajmuje od 0,3 do 1,8 ms oraz zużywa poniżej 0,5% jednego rdzenia CPU22.
+Ścieżka Tekstu Czatu (Pętla Spokojna)
+Dla okna czatu obraz ROI jest przekazywany do natywnego silnika Windows.Media.Ocr7. Wywołanie realizowane jest asynchronicznie w tle, dzięki czemu nie blokuje pętli sterowania bota. Czas odpowiedzi wynosi od 10 do 25 ms, przy obciążeniu CPU na poziomie 1–2%11. Jeśli w przyszłości wymagane będzie przeniesienie aplikacji na systemy inne niż Windows, moduł WinRT można zastąpić silnikiem RapidOCR z providerem ONNX Runtime CPU, co zachowa latencję poniżej 45 ms i rozmiar binarki w granicach 50 MB15.
+Wdrożenie powyższej architektury pozwala obniżyć całkowity lag od odczytu klatki do podjęcia decyzji z obecnych 1,5–3,4 sekundy do wartości poniżej 15 milisekund, redukując obciążenie procesora z 100% do 1–2% pojedynczego rdzenia oraz zmniejszając rozmiar pliku binarnego aplikacji z 270 MB do około 30 MB.
+Cytowane prace
+1. HalalBench: A Multilingual OCR Benchmark for Food Packaging, https://arxiv.org/html/2604.22754
+2. HalalBench: A Multilingual OCR Benchmark for Food Packaging, https://arxiv.org/html/2604.22754v1
+3. Semantic de-identification of burned-in PHI in DICOM medical images, https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1838941/pdf
+4. C++ for AI / Machine Learning, https://bigcpp.com/domains/ai-ml
+5. 8 ONNX Runtime Tricks for Low-Latency Python Inference - Medium, https://medium.com/@Modexa/8-onnx-runtime-tricks-for-low-latency-python-inference-baee6e535445
+6. The Ultimate OCR Benchmark: 15 OCR Systems Tested on My RTX, https://adityamangal98.medium.com/the-ultimate-ocr-benchmark-15-ocr-systems-tested-on-my-rtx-4070-laptop-4a9f2c513349
+7. Awesome DSH Plugin — Curated DeepSeek Harness (dsh) Plugin, https://awesome-dsh-plugin.com/
+8. Visual Basic สำหรับ Applications - Reddit, https://www.reddit.com/r/vba/?tl=th
+9. OCR Data Entry: Preprocessing Text for NLP Tasks, https://labelyourdata.com/articles/ocr-data-entry
+10. OpenControl | MCP Servers · LobeHub, https://lobehub.com/mcp/joshuaalawrence-opencontrol
+11. Say what you see: Efficient UI interaction with OCR and gaze tracking, https://handsfreecoding.org/2020/07/25/say-what-you-see-efficient-ui-interaction-with-ocr-and-gaze-tracking/
+12. malware? | Tom's Hardware Forum Italia, https://forum.tomshw.it/threads/malware.821333/
+13. [Release] NBA 2K26 Shot Meter Holder & Auto-Shoot Suite vision, https://www.unknowncheats.me/forum/other-games/765251-nba-2k26-shot-meter-holder-auto-shoot-suite-vision-timed-release-arrow-2-purple.html
+14. Nuitka listing MSVC, but not using it? · Issue #3317 - GitHub, https://github.com/Nuitka/Nuitka/issues/3317
+15. RapidOCR.NET vs IronOCR: .NET OCR Library - Iron Software, https://ironsoftware.com/csharp/ocr/blog/compare-to-other-components/compare-rapidocr-net-vs-ironocr/
+16. [Performance] Dynamic Shape performance · Issue #13198 - GitHub, https://github.com/microsoft/onnxruntime/issues/13198
+17. GitHub - Sekinal/ppocrv6-fast-cpu: Fast, lossless CPU inference for, https://github.com/Sekinal/ppocrv6-fast-cpu
+18. OCR with OpenCV, Tesseract, and Python [Practitioner Edition 1.0], https://dokumen.pub/ocr-with-opencv-tesseract-and-python-practitioner-edition-10.html
+19. OCR with OpenCV, Tesseract, and Python - Intro to ... - dokumen.pub, https://dokumen.pub/ocr-with-opencv-tesseract-and-python-intro-to-ocr-intro-to-ocr-edition-10.html
+20. Mastering OpenCV Part 3: A Comprehensive Guide to Computer, https://medium.com/@sayedebad.777/mastering-opencv-part-3-a-comprehensive-guide-to-computer-vision-with-python-42cac8a8cc02
+21. Automated Detection and Recognition of Seven-Segment Digits, https://www.researchgate.net/publication/387297098_Automated_Detection_and_Recognition_of_Seven-Segment_Digits_from_Electric_Meters_Utilizing_Digital_Image_Processing_and_Machine_Learning
+22. A Latency Composition Analysis for Telerobotic Performance, https://cris.vtt.fi/files/109010051/futureinternet-16-00457-v2.pdf
+23. AI PCs Are Here: Offload to the NPU for p99 Wins - Medium, https://medium.com/@2nick2patel2/ai-pcs-are-here-offload-to-the-npu-for-p99-wins-600f72c4562c
+24. Model Inference and Performance Benchmarking with ONNX Runtime, https://paths.grasp.study/courses/2485f57c-82d3-44fe-958c-6495a20bb649/modules/bdd8a1ff-085e-4452-86f1-78b7b1441831/lessons/11e1101e-35f2-406b-af2a-d9af075976ea

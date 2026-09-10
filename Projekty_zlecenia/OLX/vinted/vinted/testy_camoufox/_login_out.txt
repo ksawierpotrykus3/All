@@ -1,0 +1,58 @@
+=== profile: F:\PROJEKTY\vinted\vinted\testy_camoufox\implementation\browser-profiles\profil_firefox_135
+t0 import
+t1 import ok
+t2 open context
+tFAIL: Error('BrowserType.launch_persistent_context: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\maksk\\AppData\\Local\\camoufox\\camoufox\\Cache\\browsers\\official\\152.0.4-beta.28-386fc2f4\\camoufox.exe -no-remote -headless -profile F:\\PROJEKTY\\vinted\\vinted\\testy_camoufox\\implementation\\browser-profiles\\profil_firefox_135 -juggler-pipe about:blank\n<launched> pid=8352\n[pid=8352][err] *** You are running in headless mode.\n[pid=8352] <process did exit: exitCode=0, signal=null>\n[pid=8352] starting temporary directories cleanup\nCall log:\n  - <launching> C:\\Users\\maksk\\AppData\\Local\\camoufox\\camoufox\\Cache\\browsers\\official\\152.0.4-beta.28-386fc2f4\\camoufox.exe -no-remote -headless -profile F:\\PROJEKTY\\vinted\\vinted\\testy_camoufox\\implementation\\browser-profiles\\profil_firefox_135 -juggler-pipe about:blank\n  - <launched> pid=8352\n  - [pid=8352][err] *** You are running in headless mode.\n  - [pid=8352] <process did exit: exitCode=0, signal=null>\n  - [pid=8352] starting temporary directories cleanup\n  - [pid=8352] <gracefully close start>\n  - [pid=8352] <kill>\n  - [pid=8352] <skipped force kill spawnedProcess.killed=false processClosed=true>\n  - [pid=8352] finished temporary directories cleanup\n  - [pid=8352] <gracefully close end>\n')
+Traceback (most recent call last):
+  File "F:\PROJEKTY\vinted\vinted\testy_camoufox\_login_probe.py", line 20, in <module>
+    with Camoufox(persistent_context=True, headless=True, user_data_dir=PROFILE, os="windows") as ctx:
+  File "C:\Python311\Lib\site-packages\camoufox\sync_api.py", line 39, in __enter__
+    self.browser = NewBrowser(self._playwright, **self.launch_options)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\camoufox\sync_api.py", line 120, in NewBrowser
+    context = playwright.firefox.launch_persistent_context(**from_options)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 16570, in launch_persistent_context
+    self._sync(
+  File "C:\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 166, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: BrowserType.launch_persistent_context: Failed to launch the browser process.
+Browser logs:
+
+<launching> C:\Users\maksk\AppData\Local\camoufox\camoufox\Cache\browsers\official\152.0.4-beta.28-386fc2f4\camoufox.exe -no-remote -headless -profile F:\PROJEKTY\vinted\vinted\testy_camoufox\implementation\browser-profiles\profil_firefox_135 -juggler-pipe about:blank
+<launched> pid=8352
+[pid=8352][err] *** You are running in headless mode.
+[pid=8352] <process did exit: exitCode=0, signal=null>
+[pid=8352] starting temporary directories cleanup
+Call log:
+  - <launching> C:\Users\maksk\AppData\Local\camoufox\camoufox\Cache\browsers\official\152.0.4-beta.28-386fc2f4\camoufox.exe -no-remote -headless -profile F:\PROJEKTY\vinted\vinted\testy_camoufox\implementation\browser-profiles\profil_firefox_135 -juggler-pipe about:blank
+  - <launched> pid=8352
+  - [pid=8352][err] *** You are running in headless mode.
+  - [pid=8352] <process did exit: exitCode=0, signal=null>
+  - [pid=8352] starting temporary directories cleanup
+  - [pid=8352] <gracefully close start>
+  - [pid=8352] <kill>
+  - [pid=8352] <skipped force kill spawnedProcess.killed=false processClosed=true>
+  - [pid=8352] finished temporary directories cleanup
+  - [pid=8352] <gracefully close end>
+
+
+DONE
+=== profile: F:\PROJEKTY\vinted\vinted\testy_camoufox\implementation\browser-profiles\profil_firefox
+t0 import
+t1 import ok
+t2 open context
+t3 context open
+t4 new page
+t5 goto done: https://www.vinted.pl/session-refresh?ref_url=%2F
+t6 result: {"status": 200, "body": {"user": {"id": 3180346878, "anon_id": "98c6af5a-87da-45f2-9be5-24cf9345b003", "login": "maksks0", "country_id": 15, "updated_on": 1788031755, "about": "", "birthday": null, "profile_url": "https://www.vinted.pl/member/3180346878-maksks0", "share_profile_url": "https://www.vinted.pl/member/3180346878-maksks0", "path": "/member/3180346878-maksks0", "allow_direct_messaging": true, "avg_response_time": null, "is_bpf_price_prominence_applied": false, "contacts_permission": null, "contacts": null, "moderator": false, "is_catalog_moderator": false, "is_catalog_role_marketing_photos": false, "hide_feedback": false, "is_god": false, "is_tester": false, "real_name": "Maksymilian Potrykus", "email": "makspotrykus0@gmail.com", "created_at": "2026-08-28T13:35:49+02:00", "gender": null, "generated_login": false, "is_login_via_external_system_only": true, "real_name_permission": null, "birthday_permission": null, "accepts_payments": true, "infoboard_seen": true, "underage": false, "feedback_count": 0, "feedback_reputation": 0, "business_account_id": null, "can_bundle": true, "business_account": null, "business": false, "photo": {"id": 330878132, "width": 96, "height": 96, "temp_uuid": null, "url": "https://images1.vinted.net/t/01_0048f_5wGirAvo2atwFgh14DzWYrg1/f800/1787916949.jpeg?s=6a02e0ba6eaf29d746ba836f747d22af78a47cc0", "dominant_color": "#31abc2", "dominant_color_opaque": "#C1E6ED", "thumbnails": [{"type": "thumb310", "url": "https://images1.vinted.net/t/01_00
+DONE

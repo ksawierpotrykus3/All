@@ -1,0 +1,79 @@
+{
+  "id": "40703123",
+  "url": "https://www.freelancer.pl/projects/automation/Automate-Gmail-Sheets-Workflows/details",
+  "title": "Automate Gmail & Sheets Workflows",
+  "author": "Anonim",
+  "budget": "15.0 - 25.0 USD",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:28:38.905252",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703123",
+    "url": "https://www.freelancer.pl/projects/automation/Automate-Gmail-Sheets-Workflows/details",
+    "seo_url": "automation/Automate-Gmail-Sheets-Workflows",
+    "title": "Automate Gmail & Sheets Workflows",
+    "budget": "15.0 - 25.0 USD",
+    "budget_raw": {
+      "minimum": 15.0,
+      "maximum": 25.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I am a small business, but part of a Franchise System.  I'm ready to hand off two related automation",
+    "category": "automation-ai",
+    "project_type": "hourly",
+    "jobs": [
+      "PHP",
+      "Software Architecture",
+      "Email Marketing",
+      "Scripting",
+      "Google Docs",
+      "Automation",
+      "API Integration",
+      "Workflow Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 203,
+      "bid_avg": 23.019704433497537
+    },
+    "local": false,
+    "time_submitted": 1789042185
+  },
+  "full_details": {
+    "id": "40703123",
+    "title": "Automate Gmail & Sheets Workflows",
+    "full_description": "I am a small business, but part of a Franchise System.  I'm ready to hand off two related automation chores.  Both jobs live entirely inside Google Workspace, so familiarity with Gmail API, Google Apps Script, and the Sheets API will be essential.\n\nTask 1 – Smart reply from Gmail  \nWhen a message lands in my business Gmail inbox, your script should inspect it, pull the right template from a Google Doc, merge in any dynamic fields, and fire back a detailed response email automatically. Think of it as “if-this-then-that” but with professional-grade polish and error handling (logging, retries, etc.).\n\nTask 2 – Recurring campaign from a Sheet  \nI maintain a Google Sheet that lists all current customers. From that list, I need a recurring email campaign to go out on a schedule I can edit myself. Each message must include an opt-out link and, if someone opts out, the script should record the choice in the same Sheet to be sure they never receive another campaign mail.\n\nAcceptance criteria  \n• Fully commented Apps Script (or equivalent) deployed in my Workspace  \n• Configuration panel or clear variables so I can swap templates, change schedules, and tweak copy without code changes  \n• Opt-out handling compliant with Gmail sending policies  \n• Test run that proves both workflows end-to-end, with logs I can review\n\nIf you have experience chaining Gmail, Google Docs, and Google Sheets together into seamless flows, please let me know your approach and timeline so I can review a quote.",
+    "budget_raw": {
+      "minimum": 15.0,
+      "maximum": 25.0
+    },
+    "currency": "USD",
+    "project_type": "hourly",
+    "jobs": [
+      "PHP",
+      "Software Architecture",
+      "Email Marketing",
+      "Scripting",
+      "Google Docs",
+      "Automation",
+      "API Integration",
+      "Workflow Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 203,
+      "bid_avg": 23.019704433497537
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:47"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:47.786850"
+}

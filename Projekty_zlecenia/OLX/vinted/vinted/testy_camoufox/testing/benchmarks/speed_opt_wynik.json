@@ -1,0 +1,39 @@
+{
+  "steps": [
+    {
+      "step": "catalog(warm+wybor)",
+      "send_ms": 840.4,
+      "parse_ms": 11.6,
+      "total_ms": 852.0,
+      "http": 200
+    },
+    {
+      "step": "conversations",
+      "send_ms": 1207.5,
+      "parse_ms": 0.0,
+      "total_ms": 1207.5,
+      "http": 200
+    },
+    {
+      "step": "build",
+      "send_ms": 1472.8,
+      "parse_ms": 0.1,
+      "total_ms": 1472.9,
+      "http": 200
+    }
+  ],
+  "impersonate_get_ms": {
+    "chrome146": 964.8,
+    "firefox133": 806.8
+  },
+  "notes": [],
+  "item": {
+    "id": 9825974318,
+    "seller": 76883589,
+    "title": "Zimní boty Superfit"
+  },
+  "transaction_id": 21910401307,
+  "checkout_id": "tr7DyF2Fc08Sp9HSO0CV1",
+  "reservation_total_ms": 2681.2,
+  "build_response_bytes": 10552
+}

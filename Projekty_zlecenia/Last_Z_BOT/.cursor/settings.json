@@ -1,0 +1,10 @@
+{
+  "plugins": {
+    "cursor-supermemory": {
+      "enabled": true
+    },
+    "superpowers": {
+      "enabled": true
+    }
+  }
+}

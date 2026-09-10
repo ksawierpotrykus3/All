@@ -1,0 +1,90 @@
+{
+  "test": "TEST 06 – Pełny flow integracyjny",
+  "timestamp_start": "2026-08-06 15:02:38",
+  "status": "OK",
+  "steps": {
+    "1_fetch_list": {
+      "status": "OK",
+      "method": "playwright",
+      "offers_count": 10,
+      "html_size": 495512
+    },
+    "2_marker": {
+      "status": "OK",
+      "has_new_offers": true,
+      "first_offer_title": "Stworzenie narzędzia do: drukowania w pdf zestawów z Płatnika"
+    },
+    "3_ai_selection": {
+      "status": "OK",
+      "selected_count": 5,
+      "rejected_count": 5,
+      "fallback": false
+    },
+    "4_fetch_details": {
+      "status": "OK",
+      "total": 5,
+      "success": 5,
+      "failed": 0
+    },
+    "5_ai_proposals": {
+      "status": "OK",
+      "generated": 5,
+      "total": 5
+    }
+  },
+  "selected_offers": [
+    {
+      "index": 1,
+      "title": "Automatyzacja Make/n8n/Python: web scraping, OCR i AI",
+      "reason": "Bezpośrednio wymaga Pythona, web scrapingu i automatyzacji, idealnie dopasowane do specjalizacji."
+    },
+    {
+      "index": 2,
+      "title": "Stworzenie Inteligentnej Platformy AI do Zakupu i zarzadzadzania Bazami.",
+      "reason": "Platforma AI z automatyzacją 24/7, prawdopodobnie wymaga scrapingu ofert i Pythona, pasuje do AI/ML."
+    },
+    {
+      "index": 5,
+      "title": "API Allegro, Shopper",
+      "reason": "Integracje API (Allegro, Shopper), opcjonalnie Python dopuszczony, mocno związane z integracjami."
+    },
+    {
+      "index": 7,
+      "title": "Integrator pomiędzy Optima a Base.com",
+      "reason": "Integracja systemów przez API, typowe zadanie dla specjalisty od automatyzacji i integracji."
+    },
+    {
+      "index": 9,
+      "title": "Wykonawca automatyzacji procesów i AI - ewidencja zleceń, Nextcloud, e-mail, ChatGPT Business, Make lub n8n",
+      "reason": "Automatyzacja procesów i AI, często realizowana w Pythonie, pasuje do profilu."
+    }
+  ],
+  "proposals": [
+    {
+      "title": "Automatyzacja Make/n8n/Python: web scraping, OCR i AI",
+      "proposal_text": "Dzień dobry, z przyjemnością podejmę się automatyzacji łączącej web scraping, OCR i AI przy użyciu Pythona oraz narzędzi Make/n8n. Mam doświadczenie w budowie wydajnych skrobaków (BeautifulSoup, Scrapy, Playwright), ekstrakcji danych z dokumentów (Tesseract, API chmurowe) i integracji modeli AI. Chętnie poznam więcej szczegółów procesów do automatyzacji, aby zaproponować optymalną architekturę. Proponuję stawkę 110 PLN/h netto, z możliwością dostosowania po omówieniu pełnego zakresu i etapów projektu. Zapraszam do kontaktu.",
+      "proposed_rate": "110 PLN/h netto"
+    },
+    {
+      "title": "Stworzenie Inteligentnej Platformy AI do Zakupu i zarzadzadzania Bazami.",
+      "proposal_text": "Dzień dobry Anno, z przyjemnością podejmę się stworzenia prostej aplikacji desktopowej do generowania wydruków. Mam kilkuletnie doświadczenie w Pythonie i tworzeniu narzędzi okienkowych (PyQt/Tkinter) oraz generowaniu dokumentów (ReportLab, PDF). Chętnie dopytam o szczegóły – jakie typy wydruków, źródło danych, potrzebne formaty? Proponuję stawkę 90 zł/h netto, a po ustaleniu pełnego zakresu prac mogę podać szacunkowy budżet całości. Pozdrawiam i zapraszam do kontaktu.",
+      "proposed_rate": "90 PLN/h"
+    },
+    {
+      "title": "API Allegro, Shopper",
+      "proposal_text": "Witam, jestem doświadczonym programistą Python, specjalizującym się w tworzeniu aplikacji desktopowych oraz integracjach z API. Z przyjemnością podejmę się realizacji Pana zlecenia – prostej aplikacji do generowania wydruków z wykorzystaniem API Allegro. Proponuję stawkę 95 PLN netto za godzinę pracy, a wstępny szacunek całości to 1500–2000 PLN w zależności od szczegółowych wymagań. Zapewniam terminowość, czytelny kod i wsparcie. Chętnie omówię szczegóły.",
+      "proposed_rate": "95 PLN netto/h (szacunkowo 1500-2000 PLN za projekt)"
+    },
+    {
+      "title": "Integrator pomiędzy Optima a Base.com",
+      "proposal_text": "Dzień dobry, jestem doświadczonym programistą Python, specjalizuję się w integracji systemów i tworzeniu aplikacji desktopowych. Chętnie podejmę się realizacji integratora pomiędzy Optima a Base.com, generującego wydruki. Mam praktykę w pracy z API ERP (w tym Optima) oraz platformami e-commerce (Base.com), a także w budowie interfejsów w PyQt/Tkinter. Proponuję rozpoczęcie od krótkiej konsultacji w celu doprecyzowania wymagań i zakresu. Moja stawka za usługę to 100 zł netto za godzinę pracy. Zapewniam terminową realizację, czysty kod i dokumentację techniczną.",
+      "proposed_rate": "100 zł netto/godz."
+    },
+    {
+      "title": "Wykonawca automatyzacji procesów i AI - ewidencja zleceń, Nextcloud, e-mail, ChatGPT Business, Make lub n8n",
+      "proposal_text": "Dzień dobry, z przyjemnością podejmę się automatyzacji procesów łączącej Nextcloud, e-mail, ChatGPT Business i ewidencję zleceń. Mam kilkuletnie doświadczenie w Pythonie i integracji API – mogę przygotować elastyczne skrypty, a jeśli preferujesz platformy no-code, sprawnie skonfiguruję przepływy w Make lub n8n. Chętnie omówię szczegóły i zaproponuję optymalną architekturę. Moja stawka to 120 PLN netto za godzinę; przy większym zakresie możemy ustalić korzystną wycenę za całość. Zapraszam do kontaktu, pozdrawiam.",
+      "proposed_rate": "120 PLN netto / godz."
+    }
+  ],
+  "timestamp_end": "2026-08-06 15:05:19"
+}

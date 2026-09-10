@@ -1,0 +1,170 @@
+IOS Developer – tworzenie aplikacji mobilnych na system iOS (wymagane referencje)
+=================================================================================
+URL: https://useme.com/pl/jobs/ios-developer-tworzenie-aplikacji-mobilnych-na-system-ios-wymagane-referencje,143273/
+
+Zleceniodawca
+KARTS DESIGN
+
+Opis
+Szukamy programisty iOS do stworzenia i rozwoju natywnej aplikacji mobilnej.
+
+Opublikowano
+2026-08-25
+
+Kategoria
+Projekty IT
+
+Prawa autorskie
+Decyzja freelancera
+
+Budżet
+Do negocjacji
+
+Ważne przez
+30 dni
+
+Wymagane funkcje::
+Doświadczenie w tworzeniu aplikacji na iOS potwierdzone opublikowanymi projektami i referencjami.
+
+Wymagane umiejętności / tagi:
+android, aplikacje mobilne, aplikacje webowe, + 14 więcej
+
+Wysłane oferty (10)
+------------------------------
+[Adrian Smolczyk | 0 umów](https://useme.com/pl/roles/contractor/660905/) - 4 dni temu
+  * android
+  * aplikacje mobilne
+  * aplikacje webowe
+  * baselinker
+  * c
+  * cakePHP
+  * e-commerce
+  * iOS
+  * javascript
+  * laravel
+  * PHP
+  * PHP Offshore
+  * programy użytkowe
+  * python
+  * sztuczna inteligecja
+  * testy automatyczne
+  * uczenie maszynowe
+
+[Rizky Pradana | 1 umowa](https://useme.com/pl/roles/contractor/635608/) - 2026-08-26
+
+[Marcin Szalski | 10 umów](https://useme.com/pl/roles/contractor/67692/) - 2026-08-26
+  * android
+  * aplikacje mobilne
+  * c
+  * C plus plus
+  * gry
+  * iOS
+  * java
+  * jenkins
+  * kotlin
+  * objective-C
+  * python
+  * ruby
+  * SQLite
+  * swift
+
+[MTZN | 11 umów](https://useme.com/pl/roles/contractor/226941/) - 2026-08-25
+
+[Marek Fronczak | 1 umowa](https://useme.com/pl/roles/contractor/634357/) - 2026-08-25
+
+[GOLDAI | 0 umów](https://useme.com/pl/roles/contractor/570266/) - 2026-08-25
+  * AI
+  * analiza danych
+  * angular
+  * aplikacje mobilne
+  * AutoCAD software
+  * backend
+  * bazy danych
+  * blockchain
+  * c
+  * CAD
+  * chatbot
+  * chatgpt
+  * cloud
+  * CRM
+  * Flutter
+  * Flutterflow
+  * frontend
+  * git
+  * java
+  * javascript
+  * kodowanie
+  * LLM
+  * matematyka
+  * montaż
+  * mysql
+  * n8n
+  * Next.js
+  * NLP
+  * NodeJS
+  * OpenAI
+  * postgresql
+  * python
+  * React
+  * react native
+  * SaaS
+  * seo
+  * stable diffusion
+  * uczenie maszynowe
+  * web development
+  * wizualizacje danych
+
+[SednoTech | 3 umów](https://useme.com/pl/roles/contractor/481175/) - 2026-08-25
+  * analiza danych
+  * API
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * cms
+  * css
+  * html
+  * mysql
+  * PHP
+  * prestashop
+  * python
+  * sklep internetowy
+  * sql
+  * strona www
+  * web development
+  * wordpress
+
+[Heyneuron.com | 1 umowa](https://useme.com/pl/roles/contractor/148433/) - 2026-08-25
+  * AI
+  * Airtable
+  * API
+  * aplikacje webowe
+  * blockchain
+  * CRM
+  * facebook
+  * Facebook Pixel
+  * gmail
+  * google analytics
+  * Google Tag Manager
+  * hubspot
+  * landing page
+  * LANDINGPAGE
+  * marketing internetowy
+  * n8n
+  * Next.js
+  * Nocode
+  * React
+  * strona www
+  * web api
+  * web development
+  * zapier
+
+[Webcost | 0 umów](https://useme.com/pl/roles/contractor/146302/) - 2026-08-25
+  * html
+  * laravel
+  * mysql
+  * PHP
+  * React
+  * symfony
+  * vue
+
+[Jakub Kaczmarek | 25 umów](https://useme.com/pl/roles/contractor/137876/) - 2026-08-25

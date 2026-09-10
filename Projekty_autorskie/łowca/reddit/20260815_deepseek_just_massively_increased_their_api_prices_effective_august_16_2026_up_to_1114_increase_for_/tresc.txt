@@ -1,0 +1,503 @@
+### DeepSeek just massively increased their API prices (effective August 16, 2026) - up to 1,114% increase for cache hits ###
+
+Źródło: https://www.reddit.com/r/DeepSeek/s/vDyDvB9lX1
+Autor: Alert-Database-8668
+Liczba wczytanych komentarzy: 229
+Data pobrania: 2026-08-15 10:57:28
+
+Just got the pricing update from DeepSeek. They're moving to a peak/off-peak billing model and increasing prices across the board. Here's the breakdown:
+
+Key Changes:
+
+New pricing effective 16:00 UTC, August 16, 2026
+
+Peak hours: 01:00-04:00 & 06:00-10:00 UTC (all other hours are off-peak)
+
+Peak rates are 2x off-peak rates
+
+Cache hit prices are increasing dramatically
+
+V4-Flash Changes (Old → New Off-Peak/Peak):
+
+Input (cache hit): $0.0028 → $0.007/$0.014 (+150%/+400%)
+
+Input (cache miss): $0.14 → $0.22/$0.44 (+57%/+214%)
+
+Output: $0.28 → $0.66/$1.32 (+136%/+371%)
+
+V4-Pro Changes (Old → New Off-Peak/Peak):
+
+Input (cache hit): $0.003625 → $0.022/$0.044 (+507%/+1,114%)
+
+Input (cache miss): $0.435 → $0.66/$1.32 (+52%/+203%)
+
+Output: $0.87 → $1.98/$3.96 (+128%/+355%)
+
+My thoughts: The cache hit price increase is brutal, especially for Pro. That was one of the main advantages DeepSeek had for long conversations or repetitive queries. The peak/off-peak model also adds complexity to cost management.
+
+Anyone else planning to shift workloads to off-peak hours or looking at alternatives? How does this change the competitive landscape vs. other providers?
+
+Source: DeepSeek API docs pricing page
+
+Read more
+
+### HIERARCHIA KOMENTARZY ###
+
+1. Rude-Reaction3450: Have already shifted away, adjusted things. DS4 is good but when cheap.
+
+    1.1. JestonT: Where are you moving to?
+
+        1.1.1. Parking-Bet-3798: Luna is hands down a better deal right now.
+
+        1.1.2. Rude-Reaction3450: My workload is not big, have api for luna + claude pro + codex plus Planning and review by opus + sol 5.6 (for each other) Rest repeat task and implementation by luna max (but you can't trust luna similar to DS4 flash) Hardly I run out of limits if used wisely.
+
+            1.1.2.1. _PM_ME_UR_TATTOOS_: Have you tried kimi or qwen? good alternatives too.
+
+                1.1.2.1.1. Rude-Reaction3450: Tried both, good for regular stuff, my experience, both are good for regular stuff, but anything little complicated, they struggle. Have cases with me where KIMI kept trying and trying lots tricks, cant' resolve. Sol 5.6 med did that task in few mins in first attempt.  Important thing: Time is costlier than everything else, I decided to spend some more money instead of wasting time on painfully slow kimi.
+
+                1.1.2.1.2. gaz_0001: DS was too cheap compared to them. Kimi is so slow.  Have to review rhoguh when the prices go up. There will always be a cheap Chinese player with a good offer.
+
+                1.1.2.1.3. Hot-Ad-1798: he don't have cents for Millions, imagine kimi
+
+            1.1.2.2. RealBeardedParrott: You moved away to more expensive models? That doesn't make sense for the topic at hand. DeepSeek is still incredibly cheaper than all of those.
+
+                1.1.2.2.1. SwissTac0: Speaking as someone that used billions of Deepseek tokens..... You have to factor in that what Fable or Sol will do in 1m tokens deepseek might do in 10m (just spit balling) .  There fore if you increase price by 5x as well the gap starts to close fast.  Now some wouod argue the fact it burns tokens is bad, but I don't really care for me it's a function of Quality of Final Output x Time to Get there (which itself is a function of time per turn x number of turns) x Final cost (tokens times cost per token) .....  On one extreme is Fable operating on a insane output x Slow but one turn x Expensive tokens but hilariously low actual token burn. Fable does it once and it's done and ready for release.  Deepseek is pretty good put put x a million fast turns x Dirt Cheap Tokens but massive token usage. It relied on Being extremely quick, cheap and getting a something not industrial grade but above minimal viable product.  Models Like Qwen, Terra and GLM tended to sit awkwardly in between and ultimate end up giving a worst overall value for me. GLM and Luna are now dirt cheap so the math changes a bit. Sonnet under subscription is fine but API usage would fail massively.  Sol is awkward because I love it but sometimes if you aren't paying attention you'll realize it spun an extra 2 hours to close the last 1% gap that actually doesn't matter and this unfortunately rank it lower than Fable for me because it needs to be baby sat to make sure it doesn't kick out of the guardrails to perfectionist mode for initial MVP  I would suspect I will still have stuff I use deepseek for but will keep it mostly as a scout model now (which Flash already is regardless of which family is doing the heavy lifting) and I will shift quite a bit to GLM of the offloaded tasks I did to save the premium subscription usage.  Or instead of 30-50 usd a month I'll upgrade my Openai Plus (I'm stuck for life with this for non coding use) to pro 5x (73 net) and then just be Claude 20x and Openai 5x
+
+                1.1.2.2.2. Hydr0x1de_OH: Probably the case is luna takes less tokens to complete the task, and therefore real price is comparable
+
+            1.1.2.3. Poowatereater: How do you drive all this?
+
+                1.1.2.3.1. Rude-Reaction3450: Nothing complicated, - All planning part goes into frontier like opus or sol 5.6 - Implementation via cheaper luna model - If there is decision making involved in implementation or plan shift (which always happens), consult frontier model - Once done, cross check and get fixed by other frontier model - Things which need api only (where subscription can't work), luna is there.
+
+            1.1.2.4. alexx_kidd: Don’t use US models
+
+                1.1.2.4.1. Training_Canary_6961: 😂 why
+
+    1.2. B89983ikei: DeepSeek is still better than Luna! And if I have to assist any model using an API, I'll keep using DeepSeek.  I would a thousand times rather give my data to China than to the United States.  And life doesn't depend on LLMs... I think people have become overly dependent on and addicted to LLMs... Three years ago, nobody relied on this, and they lived just fine!
+
+        1.2.1. Kailtis: sorry, but no, it's not. Did tens of tests across various harnesses. Luna consistently outperforms deepseek (flash, haven't tested pro). Usually it takes 3-4 passes for ds4f0731 to ge to same quality of luna max 1st pass.
+
+        1.2.2. Rude-Reaction3450: When you are using any AI provider, your privacy is already f_ck-d up man... no matter its china or us.
+
+            1.2.2.1. B89983ikei: Yes, I know! But between American and Chinese providers, I still prefer Chinese ones.
+
+                1.2.2.1.1. Aardvark-One: Ditto. We already have Palantir gathering info on all of us. I'd rather not just hand over everything to them. Oddly, under the current administration, it feels much safer to hand over that data to China rather the US right now.
+
+                1.2.2.1.2. SwissTac0: Agreed! I don't care what the Chinese government has on me... I'm sure for Chinese citizens they will take the opposite view. Both governments claim thag the other government wants to spu on each other's citizens but for the average person in each country the real threat is their own government.... Regardless of good or evil.
+
+        1.2.3. Training_Canary_6961: How is china better than the usa?
+
+            1.2.3.1. Aardvark-One: Have you heard of Palantir? Then ask yourself, if you're a US citizen, how China might use that data against you versus how the US might? Then make your decision for yourself on which one you feel more comfortable having that data.
+
+                1.2.3.1.1. Training_Canary_6961: Always usa. Im from europe, but communism = no thank you.
+
+            1.2.3.2. fedroxx: What could China do that is more damaging than what the US had done or is already doing?
+
+        1.2.4. RecordingLanky9135: You hate US so much, why are you still using Reddit, don't you know Reddit is a US forum?
+
+            1.2.4.1. SpiritualName2684: 10 percent owned by tencent, a Chinese super conglomerate.
+
+            1.2.4.2. Aardvark-One: It is not about hating the US. It is about being concerned what the US will do with your data. At least when you're sharing your data with a Chinese company, you don't have to worry about your own government trying to use it against you or providing it to Palantir. As a US citizen, I feel safer having that data in the hands of another country that has no authority over me rather than a country (US) which could weaponize it against you. Especially concerning with the current administration.
+
+            1.2.4.3. B89983ikei: No one mentioned hatred!!  Even so, if there were a forum on the same level as Reddit that allowed for choice... I would still currently prefer to transfer my data to China!
+
+    1.3. SkyPL: The model is under mit license, plenty of independent providers got it for a fair, low prices, so... what's the problem, again? Why would you shift? The cheapest provider @ 99.9% uptime - Baseten - sells it for $0.13/0.26/$0.028, fp8 (same as official), 82 TPS, which is lower price, higher TPS, higher uptime than DeepSeek's official and no training off your data.  How are you people in such a panic, when the model is still peanuts?
+
+    1.4. celtiberian666: Bruh.... Just use other servers. You're not locked to DS servers. WTF are you guys doing?!
+
+        1.4.1. Oujii: DS is probably raising pricing for the providers as well, in a few weeks most of them will have similar if not higher pricing. It seems this is a demand issue, so they need to force it down (or just bait and switch lmao)
+
+            1.4.1.1. celtiberian666: There are dozens of servers fighting for market share. Most of them don't have even 1% share of total V4 flash tokens. They already found that they can serve DS for LESS than the OLDER price of DS API was still profitable. They have no reason to increase prices. They're actually in a price war.  DS API just don't have the infra to serve all the demand. The price increase is just a polite way to say "use the other server, please, we are full".
+
+                1.4.1.1.1. titi1496: Which other providers do you suggest, if I want to move off official deepseek api?
+
+                1.4.1.1.2. Oujii: Makes sense. Thanks.
+
+            1.4.1.2. Sure_Leave9338: This is not how open models works.  If you have the hardware you can download DS4 for free, and provide the API access at your own prices. If you are a saint you can also provide it for free to all the world . You don't have to pay a single cent to deepseek.  Deepseek is raising it's pricing for their API access, this doesn't means that all other providers that offer ds4 will have the same price.  Example, now it's already different.. deepseek api are the cheapest, but there are other providers like DeepInfra, AWS, NovitaAI that offers DS4 at double or triple the price!  When the new deepseek prices will be live, the other providers prices depends totally on them.  For sure some providers kept their prices similar to the deepseek ones to avoid some people say "why I should choose to pay 2x the price to have ds4 from this procider rather than using deepseek directly?"  So I think most of them will raise their prices too, just to have better revenues. But this is uncertain, maybe some of them will keep their prices low and in this way some other will choose to keep prices low to avoid losing too much users for cheaper providers.  All this will be on the market laws, providers that will keep low prices will attract more users, but it depends also on their compute availability, latency and stability
+
+            1.4.1.3. SkyPL: DS is probably raising pricing for the providers as wel  Spoiler alert: They are not. In fact, they have no right to, under the license under which they distribute the model.
+
+2. [deleted]: Comment has been removed
+
+3. Low-Entrepreneur2556: It's over
+
+    3.1. trollsmurf: Looks like manual coding is back on the menu boys!
+
+        3.1.1. Alternative-Suit5541: Noooooooo
+
+        3.1.2. DoubleSoftware4137: Bruhhh
+
+    3.2. urge_kiya_hai: Deepseek,.it's done bro
+
+        3.2.1. RhetoricaLReturD: Will send compute from home
+
+        3.2.2. SpeedOfSound343: Sallu bhai aap yaha?
+
+    3.3. SorosAhaverom: The bigger question is, will Mimo 2.5 keep its original price match with v4 Flash at $0.14/$0.28/$0.0028?  And perhaps more importantly: why would anyone stay with DeepSeek as their API provider, when it will become the worst provider: guaranteed data retention and training on prompts, while having the highest price?  Looking further: Luna (high) has AA intelligence of 47 using 37 million tokens, DeepSeek Flash has AA intelligence of 53 using 206 million tokens (source).  Meaning: 5.5x more tokens spent for roughly the same intelligence. Sure, you could argue Flash is marginally better than Luna, but if it has to use 5.5x more tokens, it makes Flash excessively more expensive, while also costing you precious time, which is a dealbreaker with agentic coding.
+
+        3.3.1. freddyr0: Isn't the Mimo question easily answered? You get an avalanche of users that "automated life" with deepseek switching to it in bulk, and then when Mimo is not able to cope with the load, guess what will happen.
+
+            3.3.1.1. Low-Entrepreneur2556: Yep. Deepseek has set a really bad precedent with this.
+
+                3.3.1.1.1. TiCL: Bait and switch, as old as time
+
+                3.3.1.1.2. a_serial_hobbyist_: It's not ideal as a consumer, but what's better for them? Scaling their infrastructure to keep lower value customers, or keep infrastructure the same and have fewer, but higher value customers? Assuming they've done the maths that is.
+
+            3.3.1.2. vacon04: No, because it's not the same scenario. Deepseek had no competition in the lower-pricing end of the spectrum. Things are different now. Mimo is cheap, but even Open AI Luna is now part of the equation. Minimax is a bit more expensive, Muse has released some cheap models too, while GLM 5.2 continues to get cheaper. Cursor with the new Grok is very strong, with good usage limits.  Many of the people that move away from DS may end up moving to a Codex subscription or to some of the other providers, so not everyone will just rush to overwhelm the Mimo servers.
+
+                3.3.1.2.1. benchmaster-xtreme: Yeah, after the price hike, getting a $20 Codex subscription and only using Luna will become cheaper than putting $20 in the deepseek API and only using flash. There's a good chance that Luna API costs per-task won't be much more expensive than Deepseek as well. Sad, but build for cheap while you still can, I guess.
+
+            3.3.1.3. SorosAhaverom: Mimo 2.5 has been steadily hitting the same or more token count per day for the last ~2 months as DS 4 Flash on OpenRouter.
+
+        3.3.2. fruityfairy_69: Safety filters already being triggered ( never happened before ) , no freedom at all anymore as of yesterday literally asked it to deploy a script in plain language it deliberately looked through to see what it was and said it was malicious lol then I asked Claude and Claude just did it no questions asked
+
+        3.3.3. Yes_but_I_think: Using less than 50 model is a mistake waiting to happen for coding jobs
+
+        3.3.4. Warm-Entrepreneur218: Mimo is it that reliable as deepseek v4 flash . I used briefly once but not that much
+
+    3.4. SergioGustavo: No yet, wait until the rest increase their prices.
+
+    3.5. Funny-Supermarket360: nah. cuz hosters will have to compete and I doubt all of them rely on deepseek for that. if it started as smth it'll stay I think. problem is for the next model because if all of them agree on new pricing then there's nothing to do about it. BUT MoE is MoE
+
+4. Karmawy: benifits of living in brasil: off peak hours: 7:00 > 22:00 :)
+
+    4.1. Spiritual_Love_829: Yeah.. but still hurts.
+
+    4.2. N1nr0d: Brasil mencionado
+
+    4.3. Infamous_Prompt_6126: Brazil is positioned exactly where it can take advantage of China’s idle computing capacity off peak hours while maintaining partial access to the open markets hours of both the US and Europe.  It also has a very open society when it comes to digital services, such as social media and banking.  And it has virtually unlimited access to cheap energy.  Not becoming a major power in the dev world is a sign of how incompetent our entrepreneurial class is. We can’t even blame the government for that failure.
+
+        4.3.1. _chemistry_dude_: Yes, we can blame both government and congress for this stagnant situation
+
+            4.3.1.1. charmander_cha: Tem q culpar é a classe empreendedora do país que é tudo imbecil
+
+                4.3.1.1.1. ptrn_l: Verdade, um governo que bane WhatsApp e discord a torto e a direito, cobra um dos impostos mais altos do mundo, demoniza empresários e tecnologia e não possui segurança jurídica alguma não tem culpa nenhuma mesmo
+
+        4.3.2. Ill-Bat-1518: Well this is a new thing just give it time. Brazil does have a lot of things happening but its not easy starting from zero.  Ofcourse im on the outside looking in but overall it doesnt "seem" worse? but i could be wrong. like so wrong
+
+        4.3.3. Hot-Ad-1798: unlimited access to cheap energy? when? where?
+
+            4.3.3.1. edurbs: It’s not cheap, but we’re throwing it away. source
+
+    4.4. kiakm: Agents never sleep
+
+    4.5. Adept-Instruction691: Chad Brazil 🗿🗿
+
+    4.6. Over_Car_5471: Dude I am trying to get some ai data centers out here. Americans hate them and my local gov has signaled they are extremely open to them.
+
+        4.6.1. ptrn_l: if Americans hate something you can rest assured people here in Brazil hate it even more
+
+    4.7. stealthispost: why aren't you using openrouter? it's already way cheaper
+
+5. freddyr0: This is going to be a long day of posts.
+
+    5.1. altaaf-taafu: a very long day, spanning a week or two
+
+        5.1.1. Prize_Eye9481: Yep
+
+    5.2. magicomiralles: I think it might have the opposite effect now that tokens are more expensive.
+
+        5.2.1. Plus_Piano5965: It will …
+
+        5.2.2. Prize_Eye9481: I’m already having a much better experience now that it’s morning. Peak usage time is diabolical
+
+    5.3. Pixelplanet5: well at least all the two word 4 digit bot accounts hyping up DS every single day are going to be silent now. The models are just not good enough to justify this price, especially given that the benchmark scores mean absolutely nothing in the real world and thats exactly where DS is still far behind claude.
+
+6. TheInfiniteUniverse_: These fellas destroyed that ONE thing that gave DeepSeek its edge: intelligence per cost.  Their lack of experience is destroying their moat.
+
+    6.1. SeaBat2035: You know, they don't care. If you read the transcript of the owner, we are just pest to him haha.
+
+        6.1.1. DidiiBoi: These degenerates really think that deepseek cares about their complaints while they top up 5$ every month lmao
+
+            6.1.1.1. ZlatanKabuto: 5$ every month is better than 0$
+
+                6.1.1.1.1. LaxederBR: I don't know if you spend $10 to receive $5. 😂
+
+                6.1.1.1.2. Clear-Lingonberry173: The point seems to be that DeepSeek isn't charging you to make money.
+
+7. Potential-Leg-639: It‘s so over
+
+    7.1. GlitteringAd9289: joever
+
+8. RebootItAgain: The consequences of making a hundred daily posts labeled, “Wow, I coded non-stop for 5 days and my bill was only 16 cents!”
+
+    8.1. Soarin123: The "who can consume more tokens and post it onto Reddit" consequences
+
+    8.2. LeatherMine: Given that they’re doing peak pricing for Chinese time, their demand is mostly non-Anglo/non-westoid. We’re just along for the ride.
+
+    8.3. kantaxo: def!!!
+
+9. Even_Command_5636: For me, this kills the main reason to prefer DeepSeek over other LLMs. The price advantage is gone — the cache-hit increases alone (up to +1,114% for Pro, +400% for Flash at peak) erase the edge that made it the go-to choice for long conversations and agentic workflows. Now it's just average: roughly in line with what everyone else charges, with the added complexity of peak/off-peak pricing on top.  I'll stop using it after August 16. It's not about the money being unreasonable per se — it's that the positioning changed completely. When you pick a provider, you pick it for a reason. DeepSeek's reason was cost. That's gone.  Honestly, it's sad to see. Chinese companies apparently behave no differently from their American or Western European counterparts once they have a user base locked in — the discount phase ends and the pricing power kicks in.
+
+    9.1. ExpressionAlarming: D4f usage already hit their computing capacity. With US sanctions and lack of GPUs, hard to imagine they wouldn’t raise prices to drive away some users to keep service running. Situation might change after Huawei able to produce more GPUs.
+
+        9.1.1. skpro19: Source?
+
+    9.2. RealBeardedParrott: I still don't understand. If you compare peak and off peak times against say Luna or MiniMax M3, it's still vastly cheaper than the competition when you are on cache-hit which I am like 90% of the time. So I may have to spend $30 a month now instead of $10? I am more than fine with that.
+
+        9.2.1. sdexca: Lets say you only use V4 Flash in off-peak hours, which is the best case scenario, that's 2.2x the price, Pro off peak is 3.5x the price, you can imagine actual price increase would be 3-4.5x price with mix usage and some on-peak usage, at that point why aren't you using some subscription like ChatGPT Plus?: https://www.reddit.com/r/DeepSeek/comments/1vnujem/my_deepseek_bill_goes_from_33_to_100_offpeak_and/
+
+            9.2.1.1. RealBeardedParrott: I've used those plans in the past and I always run out before the month is up. It's why I got rid of Cursor last year and went local models with my HALO Strix setup. I highly doubt that 20 bucks will go far. But... I will be getting a Claude and chatGPT subscription soon anyways for testing purposes because I will be building in support for them in the orchestration platform I am building.
+
+                9.2.1.1.1. sdexca: The times have definitely changed. The new Luna model is very price competitive compared to DeepSeek, especially once you consider the subsidization that you get in the $20 ChatGPT plan. Although I recommend at least paying $100 plans, I have used both ChatGPT and Claude subscriptions. Their usage is basically unlimited, it is extremely hard to use up all of it. If you can extend your budget, I'd say you would be very surprised with the amount of usage you get.
+
+    9.3. Correct_Cancel_9359: No fucking shit? It's amazing ppl think one country is less greedy than X lol
+
+    9.4. celtiberian666: It is still the best price-performance LLM. Just use other providers. Even before this cache hit price increase DS servers were not the cheapest option.
+
+        9.4.1. blue_tack: What website is that from plz
+
+            9.4.1.1. celtiberian666: Open Router!  https://openrouter.ai/deepseek/deepseek-v4-flash-0731
+
+        9.4.2. tuhdo: It's the cache hit that sets Deepseek apart from other DS providers. With the current pricing, Luna is much cheaper, with a subscription to further reduce the actual price.
+
+            9.4.2.1. celtiberian666: Even accounting for cache price and hit, DeepInfra was already cheaper than DS servers before the price hike. You can check real usage costs on AA providers benchmark as well as on openrouter.
+
+    9.5. stealthispost: use openrouter?
+
+    9.6. Non-mon-xiety: It’s not greed, LLMs are just financial black holes. It’s why this will collapse eventually
+
+        9.6.1. Even_Command_5636: You know so much!
+
+            9.6.1.1. Non-mon-xiety: Yes I do!
+
+                9.6.1.1.1. Even_Command_5636: Okay, then tell me the lottery numbers for next Saturday. But please send them as a private message!  Thanks in advance.
+
+    9.7. guanzo91: Clanker
+
+10. Upstairs-Category-39: I've filed my refund request. I'll probably grab a Codex and Opencode Go sub and work from those. It would have been livable, but with the cache hit increases being so large I can't see any reason to stay.  Shame really, I suppose I'll still use flash through Opencode Go but the majority of my work will probably be Luna from here on out
+
+    10.1. GetLaidOff69: GREED destroys. No one is gonna pay $4 per million for DeepSeek V4 pro, when there are better models like Qwen 3.8, Grok 4.6 in similar price range, or $20 cursor/codex subscription.
+
+        10.1.1. advancedalias: Greed? The old pricing was already an extended 75% discount when Preview released, I’m not sure why people are so surprised by this
+
+            10.1.1.1. GetLaidOff69: A lot of providers said they were able to maintain the same cost that Deepseek charging for their models. also DeepSeek has stated that they make around 6x profit.  Devs don't pick DeepSeek because it is simply the best, rather it is the most cost effective model. Now if they raise the cost 1100%, then there is no point. You better get Codex $20 and use Luna for entire month, much better and and very high usage limit for Luna plus 5-6 resets per month
+
+                10.1.1.1.1. advancedalias: Not that I don’t believe you, but do you have a source of DeepSeek saying they’re making 6x off developing and running their models at their current pricing? I thought the entire AI Industry was losing a lot of cash and is very subsidized.  I’m wondering what credible source you’ve read that from
+
+                10.1.1.1.2. lcy0x1: There is a ban on GPU export to China. DeepSeek needs GPU for training and want to kick out users once they get enough data to train on
+
+                10.1.1.1.3. lakimens: So where are these providers you're mentioning?
+
+                10.1.1.1.4. MaterialSuspect8286: Those providers didn't spend billions of dollars developing the model though
+
+        10.1.2. x11iyu: kind of tangent, but I don't think I've ever seen anyone using grok unironically; is it actually good now?
+
+            10.1.2.1. GetLaidOff69: Yes good enough, specially 4.5+ So is Muse Spark 1.2 very similar level. better than DeepSeek V4
+
+                10.1.2.1.1. Fickle-Direction-679: Nah grok 4.5 is the worst model i have ever used. Even Composer has better context retention.
+
+                10.1.2.1.2. x11iyu: ah I see, 4.6 just released yesterday. we sure are getting lots of beeg models recently huh, now I think about it
+
+11. Optimal_Deal4372: At this point $20 will gone very quickly compare with chatgpt with $20 plan i still can get decent usage with sol as planner and luna max for implementing. Time to move now.
+
+12. neOwx: It's sad, but what alternatives are offering better cost/performance ratio?
+
+    12.1. MyZeReddit: Luna, GLM trough open router? And Codex/Claude/Grok subs are better value now overall
+
+        12.1.1. Usef-: Yeah, Luna with a sub is crazy good value. Cheaper than raw api price, which was already cheap.
+
+            12.1.1.1. BeginningPea5674: it won't stay that way is everyone wastes it
+
+            12.1.1.2. RajdipDutta: Does codex subscription provide luna as a model? Which subscription package are you using?
+
+                12.1.1.2.1. Usef-: Yes, Luna, Terra and Sol. I'm just in the $20 one but it gives quite a lot of luna (especially since they keep resetting quota). Sol uses quota quickly though.. but even there I get far, far more than $20 (10x?)
+
+            12.1.1.3. yonsy_s_p: DS Flash is roughly equivalent to Luna, DS pro is Terra level...
+
+    12.2. pizzababa21: Mimo
+
+        12.2.1. Jazzlike_Bee_3129: Yes, mimo can be as good or better than deepseek
+
+    12.3. vacon04: Cursor will give you a lot more usage. Current Luna with Codex will also give you more. GLM 5.2 is on a discount pretty much everywhere, you can find cheaper prices than off-peak pro offered by some providers. There are others like Muse that have competitive prices.
+
+        12.3.1. adamant3143: Cursor Auto mode is basically unlimited, it’s crazy. For $16/mo (Annual Plan). The most generous out there.
+
+            12.3.1.1. vacon04: Yep, Cursor with Grok and Composer 2.5 is very strong. Both are much more biased towards using an engineering approach to be fair, so users that want a friendly LLM may struggle more with them. Codex Plus with Luna is good too nowadays, but Sol uses too many tokens and the limits are constantly changing. Cursor plans seem to be more stable.
+
+    12.4. BeginningPea5674: the alternative is to use those scarce resources and services reasonably and responsibly  no more GTA6/Minecraft clones for clout , or there won't any good value anywhere
+
+    12.5. jarislinus: Luna mogs
+
+    12.6. DirectPitch8626: Opencode go
+
+13. Abject-Bridge-4073: Suddenly I don’t feel so dumb for buying 2 Asus GX10s (DGX Spark basically but cheaper) to run DS4 Flash.
+
+    13.1. FaithlessnessAny5973: If that's your intent, Its not exactly smart :P how many tokens before break even counting electricity bill + investment?  But alot of fun, whats your TPS with these?
+
+        13.1.1. magicomiralles: The thing is that when you self host, you start using tokens for everything. No task is too small or too stupid. You end up using millions.
+
+            13.1.1.1. PhysicallyTender: And add to that, the flexibility of switching to another open source model.
+
+            13.1.1.2. Abject-Bridge-4073: This guy gets it. That’s exactly right. I literally run prompts 24:7 overnight.
+
+                13.1.1.2.1. fyndor: And you better keep doing that for 3 yrs straight.  I want to justify it to myself, but I just can’t. If I was running a biz and had a profit motive I would. But I’m not.
+
+                13.1.1.2.2. mythormedicine: I am soo interested in this. But in my current coding tasks I have to do a lot of hand holding. Otherwise the AI results just aren't there. they are 80-90% there. But the missing one can ruin quality long term  How r u guys doing it ? and to build what ?
+
+            13.1.1.3. Cute_Ad_8006: https://tenor.com/bZmwx.gif
+
+            13.1.1.4. FaithlessnessAny5973: I've always had access to models via subscription or apis where the cost has been low enough for doing anything.
+
+        13.1.2. yoltlabsgr: Both machines together at full usage give an average of 500watts the true average including idle time would sit at about 0.3wh x24 ~= 7.5wh per day. Here in Greece for example that would mean about 1- 1.5 euro per day of electricity... At a speed of 50-60 tks/s for the full model per user for up to 6-8 concurrent users. I believe if you actually do heavy usage for development and assistants like Hermes daily then the ROI would happen in less than a year compared to the pricing increases...
+
+            13.1.2.1. Abject-Bridge-4073: That is completely wrong. Each box practically draws 50 watts or so with 3 parallel agents going at it. 100 watts total. That’s nothing. I’ve had it for 2 weeks and it’s been 7kwh so far. And I’ve been using it almost non stop with overnight jobs. I also have solar so it’s basically free for me. But yes not everyone has solar. Still I have no idea where you got the 500W number from.
+
+                13.1.2.1.1. ApolloPS2: You are talking real world use. He is talking max TDP being I think 240W which isn't real world use (that's if all connectors are maxed out fully).
+
+        13.1.3. wheresabel: Don’t make sense the man’s gotta buy gadgets
+
+            13.1.3.1. FaithlessnessAny5973: I mean, if I had tons of money to spend on toys I probably would own at least one equivalent.
+
+        13.1.4. Abject-Bridge-4073: With one agent, around 60 tokens per second with 256K context. 50 with 1M. Parallel, I usually run 3 agents for different tasks and I get 80-90. The most I’ve seen was 120 with 8 parallel agents.
+
+        13.1.5. truncated_buttfu: https://c.tenor.com/HU1xTewuSZoAAAAC/tenor.gif
+
+        13.1.6. Abject-Bridge-4073: I have solar, the electricity is basically free because I overproduce.
+
+    13.2. RealBeardedParrott: The API is still cheaper than your setup
+
+        13.2.1. Abject-Bridge-4073: Yes. Not the point tho.
+
+    13.3. Deep90: They'd have to increase prices a lot more or release a much smarter model to justify spending a minimum of 8k on hardware.  The whole advantage of DeepSeek is price.
+
+        13.3.1. Abject-Bridge-4073: I was being facetious. It’s not really why I got it. There’s something about completely owning the setup, fully offline. Not really about cost.
+
+    13.4. ambassadortim: Nice
+
+    13.5. Numerous-Push-1708: Luckily, my 2nd GX10 arrived just after 0731 release. Been running for about 10 days non-stop. So far quite good. Before with single spark, 122b review, 27b daily driver (super slow with fp8, nvfp4 got loops😭 ) , Claude for urgent tasks and plans (approx 200$ monthly).  So far only 30$ Claude for half month. Ds4 flash 0731 main driver, delivers higher quality code vs 27b.
+
+    13.6. celtiberian666: Its cheaper to just use other providers... You're not locked to DS API.
+
+        13.6.1. Abject-Bridge-4073: Price increases will follow across the board.
+
+            13.6.1.1. celtiberian666: Why would they? DS was already only third place in token share (openrouter) for V4 Flash even before the price hike. There is plenty of capacity to absorve all the DS servers demand without any hiccup or price increase. They were alerady lower than DS official price before.
+
+    13.7. theautomationguy: Agreed. I’ve been thinking of doing the same and this just might make it easier to decide.
+
+        13.7.1. Swimming-Chip9582: Definitely don't buy it if your use case is general software development lol
+
+            13.7.1.1. theautomationguy: It’s not the primary use case, I’ve been wanting to dabble in local for privacy reasons. I’m still not 100% convinced as it’s a lot of money.
+
+            13.7.1.2. Abject-Bridge-4073: Why?
+
+                13.7.1.2.1. Swimming-Chip9582: Wrong tool for the job, simply doesn't make sense. Beyond shittier experience, much slower & buggy, overhead, economically takes like 6 years to break even - not even accounting for model & pricing changes, which have been improving consistently.  Local is great for when you need 1. Privacy for PII or other confidential information 2. Absolute Control, for me that's in academic research, because you can't really trust them otherwise. Though... might actually be better for me if I just cloud rented lol..
+
+14. Readerium: Roughly 4-5X cost now effectively.
+
+15. Sittazhpp: Hope third party providers dont follow
+
+    15.1. ZlatanKabuto: Hahahahha   That's a good one
+
+16. Cold_Tree190: For those wondering, 01:00-04:00 UTC is 9:00 PM to 12:00 AM EST and 06:00-10:00 UTC is 2:00 AM to 6:00 AM EST. So for the vast majority of the US, you’ll be within the off-peak range.
+
+    16.1. scaledev: Europe too. Is this for Asian countries mostly?
+
+        16.1.1. SergioGustavo: Well, don't trying to be "that guy", but during Asian peak hours that is when most of the ppl in the world is working, population wise.
+
+            16.1.1.1. scaledev: You're right. We tend to forget this. After some exploration I realized that, when it is 2:00 PM in Beijing (UTC+8), it is 11:30 AM in New Delhi, 1:00 PM in Jakarta, and 8:00 AM in Western Europe/Moscow.  In this specific window, the single largest concentration of the global workforce is active at the exact same time.  At the same time, New York is at 2:00 AM EDT and Los Angeles is at 11:00 PM PDT the previous night.
+
+    16.2. Impressive_Army3767: Do you seriously think anyone using deepseek API can't figure out UTC?
+
+        16.2.1. Cold_Tree190: You are seriously getting angry over someone converting UTC to another timezone for the convenience of others? Lmao, what a sad life you live.  If you want to go Google the UTC conversion yourself or happen to know your timezone’s UTC Z(+/-), then good for you! Not everyone knows their conversion off the top of their head, why not save people a trip to Google?
+
+            16.2.1.1. SammuroFruitVendor: It was very helpful for me. Sucks as an evening/late night writer though
+
+            16.2.1.2. Impressive_Army3767: The Earth is round(ish) and there's dozens of timezones.  Hell, there's even 6 in the USA so who's the post actually helping?  Maybe I should convert to LHST?  Nobody who's spent more than a week writing software or network configs doesn't know about UTC.
+
+                16.2.1.2.1. Cold_Tree190: It doesn’t seem like you are from the US so maybe it is weird to you, but in the tech industry here US we operate using UTC >> ET conversions. Major global saas company, top 15 largest companies in the world. Even outside of just the tech industry, is a very very common occurrence in the US to convert times into US-East’s timezone, and this has been a thing really since the advent of cable TV news channels, since they are all based in New York. Even if you don’t live in the eastern timezone, you will still see the eastern clock + its conversion into your specific timezone. I guess it is a cultural thing.  TLDR because I don’t care enough to explain further, I did something commonly done across the US, you for some reason are the only person who took exception to it. You seem like a genuinely miserable and bitter person, but I wish you all the best man.
+
+17. Forti22: I used v4 flash in my mobile app for AI features. The price to quality was perfecto.  Now, Im slowly moving to Luna. The quality is much better often, and now the prices are basically similar.  Luna is cheaper in peak hours.
+
+18. Forsaken_Mention_979: Gpt Luna here we come 😂 if they think were loyal to an ai just because it was good while it lasted, they are very wrong lol. We move to where the best value is. Theyre about to loose a looot of money
+
+    18.1. Durian881: Good thing Deepseek got OpenAI to reduce prices. Hope OpenAI doesn't adjust it.
+
+        18.1.1. DeepTimeFinch: Oh they very much will exactly do that
+
+            18.1.1.1. IAMA_MOTHER_AMA: you think they raise the price or adjust the usage amount of their codex sub too?
+
+                18.1.1.1.1. Fastpas123: Both
+
+        18.1.2. scaledev: OpenAI is like a hawk: they see everything and they adjust with the times. But they listen to users, which is good.
+
+        18.1.3. jerrygreenest1: They will definitely adjust. Lol.  This is CommercialClosedAI not the Open AI.
+
+    18.2. kabeza: how much is GPT Luna?
+
+    18.3. yonsy_s_p: Luna -> DS4 Flash  Terra -> DS4 Pro  This give a more complete idea about actual performance and equivalence.
+
+19. bakanoace: I dont understand, did someone tell them they are morons for selling for less when they can get more profits or something? Didnt they announce that they were still making more than 6 times their cost or something? Or was that a different company
+
+    19.1. DanteVermillyon: Basically after v4 flash their traffick skyrocketed
+
+    19.2. unity100: They took on investors. Then the investors f*cked everything,.
+
+        19.2.1. lcy0x1: DeepSeek doesn’t care about investors. But they do need to use GPUs for training. Without the price hike all their GPUs are used up by huge traffic.  OpenCode said they can reproduce DeepSeek’s price. Let’s hope other providers can sell DS tokens with old price
+
+            19.2.1.1. unity100: DeepSeek doesn’t care about investors  It doesnt work that way. When you get investor money, they talk.
+
+                19.2.1.1.1. lcy0x1: Liang has a money printing machine (quantum company that has access to unregulated Chinese stock market) and is the major investor of DS. He set the rules so that none of the investors of DS has any say in the company, which is unimaginable in any other company.
+
+                19.2.1.1.2. Efficient_Ad_4162: And when the CCP sets a direction the investors can get fucked. I'm tired of people talking like AI isn't a strategic asset.
+
+            19.2.1.2. sukazu: Yeah but have you seen glm 5.2 on opencode go vs api ? I have zero trust that "reproduce DeepSeek's price" will be at full quality
+
+        19.2.2. Mechanical_Monk: Tale as old as time. Song as old as rhyme.
+
+        19.2.3. kantaxo: i hate investors
+
+    19.3. BeginningPea5674: probably sick of people prompting it for GTA6 and Minecraft clones
+
+        19.3.1. MapacheD: deepseek say taiwan
+
+20. EmperorSheep: Bye DeepSeek. Not good enough for that price.
+
+21. Business_Raisin_541: Well GPU hardware price increase 400% so.......
+
+22. FriendlyUser_: not using it anymore. This is insane and im living in central europe. Money is there but also there are cheaper competitors out there now. I do not want to waste my money.
+
+23. Thunjaya: Holeeeshit!
+
+24. Turbulent-Ad4371: Noob question... if it's open weight.. is there a chance that other providers can provide it cheaper than this?
+
+    24.1. Mr_Cursedd: many third-party providers already stated that they can be profitable with the current deepseak api prices(before significant price increase)
+
+        24.1.1. Turbulent-Ad4371: Then i don't know why everyone's crying...
+
+            24.1.1.1. CupSure9806: They will probably increase it too
+
+                24.1.1.1.1. 3lysi-um: But probably not as much, right?
+
+        24.1.2. sdexca: name one other than OC.
+
+25. NearbyNeck9086: Honestly, I don't see the benefit anymore.  I expected a price increase, but not like this. It's absurd. Completely out of touch with reality.
+
+26. ipresscenter: Seriously, Kimi, Grok, GLM, QWEN 3.8 are amazing, DeepSeek was good when it was cheap. I don't think that anyone is going to pay for DS that much.
+
+27. TheInfiniteUniverse_: What a terrible move. These guys are masters of making bad decisions. I mean is it greed? why?
+
+28. totoer008: I will simply shift to Luna. It is simple. I would love to give DS money but such increases are not warranted.
+
+    28.1. kabeza: How much is Luna and which OpenAI plan do you have to subscribe?
+
+    28.2. Sea_Anteater_3270: Is Luna cheaper
+
+29. akius0: All this for a model that isn't even multi-modal... DS 🦆ed up
+
+    29.1. lordlestar: yep, the appealing was the price-quality, visual reasoning is important for my workflow, but the price-quality worth the sacrifice for most tasks, but now, there are better alternative like luna.
+
+30. GeertzUK: Are opencode go and command code increasing their pricing in line with this?
+
+    30.1. Atagor: I'm also curious...
+
+31. mordin1428: Damn. Just when I was about to buy the api too…
+
+    31.1. riddymon: I just paid for it a week ago - was so happy that it was cheap...and it's gone.
+
+32. Plus_Piano5965: What??? I just top up my API account…. 😥
+
+    32.1. Extension_Diamond267: You can refund, its in the billing menu if i remember. Or in FAQ
+
+33. Funny-Anything-791: Poolside Laguna S 2.1 is the reasonable alternative now
+

@@ -1,0 +1,83 @@
+{
+  "id": "40703400",
+  "url": "https://www.freelancer.pl/projects/android-app-development/Complete-Launch-Existing-React-Native/details",
+  "title": "Complete & Launch Existing React Native / Expo Driver App",
+  "author": "Anonim",
+  "budget": "450.0 - 1000.0 GBP",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.802339",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703400",
+    "url": "https://www.freelancer.pl/projects/android-app-development/Complete-Launch-Existing-React-Native/details",
+    "seo_url": "android-app-development/Complete-Launch-Existing-React-Native",
+    "title": "Complete & Launch Existing React Native / Expo Driver App",
+    "budget": "450.0 - 1000.0 GBP",
+    "budget_raw": {
+      "minimum": 450.0,
+      "maximum": 1000.0
+    },
+    "currency": "GBP",
+    "author": "Anonim",
+    "short_desc": "We are looking for an experienced React Native / Expo developer to take an existing mobile applicati",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "Mobile App Development",
+      "User Interface / IA",
+      "PostgreSQL",
+      "Typescript",
+      "Backend Development",
+      "React Native",
+      "Android App Development",
+      "API Integration",
+      "Expo",
+      "Supabase"
+    ],
+    "bid_stats": {
+      "bid_count": 98,
+      "bid_avg": 871.0918367346939
+    },
+    "local": false,
+    "time_submitted": 1789051656
+  },
+  "full_details": {
+    "id": "40703400",
+    "title": "Complete & Launch Existing React Native / Expo Driver App",
+    "full_description": "We are looking for an experienced React Native / Expo developer to take an existing mobile application prototype through to a fully functional, production-ready launch.\nThe application is an internal driver onboarding, training and support platform for a UK transport business.\nThe app has already been substantially designed and built. An existing React Native / Expo codebase and working front-end prototype are available. Example screenshots are attached to demonstrate the current design and functionality.\nWe are NOT looking for the application to be redesigned or rebuilt from scratch.\nThe successful developer will be responsible for taking the existing build and completing the technical/backend functionality required to make it a real working application.\nScope of work\nThe project is expected to include:\n- Review and tidy the existing React Native / Expo codebase\n- Retain and refine the existing UI/UX and responsive design\n- Apply/finalise company branding and assets\n- Set up a secure production backend/database\n- User registration, login and authentication\n- Driver activation/account functionality\n- Connect existing screens and workflows to live backend data\n- Training modules including video/content delivery\n- Track training progress and completion\n- Onboarding progress/status tracking\n- Basic assessments/tests and completion logic\n- Driver profile/account functionality\n- Driver support/query functionality\n- Notifications/updates functionality\n- Basic admin functionality for our internal team\n- Allow administrators to manage users, training/content and relevant statuses\n- Appropriate document/content storage\n- Testing, bug fixing and production hardening\n- Build the final Android application\n- Assist with Google Play deployment\n- Configure the required production environment\n- Provide documentation and handover on completion\nSupabase or a similar cost-effective backend solution is preferred, although we are open to recommendations from an experienced developer.\nExisting Build\nThe attached screenshots are examples from the existing prototype.\nA much more detailed specification and access to the existing codebase will be provided only to the selected/shortlisted developer.\nThe final application should closely follow the existing design rather than being replaced with a generic template.\nOwnership\nThis is important.\nAll development completed under this project must become the exclusive property of our company.\nThe company must retain full ownership and administrative access to:\n- Source code\n- GitHub/repository\n- Backend\n- Database\n- Hosting\n- Developer accounts\n- Build/deployment accounts\n- Application assets\n- Documentation\nThe developer must not retain ownership or dependency over any part of the finished system.\nWhen Bidding\nPlease include:\n1. Your fixed-price estimate for completing the project\n2. Estimated timeframe\n3. Examples of React Native / Expo applications you have built\n4. Your experience with Supabase/Firebase or similar backends\n5. Your experience deploying Android applications to Google Play\n6. Whether you will personally complete the work or use a team\n7. A short explanation of how you would approach taking an existing prototype through to production\nPlease do not submit a generic proposal. We are specifically looking for someone comfortable inheriting and completing an existing React Native / Expo project.\nThere is potential for ongoing paid development and maintenance work following successful completion.",
+    "budget_raw": {
+      "minimum": 450.0,
+      "maximum": 1000.0
+    },
+    "currency": "GBP",
+    "project_type": "fixed",
+    "jobs": [
+      "Mobile App Development",
+      "User Interface / IA",
+      "PostgreSQL",
+      "Typescript",
+      "Backend Development",
+      "React Native",
+      "Android App Development",
+      "API Integration",
+      "Expo",
+      "Supabase"
+    ],
+    "bid_stats": {
+      "bid_count": 98,
+      "bid_avg": 871.0918367346939
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:40"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:40.374613"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "40703302",
+  "url": "https://www.freelancer.pl/projects/data-management/Monthly-Expense-Data-Entry-Excel/details",
+  "title": "Monthly Expense Data Entry (Excel)",
+  "author": "Anonim",
+  "budget": "12500.0 - 37500.0 INR",
+  "category": "scraping-dane",
+  "detected_at": "2026-09-10T17:28:39.000672",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703302",
+    "url": "https://www.freelancer.pl/projects/data-management/Monthly-Expense-Data-Entry-Excel/details",
+    "seo_url": "data-management/Monthly-Expense-Data-Entry-Excel",
+    "title": "Monthly Expense Data Entry (Excel)",
+    "budget": "12500.0 - 37500.0 INR",
+    "budget_raw": {
+      "minimum": 12500.0,
+      "maximum": 37500.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I need my monthly operating expenses entered into Excel exactly the way they appear in my source doc",
+    "category": "scraping-dane",
+    "project_type": "fixed",
+    "jobs": [
+      "Visual Basic",
+      "Data Processing",
+      "Data Entry",
+      "Accounting",
+      "Excel",
+      "Data Visualization",
+      "Data Analysis",
+      "Data Management"
+    ],
+    "bid_stats": {
+      "bid_count": 18,
+      "bid_avg": 17024.382777777777
+    },
+    "local": false,
+    "time_submitted": 1789048528
+  },
+  "full_details": {
+    "id": "40703302",
+    "title": "Monthly Expense Data Entry (Excel)",
+    "full_description": "I need my monthly operating expenses entered into Excel exactly the way they appear in my source documents. I already have a past workbook that shows the formatting and formulas I like, so you can use that file as your visual guide while building this month’s sheet from scratch.\n\nWhat matters most to me is absolute accuracy—every value must sit in the correct column, each subtotal should calculate automatically, and the final balance line has to reconcile with the source numbers. If you notice any pattern that could be automated with simple functions or conditional formatting, feel free to implement it as long as the layout matches the example.\n\nOnce you finish, send back the completed .xlsx file and a quick note confirming that the totals tie out to the originals.",
+    "budget_raw": {
+      "minimum": 12500.0,
+      "maximum": 37500.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "Visual Basic",
+      "Data Processing",
+      "Data Entry",
+      "Accounting",
+      "Excel",
+      "Data Visualization",
+      "Data Analysis",
+      "Data Management"
+    ],
+    "bid_stats": {
+      "bid_count": 18,
+      "bid_avg": 17024.382777777777
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:54"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:54.146509"
+}

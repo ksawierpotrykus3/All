@@ -1,0 +1,23 @@
+{
+  "tytul": "Dowod: weryfikacja fingerprintu TLS (JA3/JA4/Akamai) Firefox 152 vs curl_cffi",
+  "data_testu": "2026-09-04",
+  "co_testowano": "Czy config.py odtwarza prawdziwy fingerprint FF152",
+  "firefox_realny": {
+    "ja3_hash": "6447ab086255d194909d4013b1a89e87",
+    "ja4": "t13d1617h2_86a278354501_3cbfd9057e0d",
+    "akamai_hash": "6ea73faa8fc5aac76bded7bd238f6433",
+    "wersja": "v152.0.4-beta.29"
+  },
+  "curl_cffi_wyniki": {
+    "wariant_z_sigalgs": {
+      "matched_ja3": true,
+      "matched_ja4": true,
+      "matched_akamai": true
+    }
+  },
+  "wniosek": "KONFIGURACJA POPRAWNA - JA3/JA4/Akamai 100% match z prawdziwym FF152. session blocked to IP/adblock, nie TLS.",
+  "zrodla": [
+    "spike_ja3_firefox152.py",
+    "spike_curl_cffi_firefox152.py"
+  ]
+}

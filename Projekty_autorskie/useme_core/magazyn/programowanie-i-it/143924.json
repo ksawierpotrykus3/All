@@ -1,0 +1,44 @@
+{
+  "id": "143924",
+  "url": "https://useme.com/pl/jobs/moodle-konfiguracja-i-automatyzacja-przydzielania-ankiet,143924/",
+  "title": "Moodle — konfiguracja i automatyzacja przydzielania ankiet",
+  "author": "Anonim",
+  "budget": "8100,00 PLN",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-08T18:26:26.899194",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "143924",
+    "url": "https://useme.com/pl/jobs/moodle-konfiguracja-i-automatyzacja-przydzielania-ankiet,143924/",
+    "title": "Moodle — konfiguracja i automatyzacja przydzielania ankiet",
+    "budget": "8100,00 PLN",
+    "author": "Anonim",
+    "short_desc": "Zlecę wdrożenie w Moodle narzędzia do jednoczesnego przydzielania uczestnikom ankiet według zadanego klucza oraz sterowania ich dostępnością przez prowadzącego.\n\nWymagane funkcjonalności:\n\n* Pobieranie listy uczestników z kursu Moodle.\n*...",
+    "category": "programowanie-i-it"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/moodle-konfiguracja-i-automatyzacja-przydzielania-ankiet,143924/",
+    "title": "Moodle — konfiguracja i automatyzacja przydzielania ankiet",
+    "full_description": "<p>Zlecę wdrożenie w Moodle narzędzia do jednoczesnego przydzielania uczestnikom ankiet według zadanego klucza oraz sterowania ich dostępnością przez prowadzącego.</p>\n\n<p>Wymagane funkcjonalności:</p>\n\n<p>* Pobieranie listy uczestników z kursu Moodle.<br>* Jednoczesne przydzielanie uczestnikom właściwych ankiet według klucza określającego przydziały w kolejnych rundach.<br>* Uruchamianie jednym kliknięciem ankiet wszystkim przypisanym uczestnikom oraz zamykanie rundy i uruchamianie następnej według klucza.<br>* Automatyczne wyświetlanie aktywnej ankiety w otwartej przeglądarce na telefonie, bez ręcznego odświeżania.<br>* Wybór pytań przez wskazanego uczestnika z zamkniętej listy kilkudziesięciu numerowanych pytań. Po zatwierdzeniu wyboru system udostępnia kolejnym uczestnikom ankiety zawierające wyłącznie wybrane pytania, zgodnie z kluczem przydziału.<br>* Bieżący zapis odpowiedzi i blokada ich dodawania oraz edycji po zamknięciu rundy.<br>* Eksport wyników do Excela z identyfikacją uczestnika, rundy, ankiety i numeru pytania.</p>\n\n<p>Preferowane pobieranie klucza przydziału oraz bazy pytań z pliku Excel, umożliwiające ich aktualizację bez zmian w kodzie.</p>\n\n<p>Zlecenie obejmuje wdrożenie, testy, instrukcję oraz szkolenie prowadzących. Preferowane wykorzystanie istniejących funkcji i rozszerzeń Moodle; dopuszczalne wykonanie potrzebnego rozszerzenia bez modyfikowania plików systemowych Moodle.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/143924/offer/start/",
+    "scraped_at": "2026-09-10T16:02:22"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu. Działamy bezpośrednio, a Moodle i customowe pluginy to nasza specjalność. Robiliśmy już rozszerzenia do quizów i dobrze wiemy, gdzie kończą się natywne mechanizmy Moodle.\n\nTo, co opisujesz, to nie kwestia konfiguracji. Standardowe funkcje Moodle pokrywają może połowę zakresu, reszta wymaga własnego pluginu.\n\nPo kolei. Pobranie uczestników i tworzenie quizów to nie problem, jest do tego API (core_enrol_get_enrolled_users, mod_quiz_get_user_attempts). Automatyczne przydzielanie quizów według klucza z Excela też da się zrobić, ale zależy od wersji Moodle. Od 4.3+ są web services do overrides (mod_quiz_save_overrides), na starszych wersjach trzeba napisać własny endpoint. To sprawdzimy na starcie, bo determinuje zakres.\n\nPrawdziwe wyzwania są trzy. Pierwsze: dynamiczny wybór pytań przez uczestnika z zamkniętej listy i propagacja tego wyboru do kolejnych uczestników zgodnie z kluczem. Tego Moodle nie ma w żadnej wersji. Trzeba napisać logikę, która nasłuchuje akceptacji wyboru i generuje quizy per runda. Drugie: automatyczne odświeżanie aktywnej ankiety na telefonie bez ręcznego odświeżania. Istnieje plugin quizaccess_activateattempt, ale on pokazuje tylko przycisk startu, nie przeładuje aktywnej ankiety. Potrzebny jest dedykowany JavaScript z timerem. Trzecie: blokada edycji odpowiedzi po zamknięciu rundy. Moodle blokuje nowe próby po dacie zamknięcia, ale nie wymusza zakończenia już otwartych prób. To musi być custom logika oparta na eventach lub cronie.\n\nDo tego eksport do Excela. Natywny eksport zwraca odpowiedzi, ale bez metadanych rundy, ankiety i numeru pytania. Trzeba go rozszerzyć albo zrobić własny raport.\n\nCałość zamkniemy w pluginach (local, quizaccess, mod) bez modyfikacji plików systemowych Moodle, tak jak wymagasz. Klucz i baza pytań będą ładowane z Excela, więc aktualizacje bez zmian w kodzie.\n\nZa wdrożenie, testy, instrukcję i szkolenie prowadzących liczymy 7000 zł. Realizacja w 17 dni.\n\nZdzwońmy się w tym tygodniu na 15 minut, dopytam o wersję Moodle i istniejące pluginy, to nam poukłada zakres.\n\nPozdrawiam",
+    "wycena": 7000,
+    "dni": 17,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "143924",
+    "wycena": 7000,
+    "dni": 17,
+    "final_url": "https://useme.com/pl/jobs/143924/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_143924.png",
+    "message": "Oferta #143924 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/143924/offer/finish/)."
+  },
+  "full_description": "<p>Zlecę wdrożenie w Moodle narzędzia do jednoczesnego przydzielania uczestnikom ankiet według zadanego klucza oraz sterowania ich dostępnością przez prowadzącego.</p>\n\n<p>Wymagane funkcjonalności:</p>\n\n<p>* Pobieranie listy uczestników z kursu Moodle.<br>* Jednoczesne przydzielanie uczestnikom właściwych ankiet według klucza określającego przydziały w kolejnych rundach.<br>* Uruchamianie jednym kliknięciem ankiet wszystkim przypisanym uczestnikom oraz zamykanie rundy i uruchamianie następnej według klucza.<br>* Automatyczne wyświetlanie aktywnej ankiety w otwartej przeglądarce na telefonie, bez ręcznego odświeżania.<br>* Wybór pytań przez wskazanego uczestnika z zamkniętej listy kilkudziesięciu numerowanych pytań. Po zatwierdzeniu wyboru system udostępnia kolejnym uczestnikom ankiety zawierające wyłącznie wybrane pytania, zgodnie z kluczem przydziału.<br>* Bieżący zapis odpowiedzi i blokada ich dodawania oraz edycji po zamknięciu rundy.<br>* Eksport wyników do Excela z identyfikacją uczestnika, rundy, ankiety i numeru pytania.</p>\n\n<p>Preferowane pobieranie klucza przydziału oraz bazy pytań z pliku Excel, umożliwiające ich aktualizację bez zmian w kodzie.</p>\n\n<p>Zlecenie obejmuje wdrożenie, testy, instrukcję oraz szkolenie prowadzących. Preferowane wykorzystanie istniejących funkcji i rozszerzeń Moodle; dopuszczalne wykonanie potrzebnego rozszerzenia bez modyfikowania plików systemowych Moodle.</p>",
+  "updated_at": "2026-09-10T16:09:47.490671"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "40702986",
+  "url": "https://www.freelancer.pl/projects/rest-api/WooCommerce-Warenkorb-Support-Funktion/details",
+  "title": "WooCommerce Warenkorb-Support Funktion",
+  "author": "Anonim",
+  "budget": "250.0 - 750.0 EUR",
+  "category": "sklepy-shopify",
+  "detected_at": "2026-09-10T17:28:38.980960",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40702986",
+    "url": "https://www.freelancer.pl/projects/rest-api/WooCommerce-Warenkorb-Support-Funktion/details",
+    "seo_url": "rest-api/WooCommerce-Warenkorb-Support-Funktion",
+    "title": "WooCommerce Warenkorb-Support Funktion",
+    "budget": "250.0 - 750.0 EUR",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "EUR",
+    "author": "Anonim",
+    "short_desc": "Ich möchte in WooCommerce eine saubere Möglichkeit schaffen, damit unser Support‐Team live in den Wa",
+    "category": "sklepy-shopify",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "WordPress",
+      "HTML",
+      "WooCommerce",
+      "Web Development",
+      "Web Application",
+      "REST API",
+      "WordPress Plugin"
+    ],
+    "bid_stats": {
+      "bid_count": 153,
+      "bid_avg": 385.73202614379085
+    },
+    "local": false,
+    "time_submitted": 1789038271
+  },
+  "full_details": {
+    "id": "40702986",
+    "title": "WooCommerce Warenkorb-Support Funktion",
+    "full_description": "Ich möchte in WooCommerce eine saubere Möglichkeit schaffen, damit unser Support‐Team live in den Warenkorb eines Kunden eingreifen kann – selbstverständlich DSGVO-konform.\n\nKernanforderungen  \n• Aktuellen Warenkorb eines identifizierten Kunden einsehen  \n• Positionen hinzufügen oder entfernen  \n• Mengen anpassen oder Alternativartikel einsetzen  \n• Rabatte sowie Gutscheincodes hinterlegen  \n• Alle Änderungen sollen für den Kunden sofort wirksam sein, damit er nahtlos weiterbestellen und den Checkout abschließen kann\n\nTechnischer Rahmen  \nMir ist wichtig, primär auf vorhandene WooCommerce-Funktionalitäten aufzubauen. Statt eines großen Eigen-Plugins genügt ein schlanker Ansatz, der Hooks, REST-API oder Admin-Endpoints nutzt und sich sauber in unser bestehendes System einfügt.\n\nErwartetes Ergebnis  \nEine klar dokumentierte Lösung (Code-Snippet oder Mini-Plugin) inklusive kurzer Anleitung, wie der Support den Warenkorb eines Kunden auswählt, bearbeitet und speichert. Testfälle oder Screenshots, die den Ablauf belegen, runden das Projekt ab.",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "EUR",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "WordPress",
+      "HTML",
+      "WooCommerce",
+      "Web Development",
+      "Web Application",
+      "REST API",
+      "WordPress Plugin"
+    ],
+    "bid_stats": {
+      "bid_count": 153,
+      "bid_avg": 385.73202614379085
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:53"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:53.305749"
+}

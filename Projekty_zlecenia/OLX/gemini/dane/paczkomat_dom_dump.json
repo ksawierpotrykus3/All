@@ -1,0 +1,402 @@
+[
+  {
+    "tag": "DIV",
+    "testId": null,
+    "className": "css-1p4gl9h",
+    "text": "Najbliższy punkt odbioruPołudniowa 8 | ParzęczewGodziny otwarcia:Pon. - Niedz.: ",
+    "role": null,
+    "id": "service-point-picker-after-map"
+  },
+  {
+    "tag": "UL",
+    "testId": null,
+    "className": "css-o1fmd5",
+    "text": "Południowa 8 | ParzęczewGodziny otwarcia:Pon. - Niedz.: Cały dzieńZachodnia 2 | ",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "LI",
+    "testId": null,
+    "className": "css-fzt7pm",
+    "text": "Południowa 8 | ParzęczewGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Południowa 8 | ParzęczewGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "SPAN",
+    "testId": null,
+    "className": "n-button-text-wrapper",
+    "text": "Południowa 8 | ParzęczewGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "SPAN",
+    "testId": null,
+    "className": "subtitle css-g8j1xy",
+    "text": "Południowa 8 | ParzęczewGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "SPAN",
+    "testId": null,
+    "className": "",
+    "text": "Południowa 8 | ParzęczewGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "LI",
+    "testId": null,
+    "className": "css-fzt7pm",
+    "text": "Zachodnia 2 | DalikówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Zachodnia 2 | DalikówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "SPAN",
+    "testId": null,
+    "className": "n-button-text-wrapper",
+    "text": "Zachodnia 2 | DalikówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "SPAN",
+    "testId": null,
+    "className": "subtitle css-g8j1xy",
+    "text": "Zachodnia 2 | DalikówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "SPAN",
+    "testId": null,
+    "className": "",
+    "text": "Zachodnia 2 | DalikówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "LI",
+    "testId": null,
+    "className": "css-fzt7pm",
+    "text": "Łęczycka 36 | ParzęczewGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Łęczycka 36 | ParzęczewGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "SPAN",
+    "testId": null,
+    "className": "n-button-text-wrapper",
+    "text": "Łęczycka 36 | ParzęczewGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "SPAN",
+    "testId": null,
+    "className": "subtitle css-g8j1xy",
+    "text": "Łęczycka 36 | ParzęczewGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "SPAN",
+    "testId": null,
+    "className": "",
+    "text": "Łęczycka 36 | ParzęczewGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Sobień 39 | SobieńGodziny otwarcia:Pon. - Sob.: 07:00 - 19:00",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Sobień 9 | SobieńGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Chociszew 45 | ChociszewGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Sucha Górna 2C | Sucha GórnaGodziny otwarcia:Pon. - Sob.: 06:00 - 20:00",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Leźnica Wielka-Osiedle 23 | Leźnica Wielka-OsiedleGodziny otwarcia:Pon. - Niedz.",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Solca Wielkia 47 | Solca WielkaGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Konstytucji 3 Maja 75A | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Adamówek 16 | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Lotnicza 5 | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Stary Gostków 30C | Stary GostkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Łęczycka 23 | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Konstytucji 3 Maja 17 | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Bełdów 62 | BełdówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Starzyńskiego 33 | OzorkówGodziny otwarcia:Pon. - Pt.: 10:00 - 18:00 Sob.: 10:00",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Listopadowa 8 | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Starzyńskiego 9H | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Plac Jana Pawła II 16/2 | OzorkówGodziny otwarcia:Pon. - Pt.: 10:00 - 18:00 Sob.",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Wyszńskiego 10 | OzorkówGodziny otwarcia:Pon. - Pt.: 10:00 - 18:00 Sob.: 10:00 -",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Wyszyńskiego 10 | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Cedrowice - Parcela 5A | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Ozorkowska 42 | GrotnikiGodziny otwarcia:Pon. - Sob.: 06:00 - 20:00 Niedz.: 09:0",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Ozorkowska 42 | GrotnikiGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Wyszyńskiego 30 | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Spółdzielcza 2 | WartkowiceGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Ustronie 7 | UstronieGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Nakielnica 36 | NakielnicaGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Leśna 1A | WartkowiceGodziny otwarcia:Pon. - Pt.: 09:00 - 18:00 Sob.: 09:00 - 14",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Zagajnikowa 18 | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Zgierska 98 | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Maszkowska 60 | OzorkówGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Zduny 21A | ZdunyGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Łęczycka b/n | PoddębiceGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  },
+  {
+    "tag": "BUTTON",
+    "testId": "map-list-item",
+    "className": "css-10zap9g",
+    "text": "Łęczycka 25 | PoddębiceGodziny otwarcia:Pon. - Niedz.: Cały dzień",
+    "role": null,
+    "id": ""
+  }
+]

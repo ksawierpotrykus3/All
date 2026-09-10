@@ -1,0 +1,1118 @@
+Programista do stworzenia strony + konfiguratora domów
+======================================================
+URL: https://useme.com/pl/jobs/programista-do-stworzenia-strony-konfiguratora-domow,143921/
+
+Zleceniodawca
+Scandicelements
+
+Opis
+Szukam programisty / freelancera do stworzenia nowoczesnej strony internetowej dla marki SCANDIC ELEMENTS – producenta domów szkieletowych w technologii skandynawskiej.
+
+Strona ma posiadać interaktywny konfigurator domu: wybór modelu, układu, standardu, elewacji, dachu, ogrzewania, wentylacji i dodatków, z dynamiczną zmianą wizualizacji domu, ceny oraz kalkulatorem finansowania.
+
+Zależy mi również na interaktywnej bryle domu 360° z możliwością zmiany wariantów.
+
+Mam już przygotowaną identyfikację marki, koncepcję graficzną strony, wizualizacje oraz szczegółowe założenia dla programisty, więc nie zaczynamy od zera.
+
+Szukam osoby, która zna się na nowoczesnych stronach webowych i chce podjąć się ciekawego projektu z możliwością dalszej, długoterminowej współpracy.
+
+Proszę o przesłanie portfolio, przykładowych realizacji, technologii w których pracujesz oraz orientacyjnej wyceny projektu.
+
+Opublikowano
+wczoraj
+
+Kategoria
+Strony internetowe
+
+Prawa autorskie
+Przeniesienie praw autorskich
+
+Budżet
+Do negocjacji
+
+Ważne przez
+30 dni
+
+Wymagane funkcje:
+WYMAGANE FUNKCJE:
+
+• Responsywna strona internetowa – komputer, tablet, telefon.
+
+• Konfigurator domu NORD:
+  – wybór modelu: NORD 35 / 70 / 90 / 110,
+  – wybór standardu,
+  – wybór konfiguracji przestrzennej,
+  – wybór układu parteru,
+  – wybór ogrzewania,
+  – wybór wentylacji,
+  – wybór elewacji,
+  – wybór dachu,
+  – wybór dodatków: taras, pergola, komin.
+
+• Interaktywna wizualizacja domu:
+  – możliwość obracania bryły 360°,
+  – możliwość oglądania elewacji i dachu,
+  – bryła domu zmienia się w zależności od wybranych parametrów,
+  – zmiana kolorów i wariantów elewacji,
+  – zmiana wariantu dachu,
+  – wizualizacja ma być spójna z przygotowaną identyfikacją SCANDIC ELEMENTS.
+
+• Dynamiczne wyliczanie ceny domu w zależności od konfiguracji.
+
+• Kalkulator finansowania:
+  – cena całkowita,
+  – możliwość ustawienia wpłaty własnej suwakiem,
+  – możliwość wyboru okresu finansowania,
+  – wyświetlanie kwoty finansowania,
+  – wyświetlanie orientacyjnej miesięcznej raty.
+
+• Formularz kontaktowy / pozyskanie zapytania od klienta.
+
+• Możliwość późniejszej edycji przez administratora:
+  – cen,
+  – dostępnych opcji,
+  – parametrów konfiguratora,
+  – dostępności poszczególnych wariantów.
+
+Posiadam już gotową koncepcję graficzną strony, wizualizacje oraz szczegółową dokumentację funkcjonalną konfiguratora. Materiały mogę udostępnić wykonawcy po kontakcie.
+
+Preferowane rozwiązanie:
+PREFEROWANE ROZWIĄZANIA:
+
+Preferuję nowoczesne, stabilne i łatwe do dalszego rozwijania rozwiązanie.
+
+Nie narzucam konkretnego języka ani frameworka – oczekuję od wykonawcy propozycji technologii odpowiedniej do realizacji interaktywnego konfiguratora i wizualizacji 3D/360°.
+
+Strona powinna być:
+• szybka i responsywna,
+• dobrze działająca na telefonach i komputerach,
+• przygotowana z myślą o dalszej rozbudowie,
+• łatwa do późniejszej administracji i zmiany cen/opcji konfiguratora,
+• zoptymalizowana pod SEO i szybkość działania.
+
+Konfigurator powinien być zbudowany w sposób umożliwiający późniejsze dodawanie kolejnych modeli, wariantów i opcji bez konieczności przebudowy całego systemu.
+
+Wizualizacja domu powinna umożliwiać obrót bryły 360° oraz zmianę jej wyglądu zależnie od wybranych parametrów.
+
+Jestem otwarty na rekomendację wykonawcy dotyczącą technologii (np. sposób realizacji wizualizacji 3D, CMS, frontend, backend), pod warunkiem że rozwiązanie będzie stabilne, wydajne i możliwe do dalszego rozwijania.
+
+Posiadam przygotowaną koncepcję graficzną strony oraz szczegółowe założenia funkcjonalne, które udostępnię wykonawcy.
+
+Wymagane umiejętności / tagi:
+3d Mapping, aplikacje mobilne, aplikacje webowe, + 9 więcej
+
+Wysłane oferty (69)
+------------------------------
+[Moodlify | 0 umów](https://useme.com/pl/roles/contractor/635466/) - dzisiaj
+
+[JAQBTECHAI | 0 umów](https://useme.com/pl/roles/contractor/634198/) - dzisiaj
+  * 3d Mapping
+  * aplikacje mobilne
+  * aplikacje webowe
+  * dodawanie produktów
+  * Generowanie Leadów
+  * logo
+  * Producent Muzyczny
+  * produkcja muzyczna
+  * SaaS
+  * skanowanie 3D
+  * strona www
+  * testy automatyczne
+
+[Marcin Hajost | mhCode | 1 umowa](https://useme.com/pl/roles/contractor/15093/) - dzisiaj
+  * AI
+  * API
+  * aplikacje webowe
+  * baselinker
+  * bazy danych
+  * cms
+  * CRM
+  * css
+  * domena internetowa
+  * html
+  * html5
+  * kodowanie
+  * laravel
+  * mysql
+  * n8n
+  * PHP
+  * postgresql
+  * programy użytkowe
+  * sklep internetowy
+  * sql
+  * strona www
+  * WooCommerce
+  * wordpress
+  * xml
+
+[Iza Projektuje | 0 umów](https://useme.com/pl/roles/contractor/677352/) - dzisiaj
+  * API
+  * backend
+  * frontend
+  * PHP
+  * python
+  * wordpress
+
+[Bojkowski.IT | 0 umów](https://useme.com/pl/roles/contractor/649295/) - dzisiaj
+
+[Szymon Basiul | 2 umów](https://useme.com/pl/roles/contractor/460725/) - dzisiaj
+  * css
+  * git
+  * html5
+  * javascript
+  * React
+  * wordpress
+
+[Przemysław Tarapacki | 0 umów](https://useme.com/pl/roles/contractor/162181/) - dzisiaj
+  * API
+  * backend
+  * cms
+  * css
+  * edycja video
+  * html
+  * html5
+  * java
+  * javascript
+  * laravel
+  * montaż video
+  * mysql
+  * PHP
+  * python
+  * sql
+  * strona www
+
+[MattMichalak | 21 umów](https://useme.com/pl/roles/contractor/83815/) - dzisiaj
+
+[Tomasz Root | 53 umów](https://useme.com/pl/roles/contractor/122877/) - dzisiaj
+  * analiza danych
+  * apache
+  * aplikacje mobilne
+  * aplikacje webowe
+  * backend
+  * banner
+  * bazy danych
+  * blog
+  * cięcie grafiki
+  * cięcie strony
+  * cms
+  * CRM
+  * css
+  * domena internetowa
+  * drupal
+  * e-commerce
+  * frontend
+  * gimp
+  * google search console
+  * Google Tag Manager
+  * google zakupy
+  * grafika
+  * grafika na stronę
+  * grafika wektorowa
+  * grafika www
+  * html
+  * html5
+  * identyfikacja wizualna
+  * javascript
+  * joomla
+  * kodowanie
+  * layout design
+  * logo
+  * Magento
+  * moduł płatności
+  * mysql
+  * osCommerce
+  * PHP
+  * pozycjonowanie
+  * prestashop
+  * przygotowanie do druku
+  * redis
+  * rwd
+  * sem
+  * seo
+  * serwer
+  * serwis
+  * shoper
+  * sklep internetowy
+  * sql
+  * strona www
+  * szablon
+  * szparowanie
+  * typografia
+  * ulotki
+  * user experience design
+  * VPS
+  * web development
+  * wizytówki
+  * WooCommerce
+  * wordpress
+  * xml
+  * zend
+
+[Adam Związkiewicz | 0 umów](https://useme.com/pl/roles/contractor/614172/) - dzisiaj
+  * e-commerce
+  * Figma
+  * framer
+  * shopify
+  * UI
+  * UX
+  * wordpress
+
+[majewsky_online | 34 umów](https://useme.com/pl/roles/contractor/333035/) - dzisiaj
+  * API
+  * aplikacje mobilne
+  * cms
+  * ERP
+  * java
+  * Odoo
+  * PHP
+  * PHP Smart
+  * prestashop
+  * python
+  * React
+  * WooCommerce
+  * wordpress
+
+[viprathore | 0 umów](https://useme.com/pl/roles/contractor/533320/) - dzisiaj
+  * android
+  * angular
+  * ASP.NET
+  * cakePHP
+  * Figma
+  * .NET
+  * PHP
+  * python
+  * React
+  * react native
+  * swift
+  * wordpress
+
+[Dawid | 0 umów](https://useme.com/pl/roles/contractor/505789/) - wczoraj
+  * css
+  * docker
+  * git
+  * html
+  * javascript
+  * laravel
+  * mysql
+  * PHP
+  * sklep internetowy
+  * sql
+  * symfony
+  * WooCommerce
+  * wordpress
+  * Yii
+
+[Webcost | 0 umów](https://useme.com/pl/roles/contractor/146302/) - wczoraj
+  * html
+  * laravel
+  * mysql
+  * PHP
+  * React
+  * symfony
+  * vue
+
+[luqaszeq | 0 umów](https://useme.com/pl/roles/contractor/655631/) - wczoraj
+
+[DaszeX | 0 umów](https://useme.com/pl/roles/contractor/190042/) - wczoraj
+  * cięcie grafiki
+  * cięcie strony
+  * cms
+  * css
+  * frontend
+  * html5
+  * javascript
+  * kodowanie
+  * layout design
+  * photoshop
+  * PHP
+  * React
+  * rwd
+  * seo
+  * serwis
+  * sklep internetowy
+  * strona www
+  * szablon
+  * user experience design
+  * web development
+  * wordpress
+
+[ofylypczuk | 50 umów](https://useme.com/pl/roles/contractor/249828/) - wczoraj
+  * administracja serwerów
+  * AI
+  * analityka internetowa
+  * analiza danych
+  * angielski
+  * API
+  * aplikacje mobilne
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * contadu
+  * css
+  * film reklamowy
+  * frontend
+  * git
+  * google search console
+  * html
+  * influencer
+  * influencer marketing
+  * Inżynieria Danych
+  * javascript
+  * migracja stron www
+  * montaż video
+  * niemiecki
+  * python
+  * react native
+  * ruby
+  * SaaS
+  * seo
+  * shoper
+  * shopify
+  * sklep internetowy
+  * social media
+  * strona www
+  * Supabase
+  * szablon
+  * teksty pozycjonujące
+  * tłumaczenia
+  * uczenie maszynowe
+  * user experience design
+  * Web Scraping
+  * WooCommerce
+  * wordpress
+
+[Jakub Kaczmarek | 25 umów](https://useme.com/pl/roles/contractor/137876/) - wczoraj
+
+[Jacek-Dev/LowCode | 7 umów](https://useme.com/pl/roles/contractor/74875/) - wczoraj
+  * adobe photoshop
+  * adobe xd
+  * aplikacje webowe
+  * cms
+  * css
+  * design
+  * frontend
+  * grafika
+  * grafika na stronę
+  * grafika www
+  * gry
+  * html5
+  * layout design
+  * strona www
+  * UI
+  * user experience design
+  * UX design
+  * web development
+  * Webflow
+
+[Daniel | 0 umów](https://useme.com/pl/roles/contractor/423848/) - wczoraj
+  * grafika
+  * IT
+  * SEO E-commerce
+  * tworzenie treści
+
+[Foqvara | 2 umów](https://useme.com/pl/roles/contractor/582813/) - wczoraj
+
+[ProVisualDynamics | 0 umów](https://useme.com/pl/roles/contractor/585382/) - wczoraj
+
+[Łukasz Mijała | 17 umów](https://useme.com/pl/roles/contractor/555/) - wczoraj
+  * AI
+  * cięcie grafiki
+  * cięcie strony
+  * css
+  * facebook
+  * fanpage
+  * frontend
+  * grafika
+  * grafika na stronę
+  * grafika wektorowa
+  * grafika www
+  * html
+  * html5
+  * identyfikacja wizualna
+  * javascript
+  * joomla
+  * kodowanie
+  * layout design
+  * logo
+  * plakat
+  * pozycjonowanie
+  * prestashop
+  * programy użytkowe
+  * przygotowanie do druku
+  * seo
+  * serwis
+  * shoper
+  * sklep internetowy
+  * strona www
+  * ulotki
+  * web development
+  * WooCommerce
+  * wordpress
+
+[MI | 35 umów](https://useme.com/pl/roles/contractor/131268/) - wczoraj
+
+[CraftKo Studio | 0 umów](https://useme.com/pl/roles/contractor/672805/) - wczoraj
+  * API
+  * aplikacje mobilne
+  * aplikacje webowe
+  * boty
+  * Flutter
+  * Next.js
+  * postgresql
+  * React
+  * typescript
+
+[mmiotk | 0 umów](https://useme.com/pl/roles/contractor/305481/) - wczoraj
+  * API
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * c
+  * css
+  * frontend
+  * html
+  * html5
+  * java
+  * javascript
+  * kodowanie
+  * PHP
+  * python
+  * sql
+  * strona www
+  * web development
+
+[Skylink sp. z.o.o | 0 umów](https://useme.com/pl/roles/contractor/629014/) - wczoraj
+  * API
+  * backend
+  * css
+  * docker
+  * frontend
+  * html
+  * html5
+  * javascript
+  * landing page
+  * n8n
+  * Next.js
+  * Nocode
+  * NodeJS
+  * postgresql
+  * python
+  * sql
+  * UX design
+  * Vibe Coding
+
+[Dominik | Frontend i backend | 0 umów](https://useme.com/pl/roles/contractor/688917/) - wczoraj
+  * css
+  * Elementor
+  * Figma
+  * git
+  * html5
+  * javascript
+  * Next.js
+  * NodeJS
+  * PHP
+  * postgresql
+  * React
+  * typescript
+  * UI
+  * WooCommerce
+  * wordpress
+
+[hermsoft.pl | 3 umów](https://useme.com/pl/roles/contractor/335960/) - wczoraj
+  * angular2
+  * bootstrap
+  * C Sharp
+  * MSSQL
+  * typescript
+
+[Webyjuice - Kreujemy marki | 1 umowa](https://useme.com/pl/roles/contractor/467254/) - wczoraj
+  * AI
+  * android
+  * boty
+  * branding
+  * css
+  * logo
+  * python
+  * React
+  * rebranding
+  * wordpress
+
+[Ligmasick | 4 umów](https://useme.com/pl/roles/contractor/604482/) - wczoraj
+
+[krystiantrubisz | 0 umów](https://useme.com/pl/roles/contractor/409662/) - wczoraj
+  * Meta ads
+  * reklamy Google
+  * wordpress
+
+[Oliwia | 17 umów](https://useme.com/pl/roles/contractor/94891/) - wczoraj
+  * AI
+  * grafika
+  * identyfikacja wizualna
+  * komunikacja i PR
+  * marketing internetowy
+  * newsletter
+  * PR
+  * social media
+  * video
+
+[KARTS DESIGN | 10 umów](https://useme.com/pl/roles/contractor/113377/) - wczoraj
+  * adobe illustrator
+  * adobe photoshop
+  * aplikacje mobilne
+  * apps
+  * architektura
+  * banner
+  * fotografia
+  * fotografia biznesowa
+  * fotografia mody
+  * fotografia produktowa
+  * grafika
+  * grafika na stronę
+  * grafika www
+  * identyfikacja wizualna
+  * layout design
+  * logo
+  * plakat
+  * sklep internetowy
+  * strona www
+  * UI
+  * ulotki
+  * user experience design
+  * UX design
+  * web development
+  * wizytówki
+  * wordpress
+
+[Jakub Frąszczak | 0 umów](https://useme.com/pl/roles/contractor/694885/) - wczoraj
+
+[Mykoła Dmytrotsa | 7 umów](https://useme.com/pl/roles/contractor/191062/) - wczoraj
+  * blog
+  * cms
+  * css
+  * frontend
+  * html
+  * html5
+  * javascript
+  * joomla
+  * kodowanie
+  * layout design
+  * Magento
+  * moduł płatności
+  * PHP
+  * prestashop
+  * shoper
+  * sklep internetowy
+  * strona www
+  * szablon
+  * user experience design
+  * web development
+  * WooCommerce
+  * wordpress
+
+[Kacper Zdziebło | 100+ projekt | 9 umów](https://useme.com/pl/roles/contractor/637585/) - wczoraj
+  * adobe xd
+  * AI
+  * css
+  * design
+  * e-commerce
+  * Figma
+  * html
+  * javascript
+  * PHP
+  * WooCommerce
+  * wordpress
+
+[PageSoft | 0 umów](https://useme.com/pl/roles/contractor/297413/) - wczoraj
+  * e-commerce
+  * html5
+  * javascript
+  * SCSS
+  * seo
+  * typescript
+  * WooCommerce
+  * wordpress
+
+[Jakub Kulig | 28 umów](https://useme.com/pl/roles/contractor/429215/) - wczoraj
+  * AI
+  * canva
+  * facebook
+  * Facebook Ads
+  * instagram
+  * reklamy Google
+  * video
+  * wordpress
+
+[Jurek92 | 0 umów](https://useme.com/pl/roles/contractor/652043/) - wczoraj
+
+[HOPTE | 87 umów](https://useme.com/pl/roles/contractor/136160/) - wczoraj
+  * allegro
+  * API
+  * backend
+  * cięcie grafiki
+  * cięcie strony
+  * css
+  * frontend
+  * html
+  * html5
+  * javascript
+  * kodowanie
+  * layout design
+  * moduł płatności
+  * PHP
+  * strona www
+  * szablon
+  * web development
+  * WooCommerce
+  * wordpress
+
+[Alakhaine | 2 umów](https://useme.com/pl/roles/contractor/601969/) - wczoraj
+  * analiza biznesowa
+  * angular
+  * AWS Cloud
+  * chatbot
+  * C Sharp
+  * Data Science
+  * e-commerce
+  * NodeJS
+  * PHP
+  * React
+
+[archstack.dev | 111 umów](https://useme.com/pl/roles/contractor/217525/) - wczoraj
+  * administracja systemów
+  * API
+  * bazy danych
+  * debian
+  * docker
+  * GraphQL
+  * laravel
+  * linux
+  * LLM
+  * mysql
+  * Next.js
+  * NLP
+  * NodeJS
+  * OpenAI
+  * PHP
+  * postgresql
+  * prestashop
+  * python
+  * React
+  * redis
+  * REST
+  * sql
+  * web api
+  * Web Scraping
+  * wordpress
+
+[MysticNord | 49 umów](https://useme.com/pl/roles/contractor/10432/) - wczoraj
+  * adobe illustrator
+  * adobe photoshop
+  * banner
+  * blog
+  * cięcie grafiki
+  * cięcie strony
+  * cms
+  * css
+  * dtp
+  * edycja video
+  * frontend
+  * grafika
+  * grafika na stronę
+  * grafika wektorowa
+  * grafika www
+  * html5
+  * identyfikacja wizualna
+  * kodowanie
+  * layout design
+  * logo
+  * montaż video
+  * PHP
+  * plakat
+  * prestashop
+  * przygotowanie do druku
+  * retusz
+  * rwd
+  * sklep internetowy
+  * strona www
+  * szablon
+  * ulotki
+  * video
+  * web development
+  * wizytówki
+  * WooCommerce
+  * wordpress
+
+[Vulcanoo - CodeOlympus.studio | 112 umów](https://useme.com/pl/roles/contractor/156740/) - wczoraj
+  * analiza danych
+  * API
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * cms
+  * css
+  * html
+  * mysql
+  * PHP
+  * prestashop
+  * python
+  * sklep internetowy
+  * sql
+  * strona www
+  * web development
+  * wordpress
+
+[Skalownia | 2 umów](https://useme.com/pl/roles/contractor/667086/) - wczoraj
+  * allegro
+  * Amazon Ads
+  * Amazon FBA
+  * Amazon Seller Central
+  * Amazon SEO
+  * API
+  * base
+  * baselinker
+  * chatgpt
+  * dodawanie produktów
+  * ebay
+  * e-commerce
+  * ERP
+  * Facebook Ads
+  * google ads
+  * google analytics
+  * idosell
+  * javascript
+  * NodeJS
+  * prestashop
+  * python
+  * SEO E-commerce
+  * shoper
+  * shopify
+  * sql
+  * tiktok
+  * WooCommerce
+  * xml
+
+[Adam | 38 umów](https://useme.com/pl/roles/contractor/420278/) - wczoraj
+  * AI
+  * android
+  * API
+  * backend
+  * bazy danych
+  * blog
+  * boty
+  * cms
+  * css
+  * git
+  * html
+  * iOS
+  * IT
+  * javascript
+  * kodowanie
+  * NodeJS
+  * PHP
+  * python
+  * React
+  * seo
+  * strona www
+  * vue
+  * windows
+  * WooCommerce
+  * wordpress
+
+[Marcin | 8 umów](https://useme.com/pl/roles/contractor/439160/) - wczoraj
+
+[Wojtom | 318 umów](https://useme.com/pl/roles/contractor/48272/) - wczoraj
+  * allegro
+  * aplikacje webowe
+  * blog
+  * cięcie grafiki
+  * cięcie strony
+  * cms
+  * CRM
+  * css
+  * domena internetowa
+  * frontend
+  * html
+  * html5
+  * javascript
+  * kodowanie
+  * layout design
+  * mysql
+  * PHP
+  * rwd
+  * sklep internetowy
+  * strona www
+  * szablon
+  * WooCommerce
+  * wordpress
+
+[Pani od stron | 0 umów](https://useme.com/pl/roles/contractor/484550/) - wczoraj
+  * css
+  * html
+  * SCSS
+  * WooCommerce
+  * wordpress
+
+[PrzemekBicki | 118 umów](https://useme.com/pl/roles/contractor/18394/) - wczoraj
+  * angielski
+  * css
+  * e-commerce
+  * hiszpański
+  * html
+  * html5
+  * joomla
+  * PHP
+  * sklep internetowy
+  * wordpress
+
+[convert-studio | 0 umów](https://useme.com/pl/roles/contractor/651088/) - wczoraj
+
+[Dominik Groński GroDev | 0 umów](https://useme.com/pl/roles/contractor/656252/) - wczoraj
+  * API
+  * css
+  * Elementor
+  * excel
+  * google analytics
+  * html
+  * javascript
+  * laravel
+  * Next.js
+  * NodeJS
+  * PHP
+  * python
+  * React
+  * seo
+  * three.js
+  * typescript
+  * WooCommerce
+  * wordpress
+
+[Ksavi | 1 umowa](https://useme.com/pl/roles/contractor/660308/) - wczoraj
+  * API
+  * Dart
+  * docker
+  * Flutter
+  * git
+  * javascript
+  * LLM
+  * NodeJS
+  * postgresql
+  * prompt engineering
+  * React
+  * sql
+  * Supabase
+  * testy automatyczne
+  * typescript
+
+[Adam | 5 umów](https://useme.com/pl/roles/contractor/1040/) - wczoraj
+
+[AdiLex | 1 umowa](https://useme.com/pl/roles/contractor/244577/) - wczoraj
+  * analityka internetowa
+  * blog
+  * canva
+  * css
+  * edycja
+  * Elementor
+  * google ads
+  * google merchant center
+  * grafika na stronę
+  * html
+  * idosell
+  * java
+  * javascript
+  * moduł płatności
+  * opisy
+  * prestashop
+  * shoper
+  * shopgold
+  * shopify
+  * sklep internetowy
+  * strona www
+  * WooCommerce
+  * wordpress
+
+[Krystian | 3 umów](https://useme.com/pl/roles/contractor/252457/) - wczoraj
+  * API
+  * javascript
+  * landing page
+  * optymalizacja
+  * python
+  * sklep internetowy
+  * strona www
+  * WooCommerce
+  * wordpress
+
+[Dawid Ogrodowski | 2 umów](https://useme.com/pl/roles/contractor/656470/) - wczoraj
+  * bootstrap
+  * cms
+  * css
+  * e-commerce
+  * Figma
+  * google analytics
+  * html
+  * javascript
+  * jquery
+  * landing page
+  * PHP
+  * React
+  * rwd
+  * seo
+  * shopify
+  * UI
+  * WooCommerce
+  * wordpress
+
+[DahakSoft | 8 umów](https://useme.com/pl/roles/contractor/268551/) - wczoraj
+  * android
+  * bazy danych
+  * c
+  * C plus plus
+  * C Sharp
+  * excel
+  * mysql
+  * NodeJS
+  * postgresql
+  * python
+  * QT
+  * React
+  * sql
+  * xml
+
+[Voxquartz Systems | 4 umów](https://useme.com/pl/roles/contractor/622861/) - wczoraj
+  * AI
+  * Elementor
+  * Flutter
+  * Next.js
+  * NodeJS
+  * PHP
+  * React
+  * SaaS
+  * wordpress
+
+[Dmytro Zatserkivnyi | 3 umów](https://useme.com/pl/roles/contractor/629682/) - wczoraj
+  * angular
+  * css
+  * docker
+  * e-commerce
+  * Express.js
+  * html
+  * html5
+  * javascript
+  * MongoDB
+  * Next.js
+  * NodeJS
+  * PHP
+  * postgresql
+  * python
+  * React
+  * shoper
+  * typescript
+  * WooCommerce
+  * wordpress
+
+[Dawid Osiecki | 7 umów](https://useme.com/pl/roles/contractor/488305/) - wczoraj
+  * AI
+  * excel
+  * n8n
+  * python
+  * Tableau
+  * VBA
+
+[Jakub Gadomski | 1 umowa](https://useme.com/pl/roles/contractor/34064/) - wczoraj
+
+[StudioWizjo.pl | 4 umów](https://useme.com/pl/roles/contractor/1476/) - wczoraj
+  * adobe photoshop
+  * android
+  * angielski
+  * aplikacje webowe
+  * bazy danych
+  * css
+  * grafika www
+  * html
+  * javascript
+  * laravel
+  * PHP
+  * polski
+  * strona www
+  * wordpress
+
+[Heyneuron.com | 1 umowa](https://useme.com/pl/roles/contractor/148433/) - wczoraj
+  * AI
+  * Airtable
+  * API
+  * aplikacje webowe
+  * blockchain
+  * CRM
+  * facebook
+  * Facebook Pixel
+  * gmail
+  * google analytics
+  * Google Tag Manager
+  * hubspot
+  * landing page
+  * LANDINGPAGE
+  * marketing internetowy
+  * n8n
+  * Next.js
+  * Nocode
+  * React
+  * strona www
+  * web api
+  * web development
+  * zapier
+
+[Jakub Dubiejko | 355 umów](https://useme.com/pl/roles/contractor/216902/) - wczoraj
+  * aplikacje webowe
+  * bazy danych
+  * cms
+  * css
+  * drupal
+  * frontend
+  * html5
+  * javascript
+  * joomla
+  * layout design
+  * sklep internetowy
+  * strona www
+  * web development
+  * WooCommerce
+  * wordpress
+
+[Sculptor | 32 umów](https://useme.com/pl/roles/contractor/200245/) - wczoraj
+  * animacja
+  * backend
+  * frontend
+  * grafika rastrowa
+  * grafika wektorowa
+  * UI
+  * UX
+
+[Jablonski DevOps | 119 umów](https://useme.com/pl/roles/contractor/331142/) - wczoraj
+  * API
+  * CRM
+  * ERP
+  * html
+  * html5
+  * javascript
+  * joomla
+  * Magento
+  * MSSQL
+  * PHP
+  * prestashop
+  * python
+  * seo
+  * shoper
+  * shopify
+  * sql
+  * vue
+  * WooCommerce
+  * wordpress
+  * xml
+
+[IgnacyDev | 2 umów](https://useme.com/pl/roles/contractor/608733/) - wczoraj
+  * css
+  * IT
+  * migracja stron www
+  * NodeJS
+  * python
+  * React
+  * strona www

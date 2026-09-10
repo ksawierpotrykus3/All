@@ -1,0 +1,83 @@
+{
+  "id": "40703453",
+  "url": "https://www.freelancer.pl/projects/ai-voice-agents/Voice-Call-Cost-Optimization/details",
+  "title": "AI Voice Call Cost Optimization",
+  "author": "Anonim",
+  "budget": "1500.0 - 12500.0 INR",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:28:38.888670",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703453",
+    "url": "https://www.freelancer.pl/projects/ai-voice-agents/Voice-Call-Cost-Optimization/details",
+    "seo_url": "ai-voice-agents/Voice-Call-Cost-Optimization",
+    "title": "AI Voice Call Cost Optimization",
+    "budget": "1500.0 - 12500.0 INR",
+    "budget_raw": {
+      "minimum": 1500.0,
+      "maximum": 12500.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "We are developing a production-grade AI voice calling platform for the Indian market and are looking",
+    "category": "automation-ai",
+    "project_type": "fixed",
+    "jobs": [
+      "Audio Services",
+      "Education & Tutoring",
+      "Voice Talent",
+      "Audio Production",
+      "WebRTC",
+      "AI Model Development",
+      "Conversational AI",
+      "AI Development",
+      "AI Voice Agents",
+      "AI Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 5,
+      "bid_avg": 9669.0
+    },
+    "local": false,
+    "time_submitted": 1789053509
+  },
+  "full_details": {
+    "id": "40703453",
+    "title": "AI Voice Call Cost Optimization",
+    "full_description": "We are developing a production-grade AI voice calling platform for the Indian market and are looking for an experienced Realtime Voice AI / Conversational AI / Telephony Engineer to optimize our existing architecture.\nOur main objective is:\nTarget AI voice cost: approximately ₹3/minute per call while maintaining natural, human-like conversation and very low response latency.\nThis is not just an API integration project. We need someone who understands the complete realtime voice pipeline and can benchmark, optimize and redesign the architecture where necessary.\nTechnologies Already Tested\nWe have already experimented with:\nOpenAI Realtime\nOpenAI voice models\nSarvam AI STT/TTS\nElevenLabs TTS\nPlivo\nTwilio\nSIP/telephony\nStreaming STT → LLM → TTS architectures\nRealtime speech-to-speech architecture\nOur current implementations work, but the cascade architecture introduces noticeable latency, while our current realtime implementation is more expensive than our target.\nWe therefore need an expert to find the optimal architecture rather than simply replacing one API with another.\nPrimary Goals\n1. Reduce AI voice cost\nCurrent AI voice cost is higher than our target.\nWe want to reach approximately:\n₹3/minute AI runtime target\nwhile maintaining acceptable:\nVoice quality\nConversation accuracy\nResponse speed\nIndian language support\nReliability\nTelephony cost, SIP/carrier charges, infrastructure and taxes can be calculated separately.\n2. Extremely low perceived latency\nThe agent should feel like a real human conversation.\nTarget:\nCustomer stops speaking\nAI starts responding as quickly as possible\nIdeally sub-1-second perceived response\nStreaming audio\nNo long silence before AI responds\nImmediate interruption handling\nWe specifically want to avoid architectures where:\nSpeech → wait for complete STT → wait for LLM → wait for complete response → TTS → playback\ncreates 2–4+ seconds of delay.\nArchitecture We Want to Evaluate\nWe are open to multiple architectures.\nOption A — Direct Realtime Speech-to-Speech\nCustomer\n   ↓\nIndian Telephony / SIP\n   ↓\nVoice Gateway\n   ↓\nOpenAI Realtime\n   ↓\nCustomer\nThis is currently our preferred approach if we can achieve the required cost.\nWe want the developer to benchmark the latest suitable OpenAI realtime model/configuration and determine whether it can achieve approximately ₹3/minute through optimization.",
+    "budget_raw": {
+      "minimum": 1500.0,
+      "maximum": 12500.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "Audio Services",
+      "Education & Tutoring",
+      "Voice Talent",
+      "Audio Production",
+      "WebRTC",
+      "AI Model Development",
+      "Conversational AI",
+      "AI Development",
+      "AI Voice Agents",
+      "AI Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 5,
+      "bid_avg": 9669.0
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:46"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:46.519905"
+}

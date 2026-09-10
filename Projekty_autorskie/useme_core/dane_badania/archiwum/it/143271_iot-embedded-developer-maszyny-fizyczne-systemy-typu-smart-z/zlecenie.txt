@@ -1,0 +1,128 @@
+IoT / Embedded Developer (Maszyny fizyczne, systemy typu smart zamki)
+=====================================================================
+URL: https://useme.com/pl/jobs/iot-embedded-developer-maszyny-fizyczne-systemy-typu-smart-zamki,143271/
+
+Zleceniodawca
+KARTS DESIGN
+
+Opis
+Szukamy programisty IoT do integracji oprogramowania z urządzeniami fizycznymi (np. systemy kontroli dostępu, zamki, maszyny).
+
+W zgłoszeniu podaj: Stawkę godzinową netto, opis wykonanych projektów IoT oraz dowody na ich realizację.
+
+Opublikowano
+2026-08-25
+
+Kategoria
+Projekty IT
+
+Prawa autorskie
+Decyzja freelancera
+
+Budżet
+Do negocjacji
+
+Ważne przez
+30 dni
+
+Wymagane funkcje::
+Doświadczenie w łączeniu aplikacji z hardwarem, poparte referencjami lub namacalnymi wdrożeniami.
+
+Wymagane umiejętności / tagi:
+c, C plus plus
+
+Wysłane oferty (7)
+------------------------------
+[kedzior | 2 umów](https://useme.com/pl/roles/contractor/28384/) - wczoraj
+  * c
+  * C plus plus
+
+[p o o n s | 0 umów](https://useme.com/pl/roles/contractor/692920/) - 6 dni temu
+
+[Rizky Pradana | 1 umowa](https://useme.com/pl/roles/contractor/635608/) - 2026-08-26
+
+[CloudFloo | Michał Wiatr | 0 umów](https://useme.com/pl/roles/contractor/689468/) - 2026-08-26
+  * AI
+  * API
+  * bazy danych
+  * DevOps
+  * docker
+  * git
+  * kubernetes
+  * Langchain
+  * LlamaIndex
+  * Next.js
+  * NodeJS
+  * OpenAI
+  * postgresql
+  * React
+  * typescript
+
+[GOLDAI | 0 umów](https://useme.com/pl/roles/contractor/570266/) - 2026-08-25
+  * AI
+  * analiza danych
+  * angular
+  * aplikacje mobilne
+  * AutoCAD software
+  * backend
+  * bazy danych
+  * blockchain
+  * c
+  * CAD
+  * chatbot
+  * chatgpt
+  * cloud
+  * CRM
+  * Flutter
+  * Flutterflow
+  * frontend
+  * git
+  * java
+  * javascript
+  * kodowanie
+  * LLM
+  * matematyka
+  * montaż
+  * mysql
+  * n8n
+  * Next.js
+  * NLP
+  * NodeJS
+  * OpenAI
+  * postgresql
+  * python
+  * React
+  * react native
+  * SaaS
+  * seo
+  * stable diffusion
+  * uczenie maszynowe
+  * web development
+  * wizualizacje danych
+
+[Heyneuron.com | 1 umowa](https://useme.com/pl/roles/contractor/148433/) - 2026-08-25
+  * AI
+  * Airtable
+  * API
+  * aplikacje webowe
+  * blockchain
+  * CRM
+  * facebook
+  * Facebook Pixel
+  * gmail
+  * google analytics
+  * Google Tag Manager
+  * hubspot
+  * landing page
+  * LANDINGPAGE
+  * marketing internetowy
+  * n8n
+  * Next.js
+  * Nocode
+  * React
+  * strona www
+  * web api
+  * web development
+  * zapier
+
+[Jakub Kaczmarek | 25 umów](https://useme.com/pl/roles/contractor/137876/) - 2026-08-25

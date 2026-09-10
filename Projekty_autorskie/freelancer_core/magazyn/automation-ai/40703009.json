@@ -1,0 +1,79 @@
+{
+  "id": "40703009",
+  "url": "https://www.freelancer.pl/projects/api-integration/GoHighLevel-CRM-Integrations-Setup/details",
+  "title": "GoHighLevel CRM Integrations Setup",
+  "author": "Anonim",
+  "budget": "250.0 - 750.0 USD",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:28:38.920149",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703009",
+    "url": "https://www.freelancer.pl/projects/api-integration/GoHighLevel-CRM-Integrations-Setup/details",
+    "seo_url": "api-integration/GoHighLevel-CRM-Integrations-Setup",
+    "title": "GoHighLevel CRM Integrations Setup",
+    "budget": "250.0 - 750.0 USD",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I need my GoHighLevel account configured so it speaks fluently with the rest of my lead-generation t",
+    "category": "automation-ai",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Software Architecture",
+      "CRM",
+      "MySQL",
+      "Email Marketing",
+      "Automation",
+      "API Integration",
+      "GoHighLevel"
+    ],
+    "bid_stats": {
+      "bid_count": 211,
+      "bid_avg": 440.82464454976304
+    },
+    "local": false,
+    "time_submitted": 1789038706
+  },
+  "full_details": {
+    "id": "40703009",
+    "title": "GoHighLevel CRM Integrations Setup",
+    "full_description": "I need my GoHighLevel account configured so it speaks fluently with the rest of my lead-generation tech stack. The priority is smooth, reliable integrations—once data can move freely I’ll layer automations for follow-up and reporting.\n\nHere’s what has to connect and work end-to-end:\n• Email marketing software – sync contacts, tags and campaign activity  \n• Social media platforms – pull Facebook/Instagram lead-form data in real time  \n• Payment gateways – trigger invoices, receipts and status updates from Stripe/PayPal  \n• Two-way calendar integration for booking links and appointment reminders  \n• A simple reporting/dashboard view inside GoHighLevel that rolls up KPIs  \n• Custom webhooks / API endpoints so I can plug in future tools without a rebuild  \n\nAcceptance criteria\n• Leads created anywhere in the stack appear in the correct GoHighLevel pipeline within 60 seconds  \n• Outbound emails, SMS or DMs fire from GoHighLevel using the connected services without manual intervention  \n• Payments automatically update contact records and kick off fulfilment or upsell sequences  \n• Calendar events update whether booked inside or outside GoHighLevel and send confirmations/reminders  \n• A single dashboard displays lead source, conversion rate and collected revenue in near real time  \n\nSend a detailed project proposal that walks me through your integration plan, estimated timeline and any previous GoHighLevel setups you’ve completed. Feel free to flag questions or suggest smarter workflows—I value initiative and clear thinking as much as technical skill.",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Software Architecture",
+      "CRM",
+      "MySQL",
+      "Email Marketing",
+      "Automation",
+      "API Integration",
+      "GoHighLevel"
+    ],
+    "bid_stats": {
+      "bid_count": 211,
+      "bid_avg": 440.82464454976304
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:48"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:48.980051"
+}

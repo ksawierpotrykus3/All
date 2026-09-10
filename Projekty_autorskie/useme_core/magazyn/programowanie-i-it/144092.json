@@ -1,0 +1,44 @@
+{
+  "id": "144092",
+  "url": "https://useme.com/pl/jobs/dopracowanie-istniejacego-konfiguratora-mebli-3d-i-przygotowanie-wersji-produkcy,144092/",
+  "title": "Dopracowanie istniejącego konfiguratora mebli 3D i przygotowanie wersji produkcyjnej",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T15:25:31.119469",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144092",
+    "url": "https://useme.com/pl/jobs/dopracowanie-istniejacego-konfiguratora-mebli-3d-i-przygotowanie-wersji-produkcy,144092/",
+    "title": "Dopracowanie istniejącego konfiguratora mebli 3D i przygotowanie wersji produkcyjnej",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Poszukuję doświadczonego developera, który pomoże mi rozwinąć istniejący konfigurator mebli i doprowadzić go do wersji gotowej do wdrożenia na stronie internetowej.\n\nKonfigurator nie jest projektem od zera. Samodzielnie stworzyłam już działającą...",
+    "category": "programowanie-i-it"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/dopracowanie-istniejacego-konfiguratora-mebli-3d-i-przygotowanie-wersji-produkcy,144092/",
+    "title": "Dopracowanie istniejącego konfiguratora mebli 3D i przygotowanie wersji produkcyjnej",
+    "full_description": "<p>Poszukuję doświadczonego developera, który pomoże mi rozwinąć istniejący konfigurator mebli i doprowadzić go do wersji gotowej do wdrożenia na stronie internetowej.</p>\n\n<p>Konfigurator nie jest projektem od zera. Samodzielnie stworzyłam już działającą wersję, która jest bardzo zbliżona do tego, jak docelowo wyobrażam sobie cały produkt. Obecnie działa większość podstawowej logiki i mechaniki konfiguracji.</p>\n\n<p>Do wykonania pozostaje przede wszystkim:</p>\n\n<p>* analiza i uporządkowanie istniejącego kodu,<br>* poprawienie wybranych zależności i logiki konfiguratora,<br>* dopracowanie UI/UX,<br>* poprawa płynności i intuicyjności obsługi,<br>* dopracowanie widoku konfiguratora na desktopie i urządzeniach mobilnych,<br>* optymalizacja działania i szybkości,<br>* poprawienie ewentualnych błędów w modelu 3D / interakcjach,<br>* przygotowanie projektu do wdrożenia jako rzeczywisty konfigurator e-commerce,<br>* w dalszym etapie możliwość integracji z PrestaShop.</p>\n\n<p>Konfigurator dotyczy mebli wykonywanych na wymiar. Użytkownik może zmieniać m.in. wymiary, układ mebla, liczbę kolumn i półek, moduły zamknięte i otwarte, materiały, kolory oraz inne elementy konstrukcyjne.</p>\n\n<p>Mam gotową wersję demonstracyjną oraz kod, które mogę udostępnić do oceny przed rozpoczęciem współpracy.</p>\n\n<p>**Szukam osoby, która:**</p>\n\n<p>* ma doświadczenie w aplikacjach webowych / konfiguratorach produktów,<br>* potrafi przejąć i rozwijać istniejący kod,<br>* dobrze rozumie JavaScript i frontend,<br>* mile widziane doświadczenie z Three.js / WebGL / konfiguratorami 3D,<br>* zwraca uwagę nie tylko na kod, ale również na UX i jakość końcowego produktu,<br>* potrafi zaproponować lepsze rozwiązania techniczne, jeśli obecny kod tego wymaga.</p>\n\n<p>Nie szukam osoby, która będzie budowała cały projekt ponownie od zera bez wcześniejszej analizy istniejącego rozwiązania. Zależy mi przede wszystkim na wykorzystaniu tego, co już zostało stworzone, i profesjonalnym dopracowaniu projektu.</p>\n\n<p>Proszę w zgłoszeniu o p</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144092/offer/start/",
+    "scraped_at": "2026-09-10T15:25:52"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu, działamy bezpośrednio. Konfiguratory produktów i frontend 3D to nasza codzienność. Nie wchodzimy w takie tematy z marszu, więc od razu powiem jak to widzę.\n\nMasz działającą wersję i to jest duży plus, ale z doświadczenia przy konfiguratorach mebli na wymiar wiem, że prawdziwa robota zaczyna się nie w UI, a w fundamentach. Jeśli modele są eksportowane z CAD bez kompresji (np. przez Draco), potrafią ważyć po kilkadziesiąt megabajtów na wariant i ładować się kilkanaście sekund na telefonie. A 70% ludzi klika w takie konfiguratory z komórki. Do tego sama zmiana wymiarów i liczby półek w Three.js bez poprawnego czyszczenia pamięci potrafi po kilkunastu zmianach zapchać kartę przeglądarki do pół gigabajta i konfigurator się wykłada. To są rzeczy, które klient widzi od razu, choć nie są na Twojej liście.\n\nDrugi temat to ceny. Jeśli logika liczenia ceny siedzi w JavaScript po stronie klienta, każda zmiana cennika to wdrożenie od nowa, a ceny i tak da się podejrzeć w narzędziach deweloperskich. Proponuję od razu przygotować architekturę tak, żeby wycena leciała z serwera, a PrestaShop (o którym piszesz w dalszym etapie) był źródłem prawdy dla danych handlowych. Dzięki temu późniejsza integracja przez ich API to dodanie modułu, a nie przepisywanie połowy projektu.\n\nPlan wygląda tak: zaczynamy od przeglądu kodu, który prześlesz. Sprawdzam, na czym stoi (vanilla JS, React, coś innego) i czy modele są już zoptymalizowane. Potem porządkujemy logikę i zależności, naprawiamy wydajność na mobile (kompresja assetów, instancing powtarzalnych elementów jak półki czy kolumny, poprawna gospodarka pamięcią przy zmianach wymiarów), dopracowujemy UI/UX i robimy deploy na docelowe środowisko. Wszystko z myślą o tym, żeby dało się to później wpiąć w sklep.\n\nZa doprowadzenie konfiguratora do wersji produkcyjnej, gotowej do wdrożenia na stronie, liczymy 6500 zł. Realizacja w 15 dni roboczych od momentu, gdy dostaniemy dostęp do kodu. W cenie dajemy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali, które wyjdą w praniu, plus krótkie wideo pokazujące jak obsługiwać panel, jeśli będzie z niego korzystać osoba nietechniczna.\n\nZdzwońmy się w tym tygodniu na 15 minut, żebym mógł zerknąć na kod i powiedzieć konkretnie, co warto poprawić w pierwszej kolejności. Jeśli wolisz, podeślij demo na priv, rzucę okiem i wrócę z uwagami. Bez problemu przygotujemy też krótką próbkę na fragmencie Twojego konfiguratora, żebyś zobaczyła jak to działa w praktyce.\n\nPozdrawiam",
+    "wycena": 6500,
+    "dni": 15,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144092",
+    "wycena": 6500,
+    "dni": 15,
+    "final_url": "https://useme.com/pl/jobs/144092/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144092.png",
+    "message": "Oferta #144092 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144092/offer/finish/)."
+  },
+  "updated_at": "2026-09-10T16:36:02.888857",
+  "error": "Łańcuch AI zwrócił błąd/abort dla zlecenia 144092"
+}

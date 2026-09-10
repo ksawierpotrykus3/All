@@ -1,0 +1,84 @@
+{
+  "id": "40703466",
+  "url": "https://www.freelancer.pl/projects/godaddy/GoDaddy-Email-Configuration/details",
+  "title": "GoDaddy Email MX Configuration",
+  "author": "Anonim",
+  "budget": "600.0 - 1500.0 INR",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.791152",
+  "status": "PRZYGOTOWANA",
+  "list_details": {
+    "id": "40703466",
+    "url": "https://www.freelancer.pl/projects/godaddy/GoDaddy-Email-Configuration/details",
+    "seo_url": "godaddy/GoDaddy-Email-Configuration",
+    "title": "GoDaddy Email MX Configuration",
+    "budget": "600.0 - 1500.0 INR",
+    "budget_raw": {
+      "minimum": 600.0,
+      "maximum": 1500.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I recently purchased a domain and mailbox plan through GoDaddy, but the address is still not sending",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "System Admin",
+      "Technical Support",
+      "DNS",
+      "Web Hosting",
+      "Web Services",
+      "System Administration",
+      "GoDaddy"
+    ],
+    "bid_stats": {
+      "bid_count": 13,
+      "bid_avg": 1192.3076923076924
+    },
+    "local": false,
+    "time_submitted": 1789053904
+  },
+  "full_details": {
+    "id": "40703466",
+    "title": "GoDaddy Email MX Configuration",
+    "full_description": "I recently purchased a domain and mailbox plan through GoDaddy, but the address is still not sending or receiving. I want every Titan-specific record—MX, SPF, and DKIM—added or corrected in the DNS zone, plus any stray entries from previous services removed. I am not sure if another mail platform is active in the background, so a quick audit of the zone file is part of the job.\n\nOnce the records are in place, please wait for propagation (or force-check) and confirm that mail flows both ways through Titan. I will provide temporary GoDaddy access immediately and need the whole task wrapped up ASAP.  \n\nDeliverables  \n• DNS cleaned and updated with official Titan MX, SPF, and DKIM records  \n• Proof of successful send-and-receive tests  \n• Brief hand-off note so I know what was changed and why",
+    "budget_raw": {
+      "minimum": 600.0,
+      "maximum": 1500.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "System Admin",
+      "Technical Support",
+      "DNS",
+      "Web Hosting",
+      "Web Services",
+      "System Administration",
+      "GoDaddy"
+    ],
+    "bid_stats": {
+      "bid_count": 14,
+      "bid_avg": 1182.142857142857
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:39"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nZgłaszam swoją gotowość do realizacji zlecenia 'GoDaddy Email MX Configuration'.\nPosiadam doświadczenie w wymaganym zakresie i gwarantuję terminowe dowiezienie projektu.\n\nPozdrawiam,\nZespół",
+    "wycena": 600015000,
+    "dni": 7,
+    "powod": "Deterministyczny mock dla testu szkieletu"
+  },
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:57.720592"
+}

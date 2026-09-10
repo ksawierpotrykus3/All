@@ -1,0 +1,77 @@
+{
+  "id": "40703240",
+  "url": "https://www.freelancer.pl/projects/automation/Automatizaci-WhatsApp-Google-Sheets-para/details",
+  "title": "Automatización WhatsApp-Google Sheets para Sorteos",
+  "author": "Anonim",
+  "budget": "30.0 - 250.0 USD",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:28:38.902029",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703240",
+    "url": "https://www.freelancer.pl/projects/automation/Automatizaci-WhatsApp-Google-Sheets-para/details",
+    "seo_url": "automation/Automatizaci-WhatsApp-Google-Sheets-para",
+    "title": "Automatización WhatsApp-Google Sheets para Sorteos",
+    "budget": "30.0 - 250.0 USD",
+    "budget_raw": {
+      "minimum": 30.0,
+      "maximum": 250.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "Título de la propuesta:\nDesarrollo de automatización reutilizable sin suscripciones: WhatsApp a Goog",
+    "category": "automation-ai",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "JavaScript",
+      "Python",
+      "Excel",
+      "Google Chrome",
+      "Scripting",
+      "Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 81,
+      "bid_avg": 117.8395061728395
+    },
+    "local": false,
+    "time_submitted": 1789046462
+  },
+  "full_details": {
+    "id": "40703240",
+    "title": "Automatización WhatsApp-Google Sheets para Sorteos",
+    "full_description": "Título de la propuesta:\nDesarrollo de automatización reutilizable sin suscripciones: WhatsApp a Google Sheets + Envío de Tickets (Gestión de Sorteos)\nDescripción del proyecto:\nBusco un profesional en automatización para desarrollar un sistema de gestión de ventas para rifas y sorteos. El sistema debe ser reutilizable para múltiples eventos, permitiendo ajustar dinámicamente la cantidad de números (sea de 100, 2.000 o cualquier tamaño) y gestionar un número variable de vendedores (pudiendo agregar o quitar vendedores en cada sorteo).\n​Requisito clave: El sistema debe funcionar sin costos de suscripciones recurrentes ni pagos mensuales en plataformas de terceros (utilizando herramientas en sus planes 100% gratuitos, scripts locales, Google Apps Script, extensiones de Chrome para WhatsApp Web o n8n autohospedado).\n​Requerimientos del flujo:\n​Entrada de datos desde WhatsApp (Vendedores variables):\n​Los vendedores enviarán por WhatsApp los datos de cada venta (Nombre vendedor, N° de ticket, Nombre cliente, Teléfono, Medio de pago, N° comprobante y foto del comprobante).\n​Debe ser fácil de reutilizar para nuevos sorteos y permitir agregar/quitar vendedores sin tocar el código.\n​Sincronización con Google Sheets & Drive:\n​Registrar la venta automáticamente en la planilla del sorteo activo.\n​Guardar la foto del comprobante en Google Drive y vincular el enlace directo en la planilla.\n​Envío automático de Ticket al Comprador:\n​Al marcar el estado como \"Confirmado\" en Google Sheets, el sistema debe enviar un mensaje de WhatsApp automático al cliente con su ticket/comprobante digital.\n​Entrega y Reutilización:\n​Instalación y prueba funcional.\n​Un breve instructivo sobre cómo reiniciar/duplicar el sistema para lanzar un nuevo sorteo con diferente cantidad de números o lista de vendedores.\nCategoría: IT & Programación / Automatizaciones\nHabilidades requeridas: Google Apps Script, WhatsApp Web Automation, Google Sheets API, Make (plan gratuito), JavaScript, Extensiones Web / Python.",
+    "budget_raw": {
+      "minimum": 30.0,
+      "maximum": 250.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "JavaScript",
+      "Python",
+      "Excel",
+      "Google Chrome",
+      "Scripting",
+      "Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 81,
+      "bid_avg": 117.8395061728395
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:47"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:47.416350"
+}

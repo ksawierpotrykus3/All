@@ -1,0 +1,99 @@
+LICZBA_ARTYKULOW=14
+--- ARTYKUL 0 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=nie
+storeKeys=
+hrefs=
+text=
+--- ARTYKUL 1 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=nie
+storeKeys=
+hrefs=
+text=
+--- ARTYKUL 2 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=TAK
+storeKeys=
+hrefs=https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVH
+text=Łukasz Markulis · 5 godz. · od autora cyt.: "Problem z tym API jest taki, że nie ma zbyt wiele przykładów, albo inżynierów, którzy potrafią takie rzeczy budować. W zasadzie jeśli k
+--- ARTYKUL 3 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=TAK
+storeKeys=
+hrefs=https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVH
+text=Adam Jesionkiewicz · 4 godz. · Autor Łukasz Markulis prawda. Wiele osób, które tak komentują nie za bardzo chyba rozumieją, czym jest trening sieci neuronowej. Zakodowane, uśrednio
+--- ARTYKUL 4 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=TAK
+storeKeys=
+hrefs=https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVH
+text=Mateusz Rukowicz · 7 godz. · od autora API zawsze zmierza do tego co oferuje sprzęt[*], a to jest w miarę stabilne, więc umieją doskonale, nie ważne w jakim języku czy środowisku m
+--- ARTYKUL 5 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=TAK
+storeKeys=
+hrefs=https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVH
+text=Kamil Sg · 4 godz. moje zdanie - czasem z ai lepiej się robi cos nowego z samej dokumentacji i testów niż tych przykładów starych api które ma wytrenowane bo te przykłady w większo
+--- ARTYKUL 6 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=TAK
+storeKeys=
+hrefs=https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVH
+text=Tomasz Muszyński · 5 godz. Ja tam jednak wolę aplikacje desktopowe, bo są spójne z OS, szybsze w uruchamianiu, lepiej integrują się z OS, no i nie muszą trzymać moich danych u obcy
+--- ARTYKUL 7 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=TAK
+storeKeys=
+hrefs=https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVH
+text=Adam Jesionkiewicz · 4 godz. · Autor Tomasz Muszyński ale w moim use case to niemożliwe z bardzo wielu względów. Buduję architekturę silnika, która nie jest po prostu jakaś adaptac
+--- ARTYKUL 8 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=TAK
+storeKeys=
+hrefs=https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVH
+text=Łukasz Markulis · 5 godz. · od autoracyt.: "Problem z tym API jest taki, że nie ma zbyt wiele przykładów, albo inżynierów, którzy potrafią takie rzeczy budować. W zasadzie jeśli kt
+--- ARTYKUL 9 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=TAK
+storeKeys=
+hrefs=https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVH
+text=Adam JesionkiewiczZweryfikowane konto · 4 godz. · AutorŁukasz Markulis prawda. Wiele osób, które tak komentują nie za bardzo chyba rozumieją, czym jest trening sieci neuronowej. Za
+--- ARTYKUL 10 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=TAK
+storeKeys=
+hrefs=https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVH
+text=Mateusz Rukowicz · 7 godz. · od autoraAPI zawsze zmierza do tego co oferuje sprzęt[*], a to jest w miarę stabilne, więc umieją doskonale, nie ważne w jakim języku czy środowisku ma
+--- ARTYKUL 11 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=TAK
+storeKeys=
+hrefs=https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVH
+text=Kamil Sg · 4 godz.moje zdanie - czasem z ai lepiej się robi cos nowego z samej dokumentacji i testów niż tych przykładów starych api które ma wytrenowane bo te przykłady w większoś
+--- ARTYKUL 12 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=TAK
+storeKeys=
+hrefs=https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVH
+text=Tomasz Muszyński · 5 godz.Ja tam jednak wolę aplikacje desktopowe, bo są spójne z OS, szybsze w uruchamianiu, lepiej integrują się z OS, no i nie muszą trzymać moich danych u obcyc
+--- ARTYKUL 13 ---
+aria-posinset=
+data-pagelet=
+czy_zawiera_postId=TAK
+storeKeys=
+hrefs=https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVH
+text=Adam JesionkiewiczZweryfikowane konto · 4 godz. · AutorTomasz Muszyński ale w moim use case to niemożliwe z bardzo wielu względów. Buduję architekturę silnika, która nie jest po pr

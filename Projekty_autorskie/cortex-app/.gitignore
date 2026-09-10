@@ -1,0 +1,48 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Build outputs
+out/
+release/
+
+# Local tooling config
+.kilo/
+
+# Debug sessions
+.dbg/
+
+# Archived documents (moved to _documents/nieaktualne/)
+_documents/nieaktualne/
+
+# Data directory (runtime)
+data/
+
+# API keys (security)
+**/keys.json
+
+# Build-time artifacts (generated)
+electron.vite.config.*.mjs
+
+# npm local config (contains machine-specific paths)
+.npmrc
+
+# Auto-update blockmaps (generated)
+*.blockmap
+
+# Scratch scripts and captures
+*.py
+!agent/**/*.py
+*.png
+ocena_gemini.txt
+1.md
+*.bak
+cortex_*_dla_ai.md
+cortex_instrukcja_architektury_dla_ai.md
+
+

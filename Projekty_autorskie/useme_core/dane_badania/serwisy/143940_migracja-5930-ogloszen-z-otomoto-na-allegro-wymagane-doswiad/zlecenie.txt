@@ -1,0 +1,269 @@
+Migracja 5930 ogłoszeń z OTOMOTO na Allegro (Wymagane doświadczenie i gotowy skrypt)
+====================================================================================
+URL: https://useme.com/pl/jobs/migracja-5930-ogloszen-z-otomoto-na-allegro-wymagane-doswiadczenie-i-gotowy-skry,143940/
+
+Zleceniodawca
+MichałM
+
+Opis
+Zlecenie dotyczy masowego i szybkiego przeniesienia bazy dokładnie 5930 ogłoszeń części samochodowych z portalu OTOMOTO na konto firmowe Allegro. Rozliczenie wyłącznie na podstawie faktury VAT (FV) za pośrednictwem portalu Useme.
+
+Wymagany czas realizacji całego projektu to maksymalnie 14 dni. Szukam wyłącznie programisty lub agencji, która realizowała już dokładnie takie projekty, posiada gotowy, przetestowany skrypt (scraper/integrator) i jest w stanie uruchomić proces od zaraz. Do końca roku mam do przeniesienia jeszcze kilkanaście innych kont, więc przy terminowej i bezpiecznej współpracy gwarantuję stałe zlecenia.
+
+Warunki techniczne i bezpieczeństwa (NIE PODLEGAJĄ NEGOCJACJOM):
+
+1. Pobieranie danych z OTOMOTO: Wyłącznie metodą publicznego scrapingu z podanego linku do listy ogłoszeń. Nie udostępniam loginów ani haseł do OTOMOTO.
+
+2. Integracja z Allegro: Realizowana na podstawie moich kluczy API dewelopera (Client ID / Client Secret).
+
+3. Zakres uprawnień API: Aplikacja otrzyma wyłącznie dostęp do sekcji ofertowej (offers:read/write, settings:read/write) oraz podstawowego odczytu ID profilu (profile:read). Kategorycznie nie wyrażam zgody na nadawanie uprawnień do edycji profilu (profile:write), zarządzania wiadomościami (messaging) czy wglądu w finanse konta (billing/payments).
+
+4. Przebieg zlecenia: W ramach testu wykonawca wgra partię próbną 20 losowych ogłoszeń jako SZKICE (wersje robocze) na Allegro. Po natychmiastowej weryfikacji poprawności parametrów, opisów i zdjęć, następuje akceptacja budżetu na Useme i wgranie pozostałej bazy (całość ma trafić jako szkice).
+
+Wycena w ofercie musi zawierać łączny koszt pobrania danych (scrapingu) oraz importu przez API w wyznaczonym terminie 14 dni.
+
+Proszę o zgłoszenia wyłącznie osoby, których skrypt bez problemu działa na wyżej wymienionych, bezpiecznych uprawnieniach API Allegro i gwarantuje realizację w 2 tygodnie. W odpowiedzi proszę krótko opisać swoje doświadczenie w podobnych migracjach.
+
+Opublikowano
+wczoraj
+
+Kategoria
+Obsługa sklepów internetowych
+
+Prawa autorskie
+Bez przeniesienia praw autorskich
+
+Budżet
+Do negocjacji
+
+Ważne przez
+7 dni
+
+Wymagane umiejętności / tagi:
+API, javascript, landing page, + 6 więcej
+
+Wysłane oferty (15)
+------------------------------
+[Tom Smart | 0 umów](https://useme.com/pl/roles/contractor/677782/) - dzisiaj
+
+[Krystian | 3 umów](https://useme.com/pl/roles/contractor/252457/) - dzisiaj
+  * API
+  * javascript
+  * landing page
+  * optymalizacja
+  * python
+  * sklep internetowy
+  * strona www
+  * WooCommerce
+  * wordpress
+
+[Tomasz Balcewicz | 0 umów](https://useme.com/pl/roles/contractor/684100/) - wczoraj
+  * allegro
+  * API
+  * excel
+  * python
+  * sql
+  * Web Scraping
+  * WooCommerce
+  * wordpress
+
+[Dawid | 0 umów](https://useme.com/pl/roles/contractor/505789/) - wczoraj
+  * css
+  * docker
+  * git
+  * html
+  * javascript
+  * laravel
+  * mysql
+  * PHP
+  * sklep internetowy
+  * sql
+  * symfony
+  * WooCommerce
+  * wordpress
+  * Yii
+
+[ofylypczuk | 50 umów](https://useme.com/pl/roles/contractor/249828/) - wczoraj
+  * administracja serwerów
+  * AI
+  * analityka internetowa
+  * analiza danych
+  * angielski
+  * API
+  * aplikacje mobilne
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * contadu
+  * css
+  * film reklamowy
+  * frontend
+  * git
+  * google search console
+  * html
+  * influencer
+  * influencer marketing
+  * Inżynieria Danych
+  * javascript
+  * migracja stron www
+  * montaż video
+  * niemiecki
+  * python
+  * react native
+  * ruby
+  * SaaS
+  * seo
+  * shoper
+  * shopify
+  * sklep internetowy
+  * social media
+  * strona www
+  * Supabase
+  * szablon
+  * teksty pozycjonujące
+  * tłumaczenia
+  * uczenie maszynowe
+  * user experience design
+  * Web Scraping
+  * WooCommerce
+  * wordpress
+
+[Jakub Kaczmarek | 25 umów](https://useme.com/pl/roles/contractor/137876/) - wczoraj
+
+[Nazar Penkowskij | 0 umów](https://useme.com/pl/roles/contractor/694393/) - wczoraj
+
+[Tomas | 0 umów](https://useme.com/pl/roles/contractor/597456/) - wczoraj
+
+[KARTS DESIGN | 10 umów](https://useme.com/pl/roles/contractor/113377/) - wczoraj
+  * adobe illustrator
+  * adobe photoshop
+  * aplikacje mobilne
+  * apps
+  * architektura
+  * banner
+  * fotografia
+  * fotografia biznesowa
+  * fotografia mody
+  * fotografia produktowa
+  * grafika
+  * grafika na stronę
+  * grafika www
+  * identyfikacja wizualna
+  * layout design
+  * logo
+  * plakat
+  * sklep internetowy
+  * strona www
+  * UI
+  * ulotki
+  * user experience design
+  * UX design
+  * web development
+  * wizytówki
+  * wordpress
+
+[Alakhaine | 2 umów](https://useme.com/pl/roles/contractor/601969/) - wczoraj
+  * analiza biznesowa
+  * angular
+  * AWS Cloud
+  * chatbot
+  * C Sharp
+  * Data Science
+  * e-commerce
+  * NodeJS
+  * PHP
+  * React
+
+[archstack.dev | 111 umów](https://useme.com/pl/roles/contractor/217525/) - wczoraj
+  * administracja systemów
+  * API
+  * bazy danych
+  * debian
+  * docker
+  * GraphQL
+  * laravel
+  * linux
+  * LLM
+  * mysql
+  * Next.js
+  * NLP
+  * NodeJS
+  * OpenAI
+  * PHP
+  * postgresql
+  * prestashop
+  * python
+  * React
+  * redis
+  * REST
+  * sql
+  * web api
+  * Web Scraping
+  * wordpress
+
+[TEL-TECH - WWW i automatyzacje | 1 umowa](https://useme.com/pl/roles/contractor/681358/) - wczoraj
+
+[Adam K | 16 umów](https://useme.com/pl/roles/contractor/656703/) - wczoraj
+  * API
+  * boty
+  * Claude
+  * css
+  * excel
+  * Google Apps Script
+  * html5
+  * Konwersja PDF
+  * landing page
+  * n8n
+  * OpenAI
+  * python
+  * SaaS
+  * selenium
+  * strona www
+  * Strony Startowe
+  * web api
+  * web development
+  * Web Scraping
+  * wtyczka
+  * zapier
+
+[Heyneuron.com | 1 umowa](https://useme.com/pl/roles/contractor/148433/) - wczoraj
+  * AI
+  * Airtable
+  * API
+  * aplikacje webowe
+  * blockchain
+  * CRM
+  * facebook
+  * Facebook Pixel
+  * gmail
+  * google analytics
+  * Google Tag Manager
+  * hubspot
+  * landing page
+  * LANDINGPAGE
+  * marketing internetowy
+  * n8n
+  * Next.js
+  * Nocode
+  * React
+  * strona www
+  * web api
+  * web development
+  * zapier
+
+[Jakub Dubiejko | 355 umów](https://useme.com/pl/roles/contractor/216902/) - wczoraj
+  * aplikacje webowe
+  * bazy danych
+  * cms
+  * css
+  * drupal
+  * frontend
+  * html5
+  * javascript
+  * joomla
+  * layout design
+  * sklep internetowy
+  * strona www
+  * web development
+  * WooCommerce
+  * wordpress

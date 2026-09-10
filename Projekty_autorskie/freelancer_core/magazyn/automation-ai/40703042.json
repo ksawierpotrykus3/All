@@ -1,0 +1,73 @@
+{
+  "id": "40703042",
+  "url": "https://www.freelancer.pl/projects/automation/Employment-Agency-Automation-Solution/details",
+  "title": "Employment Agency Automation Solution",
+  "author": "Anonim",
+  "budget": "200.0 - 300.0 EUR",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:28:38.916908",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703042",
+    "url": "https://www.freelancer.pl/projects/automation/Employment-Agency-Automation-Solution/details",
+    "seo_url": "automation/Employment-Agency-Automation-Solution",
+    "title": "Employment Agency Automation Solution",
+    "budget": "200.0 - 300.0 EUR",
+    "budget_raw": {
+      "minimum": 200.0,
+      "maximum": 300.0
+    },
+    "currency": "EUR",
+    "author": "Anonim",
+    "short_desc": "Automation Project\n\nHi, I’m looking to automate a process for a temporary employment agency (ETT) th",
+    "category": "automation-ai",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Processing",
+      "Project Management",
+      "Data Extraction",
+      "Security",
+      "Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 47,
+      "bid_avg": 265.0
+    },
+    "local": false,
+    "time_submitted": 1789039872
+  },
+  "full_details": {
+    "id": "40703042",
+    "title": "Employment Agency Automation Solution",
+    "full_description": "Automation Project\n\nHi, I’m looking to automate a process for a temporary employment agency (ETT) that is currently done manually.\n\n The idea is to create an offline/local solution, without relying on external services, with the highest possible level of security and privacy, in order to prevent unauthorized access and potential vulnerabilities.\n\n Would you be able to help me design and implement it? I’d also like to know approximately how much it would cost and how long it would take.\n\nProceso que queremos automatizar\n\nActualmente, en la ETT realizamos varios procesos de forma manual que implican introducir los mismos datos en diferentes programas y plataformas. El objetivo es crear un sistema centralizado que permita recibir la documentación, extraer los datos automáticamente y utilizarlos en los diferentes procesos, reduciendo al mínimo la introducción manual de información.\n\n1. Recepción de documentación y extracción de datos\n\nCuando recibimos la documentación de un trabajador, por ejemplo una foto o documento del NIE, actualmente tenemos que revisar la documentación y introducir manualmente los datos en un Excel.\n\nQueremos crear un programa donde podamos subir la documentación y seleccionar o escribir qué operación necesitamos realizar, por ejemplo:\n\nAlta de trabajador.\nBaja de trabajador.\nModificación de datos.\nOtras gestiones.\n\nEl sistema debería leer la documentación, extraer los datos necesarios y introducirlos automáticamente en el Excel en el formato correspondiente.\n\n2. Paso automático a la hoja de contratos\n\nUna vez introducidos los datos, queremos que la información pase automáticamente a la hoja de contratos, utilizando el formato que necesitamos para posteriormente poder importarlo o utilizarlo en nuestros programas, como EOPER o Temporalink.\n\nEl objetivo es evitar tener que copiar y pegar los datos manualmente entre diferentes hojas y programas.\n\n3. Automatización de los desplazamientos\n\nTambién queremos automatizar el proceso de desplazamiento.\n\nActualmente tenemos que introducir manualmente en la plataforma de la Seguridad Social diferentes datos del trabajador, como:\n\nNúmero de Seguridad Social.\nNúmero de afiliación.\nNIE.\nEmpresa con la que se va a realizar el desplazamiento.\n\nEstos datos normalmente ya están disponibles en nuestro sistema, por lo que queremos que el programa pueda utilizarlos automáticamente y realizar el proceso sin tener que introducirlos uno por uno.\n\nSabemos que existen ETT que ya tienen automatizado este proceso, por lo que nos gustaría desarrollar una solución similar.\n\n\n4. Automatización de las altas\n\nQueremos automatizar también el proceso de las altas.\n\nLa idea es que, cuando recibamos la documentación del trabajador y los datos hayan sido extraídos, el NIE se introduzca automáticamente en EOPER, evitando tener que buscar e introducir manualmente cada trabajador.\n\nEsta sería una de las partes más importantes de la automatización.\n\n5. Contratos\n\nLa generación de contratos ya está prácticamente automatizada.\n\nLa principal excepción son los contratos realizados por la noche, que actualmente requieren realizarse mediante Sistema RED.\n\nNos gustaría automatizar también esta parte si técnicamente y legalmente es posible.\n\n6. Envío automático de ficheros a clientes\n\nFinalmente, cuando se generan los ficheros correspondientes, queremos que el sistema pueda enviarlos automáticamente a los clientes, sin que una persona tenga que realizar manualmente cada envío.\n\nRequisito importante: programa local y seguridad\n\nDebido a que trabajamos con datos personales y documentación confidencial de trabajadores, no queremos que la solución sea simplemente una página web alojada en Internet ni que la información tenga que enviarse a servidores externos.\n\nNuestra preferencia es que sea un programa instalado directamente en nuestros propios servidores e infraestructura, de manera que los datos y documentos permanezcan dentro de nuestro entorno.\n\nQueremos que el programa pueda funcionar tanto con conexión a Internet como sin conexión, dependiendo de la parte del proceso que se esté realizando. Cuando sea necesario conectarse a servicios externos, como la Seguridad Social u otros sistemas oficiales, la conexión se realizaría únicamente para realizar esa gestión.\n\nEl objetivo es minimizar la exposición de los datos a Internet y reducir los riesgos de accesos no autorizados, filtraciones o ataques externos. También queremos tener nosotros el control de los servidores, los accesos, los permisos y el almacenamiento de toda la información.\n\nPor este motivo, nos gustaría que el desarrollador nos propusiera una arquitectura local/on-premise, con las medidas de seguridad necesarias para proteger los datos.\n\n\nObjetivo final\n\nEl objetivo es crear un sistema que centralice todo este proceso:\n\nDocumentación → extracción automática de datos → Excel → contratos → altas → desplazamientos → generación de ficheros → envío automático al cliente\n\nQueremos reducir al máximo la introducción manual de datos, evitar errores y ahorrar tiempo, manteniendo al mismo tiempo un alto nivel de seguridad y privacidad.\n\nLa solución debería ser, siempre que sea técnicamente viable, un programa instalado en nuestros propios servidores y no una aplicación web pública, permitiendo trabajar de forma local y conectarse a Internet únicamente cuando sea necesario para realizar determinadas gestiones.",
+    "budget_raw": {
+      "minimum": 200.0,
+      "maximum": 300.0
+    },
+    "currency": "EUR",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Processing",
+      "Project Management",
+      "Data Extraction",
+      "Security",
+      "Automation"
+    ],
+    "bid_stats": {
+      "bid_count": 47,
+      "bid_avg": 265.0
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:48"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:48.696687"
+}

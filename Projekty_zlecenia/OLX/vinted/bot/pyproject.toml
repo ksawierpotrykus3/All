@@ -1,0 +1,30 @@
+[project]
+name = "vintedbot"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "click>=8.1",
+    "curl_cffi>=0.7",
+    "camoufox>=0.4",
+    "pydantic>=2.0",
+    "orjson>=3.9",
+    "cryptography>=42.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+vintedbot = "vintedbot.cli:cli"
+vintedbot-runner = "vintedbot.runner:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

@@ -1,0 +1,59 @@
+=== DIALOG INNERTEXT (pierwsze 3000 znakow) ===
+Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Adam Jesionkiewicz o͏ r͏ t͏ o͏ n͏ e͏ S͏ p͏ d͏ s͏ 5͏ 6͏ 8͏ 5͏ 0͏ i͏ 1͏ f͏ 7͏ g͏ u͏ a͏ h͏ 8͏ u͏ f͏ o͏ 4͏ t͏ c͏ 3͏ 6͏ 0͏ f͏ f͏ 8͏ 1͏ 3͏ c͏ 8͏ u͏ 2͏ d͏ g͏ a͏ 1͏ m͏ 0͏ 1͏ 9͏ m͏ 2͏ z͏ 1͏ 8͏ f͏ g͏ ͏ 5͏ .͏ · Pewnie słyszeliście, że tworzenie software, algorytmów, czy architektury z AI "może i jest możliwe, ale... niewydajne, niezoptymalizowane, przegadane i bałaganiarskie". Nie! To nie AI jest bałaganiarskie, tylko człowiek, który używa tego narzędzia. I zupełnie nie nawiązuje tutaj do historii, którą żyje cały kraj Poniżej zobaczyć możecie optymalizacje mojego silnika graficznego - Genesis Eva (ładna nazwa - co?). Wszystko zaczęło się od Three.js (bo przecież "AI umie kodować tylko to, co zassało masowo z internetu"), ale ten gotowy framework bardzo mocno ogranicza możliwości tworzenia czegoś bardzo skomplikowanego (za duży koszt CPU). Biorąc pod uwagę moje wcześniejsze doświadczenia z "hackowaniem" asemblera, czy tworzenia emulatorów z nieistniejących przykładów (LISA), stwierdziłem, że przecież nikt nie zabroni mi budowania bezpośrednio w nowym WebGPU, czyli nisko poziomowym API, które pozwala kodowi w przeglądarce bezpośrednio i wydajnie komunikować się z procesorem graficznym (GPU) - dokładnie tak, jak aplikacje desktopowe. Problem z tym API jest taki, że nie ma zbyt wiele przykładów, albo inżynierów, którzy potrafią takie rzeczy budować. W zasadzie jeśli ktoś to potrafi, to w życiu się nie nudzi Komentarza raczej były takie, że LLMy sobie z tym nie poradzą, właśnie przez brak materiałów, na których mogłyby się dobrze nauczyć. Całe szczęście, znowu okazało się to nieprawdą. Da się i efekty są spektakularne. Poniżej subtelny przykład z jednego z moich benchmarków. Nie widać CPU, ale różnica między WebGL, a WebGPU w poniższym przykładzie jest, że tak powiem fundamentalna. I to nie jest jeszcze koniec optymalizacji. Sobotni przekaz będzie nudny - nie ograniczajcie się z użyciem AI do tematów, które wydają się trudne, albo niemożliwe. Powodzenia. A jeśli szukacie inspiracji, to przypominam, że WebGPU API można wykorzystać także do odpalania modelu LLM bezpośrednio przez przeglądarkę na stronie internetowej. A jest tu kilka ciekawych pomysłów, jak to można wykorzystać Łącząc to z webassembly mamy dostęp do totalnie nowego świata internetowych aplikacji, które nie będą ustępować wydajności i możliwościom desktopowych aplikacji, które trzeba notaryzować, dystrybuować, ściągać, instalować, updatować, etc. W tym świecie wszystko żyje na serwerach. Wyobraźcie sobie światy w grach, które będą w zasadzie nieograniczone i w pełni dynamiczne/żyjące (generowane też przez modele AI). 34 Najtrafniejsze Łukasz Markulis · 5 godz. · od autora cyt.: "Prob
+=== KONIEC DIALOGU ===
+=== SZUKAM: pewnie slyszeliscie ===
+LICZBA=0
+=== SZUKAM: tworzenie software ===
+LICZBA=50
+-- hit 0 div.__fb-dark-mode.x1n2onr6.x1vjfegm
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 1 div.x9f619.x1n2onr6.x1ja2u2z
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 2 div.x78zum5.xdt5ytf.xg6iff7.xippug5.x1n2onr6
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 3 div[role=dialog].x78zum5.xdt5ytf.x1iyjqo2
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 4 div.x1uvtmcs.x4k7w5x.x1h91t0o.x1beo9mf.xaigb6o.x12ejxvf.x3igimt.xarpa2k.xedcshv.x1ly
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 5 div.__fb-dark-mode.x1qjc9v5.x9f619.x78zum5.xdt5ytf.x1iyjqo2.xl56j7k.xshlqvt
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 6 div.x9f619.x78zum5.xl56j7k.x2lwn1j.xeuugli.x47corl.x1qjc9v5.x1bwycvy.x135b78x.x11lfx
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 7 div[role=dialog].x1n2onr6.x1ja2u2z.x1afcbsf.xdt5ytf.x1a2a7pz.x71s49j.x1qjc9v5.xazwl86.x1hl0hii.x1
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 8 div.x1qjc9v5.x78zum5.xdt5ytf.x1n2onr6.x1al4vs7.x1jx94hy.xazwl86.x1hl0hii.x1aq6byr.x2
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 9 div.x1fmog5m.xu25z0z.x140muxe.xo1y3bh.x78zum5.xdt5ytf.x1iyjqo2.x1al4vs7
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 10 div.html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x78zu
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 11 div.xb57i2i.x1q594ok.x5lxg6s.x78zum5.xdt5ytf.x6ikm8r.x1ja2u2z.x1pq812k.x1rohswg.xfk6
+   text=Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Faceboo
+=== SZUKAM: genesis eva ===
+LICZBA=50
+-- hit 0 div.__fb-dark-mode.x1n2onr6.x1vjfegm
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 1 div.x9f619.x1n2onr6.x1ja2u2z
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 2 div.x78zum5.xdt5ytf.xg6iff7.xippug5.x1n2onr6
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 3 div[role=dialog].x78zum5.xdt5ytf.x1iyjqo2
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 4 div.x1uvtmcs.x4k7w5x.x1h91t0o.x1beo9mf.xaigb6o.x12ejxvf.x3igimt.xarpa2k.xedcshv.x1ly
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 5 div.__fb-dark-mode.x1qjc9v5.x9f619.x78zum5.xdt5ytf.x1iyjqo2.xl56j7k.xshlqvt
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 6 div.x9f619.x78zum5.xl56j7k.x2lwn1j.xeuugli.x47corl.x1qjc9v5.x1bwycvy.x135b78x.x11lfx
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 7 div[role=dialog].x1n2onr6.x1ja2u2z.x1afcbsf.xdt5ytf.x1a2a7pz.x71s49j.x1qjc9v5.xazwl86.x1hl0hii.x1
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 8 div.x1qjc9v5.x78zum5.xdt5ytf.x1n2onr6.x1al4vs7.x1jx94hy.xazwl86.x1hl0hii.x1aq6byr.x2
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 9 div.x1fmog5m.xu25z0z.x140muxe.xo1y3bh.x78zum5.xdt5ytf.x1iyjqo2.x1al4vs7
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 10 div.html-div.xdj266r.x14z9mp.xat24cr.x1lziwak.xexx8yu.xyri2b.x18d9i69.x1c1uobl.x78zu
+   text=Post Adam Jesionkiewicz Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook F
+-- hit 11 div.xb57i2i.x1q594ok.x5lxg6s.x78zum5.xdt5ytf.x6ikm8r.x1ja2u2z.x1pq812k.x1rohswg.xfk6
+   text=Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Facebook Faceboo
+=== SZUKAM: whiterhino ===
+LICZBA=0

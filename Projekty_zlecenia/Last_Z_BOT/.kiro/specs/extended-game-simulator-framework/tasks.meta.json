@@ -1,0 +1,180 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "Step 1: Write tests for UI initialization, window creation, canvas rendering": [
+      {
+        "executionId": "fb77ac94-0093-4686-9c40-0b28a7702ec4",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788353133632
+      },
+      {
+        "executionId": "fb77ac94-0093-4686-9c40-0b28a7702ec4",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788353448564
+      }
+    ],
+    "Step 2: Implement InteractiveUI class (Tkinter root window, 1400x900)": [
+      {
+        "executionId": "fb77ac94-0093-4686-9c40-0b28a7702ec4",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788353453726
+      },
+      {
+        "executionId": "fb77ac94-0093-4686-9c40-0b28a7702ec4",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788353568925
+      }
+    ],
+    "Step 3: Implement CanvasRenderer for game state visualization (alert, treasure, chat states)": [
+      {
+        "executionId": "fb77ac94-0093-4686-9c40-0b28a7702ec4",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788353571674
+      },
+      {
+        "executionId": "fb77ac94-0093-4686-9c40-0b28a7702ec4",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788353764545
+      }
+    ],
+    "Step 4: Create left panel (game canvas 600x700) and right panel (metrics dashboard 400x700)": [
+      {
+        "executionId": "fb77ac94-0093-4686-9c40-0b28a7702ec4",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788353768828
+      },
+      {
+        "executionId": "fb77ac94-0093-4686-9c40-0b28a7702ec4",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788354013356
+      }
+    ],
+    "Step 5: Run tests and commit with message: \"feat: implement Tkinter UI foundation\"": [
+      {
+        "executionId": "fb77ac94-0093-4686-9c40-0b28a7702ec4",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788354016353
+      }
+    ],
+    "Step 1: Write tests for dashboard rendering, metric updates, gauge rendering": [
+      {
+        "executionId": "633a1828-cf16-4122-bb67-dd32e8d4b694",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788354628589
+      },
+      {
+        "executionId": "633a1828-cf16-4122-bb67-dd32e8d4b694",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788354794199
+      }
+    ],
+    "Step 2: Implement MetricsDashboard: accuracy gauge, latency meter, CPU monitor, state indicator": [
+      {
+        "executionId": "633a1828-cf16-4122-bb67-dd32e8d4b694",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788354797768
+      },
+      {
+        "executionId": "633a1828-cf16-4122-bb67-dd32e8d4b694",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788354874187
+      }
+    ],
+    "Step 3: Create real-time update mechanism (thread-safe queue from SimulationEngine)": [
+      {
+        "executionId": "633a1828-cf16-4122-bb67-dd32e8d4b694",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788354882588
+      },
+      {
+        "executionId": "633a1828-cf16-4122-bb67-dd32e8d4b694",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788355476892
+      }
+    ],
+    "Step 4: Implement text rendering for current variant, CPS, load": [
+      {
+        "executionId": "633a1828-cf16-4122-bb67-dd32e8d4b694",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788355487393
+      }
+    ],
+    "Step 1: Write tests for timeline rendering, event scrolling, timestamp formatting": [
+      {
+        "executionId": "041ef90e-4a09-462a-9672-f12d31113297",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788356334496
+      }
+    ],
+    "Step 2: Implement TimelineWidget: scrollable event list with phase indicators": [
+      {
+        "executionId": "830dd4fe-c0c5-4b9e-a1dd-4733bfebfe54",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788356667931
+      }
+    ],
+    "Step 3: Implement event formatting: [HH:MM:SS.mmm] Phase Name -> Status": [
+      {
+        "executionId": "830dd4fe-c0c5-4b9e-a1dd-4733bfebfe54",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788356668453
+      }
+    ],
+    "Step 4: Thread-safe event queue from SimulationEngine": [
+      {
+        "executionId": "830dd4fe-c0c5-4b9e-a1dd-4733bfebfe54",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788356668894
+      }
+    ],
+    "Step 1: Write tests for hotkey handling, button clicks, perturbation menu": [
+      {
+        "executionId": "c00d1099-de2d-4173-9dcc-693c5f4d5726",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788357203646
+      }
+    ],
+    "Step 2: Implement ControlsPanel: Pause, Skip, Perturb buttons": [
+      {
+        "executionId": "c00d1099-de2d-4173-9dcc-693c5f4d5726",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788357203994
+      }
+    ],
+    "Step 3: Implement hotkey bindings: Space (alert), P (pause), R (reset), C (change_variant), S (cpu_spike), Q (quit)": [
+      {
+        "executionId": "c00d1099-de2d-4173-9dcc-693c5f4d5726",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788357204829
+      }
+    ],
+    "Step 4: Implement perturbation menu: block_clicks, inject_cpu, change_chat, delay_alert, add_ocr_noise": [
+      {
+        "executionId": "c00d1099-de2d-4173-9dcc-693c5f4d5726",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788357205588
+      }
+    ],
+    "Step 5: Commit with message: \"feat: implement real-time metrics dashboard\"": [
+      {
+        "executionId": "cce0a887-f66e-4b1e-bc43-fdb0040f81f7",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788363941337
+      }
+    ],
+    "Step 5: Commit with message: \"feat: implement timeline widget for phase visualization\"": [
+      {
+        "executionId": "cce0a887-f66e-4b1e-bc43-fdb0040f81f7",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788363942083
+      }
+    ],
+    "Step 5: Commit with message: \"feat: implement controls panel with hotkeys and perturbations\"": [
+      {
+        "executionId": "cce0a887-f66e-4b1e-bc43-fdb0040f81f7",
+        "chatSessionId": "sess_8fde53b5-7c1c-4434-9465-0b02ba971199",
+        "timestamp": 1788363942413
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "40703192",
+  "url": "https://www.freelancer.pl/projects/javascript/Web-Based-Weather-App-Development/details",
+  "title": "Web-Based Weather App Development -- 2",
+  "author": "Anonim",
+  "budget": "750.0 - 1250.0 INR",
+  "category": "web-dev",
+  "detected_at": "2026-09-10T17:28:38.880850",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703192",
+    "url": "https://www.freelancer.pl/projects/javascript/Web-Based-Weather-App-Development/details",
+    "seo_url": "javascript/Web-Based-Weather-App-Development",
+    "title": "Web-Based Weather App Development -- 2",
+    "budget": "750.0 - 1250.0 INR",
+    "budget_raw": {
+      "minimum": 750.0,
+      "maximum": 1250.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I’m ready to have a Weather App built specifically for the web. The core of the project is straightf",
+    "category": "web-dev",
+    "project_type": "hourly",
+    "jobs": [
+      "Java",
+      "JavaScript",
+      "CSS",
+      "HTML5",
+      "HTML",
+      "Copy Typing",
+      "Microsoft Word"
+    ],
+    "bid_stats": {
+      "bid_count": 63,
+      "bid_avg": 954.3650793650794
+    },
+    "local": false,
+    "time_submitted": 1789044425
+  },
+  "full_details": {
+    "id": "40703192",
+    "title": "Web-Based Weather App Development -- 2",
+    "full_description": "I’m ready to have a Weather App built specifically for the web. The core of the project is straightforward: show users the current weather conditions for any searched location and provide a clear, reliable 7-day forecast right beside it. I need the interface to be responsive so it looks and works just as well on a laptop as it does in a mobile browser.\n\nMy ideal flow is simple:\n• A search box or auto-detect option for location  \n• Instant display of today’s temperature, wind, humidity, and a concise textual summary  \n• A neatly laid-out week-ahead forecast, preferably with minimal graphical icons for quick scanning  \n\nBehind the scenes you can pull data from a reputable public API such as OpenWeatherMap or WeatherAPI; whichever you’re most comfortable with is fine so long as the response time is solid and the usage tier you pick stays within free limits at launch.\n\nI’d like clean, commented source code (JavaScript/TypeScript, HTML5, CSS3 or a small React/Vue setup—your choice) plus a brief README covering local setup and how to deploy to a standard shared host or an inexpensive cloud instance. If you favour a framework or build tool, include the config files so I can reproduce the build.\n\nOnce everything is running smoothly with both the current-conditions panel and the 7-day forecast, hand over the repository or ZIP and we’re done.",
+    "budget_raw": {
+      "minimum": 750.0,
+      "maximum": 1250.0
+    },
+    "currency": "INR",
+    "project_type": "hourly",
+    "jobs": [
+      "Java",
+      "JavaScript",
+      "CSS",
+      "HTML5",
+      "HTML",
+      "Copy Typing",
+      "Microsoft Word"
+    ],
+    "bid_stats": {
+      "bid_count": 63,
+      "bid_avg": 954.3650793650794
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:45"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:45.891111"
+}

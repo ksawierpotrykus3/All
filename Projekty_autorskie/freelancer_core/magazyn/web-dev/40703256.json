@@ -1,0 +1,79 @@
+{
+  "id": "40703256",
+  "url": "https://www.freelancer.pl/projects/elementor/WordPress-Spacing-Optimization/details",
+  "title": "WordPress Spacing Optimization",
+  "author": "Anonim",
+  "budget": "2.0 - 8.0 USD",
+  "category": "web-dev",
+  "detected_at": "2026-09-10T17:28:38.865211",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703256",
+    "url": "https://www.freelancer.pl/projects/elementor/WordPress-Spacing-Optimization/details",
+    "seo_url": "elementor/WordPress-Spacing-Optimization",
+    "title": "WordPress Spacing Optimization",
+    "budget": "2.0 - 8.0 USD",
+    "budget_raw": {
+      "minimum": 2.0,
+      "maximum": 8.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "The visual rhythm of my WordPress site feels off, and I’m ready to tighten it up. All sections—heade",
+    "category": "web-dev",
+    "project_type": "hourly",
+    "jobs": [
+      "PHP",
+      "WordPress",
+      "CSS",
+      "HTML",
+      "UI / User Interface",
+      "Web Development",
+      "Elementor",
+      "Web Design"
+    ],
+    "bid_stats": {
+      "bid_count": 242,
+      "bid_avg": 7.369628099173554
+    },
+    "local": false,
+    "time_submitted": 1789046889
+  },
+  "full_details": {
+    "id": "40703256",
+    "title": "WordPress Spacing Optimization",
+    "full_description": "The visual rhythm of my WordPress site feels off, and I’m ready to tighten it up. All sections—header, footer, sidebars, every content block—need their margins and padding refined so the whole site breathes consistently. I already have a reference layout that shows the exact spacing scale I want, so you’ll be working from a clear visual guide rather than guessing.\n\nYou’ll dive into the theme’s CSS (or any child-theme overrides) and, where needed, tweak Elementor/module settings so that every breakpoint—desktop, tablet, and mobile—mirrors the design I’ll supply. Please keep the revision process simple: we’ll review together page-by-page, adjust anything that drifts from the reference, then push the polished spacing live. \n\nDeliverables:\n• Updated stylesheet or child-theme files with clearly commented edits  \n• Before/after screenshots for each page type showing the spacing fixes  \n• A short hand-off note outlining what was changed and where, so I can maintain it later  \n\nOnce everything aligns perfectly with the provided design, the project is complete.",
+    "budget_raw": {
+      "minimum": 2.0,
+      "maximum": 8.0
+    },
+    "currency": "USD",
+    "project_type": "hourly",
+    "jobs": [
+      "PHP",
+      "WordPress",
+      "CSS",
+      "HTML",
+      "UI / User Interface",
+      "Web Development",
+      "Elementor",
+      "Web Design"
+    ],
+    "bid_stats": {
+      "bid_count": 242,
+      "bid_avg": 7.369628099173554
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:44"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:44.572243"
+}

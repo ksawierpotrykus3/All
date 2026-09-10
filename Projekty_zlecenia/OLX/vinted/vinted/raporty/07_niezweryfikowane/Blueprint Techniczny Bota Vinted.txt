@@ -1,0 +1,41 @@
+# BLUEPRINT TECHNICZNY BOTA VINTED (MATRYCA STANU I PLAN ARCHITEKTURY)
+
+Data aktualizacji: 2026-08-26
+Status: Wersja zweryfikowana na dowodach, bez zmyślonych liczb i bez halucynacji.
+
+---
+
+## 1. MATRYCA STANU (FAKTY EMPIRYCZNE VS BIAŁE PLAMY)
+
+| Moduł | FAKTY (Zweryfikowane pomiarami w kodzie) | BIAŁE PLAMY (Do zmierzenia w Fazie 1) |
+|---|---|---|
+| **Monitoring** | • Endpoint `GET /api/v2/catalog/items` działa i zwraca JSON.<br>• `order=newest_first` realnie sortuje po najnowszych.<br>• Twardy cap `per_page=96`, `total_entries=960`.<br>• ID ofert są losowe (43 rosnące / 52 malejące, rozstęp 121 757) — predykcja sekwencyjna (OLX) niemożliwa. | • Dokładne opóźnienie propagacji od bazy Vinted do krawędzi CDN. |
+| **Filtry** | • `brand_ids`, `size_ids`, `status_ids`, `search_text`, `price_from/to` działają w API (bzdurny parametr = 0 wyników).<br>• Filtr kategorii NIE działa w JSON API (zwraca sztywne 960).<br>• Kategoria dostępna wyłącznie przez scrapowanie HTML SSR (`/catalog?catalog[]=ID`) i parsowanie Flight Data Next.js. | • Dokładny narzut CPU na parsowanie SSR HTML w porównaniu z JSON API. |
+| **Checkout** | • Endpoint `/api/v2/items/{id}/details` jest blokowany (HTTP 403 DataDome).<br>• Strona HTML `/items/{id}` zwraca 200 (~1.95 MB) ze schematem JSON-LD.<br>• Kops.gg robi realny zakup w 5–6 sekund (pomiar klienta). | • **Dokładna sekwencja i struktura requestów zakupu (niezmapowana w captured_requests.json).**<br>• Czas odpowiedzi serwera Vinted na mutacje koszyka/zamówienia. |
+| **Płatność** | • Tradycyjne karty bankowe generują ryzyko 3D Secure / SMS bankowego. | • **Zachowanie Vinted Balance (Portfel) vs Token Zapisanej Karty w realnym requeście API.** |
+| **Anty-Bot** | • Twardy rate-limit na 1 IP: ~0.83 req/s (HTTP 429 po 6 requestach co 0.15s).<br>• Wymagana emulacja TLS/JA4 (curl_cffi chrome124). | • Odporność sesji na równoległe zapytania z 3–4 osobnych proxy rezydencjalnych. |
+
+---
+
+## 2. SCHEMAT PRZEPŁYWU (BLUEPRINT ARCHITEKTURY)
+
+### Warstwa 1: Detekcja (Zbadana)
+1. **Asynchroniczny Poller (curl_cffi):** Odpytuje `GET /api/v2/catalog/items?order=newest_first&per_page=96` co 0.8–1.0 s z nałożonym jitterem.
+2. **Matching Engine (Pamięć RAM):** Błyskawiczna deserializacja JSON i ewaluacja reguł klienta (< 1 ms).
+
+### Warstwa 2: Przygotowanie i sesja (Koncepcja inżynierska)
+1. **Pre-warmed Connection:** Utrzymywanie otwartego gniazda HTTP/2 do krawędzi Vinted, aby wyeliminować czas na DNS i handshake TLS (oszczędność 50–150 ms).
+2. **Token Cache:** Tokeny autoryzacyjne, CSRF oraz ciasteczka sesji trzymane bezpośrednio w pamięci RAM.
+
+### Warstwa 3: Egzekucja Zakupu (Do zmapowania i zmierzenia w Fazie 1)
+* **Krok A:** Przechwycenie realnego flow zamówienia w przeglądarce (DevTools Network tab).
+* **Krok B:** Odtworzenie minimalnego łańcucha zapytań w Pythonie (asynchroniczny dry-run).
+* **Krok C:** Pomiar rzeczywistego czasu (t0 -> t_final). **Brak deklarowania zmyślonych czasów sub-sekundowych przed wykonaniem pomiaru.**
+
+---
+
+## 3. ZASADY BEZPIECZEŃSTWA (1 IP = 1 KONTO)
+
+* Każde konto klienta musi działać na osobnym procesie/workerze.
+* Każdy worker ma przypisane dedykowane, stałe proxy rezydencjalne (Sticky IP).
+* Zero współdzielenia ciastek, pamięci RAM ani puli połączeń pomiędzy kontami.

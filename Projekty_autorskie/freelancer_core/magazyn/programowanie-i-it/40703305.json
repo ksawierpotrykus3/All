@@ -1,0 +1,79 @@
+{
+  "id": "40703305",
+  "url": "https://www.freelancer.pl/projects/web-development/you-website/details",
+  "title": "be-you website",
+  "author": "Anonim",
+  "budget": "37500.0 - 75000.0 INR",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.838762",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703305",
+    "url": "https://www.freelancer.pl/projects/web-development/you-website/details",
+    "seo_url": "web-development/you-website",
+    "title": "be-you website",
+    "budget": "37500.0 - 75000.0 INR",
+    "budget_raw": {
+      "minimum": 37500.0,
+      "maximum": 75000.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I’m building an online ecosystem whose single purpose is to connect travelers with the right local p",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "Graphic Design",
+      "HTML",
+      "Web Development",
+      "Backend Development",
+      "Frontend Development",
+      "Database Management"
+    ],
+    "bid_stats": {
+      "bid_count": 62,
+      "bid_avg": 50732.3064516129
+    },
+    "local": false,
+    "time_submitted": 1789048655
+  },
+  "full_details": {
+    "id": "40703305",
+    "title": "be-you website",
+    "full_description": "I’m building an online ecosystem whose single purpose is to connect travelers with the right local partners. The platform has to feel effortless for a visitor: they land on the site, browse or search partner profiles, and can immediately start a conversation or request further details.\n\nScope of work\n• Architect a responsive web application from database up through polished front-end.  \n• Implement secure user registration for both traveler and partner accounts, including profile creation, photo uploads, location tagging, and basic messaging.  \n• Design a clear partner-discovery flow (search, filters, profile cards, “connect” button).  \n• Provide an admin dashboard so I can approve, edit, or deactivate any listing.  \n• Deploy the finished site to my hosting environment and supply concise setup/maintenance documentation.\n\nAcceptance criteria\n• A traveler can register, complete a profile, find at least one partner, and exchange a message without admin assistance.  \n• Page load times stay under three seconds on a standard 4G mobile connection.  \n• Codebase is clean, version-controlled, and delivered with a read-me that lets another developer stand the site back up in under one hour.\n\nIf you have a track record building community or marketplace platforms and can suggest the right tech stack for fast searches and secure data handling, let’s talk timelines and milestones—my goal is to launch a reliable MVP quickly and iterate from there.",
+    "budget_raw": {
+      "minimum": 37500.0,
+      "maximum": 75000.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "Website Design",
+      "Graphic Design",
+      "HTML",
+      "Web Development",
+      "Backend Development",
+      "Frontend Development",
+      "Database Management"
+    ],
+    "bid_stats": {
+      "bid_count": 62,
+      "bid_avg": 50732.3064516129
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:43"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:43.458594"
+}

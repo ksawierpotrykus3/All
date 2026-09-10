@@ -1,0 +1,44 @@
+{
+  "id": "143916",
+  "url": "https://useme.com/pl/jobs/firma-perca-zleci-wykonanie-landing-page-na-swoja-strone,143916/",
+  "title": "Firma Perca zleci wykonanie Landing page na swoją stronę",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-08T18:26:26.898263",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "143916",
+    "url": "https://useme.com/pl/jobs/firma-perca-zleci-wykonanie-landing-page-na-swoja-strone,143916/",
+    "title": "Firma Perca zleci wykonanie Landing page na swoją stronę",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Firma Perca jest producentem Stołów, krzeseł i małej tapicerki klasy premium poszukujemy specjalisty do wykonania landing pagea na nasza stronę  oczekujemy innowacyjnego podejścia i materiału , który porwie nas i klientów :)\nwszystkie informacje...",
+    "category": "programowanie-i-it"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/firma-perca-zleci-wykonanie-landing-page-na-swoja-strone,143916/",
+    "title": "Firma Perca zleci wykonanie Landing page na swoją stronę",
+    "full_description": "<p>Firma Perca jest producentem Stołów, krzeseł i małej tapicerki klasy premium poszukujemy specjalisty do wykonania landing pagea na nasza stronę  oczekujemy innowacyjnego podejścia i materiału , który porwie nas i klientów :)<br>wszystkie informacje i materiały udostępnimy wybranemu oferentowi</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/143916/offer/start/",
+    "scraped_at": "2026-09-10T16:02:20"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu. Robimy strony i aplikacje bezpośrednio, bez pośredników, a landingi sprzedażowe dla marek premium to temat, który już przerabialiśmy.\n\nZacznę od tego, co w tym zleceniu jest prawdziwym wyzwaniem. Landing page dla producenta mebli klasy premium to nie jest kwestia \"ładnej strony\". Meble high-ticket prawie nigdy nie sprzedają się w pierwszej wizycie, więc jeśli CTA będzie brzmiało \"Kup teraz\" albo \"Zapytaj o cenę\", większość ruchu ucieknie bez śladu. Skuteczniejsza architektura opiera się na micro-commitment: zamówienie próbek tkanin, wejście w prosty konfigurator, pobranie katalogu. To buduje kontakt i dopiero z niego przychodzi sprzedaż. To ustawimy na starcie, bo od tego zależy cała struktura sekcji.\n\nDruga rzecz, która przewraca takie projekty: zdjęcia. Przy stołach i tapicerce premium fotografia stockowa widać na kilometr i zabija zaufanie. Jeśli nie macie gotowej sesji, lepiej zaplanować ją przed startem prac, a my zbudujemy layout tak, żeby docelowe zdjęcia weszły bez przeprojektowywania sekcji.\n\nTechnicznie robimy to na czystym kodzie, nie na kreatorze. Powód jest konkretny: strona na builderze ładuje się kilka sekund, a przy płatnym ruchu każda sekunda to realnie mniej zgłoszeń. Będziemy celować w progi Core Web Vitals, czyli LCP poniżej 2,5 s na mobile, INP poniżej 200 ms i CLS poniżej 0,1. Duże zdjęcia produktowe to główny wróg tych liczb, więc pójdą leniwe ładowanie, responsywne formaty i osobne warianty dla telefonu. Mobile traktujemy jako podstawę, bo stamtąd przychodzi większość ruchu, a główne CTA ma być widoczne bez scrollowania.\n\nW zakres wchodzi też cookie banner z realną opcją odmowy, polityka prywatności i ładowanie skryptów analitycznych dopiero po zgodzie, żeby strona była bezpieczna formalnie od pierwszego dnia. Formularz zrobimy dostępny: kontrasty, etykiety pól, kolejność tabulacji, żeby nic nie wypadało z WCAG.\n\nMateriały dostarczacie nam po wyborze oferenta i to zwykle jest wąskie gardło, więc proponuję prosty układ: wy dostarczacie treści i zdjęcia w ustalonym terminie, my w tym czasie stawiamy szkielet i logikę konwersji. Wtedy realizacja zamyka się spokojnie w 7 dniach.\n\nZa zaprojektowanie i wdrożenie kompletnego landing page'a, wraz z wersją mobilną, optymalizacją pod Core Web Vitals i zgodnością z RODO, liczymy 3500 zł.\n\nMożemy się zgadać na krótki call przez Google Meet i przejść przez strukturę sekcji oraz cel konwersji, zanim ruszymy z pracami.\n\nPozdrawiam",
+    "wycena": 3500,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "143916",
+    "wycena": 3500,
+    "dni": 7,
+    "final_url": "https://useme.com/pl/jobs/143916/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_143916.png",
+    "message": "Oferta #143916 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/143916/offer/finish/)."
+  },
+  "full_description": "<p>Firma Perca jest producentem Stołów, krzeseł i małej tapicerki klasy premium poszukujemy specjalisty do wykonania landing pagea na nasza stronę  oczekujemy innowacyjnego podejścia i materiału , który porwie nas i klientów :)<br>wszystkie informacje i materiały udostępnimy wybranemu oferentowi</p>",
+  "updated_at": "2026-09-10T16:07:32.785483"
+}

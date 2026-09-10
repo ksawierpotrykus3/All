@@ -1,0 +1,79 @@
+{
+  "id": "40703233",
+  "url": "https://www.freelancer.pl/projects/frontend-development/React-Development/details",
+  "title": "React UI & QA Development",
+  "author": "Anonim",
+  "budget": "15.0 - 25.0 USD",
+  "category": "web-dev",
+  "detected_at": "2026-09-10T17:28:38.873168",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703233",
+    "url": "https://www.freelancer.pl/projects/frontend-development/React-Development/details",
+    "seo_url": "frontend-development/React-Development",
+    "title": "React UI & QA Development",
+    "budget": "15.0 - 25.0 USD",
+    "budget_raw": {
+      "minimum": 15.0,
+      "maximum": 25.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I’m rolling out the first customer-facing release of our U.S. start-up product and need a React spec",
+    "category": "web-dev",
+    "project_type": "hourly",
+    "jobs": [
+      "Agile Development",
+      "React.js",
+      "UI / User Interface",
+      "Frontend Development",
+      "Continuous Integration",
+      "React.js Framework",
+      "Figma",
+      "REST API"
+    ],
+    "bid_stats": {
+      "bid_count": 182,
+      "bid_avg": 22.014615384615382
+    },
+    "local": false,
+    "time_submitted": 1789046142
+  },
+  "full_details": {
+    "id": "40703233",
+    "title": "React UI & QA Development",
+    "full_description": "I’m rolling out the first customer-facing release of our U.S. start-up product and need a React specialist who treats testing and quality assurance as the heartbeat of every commit.\n\nHere’s the landscape  \nOur REST APIs are live, wire-ready, and I have high-fidelity Figma screens waiting. Your code should translate those pixels into clean, reusable React components (hooks, context, TypeScript welcome) while keeping performance lean.\n\nQuality first  \nTesting and quality assurance is the priority. I expect functional coverage across modern desktop and mobile browsers, with a mix of manual exploration and any automated suites you judge effective. Unit and component tests must guard critical business logic, and every sprint should close with a concise test plan plus a clear defect log.\n\nDeliverables  \n• React source committed to the shared repo, documented for easy hand-off  \n• Unit / component tests integrated into CI  \n• A sprint-by-sprint test plan and defect report archive  \n\nAcceptance criteria  \n1. UI matches supplied designs to the pixel on Chrome, Firefox, and Safari.  \n2. All critical paths pass automated test runs in CI.  \n3. No high-severity bugs open at sprint close; medium and lower severity itemised in the report.  \n\nIf you thrive on pairing sleek React builds with rigorous QA, let’s talk and start shipping stable, beautiful releases from day one.",
+    "budget_raw": {
+      "minimum": 15.0,
+      "maximum": 25.0
+    },
+    "currency": "USD",
+    "project_type": "hourly",
+    "jobs": [
+      "Agile Development",
+      "React.js",
+      "UI / User Interface",
+      "Frontend Development",
+      "Continuous Integration",
+      "React.js Framework",
+      "Figma",
+      "REST API"
+    ],
+    "bid_stats": {
+      "bid_count": 182,
+      "bid_avg": 22.014615384615382
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:45"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:45.264263"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "40702984",
+  "url": "https://www.freelancer.pl/projects/seo/Komplett-Marknadsf-ring-Webbutveckling/details",
+  "title": "Komplett Marknadsföring & Webbutveckling",
+  "author": "Anonim",
+  "budget": "250.0 - 750.0 EUR",
+  "category": "automation-ai",
+  "detected_at": "2026-09-10T17:28:38.923454",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40702984",
+    "url": "https://www.freelancer.pl/projects/seo/Komplett-Marknadsf-ring-Webbutveckling/details",
+    "seo_url": "seo/Komplett-Marknadsf-ring-Webbutveckling",
+    "title": "Komplett Marknadsföring & Webbutveckling",
+    "budget": "250.0 - 750.0 EUR",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "EUR",
+    "author": "Anonim",
+    "short_desc": "Jag driver en coachingplattform på svenska och vill ta ett rejält kliv framåt. Jag behöver en partne",
+    "category": "automation-ai",
+    "project_type": "fixed",
+    "jobs": [
+      "SEO",
+      "WordPress",
+      "Email Marketing",
+      "Social Media Marketing",
+      "Digital Marketing",
+      "Keyword Research",
+      "Lead Generation",
+      "Content Creation",
+      "AI Chatbot Development",
+      "AI Chatbot"
+    ],
+    "bid_stats": {
+      "bid_count": 107,
+      "bid_avg": 402.4158878504673
+    },
+    "local": false,
+    "time_submitted": 1789038158
+  },
+  "full_details": {
+    "id": "40702984",
+    "title": "Komplett Marknadsföring & Webbutveckling",
+    "full_description": "Jag driver en coachingplattform på svenska och vill ta ett rejält kliv framåt. Jag behöver en partner som kan sätta upp en komplett strategi för sociala medier, sökmotoroptimering och e-postmarknadsföring – allt ska hänga ihop och driva kvalificerade leads till plattformen.\n\nSEO-delen behöver hela paketet: gedigen nyckelordsforskning, innehållsskapande som rankar och teknisk SEO som gör att sidan laddar snabbt och indexeras rätt. Samtidigt vill jag utveckla en WordPress-hemsida: uppdatera designen, bygga ny funktionalitet och fixa de buggar som bromsar användarupplevelsen.\n\nPå sociala medier vill jag jobba smartare, därför ingår att sätta upp en AI-driven chatbot som svarar på DM:s på Instagram och guidar besökare vidare till rätt coachingprogram. E-postflöden (welcomes, nurturing och kampanjer) ska också kopplas ihop så att allt känns sömlöst för mottagaren.\n\nJag kan väldigt lite om detta själv, så jag värdesätter tydlig rådgivning längs vägen. \n\nFörväntade leverabler:\n• Sammanhållen marknadsföringsplan med mål, KPI:er och tidslinje  \n• Färdig SEO-struktur inklusive nyckelord, content briefs och genomförd teknisk optimering  \n• Designuppdaterad och felfri hemsida med ny funktionalitet live  \n• AI-chatbot implementerad och testad på Instagram  \n• Lanserade e-postkampanjer samt dashboard för resultatspårning  \n\nLöpande rapportering och en kort genomgång vid varje milstolpe ingår i uppdraget. Ser fram emot att höra hur du skulle lägga upp arbetet och vilka verktyg du föredrar.",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "EUR",
+    "project_type": "fixed",
+    "jobs": [
+      "SEO",
+      "WordPress",
+      "Email Marketing",
+      "Social Media Marketing",
+      "Digital Marketing",
+      "Keyword Research",
+      "Lead Generation",
+      "Content Creation",
+      "AI Chatbot Development",
+      "AI Chatbot"
+    ],
+    "bid_stats": {
+      "bid_count": 107,
+      "bid_avg": 402.4158878504673
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:49"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:49.302075"
+}

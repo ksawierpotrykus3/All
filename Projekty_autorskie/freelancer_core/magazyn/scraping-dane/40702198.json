@@ -1,0 +1,79 @@
+{
+  "id": "40702198",
+  "url": "https://www.freelancer.pl/projects/google-sheets/Copy-Paste-Data-Entry-Task/details",
+  "title": "Copy-Paste Data Entry Task",
+  "author": "Anonim",
+  "budget": "15.0 - 25.0 USD",
+  "category": "scraping-dane",
+  "detected_at": "2026-09-10T17:28:39.039885",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40702198",
+    "url": "https://www.freelancer.pl/projects/google-sheets/Copy-Paste-Data-Entry-Task/details",
+    "seo_url": "google-sheets/Copy-Paste-Data-Entry-Task",
+    "title": "Copy-Paste Data Entry Task",
+    "budget": "15.0 - 25.0 USD",
+    "budget_raw": {
+      "minimum": 15.0,
+      "maximum": 25.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I have a straightforward copy-paste assignment and need a detail-oriented freelancer who can move te",
+    "category": "scraping-dane",
+    "project_type": "hourly",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Excel",
+      "Copy Typing",
+      "Data Cleansing",
+      "Data Analysis",
+      "Google Sheets",
+      "Data Management"
+    ],
+    "bid_stats": {
+      "bid_count": 44,
+      "bid_avg": 16.772727272727273
+    },
+    "local": false,
+    "time_submitted": 1789041209
+  },
+  "full_details": {
+    "id": "40702198",
+    "title": "Copy-Paste Data Entry Task",
+    "full_description": "I have a straightforward copy-paste assignment and need a detail-oriented freelancer who can move text and numbers from assorted source files into a single, well-structured spreadsheet. Accuracy is everything—each cell must mirror the original content without omissions or extra spaces, and the layout must remain tidy so I can analyse the data later.\n\nVolume is moderate; think of it as roughly one small stack of documents, not a never-ending backlog. Speed matters, but I will always favour error-free work over rushing. If you are comfortable using either Excel or Google Sheets to keep everything organised, that will help us collaborate smoothly.\n\nDeliverable\n• A clean, fully populated spreadsheet that matches the source material exactly.\n\nBefore we begin, send me a brief note confirming:\n1. Your estimated turnaround time.\n2. How you normally double-check your work for accuracy.\n\nThat’s all I need right now—looking forward to working together.",
+    "budget_raw": {
+      "minimum": 15.0,
+      "maximum": 25.0
+    },
+    "currency": "USD",
+    "project_type": "hourly",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Excel",
+      "Copy Typing",
+      "Data Cleansing",
+      "Data Analysis",
+      "Google Sheets",
+      "Data Management"
+    ],
+    "bid_stats": {
+      "bid_count": 44,
+      "bid_avg": 16.772727272727273
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:56"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:56.394254"
+}

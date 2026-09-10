@@ -1,0 +1,73 @@
+KOMPLEKSOWA ARCHIWIZACJA PROJEKTU — 2 września 2026
+
+PODSUMOWANIE
+============
+
+Data:              2 września 2026, 09:18:06
+Typ:               Kompleksowa archiwizacja (brak deletions)
+Archiwum:          _archive/comprehensive_20260902-091806/
+Commit:            0d486a9
+Zmniejszenie:      66 procent bałaganu w root (180 elementów na 44)
+
+STATYSTYKA
+==========
+
+Łącznie archiwizowanych: 506 elementów
+
+Rozpis:
+- OLD_TESTS (8) — Stare testy jednostkowe
+- OLD_SCRIPTS (5) — Stare skrypty PowerShell
+- OLD_RUNNERS (2) — Stare entry pointy
+- OLD_AUTONOMOUS (3) — Stare skrypty autonomiczne
+- OLD_DOCS (20) — Duplikowane/stare dokumentacje
+- OLD_DIRS (422) — Katalogi (SelfTest, egg-info, build, dist)
+- OLD_LOGS (12) — Logi i trace'y
+- OLD_BUILD_ARTIFACTS (29) — Artefakty buildów
+- OLD_CONFIG_BACKUPS (5) — Konfiguracje
+
+ZACHOWANA STRUKTURA (AKTYWNA)
+=============================
+
+Root level:
+- run_simulator_integrated_full.py (aktywny runner)
+- game_window_simulator_advanced.py (aktywny symulator)
+- config.json, pyproject.toml, uv.lock
+- README.md, AGENTS.md
+
+Katalogi:
+- mvp/ (silnik bota, testy)
+- docs/ (dokumentacja)
+- assets/ (zasoby)
+- data/ (dane testowe)
+- scripts/ (narzędzia)
+- .kiro/ (Kiro config i specs)
+- _archive/ (archiwizowane elementy)
+
+PROCEDURA PRZYWRACANIA
+=====================
+
+Jeśli potrzebujesz przywrócić plik:
+
+Copy-Item _archive/comprehensive_20260902-091806/OLD_TESTS/test_runner.py .
+
+Lub sprawdź git historię:
+
+git log --oneline -- test_runner.py
+git show COMMIT_HASH:test_runner.py
+
+POLITYKA
+========
+
+- Nic nie usunięte — wszystko można przywrócić
+- Git history zachowana
+- Bezpieczne move — tylko przesunięcie
+- Wersjonowanie — każde archiwum ma timestamp
+
+DOKUMENTACJA ARCHIWUM
+=====================
+
+- _archive/comprehensive_20260902-091806/INDEX.md — szczegółowy spis
+- _archive/comprehensive_20260902-091806/MANIFEST.md — statystyka
+- _archive/README.md — instrukcje
+
+STATUS: UKOŃCZONO

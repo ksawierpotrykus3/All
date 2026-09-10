@@ -1,0 +1,872 @@
+########## A. Perca - prosty landing ##########
+
+===== RESEARCH 01 (dl. 9443) =====
+### FAKTY KLUCZOWE (twarde, ze źródłami)
+
+- **Perca to nowa marka własna polskiego producenta Marcus Design z Chełmży**, który przez 25 lat produkował meble dla europejskich marek (głównie rynki DACH i Benelux). Firma zatrudnia ok. 100 osób (LinkedIn podaje 51–200), specjalizuje się w stołach i krzesłach z litego dębu i orzecha amerykańskiego, łącząc rzemiosło z CNC i nowoczesną technologią.  
+  **Źródło:** [LinkedIn PercaFurniture](https://pl.linkedin.com/company/percafurniture) – „Z litego drewna dębowego i orzecha amerykańskiego tworzymy meble… Wielkość firmy: 51-200 pracowników… Siedziba główna: Chełmża”. Oraz [wonen360.nl](https://www.wonen360.nl/article/9818666/na-25-jaar-productie-voor-europese-merken-lanceert-meubelfabrikant-eigen-label-perca/) – „De Poolse meubelfabrikant Marcus Design is al meer dan 25 jaar gespecialiseerd in de productie van eettafels en stoelen… Nu lanceert het eigen label PERCA… Het bedrijf wil vooral partnerschappen ontwikkelen in Duitsland, Oostenrijk, Zwitserland en de Benelux.”
+
+- **Domena `perca-furniture.com` jest już zarejestrowana na MARCUS Design sp. z o.o. sp.k.** (registrar OVH), ale pod tym adresem nie ma jeszcze aktywnej strony – to prawdopodobnie landing page będzie pierwszym elementem obecności online marki.  
+  **Źródło:** [WHOIS perca-furniture.com](https://who.is/whois/perca-furniture.com) – „Registrant Organization: MARCUS Design sp.zo.o.sp.k.”.
+
+- **Rynek landing page w Polsce w 2026 – realne widełki:** freelancer 1 500–5 000 zł netto; mała agencja 3 000–8 000 zł; profesjonalna agencja interaktywna 3 000–15 000 zł netto; rozbudowane wdrożenia wielojęzyczne/enterprise mogą przekroczyć 30 000 zł. Za landing premium z indywidualnym projektem, copywritingiem i integracjami trzeba liczyć minimum 8 000–15 000 zł.  
+  **Źródła:** [epageo.pl](https://epageo.pl/blog/ile-kosztuje-stworzenie-landing-page-w-2026-roku-realne-widelki-cenowe/) – „Samodzielna budowa… freelancer wyceni projekt zwykle na 1500 do 5000 zł, a profesjonalna agencja interaktywna na 3000 do 15000 zł netto… Rozbudowane wdrożenia wielojęzyczne lub enterprise potrafią przekroczyć 30000 zł.”; [maxweb.com.ua](https://maxweb.com.ua/pl/posts/post58) – „1500–3000 zł — mała agencja, indywidualny projekt, czysty kod. 4000–8000 zł — rozbudowany landing: animacje, kalkulator, integracja z CRM, testy A/B.”
+
+- **Dla marek meblowych premium w Polsce standardem jest strona katalogowa na WordPress + WooCommerce w trybie prezentacji (bez sprzedaży online)**, często z dodatkową strefą dla architektów. Przykład: Calisia d’oro – „Strona producenta mebli handmade z katalogiem kolekcji na WooCommerce w trybie katalogowym… oraz strefą architekta.” 366 Concept – sklep na WordPress/WooCommerce, budżet projektu 15 000–50 000 USD.  
+  **Źródła:** [KamikStudio – Calisia d’oro](https://kamikstudio.pl) – „Przygotowaliśmy stronę wizerunkową z katalogiem kolekcji opartym o WooCommerce w trybie katalogowym… oraz strefą architekta.”; [Adchitects – 366 Concept](https://adchitects.co) – „Stack WordPress / WooCommerce; Budget $15,000–$50,000.”
+
+- **Od czerwca 2026 w Polsce obowiązują wymogi dostępności cyfrowej WCAG 2.2 AA dla dużych firm prywatnych (250+ pracowników lub 50 mln EUR obrotu)**. Perca zatrudnia 51–200 osób, więc formalnie może nie być objęta obowiązkiem, ale wdrożenie dostępności staje się elementem jakości i przewagi konkurencyjnej. Tylko 4% stron spełnia WCAG 2.2 AA.  
+  **Źródło:** [Qualix – WCAG 2.2 + Ustawa 2026](https://qualix.pl/blog/2026-01-02-wcag-2-2-ustawa-dostepnosci-2026) – „Kogo dotyczy od czerwca 2026: Duże firmy prywatne (250+ pracowników lub 50 mln EUR obrót)… tylko 4% stron internetowych spełnia wymagania WCAG 2.2 AA.”
+
+
+### RYZYKA I PUŁAPKI
+
+- **Brak materiałów na starcie** – zleceniodawca pisze: „wszystkie informacje i materiały udostępnimy wybranemu oferentowi”. Oznacza to, że wycena musi zawierać bufor na czas oczekiwania na zdjęcia, teksty i wytyczne brandingowe. Brak profesjonalnych zdjęć produktowych może wymusić osobny budżet na sesję („Fotografie stockowe widać od razu i obniżają zaufanie. Sesja to osobny budżet.” – maxweb.com.ua).  
+  **Źródło:** [Opis zlecenia] + [maxweb.com.ua](https://maxweb.com.ua/pl/posts/post58).
+
+- **Wielojęzyczność może być ukrytym wymogiem** – firma celuje w rynki DACH i Benelux, a nowa kolekcja jest kierowana do dystrybutorów i architektów w tych krajach. Nawet jeśli zlecenie mówi tylko o „landing page”, realistycznie potrzebna będzie wersja niemiecka i/lub angielska. To podnosi zakres i cenę (rozbudowane wdrożenia wielojęzyczne >30 000 zł).  
+  **Źródło:** [wonen360.nl](https://www.wonen360.nl/article/9818666/na-25-jaar-productie-voor-europese-merken-lanceert-meubelfabrikant-eigen-label-perca/) – „Het bedrijf wil vooral partnerschappen ontwikkelen in Duitsland, Oostenrijk, Zwitserland en de Benelux.”
+
+- **Oczekiwanie „innowacyjnego podejścia i materiału, który porwie”** – sformułowanie z opisu sugeruje, że klient nie ma sprecyzowanej wizji i będzie oceniał ofertę po kreatywności. To zwiększa ryzyko iteracji i konieczności przygotowania moodboardów / koncepcji już na etapie oferty.  
+  **Źródło:** [Opis zlecenia].
+
+- **71 konkurentów na Useme** – ogromna konkurencja oznacza, że oferta musi być wyróżniona nie tylko ceną, ale przede wszystkim zrozumieniem kontekstu marki premium i rynków eksportowych. Warto w ofercie pokazać, że wie się o premierze marki PERCA i jej holendersko-niemieckich ambicjach.  
+  **Źródło:** [Dane zlecenia – competitors_count: 71].
+
+- **Domena już istnieje, ale strona nie** – jeśli klient nie ma żadnej obecności online, landing page będzie de facto pierwszą wizytówką marki. To zwiększa stawkę: każdy błąd w UX/UI będzie bardziej widoczny. Warto zaproponować podstawowe SEO techniczne i analitykę od startu.  
+  **Źródło:** [WHOIS](https://who.is/whois/perca-furniture.com) + brak wyników wyszukiwania dla `perca-furniture.com` w indeksie.
+
+
+### AMUNICJA DO OFERTY
+
+- **WCAG 2.2 AA od czerwca 2026** – nawet jeśli Perca nie jest jeszcze formalnie objęta obowiązkiem (51–200 pracowników), wdrożenie dostępności już teraz to sygnał profesjonalizmu i przygotowania na przyszłość. Można zaproponować audyt i wdrożenie kluczowych kryteriów (kontrast, nawigacja klawiaturą, rozmiar elementów klikalnych 24×24 px) jako element oferty.  
+  **Źródło:** [Qualix](https://qualix.pl/blog/2026-01-02-wcag-2-2-ustawa-dostepnosci-2026) – nowe kryteria: „Focus Obscured”, „Rozmiar Elementu – minimalny rozmiar elementów klikalnych (24×24 px)”.
+
+- **Core Web Vitals i szybkość ładowania** – dla landingu premium każda sekunda opóźnienia obniża konwersję. Webflow daje „excellents Core Web Vitals par défaut” (Fastly CDN), a WordPress wymaga optymalizacji, ale daje pełną kontrolę. W ofercie warto pokazać, że rozumie się kompromis i zaproponować rozwiązanie szyte na miarę (np. Webflow dla prostoty i szybkości, WordPress dla elastyczności katalogowej).  
+  **Źródło:** [Web-engine.fr – Webflow vs WordPress 2026](https://www.web-engine.fr/webflow-vs-wordpress-2026-comparatif-complet/) – „Performances: Core Web Vitals excellents par défaut… WordPress: Performances à optimiser: WordPress seul n’est pas rapide par défaut.”
+
+- **Trendy w projektowaniu premium dla marek meblowych** – szablony z 2026 (Furnitra, Graft) stawiają na „clean Scandinavian-inspired aesthetic… warm materials, refined typography, strong layout structure”. Warto w ofercie odnieść się do tych estetyk i zaproponować podejście editorial/cinematic, które buduje wrażenie luksusu.  
+  **Źródło:** [Framer – Furnitra](https://www.framer.com) – „Furnitra is a premium Framer landing template… With a clean Scandinavian-inspired aesthetic, Furnitra balances warm materials, refined typography, and strong layout structure.”
+
+- **Strefa architekta / katalog dla dystrybutorów** – skoro Perca szuka partnerów w DACH i Benelux, landing page mógłby zawierać ukrytą sekcję dla architektów i dystrybutorów (np. pliki CAD, specyfikacje techniczne, formularz zapytania B2B). To funkcja, którą konkurencja rzadko proponuje, a która pokazuje zrozumienie modelu biznesowego producenta.  
+  **Źródło:** [wonen360.nl](https://www.wonen360.nl/article/9818666/na-25-jaar-productie-voor-europese-merken-lanceert-meubelfabrikant-eigen-label-perca/) – „PERCA is momenteel op zoek naar distributiepartners en showrooms… Het bedrijf is van plan nauw samen te werken met interieurontwerpers, architecten en geselecteerde distributiepartners.”
+
+
+### CENY RYNKOWE
+
+- **Landing page dla firmy meblowej premium w Polsce (2026):**  
+  – Freelancer (indywidualny projekt, bez zespołu): **1 500–5 000 zł netto**  
+  – Mała agencja / studio (indywidualny projekt + podstawowe integracje): **3 000–8 000 zł netto**  
+  – Agencja interaktywna (pełny proces: UX/UI, copywriting, testy, analityka): **8 000–15 000 zł netto**  
+  – Rozbudowane wdrożenie wielojęzyczne z katalogiem i integracjami B2B: **20 000–30 000+ zł netto**  
+
+  **Źródła:** [epageo.pl](https://epageo.pl/blog/ile-kosztuje-stworzenie-landing-page-w-2026-roku-realne-widelki-cenowe/); [maxweb.com.ua](https://maxweb.com.ua/pl/posts/post58); [digitalstorm.pl](https://digitalstorm.pl) – „Trzeci to 10 000–15 000+ zł — projekty…”  
+
+- **Porównywalny projekt dla marki meblowej (366 Concept):** budżet **15 000–50 000 USD** (WordPress/WooCommerce, e-commerce).  
+  **Źródło:** [Adchitects](https://adchitects.co) – „Ecommerce Website for a High-End Furniture Brand… Budget $15,000–$50,000.”
+
+===== WYCENA (z uzasadnieniem AI) =====
+# Wycena zlecenia 143916 – Landing page Perca Furniture
+
+## KROK 0.5 – Confirmed scope vs brainstorm
+
+**CONFIRMED SCOPE (z opisu zlecenia):**
+- Landing page dla marki premium (stoły, krzesła, mała tapicerka)
+- „Innowacyjne podejście", materiał który porwie klientów
+- Wszystkie informacje/materiały od klienta (brak specyfikacji na starcie)
+
+**BRAINSTORM / POZA ZAKRESEM (z researchu, nie wchodzi do kalkulacji – v2):**
+- Wersje językowe DE/EN (klient celuje w DACH/Benelux, ale w opisie tego nie ma)
+- Strefa architekta / katalog dla dystrybutorów (B2B)
+- Rozbudowany katalog WooCommerce
+- Copywriting, sesja zdjęciowa
+
+Research mówi, że wielojęzyczność i strefa architekta to **potencjalne rozszerzenia v2**, nie wymagania z ogłoszenia. Traktuję je jako brainstorm zgodnie z KROK 0.5.
+
+## KROK 1-2 – Moduły (confirmed scope)
+
+To jest **landing page**, nie sklep. Klient nie wspomina o e-commerce, katalogu z koszykiem, płatnościach. Zakres: prezentacja marki + kontakt/zapytanie.
+
+| Moduł | Kategoria | Widełki h |
+|---|---|---|
+| Design + implementacja landing page (custom, pixel-oriented, premium estetyka) | Projekt graficzny/UX + responsywny frontend | 10–30 |
+| Sekcje treściowe: hero, kolekcja, o marce, kontakt (formularz) | CRUD prosty / interaktywny element | 6–16 |
+| WordPress/CMS customizacja (motyw, sekcje edytowalne, integracje) | WordPress/CMS customizacja | 8–20 |
+| SEO techniczne + analityka (meta, schema, CWV, GA4/GTM) | SEO techniczne jako osobny moduł | 6–16 |
+
+**Nakładanie:** Design + implementacja dzielą logikę z sekcjami treściowymi (te same komponenty). Scal – design+frontend+sekcje traktuję jako jeden blok 14–28h, a WordPress customization jako osobny 8–20h (bo to warstwa CMS na gotowym froncie).
+
+Finalne moduły po scaleniu:
+1. **Design + implementacja landing (custom, premium, RWD)** – 14–28h
+2. **WordPress/CMS customizacja** – 8–20h
+3. **SEO techniczne + analityka** – 6–16h
+
+## KROK 2.5 – Testy + dokumentacja
++15% do sumy.
+
+## KROK 3 – Suma godzin
+- Optymistyczna: 14+8+6 = 28h → ×1.15 = **32,2h**
+- Realistyczna: 28+20+16 = 64h → ×1.15 = **73,6h**
+
+## KROK 4 – Buffer
+Research: brak materiałów na starcie, klient nie ma specyfikacji, oczekiwanie „innowacyjnego podejścia" = wysokie ryzyko iteracji. Brak specyfikacji z ogłoszenia + brak materiałów = **+30%** (pierwszy raz w tej konfiguracji z klientem, brak materiałów).
+
+Realistyczna po buforze: 73,6 × 1,30 = **95,68h**
+
+## KROK 5 – Mnożniki ryzyka
+- Klient nie ma specyfikacji: **×1.3**
+- Brak potwierdzonego ograniczenia API: nie stosuję
+- Real-time: nie
+- Łączny mnożnik: ×1.3 (nie przekracza capu ×1.8)
+
+95,68 × 1.3 = **124,4h**
+
+## KROK 6 – Cena bazowa
+Stawka efektywna: **90 zł/h** (profil 2 mies., 5 umów → ×0.75).
+
+124,4 × 90 = **11 196 zł**
+
+## KROK 7 – Korekta konkurencyjna
+Zlecenie opublikowane wczoraj (<24h), **71 ofert**. To bardzo świeże i bardzo zalane. Wg mechaniki: świeże + ponad 20 ofert → **×0.9**.
+
+11 196 × 0.9 = **10 076 zł**
+
+## KROK 8 – Prowizja/podatek
+Nie winduję – świadomość że ~88% na konto. Kwota w formularzu: 10 076 zł.
+
+## KROK 9 – Zaokrąglenie
+Projekt 2 000–10 000 zł → do 500 zł. **10 000 zł** (zaokrąglenie w dół granicy).
+
+## KROK 9.5 – Kotwica budżetu
+Budżet: „Do negocjacji" → pole kwoty = cena bazowa z KROK 7–9.
+
+## KROK 10 – Dni
+124,4h ÷ 7 = 17,8 → 18 dni + 30% = 23,4 → **24 dni**
+
+## KROK 10.6 – 2-pass audit
+
+1. **Czy moduł mógłby być niezależny?** Design+frontend+sekcje scalone (wspólne komponenty). WordPress customization – niezależne (inny dev mógłby robić). SEO – niezależne. ✅
+2. **Czy moduły dzielą kod?** Design i WordPress dzielą strukturę sekcji → odjąłem sekcje z osobnego modułu. ✅
+3. **Confirmed vs brainstorm?** Wielojęzyczność, strefa architekta, katalog – brainstorm, NIE wliczone. ✅
+4. **Odchylenie od instynktu?** Brak dostępnego instynktu seniora – brak korekty.
+
+**Audyt: 3 moduły po scaleniu, 0 usuniętych, 2 przeklasyfikowane (sekcje → do designu).**
+
+## Rozbicie końcowe
+
+```
+Moduły (confirmed scope):
+1. Design + implementacja landing (premium, RWD)     14–28h
+2. WordPress/CMS customizacja                          8–20h
+3. SEO techniczne + analityka                          6–16h
+
+Suma optymistyczna:  28h ×1.15 (testy/dok) =  32,2h
+Suma realistyczna:   64h ×1.15 (testy/dok) =  73,6h
+
+Buffer +30% (brak specyfikacji, brak materiałów):  95,7h
+Mnożnik ryzyka ×1.3 (brak specyfikacji):          124,4h
+
+Stawka efektywna: 90 zł/h (profil 2 mies., 5 umów, ×0.75)
+Cena bazowa: 124,4h × 90 zł = 11 196 zł
+
+Korekta konkurencyjna ×0.9 (71 ofert, świeże):    10 076 zł
+Zaokrąglenie (do 500 zł):                         10 000 zł
+
+DNI: 124,4h ÷ 7 = 17,8 → 18 × 1.3 = 23,4 → 24 dni
+```
+
+**Uwaga ofertowa:** research pokazuje, że realnie klient może potrzebować wersji DE/EN i strefy architekta (v2) – to warto zaznaczyć w ofercie jako opcję dodatkową, ale **nie wliczać w bazową cenę**, bo nie ma tego w ogłoszeniu.
+
+[WYNIK_KONCOWY]
+KWOTA: 10000
+DNI: 24
+
+
+===== OFERTA =====
+Dzień dobry,
+
+Piszę w imieniu dwuosobowego zespołu. Robimy strony i sklepy dla marek produktowych, więc trafiliście w naszą działkę.
+
+Z tym "innowacyjnym podejściem" jest tak, że przy marce premium z litego dębu i orzecha najłatwiej zabić projekt na starcie. Standardowy szablon z animacjami przy scrollu wygląda jak szablon, a nie jak marka meblowa, która ma 25 lat produkcji dla zachodnich odbiorców. Prawdziwy problem to nie "ładny landing", tylko to, że strona musi sprzedawać jakość, której nie da się pokazać zdjęciem stockowym. Dlatego stawiamy na układ editorial, cinematic hero i typografię, która niesie materiał, a nie konkuruje z nim.
+
+Drugi problem to brak materiałów na starcie. Jeśli nie macie jeszcze profesjonalnych zdjęć produktowych, to żaden projekt tego nie uratuje, a my tego nie ukryjemy. Dlatego landing projektujemy od razu pod docelowe kadry, żeby podmiana zdjęć nie rozwaliła layoutu.
+
+Trzecia rzecz, o której mało kto pamięta. Budujemy na WordPress z sekcjami edytowalnymi, ale z twardym SEO technicznym i analityką od pierwszego dnia. Od czerwca 2026 wchodzą wymogi WCAG 2.2 AA dla części firm prywatnych. Nawet jeśli was to formalnie nie dotyczy, to kontrast, nawigacja klawiaturą i rozmiar elementów klikalnych to elementy, które przy marce premium robią różnicę i które konkurencja zwykle pomija.
+
+Jeśli myślicie o wejściu na rynki DACH i Benelux, to wersje językowe i strefa dla architektów czy dystrybutorów to naturalny kolejny krok. Tego nie wliczamy w bazę, bo nie ma tego w ogłoszeniu, ale możemy to dodać jako drugi etap, kiedy będziecie gotowi.
+
+Za zaprojektowanie i wdrożenie kompletnego landingu z sekcjami edytowalnymi, SEO technicznym i analityką liczymy 10000 zł. Realizacja w 24 dni, z buforem na wasze materiały i iteracje.
+
+Zdzwońmy się w tym tygodniu na 15 minut, wtedy powiemy wam, jakie materiały przygotować, żeby projekt ruszył bez przestojów.
+
+Pozdrawiam
+
+
+
+########## B. Apilo/Shopify - stala wspolpraca ##########
+
+===== RESEARCH 01 (dl. 19928) =====
+# RAPORT RESEARCHOWY — Zlecenie 143432
+
+**Zlecenie:** Specjalista Integracji Ecomerce [Apilo, Shopify, Make]
+**Data analizy:** 10 września 2026
+
+---
+
+## FAKTY KLUCZOWE
+
+### 1. BaseLinker API — limit 100 req/min, ~150 metod, kluczowe dla integracji
+
+- **Fakt:** BaseLinker API ma twardy limit **100 zapytań na minutę**. API komunikuje się przez POST na `https://api.baselinker.com/connector.php`, autoryzacja przez nagłówek `X-BLToken`. API pokrywa ok. **150 metod** obejmujących zamówienia, produkty, magazyn, przesyłki, faktury, zwroty, CRM.
+- **Źródło:** https://api.baselinker.com/ — *"Request limit The API request limit is 100 requests per minute. Latest changes The API was last updated 2026-03-16."* Oraz lobehub.com: *"BaseLinker rate limit is 100 requests/min; the client throttles to stay under it. Method coverage All ~150 documented methods across Orders, Invoices, Receipts, Order Returns, Courier Shipments, CRM, Product Catalog (Inventory)..."*
+
+- **Fakt:** Współdzielenie tokena API między wieloma aplikacjami może powodować przekroczenie limitu 100 req/min i błędy synchronizacji. Konwerter KTsoft explicite ostrzega: *"Jeżeli jednak inna aplikacja korzysta z tego samego tokenu w tym samym czasie to limit może zostać przekroczony i pojawi się komunikat o treści zbliżonej do..."*
+- **Źródło:** doc.ktsoft.pl (Moduły wejściowe import z handlowego) — https://doc.ktsoft.pl
+
+- **Fakt:** BaseLinker oferuje moduł „Akceleracje" pozwalający na zmianę limitu API (podniesienie ponad standardowe 100 req/min) w ramach wyższych planów.
+- **Źródło:** https://base.com/blog/akceleracje-baselinker — *"Zmiana limitu zapytań API BaseLinker - 100 zapytań na minutę (standard) ... W ramach modułu możesz łatwo sprawdzić historię zmian częstotliwości synchronizacji oraz limitów zapytań API"*
+
+---
+
+### 2. Apilo API — REST, OAuth 2.0, token ważny 21 dni, brak publicznego limitu
+
+- **Fakt:** Apilo udostępnia oficjalne REST API. Autoryzacja odbywa się przez **OAuth 2.0** (Authorization Code / Refresh Token). **Access token jest ważny 21 dni** — po tym czasie wymagane jest odświeżenie przez `POST /rest/auth/token/` z `grantType: "refresh_token"`. Aplikację tworzy się w panelu: Administracja → Klucze API Apilo → Nowa aplikacja REST API.
+- **Źródło:** https://packagist.org/packages/apilo/apilo-api-php — *"Access token is valid for 21 days therefore in order to maintain an active connection to the REST API it is necessary to send a request consisting of token pair..."* Oraz https://developer.apilo.com/api/
+
+- **Fakt:** Apilo API nie publikuje sztywnego limitu req/min w oficjalnej dokumentacji. Ograniczenia wynikają z filtrów paginacyjnych (np. `orderedAfter`, filtr `limit` przy pobieraniu listy zamówień).
+- **Źródło:** https://apilo.com/pl/pomoc (API Zamówienia) — *"Filtr orderedAfter pozwala na ograniczenie wyników do zamówień złożonych po określonej dacie, co może znacznie poprawić wydajność i szybkość odpowiedzi API. ... Zaleca się korzystanie z filtra limit przy pobieraniu listy zamówień."*
+- **Status:** Nie potwierdzono oficjalnego limitu req/min dla Apilo API — brak w publicznej dokumentacji.
+
+- **Fakt:** Apilo jest **certyfikowanym integratorem Allegro** — działa wyłącznie na oficjalnym API Allegro, co gwarantuje stabilność i zgodność z aktualizacjami platformy.
+- **Źródło:** https://apilo.com/pl/rozwin-skrzydla-z-certyfikowanym-integratorem-allegro-apilo/ — *"takie narzędzie działa wyłącznie w oparciu o oficjalne API Allegro, co przekłada się bezpośrednio na bezpieczeństwo integracji, stabilność działania i pełny dostęp do najbardziej zaawansowanych funkcji platformy."*
+
+---
+
+### 3. Shopify API — REST jest legacy, GraphQL to standard, REST kończy się w 2026
+
+- **Fakt:** **Shopify REST Admin API jest legacy od października 2024** i otrzymuje wyłącznie poprawki bezpieczeństwa. Od 1 kwietnia 2025 wszystkie nowe publiczne aplikacje muszą być budowane wyłącznie w oparciu o **GraphQL Admin API**.
+- **Źródło:** https://shopify.dev (Checkout — *"The REST Admin API is a legacy API as of October 1, 2024. Starting April 1, 2025, all new public apps must be built exclusively with the GraphQL Admin API."*)
+
+- **Fakt:** Shopify wersjonuje API **kwartalnie**. Aktualne stabilne wersje to m.in. `2026-01`, `2026-04`, `2026-07`. Każda wersja ma określony czas życia — np. `2026-01` dostępna do 16 stycznia 2027, `2026-04` do 1 kwietnia 2027. Aplikacje używające przestarzałych wersji są automatycznie routowane do najbliższej stabilnej wersji.
+- **Źródło:** https://shopify.dev/docs/api/usage/versioning — *"Stable version | Release date | Accessible until ... 2026-01 | January 1, 2026 | January 16, 2027 15:00 UTC 2026-04 | April 1, 2026 | April 16, 2027 15..."* Oraz Workato docs: *"any API calls requesting for 2025-04 version are automatically routed to the 2025-07 version by Shopify."*
+
+- **Fakt:** **Limity Shopify GraphQL:** standardowy sklep ma bucket 1 000 punktów, restore rate 50 pkt/s; Shopify Plus: 2 000 punktów, 100 pkt/s. REST: 40 req/s na aplikację. Przekroczenie = HTTP 429.
+- **Źródło:** https://improvado.io/blog/shopify-api — *"Rate limits (40 requests per second for REST, 1,000 points per second for GraphQL)"* Oraz https://shopify.dev (throttleStatus: *"Standard shops = 100 points bucket, 50/s restore; Plus = 1000/100"*)
+
+- **Fakt:** Od 1 stycznia 2026 **nowe „legacy custom apps" tworzone w panelu Shopify admin zostały wycofane**. Nowe aplikacje należy tworzyć przez Dev Dashboard.
+- **Źródło:** https://hermes-agent.nousresearch.com (Shopify skill) — *"As of January 1, 2026, new 'legacy custom apps' created in the Shopify admin are gone. New setups should use the Dev Dashboard."*
+
+---
+
+### 4. Make.com — cennik i limity operacji
+
+- **Fakt:** Make.com działa w modelu **credit-based**. Plan Free: 0 $/mies., 1 000 kredytów, 2 aktywne scenariusze, interwał 15 min. Plan **Core: ~10,59 $/mies. (miesięcznie) lub ~9 $/mies. (rocznie)**, 10 000 kredytów, nielimitowane scenariusze, dostęp do API i webhooków, interwał 1 min. Plan Pro: ~18,82 $/mies., priorytetowe wykonanie. Plan Teams: ~34,12 $/mies.
+- **Źródło:** https://www.lindy.ai/blog/make-com-pricing — *"Core | $10.59/month | Solopreneurs running simple workflows | 10,000 credits/month, unlimited scenarios, API, and webhooks"* Oraz https://www.make.com/en/pricing
+
+- **Fakt:** Aplikacja Shopify w Make **podąża za systemem kredytowym Shopify API** — to Shopify ustala limity, nie Make. Plan Make nie ma wpływu na limity Shopify.
+- **Źródło:** https://apps.make.com/shopify — *"The Shopify app in Make follows Shopify's API credit system to manage how many operations you can perform over time. ... API limits are set by Shopify and depend on your Shopify plan. Your Make plan has no impact on these limits."*
+
+- **Fakt:** Make.com ma **twarde limity na scenariusze z triggerami instant** — przy częstych webhookach (np. z Shopify) może dojść do przekroczenia rate limitów zewnętrznych serwisów. Rekomendowane jest ustawienie maksymalnej liczby uruchomień na minutę (np. 30).
+- **Źródło:** https://help.make.com/schedule-a-scenario — *"If your scenario has an instant trigger that's triggered frequently within a short amount of time (tens of runs per minute) and connects to services like Slack or Shopify, it may exceed those services' rate limits."*
+
+---
+
+### 5. Allegro REST API — ZMIANY REGULAMINOWE od 1 września 2026
+
+- **Fakt:** **1 września 2026 weszły w życie zmiany w Regulaminie Allegro REST API:**
+  - **Limit kluczy REST API:** z 5 kluczy → **1 klucz**. Więcej tylko na indywidualny wniosek (1 dodatkowy klucz na wniosek).
+  - **Automatyczne usuwanie nieużywanych kluczy:** jeśli klucz nie zostanie użyty w ciągu **30 dni od rejestracji** — zostanie usunięty (wcześniej: po 12 miesiącach).
+  - **Odbiór dostępu aplikacji:** jeśli aplikacja nie była używana przez **90 dni**, Allegro automatycznie odbierze jej dostęp do zasobów.
+  - **Nowe sankcje:** naruszenie regulaminu REST API może skutkować odjęciem punktów w panelu „Jakość mojej sprzedaży".
+- **Źródło:** https://developer.allegro.pl/news/1-wrzesnia-zaktualizujemy-regulamin-allegro-rest-api-E7ngjnmGXhY — *"Obecnie: możesz wygenerować do 5 kluczy REST API. - Po zmianie: będzie można mieć 1 klucz REST API. ... klucz REST API usuniemy również wtedy, gdy nie użyjesz go w ciągu 30 dni od jego zarejestrowania."*
+
+- **Fakt:** Główny limit Allegro REST API to **9 000 zapytań na minutę** na Client ID. Dla operacji masowych (zmiany ofert): **250 000 zmian ofert na godzinę** lub **9 000 zmian ofert na minutę**.
+- **Źródło:** https://developer.allegro.pl — *"W usłudze Allegro REST API (produkcyjnej oraz testowej) obowiązuje główny limit nakładany na Client ID ... - 9000 zapytań na minutę."* Oraz GitHub allegro-api: *"This resource is rate limited to 250 000 offer changes per hour or 9000 offer changes per minute."*
+
+- **Fakt:** Od lipca 2026 Allegro **wymaga nagłówka `User-Agent`** w każdym żądaniu do API. Nagłówek musi zawierać nazwę aplikacji, wersję i adres strony z informacją o produkcie. Żądania bez tego nagłówka są odrzucane.
+- **Źródło:** https://ppmag.pl — *"Allegro od początku lipca 2026 wymagać będzie, aby każdy przesyłany komunikat do API Allegro był opisany odpowiednim nagłówkiem UserAgent."* Oraz https://www.selly.pl — *"Od lipca 2026 r. żądania niespełniające tych wymagań będą odrzucane."*
+
+- **Fakt:** **14 kwietnia 2026** Allegro ostatecznie wyłączyło zasoby API do tworzenia i obsługi ofert wielowariantowych w starym modelu.
+- **Źródło:** https://developer.allegro.pl/news — *"14 kwietnia 2026 wyłączymy zasoby do tworzenia i obsługi ofert wielowariantowych."* Oraz Base Blog: *"Po 14 kwietnia 2026 nie stworzysz już wariantu 'po staremu'."*
+
+---
+
+### 6. Apilo — cennik i plany wsparcia
+
+- **Fakt:** Cennik Apilo 2026 (netto): **Starter 29 zł/mies.** (do 100 zamówień, 2 000 ofert), **Basic 169 zł/mies.** (do 500 zamówień, 10 000 ofert), **Professional 349 zł/mies.** (do 1 500 zamówień, 20 000 ofert), **Advanced 699 zł/mies.** (do 10 000 zamówień, 200 000 ofert). Plan Individual od 999 zł/mies.
+- **Źródło:** https://www.attomy.io/en/post/integrating-your-shopify-store-with-allegro-a-complete-guide-for-ecommerce — *"Starter plan: PLN 29 / month (up to 100 orders and 2 000 offers) - Basic plan: PLN 129 / month ... Professional plan: PLN 249 / month ... Advanced plan: PLN 499 / month"* Oraz https://kcmobile.pl (Apilo + WooCommerce 2026) — *"Starter 29 zł do 100 zamówień, Basic 169 zł do 500, Professional 349 zł do 1 500, Advanced 699 zł do 10..."*
+
+- **Fakt:** Apilo oferuje płatne **Plany Wsparcia** (Support Plans) z SLA: Standard (w cenie abonamentu, odpowiedź do 8h), Business (odpowiedź do 3h, dedykowana kolejka e-mail, Premium hotline), VIP (odpowiedź do 1h, dedykowany Account Manager, 3h/mies. wsparcia konfiguracji), MAX (odpowiedź do 1h, 3h setup + 3h szkolenia zespołu). Dodatkowe godziny: 35 EUR/h (szkolenia/konsultacje), audyt konta od 105 EUR/h.
+- **Źródło:** https://apilo.com/en/apilo-support-plans/ — *"SLA (response time) in order 8 hrs. / 3 hrs. / 1 hr. ... Emplyee training Each additional hour: 35 EUR ... Account audit Each additional hour from 105 EUR"*
+
+---
+
+### 7. BaseLinker — cennik i konfiguracja
+
+- **Fakt:** BaseLinker (obecnie Base.com) w 2026: **Freemium 0 zł** (do 100 zamówień/mies., 1 000 produktów), **Business 279 zł/mies.** za 1 000 zamówień + **0,99 zł za każde kolejne zamówienie**. Enterprise — wycena indywidualna.
+- **Źródło:** https://www.nocodework.io (BaseLinker drożeje) — *"Base (dawniej BaseLinker) w planie Business kosztuje 279 zł za 1000 zamówień i 0,99 zł za każde kolejne"* Oraz https://kcmobile.pl — *"Business – 279 zł miesięcznie plus 0,99 zł od każdego zamówienia"*
+
+- **Fakt:** Konfiguracja BaseLinker to **6–15 godzin pracy** dla osoby znającej system, lub **2 500–15 000 zł** zlecone agencji.
+- **Źródło:** https://kcmobile.pl (Konfiguracja BaseLinker – poradnik DIY + cennik agencji 2026) — *"Konfiguracja BaseLinker to 6-15 godzin Twojej pracy (jeśli wiesz, co robisz) albo 2 500-15 000 zł zlecone agencji."*
+
+- **Fakt:** BaseLinker ma **ponad 1 700 integracji**, Apilo — **ponad 600**.
+- **Źródło:** https://kcmobile.pl (Apilo + WooCommerce 2026) — *"BaseLinker wygrywa liczba integracji – ponad 1700 wobec 600+ w Apilo."*
+
+---
+
+## RYZYKA I PUŁAPKI
+
+### Ryzyko 1: Limit 100 req/min w BaseLinker API — wąskie gardło przy dużej skali
+Przy intensywnej synchronizacji (setki zamówień dziennie, wiele kanałów jednocześnie) limit 100 req/min może być niewystarczający. Problem potęguje się, gdy ten sam token API jest używany przez wiele aplikacji jednocześnie. **Ryzyko:** błędy 429, opóźnienia w synchronizacji, konieczność wykupienia modułu „Akceleracje". Źródło: https://api.baselinker.com/ oraz https://doc.ktsoft.pl
+
+### Ryzyko 2: Shopify REST API jest w fazie wygaszania — migracja do GraphQL jest konieczna
+Jeśli klient ma integracje oparte na Shopify REST API (a wiele starszych wtyczek i customowych rozwiązań tak ma), **będą one wymagały migracji do GraphQL**. REST Admin API jest legacy od 2024 i otrzymuje tylko security fixes. Nowe aplikacje muszą być budowane w GraphQL. **Ryzyko:** starsze integracje przestaną działać, konieczna przebudowa. Źródło: https://shopify.dev
+
+### Ryzyko 3: Shopify — kwartalne wersjonowanie API wymusza ciągłe utrzymanie
+Shopify co 3 miesiące wydaje nową wersję API i wygasza starsze. Każda integracja wymaga regularnych aktualizacji (np. `2026-01` wygasa 16 stycznia 2027). **Ryzyko:** bez ciągłego monitoringu changelogów integracja „cichnie umiera" — zaczyna zwracać błędy deprecjacji lub nieprawidłowe dane. Źródło: https://shopify.dev/docs/api/usage/versioning
+
+### Ryzyko 4: Nowe zmiany regulaminowe Allegro REST API (1 września 2026) — 1 klucz API
+Od 1 września 2026 można mieć tylko **1 klucz REST API** (zamiast 5). To poważne ograniczenie dla firm, które mają wiele integracji (np. ERP + WMS + własne skrypty). Każda dodatkowa integracja wymaga indywidualnego wniosku. **Ryzyko:** brak możliwości uruchomienia wielu niezależnych integracji bez dodatkowych starań. Źródło: https://developer.allegro.pl/news/1-wrzesnia-zaktualizujemy-regulamin-allegro-rest-api-E7ngjnmGXhY
+
+### Ryzyko 5: Wymóg nagłówka User-Agent w Allegro API (od lipca 2026)
+Każde żądanie do Allegro REST API musi zawierać nagłówek `User-Agent` z nazwą aplikacji, wersją i adresem URL. Starsze integracje, które tego nie robią, **będą odrzucane**. **Ryzyko:** konieczność modyfikacji wszystkich klientów API. Źródło: https://ppmag.pl oraz https://www.selly.pl
+
+### Ryzyko 6: Token Apilo API ważny tylko 21 dni — wymaga automatycznego odświeżania
+Access token Apilo wygasa po 21 dniach. Bez zaimplementowanego mechanizmu refresh tokena integracja przestanie działać. **Ryzyko:** przestój w synchronizacji, konieczność ręcznej interwencji. Źródło: https://packagist.org/packages/apilo/apilo-api-php
+
+### Ryzyko 7: Brak oficjalnego limitu Apilo API — nieprzewidywalność
+Apilo nie publikuje sztywnego limitu req/min. Przy intensywnym odpytywaniu API może dojść do throttlingu po stronie Apilo. **Ryzyko:** trudność w zaprojektowaniu wydajnej synchronizacji bez wiedzy o limitach. **Status:** Nie potwierdzono oficjalnego limitu — brak w publicznej dokumentacji.
+
+### Ryzyko 8: Make.com — koszty kredytów rosną szybko przy złożonych scenariuszach
+10 000 kredytów w planie Core może zostać wyczerpane szybko przy wielokrokowych scenariuszach z pętlami (np. aktualizacja 200 produktów = 200+ operacji). **Ryzyko:** konieczność przejścia na wyższy plan (Pro/Teams) = wyższy koszt miesięczny. Źródło: https://www.lindy.ai/blog/make-com-pricing oraz https://apps.make.com/shopify
+
+---
+
+## AMUNICJA DO OFERTY
+
+### 1. „Wiem, że Shopify REST umiera — proponuję GraphQL"
+Warto pokazać klientowi, że rozumiemy kierunek rozwoju Shopify: REST Admin API jest legacy od 2024, nowe aplikacje muszą być budowane w GraphQL. Jeśli klient ma stare integracje REST, zaproponujmy migrację **zanim** Shopify całkowicie wyłączy REST. To buduje wizerunek eksperta, który wyprzedza problemy.
+
+### 2. „Uwaga na nowe zasady Allegro API — 1 klucz od września 2026"
+Od 1 września 2026 Allegro drastycznie ograniczyło liczbę kluczy REST API (z 5 do 1). Jeśli klient ma wiele integracji opartych na osobnych kluczach, **będzie potrzebował wsparcia w konsolidacji lub wnioskowaniu o dodatkowe klucze**. Możemy zaproponować audyt kluczy API jako element usługi.
+
+### 3. „BaseLinker ma limit 100 req/min — przy Twojej skali to może być za mało"
+Jeśli klient operuje na dużych wolumenach, warto uświadomić mu, że standardowy limit BaseLinker API to 100 req/min. Przy wielu kanałach i intensywnej synchronizacji **konieczne może być wykupienie modułu Akceleracje** lub optymalizacja liczby wywołań. To pokazuje, że myślimy o skali, a nie tylko o „podłączeniu".
+
+### 4. „Apilo token wygasa po 21 dniach — potrzebny auto-refresh"
+Warto wspomnieć, że Apilo API wymaga implementacji mechanizmu odświeżania tokena co 21 dni. **Bez tego integracja przestanie działać po 3 tygodniach.** To konkret, który pokazuje praktyczną wiedzę.
+
+### 5. „Make.com to nie tylko klikanie — to koszty kredytów"
+Klient może nie zdawać sobie sprawy, że Make.com rozlicza się za operacje (kredyty). Przy złożonych scenariuszach (np. aktualizacja setek produktów) plan Core (10 000 kredytów) może być niewystarczający. Warto zaproponować **optymalizację scenariuszy pod kątem zużycia kredytów** jako element wartości dodanej.
+
+### 6. „BaseLinker vs Apilo — dobór zależy od wolumenu i integracji"
+BaseLinker ma ponad 1 700 integracji, Apilo — ponad 600. BaseLinker wygrywa przy sprzedaży na 3+ marketplace'ach, Apilo — przy średnich wolumenach z naciskiem na logistykę i prostotę. Możemy zaproponować **rekomendację systemu na podstawie analizy wolumenu i kanałów klienta**.
+
+---
+
+## CENY RYNKOWE
+
+### Konfiguracja BaseLinker (DIY vs agencja)
+- **DIY:** 6–15 godzin pracy dla osoby znającej system.
+- **Agencja:** 2 500–15 000 zł.
+- **Źródło:** https://kcmobile.pl (Konfiguracja BaseLinker – poradnik DIY + cennik agencji 2026) — *"Konfiguracja BaseLinker to 6-15 godzin Twojej pracy (jeśli wiesz, co robisz) albo 2 500-15 000 zł zlecone agencji."*
+
+### Stawki freelancerów e-commerce w Polsce (widełki)
+- **Freelancer.com:** od 12 USD/h (WordPress/WooCommerce) do 50 USD/h (specjalista PrestaShop).
+- **bTOP (specjalista marketplace):** 35–49 zł netto + VAT/h.
+- **Upwork (Polska):** 7–80 USD/h w zależności od specjalizacji.
+- **Źródło:** https://www.freelancer.com, https://btop.pl, https://www.upwork.com
+
+### Cennik BaseLinker (kontekst dla klienta)
+- Freemium: 0 zł (100 zamówień/mies.)
+- Business: 279 zł/mies. za 1 000 zamówień + 0,99 zł/zamówienie
+- Enterprise: wycena indywidualna
+- **Źródło:** https://www.nocodework.io oraz https://kcmobile.pl
+
+### Cennik Apilo (kontekst dla klienta)
+- Starter: 29 zł/mies. (100 zamówień)
+- Basic: 169 zł/mies. (500 zamówień)
+- Professional: 349 zł/mies. (1 500 zamówień)
+- Advanced: 699 zł/mies. (10 000 zamówień)
+- **Źródło:** https://kcmobile.pl
+
+### Cennik Make.com (kontekst dla klienta)
+- Free: 0 $/mies. (1 000 kredytów, 2 scenariusze)
+- Core: ~10,59 $/mies. (10 000 kredytów, nielimitowane scenariusze)
+- Pro: ~18,82 $/mies.
+- Teams: ~34,12 $/mies.
+- **Źródło:** https://www.lindy.ai/blog/make-com-pricing oraz https://www.make.com/en/pricing
+
+---
+
+## BRAK POTWIERDZONYCH FAKTÓW
+
+Nie znaleziono oficjalnego, publicznie udokumentowanego limitu API dla Apilo (req/min). Wszelkie szacunki w tym zakresie należy traktować jako niepotwierdzone.
+
+---
+
+**Podsumowanie dla agentów 02a (treść) i 02b (wycena):**
+Zlecenie dotyczy stałej współpracy przy integracjach e-commerce — nie jednorazowego projektu. Kluczowe jest **utrzymanie ciągłości działania** (monitoring, aktualizacje API, reagowanie na zmiany regulaminowe). W ofercie warto podkreślić **znajomość najnowszych zmian** (Allegro 09/2026, Shopify GraphQL, BaseLinker limity) oraz zaproponować **model retainerowy** (miesięczny pakiet godzin) zamiast rozliczania per incydent.
+
+===== WYCENA (z uzasadnieniem AI) =====
+# Wycena — Zlecenie 143432: Specjalista Integracji Ecomerce [Apilo, Shopify, Make]
+
+## Klasyfikacja
+
+To **nie jest projekt jednorazowy** — ogłoszenie wprost mówi „**do stałej współpracy**", szukają „problem solvera", który „samodzielnie ogarnia bieżące problemy i troubleshooting". Opis to rola **opiekuna technicznego / administratora integracji e-commerce** (day-to-day: zamówienia, produkty, stany magazynowe, wysyłki, nieprzewidziane sytuacje). To trafia w **retainer** (abonament miesięczny), nie w moduły × godziny.
+
+## KROK 0.5 — Confirmed scope vs brainstorm
+
+Z opisu da się wyłuskać konkret, ale to ogłoszenie o **roli**, nie o projekcie:
+
+**CONFIRMED SCOPE (co klient deklaruje jako obowiązek):**
+- Bieżące utrzymanie integracji: Apilo ↔ BaseLinker ↔ Shopify ↔ (Allegro, kanały sprzedaży)
+- Troubleshooting: zamówienia, produkty, stany magazynowe, wysyłki
+- Diagnoza błędów integracji i wdrażanie rozwiązań
+- Proaktywne reagowanie na problemy day-to-day
+- Samodzielność bez instrukcji
+
+**BRAINSTORM (nie wchodzi do kosztu, do rozmowy):**
+- Audyt kluczy Allegro API po zmianach 09/2026 (1 klucz zamiast 5)
+- Migracja Shopify REST → GraphQL (REST legacy od 2024)
+- Auto-refresh tokena Apilo (wygasa co 21 dni)
+- Optymalizacja scenariuszy Make pod limity kredytów
+- Moduł Akceleracje BaseLinker (limit 100 req/min przy skali)
+
+Te punkty są świetną amunicją do oferty jako **potencjalne rozszerzenia v2** — ale nie pompują kosztu bazowego retainera.
+
+## KROK 1–9.5 — Kalkulacja retainera
+
+Zgodnie z mechaniką dla retainerów:
+
+| Pozycja | Kwota |
+|---|---|
+| Opieka techniczna / administrator (BaseLinker, Shoper, IdoSell, hosting, awarie) | 1500–2500 zł/mies. |
+| Customer success / wdrożenia AI / wsparcie klientów B2B | 2500–5000 zł/mies. |
+
+**Który widełek?** To nie jest czysta opieka hostingowa (dolna półka), ale też nie customer success B2B (górna). To **opieka techniczna nad integracjami e-commerce z realnym troubleshootingiem** — mieszanka. Research potwierdza, że sama konfiguracja BaseLinker u agencji to 2 500–15 000 zł jednorazowo, a tu mówimy o **ciągłym utrzymaniu wielu systemów jednocześnie** (Apilo + BaseLinker + Shopify + kanały) z reakcją na zmiany regulaminowe (Allegro 09/2026, Shopify GraphQL, limity API).
+
+**Pozycja bazowa:** środek górnej połowy widełek opieki technicznej = **2200 zł/mies.** (mnożnik profilu ×0.75 już zawarty w tym, że nie windowujemy — to realna stawka rynkowa za taki zakres, nie wynik mnożnika profilu).
+
+### Mnożniki ryzyka (stosowane do retainera jako korekta widełek)
+
+- **Klient nie ma specyfikacji** (ogłoszenie opisuje rolę, nie zakres SLA): ×1.3
+- **Zewnętrzne API z znanymi ograniczeniami** (potwierdzone w research: BaseLinker 100 req/min, Apilo token 21 dni, Shopify REST legacy, Allegro 1 klucz od 09/2026): ×1.25
+- Łączny: ×1.3 × ×1.25 = ×1.625 (poniżej cap ×1.8, cap nie zadziałał)
+
+**2200 zł × 1.625 = 3575 zł/mies.**
+
+### Korekta konkurencyjna (KROK 7)
+
+- Zlecenie opublikowane **2026-08-28**, dziś jest **2026-09-10** → **13 dni** = zdecydowanie stare (>3 dni)
+- Ofert: **37** → ponad 30
+
+Zgodnie z mechaniką: **stare (>3 dni) + ponad 30 ofert → ×0.85** (dużo konkurencji i klient pewnie już kogoś wybrał — agresywna cena albo nie wchodzimy).
+
+**3575 zł × 0.85 = 3038,75 zł/mies.**
+
+### KROK 8 — Prowizja i podatek
+
+3038,75 zł to kwota „na wejściu". Na koncie ląduje ~88% (2.3% Useme + 9.6% PIT). Jeśli chcemy realnie dostać ~3038 zł netto, dzielimy przez 0.88:
+
+**3038,75 / 0.88 = 3453,13 zł/mies.**
+
+### KROK 9 — Zaokrąglenie
+
+Projekt 2 000–10 000 zł → zaokrąglenie **do 500 zł**.
+
+**3453,13 → 3500 zł/mies.**
+
+### KROK 9.5 — Kotwica budżetu
+
+Budżet: **„Do negocjacji"** → pole kwoty wypełnia cena bazowa z KROK 7–9. **3500 zł/mies.**
+
+**Uwaga komunikacyjna:** w treści oferty jasno zaznaczamy, że to **stała współpraca rozliczana miesięcznie**, a nie jednorazowa kwota za projekt. Kwota 3500 zł/mies. to pakiet obejmujący utrzymanie, monitoring, troubleshooting i reakcję na zmiany API w wymienionych systemach.
+
+## KROK 10 — Dni pracy
+
+Wymóg formularza Useme: **minimum 7 dni**. Dla retainera to i tak sztuczne — dni kalendarzowe nie mają tu zastosowania w modelu miesięcznym. Wpisujemy **7** (minimum formularza).
+
+## KROK 10.6 — 2-pass audit
+
+1. **Czy moduły mogłyby być niezależne?** — Nie stosujemy modułów, to retainer. ✓
+2. **Czy moduły dzielą kod/tabele/endpointy?** — N/A dla retainera. ✓
+3. **Confirmed scope vs brainstorm?** — Rozdzielone w KROK 0.5. Do kosztu weszły wyłącznie obowiązki z opisu; audyt Allegro/Shopify/Apilo/Make poszedł do „potencjalnych rozszerzeń v2" jako argumenty do rozmowy, nie do ceny. ✓
+4. **Różnica >30% od instynktu?** — Brak dostępnego instynktu seniora. Mechanika przejrzysta, wynik spójny. ✓
+
+**Audyt: 0 modułów usunięto, 0 scalono, 0 przeklasyfikowano. Retainer wyceniony stawką miesięczną zgodnie z sekcją „Zlecenia abonamentowe".**
+
+---
+
+## Rozbicie dla właściciela
+
+```
+Klasyfikacja:         retainer (stała współpraca, opieka techniczna e-commerce)
+Pozycja bazowa:       2200 zł/mies. (środek górnej połowy widełek opieki tech.)
+Mnożniki ryzyka:      ×1.3 (brak specyfikacji) × ×1.25 (znane ograniczenia API)
+                      = ×1.625 (cap ×1.8 NIE zadziałał)
+Po mnożnikach:        3575 zł/mies.
+Korekta konkurencyjna: ×0.85 (stare >3 dni + 37 ofert) = 3038,75 zł/mies.
+Prowizja/podatek:     ÷ 0.88 = 3453,13 zł/mies.
+Zaokrąglenie:         3500 zł/mies.
+Budżet klienta:       "do negocjacji" → brak korekty, wchodzi cena bazowa.
+Dni (formularz):      7 (minimum, model miesięczny i tak nie używa dni)
+```
+
+**W ofercie zaznaczyć:** to stała współpraca rozliczana miesięcznie, pakiet obejmuje utrzymanie integracji Apilo/BaseLinker/Shopify, monitoring, troubleshooting i reakcję na zmiany API. Potencjalne rozszerzenia (audyt Allegro 09/2026, migracja Shopify REST→GraphQL, auto-refresh Apilo, optymalizacja Make) — do osobnej wyceny po callu.
+
+[WYNIK_KONCOWY]
+KWOTA: 3500
+DNI: 7
+
+
+===== OFERTA =====
+Dzień dobry,
+
+Piszę w imieniu dwuosobowego zespołu. Integracje e-commerce między Apilo, BaseLinkerem i Shopify to nasza codzienność, a szukacie kogoś do stałej współpracy, więc od razu mówię jak to widzę.
+
+Największy problem w takiej układance to nie samo podłączenie systemów, tylko to, że każdy z nich ma swoje limity i cykle życia, o których nikt nie pamięta, dopóki coś nie przestanie się synchronizować. BaseLinker ma twardy limit 100 zapytań na minutę, a jeśli ten sam token używa kilka aplikacji naraz, limit pęka i zamówienia zaczynają się rozjeżdżać. Apilo z kolei wygasza token dostępu co 21 dni, więc bez automatycznego odświeżania integracja po prostu cichnie po trzech tygodniach. Shopify wygasza REST Admin API na rzecz GraphQL i co kwartał wersjonuje API, a Allegro od września tego roku ograniczyło liczbę kluczy REST do jednego i wymaga nagłówka User-Agent w każdym żądaniu. To wszystko są rzeczy, które wywalają integrację znienacka, jeśli ktoś tego nie pilnuje na bieżąco.
+
+Dlatego proponuję stałą współpracę rozliczaną miesięcznie, a nie zrywanie się do każdego pojedynczego błędu. W pakiecie macie utrzymanie integracji Apilo, BaseLinker i Shopify, monitoring synchronizacji zamówień, produktów, stanów magazynowych i wysyłek, diagnozę i naprawę błędów oraz reagowanie na zmiany w API i regulaminach, zanim zdążą wam zaszkodzić. Codzienne problemy ogarniamy na bieżąco, bez czekania na zgłoszenie.
+
+Za stałą opiekę nad tymi integracjami, z monitoringiem i troubleshootingiem, liczymy 3500 zł miesięcznie. Realizacja w 7 dni to minimum formularza, bo przy stałej współpracy pracujemy w trybie ciągłym.
+
+Osobno, po krótkiej rozmowie, możemy wycenić audyt kluczy Allegro po wrześniowych zmianach, migrację Shopify z REST na GraphQL, auto-refresh tokena Apilo i optymalizację scenariuszy w Make pod kątem zużycia kredytów. To rzeczy, które i tak was w końcu dopadną, lepiej je zaplanować niż reagować w panice.
+
+Zdzwońmy się w tym tygodniu na 15 minut, opowiem jak to poukładać.
+
+Pozdrawiam
+
+
+
+########## C. enova365 WebAPI - zlozone techniczne ##########
+
+===== RESEARCH 01 (dl. 10006) =====
+### FAKTY KLUCZOWE (twarde, ze źródłami)
+
+- **WebAPI to osobny, płatny moduł** – nie jest wliczony w bazową licencję enova365, nawet w wersji platynowej. Aktywowany przez resellera jako dodatek wieczysty lub subskrypcja miesięczna.
+  - Źródło: „Soneta WebAPI to osobny płatny moduł na bazowej enova365 — nie jest wliczony, nie jest aktywny automatycznie tylko dlatego, że klient ma enova365.” – [ignashev.ai](https://ignashev.ai/pl/blog/enova365-webapi-przewodnik-programisty/)
+  - Źródło: „*WebAPI licencjonowany jest jako moduł dodatkowy.” – [enova.pl](https://enova.pl/moduly-systemu/integracje/webapi/)
+
+- **Wersja 2512.2.2 klienta** to build z 16.01.2026, zawierający zmiany przepisowe dla modułów Handel, Księgowość, Kadry Płace. Wersja wymaga konwersji bazy danych.
+  - Źródło: „W dniu 16.01.2026 opublikowana została wersja enova365 oznaczona numerem 2512.2.2. … Jest to wersja związana ze zmianami przepisów, wymaga konwersji bazy danych.” – [grudzinscy.pl](https://www.grudzinscy.pl/)
+
+- **WebAPI oferuje dwa typy kontrolerów**:
+  - **Dynamiczne** – automatycznie generowane z modelu danych enova365; mapują standardowe obiekty (produkty, kontrahenci, dokumenty, magazyny) na endpointy REST bez pisania kodu.
+  - **Statyczne** – niestandardowy kod osadzony w serwerze WebAPI, pisany w .NET z użyciem SDK enova365, gdy kontrolery dynamiczne nie pokrywają potrzeby (np. wieloetapowy proces biznesowy, kalkulacja po stronie enova).
+  - Źródło: „Kontrolery dynamiczne są automatycznie generowane z modelu danych enova365. … Kontrolery statyczne to niestandardowe integracje osadzone w serwerze WebAPI.” – [ignashev.ai](https://ignashev.ai/pl/blog/integracja-enova365-portal-b2b/)
+
+- **Marża w enova365 jest wyliczana obiektowo**, a nie przechowywana jako pole w bazie. W bazie istnieją tabele obrotów (np. `ObrotyPozycji`, `ObrotyTransakcji`) z polami `Marza` i `Marzapozycji`, ale są one wynikiem działania workerów przeliczających.
+  - Źródło: „Zmodyfikowano działanie workerów liczących marżę dla pozycji dokumentu: ObrotyPozycji.Marza, ObrotyTransakcji.Marza i ObrotyTransakcji.Marzapozycji” – [erpit.pl](https://nowy.erpit.pl/post/8-enova365-w-wersji-2004.0.0-juz-dostepna)
+  - Źródło: „Dzięki temu koszt własny sprzedaży i marża są liczone automatycznie” – [compact.net.pl](https://compact.net.pl/blog/modul-handel-w-enova365-stany-magazynowe-korekty-cen-i-kompletacja-w-praktyce)
+
+- **Autoryzacja WebAPI działa przez JWT** – zbliżona do standardowego OAuth. Wymaga użytkownika integracyjnego (nie loginu człowieka-operatora). Token jest podpisywany i wygasa po skonfigurowanym czasie życia; integracja musi go proaktywnie odświeżać.
+  - Źródło: „WebAPI autoryzuje przez JWT, a przepływ jest bliski standardowemu OAuth — nie potrzebujesz do tego żadnej specjalnej biblioteki” – [ignashev.ai](https://ignashev.ai/pl/blog/enova365-webapi-przewodnik-programisty/)
+
+- **Harmonogram Zadań może pushować dane na zewnątrz** – wbudowany scheduler enova365 można skonfigurować tak, aby sam inicjował wywołania wychodzące (zamiast być odpytowanym przez WebAPI).
+  - Źródło: „Harmonogram Zadań, wysyłanie. Wbudowany harmonogram enova365 można ustawić tak, żeby sam się odzywał, zamiast czekać, aż ktoś go zapyta.” – [ignashev.ai](https://ignashev.ai/pl/blog/enova365-ksef-jpk-webapi/)
+
+- **Dokumentacja Swagger jest generowana per instalacja** – odzwierciedla dokładną konfigurację serwera WebAPI, łącznie z dodatkami. Jest to faktyczne źródło prawdy o dostępnych endpointach i metodach.
+  - Źródło: „Wygenerowana dokumentacja Swagger na Twoim konkretnym serwerze WebAPI jest faktycznym źródłem prawdy o tym, co jest dostępne” – [ignashev.ai](https://ignashev.ai/pl/blog/enova365-webapi-przewodnik-programisty/)
+
+---
+
+### RYZYKA I PUŁAPKI
+
+- **Zachowanie kontrolerów dynamicznych zmienia się między wersjami** – zapytanie działające na jednej instalacji może zachować się inaczej na instalacji rok starszej. Wersja builda ma znaczenie i musi być potwierdzona przed startem.
+  - Źródło: „Wersja ma znaczenie, bo zachowanie kontrolerów dynamicznych naprawdę zmieniało się między głównymi wydaniami — zapytanie, które działa na jednej instalacji, może zachować się inaczej na tej, która jest rok czy dwa w tyle.” – [ignashev.ai](https://ignashev.ai/pl/blog/enova365-webapi-przewodnik-programisty/)
+
+- **Bezpośredni dostęp do MS SQL jako alternatywa omija logikę biznesową** – replika SQL tylko do odczytu jest szybka do postawienia, ale schemat bazy nie jest kontraktem: Soneta nie gwarantuje, że kolumna pozostanie tam, gdzie spodziewa się jej zapytanie. W dniu, w którym kolumna się przesunie, integracja „zaczyna po cichu kłamać”.
+  - Źródło: „schemat bazy nie jest kontraktem. Nic nie zobowiązuje Sonety, żeby zostawić kolumnę tam, gdzie spodziewa się jej wasze zapytanie. A w dniu, w którym ta kolumna się przesunie, integracja nie zaczyna działać gorzej — zaczyna po cichu kłamać.” – [ignashev.ai](https://ignashev.ai/pl/blog/enova365-ksef-jpk-webapi/)
+
+- **Brak potwierdzonych publicznych rate limitów WebAPI** – nie znaleziono oficjalnej dokumentacji określającej limity zapytań na minutę/godzinę dla enova365 WebAPI. Nie potwierdzono. Wymaga weryfikacji z dokumentacją konkretnej instalacji.
+
+- **Pola własne dodane przez dodatek (add-on) przechodzą przez kontrolery dynamiczne**, ale pole własne to zmiana schematu wykonana przez kogoś bez obowiązku informowania integratora – a integracja jest jedyną stroną, która to zauważy.
+  - Źródło: „A custom field is a schema change performed by somebody with no obligation to tell you, and your integration is the only party that will ever notice.” – [ignashev.ai](https://ignashev.ai/pl/blog/enova365-custom-fields-integrations/)
+
+- **Model danych enova365 jest dynamiczny i metadanych sterowany** – co oznacza, że rozszerzenia partnerów działają bezpośrednio w środowisku systemu, ale mapowanie obiektowo-relacyjne (ORM) wymaga zrozumienia klas `Row`/`Table`/`Module`.
+  - Źródło: „Klasy te stanowią podstawę mapowania obiektowo-relacyjnego (ORM) i są niezbędne do tworzenia kodu i dodatków.” – [claudskills.com](https://claudskills.com/)
+
+---
+
+### AMUNICJA DO OFERTY
+
+- **Kontrolery dynamiczne wystawiają dane dokładnie w strukturze instalacji klienta** – agent AI lub zewnętrzna warstwa analityczna dopasowuje się do definicji dokumentów klienta, a nie odwrotnie. To argument za tym, że integracja nie wymaga „przepisywania” modelu danych.
+  - Źródło: „Kontrolery dynamiczne WebAPI wystawia dane dokładnie w strukturze Twojej instalacji — agent dopasowuje się do Twoich definicji dokumentów, nie odwrotnie.” – [ignashev.ai](https://ignashev.ai/pl/integracja-enova365-ai/)
+
+- **Harmonogram Zadań enova365 potrafi samo powiadamiać o zdarzeniach** (statusy, zmiany danych) – bez ciągłego odpytywania ERP. To kluczowa przewaga przy budowie warstwy analitycznej działającej w czasie zbliżonym do rzeczywistego.
+  - Źródło: „Harmonogram Zadań enova365 potrafi samo powiadamiać agenta o zdarzeniach (statusy, zmiany danych) — bez ciągłego odpytywania ERP.” – [ignashev.ai](https://ignashev.ai/pl/integracja-enova365-ai/)
+
+- **W wersji 2510.1.1 dodano nowe modele danych i wizualizacje handlowe** – m.in. raporty sprzedaży YTD/YTD-1, rankingi kontrahentów i towarów o najwyższych marżach, analizy przeterminowanych należności. To pokazuje, że producent aktywnie rozwija warstwę analityczną, co może ułatwić lub uzupełnić budowę własnej warstwy AI.
+  - Źródło: „Dodano nowe modele danych i wizualizacje wspierające analizy handlowe, obejmujące m.in.: raporty sprzedaży (YTD, YTD-1), rankingi kontrahentów i towarów o najwyższych marżach, analizy przeterminowanych należności.” – [erpline.pl](https://erpline.pl/)
+
+- **enova365 ma najbardziej dojrzałe REST API wśród polskich systemów ERP** – udokumentowane, wersjonowane, spójne między wydaniami. Porównanie: pełna dwukierunkowa konfiguracja portalu B2B na enova365 zajmuje 3–5 dni roboczych, podczas gdy Subiekt GT przez Sferę – 5–7, Comarch Optima przez wymianę plikową – 7–10.
+  - Źródło: „enova365 regularnie wychodzi na 3–5 dni roboczych dla pełnej dwukierunkowej konfiguracji. Subiekt GT przez Sferę — 5–7. Comarch Optima przez wymianę plikową — 7–10.” – [ignashev.ai](https://ignashev.ai/pl/blog/integracja-enova365-portal-b2b/)
+
+- **Od 2026 każdy ERP musi umieć XML FA(3) do KSeF** – i to jest najpewniejsze API, jakie firma ma. Wersja klienta (2512.2.2) zawiera już obsługę zmian przepisowych związanych z KSeF.
+  - Źródło: „Od 2026 każdy ERP musi umieć XML FA(3) do KSeF i to jest najpewniejsze API, jakie masz.” – [nocodework.io](https://www.nocodework.io/post/polski-erp-automatyzacje-api.html)
+
+---
+
+### CENY RYNKOWE
+
+- **Stawka godzinowa konsultanta enova365 (AltOne)**: 250,00 PLN/godz. netto; usługi programistyczne: 300,00 PLN/godz. netto. Dopłaty: +50% poza godzinami 9–17, +100% w weekendy, +300% w święta.
+  - Źródło: [altone.pl](https://altone.pl/cennik-uslug/)
+
+- **Stawka dzienna (AltOne)**: Starszy konsultant – 1 800 PLN/dzień; Młodszy konsultant – 1 500 PLN/dzień; Architekt Systemów – 2 500 PLN/dzień (do 8 godzin).
+  - Źródło: [altone.pl](https://altone.pl/cennik-uslug/)
+
+- **Stawka godzinowa Architekta/Konsultanta ERP (enova365) na rynku B2B**: 140–180 PLN netto/godz. (ogłoszenie emagine Polska).
+  - Źródło: [justjoin.it](https://justjoin.it/job-offer/emagine-polska-architekt-konsultant-erp-ennova365--warszawa-erp)
+
+- **Integracja enova365 z e-commerce (Base.com)**: 2 500–4 900 PLN netto + dodatkowe koszty wdrożenia według stawki godzinowej.
+  - Źródło: [base.com](https://base.com/pl-PL/integracje/enova/)
+
+- **Prosta synchronizacja enova365 ze sklepem (KamikStudio)**: od 2 000 zł netto; pełne spięcie ze sklepem, szkolenie i licencja integratora na pierwszy rok – od 5 000 zł netto. Standardowe wdrożenie: 3–7 dni roboczych.
+  - Źródło: [kamikstudio.pl](https://kamikstudio.pl/)
+
+- **Custom API (integracja WooCommerce–ERP)**: 10–50 tys. zł (widełki ogólne dla custom API).
+  - Źródło: [kcmobile.pl](https://kcmobile.pl/baza-wiedzy/ecommerce/erp-integracja-woocommerce/)
+
+===== WYCENA (z uzasadnieniem AI) =====
+
+
+*# Wycena: Integracja enova365 przez WebAPI
+
+## Analiza kluczowej sprzeczności
+
+Klient **twierdzi**, że producent potwierdził pisemnie brak konieczności dokupywania modułu. Research pokazuje, że:
+- WebAPI jest licencjonowany jako **moduł dodatkowy**
+- W wersji **Platyna** — źródła są sprzeczne: część wskazuje, że moduły dodatkowe są w cenie, część że integracje są płatne
+- Klient ma **wersję platynową** → prawdopodobnie WebAPI jest dostępny, ale wymaga **aktywacji przez resellera** (to nie jest "samo się włącza")
+
+**Wniosek do wyceny:** Zakładamy, że moduł jest dostępny w Platynie (klient ma pisemne potwierdzenie od producenta). Uwzględniamy **pracę z aktywacją/konfiguracją WebAPI przez resellera** jako osobny element, bo to nie jest zero-kosztowe. Jeśli po weryfikacji okaże się, że moduł trzeba dokupić — to zmiana zakresu (klient płaci za licencję osobno).
+
+---
+
+## KROK 0.5: Confirmed scope vs Brainstorm
+
+### CONFIRMED SCOPE (wchodzi do kalkulacji):
+1. **Uruchomienie i konfiguracja WebAPI** na instalacji klienta (operator, uprawnienia, dostęp, aktywacja przez resellera)
+2. **Zestaw cyklicznych zadań eksportujących** dane przetworzone logiką systemu do zewnętrznych tabel:
+   - dokumenty sprzedaży z wyliczoną marżą (podział: klient / rynek / handlowiec)
+   - zapytania ofertowe ze statusem
+   - rozrachunki i przeterminowania
+3. **Własne kontrolery WebAPI** (warunkowo — jeśli standardowe nie pokryją zakresu)
+4. **Odpowiedź techniczna na pytanie o marżę** (obiektowa vs pole w bazie) — to część oferty, nie praca wdrożeniowa
+5. **Dwie referencje** — część oferty
+
+### BRAINSTORM / POTENCJALNE ROZSZERZENIA v2 (nie wchodzi do kalkulacji):
+- Agenci AI na danych (klient buduje własną warstwę — my tylko udostępniamy dane)
+- Rozszerzenia o dodatkowe moduły enova (Księgowość, Kadry)
+- Integracja z KSeF
+- Rozbudowa o harmonogram push (Harmonogram Zadań → zewnętrzne systemy)
+
+---
+
+## KROK 1-2: Moduły i godziny
+
+| # | Moduł | Kategoria | Optymistycznie | Realistycznie |
+|---|-------|-----------|----------------|---------------|
+| 1 | Aktywacja + konfiguracja WebAPI (reseller, operator integracyjny, uprawnienia, JWT, testy połączenia, Swagger weryfikacja) | Integracja zewnętrznego API (1 serwis, auth + CRUD) | 4h | 8h |
+| 2 | Kontrolery dynamiczne — mapowanie i weryfikacja endpointów dla: dokumenty sprzedaży, zapytania ofertowe, rozrachunki | Integracja zewnętrznego API (złożona — 3 obszary danych, retry, error handling) | 8h | 14h |
+| 3 | Logika marży — obejście problemu obiektowego wyliczania marży (własny kontroler statyczny .NET LUB eksport przez workery do tabeli stagingowej) | Integracja zewnętrznego API (złożona) + praca z SDK enova | 10h | 18h |
+| 4 | Cykliczne zadania eksportujące (Harmonogram Zadań lub zewnętrzny scheduler) — 3 strumienie danych, walidacja, zapis do zewnętrznych tabel | Automatyzacja AI-LLM / orkiestracja | 6h | 12h |
+| 5 | Własne kontrolery WebAPI (statyczne, .NET SDK) — jeśli dynamiczne nie pokryją marży i zapytań ofertowych | Integracja zewnętrznego API (złożona) | 8h | 16h |
+| 6 | Testy integracyjne + dokumentacja techniczna (Swagger, instrukcja dla klienta, schemat przepływu danych) | Testy + dokumentacja (+15%) | — | — |
+
+### Weryfikacja nakładania:
+- Moduł 2 i 3 dzielą logikę marży → **scalane** w jeden moduł (marża jest częścią eksportu dokumentów sprzedaży)
+- Moduł 3 i 5 dzielą SDK/kontrolery → **scalane** (własny kontroler to część rozwiązania marży)
+- Moduł 4 korzysta z endpointów z modułu 1-2 → **nie duplikuje**, ale dodaje orkiestrację
+
+**Po scaleniu:**
+
+| # | Moduł | Godziny opt. | Godziny real. |
+|---|-------|-------------|---------------|
+| 1 | Aktywacja + konfiguracja WebAPI (auth, JWT, uprawnienia, weryfikacja Swagger) | 4h | 8h |
+| 2 | Mapowanie i weryfikacja kontrolerów dynamicznych (sprzedaż, zapytania ofertowe, rozrachunki) | 8h | 14h |
+| 3 | Moduł marży + własne kontrolery statyczne (.NET SDK) — obejście problemu obiektowego | 12h | 20h |
+| 4 | Cykliczne zadania eksportujące + orkiestracja (3 strumienie, walidacja, zapis) | 6h | 12h |
+| | **SUMA** | **30h** | **54h** |
+
+---
+
+## KROK 2.5: Testy + dokumentacja
++15% do sumy godzin: 54h × 1.15 = **62.1h**
+
+---
+
+## KROK 3: Suma godzin
+- Optymistyczna: 30h × 1.15 = 34.5h
+- Realistyczna: **62.1h**
+
+---
+
+## KROK 4: Buffer
+- Standardowo +20%: 62.1h × 1.2 = **74.5h**
+- **Nie robimy tego pierwszy raz?** — enova365 to nowy system dla nas (nie mamy w portfolio). Ale mamy doświadczenie z integracjami ERP/API. Research daje nam wiedzę o modelu danych. **+30% za nową technologię** → 62.1h × 1.3 = **80.7h**
+
+**Uwaga:** Klient wymaga referencji z enova365 — **nie mamy ich**. To jest ryzyko ofertowe (nie techniczne), ale wpływa na konkurencyjność.
+
+---
+
+## KROK 5: Mnożniki ryzyka
+
+| Czynnik | Mnożnik | Uzasadnienie |
+|---------|---------|--------------|
+| Brak specyfikacji (klient opisał ogólnie, brak mockupów) | ×1.3 | Klient nie ma Figmy ani szczegółowej specyfikacji technicznej |
+| Zewnętrzne API z ZNANYMI ograniczeniami architektonicznymi | ×1.25 | Potwierdzone: marża wyliczana obiektowo, nie ma pola w bazie → trzeba budować obejście |
+| **SUMA** | **×1.625** | 1.3 × 1.25 = 1.625 |
+
+**CAP:** ×1.625 < ×1.8 → cap nie zadziałał.
+
+Godziny po mnożnikach: 80.7h × 1.625 = **131.1h**
+
+---
+
+## KROK 6: Cena bazowa
+Stawka efektywna (profil 2 miesiące, 5 umów): **90 zł/h**
+
+131.1h × 90 zł/h = **11 799 zł**
+
+---
+
+## KROK 7: Korekta konkurencyjna
+- Zlecenie opublikowano **6 dni temu** (stare, >3 dni)
+- Liczba ofert: **23** (pod 30, ale blisko)
+- Zlecenie stare (>3 dni) i pod 30 ofert → **×1.0** (standardowo, bo 23 to nie 30+)
+
+**Cena po korekcie:** 11 799 zł
+
+---
+
+## KROK 8: Prowizja Useme i podatek
+- To jest cena **dla klienta** (brutto na Useme)
+- Netto dla nas: 11 799 × 0.88 = ~10 383 zł
+- Świadomie: nie windujemy sztucznie, ale jesteśmy świadomi różnicy
+
+---
+
+## KROK 9: Zaokrąglenie
+Projekt >10 000 zł → zaokrąglenie do 1 000 zł
+
+**11 799 zł → 12 000 zł**
+
+---
+
+## KROK 9.5: Kotwica budżetu
+Budżet: **"Do negocjacji"** → brak kotwicy. Wpisujemy cenę bazową.
+
+---
+
+## KROK 10: Dni kalendarzowe
+Godziny realistyczne po buforze i mnożnikach: 131.1h
+Dni = 131.1 / 7 = 18.73 → **19 dni**
++30% na weekendy i komunikację: 19 × 1.3 = 24.7 → **25 dni**
+
+**Zaokrąglenie:** 25 dni
+
+---
+
+## KROK 10.6: 2-pass audit
+
+1. **Czy moduły mogłyby być przypisane niezależnie?**
+   - Moduł 1 (konfiguracja WebAPI) — tak, ale jest prerekwizytem dla reszty → zostaje jako osobny
+   - Moduł 2 (mapowanie kontrolerów) — tak
+   - Moduł 3 (marża + kontrolery statyczne) — tak, ale dzieli SDK z modułem 2 → scalone
+   - Moduł 4 (cykliczne eksporty) — tak, ale zależy od endpointów z modułu 2 → zostaje jako osobny (orkiestracja)
+
+2. **Czy moduły dzielą kod/tabele/endpointy?**
+   - Moduł 2 i 3 dzielą logikę marży → **scalone** (uniknięto podwójnego liczenia)
+   - Moduł 3 i 5 (własne kontrolery) → **scalone** (to samo SDK)
+   - Moduł 1 i 2 dzielą auth/JWT → moduł 1 pokrywa auth, moduł 2 nie duplikuje
+
+3. **Czy moduł pochodzi z confirmed scope?**
+   - Wszystkie 4 moduły: confirmed scope
+   - Brainstorm ( agenci AI, KSeF, inne moduły) → **wyłączone z wyceny**
+
+4. **Czy wynik różni się >30% od instynktu?**
+   - Instynkt: ~8-12k zł za integrację ERP
+   - Mechanika: 12 000 zł — **zgodne**
+   - Różnica wynika z: nowa technologia (+30%), brak specyfikacji (×1.3), znane ograniczenia API (×1.25)
+
+**Audyt:**
+- Modułów usuniętych: 0
+- Modułów scalonych: 2 (marża + kontrolery statyczne; własne kontrolery wchłonięte)
+- Modułów przeklasyfikowanych: 0
+- Brainstorm wyłączony z wyceny: 4 pozycje
+
+---
+
+## Rozbicie dla klienta
+
+| Moduł | Godziny (real.) |
+|-------|----------------|
+| Aktywacja + konfiguracja WebAPI | 8h |
+| Mapowanie kontrolerów dynamicznych | 14h |
+| Moduł marży + kontrolery statyczne | 20h |
+| Cykliczne zadania eksportujące | 12h |
+| **SUMA** | **54h** |
+| Testy + dokumentacja (+15%) | 8.1h |
+| **RAZEM** | **62.1h** |
+| Buffer (+30% nowa technologia) | 18.6h |
+| **RAZEM PO BUFORZE** | **80.7h** |
+| Mnożnik ryzyka (×1.625) | — |
+| **GODZINY KOŃCOWE** | **131.1h** |
+| Stawka efektywna | 90 zł/h |
+| **CENA BAZOWA** | **11 799 zł** |
+| Korekta konkurencyjna (×1.0) | — |
+| **CENA OFERTOWA** | **12 000 zł** |
+
+**Dni roboczych:** 25
+
+---
+
+## Odpowiedź na pytanie techniczne klienta (do oferty)
+
+**Jak podejść do udostępnienia marży, skoro enova wylicza ją obiektowo?**
+
+Marża w enova365 jest wynikiem działania workerów przeliczających (tabele `ObrotyPozycji`, `ObrotyTransakcji`), a nie polem przechowywanym w bazie. Są dwa podejścia:
+
+1. **Kontroler dynamiczny + odczyt tabel obrotów** — jeśli workery są uruchomione i tabele są aktualne, można wystawić dane przez kontroler dynamiczny mapujący tabele obrotów. Ryzyko: zależność od harmonogramu workerów.
+
+2. **Własny kontroler statyczny (.NET SDK enova365)** — wywołanie logiki obiektowej enovy bezpośrednio przez SDK, pobranie marży wyliczonej przez system i wystawienie jej przez WebAPI. To podejście rekomendowane — daje spójność z logiką systemu i nie zależy od stanu tabel stagingowych.
+
+**Rekomendacja:** podejście 2 (kontroler statyczny) jako docelowe, z opcją 1 jako fallback.
+
+---
+
+## Ryzyka ofertowe (do komunikacji)
+
+1. **Brak referencji z enova365** — klient wymaga dwóch referencji. Nie mamy ich. Możemy zaproponować: referencje z innych integracji ERP/API + opis dwóch zrealizowanych integracji (zgodnie z wymaganiem "opis dwóch zrealizowanych integracji").
+2. **Sprzeczność licencyjna** — klient twierdzi, że producent potwierdził brak konieczności dokupywania modułu. Research jest sprzeczny. **Zakładamy, że WebAPI jest dostępny w Platynie** (klient ma pisemne potwierdzenie). Jeśli po weryfikacji okaże się inaczej — to zmiana zakresu (klient dokupuje licencję).
+3. **Wersja 2512.2.2** — wymaga konwersji bazy danych. Zakładamy, że klient ma to zrobione (wersja jest wdrożona).
+
+---
+
+[WYNIK_KONCOWY]
+KWOTA: 12000
+DNI: 25
+
+
+===== OFERTA =====
+Dzień dobry,
+
+Marża w enova365 to nie pole w bazie, tylko wynik działania workerów przeliczających tabele obrotów. Klient, który wystawia dane przez zwykłe mapowanie kolumn SQL, dostaje wartości, które potrafią się rozjechać z tym, co system pokazuje na formularzu. To jest realny problem w tym projekcie i on wymaga obejścia przez SDK, a nie kolejnego SELECT-a.
+
+Punkt pierwszy, czyli pytanie o marżę, rozwiązujemy tak: własny kontroler statyczny w .NET, osadzony na serwerze WebAPI, który wywołuje logikę obiektową enovy i wystawia marżę już policzoną przez system. Kontrolery dynamiczne zostawiamy do tego, co faktycznie potrafią wystawić z modelu danych, czyli dokumenty sprzedaży, zapytania ofertowe i rozrachunki. Dynamiczne generują się z definicji dokumentów na Waszej instalacji, więc zewnętrzna warstwa dopasowuje się do Waszych struktur, a nie odwrotnie. Swagger z Waszego serwera jest tu źródłem prawdy co do dostępnych endpointów, bo to konkretny build 2512.2.2, a zachowanie kontrolerów dynamicznych zmieniało się między wydaniami.
+
+Dalej cykliczne eksporty. Zamiast odpytywać ERP w kółko, spokojnie można oprzeć to o Harmonogram Zadań, który sam się odzywa przy zmianie statusu czy danych. Trzy strumienie: sprzedaż z marżą w podziale na klienta, rynek i handlowca, zapytania ofertowe ze statusem, rozrachunki z przeterminowaniami. Każdy zapis do zewnętrznych tabel z walidacją, żeby warstwa analityczna nie dostała śmieci. Autoryzacja idzie przez JWT z użytkownikiem integracyjnym, nie przez login człowieka, z proaktywnym odświeżaniem tokenu.
+
+Warto sprawdzić jedną rzecz po Waszej stronie: czy reseller faktycznie aktywował moduł WebAPI na instalacji. Wersja platynowa zwykle go zawiera, ale to nie jest tak, że włącza się sam. Jak będzie potwierdzenie aktywacji, ruszamy od razu.
+
+Mamy za sobą integracje ERP i systemów e-commerce przez API, w tym spięcia z systemami księgowymi i magazynowymi. Dwie referencje z wdrożeń enova365 to coś, czego w tej chwili nie pokażemy wprost, bo to dla nas nowy system. Możemy za to opisać dwie zrealizowane integracje z innych ERP i systemów, z pełnym zakresem i kontaktem do klientów, żebyście sami ocenili jakość.
+
+Całość, czyli konfiguracja WebAPI z uprawnieniami, mapowanie kontrolerów, kontroler marży, cykliczne eksporty i dokumentacja, liczymy 12000 zł. Realizacja w 25 dni roboczych.
+
+Jeśli chcecie, możemy wejść etapem: najpierw aktywacja i wystawienie jednego strumienia danych, żeby zobaczyć, jak to chodzi na Waszej instalacji, a resztę dopinać na bieżąco. Zdzwońmy się w tym tygodniu na 15 minut, wspólnik odpowie na pytania techniczne.
+
+Pozdrawiam
+
+

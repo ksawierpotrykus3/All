@@ -1,0 +1,175 @@
+﻿Architektura Integracji Subskrypcji Stripe w FastAPI: Identyfikacja Użytkowników, Idempotentność i Cykl Życia Płatności
+Projektowanie niezawodnych systemów obsługi płatności cyklicznych w aplikacjach typu SaaS wymaga precyzyjnego odwzorowania zdarzeń finansowych na stan uprawnień użytkowników w bazie danych. Wdrożenie integracji pomiędzy platformą Stripe a backendem opartym na frameworku FastAPI wiąże się z koniecznością zapewnienia spójności danych w warunkach asynchronicznej komunikacji sieciowej1. Niniejsze opracowanie stanowi kompendium architektoniczne analizujące problematykę identyfikacji tożsamości płatników, idempotentnego przetwarzania powiadomień webhook, kompleksowej obsługi cyklu życia subskrypcji oraz procedur testowania lokalnego.
+Analiza Słabości Identyfikacji Po Adresie E-mail Płatnika i Scenariusze Awarii
+Dotychczasowy wzorzec polegający na identyfikacji użytkownika w bazie danych aplikacji na podstawie adresu e-mail płatnika pozyskanego ze zdarzenia checkout.session.completed stanowi istotne ryzyko architektoniczne3. W realiach produkcyjnych adres e-mail użyty do realizacji płatności w formularzu Stripe Checkout nie musi być tożsamy z adresem e-mail używanym do logowania w systemie źródłowym3. Opieranie logiki aktywacji licencji na dopasowaniu ciągów znaków adresów e-mail prowadzi do szeregu awarii operacyjnych i zagrożeń bezpieczeństwa3.
+Częstym scenariuszem w modelach biznesowych B2B oraz B2C jest sytuacja, w której użytkownik zarejestrowany w aplikacji pod adresem służbowym dokonuje zakupu przy użyciu prywatnego portfela cyfrowego, takiego jak Apple Pay, Google Pay lub Stripe Link3. Portfele te automatycznie przekazują do sesji płatności domyślny adres e-mail przypisany do profilu płatniczego w systemie operacyjnym klienta3. W efekcie zdarzenie webhook zawiera adres nieobecny w bazie danych aplikacji, co powoduje cichą porażkę procesu przyznawania dostępu3.
+Inny krytyczny scenariusz dotyczy zakupów dokonywanych przez osoby trzecie, na przykład przez menedżerów ds. zakupów lub działy finansowe rozliczające transakcje firmowe3. Płatnik posługuje się adresem e-mail konta rozliczeniowego, podczas gdy docelowy użytkownik aplikacji oczekujący na aktywację licencji zalogowany jest na własnym koncie pracowniczym3. Dodatkowo mechanizmy ochrony prywatności, takie jak usługa Apple Hide My Email, generują losowe, jednorazowe adresy w domenie @privaterelay.appleid.com, co całkowicie uniemożliwia tradycyjne weryfikowanie tożsamości po adresie e-mail4. W skrajnych przypadkach rozbieżność adresów może doprowadzić do kolizji danych lub przyznania subskrypcji niewłaściwemu użytkownikowi, jeśli w systemie istnieje konto o zbliżonym identyfikatorze e-mail5.
+Analiza Porównawcza Mechanizmów Identyfikacji: client_reference_id vs metadata
+Aby zapewnić bezbłędne przypisanie transakcji do konta użytkownika, platforma Stripe oferuje dwa dedykowane parametry: client_reference_id oraz obiekt metadata3. Własności te różnią się zakresem obowiązywania, trwałością w obiektach potomnych oraz przeznaczeniem architektonicznym4.
+Parametr client_reference_id jest polem tekstowym o długości do 255 znaków, osadzonym bezpośrednio w obiekcie Checkout Session4. Jego główną zaletą jest możliwość przekazania unikalnego identyfikatora klienta lub zamówienia z systemu wewnętrznego, co ułatwia rekonsylizację transakcji oraz zapobiega tworzeniu zduplikowanych sesji dla tego samego koszyka4. Jednakże fundamentalnym ograniczeniem client_reference_id jest fakt, że pole to występuje wyłącznie w obiekcie sesji Checkout i nie jest propagowane do downstreamowych obiektów Stripe, takich jak Subscription czy Invoice6. W efekcie, podczas gdy zdarzenie checkout.session.completed zawiera ten identyfikator, kolejne zdarzenia cykliczne wynikające z automatycznego odnowienia subskrypcji (np. invoice.paid) są go całkowicie pozbawione6.
+Z kolei parametr metadata umożliwia dołączenie do obiektów Stripe do 50 par klucz-wartość, przy czym nazwy kluczy mogą liczyć do 40 znaków, a wartości do 500 znaków7. Metadane mogą być umieszczane bezpośrednio na poziomie sesji Checkout, ale kluczowe dla subskrypcji jest przekazanie ich wewnątrz obiektu subscription_data.metadata podczas tworzenia sesji6. Zdefiniowanie metadanych w sekcji subscription_data gwarantuje, że zostaną one skopiowane do nowo utworzonego obiektu Subscription, a stamtąd będą automatycznie dziedziczone przez wszystkie generowane cyklicznie obiekty Invoice6. Słabością metadanych jest fakt, że mogą być one modyfikowane przez personel z poziomu Dashboardu Stripe, co wymaga zachowania ostrożności przy uzależnianiu krytycznej logiki aplikacji od ich zawartości9.
+
+
+Parametr Integracyjny
+	Obiekt Rodzicielski
+	Obecność w Odnowieniach (Invoice)
+	Maksymalny Rozmiar
+	Rekomendowane Zastosowanie
+	customer_email
+	Checkout Session, Customer
+	Nie (może ulec zmianie przez użytkownika)3
+	Standardowy adres e-mail4
+	Wyłącznie wstępne wypełnienie pola w formularzu płatności3.
+	client_reference_id
+	Checkout Session
+[cite: 4, 8]
+	Brak (występuje tylko w Checkout Session)6
+	255 znaków8
+	Powiązanie jednorazowej sesji z zamówieniem lub koszykiem4.
+	metadata (Session level)
+	Checkout Session
+[cite: 4, 11]
+	Brak (wymaga jawnej propagacji)9
+	50 par klucz-wartość7
+	Przekazywanie kontekstu krótkotrwałego dla zdarzenia Checkout11.
+	subscription_data.metadata
+	Subscription
+[cite: 6, 9]
+	Tak (propagowane do faktur odnowieniowych)6
+	50 par klucz-wartość7
+	Przechowywanie wewnętrznego user_id w pełnym cyklu subskrypcji6.
+	Właściwym wzorcem architektonicznym dla aplikacji FastAPI jest podejście hybrydowe oparte na trwałym mapowaniu relacji w bazie danych5. W momencie odebrania pierwszego webhooka checkout.session.completed, backend odczytuje unikalny identyfikator użytkownika przekazany w client_reference_id lub metadata["user_id"] i trwale przypisuje identyfikator klienta Stripe (session.customer) do rekordu użytkownika w bazie danych aplikacji5. W trakcie wszystkich kolejnych zdarzeń dotyczących odnowień, zmian planu czy błędów płatności backend wyszukuje użytkownika bezpośrednio po zapisanym identyfikatorze klienta Stripe (cus_...), eliminuje to konieczność polegania na adresach e-mail oraz zapobiega problemom w przypadku braku metadanych5.
+Architektura Idempotentnego i Asynchronicznego Przetwarzania Webhooków w FastAPI
+Ze względu na rozproszony charakter architektury sieciowej serwery Stripe stosują model dostarczania powiadomień co najmniej raz (ang. at-least-once delivery)2. Oznacza to, że punkt końcowy w aplikacji FastAPI może wielokrotnie otrzymać to samo zdarzenie na skutek opóźnień sieciowych, ponowień po przekroczeniu czasu odpowiedzi lub błędów tymczasowych2. Brak obsługi idempotentności prowadzi do wielokrotnego wydłużania okresów licencyjnych, dublowania wpisów w dziennikach finansowych lub błędów w stanach konta2.
+Poprawna implementacja webhooka wymaga zastosowania dwupoziomowej weryfikacji idempotentności2. Pierwszy poziom stanowi weryfikacja techniczna polegająca na sprawdzaniu identyfikatora zdarzenia event.id2. Każde powiadomienie generowane przez Stripe zawiera unikalny identyfikator (np. evt_3M...), który pozostaje niezmienny podczas ponownych prób dostarczenia tego samego zdarzenia13. Backend przed wykonaniem jakiejkolwiek logiki biznesowej powinien zarejestrować klucz event.id w pamięci podręcznej o wysokiej dostępności (np. Redis z czasem retencji 72 godzin)2. Jeśli klucz już istnieje, serwer natychmiast przerywa dalsze przetwarzanie i zwraca status HTTP 200 OK2. Wykorzystanie identyfikatora event.id nie zabezpiecza jednak przed sytuacją, w której Stripe tworzy dwa odrębne obiekty zdarzeń odnoszące się do tej samej akcji biznesowej2. Z tego względu drugi poziom stanowi weryfikacja domenowa, sprawdzająca stan obiektu docelowego (data.object.id w połączeniu z event.type) bezpośrednio w relacyjnej bazie danych2.
+Dodatkowo, wymogiem wydajnościowym platformy Stripe jest szybkie potwierdzanie odbioru powiadomienia2. Wymagane jest zwrócenie kodu odpowiedzi z zakresu 2xx przed rozpoczęciem czasochłonnych operacji I/O, takich jak wysyłanie wiadomości e-mail, generowanie raportów czy komunikacja z zewnętrznymi API2. Przekroczenie progu czasu odpowiedzi powoduje, że Stripe traktuje próbę jako nieudaną i harmonogramuje ponowne dostarczenie zdarzenia2. W środowisku FastAPI realizuje się to poprzez odebranie surowego strumienia bajtów żądania (await request.body()), zweryfikowanie podpisu cyfrowego Stripe-Signature za pomocą oficjalnego SDK, a następnie natychmiastowe zleceniem dalszej pracy do kolejki zadań w tle (BackgroundTasks lub Celery)2.
+
+
+Etap Przetwarzania
+	Mechanizm Techniczny
+	Zadanie i Odpowiedzialność
+	Strategia Obsługi Błędów
+	1. Odczyt Payloadu
+	request.body() w FastAPI
+	Pobranie surowej treści bajtowej żądania2.
+	Odrzucenie zapytania w przypadku braku treści2.
+	2. Weryfikacja Podpisu
+	stripe.Webhook.construct_event()
+	Potwierdzenie autentyczności nagłówka Stripe-Signature2.
+	Zwrot HTTP 400 Bad Request przy nieprawidłowym podpisie2.
+	3. Idempotentność Techniczna
+	Check & Set w Redis (event.id)
+	Blokada ponownego przetwarzania tego samego zdarzenia2.
+	Zwrot HTTP 200 OK bez wykonywania logiki domenowej2.
+	4. Odpowiedź Natychmiastowa
+	Response HTTP 200 OK
+	Zamknięcie połączenia HTTP ze Stripe w czasie poniżej 2 sekund2.
+	Gwarancja braku niepotrzebnych ponowień ze strony Stripe2.
+	5. Przetwarzanie Asynchroniczne
+	BackgroundTasks / Celery
+	Wykonanie aktualizacji bazy danych i aktywacja licencji2.
+	Obsługa wyjątków domenowych i rejestracja błędów w logach2.
+	Pełny Cykl Życia Subskrypcji: Analiza Niedostateczności Obecnej Implementacji i Rekomendowane Zdarzenia
+Obecny stan integracji w backendzie aplikacji, ograniczający się do nasłuchiwania zdarzeń customer.subscription.deleted oraz customer.subscription.updated, jest architektonicznie niewystarczający do prawidłowego zarządzania płatnymi kontami9. Zdarzenia z grupy customer.subscription.* informują wyłącznie o zmianach stanu strukturalnego obiektu subskrypcji (np. modyfikacji planu cenowego, przejściu w stan anulowania z końcem okresu rozliczeniowego lub ostatecznym wygaśnięciu umowy)15. Nie dostarczają one jednak bezpośrednich informacji o operacjach finansowych zachodzących na poziomie odnawialnych faktur9.
+Kluczową luką w dotychczasowej architekturze jest brak obsługi zdarzenia invoice.paid15. Gdy istniejąca subskrypcja ulega automatycznemu odnowieniu na kolejny miesiąc, Stripe generuje nową fakturę i podejmuje próbę obciążenia metody płatności klienta15. Po pomyślnym pobraniu środków emitowane jest zdarzenie invoice.paid15. Brak przetwarzania tego zdarzenia powoduje, że aplikacja nie dowiaduje się o wpłacie, co skutkuje brakiem wydłużenia terminu ważności licencji w bazie danych i nieuprawnionym zablokowaniem dostępu użytkownikowi, mimo że opłata została pobrana15.
+Drugim niezbędnym elementem jest obsługa zdarzenia invoice.payment_failed15. W przypadku nieudanej próby obciążenia karty (np. z powodu braku środków lub wygaśnięcia ważności plastikowej karty) subskrypcja nie zostaje natychmiast usunięta, lecz przechodzi w stan past_due15. Stripe uruchamia wówczas skonfigurowany w panelu proces automatycznych ponowień (Smart Retries) oraz procedurę dunningu15. Zdarzenie invoice.payment_failed jest jedynym sygnałem pozwalającym backendowi na natychmiastowe podjęcie działań zaradczych: oznaczenie licencji stanem ostrzegawczym, wyświetlenie w interfejsie użytkownika monitu o konieczności aktualizacji danych płatniczych oraz wysłanie powiadomienia e-mail15.
+
+
+Zdarzenie Stripe
+	Status Subskrypcji
+	Przyczyna Wyzwolenia
+	Wymagana Logika w Backendzie FastAPI
+	checkout.session.completed
+	incomplete / active
+	Zakończenie procesu zakupu w formularzu Checkout11.
+	Powiązanie stripe_customer_id z user_id w bazie danych6. Pierwsza aktywacja licencji16.
+	invoice.paid
+	active
+	Pomyślne opłacenie faktury inicjalnej lub odnowieniowej15.
+	Wydłużenie terminu ważności licencji (licence_expires_at = invoice.period_end)15.
+	invoice.payment_failed
+	past_due
+	Odrzucenie płatności przez bank lub brak środków15.
+	Zmiana stanu licencji na past_due. Ograniczenie dostępu lub wyświetlenie monitu15.
+	customer.subscription.updated
+	Różne stany
+	Moduł zmian (upgrade, downgrade, wstrzymanie)15.
+	Aktualizacja limitów zasobów w profilu użytkownika zgodnie z nowym planem15.
+	customer.subscription.deleted
+	canceled
+	Ostateczne wygaśnięcie subskrypcji lub anulowanie15.
+	Bezbezwzględna dezaktywacja licencji i sprowadzenie konta do poziomu darmowego15.
+	Właściwe zarządzanie licencją wymaga bieżącej synchronizacji stanów obiektu Subscription ze stanem konta w aplikacji15. Stan active oznacza pełny dostęp do usługi15. Stan past_due powinien wyzwalać tryb łaski (ang. grace period), w którym użytkownik zachowuje dostęp do danych, ale jest wzywany do aktualizacji karty15. Stan unpaid reprezentuje sytuację, w której wyczerpano wszystkie próby ponowień płatności, co powinno skutkować zawieszeniem licencji do czasu uregulowania zaległości15. Stan canceled jest stanem terminalnym, wymagającym całkowitego odebrania uprawnień subskrypcyjnych15.
+Standaryzowana Procedura Testowania Lokalnego z Użyciem Stripe CLI
+Weryfikacja integracji webhooków na lokalnym środowisku programistycznym wymaga przekierowywania zdarzeń z serwerów Stripe do lokalnie uruchomionej instancji FastAPI (np. pod adresem http://127.0.0.1:8000)14. Oficjalne narzędzie Stripe CLI umożliwia bezkonfiguracyjne tworzenie bezpiecznych tuneli programistycznych bez konieczności otwierania portów na routerze czy korzystania z zewnętrznych serwerów proxy14.
+Podstawowym poleceniem służącym do nawiązania połączenia i przekierowywania powiadomień jest komenda stripe listen14. Podczas jej pierwszego uruchomienia CLI generuje unikalny, tymczasowy sekret podpisywania webhooków (whsec_...), który należy wprowadzić do zmiennych środowiskowych aplikacji FastAPI2. Aby zapobiec zakłóceniom wywoływanym przez zdarzenia z innych testowych sesji, zaleca się stosowanie flagi --events, która ogranicza ruch przekierowywany do punktu końcowego wyłącznie do zdefiniowanej listy zdarzeń14.
+
+
+Flaga Stripe CLI
+	Typ Danych
+	Opis Funkcjonalny
+	Przykładowe Użycie
+	--forward-to
+	URL (String)
+	Adres docelowy w lokalnej aplikacji, pod który mają trafiać żądania POST14.
+	--forward-to http://localhost:8000/api/v1/stripe/webhook
+[cite: 14]
+	--events
+	List (String)
+	Filtruje odbierane zdarzenia do wyznaczonych typów rozdzielonych przecinkami14.
+	--events invoice.paid,invoice.payment_failed
+[cite: 14]
+	--latest
+	Flag
+	Wmusza dostarczanie struktur zdarzeń zgodnych z najnowszą wersją API14.
+	stripe listen --latest
+[cite: 14]
+	--print-secret
+	Flag
+	Wyświetla w konsoli wyłącznie klucz whsec_... i kończy działanie14.
+	stripe listen --print-secret
+[cite: 14]
+	Oprócz biernego nasłuchiwania narzędzie Stripe CLI udostępnia komendę stripe trigger, która pozwala na wywoływanie sztucznych zdarzeń o prawidłowo sformatowanej strukturze payloadu JSON14. Pozwala to na automatyzację testów integracyjnych w potokach CI/CD oraz szybką weryfikację reakcji aplikacji FastAPI na poszczególne etapy cyklu życia subskrypcji14.
+
+
+Komenda Testowa CLI
+	Generowane Zdarzenie
+	Cel Weryfikacyjny w Backendzie
+	stripe trigger checkout.session.completed
+	checkout.session.completed
+	Test tworzenia mapowania user.stripe_customer_id i wstępnej aktywacji konta6.
+	stripe trigger invoice.paid
+	invoice.paid
+	Test logiki odnowienia subskrypcji i przedłużania wygaśnięcia licencji14.
+	stripe trigger invoice.payment_failed
+	invoice.payment_failed
+	Weryfikacja przechodzenia konta w stan past_due i obsługi błędów karty14.
+	stripe trigger customer.subscription.deleted
+	customer.subscription.deleted
+	Test bezwzględnej dezaktywacji licencji po anulowaniu subskrypcji14.
+	Synteza Architektoniczna i Zalecenia Wdrożeniowe
+Przeprowadzona analiza wykazuje konieczność wprowadzenia zmian w obecnej integracji Stripe w pliku backend/main.py. W celu zapewnienia niezawodności systemu aktywacji licencji zaleca się wdrażanie poprawek w następującej kolejności:
+Pierwszym krokiem jest całkowite usunięcie logiki wyszukującej użytkowników na podstawie adresu e-mail płatnika ze zdarzenia checkout.session.completed3. W funkcji tworzenia sesji Checkout (backend/main.py:213) należy wdrożyć przekazywanie identyfikatora user.id w parametrze client_reference_id oraz w obiektach metadanych: metadata={"user_id": str(user.id)} oraz subscription_data={"metadata": {"user_id": str(user.id)}}6.
+Drugim krokiem jest przebudowa schematu bazy danych i modyfikacja handlera checkout.session.completed5. Podczas obsługi tego zdarzenia backend musi odczytać user_id z metadanych lub client_reference_id, a następnie trwale zapisać identyfikator session.customer w kolumnie stripe_customer_id tabeli użytkowników5. Wszystkie kolejne obslugiwane zdarzenia muszą identyfikować użytkowników wyłącznie poprzez zapytanie do bazy danych z warunkiem WHERE stripe_customer_id = event.data.object.customer5.
+Tzecim krokiem jest rozszerzenie zakresu nasłuchiwanych webhooków o zdarzenia invoice.paid oraz invoice.payment_failed15. Zdarzenie invoice.paid powinno odpowiadać za aktualizację pola licence_expires_at i ustawianie statusu na active15. Zdarzenie invoice.payment_failed powinno natychmiast przestawiać status licencji na past_due oraz inicjować procedurę powiadamiania klienta15. Zdarzenie customer.subscription.deleted pozostaje odpowiedzialne za ostateczne usunięcie uprawnień15.
+Czwartym krokiem jest zapewnienie odporności operacyjnej poprzez wdrożenie weryfikacji idempotentności z użyciem bazy Redis do rejestracji unikalnych kluczy event.id oraz oddelegowanie wykonania logiki domenowej do zadań asynchronicznych BackgroundTasks2. Rozwiązanie to gwarantuje natychmiastowy zwrot odpowiedzi HTTP 200 OK do serwerów Stripe, eliminując ryzyko timeoutów i zwielokrotnionego przetwarzania tych samych transakcji2.
+Cytowane prace
+1. Server-side integration - Stripe Documentation, https://docs.stripe.com/plan-integration/get-started/server-side-integration?locale=en-GB
+2. Receive Stripe events in your webhook endpoint, https://docs.stripe.com/webhooks
+3. Stripe Payment Links and Custom Parameters - Tomas Zezula, https://www.tomaszezula.com/stripe-payment-links-and-custom-parameters/
+4. The Checkout Session object | Stripe API Reference, https://docs.stripe.com/api/checkout/sessions/object
+5. Stripe Webhook integration - "current user "problem - Bubble Forum, https://forum.bubble.io/t/stripe-webhook-integration-current-user-problem/246863
+6. Stripe Checkout - How to handle user id with webhooks, https://stackoverflow.com/questions/70445456/stripe-checkout-how-to-handle-user-id-with-webhooks
+7. Metadata | Stripe API Reference, https://docs.stripe.com/api/metadata
+8. Pass client_reference_id to prevent double subscriptions #16 - GitHub, https://github.com/t3dotgg/stripe-recommendations/issues/16
+9. Stripe subscription webhooks missing metadata and, https://stackoverflow.com/questions/65347827/stripe-subscription-webhooks-missing-metadata-and-client-reference-id
+10. Accept payments for digital goods on iOS using Payment Links, https://docs.stripe.com/mobile/digital-goods/payment-links
+11. Metadata use cases - Stripe Documentation, https://docs.stripe.com/metadata/use-cases?locale=en-GB
+12. Idempotent requests | Stripe API Reference, https://docs.stripe.com/api/idempotent_requests
+13. Migrate from snapshot events to thin - Stripe Documentation, https://docs.stripe.com/webhooks/migrate-snapshot-to-thin-events
+14. https://docs.stripe.com/cli/listen
+15. Using webhooks with subscriptions - Stripe Documentation, https://docs.stripe.com/billing/subscriptions/webhooks
+16. How subscriptions work - Stripe Documentation, https://docs.stripe.com/billing/subscriptions/overview
+17. Create subscriptions with Stripe Billing - Stripe Documentation, https://docs.stripe.com/connect/subscriptions?locale=en-GB
+18. Automate payment retries - Stripe Documentation, https://docs.stripe.com/billing/revenue-recovery/smart-retries?locale=en-GB
+19. Stripe CLI Reference, https://docs.stripe.com/cli

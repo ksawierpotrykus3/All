@@ -1,0 +1,7 @@
+[
+  {
+    "m": "POST",
+    "u": "https://sentry.io/api/1410063/envelope/?sentry_version=7&sentry_key=29cfb544702b48e0985e69cd3ef5e84f&sentry_client=sentry.javascript.angular%2F9.47.1",
+    "p": "{\"sent_at\":\"2026-09-10T15:40:11.435Z\",\"sdk\":{\"name\":\"sentry.javascript.angular\",\"version\":\"9.47.1\"}}\n{\"type\":\"session\"}\n{\"sid\":\"27caefedbf4444b2941e8a7eda4b85d2\",\"init\":true,\"started\":\"2026-09-10T15:40:11.435Z\",\"timestamp\":\"2026-09-10T15:40:11.435Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"32a546efae566b70c33131673d907f841d55866a\",\"environment\":\"prod\",\"user_agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"}}"
+  }
+]

@@ -1,0 +1,92 @@
+﻿Architektura Współbieżności w DearPyGui: Analiza Bezpieczeństwa Wątkowego, Mechanizmów Awarii i Wzorców Synchronizacji
+Projektowanie aplikacji interfejsu graficznego w języku Python z wykorzystaniem biblioteki DearPyGui (DPG) wymaga precyzyjnego uwzględnienia ograniczeń architektonicznych związanych z wielowątkowością1. Pomimo wysokiej wydajności renderowania osiąganej dzięki wykorzystaniu procesora graficznego (GPU) oraz natywnemu rdzeniowi napisanemu w C++2, integracja zewnętrznych wątków roboczych – takich jak wątki bota, komunikacji sieciowej czy przetwarzań w czasie rzeczywistym – z wywołaniami API DPG wiąże się z istotnym ryzykiem dla stabilności systemu4. Wywoływanie funkcji modyfikujących stan interfejsu (w tym powszechnie stosowanego dpg.set_value()) spoza głównego wątku GUI stanowi bezpośrednią przyczynę nieprzewidywalnych zawieszeń aplikacji, wyścigów danych oraz niezdefiniowanego zachowania4.
+Stan Ogólny i Ewolucja Bezpieczeństwa Wątkowego w DearPyGui
+Ocena bezpieczeństwa wątkowego DearPyGui w dokumentacji oraz oficjalnych wydaniach projektu przechodziła ewolucję, co bywa źródłem błędnych założeń architektonicznych1. W początkowych fazach rozwoju frameworka autorzy wprost ostrzegali przed wywoływaniem jakichkolwiek poleceń API DPG z wątków pomocniczych1. W kolejnych wersjach wprowadzono mechanizmy usprawniające pracę wielowątkową, w tym migrację węzłowych elementów stanu (takich jak stos kontenerów czy referencja dpg.last_item()) do pamięci lokalnej wątku (PR #2611)4. Zabieg ten wyeliminował część konfliktów pojawiających się przy równoległej konstrukcji struktur widżetów z dwóch osobnych wątków4.
+Mimo poprawek architektonicznych DearPyGui nie jest frameworkiem w pełni bezpiecznym wątkowo (thread-safe) w kontekście swobodnego wywoływania API z dowolnego wątku roboczego4. Pod warstwą retained-mode API dostarczaną dla Pythona znajduje się biblioteka Dear ImGui, zaprojektowana w paradygmacie immediate-mode, która zakłada jednowątkowy cykl budowania i renderowania klatki1. DearPyGui zarządza wewnętrznym drzewem elementów oraz buforami za pomocą struktur w C++, chronionych globalnym muteksem biblioteki5. Wywołanie dowolnej funkcji API spoza głównego wątku renderującego lub wewnętrznego wątku obsługi zdarzeń wymaga uzyskania dostępu do tego muteksu, co w środowisku Pythona prowadzi do niebezpiecznych interakcji z globalną blokadą interpretera (GIL)5.
+W inżynierii oprogramowania GUI obowiązuje zasada domniemania braku bezpieczeństwa wątkowego: wszystkie komponenty interfejsu należy traktować jako niebezpieczne wątkowo, o ile dokumentacja jednoznacznie nie gwarantuje inaczej dla konkretnej funkcji6. W przypadku DPG brak zewnętrznej synchronizacji przy bezpośrednich wywołaniach z wątku bota nieuchronnie prowadzi do niestabilności aplikacji4.
+Patogeneza Awarii: Interakcja GIL z Muteksem DPG oraz Wyścigi Stanów
+Zgłaszane w aplikacjach bota objawy całkowitego zamrożenia interfejsu ("freezing") podczas wywoływania dpg.set_value() z zewnętrznego wątku wynikają z dwóch głównych mechanizmów destrukcyjnych: zakleszczenia interakcji GIL-Muteks oraz niestabilności sekwencji wykonania (race condition)5.
+Zakleszczenie Wzajemne (GIL i Muteks DPG)
+Najczęstszą przyczyną zawieszenia aplikacji bez zgłoszenia wyjątku w interpreterze Pythona jest zakleszczenie powstające na styku mechanizmu preempcji wątków Pythona oraz wewnętrznego muteksu C++ biblioteki DearPyGui5.
+Sekwencja zdarzeń prowadząca do zakleszczenia przebiega w następujących etapach5:
+1. Wątek bota (zewnętrzny wątek użytkownika) wywołuje funkcję DPG, np. dpg.set_value(), lub wykonuje blok dpg.mutex(). Aby zrealizować operację na drzewie widżetów, wątek ten pomyślnie zajmuje wewnętrzny muteks C++ biblioteki DearPyGui5.
+2. W tym samym czasie w interfejsie zachodzi zdarzenie użytkownika (np. ruch myszą, najechanie na element lub aktywacja callbacku). Wewnętrzny wątek obsługi zdarzeń DPG próbuje wykonać przypisaną procedurę w Pythonie. Do wykonania kodu Pythona wątek ten potrzebuje uzyskać blokadę GIL5.
+3. Interpreter Pythona cyklicznie wymusza zwolnienie blokady GIL przez pracujący wątek bota (standardowo co 5 ms). Wątek bota traci blokadę GIL i przechodzi w stan oczekiwania na jej ponowne przyznanie, pozostając jednak w posiadaniu zablokowanego muteksu C++ DearPyGui5.
+4. Wątek obsługi zdarzeń DPG przejmuje zwolnioną blokadę GIL i rozpoczyna wykonywanie callbacku Pythona5.
+5. Wewnątrz callbacku wątek obsługi zdarzeń wywołuje funkcję DPG (np. aktualizującą tekst), co wymaga zablokowania wewnętrznego muteksu C++5.
+6. Powstaje stan zakleszczenia: wątek obsługi zdarzeń posiada GIL i czeka na muteks C++ (trzymany przez wątek bota), podczas gdy wątek bota posiada muteks C++ i czeka na GIL (trzymany przez wątek obsługi zdarzeń). Obie komórki wykonawcze zostają bezterminowo zablokowane, a aplikacja przestaje reagować na jakiekolwiek zdarzenia5.
+Pętla renderująca DPG w głównym wątku jest zaprojektowana tak, aby zwalniać GIL przed sekcją krytyczną muteksu5. Zewnętrzne wątki użytkownika wykonujące kod Pythona przetrzymują GIL w momencie próby wejścia do sekcji krytycznej C++, co tworzy warunki dla powstawania zakleszczeń5.
+Stan Wyścigu w set_frame_callback oraz Ograniczenia dpg.mutex()
+Częstym błędem jest próba wymuszenia bezpieczeństwa wątkowego poprzez otoczenie wywołań blokiem with dpg.mutex(): lub delegowanie zadań za pomocą dpg.set_frame_callback()9.
+Analiza działania dpg.set_frame_callback() wskazuje na obecność stanu wyścigu wewnątrz rdzenia C++9. Gdy wątek zewnętrzny wywołuje tę funkcję dla klatki   , operacja nie rejestruje procedury natychmiastowo9. Zamiast tego wysyła wewnętrzne zlecenie (mvSubmitCallback) do kolejki wątku obsługi9.
+Jeśli wątek renderujący zwolni muteks i rozpocznie renderowanie klatki    zanim wewnętrzne zlecenie zostanie przetworzone, funkcja sprawdzająca klatkę (mvFrameCallback) nie odnajdzie żadnych zarejestrowanych zadań9. W efekcie zlecenie aktualizacji zostaje bezpowrotnie pominięte9. W zależności od obciążenia procesora i wyczucia czasu, wskaźnik utraconych wywołań interfejsu wynosi od 1% do 100%9.
+Porównanie Strategii Synchronizacji i Wywołań API
+Poniższe zestawienie klasyfikuje podejścia do aktualizacji widżetów DearPyGui z zewnętrznych wątków roboczych pod kątem ich oficjalnego wsparcia oraz realnych konsekwencji architektonicznych.
+
+
+Metoda Interakcji z API DPG
+	Wątek Wywołujący
+	Mechanizm Synchronizacji
+	Status Wsparcia
+	Realne Scenariusze Awarii i Konsekwencje
+	Bezpośrednie dpg.set_value()
+	Wątek Bota / Roboczy
+	Brak synchronizacji
+	Nieobsługiwane (Błędne)
+	Wysokie ryzyko zakleszczenia GIL/Mutex5. Uszkodzenia pamięci lub zamrożenie UI4.
+	Wywołanie w bloku with dpg.mutex():
+	Wątek Bota / Roboczy
+	Muteks C++ DPG
+	Ograniczone / Niebezpieczne
+	Nie rozwiązuje konfliktu o GIL5. Zwiększa prawdopodobieństwo natychmiastowego zakleszczenia5.
+	Delegowanie przez set_frame_callback()
+	Wątek Bota / Roboczy
+	Asynchroniczna kolejka klatek
+	Oficjalne API (z wadaną impl.)
+	Stan wyścigu w mvSubmitCallback. Utrata od 1% do 100% wywołań UI9.
+	Kolejka komunikatów (queue.Queue) + Polling w GUI
+	Główny Wątek GUI
+	Kolejka queue.Queue
+	Standardowy wzorzec (Recommended)
+	Pełna stabilność. Zero zakleszczeń. Bezpieczna izolacja stanu GUI10.
+	Ręczne zarządzanie (manual_callback_management)
+	Główny Wątek / asyncio
+	Ręczna obsługa pętli zdarzeń
+	Oficjalnie wspierane
+	Pełna kontrola. Wyeliminowanie wewnętrznego wątku callbacków, bezpieczny asyncio12.
+	Rekomendowane Wzorce Architektoniczne dla Integracji Zewnętrznych Wątków
+W celu zapewnienia stabilności aplikacji bota i całkowitego wyeliminowania awarii interfejsu należy odseparować wywołania API DearPyGui od logiki wykonawczej bota10. Poniżej opisano trzy główne wzorce architektoniczne stosowane w produkcyjnych systemach opartych na DPG.
+Wzorzec 1: Kolejka Komunikatów (queue.Queue) i Niestandardowa Pętla Renderująca
+Jest to najodporniejszy wzorzec projektowy dla aplikacji wielowątkowych w Pythonie10. W tym podejściu wątek bota nie posiada dostępu do modułu dearpygui i nie wykonuje żadnych funkcji z tego pakietu. Wątek bota generuje obiekty zdarzeń lub dane wynikowe i umieszcza je w wątkowo-bezpiecznej kolejce queue.Queue10.
+Główny wątek aplikacji odpowiada za sterowanie renderowaniem GUI. Zamiast funkcji dpg.start_dearpygui() stosuje się niestandardową pętlę wykonawczą opartą o dpg.render_dearpygui_frame()4. W każdej iteracji pętli główny wątek sprawdza zawartość kolejki metodą get_nowait(). Po odebraniu komunikatu główny wątek wywołuje dpg.set_value() na docelowym widżecie10. Ponieważ modyfikacja stanu DPG odbywa się wyłącznie w wątku renderującym, ryzyko zakleszczenia GIL z muteksem C++ zostaje całkowicie wyeliminowane5.
+Wzorzec 2: Ręczne Zarządzanie Callbackami (manual_callback_management) i Integracja z Asyncio
+W aplikacjach o charakterze asynchronicznym (np. boty oparte na aiohttp lub websockets) zaleca się przełączenie DPG w tryb ręcznej obsługi kolejki zdarzeń12.
+Ustawienie parametru manual_callback_management=True w funkcji dpg.configure_app() wyłącza wewnętrzny wątek roboczy DPG odpowiedzialny za wykonywanie procedur zwrotnych12. Wszystkie zdarzenia wygenerowane przez interfejs trafiają do bufora dostępnego przez dpg.get_callback_queue()12. Główna pętla programu pobiera te zadania i wykonuje je w wątku głównym lub przekazuje do pętli zdarzeń asyncio za pomocą asyncio.create_task()14. Wyłączenie wewnętrznego wątku zdarzeń DPG usuwa podłoże do powstawania zakleszczeń5.
+Wzorzec 3: Rozdzielenie Modelu od Widoku (Architektura Sterowana Stanem)
+Wzorce architektoniczne typu Model-View-Presenter (MVP) lub Actor odseparowują logikę bota od warstwy prezentacji16. Wątek bota modyfikuje wyłącznie strukturę danych w pamięci (Model), przy czym dostęp do tej struktury jest chroniony standardową blokadą Pythona (threading.Lock)16.
+Główny wątek GUI odczytuje stan z Modelu z określoną częstotliwością klatek i aktualizuje widżety DPG16. Wątek bota nie posiada wiedzy o interfejsie graficznym, co gwarantuje izolację wykonania i zapobiega niekontrolowanemu sprzężeniu zwrotnemu między warstwą logiki a warstwą renderowania6.
+Wnioski i Rekomendacje Inżynieryjne
+Analiza mechanizmów współbieżności w DearPyGui wskazuje, że bezpośrednie wywoływanie dpg.set_value() z wątku bota jest główną przyczyną zgłaszanych zawieszeń aplikacji5. Zjawisko to nie jest błędem losowym, lecz konsekwencją zakleszczenia pomiędzy blokadą GIL interpretera a muteksem C++ chroniącym drzewo widżetów DPG5.
+W celu przywrócenia pełnej stabilności systemu należy wdrożyć następujące zasady:
+1. Całkowita eliminacja bezpośrednich wywołań DPG z wątku bota: Kod wykonujący się w wątku roboczym nie może bezpośrednio wywoływać funkcji modyfikujących stan GUI1.
+2. Wdrożenie architektury opartej na kolejce komunikatów: Przesyłanie danych z wątku bota do GUI powinno odbywać się za pośrednictwem queue.Queue, a odczyt i aktualizacja widżetów za pomocą dpg.set_value() muszą być realizowane w pętli głównej GUI przed wywołaniem dpg.render_dearpygui_frame()10.
+3. Migracja do ręcznego zarządzania zdarzeniami w aplikacjach asynchronicznych: W przypadku architektury opartej o asyncio należy włączyć manual_callback_management=True i przetwarzać zadania interfejsu w sposób kontrolowany w wątku głównym12.
+Cytowane prace
+1. A Question and an Issue. : r/DearPyGui - Reddit, https://www.reddit.com/r/DearPyGui/comments/ihv8a0/a_question_and_an_issue/
+2. Dear PyGui documentation, https://dearpygui.readthedocs.io/_/downloads/en/latest/pdf/
+3. DearPyGui Tutorial — Build Python Desktop GUIs (Getting Started, https://www.pythonguis.com/tutorials/getting-started-dearpygui/
+4. Releases · hoffstadt/DearPyGui - GitHub, https://github.com/hoffstadt/DearPyGui/releases
+5. Deadlocks when DPG is called from a (heavy loaded) user thread, https://github.com/hoffstadt/DearPyGui/issues/2053
+6. Is it okay to use setData() on another thread? #2164 - GitHub, https://github.com/pyqtgraph/pyqtgraph/discussions/2164
+7. dearpygui Changelog - Safety, https://data.safetycli.com/packages/pypi/dearpygui/changelog
+8. Split Frame Never Returns · hoffstadt DearPyGui · Discussion #2568, https://github.com/hoffstadt/DearPyGui/discussions/2568
+9. set_frame_callback is racy and can lose callbacks #2269 - GitHub, https://github.com/hoffstadt/DearPyGui/issues/2269
+10. DearPyGui logger that takes input from a logging QueueHandler, https://gist.github.com/DavidLutton/ec216b3e2c904173ad58160217bc3e6e
+11. live-speech-recognition/asr.py at main - GitHub, https://github.com/ashawkey/live-speech-recognition/blob/main/asr.py
+12. Item Callbacks - Dear PyGui documentation - Read the Docs, https://dearpygui.readthedocs.io/en/latest/documentation/item-callbacks.html
+13. pythonic messagebox (popup) #2188 - hoffstadt/DearPyGui - GitHub, https://github.com/hoffstadt/DearPyGui/issues/2188
+14. Handler Registry callbacks are not placed into the global ... - GitHub, https://github.com/hoffstadt/DearPyGui/issues/2208
+15. Item Callbacks — Dear PyGui documentation - Read the Docs, https://dearpygui.readthedocs.io/en/1.x/documentation/item-callbacks.html
+16. multithreading - Thread safe GUI programming, https://softwareengineering.stackexchange.com/questions/165663/thread-safe-gui-programming
+17. Is building a GUI always going to be THIS painful? : r/learnpython, https://www.reddit.com/r/learnpython/comments/1iw0ztq/is_building_a_gui_always_going_to_be_this_painful/
+18. Python3.13 without GIL thread-safe for all thread-unsafe code?, https://discuss.python.org/t/python3-13-without-gil-thread-safe-for-all-thread-unsafe-code/66622

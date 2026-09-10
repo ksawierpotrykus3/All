@@ -1,0 +1,22 @@
+{
+  "cookies": [
+    {
+      "name": "sessionid",
+      "value": "d0deavax6ng90rt3jjf13x8i7cgt1spp",
+      "domain": ".useme.com",
+      "path": "/",
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "csrftoken",
+      "value": "kigiVAlvQvlWCuZJ3GeVZID7k9A2WkD8",
+      "domain": ".useme.com",
+      "path": "/",
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

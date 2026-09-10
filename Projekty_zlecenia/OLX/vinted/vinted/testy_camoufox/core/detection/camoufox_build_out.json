@@ -1,0 +1,19 @@
+{
+  "requests": [
+    {
+      "method": "POST",
+      "url": "https://www.vinted.pl/api/v2/purchases/checkout/build",
+      "has_incognia": true,
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+      "referer": "https://www.vinted.pl/items/9807925466-genesis-krypton-700",
+      "body": "{\"purchase_items\":[{\"id\":21872241924,\"type\":\"transaction\"}]}"
+    }
+  ],
+  "responses": [
+    {
+      "status": 403,
+      "url": "https://www.vinted.pl/api/v2/purchases/checkout/build",
+      "body": "{\"url\":\"https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA8EiP20XErqoA9U5bmA==&cid=_0Ob~tlG0h81Eas~kKB7Q0Fn4KwtR_FSNM1jwLZMzjxvtMjPcFz~aXF61O5qWCRrXPFLFtiuIcY5m3TYcE~5qxUYEJH8trqa_NmNXgus9UvsF~x33nNkn3zcxC6HuIIL&referer=https%3A%2F%2Fwww.vinted.pl%2Fapi%2Fv2%2Fpurchases%2Fcheckout%2Fbuild&hash=E6EAF460AA2A8322D66B42C85B62F9&t=bv&s=55108&e=4e8040348709807adc77848089a39cf1ff440251ea92"
+    }
+  ]
+}

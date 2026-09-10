@@ -1,0 +1,73 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cortex.local/schemas/pipeline.schema.json",
+  "title": "CORTEX Pipeline State (stan.json / pipeline.json)",
+  "description": "Jedno zrodlo prawdy kontraktu danych modulu Supervisor. Kazdy zewnetrzny silnik (np. useme_core) zapisuje stan potoku w tym formacie do katalogu data/pipelines/.",
+  "type": "object",
+  "required": ["id", "nazwa", "kroki"],
+  "properties": {
+    "id": { "type": "string" },
+    "nazwa": { "type": "string", "description": "alias: name, title" },
+    "opis": { "type": "string", "description": "alias: description" },
+    "silnik": { "type": "string", "description": "alias: engine, narzedzie" },
+    "wyzwalacz": { "type": "string", "description": "alias: trigger" },
+    "wyzwalacz_typ": { "type": "string", "enum": ["manual", "cron", "zdarzenie"] },
+    "ostatni_start": { "type": "string", "description": "alias: lastRun" },
+    "status_ogolny": { "type": "string", "enum": ["w_toku", "zakonczono", "oczekuje", "blad"] },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" },
+    "kroki": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/krok" }
+    }
+  },
+  "definitions": {
+    "krok": {
+      "type": "object",
+      "required": ["nazwa", "typ", "status"],
+      "properties": {
+        "id": { "type": ["string", "number"], "description": "alias: krok_numer" },
+        "nazwa": { "type": "string", "description": "alias: krok_nazwa, name" },
+        "typ": { "type": "string", "enum": ["ai", "kod", "warunek"], "description": "alias: type, typ_kroku" },
+        "status": { "type": "string", "enum": ["zrobione", "czeka_na_ciebie", "w_kolejce", "blad", "w_toku"] },
+        "opis": { "type": "string", "description": "alias: opis_kroku, description" },
+        "narzedzie": { "type": "string", "description": "alias: tool, silnik" },
+        "wymaga_akceptacji": { "type": "boolean" },
+        "wejscie": { "type": "string", "description": "alias: input" },
+        "promptSystem": { "type": "string" },
+        "promptUser": { "type": "string" },
+        "wyjscie": { "type": "string", "description": "alias: output, wynik, result, odpowiedz" },
+        "wynik": { "type": "string" },
+        "odpowiedz": { "type": "string" },
+        "reasoning": { "type": "string", "description": "alias: mysli_modelu, mysli" },
+        "logi": { "type": "array", "items": { "type": "string" }, "description": "alias: logs" },
+        "czas_trwania_s": { "type": "number", "description": "alias: time_s" },
+        "pliki": { "type": "array", "items": { "type": "object" }, "description": "alias: files" },
+        "plikiWejsciowe": { "type": "array", "items": { "type": "string" } },
+        "plikiWyjsciowe": { "type": "array", "items": { "type": "string" } },
+        "tabela": { "type": "array", "items": { "type": "object" }, "description": "alias: table" },
+        "decyzja": {
+          "type": "object",
+          "required": ["pytanie"],
+          "properties": {
+            "pytanie": { "type": "string" },
+            "wymaga_komentarza": { "type": "boolean" },
+            "opcje": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["akcja"],
+                "properties": {
+                  "akcja": { "type": "string", "enum": ["approve", "modify", "reject"] },
+                  "etykieta": { "type": "string" },
+                  "styl": { "type": "string", "enum": ["primary", "secondary", "danger"] }
+                }
+              }
+            }
+          }
+        },
+        "warunek": { "type": "string" }
+      }
+    }
+  }
+}

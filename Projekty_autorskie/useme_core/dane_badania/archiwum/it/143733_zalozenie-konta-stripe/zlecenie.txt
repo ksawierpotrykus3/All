@@ -1,0 +1,222 @@
+Założenie konta Stripe
+======================
+URL: https://useme.com/pl/jobs/zalozenie-konta-stripe,143733/
+
+Zleceniodawca
+Łukasz
+
+Opis
+Zlecę pomoc w założeniu konta Stripe, tak żeby wygenerowany był link do płatności za kurs angielskiego online dla Tajów, a pieniądze były przekazywane do banku w Polsce.
+
+Link ten będzie podawany w chatbocie na Messengerze w Facebook.
+
+Opublikowano
+6 dni temu
+
+Kategoria
+Oprogramowanie
+
+Prawa autorskie
+Decyzja freelancera
+
+Budżet
+50,00 PLN
+
+Ważne przez
+30 dni
+
+Wymagane umiejętności / tagi:
+AI, git, javascript, + 6 więcej
+
+Wysłane oferty (18)
+------------------------------
+[Arkadiusz Charliński | 0 umów](https://useme.com/pl/roles/contractor/358781/) - wczoraj
+  * AI
+  * git
+  * javascript
+  * Next.js
+  * NodeJS
+  * python
+  * React
+  * sql
+  * typescript
+
+[mager.studio | 4 umów](https://useme.com/pl/roles/contractor/61152/) - wczoraj
+  * adobe illustrator
+  * android
+  * API
+  * aplikacje mobilne
+  * aplikacje webowe
+  * banner
+  * cięcie grafiki
+  * C plus plus
+  * css
+  * frontend
+  * grafika
+  * grafika na stronę
+  * grafika wektorowa
+  * grafika www
+  * html
+  * html5
+  * javascript
+  * kodowanie
+  * layout design
+  * logo
+  * rwd
+  * sklep internetowy
+  * sql
+  * strona www
+  * typografia
+  * wizytówki
+  * wordpress
+
+[Norbert Lisiewski | 0 umów](https://useme.com/pl/roles/contractor/694361/) - 2 dni temu
+  * backend
+  * frontend
+  * html
+  * IT
+  * python
+  * sql
+
+[Oliwer Mroczkowski | 0 umów](https://useme.com/pl/roles/contractor/486368/) - 2 dni temu
+  * angular
+  * css
+  * html5
+  * java
+  * javascript
+  * NodeJS
+  * python
+  * React
+
+[Łukasz Sobierajski | 0 umów](https://useme.com/pl/roles/contractor/676134/) - 3 dni temu
+  * AI
+  * android
+  * API
+  * aplikacje webowe
+  * ASP.NET
+  * backend
+  * bazy danych
+  * chatgpt
+  * C Sharp
+  * git
+  * javascript
+  * LLM
+  * MSSQL
+  * .NET
+  * PowerShell
+  * REST
+  * scrum
+  * soap
+  * sql
+  * web api
+  * Web Scraping
+  * windows
+  * WPF
+  * xml
+
+[Rizky Pradana | 1 umowa](https://useme.com/pl/roles/contractor/635608/) - 4 dni temu
+
+[Ligmasick | 4 umów](https://useme.com/pl/roles/contractor/604482/) - 4 dni temu
+
+[SednoTech | 3 umów](https://useme.com/pl/roles/contractor/481175/) - 5 dni temu
+  * analiza danych
+  * API
+  * aplikacje webowe
+  * backend
+  * bazy danych
+  * cms
+  * css
+  * html
+  * mysql
+  * PHP
+  * prestashop
+  * python
+  * sklep internetowy
+  * sql
+  * strona www
+  * web development
+  * wordpress
+
+[Tomas | 0 umów](https://useme.com/pl/roles/contractor/597456/) - 5 dni temu
+
+[ensomedia | 0 umów](https://useme.com/pl/roles/contractor/667663/) - 5 dni temu
+  * AI
+  * angular
+  * API
+  * baselinker
+  * chatgpt
+  * e-commerce
+  * javascript
+  * mysql
+  * Next.js
+  * NodeJS
+  * PHP
+  * postgresql
+  * prestashop
+  * React
+  * seo
+  * shopify
+  * typescript
+  * WebGL
+  * WooCommerce
+  * wordpress
+
+[Mateusz | 0 umów](https://useme.com/pl/roles/contractor/683116/) - 5 dni temu
+
+[Krzysztof Mielewczyk | 0 umów](https://useme.com/pl/roles/contractor/540429/) - 6 dni temu
+  * analiza danych
+  * excel
+  * PowerBi
+  * python
+  * sql
+  * Web Scraping
+
+[Радик | 0 umów](https://useme.com/pl/roles/contractor/692829/) - 6 dni temu
+
+[Szymon | 2 umów](https://useme.com/pl/roles/contractor/593624/) - 6 dni temu
+
+[Felo | 0 umów](https://useme.com/pl/roles/contractor/519249/) - 6 dni temu
+  * sklep internetowy
+  * tworzenie ebooków
+
+[PROGRAMO | 0 umów](https://useme.com/pl/roles/contractor/679766/) - 6 dni temu
+
+[Kacper | 0 umów](https://useme.com/pl/roles/contractor/670141/) - 6 dni temu
+  * administracja stron
+  * API
+  * ASP.NET
+  * ASP.NET MVC
+  * ERP
+  * html
+  * javascript
+  * .NET
+  * python
+  * sql
+
+[KARTS DESIGN | 10 umów](https://useme.com/pl/roles/contractor/113377/) - 6 dni temu
+  * adobe illustrator
+  * adobe photoshop
+  * aplikacje mobilne
+  * apps
+  * architektura
+  * banner
+  * fotografia
+  * fotografia biznesowa
+  * fotografia mody
+  * fotografia produktowa
+  * grafika
+  * grafika na stronę
+  * grafika www
+  * identyfikacja wizualna
+  * layout design
+  * logo
+  * plakat
+  * sklep internetowy
+  * strona www
+  * UI
+  * ulotki
+  * user experience design
+  * UX design
+  * web development
+  * wizytówki
+  * wordpress

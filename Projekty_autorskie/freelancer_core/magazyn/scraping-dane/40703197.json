@@ -1,0 +1,79 @@
+{
+  "id": "40703197",
+  "url": "https://www.freelancer.pl/projects/data-management/Manual-Excel-Client-Data-Compilation/details",
+  "title": "Manual Excel Client Data Compilation",
+  "author": "Anonim",
+  "budget": "250.0 - 750.0 USD",
+  "category": "scraping-dane",
+  "detected_at": "2026-09-10T17:28:39.034482",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703197",
+    "url": "https://www.freelancer.pl/projects/data-management/Manual-Excel-Client-Data-Compilation/details",
+    "seo_url": "data-management/Manual-Excel-Client-Data-Compilation",
+    "title": "Manual Excel Client Data Compilation",
+    "budget": "250.0 - 750.0 USD",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I keep a growing list of clients and need every record kept accurate and tidy in a single Excel work",
+    "category": "scraping-dane",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Excel",
+      "Web Scraping",
+      "Excel VBA",
+      "Excel Macros",
+      "Data Analysis",
+      "Data Management"
+    ],
+    "bid_stats": {
+      "bid_count": 41,
+      "bid_avg": 381.0487804878049
+    },
+    "local": false,
+    "time_submitted": 1789044521
+  },
+  "full_details": {
+    "id": "40703197",
+    "title": "Manual Excel Client Data Compilation",
+    "full_description": "I keep a growing list of clients and need every record kept accurate and tidy in a single Excel workbook. You will manually browse the specified website, copy each client’s number along with all available contact information, and paste that data into the matching columns of the sheet I provide.\n\nAccuracy is more important than speed because this is strictly a manual data-entry task—no scraping tools or APIs this time. I will supply the site link, the template Excel file, and a short set of naming conventions so everything stays uniform. As new names appear online, you will add them; if any entry changes, you will update it rather than duplicating.  \n\nDeliverables  \n• Updated Excel workbook containing every client number and complete contact details, checked for duplicates  \n• A brief change log (date, rows added/edited) for transparency  \n\nI’ll review the first 20 rows as a milestone to be sure the format is correct; once approved, you can proceed with the rest. Consistent formatting, zero typos, and no missing fields will be the acceptance criteria.",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Excel",
+      "Web Scraping",
+      "Excel VBA",
+      "Excel Macros",
+      "Data Analysis",
+      "Data Management"
+    ],
+    "bid_stats": {
+      "bid_count": 41,
+      "bid_avg": 381.0487804878049
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:56"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:56.067821"
+}

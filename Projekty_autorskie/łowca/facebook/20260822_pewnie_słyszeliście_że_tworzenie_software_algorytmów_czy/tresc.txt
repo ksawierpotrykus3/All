@@ -1,0 +1,42 @@
+### POST FACEBOOK ###
+
+Źródło: https://www.facebook.com/adam.jesionkiewicz/posts/pfbid0rCq2GbdefzrfQejFPqPR7ZWVdMhfEZBR4phq124EcK9Kc19xxNqqDt6UxsM9puVHl
+Autor: Adam Jesionkiewicz
+Data pobrania: 2026-08-22 20:56:43
+Liczba unikalnych komentarzy: 11
+
+--- TREŚĆ POSTA ---
+Pewnie słyszeliście, że tworzenie software, algorytmów, czy architektury z AI "może i jest możliwe, ale... niewydajne, niezoptymalizowane, przegadane i bałaganiarskie".
+Nie! To nie AI jest bałaganiarskie, tylko człowiek, który używa tego narzędzia. I zupełnie nie nawiązuje tutaj do historii, którą żyje cały kraj :P
+Poniżej zobaczyć możecie optymalizacje mojego silnika graficznego - Genesis Eva (ładna nazwa - co?). Wszystko zaczęło się od Three.js (bo przecież "AI umie kodować tylko to, co zassało masowo z internetu"), ale ten gotowy framework bardzo mocno ogranicza możliwości tworzenia czegoś bardzo skomplikowanego (za duży koszt CPU).
+Biorąc pod uwagę moje wcześniejsze doświadczenia z "hackowaniem" asemblera, czy tworzenia emulatorów z nieistniejących przykładów (LISA), stwierdziłem, że przecież nikt nie zabroni mi budowania bezpośrednio w nowym WebGPU, czyli nisko poziomowym API, które pozwala kodowi w przeglądarce bezpośrednio i wydajnie komunikować się z procesorem graficznym (GPU) - dokładnie tak, jak aplikacje desktopowe.
+Problem z tym API jest taki, że nie ma zbyt wiele przykładów, albo inżynierów, którzy potrafią takie rzeczy budować. W zasadzie jeśli ktoś to potrafi, to w życiu się nie nudzi :P
+Komentarza raczej były takie, że LLMy sobie z tym nie poradzą, właśnie przez brak materiałów, na których mogłyby się dobrze nauczyć.
+Całe szczęście, znowu okazało się to nieprawdą. Da się i efekty są spektakularne. Poniżej subtelny przykład z jednego z moich benchmarków. Nie widać CPU, ale różnica między WebGL, a WebGPU w poniższym przykładzie jest, że tak powiem fundamentalna.
+I to nie jest jeszcze koniec optymalizacji.
+Sobotni przekaz będzie nudny - nie ograniczajcie się z użyciem AI do tematów, które wydają się trudne, albo niemożliwe. Powodzenia.
+A jeśli szukacie inspiracji, to przypominam, że WebGPU API można wykorzystać także do odpalania modelu LLM bezpośrednio przez przeglądarkę na stronie internetowej. A jest tu kilka ciekawych pomysłów, jak to można wykorzystać :P Łącząc to z webassembly mamy dostęp do totalnie nowego świata internetowych aplikacji, które nie będą ustępować wydajności i możliwościom desktopowych aplikacji, które trzeba notaryzować, dystrybuować, ściągać, instalować, updatować, etc. W tym świecie wszystko żyje na serwerach. Wyobraźcie sobie światy w grach, które będą w zasadzie nieograniczone i w pełni dynamiczne/żyjące (generowane też przez modele AI).
+
+--- KOMENTARZE I ODPOWIEDZI ---
+
+1. Łukasz Markulis: cyt.: "Problem z tym API jest taki, że nie ma zbyt wiele przykładów, albo inżynierów, którzy potrafią takie rzeczy budować. W zasadzie jeśli ktoś to potrafi, to w życiu się nie nudzi  Komentarza raczej były takie, że LLMy sobie z tym nie poradzą, właśnie przez brak materiałów, na których mogłyby się dobrze nauczyć." Nawet nie muszą się niczego uczyć, gdyż wystarczy analogia do tego czego już się nauczyły. I w wielu aspektach zrobią te lepiej niż człowiek, bo nie przeoczą detali z dokumentacji czy nazewnictwie.
+
+    1.1. Adam Jesionkiewicz: Łukasz Markulis prawda. Wiele osób, które tak komentują nie za bardzo chyba rozumieją, czym jest trening sieci neuronowej. Zakodowane, uśrednione wzorce, a nie konkretne słowa, czy języki. A te wzorce są w zasadzie zawsze podobne, niezależnie od języka, czy problemu.
+
+2. Mateusz Rukowicz: API zawsze zmierza do tego co oferuje sprzęt[*], a to jest w miarę stabilne, więc umieją doskonale, nie ważne w jakim języku czy środowisku mają to API i w jakim się nauczyły - umieją przenosić całkiem dobrze. Ciekawią mnie głosy które twierdziły, że LLMy sobie nie poradzą? Brzmi trochę jak sabotaż=] LLM'y na tyle dobrze rozumieją programowanie, że możesz tworzyć nowe sposoby programowania i z relatywnie prostą dokumentacją ogarną każde API, nawet nieistniejące. Gorzej z myśleniem bardzo algorytmicznym (rekurencje, drzewa, algorytmy łączące to) - ale to pewnie już niedługo. Ludziom też to bardzo trudno przychodzi [*] czasem jest na odwrót i sprzęt zmierza do tego co potrzebują programiści, ten cykl się zmienia raz w jedną raz w drugą stronę (tak było w grafice, w dyskach, pewnie w innych rzeczach też)
+
+3. Kamil Sg: moje zdanie - czasem z ai lepiej się robi cos nowego z samej dokumentacji i testów niż tych przykładów starych api które ma wytrenowane bo te przykłady w większości to workaround jak ominąć problem najszybciej Koniec koncow wynik to i tak kwestia człowieka które rozwiązania zaakceptuje i jak to poskłada
+
+4. Tomasz Muszyński: Ja tam jednak wolę aplikacje desktopowe, bo są spójne z OS, szybsze w uruchamianiu, lepiej integrują się z OS, no i nie muszą trzymać moich danych u obcych  .
+
+    4.1. Adam Jesionkiewicz: Tomasz Muszyński ale w moim use case to niemożliwe z bardzo wielu względów. Buduję architekturę silnika, która nie jest po prostu jakaś adaptację "starego" do chmury, ale jest dla niej natywna i wykorzystuje jej unikatowe cechy. Zgadzam się z tezą, że jeśli aplikacja może być natywna/desktopowa, to wsadzanie jej do chmury jest irytującą praktyką.
+
+5. Łukasz Markulis: cyt.: "Problem z tym API jest taki, że nie ma zbyt wiele przykładów, albo inżynierów, którzy potrafią takie rzeczy budować. W zasadzie jeśli ktoś to potrafi, to w życiu się nie nudzi Komentarza raczej były takie, że LLMy sobie z tym nie poradzą, właśnie przez brak materiałów, na których mogłyby się dobrze nauczyć."Nawet nie muszą się niczego uczyć, gdyż wystarczy analogia do tego czego już się nauczyły. I w wielu aspektach zrobią te lepiej niż człowiek, bo nie przeoczą detali z dokumentacji czy nazewnictwie.
+
+6. Mateusz Rukowicz: API zawsze zmierza do tego co oferuje sprzęt[*], a to jest w miarę stabilne, więc umieją doskonale, nie ważne w jakim języku czy środowisku mają to API i w jakim się nauczyły - umieją przenosić całkiem dobrze. Ciekawią mnie głosy które twierdziły, że LLMy sobie nie poradzą? Brzmi trochę jak sabotaż=]LLM'y na tyle dobrze rozumieją programowanie, że możesz tworzyć nowe sposoby programowania i z relatywnie prostą dokumentacją ogarną każde API, nawet nieistniejące. Gorzej z myśleniem bardzo algorytmicznym (rekurencje, drzewa, algorytmy łączące to) - ale to pewnie już niedługo. Ludziom też to bardzo trudno przychodzi[*] czasem jest na odwrót i sprzęt zmierza do tego co potrzebują programiści, ten cykl się zmienia raz w jedną raz w drugą stronę (tak było w grafice, w dyskach, pewnie w innych rzeczach też)
+
+7. Kamil Sg: moje zdanie - czasem z ai lepiej się robi cos nowego z samej dokumentacji i testów niż tych przykładów starych api które ma wytrenowane bo te przykłady w większości to workaround jak ominąć problem najszybciejKoniec koncow wynik to i tak kwestia człowieka które rozwiązania zaakceptuje i jak to poskłada
+
+8. Tomasz Muszyński: Ja tam jednak wolę aplikacje desktopowe, bo są spójne z OS, szybsze w uruchamianiu, lepiej integrują się z OS, no i nie muszą trzymać moich danych u obcych .
+
+    8.1. Adam Jesionkiewicz: Tomasz Muszyński ale w moim use case to niemożliwe z bardzo wielu względów. Buduję architekturę silnika, która nie jest po prostu jakaś adaptację "starego" do chmury, ale jest dla niej natywna i wykorzystuje jej unikatowe cechy.Zgadzam się z tezą, że jeśli aplikacja może być natywna/desktopowa, to wsadzanie jej do chmury jest irytującą praktyką.

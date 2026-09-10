@@ -1,0 +1,79 @@
+{
+  "id": "40703243",
+  "url": "https://www.freelancer.pl/projects/data-management/Excel-Budget-Data-Entry/details",
+  "title": "Excel Budget Data Entry",
+  "author": "Anonim",
+  "budget": "12500.0 - 37500.0 INR",
+  "category": "scraping-dane",
+  "detected_at": "2026-09-10T17:28:39.022793",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703243",
+    "url": "https://www.freelancer.pl/projects/data-management/Excel-Budget-Data-Entry/details",
+    "seo_url": "data-management/Excel-Budget-Data-Entry",
+    "title": "Excel Budget Data Entry",
+    "budget": "12500.0 - 37500.0 INR",
+    "budget_raw": {
+      "minimum": 12500.0,
+      "maximum": 37500.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I need my raw income and expense figures transferred into my own Microsoft Excel budget template. Yo",
+    "category": "scraping-dane",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Accounting",
+      "Excel",
+      "Word",
+      "Financial Analysis",
+      "Data Analysis",
+      "Data Management"
+    ],
+    "bid_stats": {
+      "bid_count": 17,
+      "bid_avg": 18558.823529411766
+    },
+    "local": false,
+    "time_submitted": 1789046536
+  },
+  "full_details": {
+    "id": "40703243",
+    "title": "Excel Budget Data Entry",
+    "full_description": "I need my raw income and expense figures transferred into my own Microsoft Excel budget template. You’ll receive the template file together with the source data; simply fill each section exactly as laid out, maintaining all built-in formulas and formatting.\n\nAccuracy is critical—totals, subtotals, and category labels must mirror the original numbers without rounding errors or misplaced entries. I’ll verify the workbook against the source documents, so every value needs to align perfectly.\n\nDeliverable  \n• The completed Excel workbook returned in its original structure, fully populated with all income and expense lines.\n\nPlease keep all information confidential and let me know your expected turnaround time when you accept the task.",
+    "budget_raw": {
+      "minimum": 12500.0,
+      "maximum": 37500.0
+    },
+    "currency": "INR",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Processing",
+      "Data Entry",
+      "Accounting",
+      "Excel",
+      "Word",
+      "Financial Analysis",
+      "Data Analysis",
+      "Data Management"
+    ],
+    "bid_stats": {
+      "bid_count": 17,
+      "bid_avg": 18558.823529411766
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:55"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:55.455443"
+}

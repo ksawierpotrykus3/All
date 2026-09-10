@@ -1,0 +1,79 @@
+{
+  "id": "40703490",
+  "url": "https://www.freelancer.pl/projects/web-development/Bangun-Situs-Web-Penghasil-Pendapatan/details",
+  "title": "Bangun Situs Web Penghasil Pendapatan",
+  "author": "Anonim",
+  "budget": "15.0 - 25.0 USD",
+  "category": "web-dev",
+  "detected_at": "2026-09-10T17:44:24.194289",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703490",
+    "url": "https://www.freelancer.pl/projects/web-development/Bangun-Situs-Web-Penghasil-Pendapatan/details",
+    "seo_url": "web-development/Bangun-Situs-Web-Penghasil-Pendapatan",
+    "title": "Bangun Situs Web Penghasil Pendapatan",
+    "budget": "15.0 - 25.0 USD",
+    "budget_raw": {
+      "minimum": 15.0,
+      "maximum": 25.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "Saya membutuhkan bantuan profesional untuk merancang dan membangun sebuah situs web yang dapat seger",
+    "category": "web-dev",
+    "project_type": "hourly",
+    "jobs": [
+      "Website Design",
+      "Internet Marketing",
+      "SEO",
+      "Link Building",
+      "WordPress",
+      "UI / User Interface",
+      "Web Development",
+      "Payment Gateway Integration"
+    ],
+    "bid_stats": {
+      "bid_count": 5,
+      "bid_avg": 19.0
+    },
+    "local": false,
+    "time_submitted": 1789054831
+  },
+  "full_details": {
+    "id": "40703490",
+    "title": "Bangun Situs Web Penghasil Pendapatan",
+    "full_description": "Saya membutuhkan bantuan profesional untuk merancang dan membangun sebuah situs web yang dapat segera mulai menghasilkan penghasilan. Fokus utamanya adalah pengembangan situs web—dari struktur awal hingga siap online—dengan tampilan modern, responsif, dan ramah SEO.  \n\nYang saya harapkan:\n• Rekomendasi konsep monetisasi paling cocok (misalnya penjualan produk digital/fisik, langganan, atau iklan).  \n• Desain antarmuka yang menarik dan mudah dinavigasi.  \n• Implementasi sistem pembayaran aman beserta dashboard transaksi sederhana.  \n• Optimasi dasar SEO dan kecepatan halaman agar mudah ditemukan calon pembeli.  \n• Panduan singkat pengelolaan konten sehingga saya bisa memperbarui produk atau artikel sendiri.  \n\nSilakan sertakan portofolio proyek serupa, teknologi yang biasa Anda gunakan (WordPress, Laravel, React, atau lainnya), serta perkiraan timeline tahap-demi-tahap. Saya terbuka untuk saran terbaik Anda demi memastikan situs ini cepat online dan mulai menghasilkan.",
+    "budget_raw": {
+      "minimum": 15.0,
+      "maximum": 25.0
+    },
+    "currency": "USD",
+    "project_type": "hourly",
+    "jobs": [
+      "Website Design",
+      "Internet Marketing",
+      "SEO",
+      "Link Building",
+      "WordPress",
+      "UI / User Interface",
+      "Web Development",
+      "Payment Gateway Integration"
+    ],
+    "bid_stats": {
+      "bid_count": 5,
+      "bid_avg": 19.0
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:44:25"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:44:25.549898"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "pipeline_lead_hunter_v1",
+  "nazwa": "Automatyczne pozyskiwanie zlecen",
+  "kroki": [
+    "pobranie_ofert",
+    "weryfikacja_stawek",
+    "bramka_bezpieczenstwa",
+    "wyslanie_odpowiedzi"
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "id": "143690",
+  "url": "https://useme.com/pl/jobs/integracja-comarch-erp-xl-z-xls,143690/",
+  "title": "Integracja Comarch ERP XL z xls",
+  "fields": {
+    "Zleceniodawca": "Misio",
+    "Opis": "Szukam specjalisty który napisze aplikację do aktualizacji zakładek z xls do ERP XL",
+    "Opublikowano": "6 dni temu",
+    "Kategoria": "Oprogramowanie",
+    "Prawa autorskie": "Przeniesienie praw autorskich",
+    "Wymagane funkcje:": "Comarch ERP XL, API, XLS",
+    "Budżet": "Do negocjacji",
+    "Ważne przez": "30 dni"
+  },
+  "job_tags": [
+    "analiza danych",
+    "aplikacje webowe",
+    "bazy danych",
+    "+ 11 więcej"
+  ],
+  "competitors_count": 34,
+  "competitors": [
+    {
+      "name": "Mateusz",
+      "profile_url": "https://useme.com/pl/roles/contractor/683116/",
+      "deals": "0 umów",
+      "created_on": "wczoraj",
+      "tags": [],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/016/683116.png"
+    },
+    {
+      "name": "beaczer",
+      "profile_url": "https://useme.com/pl/roles/contractor/681510/",
+      "deals": "0 umów",
+      "created_on": "2 dni temu",
+      "tags": [],
+      "avatar": null
+    },
+    {
+      "name": "lukasheek88",
+      "profile_url": "https://useme.com/pl/roles/contractor/16180/",
+      "deals": "62 umów",
+      "created_on": "2 dni temu",
+      "tags": [
+        "analiza danych",
+        "aplikacje webowe",
+        "bazy danych",
+        "css",
+        "html",
+        "javascript",
+        "jquery",
+        "mysql",
+        "PHP",
+        "seo",
+        "sql",
+        "strona www",
+        "szablon",
+        "visual basic"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/080/016180.png"
+    },
+    {
+      "name": "Łukasz Sobierajski",
+      "profile_url": "https://useme.com/pl/roles/contractor/676134/",
+      "deals": "0 umów",
+      "created_on": "3 dni temu",
+      "tags": [
+        "AI",
+        "android",
+        "API",
+        "aplikacje webowe",
+        "ASP.NET",
+        "backend",
+        "bazy danych",
+        "chatgpt",
+        "C Sharp",
+        "git",
+        "javascript",
+        "LLM",
+        "MSSQL",
+        ".NET",
+        "PowerShell",
+        "REST",
+        "scrum",
+        "soap",
+        "sql",
+        "web api",
+        "Web Scraping",
+        "windows",
+        "WPF",
+        "xml"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/034/676134_eXqKfcE.png"
+    },
+    {
+      "name": "Tom Smart",
+      "profile_url": "https://useme.com/pl/roles/contractor/677782/",
+      "deals": "0 umów",
+      "created_on": "4 dni temu",
+      "tags": [],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/082/677782_wqoqhso.png"
+    },
+    {
+      "name": "Rizky Pradana",
+      "profile_url": "https://useme.com/pl/roles/contractor/635608/",
+      "deals": "1 umowa",
+      "created_on": "4 dni temu",
+      "tags": [],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/008/635608.png"
+    },
+    {
+      "name": "Ensoft",
+      "profile_url": "https://useme.com/pl/roles/contractor/239692/",
+      "deals": "0 umów",
+      "created_on": "4 dni temu",
+      "tags": [],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/092/239692.png"
+    },
+    {
+      "name": "Jakub Kulig",
+      "profile_url": "https://useme.com/pl/roles/contractor/429215/",
+      "deals": "28 umów",
+      "created_on": "5 dni temu",
+      "tags": [
+        "AI",
+        "canva",
+        "facebook",
+        "Facebook Ads",
+        "instagram",
+        "reklamy Google",
+        "video",
+        "wordpress"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/015/429215.png"
+    },
+    {
+      "name": "Kai Rudkowski",
+      "profile_url": "https://useme.com/pl/roles/contractor/689338/",
+      "deals": "0 umów",
+      "created_on": "5 dni temu",
+      "tags": [
+        "MSSQL",
+        ".NET"
+      ],
+      "avatar": null
+    },
+    {
+      "name": "Hubert Przypis",
+      "profile_url": "https://useme.com/pl/roles/contractor/503476/",
+      "deals": "0 umów",
+      "created_on": "5 dni temu",
+      "tags": [
+        "angielski",
+        "biznesowy angielski",
+        "html",
+        "html5",
+        "laravel",
+        "Next.js",
+        "PHP",
+        "React",
+        "typescript",
+        "usługi programowania",
+        "vue"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/076/503476.png"
+    },
+    {
+      "name": "PROGRAMO",
+      "profile_url": "https://useme.com/pl/roles/contractor/679766/",
+      "deals": "0 umów",
+      "created_on": "6 dni temu",
+      "tags": [],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/066/679766.png"
+    },
+    {
+      "name": "Paweł Popow",
+      "profile_url": "https://useme.com/pl/roles/contractor/528180/",
+      "deals": "0 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "bootstrap",
+        "css",
+        "html5",
+        "javascript",
+        "jquery",
+        "mysql",
+        "python",
+        "React",
+        "sass",
+        "wordpress"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/080/528180.png"
+    },
+    {
+      "name": "Ligmasick",
+      "profile_url": "https://useme.com/pl/roles/contractor/604482/",
+      "deals": "4 umów",
+      "created_on": "6 dni temu",
+      "tags": [],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/082/604482.png"
+    },
+    {
+      "name": "Skalownia",
+      "profile_url": "https://useme.com/pl/roles/contractor/667086/",
+      "deals": "2 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "allegro",
+        "Amazon Ads",
+        "Amazon FBA",
+        "Amazon Seller Central",
+        "Amazon SEO",
+        "API",
+        "base",
+        "baselinker",
+        "chatgpt",
+        "dodawanie produktów",
+        "ebay",
+        "e-commerce",
+        "ERP",
+        "Facebook Ads",
+        "google ads",
+        "google analytics",
+        "idosell",
+        "javascript",
+        "NodeJS",
+        "prestashop",
+        "python",
+        "SEO E-commerce",
+        "shoper",
+        "shopify",
+        "sql",
+        "tiktok",
+        "WooCommerce",
+        "xml"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/086/667086_yRC4oen.png"
+    },
+    {
+      "name": "Łukasz U.",
+      "profile_url": "https://useme.com/pl/roles/contractor/540500/",
+      "deals": "5 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "CRM",
+        "Next.js",
+        "React",
+        "typescript",
+        "web development"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/000/540500_ndLiolP.png"
+    },
+    {
+      "name": "Iza Projektuje",
+      "profile_url": "https://useme.com/pl/roles/contractor/677352/",
+      "deals": "0 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "API",
+        "backend",
+        "frontend",
+        "PHP",
+        "python",
+        "wordpress"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/052/677352.png"
+    },
+    {
+      "name": "Mateusz Tucholski",
+      "profile_url": "https://useme.com/pl/roles/contractor/498646/",
+      "deals": "1 umowa",
+      "created_on": "6 dni temu",
+      "tags": [
+        "AI",
+        "aws",
+        "CRM",
+        "IoT",
+        "java",
+        "java ee",
+        "mikrouslugi",
+        "nosql",
+        "python",
+        "REST",
+        "scrum",
+        "spring",
+        "Spring Framework",
+        "Spring MVC",
+        "TCP/IP"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/046/498646.png"
+    },
+    {
+      "name": "Krystian",
+      "profile_url": "https://useme.com/pl/roles/contractor/252457/",
+      "deals": "3 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "API",
+        "javascript",
+        "landing page",
+        "optymalizacja",
+        "python",
+        "sklep internetowy",
+        "strona www",
+        "WooCommerce",
+        "wordpress"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/057/252457_MNlpvLQ.png"
+    },
+    {
+      "name": "Paweł Nowak",
+      "profile_url": "https://useme.com/pl/roles/contractor/664259/",
+      "deals": "0 umów",
+      "created_on": "6 dni temu",
+      "tags": [],
+      "avatar": null
+    },
+    {
+      "name": "Jakub Kaczmarek",
+      "profile_url": "https://useme.com/pl/roles/contractor/137876/",
+      "deals": "25 umów",
+      "created_on": "6 dni temu",
+      "tags": [],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/076/137876.png"
+    },
+    {
+      "name": "Servify - SaaS & Web Apps",
+      "profile_url": "https://useme.com/pl/roles/contractor/434168/",
+      "deals": "25 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "administracja systemów",
+        "AI",
+        "API",
+        "aplikacje mobilne",
+        "aplikacje webowe",
+        "backend",
+        "chatbot",
+        "Claude",
+        "Claude code",
+        "Claude Opus",
+        "CRM",
+        "docker",
+        "frontend",
+        "git",
+        "javascript",
+        "LLM",
+        "n8n",
+        "Next.js",
+        "NodeJS",
+        "OpenAI",
+        "postgresql",
+        "procesy biznesowe",
+        "Prototype",
+        "python",
+        "React",
+        "REST",
+        "SaaS",
+        "sql",
+        "Supabase",
+        "sztuczna inteligecja",
+        "typescript",
+        "UI",
+        "UX",
+        "UX design",
+        "Vibe Coding",
+        "VPS"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/068/434168_P9cPMEH.png"
+    },
+    {
+      "name": "Tomasz Balcewicz",
+      "profile_url": "https://useme.com/pl/roles/contractor/684100/",
+      "deals": "0 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "allegro",
+        "API",
+        "excel",
+        "python",
+        "sql",
+        "Web Scraping",
+        "WooCommerce",
+        "wordpress"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/000/684100.png"
+    },
+    {
+      "name": "KARTS DESIGN",
+      "profile_url": "https://useme.com/pl/roles/contractor/113377/",
+      "deals": "10 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "adobe illustrator",
+        "adobe photoshop",
+        "aplikacje mobilne",
+        "apps",
+        "architektura",
+        "banner",
+        "fotografia",
+        "fotografia biznesowa",
+        "fotografia mody",
+        "fotografia produktowa",
+        "grafika",
+        "grafika na stronę",
+        "grafika www",
+        "identyfikacja wizualna",
+        "layout design",
+        "logo",
+        "plakat",
+        "sklep internetowy",
+        "strona www",
+        "UI",
+        "ulotki",
+        "user experience design",
+        "UX design",
+        "web development",
+        "wizytówki",
+        "wordpress"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/077/113377_2mNZzLm.png"
+    },
+    {
+      "name": "Cipher",
+      "profile_url": "https://useme.com/pl/roles/contractor/678414/",
+      "deals": "1 umowa",
+      "created_on": "6 dni temu",
+      "tags": [
+        "API",
+        "bazy danych",
+        "strona www",
+        "usługi programowania",
+        "web development"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/014/678414.png"
+    },
+    {
+      "name": "Matteo </> nGenCode </>",
+      "profile_url": "https://useme.com/pl/roles/contractor/427360/",
+      "deals": "3 umów",
+      "created_on": "6 dni temu",
+      "tags": [],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/060/427360_WD1apAZ.png"
+    },
+    {
+      "name": "hermsoft.pl",
+      "profile_url": "https://useme.com/pl/roles/contractor/335960/",
+      "deals": "3 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "angular2",
+        "bootstrap",
+        "C Sharp",
+        "MSSQL",
+        "typescript"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/060/335960_xKg7Kw3.png"
+    },
+    {
+      "name": "Abhishek Kumar",
+      "profile_url": "https://useme.com/pl/roles/contractor/642502/",
+      "deals": "0 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "android",
+        "aplikacje mobilne",
+        "aplikacje webowe",
+        "AWS Cloud",
+        "blockchain",
+        "Flutter",
+        "grafika www",
+        "gry mobilne",
+        "hosting",
+        "iOS",
+        "migracja stron www",
+        "MongoDB",
+        "mysql",
+        "Next.js",
+        "NodeJS",
+        "prestashop",
+        "python",
+        "React",
+        "react native",
+        "SaaS",
+        "shopify",
+        "web development"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/002/642502_E1VOqmw.png"
+    },
+    {
+      "name": "przemashsk",
+      "profile_url": "https://useme.com/pl/roles/contractor/223695/",
+      "deals": "0 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "aplikacje webowe",
+        "backend",
+        "bazy danych",
+        "bootstrap",
+        "css",
+        "frontend",
+        "html",
+        "html5",
+        "javascript",
+        "kodowanie",
+        "laravel",
+        "MSSQL",
+        "mysql",
+        "PHP",
+        "React",
+        "rwd",
+        "sql",
+        "strona www",
+        "szablon",
+        "vue",
+        "windows",
+        "wordpress"
+      ],
+      "avatar": null
+    },
+    {
+      "name": "Marcel Wiśniewski",
+      "profile_url": "https://useme.com/pl/roles/contractor/95564/",
+      "deals": "0 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "API",
+        "excel",
+        "javascript",
+        "python",
+        "REST",
+        "selenium",
+        "sql",
+        "Web Scraping"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/064/095564_qwqEP8C.png"
+    },
+    {
+      "name": "keesur",
+      "profile_url": "https://useme.com/pl/roles/contractor/413707/",
+      "deals": "0 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "administracja sieci",
+        "API",
+        "git",
+        "linux",
+        "mysql",
+        ".NET",
+        "Next.js",
+        "postgresql",
+        "React"
+      ],
+      "avatar": null
+    },
+    {
+      "name": "Piotr Bujanowski",
+      "profile_url": "https://useme.com/pl/roles/contractor/622789/",
+      "deals": "9 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "API",
+        "cyberbezpieczeństwo",
+        "laravel",
+        "Next.js",
+        "NodeJS",
+        "PHP",
+        "python",
+        "sklep internetowy",
+        "wordpress"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/089/622789.png"
+    },
+    {
+      "name": "Mikołaj",
+      "profile_url": "https://useme.com/pl/roles/contractor/331674/",
+      "deals": "5 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "aws",
+        "C Sharp",
+        "javascript",
+        "laravel",
+        "PHP",
+        "vue"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/074/331674.png"
+    },
+    {
+      "name": "Voxquartz Systems",
+      "profile_url": "https://useme.com/pl/roles/contractor/622861/",
+      "deals": "4 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "AI",
+        "Elementor",
+        "Flutter",
+        "Next.js",
+        "NodeJS",
+        "PHP",
+        "React",
+        "SaaS",
+        "wordpress"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/061/622861_gMZFccD.png"
+    },
+    {
+      "name": "IgnacyDev",
+      "profile_url": "https://useme.com/pl/roles/contractor/608733/",
+      "deals": "2 umów",
+      "created_on": "6 dni temu",
+      "tags": [
+        "css",
+        "IT",
+        "migracja stron www",
+        "NodeJS",
+        "python",
+        "React",
+        "strona www"
+      ],
+      "avatar": "https://useme-prod-public.s3.amazonaws.com/avatars/033/608733_sgV3sdG.png"
+    }
+  ]
+}

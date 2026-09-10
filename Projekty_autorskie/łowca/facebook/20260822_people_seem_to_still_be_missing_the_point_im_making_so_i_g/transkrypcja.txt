@@ -1,0 +1,34 @@
+### TRANSKRYPCJA AUDIO ###
+Język: en
+
+[00:00] Okay, so I bought a whiteboard because no one was understanding why agents are a waste of time.
+[00:04] I don't mean using agents, I mean building them.
+[00:07] So in order to make AI not stupid, you need to route it to the right place.
+[00:12] To be able to give it the right instructions, give it the right tools,
+[00:16] and give it the right data, currently people have built frameworks to do that.
+[00:20] Lange chain, the anthropic agent SDK, semantic kernel.
+[00:24] All of those are different ways to route these problems.
+[00:28] People spend this time building with Python or C-Sharp,
+[00:31] all these crazy agent frameworks, only to get replaced by a model update from one of the big guys.
+[00:37] This isn't because AI is moving too fast.
+[00:40] It's actually because of something else.
+[00:42] People building agents are often operating at the wrong abstraction layer.
+[00:47] More importantly, they're missing the most basic thing in computer science.
+[00:51] File trees.
+[00:52] Can map every single AI agent out there to a simple file tree?
+[00:57] Imagine you have a workflow and you have tasks inside that workflow.
+[01:02] Also might have multiple workflows.
+[01:04] These are just folders, okay?
+[01:07] Pick inside of that workflow, task one has instructions, which are prompts, tools, and data.
+[01:15] Same for task two, and you might have sub tasks with its own instructions, tools, and data.
+[01:22] Single coding agent from any of the big guys would handle all of the instructions and processes in there,
+[01:29] and also have MCP servers, which can get outside data,
+[01:33] be able to create sub agents, which can handle others tasks,
+[01:36] and create new structures inside of your folder.
+[01:39] All of that without you having to code in Python or C-Sharp, like semantic kernel requires.
+[01:45] Yes, part is this isn't going to get replaced by an update.
+[01:49] If they make a feature, one of the bigger people, to do some of this, guess what?
+[01:53] You just condense that into a tool.
+[01:56] If they condense your workflow into a feature update, guess what?
+[02:01] It's now a sub task or a tool.
+[02:04] You are operating on the wrong abstraction layer if you think AI is moving too fast.

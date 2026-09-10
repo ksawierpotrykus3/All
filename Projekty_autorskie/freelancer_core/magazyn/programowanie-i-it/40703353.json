@@ -1,0 +1,77 @@
+{
+  "id": "40703353",
+  "url": "https://www.freelancer.pl/projects/security-auditing/Eliminar-MDM-software-modificado-eeuu/details",
+  "title": "Eliminar MDM y software modificado eeuu remoto Xiaomi n Xiaomi",
+  "author": "Anonim",
+  "budget": "18.0 - 36.0 EUR",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.817707",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703353",
+    "url": "https://www.freelancer.pl/projects/security-auditing/Eliminar-MDM-software-modificado-eeuu/details",
+    "seo_url": "security-auditing/Eliminar-MDM-software-modificado-eeuu",
+    "title": "Eliminar MDM y software modificado eeuu remoto Xiaomi n Xiaomi",
+    "budget": "18.0 - 36.0 EUR",
+    "budget_raw": {
+      "minimum": 18.0,
+      "maximum": 36.0
+    },
+    "currency": "EUR",
+    "author": "Anonim",
+    "short_desc": "Necesito asistencia de un hacker ético para retirar por completo un software MDM modificado de un te",
+    "category": "programowanie-i-it",
+    "project_type": "hourly",
+    "jobs": [
+      "Linux",
+      "Mobile App Development",
+      "Android",
+      "Software Architecture",
+      "Technical Support",
+      "System Analysis",
+      "Security Auditing"
+    ],
+    "bid_stats": {
+      "bid_count": 40,
+      "bid_avg": 30.925
+    },
+    "local": false,
+    "time_submitted": 1789050340
+  },
+  "full_details": {
+    "id": "40703353",
+    "title": "Eliminar MDM y software modificado eeuu remoto Xiaomi n Xiaomi",
+    "full_description": "Necesito asistencia de un hacker ético para retirar por completo un software MDM modificado de un teléfono Xiaomi. El dispositivo corre HyperOS 3.0.301.0 y actualmente sufre seguimiento y monitoreo no deseado.  \n\nLo que busco:  \n• Análisis del firmware y detección de todos los módulos MDM instalados.  \n• Eliminación segura sin dejar rastros que reactiven el control.  \n• Preservar datos personales, cuentas y funcionalidad de MIUI/HyperOS.  \n• Guía paso a paso para que pueda repetir el proceso en caso de futuras actualizaciones.  \n• Comprobación final: el teléfono no debe comunicarse con servidores MDM ni mostrar certificados, perfiles ni apps ocultas asociadas.\n\nTrabajo remoto. Puedo proporcionar acceso por ADB/Fastboot y, si hace falta, desbloquear el bootloader. Valoraría conocimientos en seguridad móvil, root, Magisk y cifrado de Android.",
+    "budget_raw": {
+      "minimum": 18.0,
+      "maximum": 36.0
+    },
+    "currency": "EUR",
+    "project_type": "hourly",
+    "jobs": [
+      "Linux",
+      "Mobile App Development",
+      "Android",
+      "Software Architecture",
+      "Technical Support",
+      "System Analysis",
+      "Security Auditing"
+    ],
+    "bid_stats": {
+      "bid_count": 40,
+      "bid_avg": 30.925
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:41"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:41.669431"
+}

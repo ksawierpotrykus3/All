@@ -1,0 +1,44 @@
+{
+  "id": "144002",
+  "url": "https://useme.com/pl/jobs/migracja-i-wdrozenie-sklepu-na-shopify-stala-wspolpraca-z-agencja-ecommerce,144002/",
+  "title": "Migracja i wdrożenie sklepu na Shopify — stała współpraca z agencją eCommerce",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-08T18:26:26.904688",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144002",
+    "url": "https://useme.com/pl/jobs/migracja-i-wdrozenie-sklepu-na-shopify-stala-wspolpraca-z-agencja-ecommerce,144002/",
+    "title": "Migracja i wdrożenie sklepu na Shopify — stała współpraca z agencją eCommerce",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Jesteśmy agencją performance i eCommerce (Adtrip). Łączymy reklamy (Meta, Google, TikTok) z technologią sprzedaży — realizujemy migracje sklepów na Shopify, wdrożenia UX/UI, marketing automation i integracje systemowe dla klientów B2C i...",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/migracja-i-wdrozenie-sklepu-na-shopify-stala-wspolpraca-z-agencja-ecommerce,144002/",
+    "title": "Migracja i wdrożenie sklepu na Shopify — stała współpraca z agencją eCommerce",
+    "full_description": "<p>Jesteśmy agencją performance i eCommerce (Adtrip). Łączymy reklamy (Meta, Google, TikTok) z technologią sprzedaży — realizujemy migracje sklepów na Shopify, wdrożenia UX/UI, marketing automation i integracje systemowe dla klientów B2C i B2B.</p>\n\n<p>Szukamy osoby do prowadzenia pełnego procesu migracji i wdrożeń na Shopify. Zaczynamy od jednego projektu pilotażowego, a przy dobrej współpracy przechodzimy w stały tryb — mamy ciągły dopływ projektów.</p>\n\n<p>Zakres prac:</p>\n\n<p>Warsztat zerowy z klientem (online), analiza konkurencji, współpraca przy makietach UX/UI<br>Migracja danych i SEO — struktura kolekcji, optymalizacja nazw produktów i kategorii, przekierowania 301, minimalizacja strat SEO<br>Wdrożenie produktów i kategorii — import, warianty, ceny, zdjęcia<br>Funkcjonalności: upsell, cross-sell, bundle, volume discounts, programy lojalnościowe i afiliacyjne, wishlist, subskrypcje, newsletter, blog, AI chat, IG feed, B2B, wersje językowe i walutowe, Omnibus, opinie, regulaminy, zwroty i cookies<br>Integracje: Baselinker, Subiekt Nexo, Comarch, Apilo / PayU, PayNow, Przelewy24, Shopify Payments / InPost, DPD, DHL, Orlen Paczka<br>Analityka: GA4, GTM, Search Console, Meta Pixel + CAPI, Google Merchant Center, Clarity/Hotjar</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144002/offer/start/",
+    "scraped_at": "2026-09-10T16:03:00"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nMigracje sklepów na Shopify to nasza codzienność. Robiliśmy już wdrożenia z zachowaniem SEO i integracjami ERP, więc wiemy, gdzie通常 są pułapki.\n\nZaczynacie od pilotażu, a potem stała współpraca. Samą migrację da się ogarnąć, ale prawdziwy problem to spięcie tego w całość, żeby dane nie rozjeżdżały się między sklepem a magazynem. Po pierwsze, plan Shopify Basic może nie wystarczyć do pełnych integracji API, potrzebny będzie co najmniej Grow. Po drugie, Subiekt Nexo nie ma publicznego REST API, więc trzeba zbudować warstwę pośrednią (middleware), która przetłumaczy dane między sklepem a ERP. Po trzecie, Comarch Optima ma pięć różnych API i na starcie trzeba ustalić, które jest używane w tej instalacji, bo od tego zależy czas wdrożenia. Do tego Omnibus wymaga zewnętrznej aplikacji do śledzenia historii cen, a DPD, DHL i Orlen Paczka nie mają oficjalnych aplikacji w Shopify, więc trzeba je spinać przez zewnętrzne API.\n\nWszystkie funkcje sklepowe i integracje spinamy w jeden spójny system, a ERP i płatności idą przez jedną warstwę pośrednią, żeby zamówienia nie rozjeżdżały się między sklepem a magazynem. Przy migracji danych pilnujemy struktury kolekcji, przekierowań 301 z limitem 100 tysięcy URL-i na standardowych planach i minimalizujemy straty SEO. Analitykę (GA4, GTM, Meta Pixel + CAPI, Merchant Center) wpinamy od razu, żebyście mieli pełny obraz sprzedaży.\n\nZa przeprowadzenie pilotażowej migracji i wdrożenia z integracjami liczymy 50000 zł. Realizacja w 104 dni. W cenie dajemy 30 dni bezpłatnej asysty powdrożeniowej i krótkie wideo pokazujące, jak obsługiwać panel.\n\nZdzwońmy się na 15 minut, żeby omówić szczegóły. Napisz na priv, to dopniemy resztę.",
+    "wycena": 50000,
+    "dni": 104,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144002",
+    "wycena": 50000,
+    "dni": 104,
+    "final_url": "https://useme.com/pl/jobs/144002/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144002.png",
+    "message": "Oferta #144002 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144002/offer/finish/)."
+  },
+  "full_description": "<p>Jesteśmy agencją performance i eCommerce (Adtrip). Łączymy reklamy (Meta, Google, TikTok) z technologią sprzedaży — realizujemy migracje sklepów na Shopify, wdrożenia UX/UI, marketing automation i integracje systemowe dla klientów B2C i B2B.</p>\n\n<p>Szukamy osoby do prowadzenia pełnego procesu migracji i wdrożeń na Shopify. Zaczynamy od jednego projektu pilotażowego, a przy dobrej współpracy przechodzimy w stały tryb — mamy ciągły dopływ projektów.</p>\n\n<p>Zakres prac:</p>\n\n<p>Warsztat zerowy z klientem (online), analiza konkurencji, współpraca przy makietach UX/UI<br>Migracja danych i SEO — struktura kolekcji, optymalizacja nazw produktów i kategorii, przekierowania 301, minimalizacja strat SEO<br>Wdrożenie produktów i kategorii — import, warianty, ceny, zdjęcia<br>Funkcjonalności: upsell, cross-sell, bundle, volume discounts, programy lojalnościowe i afiliacyjne, wishlist, subskrypcje, newsletter, blog, AI chat, IG feed, B2B, wersje językowe i walutowe, Omnibus, opinie, regulaminy, zwroty i cookies<br>Integracje: Baselinker, Subiekt Nexo, Comarch, Apilo / PayU, PayNow, Przelewy24, Shopify Payments / InPost, DPD, DHL, Orlen Paczka<br>Analityka: GA4, GTM, Search Console, Meta Pixel + CAPI, Google Merchant Center, Clarity/Hotjar</p>",
+  "updated_at": "2026-09-10T16:59:24.518386"
+}

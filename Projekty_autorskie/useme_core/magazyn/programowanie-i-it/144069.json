@@ -1,0 +1,37 @@
+{
+  "id": "144069",
+  "url": "https://useme.com/pl/jobs/aplikacja-mobilna-kotlin-poszukiwany-programista,144069/",
+  "title": "Aplikacja mobilna kotlin - poszukiwany programista",
+  "author": "Anonim",
+  "budget": "10000,00 PLN",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T15:25:31.132719",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144069",
+    "url": "https://useme.com/pl/jobs/aplikacja-mobilna-kotlin-poszukiwany-programista,144069/",
+    "title": "Aplikacja mobilna kotlin - poszukiwany programista",
+    "budget": "10000,00 PLN",
+    "author": "Anonim",
+    "short_desc": "Dzień dobry,\n\nmamy aplikację mobilną napisaną w Kotlinie, którą należy dokończyć zgodnie z wytycznymi klienta. Zakres prac obejmuje m.in. dodanie nowych funkcji związanych z wyliczeniami oraz wykonanie pozostałych modyfikacji i zmian w...",
+    "category": "programowanie-i-it"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/aplikacja-mobilna-kotlin-poszukiwany-programista,144069/",
+    "title": "Aplikacja mobilna kotlin - poszukiwany programista",
+    "full_description": "<p>Dzień dobry,</p>\n\n<p>mamy aplikację mobilną napisaną w Kotlinie, którą należy dokończyć zgodnie z wytycznymi klienta. Zakres prac obejmuje m.in. dodanie nowych funkcji związanych z wyliczeniami oraz wykonanie pozostałych modyfikacji i zmian w aplikacji.</p>\n\n<p>Szukamy specjalisty w technologii Kotlin, który posiada co najmniej rok doświadczenia w pracy z tą technologią.</p>\n\n<p>Aplikacja służy do usprawniania przejazdów. Część logiki oraz główne funkcje aplikacji zostały już napisane, dlatego projekt znajduje się obecnie na etapie dalszego rozwoju.</p>\n\n<p>Z klientem współpracujemy od wielu miesięcy i projekt ma charakter rozwojowy. Ze względu na brak możliwości dalszego rozwijania rozwiązania przez poprzedniego programistę szukamy nowej osoby, która przejmie dalsze prace nad aplikacją.</p>\n\n<p>Szukamy freelancera, który bardzo dobrze zna Kotlin i jest w stanie rozpocząć współpracę od zaraz. Zależy nam również na możliwości dłuższej współpracy przy kolejnych etapach rozwoju projektu.</p>\n\n<p>Więcej informacji przekażemy wybranym osobom.</p>",
+    "has_add_offer_button": false,
+    "add_offer_href": null,
+    "scraped_at": "2026-09-10T15:25:58"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu. Robimy mobile w Kotlinie i Flutterze, przejmowaliśmy już projekty po innych wykonawcach.\n\nPrzejęcie cudzej apki to nie jest dodanie dwóch funkcji. Zanim cokolwiek dopiszemy, trzeba zrozumieć, co jest w środku: architektura, warstwy, gdzie siedzi logika wyliczeń, jak trzymane są dane. Bez tego każda nowa funkcja to proszenie się o regresję w miejscach, o których nikt już nie pamięta. Dlatego pierwszy etap to audyt kodu (puścimy m.in. analizę grafów modułów Gradle, żeby zobaczyć cykle i dług techniczny), uporządkowanie dostępów i repo, ustalenie co realnie działa, a co jest atrapą. Dopiero potem wchodzimy w rozwój.\n\nDrugi etap to to, o co prosisz w ogłoszeniu: funkcje wyliczeń i pozostałe modyfikacje. Z opisu wynika, że część logiki już jest, więc siadamy na tym, co istnieje, i dokładamy kalkulator przejazdu tak, żeby nie rozjechał reszty. Jeśli apka korzysta z map i geolokalizacji, warto przy okazji rzucić okiem na koszty dostawcy. Google w 2026 zmienił model rozliczeń (koniec z kredytem, są plany subskrypcyjne), a przy większym ruchu potrafi to zaboleć. Cache'owanie geokodowania i sensowny wybór SDK ścinają koszty w dół, ewentualnie wchodzi Mapbox z 50 tysiącami darmowych ładowań miesięcznie.\n\nKolejna rzecz: transfer w Google Play. Od maja 2026 zmiana właściciela apki musi iść oficjalnym workflow z 7-dniowym cool-downem, nie da się już przekazać konta przez dane logowania. Uporządkujemy to na starcie, żeby aktualizacje nie stanęły w połowie prac.\n\nJeśli w przyszłości myślicie o iOS, kod da się ułożyć tak, żeby logika biznesowa była współdzielona przez Kotlin Multiplatform. Google to oficjalnie wspiera, więc nie trzeba będzie przepisywać wszystkiego od zera.\n\nZa audyt, stabilizację i dokończenie apki zgodnie z waszymi wytycznymi liczymy 8500 zł, realizacja w 13 dni. Jeśli wolisz zacząć od mniejszego etapu (audyt plus sam kalkulator, a mapę i resztę w drugim kroku), też tak możemy.\n\nZdzwońmy się w tym tygodniu na 15 minut, wspólnik zerknie od strony backendu.\n\nPozdrawiam",
+    "wycena": 8500,
+    "dni": 13,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": null,
+  "updated_at": "2026-09-10T16:33:39.645345",
+  "error": null,
+  "my_offer_url": "https://useme.com/pl/jobs/my-offer/2861189/"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "40703387",
+  "url": "https://www.freelancer.pl/projects/app-development/App-Windows-Etiquetas-Alunos/details",
+  "title": "App Windows Etiquetas de Alunos",
+  "author": "Anonim",
+  "budget": "30.0 - 250.0 USD",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.810571",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703387",
+    "url": "https://www.freelancer.pl/projects/app-development/App-Windows-Etiquetas-Alunos/details",
+    "seo_url": "app-development/App-Windows-Etiquetas-Alunos",
+    "title": "App Windows Etiquetas de Alunos",
+    "budget": "30.0 - 250.0 USD",
+    "budget_raw": {
+      "minimum": 30.0,
+      "maximum": 250.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "Preciso de um aplicativo desktop para Windows que me permita cadastrar e gerenciar alunos e, a parti",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Entry",
+      "Software Development",
+      "SQLite",
+      "Label Design",
+      "Database Management",
+      "App Development",
+      "Software Engineering",
+      "Desktop Application"
+    ],
+    "bid_stats": {
+      "bid_count": 35,
+      "bid_avg": 116.572
+    },
+    "local": false,
+    "time_submitted": 1789051360
+  },
+  "full_details": {
+    "id": "40703387",
+    "title": "App Windows Etiquetas de Alunos",
+    "full_description": "Preciso de um aplicativo desktop para Windows que me permita cadastrar e gerenciar alunos e, a partir desses dados, imprimir etiquetas adesivas no formato retangular pequeno.\n\nFuncionalidades que não podem faltar:\n• Cadastro completo com campos: Nome do aluno, Turma e Matéria escolar (ex.: Matemática).  \n• Campos adicionais básicos já previstos: série, data do cadastro e situação (ex.: cursando).  \n• Filtro para selecionar um aluno específico ou gerar etiquetas em lote por turma ou por série.  \n• Tela onde eu marco quais campos desejo que apareçam na impressão antes de gerar cada etiqueta.  \n• Cabeçalho fixo com o nome da escola impresso em todas as etiquetas.  \n• Compatibilidade nativa com impressoras de etiqueta adesiva retangular pequena.\n\nFluxo esperado:\n1. Digito ou importo os dados dos alunos.  \n2. Escolho se vou imprimir individualmente, por turma ou por série.  \n3. Defino quais campos vão na etiqueta.  \n4. Confiro a pré-visualização e mando imprimir.\n\nEntrego a você o layout do cabeçalho e maiores detalhes de campo assim que iniciarmos. Quero um executável simples de instalar, sem dependências complexas, que rode do Windows 10 em diante e armazene os dados localmente (pode ser SQLite ou similar). Se já tiver experiência com softwares de etiquetas, mencione exemplos.",
+    "budget_raw": {
+      "minimum": 30.0,
+      "maximum": 250.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Entry",
+      "Software Development",
+      "SQLite",
+      "Label Design",
+      "Database Management",
+      "App Development",
+      "Software Engineering",
+      "Desktop Application"
+    ],
+    "bid_stats": {
+      "bid_count": 35,
+      "bid_avg": 116.572
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:41"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:41.075211"
+}

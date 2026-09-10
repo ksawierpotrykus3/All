@@ -1,0 +1,36 @@
+{
+  "id": "144168",
+  "url": "https://useme.com/pl/jobs/poprawki-na-stronie-sklepu-sklep-postawiony-na-wp,144168/",
+  "title": "Poprawki na stronie sklepu - sklep postawiony na WP.",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-10T15:25:31.163092",
+  "status": "ZAMKNIETE",
+  "list_details": {
+    "id": "144168",
+    "url": "https://useme.com/pl/jobs/poprawki-na-stronie-sklepu-sklep-postawiony-na-wp,144168/",
+    "title": "Poprawki na stronie sklepu - sklep postawiony na WP.",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Poprawki na stronie dotyczące kluczowej funkcjonalności bardzo małego sklepu, w którym jest tylko kilka produktów - dotyczące one woo commerce - ustawienia zamówień, funkcjonalność wysyłki zamówień produktu cyfrowego na adres mailowy klienta,...",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/poprawki-na-stronie-sklepu-sklep-postawiony-na-wp,144168/",
+    "title": "Poprawki na stronie sklepu - sklep postawiony na WP.",
+    "full_description": "<p>Poprawki na stronie dotyczące kluczowej funkcjonalności bardzo małego sklepu, w którym jest tylko kilka produktów - dotyczące one woo commerce - ustawienia zamówień, funkcjonalność wysyłki zamówień produktu cyfrowego na adres mailowy klienta, wygląd strony składania zamówienia oraz formularza zamówienia. Bardzo proste zmiany.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144168/offer/start/",
+    "scraped_at": "2026-09-10T15:26:11"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu, robimy bezpośrednio i WooCommerce to nasza codzienność. Nie jesteśmy ludźmi od stawiania sklepów od zera, więc trafiliście w temat.\n\nWidzę tu jedną rzecz, która może wyjść dopiero w praniu: domyślnie WooCommerce nie wysyła produktu cyfrowego w załączniku, tylko mail z linkiem do pobrania. I ten mail leci wyłącznie wtedy, gdy włączone jest powiadomienie o zamówieniu ze statusem \"Zrealizowane\". W wielu sklepach ktoś je wyłącza, żeby klient nie dostawał dwóch maili pod rząd, i wtedy klient cyfrowego produktu nie dostaje nic. Zanim zaczniemy cokolwiek zmieniać, sprawdzę, czy to nie jest właśnie wasz przypadek, bo wtedy \"naprawa wysyłki\" to jedna opcja w ustawieniach, a nie pisanie kodu.\n\nDruga rzecz to dostarczalność. Nawet jak mail wyjdzie, przy sklepie na WordPressie często wpada do spamu, bo idzie przez zwykłą funkcję mailową hostingu. Ustawimy wysyłkę przez zewnętrzny serwis pocztowy (czyli maile wychodzą z zaufanego serwera, nie z hostingu) i podepniemy rekordy SPF, DKIM i DMARC. Bez tego od zeszłego roku Gmail i Outlook coraz agresywniej oznaczają takie wiadomości jako spam. Efekt dla was: klient realnie dostaje link do produktu, a nie zastanawia się, gdzie on zniknął.\n\nJeśli jednak chcecie załącznik z plikiem w mailu, a nie sam link, też to ogarnę wtyczką albo kawałkiem kodu, tylko wcześniej powiem wprost: przy większych plikach poczta ma limity rozmiaru i taki mail może nie dojść. Przy plikach do kilku megabajtów problemu nie ma.\n\nCheckout i formularz zamówienia dopasujemy do waszego motywu. Jeśli jest blokowy, pójdziemy edytorem bloków, jeśli klasyczny, zrobimy to przez kod. Wygląd i pola formularza poprawię tak, żeby całość była spójna i nie rozjeżdżała się na telefonie.\n\nZa całość, czyli ustawienie zamówień, wysyłkę produktu cyfrowego na maila, poprawę wyglądu strony składania zamówienia i formularza, liczymy 2000 zł. Realizacja w 7 dni od dostępu do panelu.\n\nZrzućcie na priv adres sklepu i dostęp do WP, rzucę okiem i potwierdzę, co dokładnie siedzi w środku. Możemy też wskoczyć na 15 minut na Google Meet albo telefon.",
+    "wycena": 2000,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:17:57.335137",
+  "error": "To zlecenie jest zamknięte przez zleceniodawcę"
+}

@@ -1,0 +1,65 @@
+# ANALIZA TECHNICZNA ARCHITEKTURY VINTED (ZWERYFIKOWANA NA DOWODACH)
+
+Data aktualizacji: 2026-08-26
+Status: Oczyszczona z halucynacji AI. Zawiera wyłącznie zweryfikowane fakty z testów oraz jawne hipotezy do pomiaru.
+
+---
+
+## 1. WARSTWA DETEKCJI OFERT (Zweryfikowane pomiarami)
+
+### Kanały komunikacji:
+* Brak otwartych WebSocketów, Server-Sent Events (SSE) ani push streamów dla kupujących.
+* Jedyna działająca droga detekcji w kodzie: cykliczny polling REST:
+  `GET /api/v2/catalog/items`
+
+### Parametry i filtry API:
+* `order=newest_first` — DZIAŁA. Zapewnia najnowsze oferty na początku listy (potwierdzone w probe_luki.py).
+* `per_page=96` — twardy limit serwera (wartości wyższe są obcinane do 96).
+* `brand_ids` — DZIAŁA (przetestowano 100% zgodności na marce Nike).
+* `size_ids`, `status_ids`, `search_text` — DZIAŁAJĄ (test bzdurnym ID zwraca 0 wyników).
+* `price_from` / `price_to` — DZIAŁA (walidowane na realnych cenach).
+* `catalog[]` / `catalog_ids` (Kategoria) — NIE DZIAŁA w JSON API (zwraca stały katalog 960 ofert). Kategoria jest dostępna wyłącznie przez scrapowanie strony HTML SSR (`/catalog?catalog[]=ID`) i parsowanie danych Next.js RSC Flight Data (`self.__next_f.push`).
+
+### System ID na Vinted (Kluczowa różnica względem OLX):
+* Numeryczne ID ofert na Vinted są nieliniowe / losowe (próbka 96 ofert: 43 rosnące, 52 malejące, rozstęp 121 757).
+* Predykcja sekwencyjna (jak na OLX) jest niemożliwa. Przewaga musi wynikać wyłącznie z szybkości reakcji i niskiej latencji.
+
+### Rate-limit i ochrona sieciowa:
+* Twardy zmierzony limit na 1 adres IP: ~0.83 req/s (test: 30 zapytań co 0.15s wywołało HTTP 429 po 6 requestach).
+* Bezpieczny interwał produkcyjny: 0.8s – 1.2s z losowym jitterem.
+* Wymagana emulacja TLS/JA4 (np. curl_cffi chrome124), aby nie dostać natychmiastowego HTTP 403 DataDome / Cloudflare.
+
+---
+
+## 2. WARSTWA CHECKOUTU I ZAKUPU (Stan faktyczny: Do zmapowania w Fazie 1)
+
+### Co wiemy na pewno:
+* Publiczne boty (np. kops.gg) robią zakupy w realnym czasie 5–6 sekund (dane z pomiaru klienta).
+* Opóźnienie kopsa wynika z:
+  1. Narzutu chmury i kolejkowania zadań dla setek użytkowników.
+  2. Opóźnienia powiadomień przez Discord Webhook (~1–2s).
+  3. Braku utrzymywania otwartych, podgrzanych sesji dla każdego użytkownika.
+
+### Czego NIE WIEMY (Białe plamy — wymagają pomiaru dry-run na koncie klienta):
+* Dokładne endpointy i struktura payloadu JSON w procesie zakupu na obecnej wersji produkcyjnej Vinted (brak w dotychczas przechwyconym ruchu przeglądarkowym).
+* Rzeczywisty czas odpowiedzi serwera Vinted przy tworzeniu i finalizacji zamówienia.
+* Zachowanie bramki płatności przy próbie zakupu z Portfela Vinted vs Tokenizowanej Karty (czy i kiedy wyskakuje 3D Secure / autoryzacja).
+
+---
+
+## 3. ZASADY MULTIKONTA I ANTY-BOT
+
+* Zasada nadrzędna: **1 IP = 1 konto**.
+* Każde z 3–4 kont klienta musi posiadać:
+  1. Dedykowany, stały adres IP (Sticky Residential Proxy).
+  2. Osobny kontekst sesji i magazyn ciastek (w tym odrębny token DataDome).
+  3. Spójny profil TLS/JA4 i User-Agent.
+* Współdzielenie tego samego IP lub kontekstu cookies między kontami prowadzi do natychmiastowego łańcuchowego zbanowania powiązanych profili.
+
+---
+
+## 4. PLAN DZIAŁANIA (Prototyp pomiarowy)
+
+1. **Krok 1 (Faza 1):** Przechwycenie realnego łańcucha checkoutu w DevTools na 1 koncie klienta (dry-run do momentu płatności bez wydawania środków).
+2. **Krok 2 (Faza 2):** Pomiar opóźnienia I/O każdego kroku i ustalenie twardej, zmierzonej liczby czasu zakupu.
+3. **Krok 3 (Faza 3):** Replikacja na 3 konta przez dedykowane proxy rezydencjalne.

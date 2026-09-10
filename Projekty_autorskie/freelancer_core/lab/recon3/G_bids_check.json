@@ -1,0 +1,13 @@
+{
+  "status": "success",
+  "result": {
+    "bids": [],
+    "users": null,
+    "recommended_bid": null,
+    "shortlisted_bids": null,
+    "expert_guarantees": null,
+    "recommended_bids": null,
+    "search_metadata": null
+  },
+  "request_id": "9a1814f91d81e808525b65b78a2cd18f"
+}

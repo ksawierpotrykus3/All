@@ -1,0 +1,47 @@
+{
+  "restart_hits": [
+    {
+      "id": 1095109109,
+      "cat": "IPHONE",
+      "source": "HOLE_SWEEP",
+      "price": 1250.0,
+      "title": "iPhone 13 Pro Max 256GB Nowa Bateria!",
+      "created": "2026-08-31T12:27:09+02:00",
+      "region": "Dolnośląskie",
+      "raw": "2026-08-31 12:29:56,501 INFO TRAFIENIE [HOLE_SWEEP] id=1095109109 [IPHONE] cena=1250.0 region=Dolnośląskie tytul=iPhone 13 Pro Max 256GB Nowa Bateria! created=2026-08-31T12:27:09+02:00"
+    },
+    {
+      "id": 1095109263,
+      "cat": "FRONTIER",
+      "source": "FRONTIER",
+      "price": 950.0,
+      "title": "Iphone 14 biały",
+      "created": "2026-08-31T12:27:48+02:00",
+      "region": "Lubelskie",
+      "raw": "2026-08-31 12:30:00,763 INFO TRAFIENIE [FRONTIER] id=1095109263 [IPHONE] cena=950.0 region=Lubelskie tytul=Iphone 14 biały created=2026-08-31T12:27:48+02:00"
+    }
+  ],
+  "post_audit": {
+    "iphone": {
+      "total": 0,
+      "hits": 0,
+      "filtered": 0,
+      "missed": 0,
+      "details": []
+    },
+    "macbook": {
+      "total": 0,
+      "hits": 0,
+      "filtered": 0,
+      "missed": 0,
+      "details": []
+    },
+    "auta": {
+      "total": 0,
+      "hits": 0,
+      "filtered": 0,
+      "missed": 0,
+      "details": []
+    }
+  }
+}

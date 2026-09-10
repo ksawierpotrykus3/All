@@ -1,0 +1,15 @@
+{
+  "api_urls": [
+    "https://www.olx.pl/delivery/checkout/1084508890/"
+  ],
+  "relative_api_paths": [],
+  "keyword_hits": {
+    "BuyWithDelivery": 4,
+    "checkout": 15,
+    "payment": 52,
+    "blik": 27,
+    "delivery": 94,
+    "transaction": 5,
+    "order": 3231
+  }
+}

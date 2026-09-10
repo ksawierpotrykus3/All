@@ -1,0 +1,36 @@
+{
+  "id": "144171",
+  "url": "https://useme.com/pl/jobs/stworzenie-strony-www,144171/",
+  "title": "Stworzenie strony www",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-10T15:25:31.157629",
+  "status": "ZAMKNIETE",
+  "list_details": {
+    "id": "144171",
+    "url": "https://useme.com/pl/jobs/stworzenie-strony-www,144171/",
+    "title": "Stworzenie strony www",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Wykonanie i wdrożenie strony edulica.edu.pl na podstawie dostarczonej makiety.\n\nObecna strona działa na WordPressie: edulica.edu.pl i w jej miejsce wstawiamy nową.\n\nZakres (13 podstron)\nStrona główna,\n8 stron placówek (spójny szablon: mapa +...",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/stworzenie-strony-www,144171/",
+    "title": "Stworzenie strony www",
+    "full_description": "<p>Wykonanie i wdrożenie strony edulica.edu.pl na podstawie dostarczonej makiety.</p>\n\n<p>Obecna strona działa na WordPressie: edulica.edu.pl i w jej miejsce wstawiamy nową.</p>\n\n<p>Zakres (13 podstron)<br>Strona główna,<br>8 stron placówek (spójny szablon: mapa + dojazd, galeria, oferta, kadra, FAQ, CTA),<br>O przedszkolu,<br>Adaptacja,<br>Rekrutacja,<br>Kontakt.</p>\n\n<p>Zakres prac<br>– Wdrożenie 13 podstron zgodnie z makietą, w pełni responsywne (mobile-first; makieta zawiera osobne układy mobilne)<br>– Spójny, edytowalny szablon placówki (8 lokalizacji), w przyszłości sami byśmy chcieli aktualizować dane jak: godziny, kadra, FAQ, galerię i inne<br>– Strona główna: baner rotacyjny (komunikaty), sekcje wizerunkowe, opinie Google, FAQ, sticky menu główne + menu pomocnicze, dropdown „Nasze przedszkola” w ustalonej kolejności.<br>– Rekrutacja: 3 kroki + rozwidlenie ścieżki (spotkanie / zapis) z przełącznikiem formularzy.<br>– Formularze (kontaktowy i zapisowy): walidacja, reCAPTCHA, zgody RODO, wysyłka na adresy e-mail właściwej placówki (@edulica.pl), potwierdzenia; formularz kontaktowy z polem „Temat” (lista) i opcjonalnym „Skąd się Państwo o nas dowiedzieli?”.<br>– Wielojęzyczność PL/UA/EN z przełącznikiem w nawigacji.<br>– Dostępność cyfrowa: WCAG 2.1 AA wraz z deklaracją dostępności (placówki publiczne podlegają ustawie o dostępności cyfrowej) — w tym tryby kontrastu/daltonizmu i regulacja wielkości tekstu jak w makiecie; zachowanie odnośnika BIP.<br>– RODO: baner zgód cookies z kategoriami, polityka prywatności, poprawna obsługa danych z formularzy.<br>– SEO lokalne: schema LocalBusiness/Preschool per placówka, mapa strony,<br>– Wydajność (Core Web Vitals): optymalizacja obrazów, cache; poprawne osadzenie map Google.<br>– Integracje analityczne: GA4 / Search Console (Site Kit) oraz poprawna konfiguracja zdarzeń/konwersji Meta Pixela<br>Mamy schemat / makietę HTML (desktop + mobile - wymaga jeszcze dopracowania)</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144171/offer/start/",
+    "scraped_at": "2026-09-10T15:26:09"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nRobiliśmy już wdrożenia WordPressa dla podmiotów, które muszą spełniać WCAG 2.1 AA, więc od razu powiem gdzie w tym projekcie leży prawdziwa robota. Makieta to jedno, ale przy 8 placówkach i publicznym charakterze strony dostępność jest tym elementem, który realnie decyduje o odbiorze całości. Kary za brak zgodności z ustawą są realne i sięgają tysięcy złotych, a przy 8 placówkach każda mapa wklejona bez tekstowej alternatywy to potencjalne naruszenie. Dlatego mapy osadzimy tak, żeby pod każdą był adres w formie tekstowej i poprawny tytuł ramki, a nie tylko sam iframe. To samo dotyczy trybów kontrastu i regulacji wielkości tekstu z makiety, które muszą działać spójnie na wszystkich 13 podstronach, bo automatyczne narzędzia wyłapią najwyżej 30-40% problemów, resztę trzeba przeklikać ręcznie i sprawdzić czytnikiem ekranu. Na to kładziemy największy nacisk, bo to jest właśnie to, czego większość wdrożeń nie robi.\n\nDrugi temat to szablon placówki. Zrobimy go jako jeden wspólny szablon z polami, które sami edytujecie z panelu (godziny, kadra, FAQ, galeria, oferta), więc dodanie nowej placówki czy zmiana danych to kilka kliknięć, a nie zlecanie tego programiście. Dropdown \"Nasze przedszkola\" będzie trzymał kolejność, którą ustalicie. Formularze natomiast zepniemy tak, żeby zgłoszenie samo trafiało do właściwej placówki na podstawie wybranej lokalizacji, bez ręcznego przeklejania między skrzynkami. Rekrutację zrobimy jako ścieżkę, która prowadzi rodzica krok po kroku i w zależności od tego, czy chce się spotkać, czy od razu zapisać, pokazuje odpowiedni formularz, dzięki czemu mniej osób gubi się w połowie i snowanie porzuca zgłoszenie. Walidacja pól, reCAPTCHA i zgody RODO są w tym wszystkim oczywistością, podobnie jak wielojęzyczność PL/UA/EN z przełącznikiem w nawigacji.\n\nTrzeci element to szybkość i analityka. Poprawne wdrożenie Core Web Vitals to dziś przede wszystkim wskaźnik responsywności INP, czyli czas reakcji strony na kliknięcie, który od 2024 roku zastąpił starszy FID i jest znacznie trudniejszy do zaliczenia. Optymalizujemy obrazy, cache i kolejność ładowania skryptów, żeby to zagrało na mobile. Do tego GA4 z Consent Mode v2, Search Console i poprawnie skonfigurowany Meta Pixel ze zdarzeniami konwersji.\n\nMamy doświadczenie w łączeniu WordPressa z zewnętrznymi API (mapy, analityka, integracje formularzy) i w projektach z wymogami dostępności, więc wiemy gdzie uważać, żeby deklaracja dostępności była zgodna ze stanem faktycznym, a nie tylko formalnością. Pamiętajcie też, że deklarację trzeba aktualizować co najmniej raz w roku do 31 marca, więc po wdrożeniu zostanie przygotowana w wersji, którą będziecie mogli sami odświeżać.\n\nZa wdrożenie całości, czyli 13 podstron, edytowalny szablon 8 placówek, wielojęzyczność, formularze z walidacją i RODO, pełne WCAG 2.1 AA z deklaracją dostępności, SEO lokalne per placówka oraz analitykę, liczymy 7000 zł. Realizacja w 16 dni. W cenie dajemy 30 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali w praniu oraz krótkie wideo pokazujące jak obsługiwać panel i edytować dane placówek.\n\nJeśli chcecie zobaczyć jak to zadziała w praktyce, możemy przygotować krótkie demo na podstawie Waszej makiety. Zdzwońmy się na 15 minut w tym tygodniu albo napiszcie na priv to dopniemy szczegóły.\n\nPozdrawiam",
+    "wycena": 7000,
+    "dni": 16,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:17:57.337069",
+  "error": "To zlecenie jest zamknięte przez zleceniodawcę"
+}

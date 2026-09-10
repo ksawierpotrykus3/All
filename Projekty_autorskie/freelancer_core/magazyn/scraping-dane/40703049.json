@@ -1,0 +1,79 @@
+{
+  "id": "40703049",
+  "url": "https://www.freelancer.pl/projects/telemarketing/prospection-Cabinets-Comptables/details",
+  "title": "Téléprospection MADAGASCAR B2B Cabinets Comptables",
+  "author": "Anonim",
+  "budget": "250.0 - 750.0 EUR",
+  "category": "scraping-dane",
+  "detected_at": "2026-09-10T17:44:24.335315",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703049",
+    "url": "https://www.freelancer.pl/projects/telemarketing/prospection-Cabinets-Comptables/details",
+    "seo_url": "telemarketing/prospection-Cabinets-Comptables",
+    "title": "Téléprospection MADAGASCAR B2B Cabinets Comptables",
+    "budget": "250.0 - 750.0 EUR",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "EUR",
+    "author": "Anonim",
+    "short_desc": "Je lance une campagne de prospection téléphonique auprès de dirigeants de cabinets comptables et j’a",
+    "category": "scraping-dane",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Entry",
+      "Telemarketing",
+      "Virtual Assistant",
+      "CRM",
+      "Web Search",
+      "French Translator",
+      "Google Sheets",
+      "B2B Marketing"
+    ],
+    "bid_stats": {
+      "bid_count": 7,
+      "bid_avg": 421.42857142857144
+    },
+    "local": false,
+    "time_submitted": 1789040089
+  },
+  "full_details": {
+    "id": "40703049",
+    "title": "Téléprospection MADAGASCAR B2B Cabinets Comptables",
+    "full_description": "Je lance une campagne de prospection téléphonique auprès de dirigeants de cabinets comptables et j’ai besoin d’un téléprospecteur B2B francophone confirmé capable de prendre entre trois et cinq rendez-vous qualifiés par jour. L’accent français est indispensable, tout comme une attitude sérieuse, stable et motivée, assortie d’au moins trois années d’expérience en téléprospection ou en prise de rendez-vous B2B.\n\nHoraires : 8 h 30-12 h 30 et 13 h 30-18 h 30 (heure française), du lundi au vendredi.  \nRémunération : durant les quinze premiers jours, 3 € par rendez-vous pris et honoré ; ensuite, un fixe mensuel de 300 € auquel s’ajoute la même prime de 3 € par rendez-vous réussi.\n\nJe fournis le script, un fichier de contacts qualifié et un tableau Google Sheets qui servira uniquement à la gestion des rendez-vous (pas de rappels automatiques). Votre aisance sur Google Sheets est donc essentielle ; la maîtrise éventuelle de HubSpot, Salesforce ou d’un CRM personnalisé sera considérée comme un atout supplémentaire.\n\nPour que votre candidature soit étudiée, merci de m’envoyer :  \n• votre CV à jour,  \n• un résumé de vos expériences en téléprospection,  \n• un court enregistrement vocal démontrant votre élocution.\n\nJe reviendrai rapidement vers les profils correspondant à ces critères afin de démarrer la mission sans délai.",
+    "budget_raw": {
+      "minimum": 250.0,
+      "maximum": 750.0
+    },
+    "currency": "EUR",
+    "project_type": "fixed",
+    "jobs": [
+      "Data Entry",
+      "Telemarketing",
+      "Virtual Assistant",
+      "CRM",
+      "Web Search",
+      "French Translator",
+      "Google Sheets",
+      "B2B Marketing"
+    ],
+    "bid_stats": {
+      "bid_count": 7,
+      "bid_avg": 421.42857142857144
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:44:26"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:44:26.212164"
+}

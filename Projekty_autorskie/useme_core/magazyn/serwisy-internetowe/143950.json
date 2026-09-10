@@ -1,0 +1,44 @@
+{
+  "id": "143950",
+  "url": "https://useme.com/pl/jobs/automatyzacja,143950/",
+  "title": "AUTOMATYZACJA",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-08T18:26:26.909776",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "143950",
+    "url": "https://useme.com/pl/jobs/automatyzacja,143950/",
+    "title": "AUTOMATYZACJA",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "napisac boota ktory bedzie wysylal i zbieral kody  do bazy dancych , node.js java script",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/automatyzacja,143950/",
+    "title": "AUTOMATYZACJA",
+    "full_description": "<p>napisac boota ktory bedzie wysylal i zbieral kody  do bazy dancych , node.js java script</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/143950/offer/start/",
+    "scraped_at": "2026-09-10T16:02:49"
+  },
+  "ai_proposal": {
+    "opis": "Hej,\n\nBot w Node.js do wysyłki i zbierania kodów to prosty temat, ale w opisie jest jedna rzecz, którą trzeba doprecyzować, zanim w ogóle usiądę do kodu. Bo \"kody\" mogą znaczyć wszystko: kody SMS, kody promocyjne, kody 2FA, tokeny z API. Od tego zależy dosłownie cała architektura.\n\nDlatego zamiast strzelać w ciemno proponuję tak: Ty mówisz mi skąd te kody przychodzą, dokąd lecą i co ma się z nimi dziać, a ja w ciągu 7 dni stawiam działającego bota.\n\nKilka rzeczy, które zrobię od razu dobrze, niezależnie od szczegółów:\n\nBaza danych. Kody to zwykle dane ustrukturyzowane (string, status, data, powiązanie z użytkownikiem), więc wrzucę je do PostgreSQL, a nie do MongoDB. Powód jest praktyczny: szybciej filtrujesz po statusie i dacie, łatwiej robisz raporty i mniej płacisz za utrzymanie, jak projekt urośnie.\n\nLimit zapytań. Jeśli bot gada z zewnętrznym API (np. bramką SMS), to musi respektować limity, bo inaczej po kilkudziesięciu minutach dostaniesz bana. Wbuduję kolejkę i ponawianie z rosnącym opóźnieniem, żeby bot nie zabijał sam siebie przy większym ruchu.\n\nJeśli bot zbiera kody powiązane z numerem telefonu albo mailem, to wchodzi RODO, bo to dane osobowe. Dorzucę od razu mechanizm, który pozwala je anonimizować i ustawić, jak długo trzymamy historię. To nie jest overkill, to jest jedna funkcja więcej, a oszczędza Ci problemów później.\n\nZa postawienie bota od zera, z bazą, logiką wysyłki i zbierania oraz podstawowym panelem do podglądu, liczymy 1200 zł. Realizacja w 7 dni od momentu, kiedy doprecyzujemy skąd i dokąd lecą kody.\n\nW cenie dajemy 14 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali oraz krótkie wideo pokazujące jak obsługiwać bota i podejrzeć bazę.\n\nZdzwońmy się na 15 minut albo napisz na priv. Jak podasz mi źródło i typ kodów, od razu rzucę okiem i powiem czy 7 dni wystarczy, czy trzeba coś dołożyć. Jeśli chcesz, mogę wcześniej przygotować krótkie demo samego mechanizmu zapisu i odczytu, żebyś zobaczył jak to działa w praktyce.\n\nPozdrawiam",
+    "wycena": 1200,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "143950",
+    "wycena": 1200,
+    "dni": 7,
+    "final_url": "https://useme.com/pl/jobs/143950/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_143950.png",
+    "message": "Oferta #143950 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/143950/offer/finish/)."
+  },
+  "full_description": "<p>napisac boota ktory bedzie wysylal i zbieral kody  do bazy dancych , node.js java script</p>",
+  "updated_at": "2026-09-10T16:52:16.151036"
+}

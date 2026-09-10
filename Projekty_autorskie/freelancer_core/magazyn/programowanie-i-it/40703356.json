@@ -1,0 +1,83 @@
+{
+  "id": "40703356",
+  "url": "https://www.freelancer.pl/projects/website-development/Fix-WordPress-Template-Loading-Error/details",
+  "title": "Fix WordPress Template Loading Error",
+  "author": "Anonim",
+  "budget": "10.0 - 30.0 USD",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.820822",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703356",
+    "url": "https://www.freelancer.pl/projects/website-development/Fix-WordPress-Template-Loading-Error/details",
+    "seo_url": "website-development/Fix-WordPress-Template-Loading-Error",
+    "title": "Fix WordPress Template Loading Error",
+    "budget": "10.0 - 30.0 USD",
+    "budget_raw": {
+      "minimum": 10.0,
+      "maximum": 30.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I have a Wordpress website that stopped working due to template expiry and incompatibility with pho ",
+    "category": "programowanie-i-it",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "WordPress",
+      "CSS",
+      "HTML",
+      "Web Development",
+      "Website Optimization",
+      "WordPress Design",
+      "Web Design",
+      "WordPress Plugin",
+      "Website Development"
+    ],
+    "bid_stats": {
+      "bid_count": 180,
+      "bid_avg": 26.952277777777777
+    },
+    "local": false,
+    "time_submitted": 1789050293
+  },
+  "full_details": {
+    "id": "40703356",
+    "title": "Fix WordPress Template Loading Error",
+    "full_description": "I have a Wordpress website that stopped working due to template expiry and incompatibility with pho version.\n\nYou just need to fix that",
+    "budget_raw": {
+      "minimum": 10.0,
+      "maximum": 30.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "PHP",
+      "WordPress",
+      "CSS",
+      "HTML",
+      "Web Development",
+      "Website Optimization",
+      "WordPress Design",
+      "Web Design",
+      "WordPress Plugin",
+      "Website Development"
+    ],
+    "bid_stats": {
+      "bid_count": 180,
+      "bid_avg": 26.952277777777777
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:41"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:41.943858"
+}

@@ -1,0 +1,44 @@
+{
+  "steps": [
+    {
+      "step": "catalog(firefox133)",
+      "total_ms": 1200.6,
+      "http": 200
+    },
+    {
+      "step": "conversations(ff133)",
+      "total_ms": 1306.0,
+      "http": 200
+    },
+    {
+      "step": "build(ff133)",
+      "total_ms": 1639.3,
+      "http": 200
+    },
+    {
+      "step": "catalog#2",
+      "total_ms": 1021.3,
+      "http": 200
+    },
+    {
+      "step": "build(item_id,bez-conv)",
+      "total_ms": 105.9,
+      "http": 403
+    }
+  ],
+  "item": {
+    "id": 9825985806,
+    "seller": 97444056,
+    "title": "Fennekin 011/086 Chaos Rising Reverse Holo"
+  },
+  "txn_id": 21910421435,
+  "checkout_id": "UlNy2kMIcK8z8YdMtSAca",
+  "reservation_ff133_ms": 2946.1,
+  "probe_build_item_id": {
+    "item2_id": 9825987175,
+    "total_ms": 106.1,
+    "http": 403,
+    "errors": null,
+    "body_head": "{\"url\": \"https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAFdAaz0Hyt-IA9U5bmA==&cid=k_dLly0gtbETY6XLwcXPB776i7rPLxYk~j2tjgWSsWp_tdCS3alb6wV5iq~AnhiVSN~UGVuHRVcLaPWfRtawX83mVvdWUP~C~P~w6"
+  }
+}

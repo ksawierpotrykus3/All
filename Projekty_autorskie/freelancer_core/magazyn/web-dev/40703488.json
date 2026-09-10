@@ -1,0 +1,71 @@
+{
+  "id": "40703488",
+  "url": "https://www.freelancer.pl/projects/html/Modern-Business-Website-Build-40703488/details",
+  "title": "Modern Business Website Build -- 2",
+  "author": "Anonim",
+  "budget": "10.0 - 30.0 USD",
+  "category": "web-dev",
+  "detected_at": "2026-09-10T17:44:24.199815",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703488",
+    "url": "https://www.freelancer.pl/projects/html/Modern-Business-Website-Build-40703488/details",
+    "seo_url": "html/Modern-Business-Website-Build-40703488",
+    "title": "Modern Business Website Build -- 2",
+    "budget": "10.0 - 30.0 USD",
+    "budget_raw": {
+      "minimum": 10.0,
+      "maximum": 30.0
+    },
+    "currency": "USD",
+    "author": "Anonim",
+    "short_desc": "I’m ready to launch a sleek, mobile-first business website whose sole purpose is to showcase my prod",
+    "category": "web-dev",
+    "project_type": "fixed",
+    "jobs": [
+      "Graphic Design",
+      "CSS",
+      "HTML",
+      "Web Design"
+    ],
+    "bid_stats": {
+      "bid_count": 48,
+      "bid_avg": 32.479166666666664
+    },
+    "local": false,
+    "time_submitted": 1789054732
+  },
+  "full_details": {
+    "id": "40703488",
+    "title": "Modern Business Website Build -- 2",
+    "full_description": "I’m ready to launch a sleek, mobile-first business website whose sole purpose is to showcase my products and services in the best possible light. Think uncluttered layouts, generous white space, and a navigation flow so intuitive that visitors immediately land on what matters: clear product descriptions that convert curiosity into action.\n\nHere’s what I expect from you:  \n• A fully responsive site coded in clean, well-documented HTML, CSS, and vanilla JavaScript—no bulky frameworks, so performance stays fast on every device.  \n• A dedicated section for each product or service, pairing concise copy with strong visual hierarchy so details stand out.  \n• Lightweight interactions (smooth scrolling, subtle hover effects) that keep the experience engaging without compromising speed.  \n• Code structured logically—semantic HTML tags, modular CSS with comments, and JS separated into tidy functions—so future updates remain painless.\n\nI’ll supply logos, color preferences, and all product text as soon as we get started. At hand-off, I’d like the full source folder, a brief read-me outlining the file structure, and a quick rundown of any libraries used (if any). If this sounds like your craft, let’s build something clean, modern, and effortless to navigate.",
+    "budget_raw": {
+      "minimum": 10.0,
+      "maximum": 30.0
+    },
+    "currency": "USD",
+    "project_type": "fixed",
+    "jobs": [
+      "Graphic Design",
+      "CSS",
+      "HTML",
+      "Web Design"
+    ],
+    "bid_stats": {
+      "bid_count": 48,
+      "bid_avg": 32.479166666666664
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:44:25"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:44:25.886919"
+}

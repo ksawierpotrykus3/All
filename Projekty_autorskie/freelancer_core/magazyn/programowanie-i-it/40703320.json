@@ -1,0 +1,79 @@
+{
+  "id": "40703320",
+  "url": "https://www.freelancer.pl/projects/desktop-application/Windows-Income-Expense-Manager/details",
+  "title": "Windows Income & Expense Manager",
+  "author": "Anonim",
+  "budget": "750.0 - 1250.0 INR",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-10T17:28:38.834779",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "40703320",
+    "url": "https://www.freelancer.pl/projects/desktop-application/Windows-Income-Expense-Manager/details",
+    "seo_url": "desktop-application/Windows-Income-Expense-Manager",
+    "title": "Windows Income & Expense Manager",
+    "budget": "750.0 - 1250.0 INR",
+    "budget_raw": {
+      "minimum": 750.0,
+      "maximum": 1250.0
+    },
+    "currency": "INR",
+    "author": "Anonim",
+    "short_desc": "I need a straightforward desktop application for Windows that lets me record, review, and share inco",
+    "category": "programowanie-i-it",
+    "project_type": "hourly",
+    "jobs": [
+      ".NET",
+      "Excel",
+      "C# Programming",
+      "C++ Programming",
+      "WPF",
+      "Software Development",
+      "Database Management",
+      "Desktop Application"
+    ],
+    "bid_stats": {
+      "bid_count": 14,
+      "bid_avg": 1527.0714285714287
+    },
+    "local": false,
+    "time_submitted": 1789048994
+  },
+  "full_details": {
+    "id": "40703320",
+    "title": "Windows Income & Expense Manager",
+    "full_description": "I need a straightforward desktop application for Windows that lets me record, review, and share income and expense data with my small team. The program must feel native to Windows, install with a simple setup file, and keep everything local (no browser dependencies).\n\nCore requirements I want to see built in:  \n\n• Data import/export – at minimum CSV; Excel or PDF support is a plus.  \n• Report generation – clear summaries filtered by date range, category, and user.  \n• Multi-user support – individual log-ins with their own permission levels and an admin account to manage them.\n\nI’m flexible on the tech stack as long as it runs smoothly on current Windows versions; C#/WPF, Electron, JavaFX—whatever you’re most productive with works for me. Please include the compiled executable, full source code, and a brief read-me so I can rebuild or extend the app later. If you’ve built similar finance tools before, links or screenshots will help me decide quickly.",
+    "budget_raw": {
+      "minimum": 750.0,
+      "maximum": 1250.0
+    },
+    "currency": "INR",
+    "project_type": "hourly",
+    "jobs": [
+      ".NET",
+      "Excel",
+      "C# Programming",
+      "C++ Programming",
+      "WPF",
+      "Software Development",
+      "Database Management",
+      "Desktop Application"
+    ],
+    "bid_stats": {
+      "bid_count": 14,
+      "bid_avg": 1527.0714285714287
+    },
+    "owner": {
+      "username": null,
+      "display_name": null,
+      "country": null,
+      "city": null,
+      "reputation": null,
+      "jobs_posted": null
+    },
+    "scraped_at": "2026-09-10T17:28:43"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-10T17:28:43.107684"
+}

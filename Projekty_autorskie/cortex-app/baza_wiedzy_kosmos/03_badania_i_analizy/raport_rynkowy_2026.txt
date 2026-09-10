@@ -1,0 +1,4 @@
+Raport rynkowy Q3 2026:
+- Popyt na automatyzacje no-code/low-code: +45%
+- Srednia stawka za godzine programisty Python: 220 PLN
+- Glowne zrodla zlecen: Useme, LinkedIn, Grupy FB.

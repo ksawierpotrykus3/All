@@ -1,0 +1,20 @@
+### TRANSKRYPCJA AUDIO ###
+Język: en
+
+[00:00] Agents are not a product. They're a naming convention.
+[00:04] Everyone is building an agent or agent structure and sharing it as like a product or a feature, but that's not what it is.
+[00:10] It's just a naming convention.
+[00:12] Specifically, it's four humans. We made agents because of the UX and UI that humans need to understand the complexity of using AI.
+[00:21] You see what one or multiple agents is doing. They're simply the same model or multiple models organized with tools and data in different contexts.
+[00:32] You see one agent is handling some sort of task or process with certain tools and data in a step or shape of process.
+[00:41] In other words, in order to make sure that the model does not have too much in its context window or it's doing the right thing at the right time,
+[00:48] we created agents because we can focus and make sure that that agent does the thing right.
+[00:53] They were created as a solution for humans to be able to understand what they were controlling. This is UX and UI design.
+[01:01] You see when you're designing an app, you have thousands of functions and actions and automations that you put behind buttons and tools.
+[01:08] You name them so that we can understand what they do and when they're doing it.
+[01:13] Because for most people, just knowing which command and which function to call, if you've ever used Linux, can be overwhelming.
+[01:20] It's not a good UX experience for everyone.
+[01:22] I can run thousands of chats in 100 different folders with 100 different tools and do the output that agents are doing.
+[01:30] You then give that agent to another agent but we still track what each one is doing.
+[01:34] This is important to understand because when you realize agents are actually a UX, UI design and not a product,
+[01:41] you start building the actual product.

@@ -1,0 +1,122 @@
+# ========== WRAPLIWE DANE VINTED - NIGDY NIE COMMITOWAĆ ==========
+# Zasada: Jeśli plik zawiera tokeny, sesje, cookies, klucze - musi być tutaj
+
+# === COOKIES I SESJE ===
+**/cookies*
+**/*cookies*
+**/session*
+**/*session*
+**/_fr_session*
+**/*auth*
+$dex
+.dex
+# Wyjątki: kod źródłowy bota (nie dane sesji)
+!bot/src/vintedbot/session_state.py
+!bot/tests/test_session_state.py
+archive/
+
+# === TOKENY I CREDENTIALS ===
+**/token*
+**/*token*
+**/secret*
+**/*secret*
+**/password*
+**/*password*
+**/key*
+**/*key*
+**/credential*
+**/*credential*
+**/*.env*
+**/.env*
+**/config_secret.*
+
+# === WYNIKI TESTOW Z DANYMI WRAPLIWYMI ===
+**/wynik_*
+**/*wynik_*
+**/export_*
+**/*export_*
+
+# === PLIKI Z ZAWARTOŚCIĄ WRAPLIWĄ ===
+**/*_profil*
+**/profil_*
+**/*firefox.txt
+**/*.sqlite
+**/*.db
+**/*.pem
+**/*.cert
+**/*.p12
+**/*.key
+
+# === PROFILES PRZEGLĄDARKI ===
+vinted/testy_camoufox/implementation/browser-profiles/
+
+# === HAR (zawierają tokeny sesji, cookies, PII) ===
+**/*.har
+vinted/testy_camoufox/docs/references/read_har_out.json
+vinted/testy_camoufox/core/incognia/HAR_FINGERPRINT.json
+vinted/testy_camoufox/core/checkout/checkout_sequence_from_har.json
+
+# === LOGI TESTOWE (tokeny sesji, klucze AES/Adyen, sygnały Incognia) ===
+vinted/testy_camoufox/docs/logs/
+vinted/testy_camoufox/docs/references/playwright_build_headers_out.json
+vinted/testy_camoufox/docs/references/playwright_capture_out.json
+
+# === STRUKTURA PROJEKTU VINTED ===
+# Ignoruj śmieci - nieważne pliki i artefakty
+**/.bin/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.Python
+**/pip-log.txt
+**/pip-delete-this-directory.txt
+**/htmlcov/
+**/.tox/
+**/.coverage
+**/.coverage.*
+**/.cache
+**/nosetests.xml
+**/coverage.xml
+**/*.cover
+**/.hypothesis/
+**/.pytest_cache/
+**/*.log
+**/*.out
+**/*.tmp
+**/*.temp
+
+# === IGNORUJ DUŻE BINARNE PLIKI ===
+**/*.xapk
+**/*.apk
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.bin
+**/*.dat
+**/*.pkl
+
+# === IGNORUJ AUTOMATYCZNIE GENEROWANE ===
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+**/*.sublime-*
+
+# === IGNORUJ KONFIGURACJE EDYTORÓW ===
+**/.vscode/
+**/.idea/
+**/*.swp
+**/*.swo
+**/*~
+**/.*.swp
+**/.*.swo
+
+vinted/testy_camoufox/node_modules
+bot/output/
+
+# === LICENCJA (klucz prywatny NIGDY nie idzie na gita) ===
+LICENCJE_DEV/
+bot/licencja.json
+**/klucz_prywatny*
+**/licencja*.json

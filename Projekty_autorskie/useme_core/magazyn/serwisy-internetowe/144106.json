@@ -1,0 +1,46 @@
+{
+  "id": "144106",
+  "url": "https://useme.com/pl/jobs/zlece-wykonanie-strony-www,144106/",
+  "title": "Zlecę wykonanie strony www",
+  "author": "Anonim",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-10T17:28:14.325727",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144106",
+    "url": "https://useme.com/pl/jobs/zlece-wykonanie-strony-www,144106/",
+    "title": "Zlecę wykonanie strony www",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "short_desc": "Szukam osoby lub firmy do wykonania nowoczesnej strony internetowej od podstaw.\n\nZależy mi na estetycznym, responsywnym projekcie, który będzie działał na komputerach i telefonach. Proszę o kontakt osoby z doświadczeniem, najlepiej z portfolio...",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/zlece-wykonanie-strony-www,144106/",
+    "title": "Zlecę wykonanie strony www",
+    "full_description": "<p>Szukam osoby lub firmy do wykonania nowoczesnej strony internetowej od podstaw.</p>\n\n<p>Zależy mi na estetycznym, responsywnym projekcie, który będzie działał na komputerach i telefonach. Proszę o kontakt osoby z doświadczeniem, najlepiej z portfolio oraz orientacyjną wyceną i terminem realizacji.</p>\n\n<p>Szczegóły zlecenia do ustalenia po kontakcie.</p>",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144106/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-10T17:28:30"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu, robimy strony i aplikacje bezpośrednio, bez podwykonawców. Nowa strona od zera to dla nas chleb powszedni.\n\nZanim wybierzesz wykonawcę, jedna rzecz warta uwagi. Sam ładny i responsywny layout to dzisiaj za mało. Prawdziwy problem jest taki, że większość stron wygląda dobrze na mockupie, a po wdrożeniu ładuje się 4-5 sekund na telefonie i wypada z wyników Google, bo od maja 2026 wyszukiwarka mocniej karze strony bez realnej treści i wydajności. Drugi temat to dostępność: od czerwca 2026 wymogi WCAG 2.2 stają się standardem, a tylko około 4 procent stron je spełnia. Zrobienie tego od razu na etapie budowy kosztuje ułamek tego, co późniejsza naprawa.\n\nDlatego proponuję budowę w lekkim motywie na WordPressie z panelem, w którym sam będziesz edytował teksty i zdjęcia, bez wołania programisty o każdą drobiazg. Zamiast ciężkich builderów, które zamulają stronę, stawiamy na czysty kod i przemyślane sekcje. Przy okazji wchodzą podstawy dostępności: odpowiedni kontrast, przyciski wygodne do kliknięcia na telefonie, obsługa klawiatury i czytników ekranu. Strona będzie szybka (kluczowe wskaźniki Google, czyli czas wczytywania i reakcji na klik, trzymamy w zielonych progach) i gotowa pod późniejsze SEO.\n\nZakres, który proponuję: projekt graficzny, wdrożenie na WordPressie z panelem do edycji, wersja mobilna i desktopowa, podstawowa optymalizacja pod Google, podpięcie domeny i certyfikatu SSL oraz formularz kontaktowy z zabezpieczeniem antyspamowym. Jeśli po briefie okaże się, że potrzebujesz sklepu albo dodatkowych integracji, doprecyzujemy to na bieżąco.\n\nZa postawienie kompletnej, szybkiej i dostępnej strony od podstaw liczymy 3500 zł, realizacja w 7 dni od zebrania treści i materiałów. W cenie dajemy 14 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali oraz krótkie wideo pokazujące, jak samodzielnie obsługiwać panel.\n\nWarto też od razu założyć roczny koszt utrzymania (domena, hosting, ewentualne licencje wtyczek), żeby nie było zaskoczenia po fakcie. Powiem dokładnie, ile to wyjdzie przy Twoim ruchu.\n\nZdzwońmy się na 15 minut przez telefon albo Google Meet i dopniemy szczegóły, bo zakres masz jeszcze otwarty. Jeśli chcesz zobaczyć, jak takie podejście wygląda w praktyce, bez problemu przygotuję krótkie demo.\n\nPozdrawiam",
+    "wycena": 3500,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144106",
+    "wycena": 3500,
+    "dni": 7,
+    "final_url": "https://useme.com/pl/jobs/144106/offer/finish/",
+    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144106.png",
+    "message": "Oferta #144106 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144106/offer/finish/)."
+  },
+  "full_description": "<p>Szukam osoby lub firmy do wykonania nowoczesnej strony internetowej od podstaw.</p>\n\n<p>Zależy mi na estetycznym, responsywnym projekcie, który będzie działał na komputerach i telefonach. Proszę o kontakt osoby z doświadczeniem, najlepiej z portfolio oraz orientacyjną wyceną i terminem realizacji.</p>\n\n<p>Szczegóły zlecenia do ustalenia po kontakcie.</p>",
+  "updated_at": "2026-09-10T17:37:25.828025"
+}
