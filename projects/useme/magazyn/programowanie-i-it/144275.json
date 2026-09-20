@@ -1,0 +1,68 @@
+{
+  "id": "144275",
+  "url": "https://useme.com/pl/jobs/tytul-zlecenia-wdrozenie-i-konfiguracja-4-agentowego-systemu-ai-hermes-agent-pla,144275/",
+  "title": "**Tytuł zlecenia:** Wdrożenie i konfiguracja 4-agentowego systemu AI (Hermes Agent Platform + Ollama) na VPS Hostinger (",
+  "author": "wieslaw",
+  "author_id": "wieslaw",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-14T14:11:37.263499",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144275",
+    "url": "https://useme.com/pl/jobs/tytul-zlecenia-wdrozenie-i-konfiguracja-4-agentowego-systemu-ai-hermes-agent-pla,144275/",
+    "title": "**Tytuł zlecenia:** Wdrożenie i konfiguracja 4-agentowego systemu AI (Hermes Agent Platform + Ollama) na VPS Hostinger (",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Poszukuję doświadczonego programisty / inżyniera AI do wdrożenia, konfiguracji i przetestowania niezależnego, wieloagentowego systemu asystentów AI na moim własnym serwerze VPS (Hostinger KVM2, system Linux/Ubuntu).\n\nProjekt opiera się na...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/tytul-zlecenia-wdrozenie-i-konfiguracja-4-agentowego-systemu-ai-hermes-agent-pla,144275/",
+    "title": "**Tytuł zlecenia:** Wdrożenie i konfiguracja 4-agentowego systemu AI (Hermes Agent Platform + Ollama) na VPS Hostinger (",
+    "full_description": "<p>Poszukuję doświadczonego programisty / inżyniera AI do wdrożenia, konfiguracji i przetestowania niezależnego, wieloagentowego systemu asystentów AI na moim własnym serwerze VPS (Hostinger KVM2, system Linux/Ubuntu).</p>\n\n<p>Projekt opiera się na otwartej platformie **Hermes Agent Platform** (najnowsza aktualizacja „Pantheon” z obsługą trybu **Bot Mode** / Multi-agent) oraz lokalnym środowisku **Ollama** zintegrowanym z zewnętrznymi API (OpenRouter / Anthropic / OpenAI).</p>\n\n<p>Celem zlecenia jest stworzenie w pełni zautomatyzowanego, 4-etapowego łańcucha przetwarzania tekstu (pipeline) składającego się z czterech wyspecjalizowanych podagentów o wąskich kontekstach, sterowanych centralnie.</p>\n\n<p>**Ważne:** Zlecenie ma charakter wyłącznie techniczny. Cała konfiguracja i testy zostaną przeprowadzone na neutralnych, testowych promptach (np. proces parzenia kawy / historia inżynierii). Docelowe, poufne instrukcje merytoryczne wdrożę we własnym zakresie po przekazaniu działającego systemu.</p>",
+    "author": "wieslaw",
+    "author_id": "wieslaw",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144275/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-14T14:11:47"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nZanim przejdę do konkretów, jedno pytanie które zdecyduje o kształcie całego wdrożenia: czy przy czterech agentach myślisz o modelach lokalnych przez Ollamę na tym KVM2, czy dopuszczasz hybrydę (lekkie modele na VPS, ciężkie przez OpenRouter/Anthropic)?\n\nPytam, bo KVM2 to 2 vCPU i 8 GB RAM bez GPU. Przy czterech podagentach z lokalnymi modelami równolegle to jest bardzo ciasno, w testach na tym planie model 7B ledwo się mieści i swapuje, a dłuższe generacje potrafią trwać minutę i więcej. Jeden agent na lokalnym modelu 3B działa spoko, ale cztery naraz na tym samym serwerze to proszenie się o OOM i kolejkowanie żądań w minutach.\n\nPrawdziwy problem nie jest w tym, żeby „postawić Hermesa i Ollamę”. Problem jest w orkiestracji. Hermes w wersji Pantheon (sierpień 2026) ma Bot Mode domyślnie włączony w aplikacji desktopowej i natywne `delegate_task` do sterowania subagentami, więc nie ma sensu budować własnego systemu kolejkowania obok tego. Trzeba to spiąć natywnie: centralny agent matka, czterej podagenci o wąskich kontekstach, przekazywanie stanu między etapami przez pamięć międzysesyjną Hermesa, a nie przez własne skrypty.\n\nDrugi problem: 4-etapowy pipeline to nie są cztery niezależne boty, to jest łańcuch gdzie wyjście jednego jest wejściem następnego. Jeśli któryś etap padnie (rate limit API, timeout, błąd parsowania), cały łańcuch trzeba wznowić od miejsca awarii, a nie od zera. Przy pracy z zewnętrznymi API (OpenRouter, Anthropic, OpenAI) to jest kluczowe, bo OpenRouter ma swoje limity i opłatę za doładowanie, a Ollama Cloud twardy tygodniowy cap na darmowych kontach i przy przekroczeniu zwraca 429. Dlatego zrobię retry z backoffem, kolejkę i zapis stanu pipeline'u między krokami.\n\nCo konkretnie dostaniesz: instalacja Dockera i Hermesa na KVM2, konfiguracja Ollamy jako endpointu OpenAI-kompatybilnego pod adresem lokalnym, spięcie z OpenRouter/Anthropic/OpenAI przez jedną warstwę abstrakcji, czterej podagenci z osobnymi kontekstami i promptami, centralny kontroler, logi i monitoring zużycia tokenów. Na koniec testy na neutralnych promptach, które sam podałeś, oraz dokumentacja wdrożenia.\n\nJeśli po analizie okaże się, że KVM2 nie wyrabia przy Twoim docelowym użyciu, zaproponuję albo hybrydę (lokalne lekkie modele plus ciężkie przez API), albo upgrade do KVM4 z 16 GB RAM. Nie chcę Ci sprzedawać wdrożenia, które będzie się dławić na starcie.\n\nZa całość, od konfiguracji serwera przez orkiestrację po testy, liczymy 11000 zł, realizacja w 21 dni. W cenie dajemy 30 dni bezpłatnej asysty powdrożeniowej na dopracowanie detali i krótkie wideo pokazujące jak zarządzać agentami i podglądać logi.\n\nJeśli chcesz, przed decyzją możemy przygotować krótkie demo na fragmencie pipeline'u, żebyś zobaczył jak to chodzi w praktyce. Napisz na priv albo zdzwońmy się na 15 minut.\n\nPozdrawiam",
+    "wycena": 11000,
+    "dni": 21,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144275",
+    "wycena": 11000,
+    "dni": 21,
+    "final_url": "https://useme.com/pl/jobs/144275/offer/finish/",
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144275.png",
+    "message": "Oferta #144275 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144275/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-14T14:21:57.779538",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144275",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 11000,
+      "dni": 21,
+      "stawka": null,
+      "stawka_seed": "144275-konto1",
+      "variation_seed": 2,
+      "dlugosc_opisu": 2826,
+      "opis": "Cześć,\n\nZanim przejdę do konkretów, jedno pytanie które zdecyduje o kształcie całego wdrożenia: czy przy czterech agentach myślisz o modelach lokalnych przez Ollamę na tym KVM2, czy dopuszczasz hybrydę (lekkie modele na VPS, ciężkie przez OpenRouter/Anthropic)?\n\nPytam, bo KVM2 to 2 vCPU i 8 GB RAM bez GPU. Przy czterech podagentach z lokalnymi modelami równolegle to jest bardzo ciasno, w testach na tym planie model 7B ledwo się mieści i swapuje, a dłuższe generacje potrafią trwać minutę i więcej. Jeden agent na lokalnym modelu 3B działa spoko, ale cztery naraz na tym samym serwerze to proszenie się o OOM i kolejkowanie żądań w minutach.\n\nPrawdziwy problem nie jest w tym, żeby „postawić Hermesa i Ollamę”. Problem jest w orkiestracji. Hermes w wersji Pantheon (sierpień 2026) ma Bot Mode domyślnie włączony w aplikacji desktopowej i natywne `delegate_task` do sterowania subagentami, więc nie ma sensu budować własnego systemu kolejkowania obok tego. Trzeba to spiąć natywnie: centralny agent matka, czterej podagenci o wąskich kontekstach, przekazywanie stanu między etapami przez pamięć międzysesyjną Hermesa, a nie przez własne skrypty.\n\nDrugi problem: 4-etapowy pipeline to nie są cztery niezależne boty, to jest łańcuch gdzie wyjście jednego jest wejściem następnego. Jeśli któryś etap padnie (rate limit API, timeout, błąd parsowania), cały łańcuch trzeba wznowić od miejsca awarii, a nie od zera. Przy pracy z zewnętrznymi API (OpenRouter, Anthropic, OpenAI) to jest kluczowe, bo OpenRouter ma swoje limity i opłatę za doładowanie, a Ollama Cloud twardy tygodniowy cap na darmowych kontach i przy przekroczeniu zwraca 429. Dlatego zrobię retry z backoffem, kolejkę i zapis stanu pipeline'u między krokami.\n\nCo konkretnie dostaniesz: instalacja Dockera i Hermesa na KVM2, konfiguracja Ollamy jako endpointu OpenAI-kompatybilnego pod adresem lokalnym, spięcie z OpenRouter/Anthropic/OpenAI przez jedną warstwę abstrakcji, czterej podagenci z osobnymi kontekstami i promptami, centralny kontroler, logi i monitoring zużycia tokenów. Na koniec testy na neutralnych promptach, które sam podałeś, oraz dokumentacja wdrożenia.\n\nJeśli po analizie okaże się, że KVM2 nie wyrabia przy Twoim docelowym użyciu, zaproponuję albo hybrydę (lokalne lekkie modele plus ciężkie przez API), albo upgrade do KVM4 z 16 GB RAM. Nie chcę Ci sprzedawać wdrożenia, które będzie się dławić na starcie.\n\nZa całość, od konfiguracji serwera przez orkiestrację po testy, liczymy 11000 zł, realizacja w 21 dni. W cenie dajemy 30 dni bezpłatnej asysty powdrożeniowej na dopracowanie detali i krótkie wideo pokazujące jak zarządzać agentami i podglądać logi.\n\nJeśli chcesz, przed decyzją możemy przygotować krótkie demo na fragmencie pipeline'u, żebyś zobaczył jak to chodzi w praktyce. Napisz na priv albo zdzwońmy się na 15 minut.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-14T14:21:46.519633"
+    }
+  ],
+  "data_wyslania": "2026-09-14T14:21:57.778029"
+}

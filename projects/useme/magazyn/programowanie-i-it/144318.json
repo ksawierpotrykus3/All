@@ -1,0 +1,68 @@
+{
+  "id": "144318",
+  "url": "https://useme.com/pl/jobs/software-engineer,144318/",
+  "title": "Software Engineer",
+  "author": "Miljko Tijanic",
+  "author_id": "miljko-tijanic",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-14T14:11:37.308230",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144318",
+    "url": "https://useme.com/pl/jobs/software-engineer,144318/",
+    "title": "Software Engineer",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "We are looking for a versatile and highly skilled Software Engineer to join our growing development team. In this role, you will be responsible for building scalable backend services using Python and creating dynamic, responsive front-end...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/software-engineer,144318/",
+    "title": "Software Engineer",
+    "full_description": "<p>We are looking for a versatile and highly skilled Software Engineer to join our growing development team. In this role, you will be responsible for building scalable backend services using Python and creating dynamic, responsive front-end interfaces using the MERN stack (MongoDB, Express.js, React, Node.js).</p>\n\n<p>Because you will be collaborating directly with our US-based product and design teams, native-level English proficiency is required to ensure seamless communication, clear documentation, and effective team collaboration.</p>",
+    "author": "Miljko Tijanic",
+    "author_id": "miljko-tijanic",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144318/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-14T14:11:57"
+  },
+  "ai_proposal": {
+    "opis": "Hi Miljko,\n\nWe're a two-person dev team, backend and frontend both done hands-on by us, so Python services and the React/Node side sit with the same people instead of getting tossed over a wall between contractors. We work in English daily with clients abroad, docs and standups included.\n\nBefore quoting anything I'd rather ask a few things, because the answers change what the first month actually looks like. Is your Python backend Django, FastAPI or Flask, and is it already serving production traffic or still being shaped? Is the React app on Next.js or a plain Vite setup, and does the API contract live with the backend team or the product side? What does scalable mean in your numbers, thousands of requests a day or something closer to millions? And how many hours of overlap with your US team do you expect from this person?\n\nThe reason I ask is that in a role like this the real trap isn't writing endpoints or components. It's that a new engineer spends the first month reverse-engineering decisions nobody documented, and by the time he's productive the sprint goals have moved. If we know the stack shape and who owns what upfront, we can plug in on the existing conventions from week one, write the docs as we go, and keep the MERN frontend and Python backend moving in the same direction instead of drifting apart.\n\nThis is a rolling monthly engagement, not a one-off project: 6500 zł per month, which covers 7 working days of our capacity, and we keep going month to month as long as it works for both sides. Scope and priorities we set together at the start of each month, so you're never paying for capacity you don't need yet.\n\nIf that sounds workable, let's grab 15 minutes on Google Meet this week, you can walk me through the codebase and I'll tell you straight where we'd start. Send the repo details on private and we can also put together a short written plan for the first two weeks before you commit to anything.\n\nBest regards",
+    "wycena": 6500,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144318",
+    "wycena": 6500,
+    "dni": 7,
+    "final_url": "https://useme.com/pl/jobs/144318/offer/finish/",
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144318.png",
+    "message": "Oferta #144318 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144318/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-14T14:25:08.142375",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144318",
+      "konto": "konto1",
+      "tryb": "meta",
+      "wycena": 6500,
+      "dni": 7,
+      "stawka": null,
+      "stawka_seed": "144318-konto1",
+      "variation_seed": 2,
+      "dlugosc_opisu": 1955,
+      "opis": "Hi Miljko,\n\nWe're a two-person dev team, backend and frontend both done hands-on by us, so Python services and the React/Node side sit with the same people instead of getting tossed over a wall between contractors. We work in English daily with clients abroad, docs and standups included.\n\nBefore quoting anything I'd rather ask a few things, because the answers change what the first month actually looks like. Is your Python backend Django, FastAPI or Flask, and is it already serving production traffic or still being shaped? Is the React app on Next.js or a plain Vite setup, and does the API contract live with the backend team or the product side? What does scalable mean in your numbers, thousands of requests a day or something closer to millions? And how many hours of overlap with your US team do you expect from this person?\n\nThe reason I ask is that in a role like this the real trap isn't writing endpoints or components. It's that a new engineer spends the first month reverse-engineering decisions nobody documented, and by the time he's productive the sprint goals have moved. If we know the stack shape and who owns what upfront, we can plug in on the existing conventions from week one, write the docs as we go, and keep the MERN frontend and Python backend moving in the same direction instead of drifting apart.\n\nThis is a rolling monthly engagement, not a one-off project: 6500 zł per month, which covers 7 working days of our capacity, and we keep going month to month as long as it works for both sides. Scope and priorities we set together at the start of each month, so you're never paying for capacity you don't need yet.\n\nIf that sounds workable, let's grab 15 minutes on Google Meet this week, you can walk me through the codebase and I'll tell you straight where we'd start. Send the repo details on private and we can also put together a short written plan for the first two weeks before you commit to anything.\n\nBest regards",
+      "zapisano_at": "2026-09-14T14:24:53.979747"
+    }
+  ],
+  "data_wyslania": "2026-09-14T14:25:08.141375"
+}

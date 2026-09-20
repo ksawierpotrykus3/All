@@ -1,0 +1,68 @@
+{
+  "id": "144345",
+  "url": "https://useme.com/pl/jobs/modernizacja-istniejacej-strony-internetowej-firmy-oraz-przygotowanie-wersji-ang,144345/",
+  "title": "Modernizacja istniejącej strony internetowej firmy oraz przygotowanie wersji angielskiej",
+  "author": "Marta Karaś",
+  "author_id": "marta-karaś",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-14T14:11:37.381318",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144345",
+    "url": "https://useme.com/pl/jobs/modernizacja-istniejacej-strony-internetowej-firmy-oraz-przygotowanie-wersji-ang,144345/",
+    "title": "Modernizacja istniejącej strony internetowej firmy oraz przygotowanie wersji angielskiej",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "poszukujemy osoby do modernizacji istniejącej strony internetowej naszej firmy.\nChcemy ją unowocześnić oraz dostosować do obecnego profilu działalności firmy.\nZakres prac obejmuje m.in\n- aktualizację treści oferty,\n- odświeżenie wyglądu strony,\n-...",
+    "category": "serwisy-internetowe",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/modernizacja-istniejacej-strony-internetowej-firmy-oraz-przygotowanie-wersji-ang,144345/",
+    "title": "Modernizacja istniejącej strony internetowej firmy oraz przygotowanie wersji angielskiej",
+    "full_description": "<p>poszukujemy osoby do modernizacji istniejącej strony internetowej naszej firmy.<br>Chcemy ją unowocześnić oraz dostosować do obecnego profilu działalności firmy.<br>Zakres prac obejmuje m.in<br>- aktualizację treści oferty,<br>- odświeżenie wyglądu strony,<br>- dodanie nowych podstron, jeśli będą potrzebne,<br>- poprawę układu i czytelności treści,<br>- dostosowanie do urządzeń mobilnych, jeśli jest taka potrzeba,<br>- wdrożenie wersji angielskiej (tłumaczenia dostarczymy we własnym zakresie)<br>Prosimy o przesłanie portfolio podobnych realizacji oraz orientacyjnej wyceny</p>",
+    "author": "Marta Karaś",
+    "author_id": "marta-karaś",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144345/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-14T14:12:15"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nZanim wrzucę konkretną wycenę, muszę dopytać o jedną rzecz, bo od niej zależy połowa zakresu: na czym stoi obecna strona? WordPress, Joomla, Wix, jakiś autorski CMS? Od tego zależy, czy modernizacja to przebudowa szablonu i migracja treści, czy praktycznie przepisanie całości. Druga rzecz: ile jest teraz podstron i czy dostaniemy dostęp do panelu oraz do plików strony. Jak odpowiesz na te dwa pytania, dopnę szczegóły co do dnia.\n\nZakładając standardowy scenariusz (kilkanaście podstron, WordPress), największa pułapka w tym zleceniu nie leży w odświeżeniu wyglądu. Leży w wersji angielskiej. Dostaniecie od nas gotowe tłumaczenia, ale same teksty to nie wszystko. Trzeba przetłumaczyć też stringi interfejsu (przyciski, komunikaty formularzy, błędy walidacji), ustawić poprawne hreflang między wersjami językowymi, czyli znaczniki, które mówią Google, która wersja jest dla kogo. Bez tego wyszukiwarka potrafi wyświetlać Polakom wersję angielską, a Anglikom polską. Do tego dochodzi kwestia linków wewnętrznych, które po przełączeniu języka często prowadzą donikąd.\n\nDruga rzecz, o której mało kto pamięta przy odświeżaniu: nowe zdjęcia, animacje i cięższe skrypty potrafią zabić szybkość strony. A Google od tego roku rozlicza nie tylko czas ładowania, ale też to, jak szybko strona reaguje na kliknięcia (metryka INP). Jeśli tego nie przypilnujemy przy okazji, strona będzie ładniejsza i wolniejsza, czyli w praktyce niżej w wynikach. Przy modernizacji zrobimy to od razu.\n\nTrzecia sprawa, wart uwagi: od połowy 2025 roku wiele firm w UE, zwłaszcza sprzedających online, objętych jest Europejskim Aktem o Dostępności i musi spełniać wytyczne WCAG 2.1 AA. Jeśli Wasza branża w to wchodzi, modernizacja to dobry moment, żeby to ogarnąć, zamiast wracać do tematu za rok. Jeśli nie wchodzi, pomijamy temat.\n\nCo do samych prac: przebudowa warstwy graficznej i układu, poprawa czytelności, aktualizacja treści oferty, nowe podstrony jeśli będą potrzebne, pełne dostosowanie do telefonów i tabletów, wdrożenie wersji angielskiej z konfiguracją wielojęzyczną. Jeśli strona jest na WordPressie i nie ma jeszcze wtyczki do wersji językowych, potrzebna będzie licencja WPML albo Polylang Pro, obie kosztują około 99 euro rocznie. Powiem wprost, którą wybrać w Waszym przypadku.\n\nZa całość liczymy 9000 zł, realizacja w 19 dni roboczych. W cenie zapewniamy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali, które wyjdą w praniu, oraz krótkie wideo pokazujące, jak samodzielnie zarządzać treściami i wersją angielską.\n\nPrzykłady podobnych realizacji podeślemy na priv, bo nie chcemy wrzucać tu linków do stron klientów bez ich zgody.\n\nZdzwońmy się na 15 minut, żeby dopiąć technologię i zakres, albo napisz na priv i lecimy z tematem.\n\nPozdrawiam",
+    "wycena": 9000,
+    "dni": 19,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144345",
+    "wycena": 9000,
+    "dni": 19,
+    "final_url": "https://useme.com/pl/jobs/144345/offer/finish/",
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144345.png",
+    "message": "Oferta #144345 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144345/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-14T14:37:00.418155",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144345",
+      "konto": "konto1",
+      "tryb": "meta",
+      "wycena": 9000,
+      "dni": 19,
+      "stawka": null,
+      "stawka_seed": "144345-konto1",
+      "variation_seed": 2,
+      "dlugosc_opisu": 2765,
+      "opis": "Dzień dobry,\n\nZanim wrzucę konkretną wycenę, muszę dopytać o jedną rzecz, bo od niej zależy połowa zakresu: na czym stoi obecna strona? WordPress, Joomla, Wix, jakiś autorski CMS? Od tego zależy, czy modernizacja to przebudowa szablonu i migracja treści, czy praktycznie przepisanie całości. Druga rzecz: ile jest teraz podstron i czy dostaniemy dostęp do panelu oraz do plików strony. Jak odpowiesz na te dwa pytania, dopnę szczegóły co do dnia.\n\nZakładając standardowy scenariusz (kilkanaście podstron, WordPress), największa pułapka w tym zleceniu nie leży w odświeżeniu wyglądu. Leży w wersji angielskiej. Dostaniecie od nas gotowe tłumaczenia, ale same teksty to nie wszystko. Trzeba przetłumaczyć też stringi interfejsu (przyciski, komunikaty formularzy, błędy walidacji), ustawić poprawne hreflang między wersjami językowymi, czyli znaczniki, które mówią Google, która wersja jest dla kogo. Bez tego wyszukiwarka potrafi wyświetlać Polakom wersję angielską, a Anglikom polską. Do tego dochodzi kwestia linków wewnętrznych, które po przełączeniu języka często prowadzą donikąd.\n\nDruga rzecz, o której mało kto pamięta przy odświeżaniu: nowe zdjęcia, animacje i cięższe skrypty potrafią zabić szybkość strony. A Google od tego roku rozlicza nie tylko czas ładowania, ale też to, jak szybko strona reaguje na kliknięcia (metryka INP). Jeśli tego nie przypilnujemy przy okazji, strona będzie ładniejsza i wolniejsza, czyli w praktyce niżej w wynikach. Przy modernizacji zrobimy to od razu.\n\nTrzecia sprawa, wart uwagi: od połowy 2025 roku wiele firm w UE, zwłaszcza sprzedających online, objętych jest Europejskim Aktem o Dostępności i musi spełniać wytyczne WCAG 2.1 AA. Jeśli Wasza branża w to wchodzi, modernizacja to dobry moment, żeby to ogarnąć, zamiast wracać do tematu za rok. Jeśli nie wchodzi, pomijamy temat.\n\nCo do samych prac: przebudowa warstwy graficznej i układu, poprawa czytelności, aktualizacja treści oferty, nowe podstrony jeśli będą potrzebne, pełne dostosowanie do telefonów i tabletów, wdrożenie wersji angielskiej z konfiguracją wielojęzyczną. Jeśli strona jest na WordPressie i nie ma jeszcze wtyczki do wersji językowych, potrzebna będzie licencja WPML albo Polylang Pro, obie kosztują około 99 euro rocznie. Powiem wprost, którą wybrać w Waszym przypadku.\n\nZa całość liczymy 9000 zł, realizacja w 19 dni roboczych. W cenie zapewniamy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali, które wyjdą w praniu, oraz krótkie wideo pokazujące, jak samodzielnie zarządzać treściami i wersją angielską.\n\nPrzykłady podobnych realizacji podeślemy na priv, bo nie chcemy wrzucać tu linków do stron klientów bez ich zgody.\n\nZdzwońmy się na 15 minut, żeby dopiąć technologię i zakres, albo napisz na priv i lecimy z tematem.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-14T14:36:48.705364"
+    }
+  ],
+  "data_wyslania": "2026-09-14T14:37:00.417142"
+}

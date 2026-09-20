@@ -1,0 +1,37 @@
+{
+  "id": "144165",
+  "url": "https://useme.com/pl/jobs/cnc-punch-software-development-postprocessor-modification,144165/",
+  "title": "CNC Punch Software Development & Postprocessor Modification",
+  "author": "Ali_123",
+  "author_id": "ali-123",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-12T10:39:30.604107",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "144165",
+    "url": "https://useme.com/pl/jobs/cnc-punch-software-development-postprocessor-modification,144165/",
+    "title": "CNC Punch Software Development & Postprocessor Modification",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "We are looking for an experienced CNC Punch software developer to modify and improve our existing CNC Punch programming software and postprocessor.\n\nMachine Information\n\n- CNC Punch Press: LVD\n- CNC Controller: ADTECH\n- 20 turret stations\n-...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/cnc-punch-software-development-postprocessor-modification,144165/",
+    "title": "CNC Punch Software Development & Postprocessor Modification",
+    "full_description": "<p>We are looking for an experienced CNC Punch software developer to modify and improve our existing CNC Punch programming software and postprocessor.</p>\n\n<p>Machine Information</p>\n\n<p>- CNC Punch Press: LVD<br>- CNC Controller: ADTECH<br>- 20 turret stations<br>- Auto-index stations<br>- Existing software: NibblePro<br>- The machine is already retrofitted and operational.</p>\n\n<p>Required Work</p>\n\n<p>1. Auto-Index Optimization<br>   <br>   - Optimize the Auto-Index toolpath.<br>   - When several cutting lines have the same required angle, the software should process them together without unnecessarily changing the tool angle multiple times.<br>   - The objective is to reduce machining time and unnecessary Auto-Index movements.</p>\n\n<p>2. Micro-Joint Function<br>   <br>   - Improve the Micro-Joint function.<br>   - Preferably provide the ability to manually add/remove Micro-Joints.<br>   - Adding a Micro-Joint to a new line should not unnecessarily change the number or position of existing Micro-Joints.<br>   - The function should also work correctly with short/small cutting lines where applicable.</p>\n\n<p>3. Postprocessor / CNC Program Output<br>   <br>   - Modify the NibblePro postprocessor to generate CNC programs compatible with our ADTECH-controlled LVD CNC Punch.<br>   - Maintain correct tool selection, coordinates, repositioning, Auto-Index angles and machine commands.<br>   - Existing working programs and machine parameters will be provided as references.</p>\n\n<p>4. Repositioning and Clamp Logic<br>   <br>   - Review and correct the repositioning logic and CNC output related to sheet repositioning and clamps.<br>   - The generated program must maintain the correct sequence for repositioning and punching.</p>\n\n<p>5. Testing and Final Verification<br>   <br>   - Test the modified software/postprocessor using sample SolidWorks/CAD drawings and existing CNC programs.<br>   - Verify the generated CNC code on our machine.<br>   - Fix any issues directly related to the agreed modifications.</p>",
+    "author": "Ali_123",
+    "author_id": "ali-123",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144165/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-14T14:12:02"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-14T14:12:02.773113"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "144555",
+  "url": "https://useme.com/pl/jobs/przebudowa-wordpress-elementor,144555/",
+  "title": "Przebudowa Wordpress Elementor",
+  "author": "AnnaW",
+  "author_id": "annaw",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-18T14:12:40.107600",
+  "status": "DRY_RUN_OK",
+  "list_details": {
+    "id": "144555",
+    "url": "https://useme.com/pl/jobs/przebudowa-wordpress-elementor,144555/",
+    "title": "Przebudowa Wordpress Elementor",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Dzień dobry.\nChcialabym przebudować stronę po angielsku.\nIlość podstron okolo 20",
+    "category": "serwisy-internetowe",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/przebudowa-wordpress-elementor,144555/",
+    "title": "Przebudowa Wordpress Elementor",
+    "full_description": "<p>Dzień dobry.<br>Chcialabym przebudować stronę po angielsku.<br>Ilość podstron okolo 20</p>",
+    "author": "AnnaW",
+    "author_id": "annaw",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144555/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-18T14:13:33"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu, robimy strony i automatyzacje, a WordPress z Elementorem to nasza codzienność. Zanim wejdę w szczegóły, jedno pytanie, bo od niego zależy połowa roboty: przebudowa po angielsku to u Ciebie nowa wersja językowa istniejącej strony, czy totalny redesign pod angielskiego klienta?\n\nPytam, bo przy 20 podstronach to dwa zupełnie różne projekty. Jeśli chodzi tylko o tłumaczenie i lekkie odświeżenie, da się to zrobić szybciej. Jeśli ma być nowa strona pod angielski rynek, dochodzi architektura informacji, teksty pod SEO i to, co dziś realnie decyduje o ruchu, czyli przygotowanie pod AI Overview (Google coraz częściej odpowiada na pytania sam, bez klikania w wyniki, więc sama wysoka pozycja już nie wystarcza).\n\nDruga rzecz, na którą trafiamy przy każdym Elementorze: stare sekcje generują ciężki kod i strona ładuje się wolniej niż mogłaby. My budujemy już na kontenerach (nowszy sposób układania Elementora, lżejszy kod i lepsze wyniki szybkościowe), a od kwietnia 2026 to i tak nowy standard, bo Elementor v4 wchodzi domyślnie. Pilnujemy też wersji, bo WordPress 6.9 potrafi łamać szablony na starszym Elementorze, więc aktualizacje robimy świadomie, nie na oślep.\n\nJeśli strona ma być też w innych językach niż angielski, doradzimy, czy lepiej WPML (tłumaczenia trzymane w bazie, pełna kontrola) czy Weglot (szybszy start, ale abonament zależny od liczby słów). To realnie wpływa na koszty utrzymania, więc warto zdecydować przed startem, a nie w trakcie.\n\nZa pełną przebudowę 20 podstron w angielskiej wersji, z optymalizacją szybkości i przygotowaniem pod SEO, liczymy 6500 zł. Realizacja w 15 dni roboczych. W cenie mamy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali oraz krótkie wideo pokazujące, jak samodzielnie ogarniać treści w panelu.\n\nZakres jest na razie ogólny, więc zanim ruszymy, proponuję krótkiego calla na 15 minut, doprecyzujemy czy mówimy o tłumaczeniu, redesignie czy nowej stronie i wtedy wszystko będzie jasne. Jeśli wolisz, podeślij na priv link do obecnej strony, rzucę okiem, a jeśli to pomoże w decyzji, bez problemu przygotujemy wstępne demo rozwiązania.\n\nPozdrawiam",
+    "wycena": 6500,
+    "dni": 15,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "DRY_RUN_OK",
+    "job_id": "144555",
+    "final_url": "https://useme.com/pl/jobs/144555/offer/summary/",
+    "wycena": 6500,
+    "dni": 15,
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\summary_proof_144555.png",
+    "message": "Zatrzymano przed ostatecznym kliknięciem 'Wyślij' na URL: https://useme.com/pl/jobs/144555/offer/summary/. Wszystkie pola i podsumowanie zweryfikowane.",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-18T14:50:55.940222",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144555",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 6500,
+      "dni": 15,
+      "stawka": null,
+      "stawka_seed": "144555-konto1",
+      "variation_seed": 4,
+      "dlugosc_opisu": 2163,
+      "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu, robimy strony i automatyzacje, a WordPress z Elementorem to nasza codzienność. Zanim wejdę w szczegóły, jedno pytanie, bo od niego zależy połowa roboty: przebudowa po angielsku to u Ciebie nowa wersja językowa istniejącej strony, czy totalny redesign pod angielskiego klienta?\n\nPytam, bo przy 20 podstronach to dwa zupełnie różne projekty. Jeśli chodzi tylko o tłumaczenie i lekkie odświeżenie, da się to zrobić szybciej. Jeśli ma być nowa strona pod angielski rynek, dochodzi architektura informacji, teksty pod SEO i to, co dziś realnie decyduje o ruchu, czyli przygotowanie pod AI Overview (Google coraz częściej odpowiada na pytania sam, bez klikania w wyniki, więc sama wysoka pozycja już nie wystarcza).\n\nDruga rzecz, na którą trafiamy przy każdym Elementorze: stare sekcje generują ciężki kod i strona ładuje się wolniej niż mogłaby. My budujemy już na kontenerach (nowszy sposób układania Elementora, lżejszy kod i lepsze wyniki szybkościowe), a od kwietnia 2026 to i tak nowy standard, bo Elementor v4 wchodzi domyślnie. Pilnujemy też wersji, bo WordPress 6.9 potrafi łamać szablony na starszym Elementorze, więc aktualizacje robimy świadomie, nie na oślep.\n\nJeśli strona ma być też w innych językach niż angielski, doradzimy, czy lepiej WPML (tłumaczenia trzymane w bazie, pełna kontrola) czy Weglot (szybszy start, ale abonament zależny od liczby słów). To realnie wpływa na koszty utrzymania, więc warto zdecydować przed startem, a nie w trakcie.\n\nZa pełną przebudowę 20 podstron w angielskiej wersji, z optymalizacją szybkości i przygotowaniem pod SEO, liczymy 6500 zł. Realizacja w 15 dni roboczych. W cenie mamy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali oraz krótkie wideo pokazujące, jak samodzielnie ogarniać treści w panelu.\n\nZakres jest na razie ogólny, więc zanim ruszymy, proponuję krótkiego calla na 15 minut, doprecyzujemy czy mówimy o tłumaczeniu, redesignie czy nowej stronie i wtedy wszystko będzie jasne. Jeśli wolisz, podeślij na priv link do obecnej strony, rzucę okiem, a jeśli to pomoże w decyzji, bez problemu przygotujemy wstępne demo rozwiązania.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-18T14:50:49.120025"
+    }
+  ]
+}

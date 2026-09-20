@@ -1,0 +1,45 @@
+{
+  "id": "144102",
+  "url": "https://useme.com/pl/jobs/mariadb,144102/",
+  "title": "MariaDB",
+  "author": "EDUSCHOOL",
+  "author_id": "eduschool",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-12T10:39:30.625232",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144102",
+    "url": "https://useme.com/pl/jobs/mariadb,144102/",
+    "title": "MariaDB",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Poszukujemy trenera do podjęcia współpracy w zakresie prowadzenia szkoleń w tematyce MariaDB",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/mariadb,144102/",
+    "title": "MariaDB",
+    "full_description": "<p>Poszukujemy trenera do podjęcia współpracy w zakresie prowadzenia szkoleń w tematyce MariaDB</p>",
+    "author": "EDUSCHOOL",
+    "author_id": "eduschool",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144102/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-12T10:39:51"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-12T13:05:49.928937",
+  "oferty": [
+    {
+      "konto": "konto1",
+      "status": "WYSLANO",
+      "data": "2026-09-12",
+      "notatka": "Wyslane historycznie przez uzytkownika"
+    }
+  ]
+}

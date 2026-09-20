@@ -1,0 +1,82 @@
+{
+  "id": "144533",
+  "url": "https://useme.com/pl/jobs/rozbudowana-gra-mobilna-premium-developer,144533/",
+  "title": "Rozbudowana gra mobilna premium – developer",
+  "author": "",
+  "author_id": "anonim",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-17T21:18:18.086504",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144533",
+    "url": "https://useme.com/pl/jobs/rozbudowana-gra-mobilna-premium-developer,144533/",
+    "title": "Rozbudowana gra mobilna premium – developer",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Szukam osoby do dłuższej współpracy przy większym projekcie mobilnym. Projekt to gra osadzona w świecie królestwa, z rozbudowanymi mechanikami, rozwojem postaci/królestwa oraz systemem kont i danych użytkowników.\n\nSzukam osoby, która ma...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/rozbudowana-gra-mobilna-premium-developer,144533/",
+    "title": "",
+    "full_description": "",
+    "author": "",
+    "author_id": "anonim",
+    "has_add_offer_button": false,
+    "add_offer_href": null,
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-17T21:24:56"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nJedno pytanie na start: macie już zamknięty zakres pierwszego etapu? Przy grach mobilnych z rozwojem postaci i królestwa największy problem to zwykle nie sama rozgrywka, a backend kont i danych użytkowników.\n\nTo element, który pożera budżet i rozjeżdża terminy. Jeśli najpierw powstanie ładne UI, a potem okaże się, że cloud save, autoryzacja i walidacja zakupów wymagają przepisania połowy logiki, robota stoi. Dlatego proponuję zacząć od fundamentu: działające konta, zapis danych, panel do zarządzania. Dopiero na tym dokładamy mechaniki.\n\nPracujemy w Unity, bo to standard na mobile i ma wbudowane narzędzia sieciowe. Lżejszy runtime niż Unreal przekłada się na płynność na słabszych telefonach. Do backendu zamiast stawiać własne serwery od zera proponuję sprawdzone rozwiązanie typu PlayFab albo Firebase. Przy starcie koszt jest minimalny, a wy nie utrzymujecie infrastruktury.\n\nRobiliśmy już systemy kont i panele do aplikacji mobilnych, więc wiemy gdzie są pułapki przy synchronizacji danych między urządzeniami.\n\nZakres pierwszego etapu, który proponuję: system kont z rolami, zapis i odczyt danych w chmurze, podstawowy panel administracyjny oraz szkielet rozgrywki pod dalszą rozbudowę. To daje wam działający fundament do testów i dokładania mechanik.\n\nZa ten pierwszy etap liczymy 8000 zł, realizacja w 17 dni.\n\nDwie rzeczy warte uwzględnienia już na etapie projektowania. Google Play obniżył ostatnio prowizję od zakupów w aplikacji, więc system monetyzacji warto zaprojektować pod nowe stawki. Jeśli planujecie gacha albo loot boxy, rating PEGI też się zmieni. Lepiej wiedzieć o tym przed wysłaniem builda niż po.\n\nW cenie dajemy 21 dni bezpłatnej asysty powdrożeniowej na dopracowanie detali oraz krótkie wideo pokazujące jak obsługiwać panel.\n\nZdzwońmy się na 15 minut i omówmy zakres pierwszego etapu. Jeśli chcecie, przygotujemy też krótkie demo działającego backendu z kontami, żeby zobaczyć jak to wygląda w praktyce.\n\nPozdrawiam",
+    "wycena": 8000,
+    "dni": 17,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144533",
+    "wycena": 8000,
+    "dni": 17,
+    "final_url": "https://useme.com/pl/jobs/144533/offer/finish/",
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144533.png",
+    "message": "Oferta #144533 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144533/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-17T22:09:29.389170",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144533",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 8000,
+      "dni": 17,
+      "stawka": null,
+      "stawka_seed": "144533-konto1",
+      "variation_seed": 0,
+      "dlugosc_opisu": 1965,
+      "opis": "Dzień dobry,\n\nJedno pytanie na start: macie już zamknięty zakres pierwszego etapu? Przy grach mobilnych z rozwojem postaci i królestwa największy problem to zwykle nie sama rozgrywka, a backend kont i danych użytkowników.\n\nTo element, który pożera budżet i rozjeżdża terminy. Jeśli najpierw powstanie ładne UI, a potem okaże się, że cloud save, autoryzacja i walidacja zakupów wymagają przepisania połowy logiki, robota stoi. Dlatego proponuję zacząć od fundamentu: działające konta, zapis danych, panel do zarządzania. Dopiero na tym dokładamy mechaniki.\n\nPracujemy w Unity, bo to standard na mobile i ma wbudowane narzędzia sieciowe. Lżejszy runtime niż Unreal przekłada się na płynność na słabszych telefonach. Do backendu zamiast stawiać własne serwery od zera proponuję sprawdzone rozwiązanie typu PlayFab albo Firebase. Przy starcie koszt jest minimalny, a wy nie utrzymujecie infrastruktury.\n\nRobiliśmy już systemy kont i panele do aplikacji mobilnych, więc wiemy gdzie są pułapki przy synchronizacji danych między urządzeniami.\n\nZakres pierwszego etapu, który proponuję: system kont z rolami, zapis i odczyt danych w chmurze, podstawowy panel administracyjny oraz szkielet rozgrywki pod dalszą rozbudowę. To daje wam działający fundament do testów i dokładania mechanik.\n\nZa ten pierwszy etap liczymy 8000 zł, realizacja w 17 dni.\n\nDwie rzeczy warte uwzględnienia już na etapie projektowania. Google Play obniżył ostatnio prowizję od zakupów w aplikacji, więc system monetyzacji warto zaprojektować pod nowe stawki. Jeśli planujecie gacha albo loot boxy, rating PEGI też się zmieni. Lepiej wiedzieć o tym przed wysłaniem builda niż po.\n\nW cenie dajemy 21 dni bezpłatnej asysty powdrożeniowej na dopracowanie detali oraz krótkie wideo pokazujące jak obsługiwać panel.\n\nZdzwońmy się na 15 minut i omówmy zakres pierwszego etapu. Jeśli chcecie, przygotujemy też krótkie demo działającego backendu z kontami, żeby zobaczyć jak to wygląda w praktyce.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-17T21:27:31.686638"
+    },
+    {
+      "job_id": "144533",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 8000,
+      "dni": 17,
+      "stawka": null,
+      "stawka_seed": "144533-konto1",
+      "variation_seed": 4,
+      "dlugosc_opisu": 1965,
+      "opis": "Dzień dobry,\n\nJedno pytanie na start: macie już zamknięty zakres pierwszego etapu? Przy grach mobilnych z rozwojem postaci i królestwa największy problem to zwykle nie sama rozgrywka, a backend kont i danych użytkowników.\n\nTo element, który pożera budżet i rozjeżdża terminy. Jeśli najpierw powstanie ładne UI, a potem okaże się, że cloud save, autoryzacja i walidacja zakupów wymagają przepisania połowy logiki, robota stoi. Dlatego proponuję zacząć od fundamentu: działające konta, zapis danych, panel do zarządzania. Dopiero na tym dokładamy mechaniki.\n\nPracujemy w Unity, bo to standard na mobile i ma wbudowane narzędzia sieciowe. Lżejszy runtime niż Unreal przekłada się na płynność na słabszych telefonach. Do backendu zamiast stawiać własne serwery od zera proponuję sprawdzone rozwiązanie typu PlayFab albo Firebase. Przy starcie koszt jest minimalny, a wy nie utrzymujecie infrastruktury.\n\nRobiliśmy już systemy kont i panele do aplikacji mobilnych, więc wiemy gdzie są pułapki przy synchronizacji danych między urządzeniami.\n\nZakres pierwszego etapu, który proponuję: system kont z rolami, zapis i odczyt danych w chmurze, podstawowy panel administracyjny oraz szkielet rozgrywki pod dalszą rozbudowę. To daje wam działający fundament do testów i dokładania mechanik.\n\nZa ten pierwszy etap liczymy 8000 zł, realizacja w 17 dni.\n\nDwie rzeczy warte uwzględnienia już na etapie projektowania. Google Play obniżył ostatnio prowizję od zakupów w aplikacji, więc system monetyzacji warto zaprojektować pod nowe stawki. Jeśli planujecie gacha albo loot boxy, rating PEGI też się zmieni. Lepiej wiedzieć o tym przed wysłaniem builda niż po.\n\nW cenie dajemy 21 dni bezpłatnej asysty powdrożeniowej na dopracowanie detali oraz krótkie wideo pokazujące jak obsługiwać panel.\n\nZdzwońmy się na 15 minut i omówmy zakres pierwszego etapu. Jeśli chcecie, przygotujemy też krótkie demo działającego backendu z kontami, żeby zobaczyć jak to wygląda w praktyce.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-17T22:09:16.090560"
+    }
+  ],
+  "error": "Nie znaleziono pola wyceny (#id_payment / stages-0-payment) na stronie: https://useme.com/pl/jobs/144533/offer/start/",
+  "data_wyslania": "2026-09-17T22:09:29.386984"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "144599",
+  "url": "https://useme.com/pl/jobs/testy-penetracyjne-aplikacji,144599/",
+  "title": "Testy penetracyjne aplikacji",
+  "author": "Testy automatyczne sklepu www",
+  "author_id": "testy-automatyczne-sklepu-www",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-18T14:12:39.903254",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "144599",
+    "url": "https://useme.com/pl/jobs/testy-penetracyjne-aplikacji,144599/",
+    "title": "Testy penetracyjne aplikacji",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Poszukujemy specjalisty lub firmy do wykonania niezależnych testów penetracyjnych środowiska IT.\n\nNie chodzi nam wyłącznie o automatyczny skan podatności. Oczekujemy rzeczywistego penetration testu obejmującego testy manualne, ręczną weryfikację...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/testy-penetracyjne-aplikacji,144599/",
+    "title": "Testy penetracyjne aplikacji",
+    "full_description": "<p>Poszukujemy specjalisty lub firmy do wykonania niezależnych testów penetracyjnych środowiska IT.</p>\n\n<p>Nie chodzi nam wyłącznie o automatyczny skan podatności. Oczekujemy rzeczywistego penetration testu obejmującego testy manualne, ręczną weryfikację podatności oraz próby ich wykorzystania.</p>\n\n<p>Zakres prac obejmuje m.in.:</p>\n\n<p>* testy bezpieczeństwa aplikacji webowej,<br>* testy API,<br>* weryfikację bezpieczeństwa serwerów i dostępnych usług,<br>* testy logowania, uwierzytelniania i kontroli dostępu,<br>* weryfikację konfiguracji bezpieczeństwa,<br>* testy komponentów dostępnych z Internetu,<br>* manualną identyfikację i potwierdzanie podatności,<br>* manual exploitation attempts,<br>* wykorzystanie narzędzi automatycznych jako wsparcia testów manualnych.</p>\n\n<p>Środowisko obejmuje aplikację webową, API, serwery aplikacyjne, bazę danych oraz infrastrukturę backupową. Szczegółowe dane techniczne, adresy i dostęp zostaną przekazane wybranemu wykonawcy.</p>\n\n<p>Wymagamy, aby osoba faktycznie wykonująca manualne testy posiadała aktualny i możliwy do potwierdzenia certyfikat CEH (Certified Ethical Hacker) oraz udokumentowane doświadczenie w zakresie penetration testing / ethical hacking.</p>\n\n<p>Dodatkowym atutem będą certyfikaty praktyczne, w szczególności CEH Practical, OSCP / OSCP+ lub inne równoważne certyfikaty potwierdzające praktyczne kompetencje w zakresie testów penetracyjnych.</p>\n\n<p>Po zakończeniu prac oczekujemy raportu w języku angielskim. Raport powinien zawierać zakres testów, metodologię, użyte narzędzia, opis testów manualnych, wykryte podatności, poziom ryzyka, rekomendacje oraz remediation status.</p>\n\n<p>W przypadku wykrycia podatności oczekujemy również możliwości wykonania retestu po wdrożeniu poprawek.</p>\n\n<p>W odpowiedzi prosimy o podanie ceny, terminu realizacji, przewidywanego czasu wykonania, stosowanej metodologii, doświadczenia, posiadanych certyfikatów oraz informacji, czy oferta obejmuje retest.</p>",
+    "author": "Testy automatyczne sklepu www",
+    "author_id": "testy-automatyczne-sklepu-www",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144599/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-18T14:12:43"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-18T14:12:43.459463"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "144561",
+  "url": "https://useme.com/pl/jobs/senior-shopify-plus-developer-intelligems-recharge-cro-ai-assisted-development,144561/",
+  "title": "Senior Shopify Plus Developer — Intelligems, Recharge, CRO & AI-Assisted Development",
+  "author": "Kamil Andrzej Krawczyk",
+  "author_id": "kamil-andrzej-krawczyk",
+  "budget": "5000,00 USD",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-18T14:12:40.079971",
+  "status": "DRY_RUN_OK",
+  "list_details": {
+    "id": "144561",
+    "url": "https://useme.com/pl/jobs/senior-shopify-plus-developer-intelligems-recharge-cro-ai-assisted-development,144561/",
+    "title": "Senior Shopify Plus Developer — Intelligems, Recharge, CRO & AI-Assisted Development",
+    "budget": "5000,00 USD",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Summary\nSenior Shopify Plus Developer - Intelligems, Recharge, CRO & AI Development\n\nWe are looking for a strong Shopify Plus developer to help improve an existing, established ecommerce store with active traffic, subscriptions, integrations, and...",
+    "category": "serwisy-internetowe",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/senior-shopify-plus-developer-intelligems-recharge-cro-ai-assisted-development,144561/",
+    "title": "Senior Shopify Plus Developer — Intelligems, Recharge, CRO & AI-Assisted Development",
+    "full_description": "<p>Summary<br>Senior Shopify Plus Developer - Intelligems, Recharge, CRO &amp; AI Development</p>\n\n<p>We are looking for a strong Shopify Plus developer to help improve an existing, established ecommerce store with active traffic, subscriptions, integrations, and a mature theme.</p>\n\n<p>We are a fast-growing DTC company that has made the Inc. 5000 list six times, and we are looking for someone who can become a trusted long-term development partner as we continue to scale.</p>\n\n<p>This is not a new-store build. The focus is improving, testing, and extending what already exists.</p>\n\n<p>WHAT WE NEED</p>\n\n<p>✅ Strong Shopify Plus, Liquid, and Online Store 2.0 experience</p>\n\n<p>✅ Ability to modify existing themes, PDPs, landing pages, carts, and checkout flows</p>\n\n<p>✅ Intelligems experience for ongoing A/B testing and conversion optimization</p>\n\n<p>✅ Recharge experience with subscriptions, widgets, customer portals, and troubleshooting</p>\n\n<p>✅ Shopify Plus checkout experience, including Checkout Extensibility, UI Extensions, and Shopify Functions</p>\n\n<p>✅ Git/GitHub, Shopify CLI, development themes, QA, and safe production deployment</p>\n\n<p>✅ Ability to work with AI-generated code and landing pages from ChatGPT, Codex, Claude, or similar tools</p>\n\n<p>✅ WordPress experience is a strong plus</p>\n\n<p>THE OPPORTUNITY</p>\n\n<p>We are building a faster development workflow that moves ideas from:</p>\n\n<p>Concept → AI-assisted build → Development → A/B Test → Production</p>\n\n<p>We need someone who can help us execute quickly without compromising the stability of an established live store.</p>\n\n<p>For the right person, this can become a long-term strategic development relationship with significant ongoing work.</p>\n\n<p>WHEN APPLYING</p>\n\n<p>✅ Send examples of established Shopify Plus stores you have worked on</p>\n\n<p>✅ Describe your specific Intelligems and Recharge experience</p>\n\n<p>✅ Provide examples of Shopify Plus checkout work</p>\n\n<p>✅ Tell us about your experience modifying existing themes</p>\n\n<p>✅ Include any experience using ChatGPT, Codex, Claude, or other AI-assisted development tools</p>\n\n<p>Please be specific about what you personally built or implemented</p>",
+    "author": "Kamil Andrzej Krawczyk",
+    "author_id": "kamil-andrzej-krawczyk",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144561/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-18T14:13:26"
+  },
+  "ai_proposal": {
+    "opis": "Hi,\n\nYou're not looking for a store build, you're looking for someone who can extend a live Plus store without breaking it. So let me be concrete about what I'd actually do here, because the risk in this stack isn't Intelligems or Recharge on their own. It's where they collide.\n\nIntelligems runs price testing through Shopify Cart Transform Functions, and Cart Transform rejects lineExpand, linesMerge and lineUpdate operations whenever a selling plan is present in the cart. Recharge lives on selling plans. So the moment you test pricing on a product that also has a subscription option, the operation gets rejected, and it's rejected for the whole cart, not just the subscription line. The documented workaround is a duplicate-products path for subscription testing, which means the architecture needs two separate handling routes from day one. If that isn't designed in upfront, A/B tests on subscription SKUs either fail silently or throw at checkout. That's the first thing I'd map against your actual SKUs.\n\nSecond thing I'd check before touching anything: Shopify Scripts stopped executing on June 30, 2026. If any discount, shipping or payment logic on this store still lives in Scripts, it's already dead and needs rebuilding as Shopify Functions. Worth knowing the limits there too: metafields over 10 kB are silently not returned to Functions, input query size caps at 3000 bytes, and you can have at most 25 active Functions per store. Same story on the UI side, React-based Checkout UI extensions are only supported up to API version 2025-07, and after October 1, 2026 you can't update them without migrating to Polaris web components.\n\nOn Recharge, the API is a leaky bucket: 2 requests per second, bucket of 40 calls, HTTP 429 beyond that, and the doubled token limits only apply on PRO or ENTERPRISE plans. Any customer portal or sync work needs queueing with backoff, not naive polling, or you'll hammer the limit during peak subscription events.\n\nFor the AI-assisted workflow you described (Concept, AI build, Dev, A/B, Prod), the piece that actually matters is a hard gate between AI output and production. Shopify's own guidance is that AI-generated theme code regularly misses accessibility and performance checks and needs manual review. So what I'd set up is: AI output lands on a development theme, gets a technical pass for Liquid correctness, theme architecture and merchant editability, moves through Shopify CLI and Git with a staging QA step, and only then touches production. That's how you move fast without risking checkout on a live Plus store that's already pulling traffic.\n\nWe're a two-person team, both devs, no account layer in between. Shopify, Liquid, Online Store 2.0, Checkout Extensibility, Shopify Functions, Git/CLI are in our daily rotation alongside .NET, Python, Node and AI tooling (OpenAI, Claude, Codex). WordPress is also in the stack if your landing pages live there.\n\nPrice: 13,000 PLN for the initial scope. That covers the audit of current checkout logic, the Intelligems and Recharge collision fix plus architecture, the checkout extension work, theme and PDP modifications, and the AI-to-production workflow setup. 20 working days.\n\nOn the examples you asked for: I won't paste client store links into a public offer, but on a call I'll walk you through the Shopify and app integration work we've done and exactly what I personally built on each.\n\nWant to jump on a 15-minute call this week? I can go through the Cart Transform and selling plan interaction against your specific SKUs and flag what's a quick win versus what's a rebuild.\n\nBest,",
+    "wycena": 13000,
+    "dni": 20,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "DRY_RUN_OK",
+    "job_id": "144561",
+    "final_url": "https://useme.com/pl/jobs/144561/offer/summary/",
+    "wycena": 13000,
+    "dni": 20,
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\summary_proof_144561.png",
+    "message": "Zatrzymano przed ostatecznym kliknięciem 'Wyślij' na URL: https://useme.com/pl/jobs/144561/offer/summary/. Wszystkie pola i podsumowanie zweryfikowane.",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-18T14:46:35.984582",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144561",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 13000,
+      "dni": 20,
+      "stawka": null,
+      "stawka_seed": "144561-konto1",
+      "variation_seed": 0,
+      "dlugosc_opisu": 3603,
+      "opis": "Hi,\n\nYou're not looking for a store build, you're looking for someone who can extend a live Plus store without breaking it. So let me be concrete about what I'd actually do here, because the risk in this stack isn't Intelligems or Recharge on their own. It's where they collide.\n\nIntelligems runs price testing through Shopify Cart Transform Functions, and Cart Transform rejects lineExpand, linesMerge and lineUpdate operations whenever a selling plan is present in the cart. Recharge lives on selling plans. So the moment you test pricing on a product that also has a subscription option, the operation gets rejected, and it's rejected for the whole cart, not just the subscription line. The documented workaround is a duplicate-products path for subscription testing, which means the architecture needs two separate handling routes from day one. If that isn't designed in upfront, A/B tests on subscription SKUs either fail silently or throw at checkout. That's the first thing I'd map against your actual SKUs.\n\nSecond thing I'd check before touching anything: Shopify Scripts stopped executing on June 30, 2026. If any discount, shipping or payment logic on this store still lives in Scripts, it's already dead and needs rebuilding as Shopify Functions. Worth knowing the limits there too: metafields over 10 kB are silently not returned to Functions, input query size caps at 3000 bytes, and you can have at most 25 active Functions per store. Same story on the UI side, React-based Checkout UI extensions are only supported up to API version 2025-07, and after October 1, 2026 you can't update them without migrating to Polaris web components.\n\nOn Recharge, the API is a leaky bucket: 2 requests per second, bucket of 40 calls, HTTP 429 beyond that, and the doubled token limits only apply on PRO or ENTERPRISE plans. Any customer portal or sync work needs queueing with backoff, not naive polling, or you'll hammer the limit during peak subscription events.\n\nFor the AI-assisted workflow you described (Concept, AI build, Dev, A/B, Prod), the piece that actually matters is a hard gate between AI output and production. Shopify's own guidance is that AI-generated theme code regularly misses accessibility and performance checks and needs manual review. So what I'd set up is: AI output lands on a development theme, gets a technical pass for Liquid correctness, theme architecture and merchant editability, moves through Shopify CLI and Git with a staging QA step, and only then touches production. That's how you move fast without risking checkout on a live Plus store that's already pulling traffic.\n\nWe're a two-person team, both devs, no account layer in between. Shopify, Liquid, Online Store 2.0, Checkout Extensibility, Shopify Functions, Git/CLI are in our daily rotation alongside .NET, Python, Node and AI tooling (OpenAI, Claude, Codex). WordPress is also in the stack if your landing pages live there.\n\nPrice: 13,000 PLN for the initial scope. That covers the audit of current checkout logic, the Intelligems and Recharge collision fix plus architecture, the checkout extension work, theme and PDP modifications, and the AI-to-production workflow setup. 20 working days.\n\nOn the examples you asked for: I won't paste client store links into a public offer, but on a call I'll walk you through the Shopify and app integration work we've done and exactly what I personally built on each.\n\nWant to jump on a 15-minute call this week? I can go through the Cart Transform and selling plan interaction against your specific SKUs and flag what's a quick win versus what's a rebuild.\n\nBest,",
+      "zapisano_at": "2026-09-18T14:46:05.942878"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "144249",
+  "url": "https://useme.com/pl/jobs/wdrozenie-automatyzacji-ai-make-com-n8n-generowanie-i-publikacja-wideo-na-tiktok,144249/",
+  "title": "Wdrożenie automatyzacji AI (Make.com/n8n) – generowanie i publikacja wideo na TikTok oraz YT Shorts",
+  "author": "TomStyl",
+  "author_id": "tomstyl",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-14T14:11:37.277010",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144249",
+    "url": "https://useme.com/pl/jobs/wdrozenie-automatyzacji-ai-make-com-n8n-generowanie-i-publikacja-wideo-na-tiktok,144249/",
+    "title": "Wdrożenie automatyzacji AI (Make.com/n8n) – generowanie i publikacja wideo na TikTok oraz YT Shorts",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Szukam freelancera / integratora AI do skonfigurowania automatycznego systemu generowania i publikacji krótkich materiałów wideo (Faceless AI) na moich profilach TikTok oraz YouTube Shorts.\n​Zakres prac:\n​Konfiguracja połączenia i autoryzacja...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/wdrozenie-automatyzacji-ai-make-com-n8n-generowanie-i-publikacja-wideo-na-tiktok,144249/",
+    "title": "Wdrożenie automatyzacji AI (Make.com/n8n) – generowanie i publikacja wideo na TikTok oraz YT Shorts",
+    "full_description": "<p>Szukam freelancera / integratora AI do skonfigurowania automatycznego systemu generowania i publikacji krótkich materiałów wideo (Faceless AI) na moich profilach TikTok oraz YouTube Shorts.<br>​Zakres prac:<br>​Konfiguracja połączenia i autoryzacja kont TikTok API oraz YouTube Data API.<br>​Stworzenie scenariusza automatyzacji w Make.com lub n8n.<br>​Integracja narzędzi:<br>​Scenariusze: OpenAI API (ChatGPT)<br>​Głos/Lektor: ElevenLabs API<br>​Generowanie/Montaż: InVideo AI, CapCut API, Runway lub podpięty wygenerowany szablon<br>​Automatyzacja publikacji (harmonogram, dynamiczne opisy, tagi) z uwzględnieniem zabezpieczeń przed flagowaniem spamu.<br>​Przekazanie pełnej dokumentacji i dostępu do scenariuszy.<br>​Proszę o podanie w odpowiedzi:<br>​Ceny za kompleksowe wdrożenie (opłata jednorazowa).<br>​Szacowanego czasu realizacji.<br>​Przykładowego wdrożenia / portfolio (jeśli posiadasz).</p>",
+    "author": "TomStyl",
+    "author_id": "tomstyl",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144249/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-14T14:11:50"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nRobiliśmy już podobny temat: automatyczny pipeline, który sam tworzył krótkie wideo z podanego tematu i wrzucał je na dwa kanały społecznościowe. Zaczęło się od tego samego pytania co u Ciebie, a skończyło na kilku rzeczach, o których klient wcześniej nie wiedział. Opowiem Ci, jak to wygląda w praktyce, żebyś wiedział, co realnie da się zautomatyzować, a gdzie trzeba jednak dołożyć człowiekowi robotę.\n\nPierwsza rzecz, która zwykle wychodzi dopiero w praniu: TikTok bez przejścia audytu aplikacji publikuje wszystko w trybie prywatnym, czyli SELF_ONLY. Możesz mieć idealny scenariusz w Make, a wideo i tak nie wyjdzie publicznie, dopóki aplikacja nie przejdzie weryfikacji. Do tego audyt wymaga sensownego UX, m.in. żeby użytkownik sam wybierał widoczność i widział swojego twórcę. W praktyce robi się więc model półautomatyczny: system przygotowuje gotowe wideo plus opis i tagi, a Ty jednym kliknięciem akceptujesz publikację. Nawet po audycie TikTok ma dzienny limit na konto (zwykle okolice 15 postów) i limit żądań na token, więc harmonogram trzeba rozłożyć z głową, a nie puścić wszystko na raz. To samo dotyczy YouTube: domyślny limit API pozwala na maksymalnie 6 uploadów dziennie na projekt. Powyżej tego trzeba składać wniosek o podwyższenie quota. Lepsza jest szczera informacja o tym od początku.\n\nDruga rzecz, którą warto poprawić w Twoim zakresie: CapCut nie ma publicznego API do automatycznego montażu ani eksportu. Można jedynie generować pliki projektowe do ręcznego otwarcia, co słabo się skaluje i wymaga lokalnego środowiska. Dlatego zamiast obiecywać integrację z CapCut, zepniemy generowanie wideo przez Runway API (działa w kredytach, bez procesu zatwierdzania, opłaca się od pierwszej sekundy), a InVideo AI potraktujemy jako opcję szablonową, bo tam integracja idzie przez kontakt handlowy i nie ma jasnego cennika API. Lektor z ElevenLabs, scenariusze i opisy z OpenAI, całość orkiestrowana w Make.com albo n8n, z kolejkowaniem i ponawianiem nieudanych prób.\n\nTrzecia rzecz, o której większość klientów dowiaduje się za późno: od sierpnia tego roku unijne przepisy nakazują wyraźne oznaczanie treści generowanych przez AI. YouTube i tak już sam wykrywa i oznacza takie materiały, a TikTok ma parametr is_aigc, który dodaje etykietę \"AI-generated\". Wbudujemy to w scenariusz jako standard, żebyś nie obudził się z etykietą nałożoną z zewnątrz albo z ostrzeżeniem. TikTok dodatkowo mocno zaostrzył podejście do kont publikujących masowo wystandaryzowane treści AI i potrafi takie konta wrzucić do spamu, więc zadbamy o zróżnicowanie opisów i odstępy między publikacjami.\n\nW cenie dostajesz pełną dokumentację scenariuszy, przekazanie dostępów i krótkie wideo pokazujące, jak obsługiwać panel od środka, plus 21 dni bezpłatnej asysty powdrożeniowej na dopracowanie detali. Całość liczymy 8500 zł, realizacja w 19 dni.\n\nJeśli chcesz zobaczyć jak to wygląda w praktyce, możemy przed decyzją przygotować krótkie demo jednego przejścia przez scenariusz. Zdzwońmy się na 15 minut albo napisz na priv, dopniemy szczegóły.\n\nPozdrawiam",
+    "wycena": 8500,
+    "dni": 19,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144249",
+    "wycena": 8500,
+    "dni": 19,
+    "final_url": "https://useme.com/pl/jobs/144249/offer/finish/",
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144249.png",
+    "message": "Oferta #144249 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144249/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-14T14:23:31.775741",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144249",
+      "konto": "konto1",
+      "tryb": "meta",
+      "wycena": 8500,
+      "dni": 19,
+      "stawka": null,
+      "stawka_seed": "144249-konto1",
+      "variation_seed": 3,
+      "dlugosc_opisu": 3062,
+      "opis": "Cześć,\n\nRobiliśmy już podobny temat: automatyczny pipeline, który sam tworzył krótkie wideo z podanego tematu i wrzucał je na dwa kanały społecznościowe. Zaczęło się od tego samego pytania co u Ciebie, a skończyło na kilku rzeczach, o których klient wcześniej nie wiedział. Opowiem Ci, jak to wygląda w praktyce, żebyś wiedział, co realnie da się zautomatyzować, a gdzie trzeba jednak dołożyć człowiekowi robotę.\n\nPierwsza rzecz, która zwykle wychodzi dopiero w praniu: TikTok bez przejścia audytu aplikacji publikuje wszystko w trybie prywatnym, czyli SELF_ONLY. Możesz mieć idealny scenariusz w Make, a wideo i tak nie wyjdzie publicznie, dopóki aplikacja nie przejdzie weryfikacji. Do tego audyt wymaga sensownego UX, m.in. żeby użytkownik sam wybierał widoczność i widział swojego twórcę. W praktyce robi się więc model półautomatyczny: system przygotowuje gotowe wideo plus opis i tagi, a Ty jednym kliknięciem akceptujesz publikację. Nawet po audycie TikTok ma dzienny limit na konto (zwykle okolice 15 postów) i limit żądań na token, więc harmonogram trzeba rozłożyć z głową, a nie puścić wszystko na raz. To samo dotyczy YouTube: domyślny limit API pozwala na maksymalnie 6 uploadów dziennie na projekt. Powyżej tego trzeba składać wniosek o podwyższenie quota. Lepsza jest szczera informacja o tym od początku.\n\nDruga rzecz, którą warto poprawić w Twoim zakresie: CapCut nie ma publicznego API do automatycznego montażu ani eksportu. Można jedynie generować pliki projektowe do ręcznego otwarcia, co słabo się skaluje i wymaga lokalnego środowiska. Dlatego zamiast obiecywać integrację z CapCut, zepniemy generowanie wideo przez Runway API (działa w kredytach, bez procesu zatwierdzania, opłaca się od pierwszej sekundy), a InVideo AI potraktujemy jako opcję szablonową, bo tam integracja idzie przez kontakt handlowy i nie ma jasnego cennika API. Lektor z ElevenLabs, scenariusze i opisy z OpenAI, całość orkiestrowana w Make.com albo n8n, z kolejkowaniem i ponawianiem nieudanych prób.\n\nTrzecia rzecz, o której większość klientów dowiaduje się za późno: od sierpnia tego roku unijne przepisy nakazują wyraźne oznaczanie treści generowanych przez AI. YouTube i tak już sam wykrywa i oznacza takie materiały, a TikTok ma parametr is_aigc, który dodaje etykietę \"AI-generated\". Wbudujemy to w scenariusz jako standard, żebyś nie obudził się z etykietą nałożoną z zewnątrz albo z ostrzeżeniem. TikTok dodatkowo mocno zaostrzył podejście do kont publikujących masowo wystandaryzowane treści AI i potrafi takie konta wrzucić do spamu, więc zadbamy o zróżnicowanie opisów i odstępy między publikacjami.\n\nW cenie dostajesz pełną dokumentację scenariuszy, przekazanie dostępów i krótkie wideo pokazujące, jak obsługiwać panel od środka, plus 21 dni bezpłatnej asysty powdrożeniowej na dopracowanie detali. Całość liczymy 8500 zł, realizacja w 19 dni.\n\nJeśli chcesz zobaczyć jak to wygląda w praktyce, możemy przed decyzją przygotować krótkie demo jednego przejścia przez scenariusz. Zdzwońmy się na 15 minut albo napisz na priv, dopniemy szczegóły.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-14T14:23:19.910796"
+    }
+  ],
+  "data_wyslania": "2026-09-14T14:23:31.773967"
+}

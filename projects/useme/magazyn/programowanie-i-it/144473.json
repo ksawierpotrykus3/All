@@ -1,0 +1,37 @@
+{
+  "id": "144473",
+  "url": "https://useme.com/pl/jobs/sharepoint-zakres-bezpieczenstwa-dokumentow-i-zarzadzania-uprawnieniami,144473/",
+  "title": "Sharepoint - zakres bezpieczeństwa dokumentów i zarządzania uprawnieniami",
+  "author": "JOANNA",
+  "author_id": "joanna",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-16T18:27:17.472622",
+  "status": "POBRANO_DETALE",
+  "list_details": {
+    "id": "144473",
+    "url": "https://useme.com/pl/jobs/sharepoint-zakres-bezpieczenstwa-dokumentow-i-zarzadzania-uprawnieniami,144473/",
+    "title": "Sharepoint - zakres bezpieczeństwa dokumentów i zarządzania uprawnieniami",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "PILNIE poszukuję doświadczonego specjalisty SharePoint Online / Microsoft 365 do wykonania konkretnego projektu z zakresu bezpieczeństwa dokumentów i zarządzania uprawnieniami.\n\nSharePoint jest w naszej organizacji podstawowym środowiskiem...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/sharepoint-zakres-bezpieczenstwa-dokumentow-i-zarzadzania-uprawnieniami,144473/",
+    "title": "Sharepoint - zakres bezpieczeństwa dokumentów i zarządzania uprawnieniami",
+    "full_description": "<p>PILNIE poszukuję doświadczonego specjalisty SharePoint Online / Microsoft 365 do wykonania konkretnego projektu z zakresu bezpieczeństwa dokumentów i zarządzania uprawnieniami.</p>\n\n<p>SharePoint jest w naszej organizacji podstawowym środowiskiem przechowywania dokumentacji, dlatego zależy mi na osobie, która bardzo dobrze rozumie nie tylko samą administrację SharePoint, ale również:</p>\n\n<p>• poziomy uprawnień SharePoint,<br>• grupy Members / Visitors / Owners,<br>• dziedziczenie i unikalne uprawnienia,<br>• SharePoint Online Permission Levels,<br>• Power Automate,<br>• kontrolę dostępu do bibliotek i dokumentów,<br>• audyt obecnych uprawnień użytkowników.</p>\n\n<p>Zakres zlecenia<br>Chcemy wdrożyć model, w którym standardowi użytkownicy SharePoint mogą:</p>\n\n<p>• dodawać dokumenty,<br>• otwierać dokumenty,<br>• edytować dokumenty,</p>\n\n<p>ale nie mogą fizycznie usuwać dokumentów ani wcześniejszych wersji dokumentów.</p>\n\n<p>1. Dedykowany poziom uprawnień<br>Należy przygotować niestandardowy poziom uprawnień, np.:</p>\n\n<p>„Edycja bez usuwania”</p>\n\n<p>który pozwoli użytkownikowi pracować normalnie na dokumentach, ale wyeliminuje możliwość ich trwałego usuwania.</p>\n\n<p>Poziom ten powinien następnie zostać właściwie przypisany odpowiednim grupom użytkowników.</p>\n\n<p>2. Osobna grupa osób posiadających prawo usuwania<br>Prawo do fizycznego usuwania dokumentów powinno posiadać wyłącznie kilka wskazanych osób administrujących środowiskiem.</p>\n\n<p>Należy utworzyć odpowiednią grupę oraz właściwie skonfigurować jej uprawnienia.</p>\n\n<p>3. Mechanizm „Przenieś do usunięcia”<br>Zamiast możliwości fizycznego usunięcia dokumentu standardowy użytkownik powinien mieć możliwość przekazania dokumentu do kontrolowanego obszaru:</p>\n\n<p>„DO USUNIĘCIA”</p>\n\n<p>Preferowane rozwiązanie oparte o Power Automate.</p>\n\n<p>Po wykonaniu takiej operacji dokument powinien zostać przeniesiony do odpowiedniej biblioteki lub kontrolowanego miejsca, do którego dostęp administracyjny będą miały wyłącznie wskazane osoby.</p>\n\n<p>4. Rejestrowanie operacji<br>System powinien zachowywać informację:</p>\n\n<p>• kto przekazał dokument do usunięcia,<br>• kiedy została wykonana operacja,<br>• jaki dokument został pr</p>",
+    "author": "JOANNA",
+    "author_id": "joanna",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144473/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-16T18:27:20"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-16T18:27:20.471424"
+}

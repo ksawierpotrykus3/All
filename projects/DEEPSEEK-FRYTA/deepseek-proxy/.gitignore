@@ -1,0 +1,42 @@
+# Runtime
+__pycache__/
+*.pyc
+.conv_state.json
+conv_state_backup.json
+.hypothesis/
+.pytest_cache/
+
+# State / DB (recreated at runtime)
+conv_state.json
+dashboard.db
+dashboard.db-shm
+dashboard.db-wal
+request_dump.ndjson
+
+# Runtime dumps & conversation logs
+conversation_logs/
+request_dump.ndjson.bak
+dry_run_logs.ndjson
+
+# Chrome / Playwright
+.chrome_slot/
+
+# Logs
+*.log
+*.err
+server_out.txt
+sv_out.txt
+sv_err.txt
+legid_log.txt
+user_fp_log.txt
+token_fields.txt
+
+# Temp debug scripts
+_check_*.py
+_analyze_*.py
+check_state.py
+msg_structure.txt
+
+# Environment
+.env
+*.session

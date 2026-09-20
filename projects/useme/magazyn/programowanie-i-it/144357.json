@@ -1,0 +1,68 @@
+{
+  "id": "144357",
+  "url": "https://useme.com/pl/jobs/pobieranie-danych-z-allegro-przy-sprzedazy-rzeczy-ktore-sa-produkowane-na-wymiar,144357/",
+  "title": "Pobieranie danych z allegro . przy sprzedazy rzeczy ktore sa produkowane na wymiar pod klienta",
+  "author": "tomasz",
+  "author_id": "tomasz",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-14T14:11:37.235195",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144357",
+    "url": "https://useme.com/pl/jobs/pobieranie-danych-z-allegro-przy-sprzedazy-rzeczy-ktore-sa-produkowane-na-wymiar,144357/",
+    "title": "Pobieranie danych z allegro . przy sprzedazy rzeczy ktore sa produkowane na wymiar pod klienta",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "witam .\nautomatyzacja procesu pobieranie danych z allegro . przy sprzedazy rzeczy ktore sa produkowane na wymiar pod klienta . \nproblem : klient wpisuje wymiary formatek np 100 cm x 100 cm sztuk 5 . kolor plyty :bialy , obrzeze okleic do okola...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/pobieranie-danych-z-allegro-przy-sprzedazy-rzeczy-ktore-sa-produkowane-na-wymiar,144357/",
+    "title": "Pobieranie danych z allegro . przy sprzedazy rzeczy ktore sa produkowane na wymiar pod klienta",
+    "full_description": "<p>witam .<br>automatyzacja procesu pobieranie danych z allegro . przy sprzedazy rzeczy ktore sa produkowane na wymiar pod klienta . <br>problem : klient wpisuje wymiary formatek np 100 cm x 100 cm sztuk 5 . kolor plyty :bialy , obrzeze okleic do okola albo wybrane boki .  calosc obecnie jest realizowana recznie wpisywanie imienia nazwiska daty zamowienia co zostalo zamowione ilosc , wymiary oraz jak nalezy to okleic . calosc zamowienia jest przepisywana z wiadomosci od kupujacego przez allegro.</p>",
+    "author": "tomasz",
+    "author_id": "tomasz",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144357/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-14T14:11:41"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nZacznę od tego, że to zlecenie jest bardziej podchwytliwe niż wygląda. Bo problem nie polega na samym pobraniu zamówień z Allegro. Prawdziwy haczyk jest w tym, że wymiary formatek, liczba sztuk i sposób oklejenia siedzą w wolnym tekście wiadomości od kupującego, a nie w żadnym osobnym, ładnym polu. Allegro ma co prawda pole \"wiadomość dla sprzedającego\" przy zamówieniu i można je odczytać przez API, ale ono przychodzi jako zwykły tekst. Kupujący pisze raz \"100x100, 5 szt, biały, okleić dookoła\", raz \"formatki 100 na 100 cm, 5 sztuk, okleina biała, brzegi wszystkie\". Ręcznie ktoś to czyta i przepisuje, bo system tego sam nie ogarnie.\n\nI tu jest sedno: żeby to naprawdę działało, zamówienie trzeba pobrać z Allegro i dodatkowo zrozumieć, co klient miał na myśli w tej wiadomości. My to robimy tak, że integracja pobiera zamówienie przez API (włącznie z centrum wiadomości, gdzie siedzi ta treść), a potem moduł AI wyciąga z tekstu wymiary, ilość, kolor płyty i które boki okleić. Tam, gdzie kupujący napisze to nieprecyzyjnie, system oznacza zamówienie jako \"do sprawdzenia\" zamiast zgadywać. Tego typu rozwiązania robiliśmy już przy innych integracjach, gdzie dane trzeba było wyłuskać z niestrukturalnych wiadomości, więc wiemy gdzie się to sypie.\n\nJest jeszcze jedna rzecz, którą warto ustawić od razu. W Allegro można skonfigurować pole wiadomości jako obowiązkowe i dodać kupującemu podpowiedź, jak ma wpisać wymiary (np. w konkretnym formacie). To nie jest żadna magia, a bardzo ułatwia automatyczne czytanie i zmniejsza liczbę pomyłek. Zajmiemy się tym przy okazji.\n\nKilka technicznych kwestii, które i tak trzeba obsłużyć, żeby to nie padło po miesiącu. Allegro ma limity zapytań do API, więc kolejkujemy pobieranie i dodajemy ponawianie przy błędach, żeby nic nie ginęło. Od października 2026 Allegro wprowadza nowy typ wątków w centrum wiadomości obsługiwany inną ścieżką, więc integrację projektujemy od razu tak, żeby to łapała i nie trzeba było tego przepisywać za chwilę. No i dochodzi kwestia danych osobowych z wiadomości, bo tam są imiona, nazwiska i adresy, więc wszystko przetwarzamy zgodnie z przepisami o ochronie danych.\n\nEfekt dla Ciebie: zamówienia z Allegro same wpadają do jednego miejsca, dane są wyciągnięte i gotowe do produkcji, a nie przepisywane ręcznie z wiadomości. Zamiast kogoś kto przekleja imię, wymiary i sposób oklejenia, dostajesz gotową listę do roboty. Do tego dorzucamy prosty eksport i raport dla produkcji, żeby dało się to wydrukować albo wysłać dalej.\n\nZa spięcie tego od A do Z, czyli integrację z Allegro, automatyczne czytanie wiadomości z wymiarami i oklejeniem oraz eksport zamówień dla produkcji, liczymy 6000 zł. Realizacja w 12 dni. W cenie masz 30 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali oraz krótkie wideo pokazujące, jak obsługiwać całość.\n\nZdzwońmy się w tym tygodniu na 15 minut albo napisz na priv i dopniemy szczegóły. Jak chcesz, możemy wcześniej przygotować krótkie demo na przykładowym zamówieniu, żebyś zobaczył, jak to czyta wymiary w praktyce.\n\nPozdrawiam",
+    "wycena": 6000,
+    "dni": 12,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144357",
+    "wycena": 6000,
+    "dni": 12,
+    "final_url": "https://useme.com/pl/jobs/144357/offer/finish/",
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144357.png",
+    "message": "Oferta #144357 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144357/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-14T14:15:39.040727",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144357",
+      "konto": "konto1",
+      "tryb": "meta",
+      "wycena": 6000,
+      "dni": 12,
+      "stawka": null,
+      "stawka_seed": "144357-konto1",
+      "variation_seed": 4,
+      "dlugosc_opisu": 3056,
+      "opis": "Cześć,\n\nZacznę od tego, że to zlecenie jest bardziej podchwytliwe niż wygląda. Bo problem nie polega na samym pobraniu zamówień z Allegro. Prawdziwy haczyk jest w tym, że wymiary formatek, liczba sztuk i sposób oklejenia siedzą w wolnym tekście wiadomości od kupującego, a nie w żadnym osobnym, ładnym polu. Allegro ma co prawda pole \"wiadomość dla sprzedającego\" przy zamówieniu i można je odczytać przez API, ale ono przychodzi jako zwykły tekst. Kupujący pisze raz \"100x100, 5 szt, biały, okleić dookoła\", raz \"formatki 100 na 100 cm, 5 sztuk, okleina biała, brzegi wszystkie\". Ręcznie ktoś to czyta i przepisuje, bo system tego sam nie ogarnie.\n\nI tu jest sedno: żeby to naprawdę działało, zamówienie trzeba pobrać z Allegro i dodatkowo zrozumieć, co klient miał na myśli w tej wiadomości. My to robimy tak, że integracja pobiera zamówienie przez API (włącznie z centrum wiadomości, gdzie siedzi ta treść), a potem moduł AI wyciąga z tekstu wymiary, ilość, kolor płyty i które boki okleić. Tam, gdzie kupujący napisze to nieprecyzyjnie, system oznacza zamówienie jako \"do sprawdzenia\" zamiast zgadywać. Tego typu rozwiązania robiliśmy już przy innych integracjach, gdzie dane trzeba było wyłuskać z niestrukturalnych wiadomości, więc wiemy gdzie się to sypie.\n\nJest jeszcze jedna rzecz, którą warto ustawić od razu. W Allegro można skonfigurować pole wiadomości jako obowiązkowe i dodać kupującemu podpowiedź, jak ma wpisać wymiary (np. w konkretnym formacie). To nie jest żadna magia, a bardzo ułatwia automatyczne czytanie i zmniejsza liczbę pomyłek. Zajmiemy się tym przy okazji.\n\nKilka technicznych kwestii, które i tak trzeba obsłużyć, żeby to nie padło po miesiącu. Allegro ma limity zapytań do API, więc kolejkujemy pobieranie i dodajemy ponawianie przy błędach, żeby nic nie ginęło. Od października 2026 Allegro wprowadza nowy typ wątków w centrum wiadomości obsługiwany inną ścieżką, więc integrację projektujemy od razu tak, żeby to łapała i nie trzeba było tego przepisywać za chwilę. No i dochodzi kwestia danych osobowych z wiadomości, bo tam są imiona, nazwiska i adresy, więc wszystko przetwarzamy zgodnie z przepisami o ochronie danych.\n\nEfekt dla Ciebie: zamówienia z Allegro same wpadają do jednego miejsca, dane są wyciągnięte i gotowe do produkcji, a nie przepisywane ręcznie z wiadomości. Zamiast kogoś kto przekleja imię, wymiary i sposób oklejenia, dostajesz gotową listę do roboty. Do tego dorzucamy prosty eksport i raport dla produkcji, żeby dało się to wydrukować albo wysłać dalej.\n\nZa spięcie tego od A do Z, czyli integrację z Allegro, automatyczne czytanie wiadomości z wymiarami i oklejeniem oraz eksport zamówień dla produkcji, liczymy 6000 zł. Realizacja w 12 dni. W cenie masz 30 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali oraz krótkie wideo pokazujące, jak obsługiwać całość.\n\nZdzwońmy się w tym tygodniu na 15 minut albo napisz na priv i dopniemy szczegóły. Jak chcesz, możemy wcześniej przygotować krótkie demo na przykładowym zamówieniu, żebyś zobaczył, jak to czyta wymiary w praktyce.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-14T14:15:27.009993"
+    }
+  ],
+  "data_wyslania": "2026-09-14T14:15:39.039393"
+}

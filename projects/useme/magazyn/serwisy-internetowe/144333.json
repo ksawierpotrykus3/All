@@ -1,0 +1,68 @@
+{
+  "id": "144333",
+  "url": "https://useme.com/pl/jobs/migracja-5952-ogloszen-z-otomoto-na-allegro-wymagane-doswiadczenie-i-gotowy-skry,144333/",
+  "title": "Migracja 5952 ogłoszeń z OTOMOTO na Allegro (Wymagane doświadczenie i gotowy skrypt)",
+  "author": "MichałM",
+  "author_id": "michałm",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-14T14:11:37.423780",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144333",
+    "url": "https://useme.com/pl/jobs/migracja-5952-ogloszen-z-otomoto-na-allegro-wymagane-doswiadczenie-i-gotowy-skry,144333/",
+    "title": "Migracja 5952 ogłoszeń z OTOMOTO na Allegro (Wymagane doświadczenie i gotowy skrypt)",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Szukam profesjonalisty z gotowym, działającym skryptem, który przeprowadzi bezpieczną migrację 5952 ofert części samochodowych z mojego sklepu OTOMOTO na konto firmowe Allegro. Projekt realizujemy bez pośpiechu, stawiając w 100% na jakość i...",
+    "category": "serwisy-internetowe",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/migracja-5952-ogloszen-z-otomoto-na-allegro-wymagane-doswiadczenie-i-gotowy-skry,144333/",
+    "title": "Migracja 5952 ogłoszeń z OTOMOTO na Allegro (Wymagane doświadczenie i gotowy skrypt)",
+    "full_description": "<p>Szukam profesjonalisty z gotowym, działającym skryptem, który przeprowadzi bezpieczną migrację 5952 ofert części samochodowych z mojego sklepu OTOMOTO na konto firmowe Allegro. Projekt realizujemy bez pośpiechu, stawiając w 100% na jakość i dokładność wdrożenia, jednak z zachowaniem terminu nie dłuższego niż 14 dni. Posiadam już na Allegro wzór aktywnej profesjonalnej oferty, która przeszła bez błędu (ID: 18907450972).</p>\n\n<p>Zadanie polega na pobraniu danych z OTOMOTO i wgraniu ich jako bezpieczne SZKICE (oferty robocze) na Allegro według następujących wytycznych:</p>\n\n<p>1. Całkowite WYŁĄCZENIE automatycznego parowania i wyszukiwania produktów z Katalogu Allegro (aby system nie podmieniał opisów na cudze i nie ucinał galerii zdjęć).<br>2. Jeśli w ogłoszeniu na OTOMOTO brak numeru części, skrypt ma automatycznie brać początek tytułu (Markę + Model, np. &quot;TOYOTA CAMRY VIII 2017-&quot;) i wklejać ten tekst w pole numeru części na Allegro – system przyjmuje to bezbłędnie i nie wymusza blokady Katalogu.<br>3. Stan części mapowany dynamicznie ze źródła (Nowy -&gt; Nowy, Używany -&gt; Używany).<br>4. Skrypt ma przenosić kompletne dane: pełne opisy, wszystkie parametry techniczne (w tym rodzaj pojazdu) oraz prawidłowe ceny, zapobiegając tworzeniu pustych ofert.<br>5. Skrypt graficzny musi automatycznie nakładać mały, neutralny prostokąt (lub inpainting w OpenCV) w lewym dolnym rogu zdjęć, aby bezpiecznie zakryć znak wodny OTOMOTO przed robotami Allegro.</p>\n\n<p>Wymagana bezpłatna partia próbna 20 sztuk w formie szkiców przed ostatecznym zatwierdzeniem umowy. Interesują mnie wyłącznie osoby z udokumentowanym doświadczeniem w API Allegro, które mają już gotowe narzędzia i nie uczą się na żywym organizmie.</p>",
+    "author": "MichałM",
+    "author_id": "michałm",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144333/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-14T14:12:26"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nZanim cokolwiek wystawimy, jedna rzecz do wyjaśnienia, bo od niej zależy cały zakres. Piszesz o gotowym skrypcie, ale w tym projekcie skrypt to najmniejszy problem. Prawdziwe wyzwanie to dwa twarde ograniczenia, które wywalą każdy prosty scraper na pierwszej setce ofert.\n\nPo pierwsze, OTOMOTO nie udostępnia publicznego API dla zwykłych kont. Dostęp mają tylko klienci biznesowi i partnerzy, a stara wersja API jest przestarzała od 2021 roku. Jeśli nie masz konta Biznesowego z kluczem, dane trzeba pobierać scrapingiem z pełną anty-detekcją, bo OTOMOTO aktywnie blokuje boty. To nie jest kwestia \"mieć skrypt\", tylko mieć scraper, który nie padnie przy 5952 rekordach.\n\nPo drugie, Allegro w kategoriach motoryzacyjnych wymaga minimum jednego procenta ofert powiązanych z Katalogiem produktów. Całkowite wyłączenie parowania, o którym piszesz, brzmi dobrze w teorii, ale przy większej skali grozi blokadą wystawiania nowych ofert. Trik z wklejaniem początku tytułu w pole numeru części działa tylko dla produktów, które już są w Katalogu Allegro. Dla nowych części API zwróci błąd 422 i oferta nie przejdzie. Trzeba to obejść logiką, która najpierw sprawdza, czy produkt istnieje, a jeśli nie, wystawia szkic bez powiązania w ramach dozwolonego progu. Inaczej utkniesz na kilkuset błędach i ręcznym poprawianiu.\n\nDo tego dochodzi sekcja \"Pasuje do\", która jest zintegrowana z bazą TecDoc. Mapowanie parametrów technicznych, w tym rodzaju pojazdu, wymaga przejścia przez to powiązanie, bo inaczej oferty będą niekompletne. A skoro już przy tym jesteśmy, szkice na Allegro trzymane są tylko 60 dni. Przy 5952 ofertach nie da się tego zrobić jednym strzałem, trzeba to puścić partiami z kolejką i monitoringiem błędów, bo limity zapytań do API też są określone i nie można ich przekroczyć.\n\nObróbkę zdjęć robimy przez OpenCV, dokładnie tak jak opisałeś, neutralny prostokąt w lewym dolnym rogu zamiast inpaintingu, bo inpainting przy 5952 zdjęciach to niepotrzebne ryzyko wizualnych artefaktów. Stan części mapujemy dynamicznie, ceny i opisy przenosimy w całości, żadnych pustych ofert.\n\nJeśli chodzi o darmową partię próbną 20 sztuk, nie ma problemu, pokażemy ją przed podpisaniem umowy. Tylko uprzedzam, że pełna migracja z obsługą błędów, kolejką i partiami to 20 dni roboczych, nie 14. W 14 dni zrobimy pierwszą działającą partię i pokażemy Ci szkice, ale domknięcie wszystkich 5952 ofert z pełną obsługą wyjątków wymaga tych dodatkowych dni. Wolę powiedzieć wprost, niż potem się tłumaczyć.\n\nZa całość, od scrapingu przez obróbkę zdjęć po wystawienie wszystkich szkiców z pełną obsługą błędów, liczymy 9000 zł. W cenie dajemy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali oraz krótkie wideo pokazujące jak samodzielnie zarządzać szkicami i kolejką.\n\nZdzwońmy się w tym tygodniu na 15 minut, chcę dopytać o jedno: czy masz konto Biznesowe OTOMOTO z dostępem do API, czy dane pobieramy scrapingiem. To zmienia kilka rzeczy w podejściu. Napisz na priv albo wskocz na szybki call.\n\nPozdrawiam",
+    "wycena": 9000,
+    "dni": 20,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144333",
+    "wycena": 9000,
+    "dni": 20,
+    "final_url": "https://useme.com/pl/jobs/144333/offer/finish/",
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144333.png",
+    "message": "Oferta #144333 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144333/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-14T14:42:35.989474",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144333",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 9000,
+      "dni": 20,
+      "stawka": null,
+      "stawka_seed": "144333-konto1",
+      "variation_seed": 0,
+      "dlugosc_opisu": 3014,
+      "opis": "Cześć,\n\nZanim cokolwiek wystawimy, jedna rzecz do wyjaśnienia, bo od niej zależy cały zakres. Piszesz o gotowym skrypcie, ale w tym projekcie skrypt to najmniejszy problem. Prawdziwe wyzwanie to dwa twarde ograniczenia, które wywalą każdy prosty scraper na pierwszej setce ofert.\n\nPo pierwsze, OTOMOTO nie udostępnia publicznego API dla zwykłych kont. Dostęp mają tylko klienci biznesowi i partnerzy, a stara wersja API jest przestarzała od 2021 roku. Jeśli nie masz konta Biznesowego z kluczem, dane trzeba pobierać scrapingiem z pełną anty-detekcją, bo OTOMOTO aktywnie blokuje boty. To nie jest kwestia \"mieć skrypt\", tylko mieć scraper, który nie padnie przy 5952 rekordach.\n\nPo drugie, Allegro w kategoriach motoryzacyjnych wymaga minimum jednego procenta ofert powiązanych z Katalogiem produktów. Całkowite wyłączenie parowania, o którym piszesz, brzmi dobrze w teorii, ale przy większej skali grozi blokadą wystawiania nowych ofert. Trik z wklejaniem początku tytułu w pole numeru części działa tylko dla produktów, które już są w Katalogu Allegro. Dla nowych części API zwróci błąd 422 i oferta nie przejdzie. Trzeba to obejść logiką, która najpierw sprawdza, czy produkt istnieje, a jeśli nie, wystawia szkic bez powiązania w ramach dozwolonego progu. Inaczej utkniesz na kilkuset błędach i ręcznym poprawianiu.\n\nDo tego dochodzi sekcja \"Pasuje do\", która jest zintegrowana z bazą TecDoc. Mapowanie parametrów technicznych, w tym rodzaju pojazdu, wymaga przejścia przez to powiązanie, bo inaczej oferty będą niekompletne. A skoro już przy tym jesteśmy, szkice na Allegro trzymane są tylko 60 dni. Przy 5952 ofertach nie da się tego zrobić jednym strzałem, trzeba to puścić partiami z kolejką i monitoringiem błędów, bo limity zapytań do API też są określone i nie można ich przekroczyć.\n\nObróbkę zdjęć robimy przez OpenCV, dokładnie tak jak opisałeś, neutralny prostokąt w lewym dolnym rogu zamiast inpaintingu, bo inpainting przy 5952 zdjęciach to niepotrzebne ryzyko wizualnych artefaktów. Stan części mapujemy dynamicznie, ceny i opisy przenosimy w całości, żadnych pustych ofert.\n\nJeśli chodzi o darmową partię próbną 20 sztuk, nie ma problemu, pokażemy ją przed podpisaniem umowy. Tylko uprzedzam, że pełna migracja z obsługą błędów, kolejką i partiami to 20 dni roboczych, nie 14. W 14 dni zrobimy pierwszą działającą partię i pokażemy Ci szkice, ale domknięcie wszystkich 5952 ofert z pełną obsługą wyjątków wymaga tych dodatkowych dni. Wolę powiedzieć wprost, niż potem się tłumaczyć.\n\nZa całość, od scrapingu przez obróbkę zdjęć po wystawienie wszystkich szkiców z pełną obsługą błędów, liczymy 9000 zł. W cenie dajemy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali oraz krótkie wideo pokazujące jak samodzielnie zarządzać szkicami i kolejką.\n\nZdzwońmy się w tym tygodniu na 15 minut, chcę dopytać o jedno: czy masz konto Biznesowe OTOMOTO z dostępem do API, czy dane pobieramy scrapingiem. To zmienia kilka rzeczy w podejściu. Napisz na priv albo wskocz na szybki call.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-14T14:42:22.048565"
+    }
+  ],
+  "data_wyslania": "2026-09-14T14:42:35.988168"
+}

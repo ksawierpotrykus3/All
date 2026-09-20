@@ -1,0 +1,68 @@
+{
+  "id": "144336",
+  "url": "https://useme.com/pl/jobs/projekt-i-wykonanie-profesjonalnej-strony-internetowej-b2b-eksport-import-fmcg,144336/",
+  "title": "Projekt i wykonanie profesjonalnej strony internetowej b2b- eksport/import FMCG",
+  "author": "Łukasz",
+  "author_id": "łukasz",
+  "budget": "4000,00 PLN",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-14T14:11:37.398426",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144336",
+    "url": "https://useme.com/pl/jobs/projekt-i-wykonanie-profesjonalnej-strony-internetowej-b2b-eksport-import-fmcg,144336/",
+    "title": "Projekt i wykonanie profesjonalnej strony internetowej b2b- eksport/import FMCG",
+    "budget": "4000,00 PLN",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Szukam freelancera lub niewielkiego studia do zaprojektowania i wykonania profesjonalnej strony internetowej dla mojej firmy zajmującej się rozwojem eksportu i sprzedaży zagranicznej.\n\nPomagamy polskim producentom – przede wszystkim z branży...",
+    "category": "serwisy-internetowe",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/projekt-i-wykonanie-profesjonalnej-strony-internetowej-b2b-eksport-import-fmcg,144336/",
+    "title": "Projekt i wykonanie profesjonalnej strony internetowej b2b- eksport/import FMCG",
+    "full_description": "<p>Szukam freelancera lub niewielkiego studia do zaprojektowania i wykonania profesjonalnej strony internetowej dla mojej firmy zajmującej się rozwojem eksportu i sprzedaży zagranicznej.</p>\n\n<p>Pomagamy polskim producentom – przede wszystkim z branży spożywczej/FMCG – wejść na rynki zagraniczne, znaleźć importerów i dystrybutorów oraz rozwijać sprzedaż. Główne kierunki to Wielka Brytania oraz inne rynki europejskie.</p>\n\n<p>Czego potrzebuję:</p>\n\n<p>* nowoczesnej, eleganckiej strony B2B budującej zaufanie i profesjonalny wizerunek,<br>* indywidualnego projektu graficznego – nie chcę strony wyglądającej jak przypadkowy gotowy szablon,<br>* około 5 podstron: Strona główna / Usługi / Jak działamy / O nas / Kontakt,<br>* wersji polskiej, angielskiej, niemieckiej<br>* świetnego działania na telefonie i komputerze,<br>* formularza kontaktowego,<br>* podpięcia posiadanej domeny i SSL,<br>* podstawowego SEO i analityki,<br>* możliwości samodzielnej późniejszej edycji treści,<br>* podstawowej konfiguracji cookies/zgód.</p>\n\n<p>Strona nie musi być duża. Ważniejsze od liczby podstron jest dla mnie to, żeby wyglądała bardzo profesjonalnie i wzbudzała zaufanie właściciela lub osoby zarządzającej firmą produkcyjną.</p>\n\n<p>Treści merytoryczne i ogólną strukturę dostarczę. Oczekuję również sugestii wykonawcy dotyczących designu, UX i sposobu przedstawienia oferty.</p>\n\n<p>Budżet orientacyjny 3000-5000 netto w zależności od jakości portfolio, proponowanego rozwiązania i zakresu. jestem otwarty na uzasadnione propozycje</p>",
+    "author": "Łukasz",
+    "author_id": "łukasz",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144336/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-14T14:12:19"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu. Robimy strony i automatyzacje, ostatnio m.in. wielojęzyczne serwisy dla firm eksportowych. Zanim przejdę do konkretów, jedna rzecz, która w tym typie projektu robi największą różnicę.\n\nKlient produkcyjny z UK albo Niemiec, który dostaje link do Twojej strony, nie porównuje jej z konkurencją. On sprawdza, czy strona wygląda jak strona firmy, z którą warto rozmawiać o kontrakcie. Trzy sekundy na stronie głównej i decyzja. Twój problem to nie \"5 podstron i trzy wersje językowe\". Problem to wiarygodność u odbiorcy B2B za granicą. To przekłada się na dwie rzeczy techniczne, które w standardowych wdrożeniach są robione po łebkach.\n\nPierwsza: wielojęzyczność. Wersja niemiecka nie może być kopią polskiej po tłumaczeniu. Niemcy wyłapią to od razu po szyku zdania, a Google po braku adnotacji hreflang (kod w stronie mówiący wyszukiwarce, że to ta sama treść w innym języku). Bez tego Google indeksuje złą wersję albo traktuje je jak duplikaty i żadna nie rankuje. Robimy to na WordPressie z motywem blokowym, gdzie sam edytujesz nagłówek, stopkę i szablony bez programisty i bez ciężkich page builderów.\n\nDruga: zgodność prawna. Formularz kontaktowy zbiera dane osobowe, więc potrzebuje klauzuli RODO przy polu. Baner cookie od 2026 musi mieć przycisk \"Odrzuć\" na tym samym poziomie co \"Akceptuj\", bez domyślnie zaznaczonych checkboxów, i blokować skrypty analityczne do momentu zgody. Robimy to na darmowej wtyczce, żeby nie było abonamentu po Twojej stronie.\n\nJeszcze jedno: European Accessibility Act, który wszedł w 2025, nie obejmuje B2B, więc formalnie Cię to nie dotyczy. Ale podstawy (kontrast, alt teksty, nawigacja klawiaturą) wdrożymy, bo klient instytucjonalny to zauważy.\n\nSprawa budżetu. Pełen zakres: indywidualny projekt graficzny, 5 podstron, trzy języki, formularz, SEO techniczne, analityka i cookies - to u nas 7000 zł i 15 dni pracy. Twój budżet to 3000-5000 netto, więc nie udaję, że zmieścimy wszystko. Zamiast tego proponuję start od pierwszej fazy: wersja PL i EN, 3 kluczowe podstrony (Główna, Usługi, Kontakt) z pełnym autorskim designem, formularzem i SEO - w kwocie 4200 zł, 9 dni. Wersję DE i pozostałe podstrony dokładamy po akceptacji pierwszego etapu, jako drugi etap w osobnej wycenie. Wtedy widzisz na żywo jak pracujemy i decydujesz o reszcie.\n\nW pierwszej fazie dajemy 21 dni bezpłatnej asysty po wdrożeniu oraz krótkie wideo pokazujące jak samodzielnie edytować treści.\n\nChcesz zobaczyć jak to może wyglądać? Zdzwońmy się na 15 minut, albo napisz na priv - podeślę wstępny układ strony głównej, żebyś ocenił kierunek jeszcze przed decyzją.\n\nPozdrawiam",
+    "wycena": 7000,
+    "dni": 15,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144336",
+    "wycena": 7000,
+    "dni": 15,
+    "final_url": "https://useme.com/pl/jobs/144336/offer/finish/",
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144336.png",
+    "message": "Oferta #144336 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144336/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-14T14:40:08.286556",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144336",
+      "konto": "konto1",
+      "tryb": "meta",
+      "wycena": 7000,
+      "dni": 15,
+      "stawka": null,
+      "stawka_seed": "144336-konto1",
+      "variation_seed": 4,
+      "dlugosc_opisu": 2642,
+      "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu. Robimy strony i automatyzacje, ostatnio m.in. wielojęzyczne serwisy dla firm eksportowych. Zanim przejdę do konkretów, jedna rzecz, która w tym typie projektu robi największą różnicę.\n\nKlient produkcyjny z UK albo Niemiec, który dostaje link do Twojej strony, nie porównuje jej z konkurencją. On sprawdza, czy strona wygląda jak strona firmy, z którą warto rozmawiać o kontrakcie. Trzy sekundy na stronie głównej i decyzja. Twój problem to nie \"5 podstron i trzy wersje językowe\". Problem to wiarygodność u odbiorcy B2B za granicą. To przekłada się na dwie rzeczy techniczne, które w standardowych wdrożeniach są robione po łebkach.\n\nPierwsza: wielojęzyczność. Wersja niemiecka nie może być kopią polskiej po tłumaczeniu. Niemcy wyłapią to od razu po szyku zdania, a Google po braku adnotacji hreflang (kod w stronie mówiący wyszukiwarce, że to ta sama treść w innym języku). Bez tego Google indeksuje złą wersję albo traktuje je jak duplikaty i żadna nie rankuje. Robimy to na WordPressie z motywem blokowym, gdzie sam edytujesz nagłówek, stopkę i szablony bez programisty i bez ciężkich page builderów.\n\nDruga: zgodność prawna. Formularz kontaktowy zbiera dane osobowe, więc potrzebuje klauzuli RODO przy polu. Baner cookie od 2026 musi mieć przycisk \"Odrzuć\" na tym samym poziomie co \"Akceptuj\", bez domyślnie zaznaczonych checkboxów, i blokować skrypty analityczne do momentu zgody. Robimy to na darmowej wtyczce, żeby nie było abonamentu po Twojej stronie.\n\nJeszcze jedno: European Accessibility Act, który wszedł w 2025, nie obejmuje B2B, więc formalnie Cię to nie dotyczy. Ale podstawy (kontrast, alt teksty, nawigacja klawiaturą) wdrożymy, bo klient instytucjonalny to zauważy.\n\nSprawa budżetu. Pełen zakres: indywidualny projekt graficzny, 5 podstron, trzy języki, formularz, SEO techniczne, analityka i cookies - to u nas 7000 zł i 15 dni pracy. Twój budżet to 3000-5000 netto, więc nie udaję, że zmieścimy wszystko. Zamiast tego proponuję start od pierwszej fazy: wersja PL i EN, 3 kluczowe podstrony (Główna, Usługi, Kontakt) z pełnym autorskim designem, formularzem i SEO - w kwocie 4200 zł, 9 dni. Wersję DE i pozostałe podstrony dokładamy po akceptacji pierwszego etapu, jako drugi etap w osobnej wycenie. Wtedy widzisz na żywo jak pracujemy i decydujesz o reszcie.\n\nW pierwszej fazie dajemy 21 dni bezpłatnej asysty po wdrożeniu oraz krótkie wideo pokazujące jak samodzielnie edytować treści.\n\nChcesz zobaczyć jak to może wyglądać? Zdzwońmy się na 15 minut, albo napisz na priv - podeślę wstępny układ strony głównej, żebyś ocenił kierunek jeszcze przed decyzją.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-14T14:39:56.069800"
+    }
+  ],
+  "data_wyslania": "2026-09-14T14:40:08.284554"
+}

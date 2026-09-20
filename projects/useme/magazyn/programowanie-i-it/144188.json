@@ -1,0 +1,69 @@
+{
+  "id": "144188",
+  "url": "https://useme.com/pl/jobs/comarch-erp-xl-automatyczne-generowanie-faktury,144188/",
+  "title": "Comarch ERP XL — automatyczne generowanie faktury",
+  "author": "Roastplant",
+  "author_id": "roastplant",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-12T10:39:30.591421",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144188",
+    "url": "https://useme.com/pl/jobs/comarch-erp-xl-automatyczne-generowanie-faktury,144188/",
+    "title": "Comarch ERP XL — automatyczne generowanie faktury",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Comarch ERP XL — automatyczne generowanie faktury z WZ\n\nPotrzebuję wdrożyć w Comarch ERP XL (wersja 2025.1.6) automat, który generuje fakturę sprzedaży z dokumentu Wydania Zewnętrznego. Relacja 1:1 — jedna WZ, jedna faktura.\n\nRozwiązanie oparte o...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/comarch-erp-xl-automatyczne-generowanie-faktury,144188/",
+    "title": "Comarch ERP XL — automatyczne generowanie faktury",
+    "full_description": "<p>Comarch ERP XL — automatyczne generowanie faktury z WZ</p>\n\n<p>Potrzebuję wdrożyć w Comarch ERP XL (wersja 2025.1.6) automat, który generuje fakturę sprzedaży z dokumentu Wydania Zewnętrznego. Relacja 1:1 — jedna WZ, jedna faktura.</p>\n\n<p>Rozwiązanie oparte o moduł Procesy — bez Hydry i bez dodatków programistycznych.</p>\n\n<p>Szukam osoby z doświadczeniem, która to skonfiguruje, przetestuje na bazie testowej i wdroży produkcyjnie.</p>\n\n<p>Wymagania:<br>- udokumentowane doświadczenie z Comarch ERP XL, w szczególności z modułem Procesy (nie Optima)<br>- praca zdalna, środowisko testowe udostępniam</p>\n\n<p>W ofercie proszę o opis podobnych wdrożeń, proponowane podejście, wycenę i termin.</p>",
+    "author": "Roastplant",
+    "author_id": "roastplant",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144188/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-12T18:29:02"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nZanim przejdę do konkretów, muszę dopytać o kilka rzeczy, bo od nich zależy, czy projekt da się domknąć w standardzie XL-a, czy trzeba szukać obejść.\n\nPo pierwsze, czy klucz sprzętowy ma aktywną opcję modułu Procesy? To nie jest funkcja dostępna z pudełka, Comarch ERP XL wymaga osobnej pozycji licencyjnej. Bez tego nie ruszymy.\n\nPo drugie, czy WZ, z których ma powstawać faktura, są zawsze powiązane z zamówieniem sprzedaży? Standardowe akcje Procesów generują dokumenty wyłącznie z zamówień sprzedaży i zakupu i nie ma tam gotowej akcji „Generuj FS z WZ\". Jeśli część WZ nie ma ZS, trzeba iść przez akcję „Generowanie spinacza\" (S)FS, która tworzy dokument zbiorczy, a potem osobno go zatwierdzić. Da się to zrobić w standardzie, ale wymaga nietypowej konfiguracji, zwłaszcza przy relacji 1:1, bo spinacze z natury grupują wiele WZ.\n\nPo trzecie, jak proces ma się zachować, jeśli coś pójdzie nie tak, np. kontrahent nie ma kompletu danych? Ma się zatrzymać i czekać na korektę, czy próbować ponownie? Logi z akcji kluczowych i tak lądują jako załączniki w procesie przez XL WORK AUTOMAT, więc debugowanie jest możliwe, ale dobrze wiedzieć, czego Państwo oczekują.\n\nCo do doświadczenia: nie robiliśmy jeszcze wdrożeń na module Procesy w Comarch ERP XL. Pracowaliśmy natomiast przy automatyzacjach przepływu dokumentów i integracjach systemowych w .NET, Pythonie i Node.js, m.in. przy systemach POS, integracjach API i własnych skryptach spinających systemy z zewnętrznymi narzędziami. Jeśli referencje z samego XL-a są dla Państwa warunkiem, uczciwie mówię, że ich nie mamy. Znamy jednak ograniczenia, o których piszę powyżej, i wiemy, jak je obejść bez Hydry i bez dodatków programistycznych.\n\nJedna dobra wiadomość: są Państwo na 2025.1.6, a to dokładnie ta wersja, która od sierpnia 2026 utrzyma komunikację z KSeF. Nie będzie trzeba pilnie wdrażać 2026.0.\n\nZa konfigurację procesu, testy na Państwa bazie testowej i wdrożenie produkcyjne liczymy 3000 zł. Realizacja w 7 dni roboczych od otrzymania dostępu do środowiska testowego.\n\nJeśli pasuje, zdzwońmy się na 15 minut i przejdziemy przez te pytania razem. Mogę też przygotować krótki zakres na piśmie.\n\nPozdrawiam",
+    "wycena": 3000,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144188",
+    "wycena": 3000,
+    "dni": 7,
+    "final_url": "https://useme.com/pl/jobs/144188/offer/finish/",
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144188.png",
+    "message": "Oferta #144188 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144188/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-12T18:35:43.958771",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144188",
+      "konto": "konto1",
+      "tryb": "meta",
+      "wycena": 3000,
+      "dni": 7,
+      "stawka": null,
+      "stawka_seed": "144188-konto1",
+      "variation_seed": 2,
+      "dlugosc_opisu": 2186,
+      "opis": "Dzień dobry,\n\nZanim przejdę do konkretów, muszę dopytać o kilka rzeczy, bo od nich zależy, czy projekt da się domknąć w standardzie XL-a, czy trzeba szukać obejść.\n\nPo pierwsze, czy klucz sprzętowy ma aktywną opcję modułu Procesy? To nie jest funkcja dostępna z pudełka, Comarch ERP XL wymaga osobnej pozycji licencyjnej. Bez tego nie ruszymy.\n\nPo drugie, czy WZ, z których ma powstawać faktura, są zawsze powiązane z zamówieniem sprzedaży? Standardowe akcje Procesów generują dokumenty wyłącznie z zamówień sprzedaży i zakupu i nie ma tam gotowej akcji „Generuj FS z WZ\". Jeśli część WZ nie ma ZS, trzeba iść przez akcję „Generowanie spinacza\" (S)FS, która tworzy dokument zbiorczy, a potem osobno go zatwierdzić. Da się to zrobić w standardzie, ale wymaga nietypowej konfiguracji, zwłaszcza przy relacji 1:1, bo spinacze z natury grupują wiele WZ.\n\nPo trzecie, jak proces ma się zachować, jeśli coś pójdzie nie tak, np. kontrahent nie ma kompletu danych? Ma się zatrzymać i czekać na korektę, czy próbować ponownie? Logi z akcji kluczowych i tak lądują jako załączniki w procesie przez XL WORK AUTOMAT, więc debugowanie jest możliwe, ale dobrze wiedzieć, czego Państwo oczekują.\n\nCo do doświadczenia: nie robiliśmy jeszcze wdrożeń na module Procesy w Comarch ERP XL. Pracowaliśmy natomiast przy automatyzacjach przepływu dokumentów i integracjach systemowych w .NET, Pythonie i Node.js, m.in. przy systemach POS, integracjach API i własnych skryptach spinających systemy z zewnętrznymi narzędziami. Jeśli referencje z samego XL-a są dla Państwa warunkiem, uczciwie mówię, że ich nie mamy. Znamy jednak ograniczenia, o których piszę powyżej, i wiemy, jak je obejść bez Hydry i bez dodatków programistycznych.\n\nJedna dobra wiadomość: są Państwo na 2025.1.6, a to dokładnie ta wersja, która od sierpnia 2026 utrzyma komunikację z KSeF. Nie będzie trzeba pilnie wdrażać 2026.0.\n\nZa konfigurację procesu, testy na Państwa bazie testowej i wdrożenie produkcyjne liczymy 3000 zł. Realizacja w 7 dni roboczych od otrzymania dostępu do środowiska testowego.\n\nJeśli pasuje, zdzwońmy się na 15 minut i przejdziemy przez te pytania razem. Mogę też przygotować krótki zakres na piśmie.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-12T18:35:24.686968"
+    }
+  ],
+  "data_wyslania": "2026-09-12T18:35:43.910512",
+  "error": "module 'config' has no attribute 'MIN_DELAY_BETWEEN_OFFERS_S'"
+}

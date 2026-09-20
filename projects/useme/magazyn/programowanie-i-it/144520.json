@@ -1,0 +1,82 @@
+{
+  "id": "144520",
+  "url": "https://useme.com/pl/jobs/strona-wordpress-wykonanie-nowoczesnej-strony,144520/",
+  "title": "Strona + WordPress – wykonanie nowoczesnej strony",
+  "author": "",
+  "author_id": "anonim",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-17T21:18:18.109211",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144520",
+    "url": "https://useme.com/pl/jobs/strona-wordpress-wykonanie-nowoczesnej-strony,144520/",
+    "title": "Strona + WordPress – wykonanie nowoczesnej strony",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Szukam wykonawcy do stworzenia landing page’a na WordPressie. Zależy mi na osobie, która potrafi nie tylko wdrożyć stronę, ale również zadbać o jej wygląd, szybkość i poprawne przygotowanie techniczne.\n\n**Zakres:**\n\n* przygotowanie nowoczesnego,...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/strona-wordpress-wykonanie-nowoczesnej-strony,144520/",
+    "title": "useme.com",
+    "full_description": "",
+    "author": "",
+    "author_id": "anonim",
+    "has_add_offer_button": false,
+    "add_offer_href": null,
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-17T21:27:36"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nZacznijmy od rzeczy, która najczęściej decyduje o tym, czy landing w ogóle zarabia. Sam wygląd to dziś najmniejszy problem. Prawdziwy problem to metryki, które Google liczy przy rankingu: czas do wyświetlenia największego elementu na ekranie (LCP), opóźnienie reakcji na klik (INP) i to, czy strona nie skacze podczas ładowania (CLS). W 2026 tylko około połowa mobilnych stron spełnia wszystkie trzy progi naraz. Jak je przegapisz, strona ładuje się ładnie, ale ruch z Google siada i płacisz za reklamy, które lądują na wolnej witrynie. Drugi cichy problem to bezpieczeństwo. Gotowe motywy i buildery \"landing page\" regularnie dostają dziury (w tym roku było kilka łatanych CVE w motywach o takiej nazwie), a tanie współdzielone hostingi potrafią zabić wydajność zanim WordPress w ogóle zacznie renderować.\n\nJak to ogarniamy. Stawiamy landing na najnowszym WordPressie, który ma sporo optymalizacji już w środku, więc część rzeczy nie wymaga dodatkowych wtyczek. Największy obraz na wejściu dostaje najwyższy priorytet ładowania, sekcje FAQ robimy natywnym blokiem zamiast kolejną wtyczką, a każdą używaną wtyczkę i motyw sprawdzamy pod kątem wersji i źródła. Do tego cache na poziomie serwera, aktualne PHP i HTTP/2 lub 3 po stronie hostingu. Formularz kontaktowy i wszelkie śledzenie spięte z poprawną zgodą i polityką prywatności, bo bez tego strona z formularzem to otwarte drzwi dla RODO.\n\nRobiliśmy już wdrożenia, gdzie cała robota polegała na tym, żeby strona wchodziła w zielone metryki i nie sypała się po każdej aktualizacji. To nasza codzienność.\n\nZa postawienie kompletnego landing page'a z optymalizacją wydajności, ogarnięciem bezpieczeństwa i przygotowaniem technicznym liczymy 3500 zł, realizacja w 8 dni. W cenie dajemy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali oraz krótkie wideo pokazujące, jak samodzielnie zarządzać treścią i panelem.\n\nZdzwońmy się w tym tygodniu na krótkiego calla na 15 minut albo napisz na priv i dopniemy szczegóły. Jeśli chcesz zobaczyć, jak to wygląda w praktyce, możemy przed decyzją przygotować krótkie demo.\n\nPozdrawiam",
+    "wycena": 3500,
+    "dni": 8,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144520",
+    "wycena": 3500,
+    "dni": 8,
+    "final_url": "https://useme.com/pl/jobs/144520/offer/finish/",
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144520.png",
+    "message": "Oferta #144520 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144520/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-17T22:09:13.023270",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144520",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 3500,
+      "dni": 8,
+      "stawka": null,
+      "stawka_seed": "144520-konto1",
+      "variation_seed": 0,
+      "dlugosc_opisu": 2093,
+      "opis": "Cześć,\n\nZacznijmy od rzeczy, która najczęściej decyduje o tym, czy landing w ogóle zarabia. Sam wygląd to dziś najmniejszy problem. Prawdziwy problem to metryki, które Google liczy przy rankingu: czas do wyświetlenia największego elementu na ekranie (LCP), opóźnienie reakcji na klik (INP) i to, czy strona nie skacze podczas ładowania (CLS). W 2026 tylko około połowa mobilnych stron spełnia wszystkie trzy progi naraz. Jak je przegapisz, strona ładuje się ładnie, ale ruch z Google siada i płacisz za reklamy, które lądują na wolnej witrynie. Drugi cichy problem to bezpieczeństwo. Gotowe motywy i buildery \"landing page\" regularnie dostają dziury (w tym roku było kilka łatanych CVE w motywach o takiej nazwie), a tanie współdzielone hostingi potrafią zabić wydajność zanim WordPress w ogóle zacznie renderować.\n\nJak to ogarniamy. Stawiamy landing na najnowszym WordPressie, który ma sporo optymalizacji już w środku, więc część rzeczy nie wymaga dodatkowych wtyczek. Największy obraz na wejściu dostaje najwyższy priorytet ładowania, sekcje FAQ robimy natywnym blokiem zamiast kolejną wtyczką, a każdą używaną wtyczkę i motyw sprawdzamy pod kątem wersji i źródła. Do tego cache na poziomie serwera, aktualne PHP i HTTP/2 lub 3 po stronie hostingu. Formularz kontaktowy i wszelkie śledzenie spięte z poprawną zgodą i polityką prywatności, bo bez tego strona z formularzem to otwarte drzwi dla RODO.\n\nRobiliśmy już wdrożenia, gdzie cała robota polegała na tym, żeby strona wchodziła w zielone metryki i nie sypała się po każdej aktualizacji. To nasza codzienność.\n\nZa postawienie kompletnego landing page'a z optymalizacją wydajności, ogarnięciem bezpieczeństwa i przygotowaniem technicznym liczymy 3500 zł, realizacja w 8 dni. W cenie dajemy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali oraz krótkie wideo pokazujące, jak samodzielnie zarządzać treścią i panelem.\n\nZdzwońmy się w tym tygodniu na krótkiego calla na 15 minut albo napisz na priv i dopniemy szczegóły. Jeśli chcesz zobaczyć, jak to wygląda w praktyce, możemy przed decyzją przygotować krótkie demo.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-17T21:29:31.124577"
+    },
+    {
+      "job_id": "144520",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 3500,
+      "dni": 8,
+      "stawka": null,
+      "stawka_seed": "144520-konto1",
+      "variation_seed": 4,
+      "dlugosc_opisu": 2093,
+      "opis": "Cześć,\n\nZacznijmy od rzeczy, która najczęściej decyduje o tym, czy landing w ogóle zarabia. Sam wygląd to dziś najmniejszy problem. Prawdziwy problem to metryki, które Google liczy przy rankingu: czas do wyświetlenia największego elementu na ekranie (LCP), opóźnienie reakcji na klik (INP) i to, czy strona nie skacze podczas ładowania (CLS). W 2026 tylko około połowa mobilnych stron spełnia wszystkie trzy progi naraz. Jak je przegapisz, strona ładuje się ładnie, ale ruch z Google siada i płacisz za reklamy, które lądują na wolnej witrynie. Drugi cichy problem to bezpieczeństwo. Gotowe motywy i buildery \"landing page\" regularnie dostają dziury (w tym roku było kilka łatanych CVE w motywach o takiej nazwie), a tanie współdzielone hostingi potrafią zabić wydajność zanim WordPress w ogóle zacznie renderować.\n\nJak to ogarniamy. Stawiamy landing na najnowszym WordPressie, który ma sporo optymalizacji już w środku, więc część rzeczy nie wymaga dodatkowych wtyczek. Największy obraz na wejściu dostaje najwyższy priorytet ładowania, sekcje FAQ robimy natywnym blokiem zamiast kolejną wtyczką, a każdą używaną wtyczkę i motyw sprawdzamy pod kątem wersji i źródła. Do tego cache na poziomie serwera, aktualne PHP i HTTP/2 lub 3 po stronie hostingu. Formularz kontaktowy i wszelkie śledzenie spięte z poprawną zgodą i polityką prywatności, bo bez tego strona z formularzem to otwarte drzwi dla RODO.\n\nRobiliśmy już wdrożenia, gdzie cała robota polegała na tym, żeby strona wchodziła w zielone metryki i nie sypała się po każdej aktualizacji. To nasza codzienność.\n\nZa postawienie kompletnego landing page'a z optymalizacją wydajności, ogarnięciem bezpieczeństwa i przygotowaniem technicznym liczymy 3500 zł, realizacja w 8 dni. W cenie dajemy 21 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali oraz krótkie wideo pokazujące, jak samodzielnie zarządzać treścią i panelem.\n\nZdzwońmy się w tym tygodniu na krótkiego calla na 15 minut albo napisz na priv i dopniemy szczegóły. Jeśli chcesz zobaczyć, jak to wygląda w praktyce, możemy przed decyzją przygotować krótkie demo.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-17T22:08:52.746132"
+    }
+  ],
+  "error": "Nie znaleziono pola wyceny (#id_payment / stages-0-payment) na stronie: https://useme.com/pl/jobs/144520/offer/start/",
+  "data_wyslania": "2026-09-17T22:09:13.021270"
+}

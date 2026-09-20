@@ -1,0 +1,68 @@
+{
+  "id": "144330",
+  "url": "https://useme.com/pl/jobs/witam-szukam-programisty-aplikacji-mobilnej,144330/",
+  "title": "Witam szukam programisty aplikacji mobilnej",
+  "author": "Motorized 11",
+  "author_id": "motorized-11",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-14T14:11:37.250600",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144330",
+    "url": "https://useme.com/pl/jobs/witam-szukam-programisty-aplikacji-mobilnej,144330/",
+    "title": "Witam szukam programisty aplikacji mobilnej",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Witam szukam programisty aplikacji mobilnej do dokończenia aplikacji",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/witam-szukam-programisty-aplikacji-mobilnej,144330/",
+    "title": "Witam szukam programisty aplikacji mobilnej",
+    "full_description": "<p>Witam szukam programisty aplikacji mobilnej do dokończenia aplikacji</p>",
+    "author": "Motorized 11",
+    "author_id": "motorized-11",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144330/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-14T14:11:44"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu, mobile to nasza główna działka. Robiliśmy już podobny temat: przejmowaliśmy niedokończoną aplikację po poprzednim wykonawcy, która stała pół roku bez aktualizacji. Zanim cokolwiek dopisaliśmy, zrobiliśmy audyt i dopiero wtedy okazało się, że połowa roboty to nie \"dokończenie\", a ratowanie fundamentów. To dokładnie ten typ projektu.\n\nI tu od razu ważna rzecz. Ogłoszenie jest jednozdaniowe, więc nie wiem, jaka to platforma (Android, iOS, oba), w jakiej technologii (natywnie czy Flutter/React Native), w jakim stanie jest kod i czy masz do niego pełne prawa. Przy takim zakresie nie znam żadnej uczciwej firmy, która podałaby stałą cenę za \"dokończenie aplikacji\". Każda kwota byłaby strzelaniem w ciemno, a potem albo dopłaty w trakcie, albo cięcie funkcji.\n\nDlatego proponuję mądrzejsze wejście: pierwszy etap to audyt kodu, repozytorium i praw autorskich oraz plan rozwoju. Konkretnie sprawdzimy stan kodu i dług techniczny (czyli ile będzie kosztować utrzymanie tego, co już jest), czy repo i licencje są kompletne, czy poprzedni wykonawca przekazał prawa do kodu i assetów, no i najważniejsze pod kątem sklepów: Apple od 28 kwietnia 2026 wymaga budowania aplikacji na iOS 26 SDK, a Google Play od 31 sierpnia 2026 wymaga targetowania Androida 16 (API 36). Jeśli apka była rozwijana na starym toolchainie, samo doprowadzenie jej do tych wymagań zjada spory kawałek budżetu, a klient zwykle dowiaduje się o tym dopiero przy odrzuceniu w App Store.\n\nNa koniec dostajesz roadmapę: docelowy tech stack, architekturę i rozpisany plan dalszych prac z estymacją, żebyś wiedział, co i za ile, zanim wpuścisz kogokolwiek w development.\n\nZa ten etap, czyli audyt kodu i repozytorium z weryfikacją praw autorskich oraz plan rozwoju i architekturę docelową, liczymy 4500 zł, realizacja w 10 dni. Kolejne moduły, czyli samo dokończenie funkcji, wycenimy już po audycie, punkt po punkcie, bez zgadywania.\n\nJeśli chcesz, zanim podejmiemy decyzję, możemy przygotować krótkie wstępne demo lub pokazać, jak wyglądał raport z podobnego audytu, który robiliśmy wcześniej. Napisz na priv albo zdzwońmy się na 15 minut przez Google Meet i dopniemy szczegóły.",
+    "wycena": 4500,
+    "dni": 10,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144330",
+    "wycena": 4500,
+    "dni": 10,
+    "final_url": "https://useme.com/pl/jobs/144330/offer/finish/",
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144330.png",
+    "message": "Oferta #144330 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144330/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-14T14:18:43.765568",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144330",
+      "konto": "konto1",
+      "tryb": "meta",
+      "wycena": 4500,
+      "dni": 10,
+      "stawka": null,
+      "stawka_seed": "144330-konto1",
+      "variation_seed": 3,
+      "dlugosc_opisu": 2188,
+      "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu, mobile to nasza główna działka. Robiliśmy już podobny temat: przejmowaliśmy niedokończoną aplikację po poprzednim wykonawcy, która stała pół roku bez aktualizacji. Zanim cokolwiek dopisaliśmy, zrobiliśmy audyt i dopiero wtedy okazało się, że połowa roboty to nie \"dokończenie\", a ratowanie fundamentów. To dokładnie ten typ projektu.\n\nI tu od razu ważna rzecz. Ogłoszenie jest jednozdaniowe, więc nie wiem, jaka to platforma (Android, iOS, oba), w jakiej technologii (natywnie czy Flutter/React Native), w jakim stanie jest kod i czy masz do niego pełne prawa. Przy takim zakresie nie znam żadnej uczciwej firmy, która podałaby stałą cenę za \"dokończenie aplikacji\". Każda kwota byłaby strzelaniem w ciemno, a potem albo dopłaty w trakcie, albo cięcie funkcji.\n\nDlatego proponuję mądrzejsze wejście: pierwszy etap to audyt kodu, repozytorium i praw autorskich oraz plan rozwoju. Konkretnie sprawdzimy stan kodu i dług techniczny (czyli ile będzie kosztować utrzymanie tego, co już jest), czy repo i licencje są kompletne, czy poprzedni wykonawca przekazał prawa do kodu i assetów, no i najważniejsze pod kątem sklepów: Apple od 28 kwietnia 2026 wymaga budowania aplikacji na iOS 26 SDK, a Google Play od 31 sierpnia 2026 wymaga targetowania Androida 16 (API 36). Jeśli apka była rozwijana na starym toolchainie, samo doprowadzenie jej do tych wymagań zjada spory kawałek budżetu, a klient zwykle dowiaduje się o tym dopiero przy odrzuceniu w App Store.\n\nNa koniec dostajesz roadmapę: docelowy tech stack, architekturę i rozpisany plan dalszych prac z estymacją, żebyś wiedział, co i za ile, zanim wpuścisz kogokolwiek w development.\n\nZa ten etap, czyli audyt kodu i repozytorium z weryfikacją praw autorskich oraz plan rozwoju i architekturę docelową, liczymy 4500 zł, realizacja w 10 dni. Kolejne moduły, czyli samo dokończenie funkcji, wycenimy już po audycie, punkt po punkcie, bez zgadywania.\n\nJeśli chcesz, zanim podejmiemy decyzję, możemy przygotować krótkie wstępne demo lub pokazać, jak wyglądał raport z podobnego audytu, który robiliśmy wcześniej. Napisz na priv albo zdzwońmy się na 15 minut przez Google Meet i dopniemy szczegóły.",
+      "zapisano_at": "2026-09-14T14:18:30.329395"
+    }
+  ],
+  "data_wyslania": "2026-09-14T14:18:43.764374"
+}

@@ -1,0 +1,3 @@
+# Plik data/disabled_slots.txt sluzy do TRWALEGO wylaczania uszkodzonych slotow (np. bledne haslo, usuniete konto).
+# Zmutowane konta sa zarzadzane automatycznie i dynamicznie przez data/muted_slots.json.
+# Format: numery slotow oddzielone spacjami lub w nowych liniach (np. "12 13").

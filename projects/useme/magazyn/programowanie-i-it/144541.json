@@ -1,0 +1,82 @@
+{
+  "id": "144541",
+  "url": "https://useme.com/pl/jobs/wdrozenie-centralnego-systemu-obslugi-klienta-dla-e-commerce-magento-idea-commer,144541/",
+  "title": "Wdrożenie centralnego systemu obsługi klienta dla e-commerce (Magento + IDEA Commerce)",
+  "author": "",
+  "author_id": "anonim",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-17T21:18:18.074012",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144541",
+    "url": "https://useme.com/pl/jobs/wdrozenie-centralnego-systemu-obslugi-klienta-dla-e-commerce-magento-idea-commer,144541/",
+    "title": "Wdrożenie centralnego systemu obsługi klienta dla e-commerce (Magento + IDEA Commerce)",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "### Cel / priorytet rozwiązania\n\n- Głównym priorytetem jest **centralizacja komunikacji z klientami**: zebranie wszystkich kanałów (mail, czat, WhatsApp, marketplace’y) w **jednym systemie**, aby usprawnić obsługę klienta.\n\n\n\n### Skala i...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/wdrozenie-centralnego-systemu-obslugi-klienta-dla-e-commerce-magento-idea-commer,144541/",
+    "title": "useme.com",
+    "full_description": "",
+    "author": "",
+    "author_id": "anonim",
+    "has_add_offer_button": false,
+    "add_offer_href": null,
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-17T21:21:08"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nZanim zaczniemy spinać kanały, jedna rzecz, która w takich projektach przewraca harmonogram: to nie jest projekt „podłączmy maila, czat i WhatsApp do Magento\". Prawdziwy problem leży w tym, że każdy marketplace ma własne limity zapytań i własny sposób autoryzacji, a przy próbie odpytywania ich na żywo system zaczyna gubić zamówienia i wiadomości.\n\nPrzykład z życia: Amazon w wyszukiwaniu zamówień pozwala na około 20 zapytań na godzinę. eBay domyślnie 5000 wywołań na dobę. Allegro od września 2026 ogranicza liczbę kluczy API do jednego na konto. Jeśli ktoś zaprojektuje to jako osobne integracje punkt do punktu, po miesiącu eksploatacji robi się z tego nie do utrzymania.\n\nDlatego robimy to inaczej: jeden centralny hub, który zbiera zdarzenia z marketplace'ów przez webhooki i harmonogramy, a dopiero z niego wychodzą dane do Magento i do panelu agenta. Do tego kolejka z ponawianiem nieudanych wywołań (jeśli marketplace chwilowo nie odpowiada, zadanie wraca automatycznie, zamiast przepadać) i lokalny cache, żeby limity nas nie zabijały.\n\nWhatsApp Business API to osobny temat, bo nie ma oficjalnego modułu WhatsApp od Adobe ani Magento. Budujemy dedykowany connector: szablony wiadomości, obsługa 24-godzinnego okna obsługi i przekazanie rozmowy do agenta, gdy bot sobie nie radzi.\n\nCzat na stronie robimy w czasie rzeczywistym, z historią konwersacji i powiadomieniami dla agenta. Do tego panel z pełnym workflow, dziennikiem zdarzeń (kto, kiedy i co zmienił w zgłoszeniu) i masowymi operacjami, żeby przy 200 zgłoszeniach nikt nie klikał ich pojedynczo.\n\nTrzecia rzecz, o której warto wiedzieć teraz, a nie po wdrożeniu: od 1 października 2026 Meta zaczyna pobierać opłaty za wiadomości serwisowe wysyłane w oknie obsługi, które do tej pory były darmowe. Przy skali e-commerce to realny koszt miesięczny. Samo wdrożenie tego nie generuje, ale system może liczyć te koszty na bieżąco.\n\nZa spięcie wszystkich kanałów w jeden system, wraz z panelem agenta i kolejką integracyjną, liczymy 30 000 zł. Realizacja zajmie 63 dni robocze. W cenie dajemy 30 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali w praniu oraz krótkie wideo pokazujące, jak obsługiwać panel.\n\nDwie rzeczy świadomie zostawiamy poza tą kwotą jako opcjonalny drugi etap: licznik kosztów WhatsApp (podliczanie płatnych wiadomości w rozbiciu na agenta i kanał) oraz pełną obsługę wymogu AI Act, czyli obowiązku informowania klienta, że rozmawia z AI, który wchodzi w życie 2 sierpnia 2026. Jeśli chatbot AI ma być w pierwszej wersji, powiedz od razu, doliczymy to do zakresu.\n\nZdzwońmy się na 15 minut i przejdziemy przez te limity oraz to, czy budujemy obok waszego obecnego systemu, czy wchodzimy w niego bezpośrednio. Jeśli chcesz, przed decyzją przygotujemy krótkie demo panelu agenta z jedną podpiętą skrzynką.\n\nPozdrawiam",
+    "wycena": 30000,
+    "dni": 63,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144541",
+    "wycena": 30000,
+    "dni": 63,
+    "final_url": "https://useme.com/pl/jobs/144541/offer/finish/",
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144541.png",
+    "message": "Oferta #144541 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144541/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-17T22:09:44.321159",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144541",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 30000,
+      "dni": 63,
+      "stawka": null,
+      "stawka_seed": "144541-konto1",
+      "variation_seed": 0,
+      "dlugosc_opisu": 2824,
+      "opis": "Dzień dobry,\n\nZanim zaczniemy spinać kanały, jedna rzecz, która w takich projektach przewraca harmonogram: to nie jest projekt „podłączmy maila, czat i WhatsApp do Magento\". Prawdziwy problem leży w tym, że każdy marketplace ma własne limity zapytań i własny sposób autoryzacji, a przy próbie odpytywania ich na żywo system zaczyna gubić zamówienia i wiadomości.\n\nPrzykład z życia: Amazon w wyszukiwaniu zamówień pozwala na około 20 zapytań na godzinę. eBay domyślnie 5000 wywołań na dobę. Allegro od września 2026 ogranicza liczbę kluczy API do jednego na konto. Jeśli ktoś zaprojektuje to jako osobne integracje punkt do punktu, po miesiącu eksploatacji robi się z tego nie do utrzymania.\n\nDlatego robimy to inaczej: jeden centralny hub, który zbiera zdarzenia z marketplace'ów przez webhooki i harmonogramy, a dopiero z niego wychodzą dane do Magento i do panelu agenta. Do tego kolejka z ponawianiem nieudanych wywołań (jeśli marketplace chwilowo nie odpowiada, zadanie wraca automatycznie, zamiast przepadać) i lokalny cache, żeby limity nas nie zabijały.\n\nWhatsApp Business API to osobny temat, bo nie ma oficjalnego modułu WhatsApp od Adobe ani Magento. Budujemy dedykowany connector: szablony wiadomości, obsługa 24-godzinnego okna obsługi i przekazanie rozmowy do agenta, gdy bot sobie nie radzi.\n\nCzat na stronie robimy w czasie rzeczywistym, z historią konwersacji i powiadomieniami dla agenta. Do tego panel z pełnym workflow, dziennikiem zdarzeń (kto, kiedy i co zmienił w zgłoszeniu) i masowymi operacjami, żeby przy 200 zgłoszeniach nikt nie klikał ich pojedynczo.\n\nTrzecia rzecz, o której warto wiedzieć teraz, a nie po wdrożeniu: od 1 października 2026 Meta zaczyna pobierać opłaty za wiadomości serwisowe wysyłane w oknie obsługi, które do tej pory były darmowe. Przy skali e-commerce to realny koszt miesięczny. Samo wdrożenie tego nie generuje, ale system może liczyć te koszty na bieżąco.\n\nZa spięcie wszystkich kanałów w jeden system, wraz z panelem agenta i kolejką integracyjną, liczymy 30 000 zł. Realizacja zajmie 63 dni robocze. W cenie dajemy 30 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali w praniu oraz krótkie wideo pokazujące, jak obsługiwać panel.\n\nDwie rzeczy świadomie zostawiamy poza tą kwotą jako opcjonalny drugi etap: licznik kosztów WhatsApp (podliczanie płatnych wiadomości w rozbiciu na agenta i kanał) oraz pełną obsługę wymogu AI Act, czyli obowiązku informowania klienta, że rozmawia z AI, który wchodzi w życie 2 sierpnia 2026. Jeśli chatbot AI ma być w pierwszej wersji, powiedz od razu, doliczymy to do zakresu.\n\nZdzwońmy się na 15 minut i przejdziemy przez te limity oraz to, czy budujemy obok waszego obecnego systemu, czy wchodzimy w niego bezpośrednio. Jeśli chcesz, przed decyzją przygotujemy krótkie demo panelu agenta z jedną podpiętą skrzynką.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-17T21:24:50.983128"
+    },
+    {
+      "job_id": "144541",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 30000,
+      "dni": 63,
+      "stawka": null,
+      "stawka_seed": "144541-konto1",
+      "variation_seed": 4,
+      "dlugosc_opisu": 2824,
+      "opis": "Dzień dobry,\n\nZanim zaczniemy spinać kanały, jedna rzecz, która w takich projektach przewraca harmonogram: to nie jest projekt „podłączmy maila, czat i WhatsApp do Magento\". Prawdziwy problem leży w tym, że każdy marketplace ma własne limity zapytań i własny sposób autoryzacji, a przy próbie odpytywania ich na żywo system zaczyna gubić zamówienia i wiadomości.\n\nPrzykład z życia: Amazon w wyszukiwaniu zamówień pozwala na około 20 zapytań na godzinę. eBay domyślnie 5000 wywołań na dobę. Allegro od września 2026 ogranicza liczbę kluczy API do jednego na konto. Jeśli ktoś zaprojektuje to jako osobne integracje punkt do punktu, po miesiącu eksploatacji robi się z tego nie do utrzymania.\n\nDlatego robimy to inaczej: jeden centralny hub, który zbiera zdarzenia z marketplace'ów przez webhooki i harmonogramy, a dopiero z niego wychodzą dane do Magento i do panelu agenta. Do tego kolejka z ponawianiem nieudanych wywołań (jeśli marketplace chwilowo nie odpowiada, zadanie wraca automatycznie, zamiast przepadać) i lokalny cache, żeby limity nas nie zabijały.\n\nWhatsApp Business API to osobny temat, bo nie ma oficjalnego modułu WhatsApp od Adobe ani Magento. Budujemy dedykowany connector: szablony wiadomości, obsługa 24-godzinnego okna obsługi i przekazanie rozmowy do agenta, gdy bot sobie nie radzi.\n\nCzat na stronie robimy w czasie rzeczywistym, z historią konwersacji i powiadomieniami dla agenta. Do tego panel z pełnym workflow, dziennikiem zdarzeń (kto, kiedy i co zmienił w zgłoszeniu) i masowymi operacjami, żeby przy 200 zgłoszeniach nikt nie klikał ich pojedynczo.\n\nTrzecia rzecz, o której warto wiedzieć teraz, a nie po wdrożeniu: od 1 października 2026 Meta zaczyna pobierać opłaty za wiadomości serwisowe wysyłane w oknie obsługi, które do tej pory były darmowe. Przy skali e-commerce to realny koszt miesięczny. Samo wdrożenie tego nie generuje, ale system może liczyć te koszty na bieżąco.\n\nZa spięcie wszystkich kanałów w jeden system, wraz z panelem agenta i kolejką integracyjną, liczymy 30 000 zł. Realizacja zajmie 63 dni robocze. W cenie dajemy 30 dni bezpłatnej asysty po wdrożeniu na dopracowanie detali w praniu oraz krótkie wideo pokazujące, jak obsługiwać panel.\n\nDwie rzeczy świadomie zostawiamy poza tą kwotą jako opcjonalny drugi etap: licznik kosztów WhatsApp (podliczanie płatnych wiadomości w rozbiciu na agenta i kanał) oraz pełną obsługę wymogu AI Act, czyli obowiązku informowania klienta, że rozmawia z AI, który wchodzi w życie 2 sierpnia 2026. Jeśli chatbot AI ma być w pierwszej wersji, powiedz od razu, doliczymy to do zakresu.\n\nZdzwońmy się na 15 minut i przejdziemy przez te limity oraz to, czy budujemy obok waszego obecnego systemu, czy wchodzimy w niego bezpośrednio. Jeśli chcesz, przed decyzją przygotujemy krótkie demo panelu agenta z jedną podpiętą skrzynką.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-17T22:09:32.470518"
+    }
+  ],
+  "error": "Nie znaleziono pola wyceny (#id_payment / stages-0-payment) na stronie: https://useme.com/pl/jobs/144541/offer/start/",
+  "data_wyslania": "2026-09-17T22:09:44.320161"
+}

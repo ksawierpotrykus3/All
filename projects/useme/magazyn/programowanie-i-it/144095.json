@@ -1,0 +1,45 @@
+{
+  "id": "144095",
+  "url": "https://useme.com/pl/jobs/kompletny-serwis-saas,144095/",
+  "title": "Kompletny serwis SaaS",
+  "author": "Mediagroup",
+  "author_id": "mediagroup",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-12T10:39:30.667581",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144095",
+    "url": "https://useme.com/pl/jobs/kompletny-serwis-saas,144095/",
+    "title": "Kompletny serwis SaaS",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Witam\nPoszukuję firmy która zbuduję kompletny serwis SaaS, który pobiera dane o polskich przedsiębiorstwach z oficjalnych rejestrów(CEIDG, KRS, GUS REGON), przechowuje je we własnej bazie i sprzedaje klientom B2B w trzech modelach: gotowe bazy,...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/kompletny-serwis-saas,144095/",
+    "title": "Kompletny serwis SaaS",
+    "full_description": "<p>Witam<br>Poszukuję firmy która zbuduję kompletny serwis SaaS, który pobiera dane o polskich przedsiębiorstwach z oficjalnych rejestrów(CEIDG, KRS, GUS REGON), przechowuje je we własnej bazie i sprzedaje klientom B2B w trzech modelach: gotowe bazy, bazy budowane na zamówienie i subskrypcja nowych firm z codzienną dostawą oraz API.  Zależy mi na tym aby serwis był praktycznie bezobsługowy. Import danych, naliczanie cen, płatności, dostawy plików, przypomnienia i raporty mają działać z harmonogramu. Rola operatora to obsługa zapytań i rozwijanie sprzedaży. </p>\n\n<p>Zależy mi na tym aby to był starannie wykonany projekt. Czas wykonania - 4 miesiące.</p>",
+    "author": "Mediagroup",
+    "author_id": "mediagroup",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144095/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-12T10:40:11"
+  },
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-12T13:05:49.927927",
+  "oferty": [
+    {
+      "konto": "konto1",
+      "status": "WYSLANO",
+      "data": "2026-09-12",
+      "notatka": "Wyslane historycznie przez uzytkownika"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "144582",
+  "url": "https://useme.com/pl/jobs/stworzenie-przerobienie-strony-internetowej-firmy-agencji-nieruchomosci,144582/",
+  "title": "Stworzenie/przerobienie strony internetowej firmy - agencji nieruchomości",
+  "author": "HannaCugier",
+  "author_id": "hannacugier",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-18T14:12:39.996590",
+  "status": "DRY_RUN_OK",
+  "list_details": {
+    "id": "144582",
+    "url": "https://useme.com/pl/jobs/stworzenie-przerobienie-strony-internetowej-firmy-agencji-nieruchomosci,144582/",
+    "title": "Stworzenie/przerobienie strony internetowej firmy - agencji nieruchomości",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Potrzebujemy odświeżyć/stworzyć stronę naszej agencji nieruchomości od nowa (https://artcentrum.com.pl/), tak aby podążała za najnowszymi trendami, była responsywna i czytelna. Zależy nam na łatwości w obsłudze i przejrzystości dla klientów.",
+    "category": "serwisy-internetowe",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/stworzenie-przerobienie-strony-internetowej-firmy-agencji-nieruchomosci,144582/",
+    "title": "Stworzenie/przerobienie strony internetowej firmy - agencji nieruchomości",
+    "full_description": "<p>Potrzebujemy odświeżyć/stworzyć stronę naszej agencji nieruchomości od nowa (https://artcentrum.com.pl/), tak aby podążała za najnowszymi trendami, była responsywna i czytelna. Zależy nam na łatwości w obsłudze i przejrzystości dla klientów.</p>",
+    "author": "HannaCugier",
+    "author_id": "hannacugier",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144582/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-18T14:13:07"
+  },
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nZajmujemy się stronami dla firm usługowych, w tym biur nieruchomości. Chętnie odświeżymy Waszą stronę i ułożymy ją tak, żeby sama pracowała na zapytania.\n\nTylko że sam wygląd to tu nie jest główny problem. Prawdziwy problem agencji nieruchomości jest taki, że klient szuka oferty na telefonie, w biegu, często wieczorem. Jeśli strona ładuje się wolno, zdjęcia skaczą, a cennik i dane kontaktowe trzeba przewijać przez pół ekranu, to tracicie go na rzecz portalu ogłoszeniowego. Druga rzecz to obsługa od środka. Jeśli dziś każda zmiana zdjęcia czy tekstu wymaga dzwonienia do informatyka, to strona żyje rzadko i wygląda staro. My to odwracamy.\n\nRobimy tak: przechodzimy na WordPressa z blokowym edytorem (edytujecie treść trochę jak w Wordzie, bez znajomości kodu), przebudowujemy układ pod czytelność, czyli duże zdjęcia, jasne sekcje, wyraźne przyciski \"zadzwoń\" i \"napisz\", i wszystko składamy responsywnie, od małego telefonu po duży monitor. Stronę stawiamy na własnym serwerze (VPS), więc nie będzie zwalniać przy ruchu i nie będziecie zależni od widzimisię hostingu. Do tego dochodzi projekt graficzny od zera, bo obecna strona wygląda jak z poprzedniej epoki.\n\nSzczerze mówiąc, w agencji nieruchomości wyszukiwarka ofert z filtrami (metraż, dzielnica, cena) i pełny panel do zarządzania nieruchomościami to osobny, spory temat. Nie wliczamy go do tego zamówienia, bo w ogłoszeniu go nie ma, a nie chcemy Wam obiecywać czegoś, czego potem zabraknie. Proponujemy to zrobić jako drugi etap, wyceniony osobno, gdy zobaczycie już nową stronę w działaniu.\n\nZa przebudowę strony od projektu graficznego, przez wdrożenie na WordPressie, po postawienie serwera liczymy 7500 zł. Realizacja w 16 dni.\n\nW cenie dajemy 21 dni bezpłatnej asysty po wdrożeniu, na dopracowanie detali, które zwykle wychodzą w praniu, oraz krótkie wideo pokazujące krok po kroku, jak samemu podmienić zdjęcie, tekst czy dodać wpis. Żebyście po odbiorze nie byli zdani na nikogo.\n\nZdzwońmy się na 15 minut w tym tygodniu i przejdziemy przez to, co dokładnie ma być na stronie. Jeśli chcecie, przygotujemy wcześniej krótkie demo układu, żebyście zobaczyli kierunek, zanim podejmiecie decyzję.\n\nPozdrawiam",
+    "wycena": 7500,
+    "dni": 16,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "DRY_RUN_OK",
+    "job_id": "144582",
+    "final_url": "https://useme.com/pl/jobs/144582/offer/summary/",
+    "wycena": 7500,
+    "dni": 16,
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\summary_proof_144582.png",
+    "message": "Zatrzymano przed ostatecznym kliknięciem 'Wyślij' na URL: https://useme.com/pl/jobs/144582/offer/summary/. Wszystkie pola i podsumowanie zweryfikowane.",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-18T14:30:20.259294",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144582",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 7500,
+      "dni": 16,
+      "stawka": null,
+      "stawka_seed": "144582-konto1",
+      "variation_seed": 4,
+      "dlugosc_opisu": 2191,
+      "opis": "Dzień dobry,\n\nZajmujemy się stronami dla firm usługowych, w tym biur nieruchomości. Chętnie odświeżymy Waszą stronę i ułożymy ją tak, żeby sama pracowała na zapytania.\n\nTylko że sam wygląd to tu nie jest główny problem. Prawdziwy problem agencji nieruchomości jest taki, że klient szuka oferty na telefonie, w biegu, często wieczorem. Jeśli strona ładuje się wolno, zdjęcia skaczą, a cennik i dane kontaktowe trzeba przewijać przez pół ekranu, to tracicie go na rzecz portalu ogłoszeniowego. Druga rzecz to obsługa od środka. Jeśli dziś każda zmiana zdjęcia czy tekstu wymaga dzwonienia do informatyka, to strona żyje rzadko i wygląda staro. My to odwracamy.\n\nRobimy tak: przechodzimy na WordPressa z blokowym edytorem (edytujecie treść trochę jak w Wordzie, bez znajomości kodu), przebudowujemy układ pod czytelność, czyli duże zdjęcia, jasne sekcje, wyraźne przyciski \"zadzwoń\" i \"napisz\", i wszystko składamy responsywnie, od małego telefonu po duży monitor. Stronę stawiamy na własnym serwerze (VPS), więc nie będzie zwalniać przy ruchu i nie będziecie zależni od widzimisię hostingu. Do tego dochodzi projekt graficzny od zera, bo obecna strona wygląda jak z poprzedniej epoki.\n\nSzczerze mówiąc, w agencji nieruchomości wyszukiwarka ofert z filtrami (metraż, dzielnica, cena) i pełny panel do zarządzania nieruchomościami to osobny, spory temat. Nie wliczamy go do tego zamówienia, bo w ogłoszeniu go nie ma, a nie chcemy Wam obiecywać czegoś, czego potem zabraknie. Proponujemy to zrobić jako drugi etap, wyceniony osobno, gdy zobaczycie już nową stronę w działaniu.\n\nZa przebudowę strony od projektu graficznego, przez wdrożenie na WordPressie, po postawienie serwera liczymy 7500 zł. Realizacja w 16 dni.\n\nW cenie dajemy 21 dni bezpłatnej asysty po wdrożeniu, na dopracowanie detali, które zwykle wychodzą w praniu, oraz krótkie wideo pokazujące krok po kroku, jak samemu podmienić zdjęcie, tekst czy dodać wpis. Żebyście po odbiorze nie byli zdani na nikogo.\n\nZdzwońmy się na 15 minut w tym tygodniu i przejdziemy przez to, co dokładnie ma być na stronie. Jeśli chcecie, przygotujemy wcześniej krótkie demo układu, żebyście zobaczyli kierunek, zanim podejmiecie decyzję.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-18T14:30:11.762074"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "144615",
+  "url": "https://useme.com/pl/jobs/audyt-sklepu-b2b-na-platformie-idosell-konfiguracja-checkout-seo-wydajnosc-integracje,144615/",
+  "title": "Audyt sklepu B2B na platformie IdoSell (konfiguracja, checkout, SEO, wydajność, integracje)",
+  "author": "ALB",
+  "author_id": "alb",
+  "budget": "Do uzgodnienia",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-18T16:47:44.751418",
+  "status": "WYSLANO",
+  "list_details": {
+    "id": "144615",
+    "url": "https://useme.com/pl/jobs/audyt-sklepu-b2b-na-platformie-idosell-konfiguracja-checkout-seo-wydajnosc-integracje,144615/",
+    "title": "Audyt sklepu B2B na platformie IdoSell (konfiguracja, checkout, SEO, wydajność, integracje)",
+    "author": "ALB",
+    "author_id": "alb",
+    "budget": "Do uzgodnienia",
+    "category": "serwisy-internetowe"
+  },
+  "full_details": null,
+  "ai_proposal": {
+    "opis": "Dzień dobry,\n\nZnamy IdoSell od podszewki z codziennej praktyki, a nie z teorii. Od roku prowadzimy stałe wsparcie techniczne, backend i wdrożenia dla aktywnego sklepu na IdoSell: scp1.pl (robiliśmy tam stronę, backend i bieżący rozwój), więc specyfikę tej platformy, jej ograniczenia i panel administracyjny mamy przetestowane w boju.\n\nAudyt sklepu B2B na IdoSell to zupełnie inny temat niż zwykłe B2C. Prawdziwe wąskie gardła rzadko leżą na stronie głównej. 90% problemów w takim setupie wynika ze styku IdoSell Bridge z Subiektem nexo PRO oraz specyfiki ścieżki zakupowej klienta biznesowego.\n\nNa czym skupimy się w pełnym audycie:\n\n1. Integracja Subiekt nexo PRO i IdoSell Bridge: weryfikacja kolejek synchronizacji, przepływu stanów magazynowych w czasie rzeczywistym, rezerwacji towaru, mapowania cenników i indywidualnych poziomów cenowych B2B oraz fakturowania i obsługi statusów płatności IdoPay. Sprawdzimy, czy nie dochodzi do cichych desynchronizacji lub błędów blokujących zamówienia.\n\n2. Konfiguracja panelu IdoSell i automatyzacje: reguły dostaw, profile płatności (w tym odroczone terminy płatności dla zweryfikowanych kontrahentów B2B), szablony e-maili transakcyjnych i automatyzacje statusów zamówień.\n\n3. Ścieżka checkout i UX B2B (mobile i desktop): weryfikacja walidacji danych firmowych (NIP i VIES), wygoda zamawiania na smartfonach, zamawianie na wiele adresów dostawy oraz miejsca, w których klienci biznesowi porzucają koszyki.\n\n4. Wydajność i Core Web Vitals: szczegółowa analiza LCP, INP, CLS i TTFB pod kątem narzutu skryptów SaaS IdoSell i zewnętrznych bibliotek, z konkretnymi wytycznymi co i jak odchudzić w szablonie.\n\n5. Techniczne SEO i analityka: audyt indeksacji, canonicali i częstego problemu IdoSell z duplikacją adresów URL przy filtrach parametrów (nawigacja fasetowa), plus weryfikacja dataLayer pod GA4 i GTM w procesie zakupowym.\n\nOtrzymacie od nas uporządkowany raport w PDF z podziałem na błędy krytyczne, quick wins oraz usprawnienia rozwojowe. Każdy punkt będzie zawierał konkretną diagnozę, zrzuty ekranu, rekomendację techniczną oraz estymację nakładu pracy i kosztu naprawy. Zrobimy też krótkie, zwięzłe podsumowanie nietechniczne bezpośrednio dla Zarządu.\n\nOczywiście przed przekazaniem dostępów do panelu podpisujemy umowę NDA.\n\nZa przeprowadzenie pełnego audytu wraz z raportem i estymacjami liczymy 3800 zł. Czas realizacji: 9 dni roboczych.\n\nZdzwońmy się w tym tygodniu na 15 minut albo napiszcie na priv, dopniemy szczegóły, podeślecie NDA i możemy od razu ruszać.\n\nPozdrawiam",
+    "wycena": 3800,
+    "dni": 9,
+    "powod": "Wersja ludzka bez em-dashy"
+  },
+  "submission_result": {
+    "status": "WYSLANO",
+    "job_id": "144615",
+    "wycena": 3800,
+    "dni": 9,
+    "final_url": "https://useme.com/pl/jobs/144615/offer/finish/",
+    "proof_screenshot": "c:\\Users\\buchh\\projects\\useme\\debug\\submitted_proof_144615.png",
+    "message": "Oferta #144615 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144615/offer/finish/).",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-18T17:02:23.148200",
+  "konto": "konto1",
+  "data_wyslania": "2026-09-18T16:47:57.630101"
+}

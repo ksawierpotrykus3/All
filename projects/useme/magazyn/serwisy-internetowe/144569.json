@@ -1,0 +1,67 @@
+{
+  "id": "144569",
+  "url": "https://useme.com/pl/jobs/skonfigurowanie-sklepu-na-prestashop,144569/",
+  "title": "Skonfigurowanie sklepu na prestashop",
+  "author": "Henkk",
+  "author_id": "henkk",
+  "budget": "Do negocjacji",
+  "category": "serwisy-internetowe",
+  "detected_at": "2026-09-18T14:12:40.048768",
+  "status": "DRY_RUN_OK",
+  "list_details": {
+    "id": "144569",
+    "url": "https://useme.com/pl/jobs/skonfigurowanie-sklepu-na-prestashop,144569/",
+    "title": "Skonfigurowanie sklepu na prestashop",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Zlecę  skonfigurowanie sklepu na prestashop  z dodaniem produktów / kategorii / kreatora zakupów , wyglądu,  również ustawienie  hurtowni .",
+    "category": "serwisy-internetowe",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/skonfigurowanie-sklepu-na-prestashop,144569/",
+    "title": "Skonfigurowanie sklepu na prestashop",
+    "full_description": "<p>Zlecę  skonfigurowanie sklepu na prestashop  z dodaniem produktów / kategorii / kreatora zakupów , wyglądu,  również ustawienie  hurtowni .</p>",
+    "author": "Henkk",
+    "author_id": "henkk",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144569/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-18T14:13:20"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nRobiliśmy już sklepy na PrestaShop z podłączeniem hurtowni i konfiguratorem produktów. Nie zaczynamy od przepisywania ogłoszenia, tylko od razu mówię, co w takich projektach realnie wywala się na etapie wdrożenia.\n\nProblem pierwszy: „ustawienie hurtowni” to najbardziej niedookreślony punkt całego zlecenia. Hurtownie albo dają gotowe API (wtedy integracja jest szybka), albo tylko panel B2B i pliki XML/CSV, które trzeba cyklicznie zaciągać. Jeśli Twoja hurtownia działa przez BaseLinker, sprawa jest prostsza, bo PrestaShop łączy się z nim natywnie przez klucz API i nie piszemy integracji od zera. Jeśli nie, robimy dedykowany import z harmonogramem (cron), z mapowaniem cech, stanów i cen.\n\nProblem drugi, o którym większość nie mówi na starcie: wersja PrestaShop i PHP na hostingu. PS8 na PHP 8.2+ działa poza oficjalną matrycą wsparcia, co potrafi wygenerować błędy nie do zdiagnozowania. PrestaShop 9 ma nowe Admin API (REST/GraphQL), na którym integrację stawia się przyszłościowo i łatwiej ją później rozszerzać o zamówienia czy stany magazynowe. Przy starcie sprawdzimy wersję i albo dostosujemy się do tego, co masz, albo zaproponujemy migrację do PS9 z motywem Hummingbird.\n\nKreator zakupów to z kolei nie jedna wtyczka, a konfiguracja pod konkretny asortyment. Prosty composite builder na rynku kosztuje kilkaset złotych za licencję, zaawansowany konfigurator krokowy z regułami zależności to już wyższa półka. Dorzucimy licencję i skonfigurujemy logikę tak, żeby klient składał zamówienie bez dzwonienia do Ciebie.\n\nWygląd: albo konfigurujemy porządny gotowy szablon, albo stawiamy na Hummingbird z PS9 i dopasowujemy kolory, typografię i layout sekcji.\n\nZa postawienie sklepu od zera, czyli produkty, kategorie, kreator zakupów, podłączenie hurtowni i wygląd, liczymy 7500 zł. Realizacja w 16 dni. W cenie masz 21 dni bezpłatnej asysty powdrożeniowej na dopracowanie detali w praniu oraz krótkie wideo pokazujące, jak samemu zarządzać produktami i zamówieniami.\n\nJedna rzecz do rozmowy, nie do wyceny na teraz: od czerwca 2026 sklepy B2C w UE muszą mieć widoczny przycisk odstąpienia od umowy, dostępny też dla gości bez logowania. PrestaShop nie ma tego w standardzie. Jeśli sprzedajesz konsumentom, dorzucimy to jako osobne rozszerzenie po callu, żeby nie wliczać w tę wycenę czegoś, czego możesz nie potrzebować.\n\nZdzwońmy się na 15 minut. Powiedz, jaka to hurtownia i czy masz już postawiony sklep, czy stawiamy od zera, bo od tego zależy, czy zmieścimy się w 16 dniach, czy trzeba będzie dorzucić migrację. Jeśli chcesz, przed decyzją przygotujemy krótkie demo konfiguratora.\n\nPozdrawiam",
+    "wycena": 7500,
+    "dni": 16,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "DRY_RUN_OK",
+    "job_id": "144569",
+    "final_url": "https://useme.com/pl/jobs/144569/offer/summary/",
+    "wycena": 7500,
+    "dni": 16,
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\summary_proof_144569.png",
+    "message": "Zatrzymano przed ostatecznym kliknięciem 'Wyślij' na URL: https://useme.com/pl/jobs/144569/offer/summary/. Wszystkie pola i podsumowanie zweryfikowane.",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-18T14:40:12.446400",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144569",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 7500,
+      "dni": 16,
+      "stawka": null,
+      "stawka_seed": "144569-konto1",
+      "variation_seed": 3,
+      "dlugosc_opisu": 2615,
+      "opis": "Cześć,\n\nRobiliśmy już sklepy na PrestaShop z podłączeniem hurtowni i konfiguratorem produktów. Nie zaczynamy od przepisywania ogłoszenia, tylko od razu mówię, co w takich projektach realnie wywala się na etapie wdrożenia.\n\nProblem pierwszy: „ustawienie hurtowni” to najbardziej niedookreślony punkt całego zlecenia. Hurtownie albo dają gotowe API (wtedy integracja jest szybka), albo tylko panel B2B i pliki XML/CSV, które trzeba cyklicznie zaciągać. Jeśli Twoja hurtownia działa przez BaseLinker, sprawa jest prostsza, bo PrestaShop łączy się z nim natywnie przez klucz API i nie piszemy integracji od zera. Jeśli nie, robimy dedykowany import z harmonogramem (cron), z mapowaniem cech, stanów i cen.\n\nProblem drugi, o którym większość nie mówi na starcie: wersja PrestaShop i PHP na hostingu. PS8 na PHP 8.2+ działa poza oficjalną matrycą wsparcia, co potrafi wygenerować błędy nie do zdiagnozowania. PrestaShop 9 ma nowe Admin API (REST/GraphQL), na którym integrację stawia się przyszłościowo i łatwiej ją później rozszerzać o zamówienia czy stany magazynowe. Przy starcie sprawdzimy wersję i albo dostosujemy się do tego, co masz, albo zaproponujemy migrację do PS9 z motywem Hummingbird.\n\nKreator zakupów to z kolei nie jedna wtyczka, a konfiguracja pod konkretny asortyment. Prosty composite builder na rynku kosztuje kilkaset złotych za licencję, zaawansowany konfigurator krokowy z regułami zależności to już wyższa półka. Dorzucimy licencję i skonfigurujemy logikę tak, żeby klient składał zamówienie bez dzwonienia do Ciebie.\n\nWygląd: albo konfigurujemy porządny gotowy szablon, albo stawiamy na Hummingbird z PS9 i dopasowujemy kolory, typografię i layout sekcji.\n\nZa postawienie sklepu od zera, czyli produkty, kategorie, kreator zakupów, podłączenie hurtowni i wygląd, liczymy 7500 zł. Realizacja w 16 dni. W cenie masz 21 dni bezpłatnej asysty powdrożeniowej na dopracowanie detali w praniu oraz krótkie wideo pokazujące, jak samemu zarządzać produktami i zamówieniami.\n\nJedna rzecz do rozmowy, nie do wyceny na teraz: od czerwca 2026 sklepy B2C w UE muszą mieć widoczny przycisk odstąpienia od umowy, dostępny też dla gości bez logowania. PrestaShop nie ma tego w standardzie. Jeśli sprzedajesz konsumentom, dorzucimy to jako osobne rozszerzenie po callu, żeby nie wliczać w tę wycenę czegoś, czego możesz nie potrzebować.\n\nZdzwońmy się na 15 minut. Powiedz, jaka to hurtownia i czy masz już postawiony sklep, czy stawiamy od zera, bo od tego zależy, czy zmieścimy się w 16 dniach, czy trzeba będzie dorzucić migrację. Jeśli chcesz, przed decyzją przygotujemy krótkie demo konfiguratora.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-18T14:40:05.087218"
+    }
+  ]
+}

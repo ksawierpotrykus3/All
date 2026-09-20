@@ -1,0 +1,67 @@
+{
+  "id": "144578",
+  "url": "https://useme.com/pl/jobs/doswiadczony-programista-programistka-do-rozwoju-platformy-saas-laravel-marketpl,144578/",
+  "title": "Doświadczony programista/programistka do rozwoju platformy SaaS (Laravel, marketplace z rezerwacjami i płatnościami)",
+  "author": "Barbar22",
+  "author_id": "barbar22",
+  "budget": "Do negocjacji",
+  "category": "programowanie-i-it",
+  "detected_at": "2026-09-18T14:12:39.952737",
+  "status": "DRY_RUN_OK",
+  "list_details": {
+    "id": "144578",
+    "url": "https://useme.com/pl/jobs/doswiadczony-programista-programistka-do-rozwoju-platformy-saas-laravel-marketpl,144578/",
+    "title": "Doświadczony programista/programistka do rozwoju platformy SaaS (Laravel, marketplace z rezerwacjami i płatnościami)",
+    "budget": "Do negocjacji",
+    "author": "Anonim",
+    "author_id": "anonim",
+    "short_desc": "Szukam programisty/programistki (PHP/Laravel) do dalszego prowadzenia i rozwoju istniejącej, rozbudowanej platformy typu marketplace z systemem rezerwacji, wieloma typami kont i płatnościami online (Stripe Connect). To duży, żyjący projekt — nie...",
+    "category": "programowanie-i-it",
+    "konto": "konto1"
+  },
+  "full_details": {
+    "url": "https://useme.com/pl/jobs/doswiadczony-programista-programistka-do-rozwoju-platformy-saas-laravel-marketpl,144578/",
+    "title": "Doświadczony programista/programistka do rozwoju platformy SaaS (Laravel, marketplace z rezerwacjami i płatnościami)",
+    "full_description": "<p>Szukam programisty/programistki (PHP/Laravel) do dalszego prowadzenia i rozwoju istniejącej, rozbudowanej platformy typu marketplace z systemem rezerwacji, wieloma typami kont i płatnościami online (Stripe Connect). To duży, żyjący projekt — nie strona wizytówka.</p>\n\n<p>Zakres na start:</p>\n\n<p>naprawa zgłoszonych błędów i domknięcie brakujących funkcji,<br>dalsza stała współpraca (utrzymanie + rozwój nowych funkcji).</p>\n\n<p>Szukam osoby z realnym doświadczeniem, która nie boi się nowych wyzwań .Ważna jest też kreatywność i normalna, ludzka komunikacja. Jednocześnie musi to być osoba, która naprawdę zna się na rzeczy.<br>Platforma jest wielojęzyczna i ma działać nie tylko w Polsce, ale też na rynkach zagranicznych. (Platforma nie została jeszcze uruchomiona).</p>\n\n<p>Wymagania: Laravel/PHP, doświadczenie z Stripe (najlepiej Connect), podstawy DevOps (Linux, DigitalOcean lub podobne).</p>\n\n<p>Preferowana forma: stała współpraca (miesięczny retainer) po wstępnym etapie zapoznania się z projektem.<br>Więcej szczegółów mogę udzielić w wiadomości prywatnej.</p>",
+    "author": "Barbar22",
+    "author_id": "barbar22",
+    "has_add_offer_button": true,
+    "add_offer_href": "/pl/jobs/144578/offer/start/",
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-18T14:12:57"
+  },
+  "ai_proposal": {
+    "opis": "Cześć,\n\nRobiliśmy już podobny temat: marketplace z rezerwacjami i płatnościami rozdzielanymi między wielu sprzedawców, więc od razu powiem, gdzie w takich platformach najczęściej leży prawdziwy problem. Bo to nie jest \"naprawa błędów i domknięcie funkcji\". Prawdziwa robota przy marketplace z rezerwacjami to warstwa płatności i zgodności, a reszta to często objaw tego, że ktoś ją kiedyś poskładał na skróty.\n\nPo kolei, z tego co widać po opisie.\n\nPierwsza rzecz: Stripe Connect. Jeśli checkout ma obsługiwać koszyk, w którym klient kupuje od kilku sprzedawców naraz, Stripe nie ma natywnego mechanizmu na wiele destynacji w jednej płatności. Trzeba to rozbić na osobne płatności per sprzedawca i spiąć to własną logiką, inaczej rozliczenia i zwroty się rozjeżdżają przy pierwszym sporze. Do tego dochodzi 3D-Secure, które Stripe obsługuje, ale frontend musi poprawnie obsłużyć dodatkowy krok, inaczej płatności z UE będą odrzucane.\n\nDruga rzecz, o której mało kto pamięta na starcie: onboarding sprzedawcy. Stripe Connect nie zwalnia platformy z obowiązku weryfikacji kontrahentów. Marketplace musi sam zbierać i weryfikować dane sprzedawców (unijne przepisy o bezpieczeństwie w sieci nakładają to wprost na platformy). Najsensowniej robi się to przez tryb Express, gdzie Stripe przejmuje weryfikację tożsamości i dane bankowe, a platforma dokłada tylko własną warstwę zbierania danych. Przy trybie Custom cała weryfikacja i compliance leżą po Twojej stronie i to potrafi zjeść więcej czasu niż cały development.\n\nTrzecia: wielojęzyczność i rynki zagraniczne. Skoro platforma celuje w kilka krajów, to przy płatnościach i fakturowaniu dochodzi śledzenie sprzedaży per kraj i rozliczanie VAT według kraju klienta po przekroczeniu unijnego progu. Nie trzeba tego robić od razu, ale warto zaprojektować bazę tak, żeby później nie przepisywać połowy systemu.\n\nDo tego standard, który i tak trzeba domknąć przy projekcie jeszcze nieuruchomionym: backupy bazy, monitoring, aktualizacje frameworka. Laravel 11 kończy wsparcie bezpieczeństwa w marcu 2026, więc jeśli projekt na nim stoi, aktualizacja do 12 to praktycznie obowiązek, na szczęście bez większych zmian w kodzie. Hosting na DigitalOcean ogarniamy w standardzie, od Dropleta po zarządzaną bazę z automatycznymi backupami.\n\nJak to widzę w praktyce: zaczynamy od krótkiego zapoznania się z projektem, przechodzimy przez kod i listę zgłoszeń, i w pierwszym miesiącu zamykamy błędy oraz porządkujemy warstwę płatności i onboardingu. Potem wchodzimy w stały tryb: utrzymanie plus rozwój nowych funkcji, zgłoszenia z Twojej strony priorytetyzujemy razem.\n\nWycena: to stała współpraca rozliczana miesięcznie, liczymy 8100 zł za miesiąc pracy nad platformą. Kwota obejmuje zarówno utrzymanie, jak i rozwój nowych funkcji, bez osobnych dopłat za pojedyncze zadania. Pierwszy miesiąc to zapoznanie się z projektem i domknięcie bieżących zgłoszeń.\n\nZdzwońmy się na 15 minut, opowiesz o projekcie i o tym, gdzie obecnie boli najbardziej. Jeśli chcesz, zanim zaczniemy, możemy przejść przez kluczowe miejsca w kodzie i pokazać konkretnie, co wymaga poprawy w pierwszej kolejności.\n\nPozdrawiam",
+    "wycena": 8100,
+    "dni": 7,
+    "powod": "Zaakceptowano przez walidatory slotowe"
+  },
+  "submission_result": {
+    "status": "DRY_RUN_OK",
+    "job_id": "144578",
+    "final_url": "https://useme.com/pl/jobs/144578/offer/summary/",
+    "wycena": 8100,
+    "dni": 7,
+    "proof_screenshot": "C:\\Users\\buchh\\projects\\useme\\debug\\summary_proof_144578.png",
+    "message": "Zatrzymano przed ostatecznym kliknięciem 'Wyślij' na URL: https://useme.com/pl/jobs/144578/offer/summary/. Wszystkie pola i podsumowanie zweryfikowane.",
+    "konto": "konto1"
+  },
+  "updated_at": "2026-09-18T14:23:22.917304",
+  "konto": "konto1",
+  "oferty": [
+    {
+      "job_id": "144578",
+      "konto": "konto1",
+      "tryb": "konserwatywny",
+      "wycena": 8100,
+      "dni": 7,
+      "stawka": null,
+      "stawka_seed": "144578-konto1",
+      "variation_seed": 3,
+      "dlugosc_opisu": 3135,
+      "opis": "Cześć,\n\nRobiliśmy już podobny temat: marketplace z rezerwacjami i płatnościami rozdzielanymi między wielu sprzedawców, więc od razu powiem, gdzie w takich platformach najczęściej leży prawdziwy problem. Bo to nie jest \"naprawa błędów i domknięcie funkcji\". Prawdziwa robota przy marketplace z rezerwacjami to warstwa płatności i zgodności, a reszta to często objaw tego, że ktoś ją kiedyś poskładał na skróty.\n\nPo kolei, z tego co widać po opisie.\n\nPierwsza rzecz: Stripe Connect. Jeśli checkout ma obsługiwać koszyk, w którym klient kupuje od kilku sprzedawców naraz, Stripe nie ma natywnego mechanizmu na wiele destynacji w jednej płatności. Trzeba to rozbić na osobne płatności per sprzedawca i spiąć to własną logiką, inaczej rozliczenia i zwroty się rozjeżdżają przy pierwszym sporze. Do tego dochodzi 3D-Secure, które Stripe obsługuje, ale frontend musi poprawnie obsłużyć dodatkowy krok, inaczej płatności z UE będą odrzucane.\n\nDruga rzecz, o której mało kto pamięta na starcie: onboarding sprzedawcy. Stripe Connect nie zwalnia platformy z obowiązku weryfikacji kontrahentów. Marketplace musi sam zbierać i weryfikować dane sprzedawców (unijne przepisy o bezpieczeństwie w sieci nakładają to wprost na platformy). Najsensowniej robi się to przez tryb Express, gdzie Stripe przejmuje weryfikację tożsamości i dane bankowe, a platforma dokłada tylko własną warstwę zbierania danych. Przy trybie Custom cała weryfikacja i compliance leżą po Twojej stronie i to potrafi zjeść więcej czasu niż cały development.\n\nTrzecia: wielojęzyczność i rynki zagraniczne. Skoro platforma celuje w kilka krajów, to przy płatnościach i fakturowaniu dochodzi śledzenie sprzedaży per kraj i rozliczanie VAT według kraju klienta po przekroczeniu unijnego progu. Nie trzeba tego robić od razu, ale warto zaprojektować bazę tak, żeby później nie przepisywać połowy systemu.\n\nDo tego standard, który i tak trzeba domknąć przy projekcie jeszcze nieuruchomionym: backupy bazy, monitoring, aktualizacje frameworka. Laravel 11 kończy wsparcie bezpieczeństwa w marcu 2026, więc jeśli projekt na nim stoi, aktualizacja do 12 to praktycznie obowiązek, na szczęście bez większych zmian w kodzie. Hosting na DigitalOcean ogarniamy w standardzie, od Dropleta po zarządzaną bazę z automatycznymi backupami.\n\nJak to widzę w praktyce: zaczynamy od krótkiego zapoznania się z projektem, przechodzimy przez kod i listę zgłoszeń, i w pierwszym miesiącu zamykamy błędy oraz porządkujemy warstwę płatności i onboardingu. Potem wchodzimy w stały tryb: utrzymanie plus rozwój nowych funkcji, zgłoszenia z Twojej strony priorytetyzujemy razem.\n\nWycena: to stała współpraca rozliczana miesięcznie, liczymy 8100 zł za miesiąc pracy nad platformą. Kwota obejmuje zarówno utrzymanie, jak i rozwój nowych funkcji, bez osobnych dopłat za pojedyncze zadania. Pierwszy miesiąc to zapoznanie się z projektem i domknięcie bieżących zgłoszeń.\n\nZdzwońmy się na 15 minut, opowiesz o projekcie i o tym, gdzie obecnie boli najbardziej. Jeśli chcesz, zanim zaczniemy, możemy przejść przez kluczowe miejsca w kodzie i pokazać konkretnie, co wymaga poprawy w pierwszej kolejności.\n\nPozdrawiam",
+      "zapisano_at": "2026-09-18T14:23:15.633292"
+    }
+  ]
+}
