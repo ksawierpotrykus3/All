@@ -1,0 +1,101 @@
+{
+  "test": "TEST 10 – Pełny flow v2 (evaluate+fetch zamiast page.goto)",
+  "timestamp_start": "2026-08-06 15:33:12",
+  "status": "OK",
+  "steps": {
+    "0_playwright_init": {
+      "status": "OK",
+      "browser": "firefox",
+      "headless": false
+    },
+    "1_warmup": {
+      "status": "OK",
+      "url": "https://useme.com/en/"
+    },
+    "2_fetch_list_evaluate": {
+      "status": "OK",
+      "method": "fallback_test01_html",
+      "offers_count": 10,
+      "html_size": 495555
+    },
+    "3_marker": {
+      "status": "OK",
+      "has_new_offers": true,
+      "first_offer_title": "Stworzenie narzędzia do: drukowania w pdf zestawów z Płatnika"
+    },
+    "4_ai_selection": {
+      "status": "OK",
+      "selected_count": 5,
+      "rejected_count": 5,
+      "fallback": false
+    },
+    "5_fetch_details_evaluate": {
+      "status": "OK",
+      "total": 5,
+      "success": 5,
+      "failed": 0,
+      "method": "evaluate+fetch"
+    },
+    "6_ai_proposals": {
+      "status": "OK",
+      "generated": 5,
+      "total": 5,
+      "note": "Jedna oferta na raz – NIE wrzucano wszystkich naraz"
+    }
+  },
+  "selected_offers": [
+    {
+      "index": 1,
+      "title": "Automatyzacja Make/n8n/Python: web scraping, OCR i AI",
+      "reason": "Oferta bezpośrednio wymaga Pythona, web scrapingu, automatyzacji i AI – idealnie dopasowana do specjalizacji."
+    },
+    {
+      "index": 2,
+      "title": "Stworzenie Inteligentnej Platformy AI do Zakupu i zarzadzadzania Bazami.",
+      "reason": "Projekt AI działający automatycznie 24/7 – wysoce prawdopodobne wykorzystanie Pythona, scrapingu i automatyzacji procesów pozyskiwania ofert."
+    },
+    {
+      "index": 5,
+      "title": "API Allegro, Shopper",
+      "reason": "Oferta dotyczy tworzenia API i integracji z serwisami zewnętrznymi – obszar ściśle powiązany z automatyzacją i integracjami, możliwy do realizacji w Pythonie."
+    },
+    {
+      "index": 7,
+      "title": "Integrator pomiędzy Optima a Base.com",
+      "reason": "Tworzenie integratora między systemami to typowe zadanie z zakresu automatyzacji i API, które może być zrealizowane w Pythonie."
+    },
+    {
+      "index": 9,
+      "title": "Wykonawca automatyzacji procesów i AI - ewidencja zleceń, Nextcloud, e-mail, ChatGPT Business, Make lub n8n",
+      "reason": "Projekt koncentruje się na automatyzacji procesów i wykorzystaniu AI (ChatGPT), z możliwością użycia Pythona – pasuje do profilu."
+    }
+  ],
+  "proposals": [
+    {
+      "title": "?",
+      "proposal_text": "Dzień dobry, zainteresowałem się Pana/Pani zleceniem dotyczącym programowania w Pythonie. Chociaż opis jest na tym etapie bardzo ogólny, chętnie podejmę się realizacji po doprecyzowaniu wymagań. Posiadam kilkuletnie doświadczenie w Pythonie oraz pokrewnych technologiach. Proponuję stawkę godzinową w wysokości 90 zł netto za godzinę pracy. Po zapoznaniu się ze szczegółami będę mógł oszacować również ewentualną wycenę ryczałtową. Zapraszam do kontaktu w celu omówienia projektu.",
+      "proposed_rate": "90 PLN/h netto"
+    },
+    {
+      "title": "?",
+      "proposal_text": "Dzień dobry, Anno. Z zainteresowaniem przejrzałem Pani ogłoszenie, jednak zauważyłem, że w tytule i opisie brakuje jeszcze szczegółowych informacji o zakresie prac. Aby móc przedstawić dopasowaną ofertę, będę wdzięczny za doprecyzowanie, jakiego konkretnie zadania w Pythonie potrzebuje Pani wsparcia (np. automatyzacja, web scraping, analiza danych, API, skrypt). Po poznaniu szczegółów chętnie przedstawię realny szacunek czasowy i ewentualną wycenę za całość. Wstępnie zakładam stawkę godzinową na poziomie 100 zł netto, jednak ostateczne warunki dostosuję do skali projektu.",
+      "proposed_rate": "100 zł/h netto (do uzgodnienia po poznaniu zakresu)"
+    },
+    {
+      "title": "?",
+      "proposal_text": "Dzień dobry, Panie Jacku. Z przyjemnością zapoznałem się z Pana zleceniem i jako doświadczony programista Python jestem gotów je zrealizować. Aby precyzyjnie oszacować nakład pracy i zaproponować optymalne rozwiązanie, potrzebuję kilku szczegółów – chętnie omówię je w krótkiej rozmowie. Proponuję rozliczenie godzinowe, które sprawdzi się przy ewoluującym zakresie prac. Moja standardowa stawka to 100 PLN netto za godzinę, lecz jestem otwarty na negocjacje w zależności od finalnego charakteru projektu. Zapraszam do kontaktu – jestem dostępny od zaraz.",
+      "proposed_rate": "100 PLN/h netto"
+    },
+    {
+      "title": "?",
+      "proposal_text": "Dzień dobry, jestem zainteresowany współpracą przy tym projekcie. Ponieważ opis jest na razie niekompletny, chętnie poznam więcej szczegółów – zakładam, że chodzi o rozwiązanie w Pythonie. Po doprecyzowaniu wymagań przedstawię dokładniejszą wycenę. Na wstępie proponuję stawkę 100 PLN/h netto. Czekam na dodatkowe informacje. Pozdrawiam, [Twoje Imię]",
+      "proposed_rate": "100 PLN/h netto"
+    },
+    {
+      "title": "?",
+      "proposal_text": "Witam, zainteresowała mnie Pana oferta (użytkownik thybalt002). Niestety opis projektu nie zawiera szczegółów, więc trudno od razu wycenić całość. Proszę o doprecyzowanie zakresu prac – chętnie przygotuję konkretną wycenę. Jestem doświadczonym programistą Python, stawka za godzinę pracy wynosi 90 zł netto. Zapraszam do kontaktu.",
+      "proposed_rate": "90 zł/h netto"
+    }
+  ],
+  "timestamp_end": "2026-08-06 15:35:11"
+}

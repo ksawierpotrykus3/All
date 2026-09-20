@@ -1,0 +1,521 @@
+{
+  "test": "TEST 15 – FINAL FLOW v3 (DRY RUN, nic nie wysłano)",
+  "timestamp_start": "2026-08-25 15:43:19",
+  "status": "OK",
+  "headless_mode": false,
+  "stack": "Chromium + playwright-stealth + cookies.json, domcontentloaded+3s",
+  "steps": {
+    "0_init": {
+      "status": "OK",
+      "browser": "chromium",
+      "headless": false
+    },
+    "1_list_page_goto": {
+      "status": "OK",
+      "offers_count": 12,
+      "final_url": "https://useme.com/pl/jobs/category/programowanie-i-it,35/",
+      "cloudflare": false,
+      "nav_attempts": 1,
+      "cf_seen_on_attempts": 0,
+      "method": "page.goto + wait 3s (+ oczekiwanie na auto-rozwiązanie CF) + BeautifulSoup(article.job)",
+      "time_s": 3.9
+    },
+    "2_list_evaluate_fetch": {
+      "status": "OK",
+      "offers_count": 12,
+      "cloudflare": false,
+      "raw_html_size": 176459,
+      "time_s": 0.5,
+      "same_as_page_goto": true
+    },
+    "3_marker": {
+      "last_offer_url": "https://useme.com/pl/jobs/stworzenie-platformy-zakupowej-b2b-system-zamowien-grupowych-dla-placowek-medycz,143262/",
+      "saved_url": "https://useme.com/pl/jobs/wykonawca-automatyzacji-procesow-i-ai-ewidencja-zlecen-nextcloud-e-mail-chatgpt,142172/",
+      "status": "not_found_all_new",
+      "new_count": 12,
+      "updated_url": "https://useme.com/pl/jobs/stworzenie-platformy-zakupowej-b2b-system-zamowien-grupowych-dla-placowek-medycz,143262/",
+      "time_s": 0.0,
+      "first_offer_title": "Aplikacja do śledzenia czasu pracy"
+    },
+    "4_ai_selection": {
+      "status": "OK",
+      "selected_count": 3,
+      "rejected_count": 9,
+      "time_s": 52.6
+    },
+    "5_details": {
+      "status": "OK",
+      "total": 3,
+      "parsed_ok": 3,
+      "complete": 3,
+      "time_s": 5.0
+    },
+    "6_ai_proposals": {
+      "status": "OK",
+      "generated": 3,
+      "total": 3,
+      "per_offer_calls": true,
+      "time_s": 84.0
+    }
+  },
+  "offers_from_list": [
+    {
+      "title": "Aplikacja do śledzenia czasu pracy",
+      "url": "https://useme.com/pl/jobs/aplikacja-do-sledzenia-czasu-pracy,143290/",
+      "author": "zbigniewromanowski",
+      "offers_count": "38",
+      "expiry": "Znika za 30 dni",
+      "category": "Aplikacje webowe",
+      "budget": "Do negocjacji",
+      "description": "Poszukuję wykonawcy do stworzenia aplikacji webowej do rejestracji i zarządzania czasem pracy. Aplikacja będzie służyć do śledzenia czasu, rozliczania projektów oraz zarządzania zespołem.\n\nZakres funkcjonalności:\n\nŚledzenie czasu:\n- Timer w..."
+    },
+    {
+      "title": "Rekomendacja platformy e-commerce z dwukierunkową integracją z Lengow (katalog + zam.), szukamy specjalisty od Lengow",
+      "url": "https://useme.com/pl/jobs/rekomendacja-platformy-e-commerce-z-dwukierunkowa-integracja-z-lengow-katalog-za,143282/",
+      "author": "Websale",
+      "offers_count": "14",
+      "expiry": "Znika za 5 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Planujemy sklep internetowy dla marki odzieżowej i potrzebujemy pomocy w wyborze platformy pod kątem współpracy z Lengow.\n\nKontekst:\nMarka wymaga, żeby dane między naszym sklepem a jej systemem szły przez Lengow:\n— katalog i ceny: marka wysyła je..."
+    },
+    {
+      "title": "Przeprowadzenie kampanii reklamowej na stronie Facebook",
+      "url": "https://useme.com/pl/jobs/przeprowadzenie-kampanii-reklamowej-na-stronie-facebook,143280/",
+      "author": "Łukasz",
+      "offers_count": "4",
+      "expiry": "Znika za 30 dni",
+      "category": "Oprogramowanie",
+      "budget": "50,00 PLN",
+      "description": "Zlecę przeprowadzenie kampanii reklamowej na stronie Facebook.\n\nBudżet reklamowy 100 zł.\n\nBudżet na 7 dni\n\nCel kampanii: określenie zainteresowania pobierania darmowej lekcji na stronie:\n\nhttps://www.facebook.com/profile.php?id=61593541525837"
+    },
+    {
+      "title": "Wdrożeniowiec Systemów Księgowych i ERP",
+      "url": "https://useme.com/pl/jobs/wdrozeniowiec-systemow-ksiegowych-i-erp,143275/",
+      "author": "KARTS DESIGN",
+      "offers_count": "3",
+      "expiry": "Znika za 30 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Poszukujemy osoby z doświadczeniem w praktycznym wdrażaniu i konfiguracji systemów księgowo-finansowych."
+    },
+    {
+      "title": "Specjalista ds. Badawczo-Rozwojowych B+R / R&D (wymagane referencje)",
+      "url": "https://useme.com/pl/jobs/specjalista-ds-badawczo-rozwojowych-b-r-r-d-wymagane-referencje,143274/",
+      "author": "KARTS DESIGN",
+      "offers_count": "3",
+      "expiry": "Znika za 30 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Szukamy osoby z doświadczeniem w pracach badawczo-rozwojowych (B+R) przy innowacyjnych projektach technologicznych.\n\nUdokumentowane doświadczenie w projektach R&D, grantach lub innowacjach produktowych potwierdzone referencjami."
+    },
+    {
+      "title": "IOS Developer – tworzenie aplikacji mobilnych na system iOS (wymagane referencje)",
+      "url": "https://useme.com/pl/jobs/ios-developer-tworzenie-aplikacji-mobilnych-na-system-ios-wymagane-referencje,143273/",
+      "author": "KARTS DESIGN",
+      "offers_count": "5",
+      "expiry": "Znika za 30 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Szukamy programisty iOS do stworzenia i rozwoju natywnej aplikacji mobilnej."
+    },
+    {
+      "title": "IoT / Embedded Developer (Maszyny fizyczne, systemy typu smart zamki)",
+      "url": "https://useme.com/pl/jobs/iot-embedded-developer-maszyny-fizyczne-systemy-typu-smart-zamki,143271/",
+      "author": "KARTS DESIGN",
+      "offers_count": "3",
+      "expiry": "Znika za 30 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Szukamy programisty IoT do integracji oprogramowania z urządzeniami fizycznymi (np. systemy kontroli dostępu, zamki, maszyny).\n\nW zgłoszeniu podaj: Stawkę godzinową netto, opis wykonanych projektów IoT oraz dowody na ich realizację."
+    },
+    {
+      "title": "Specjalista ds. Cybersecurity (Cybersecurity)",
+      "url": "https://useme.com/pl/jobs/specjalista-ds-cybersecurity-cybersecurity,143272/",
+      "author": "KARTS DESIGN",
+      "offers_count": "2",
+      "expiry": "Znika za 30 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Poszukujemy eksperta ds. bezpieczeństwa IT do audytu oraz zabezpieczenia tworzonych aplikacji i systemów.\n\nStawkę godzinową netto, podsumowanie doświadczenia oraz dowody/referencje."
+    },
+    {
+      "title": "Cloud Developer / Architekt Chmury",
+      "url": "https://useme.com/pl/jobs/cloud-developer-architekt-chmury,143270/",
+      "author": "KARTS DESIGN",
+      "offers_count": "5",
+      "expiry": "Znika za 30 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Poszukujemy specjalisty do zaprojektowania i wdrożenia architektury chmurowej oraz aplikacji opartych na chmurze."
+    },
+    {
+      "title": "Stworzenie programu do automatycznego generowania etykiet produktowych z CSV",
+      "url": "https://useme.com/pl/jobs/stworzenie-programu-do-automatycznego-generowania-etykiet-produktowych-z-csv,143267/",
+      "author": "Tegro sp. z o.o.",
+      "offers_count": "35",
+      "expiry": "Znika za 30 dni",
+      "category": "Aplikacje webowe",
+      "budget": "Do negocjacji",
+      "description": "Szukamy osoby, która zaprojektuje i wykona dedykowany program do automatycznego generowania, gotowych do druku, etykiet produktowych oraz oznakowania opakowań zbiorczych na podstawie danych z plików CSV.\n\nProgram ma działać niezależnie od..."
+    },
+    {
+      "title": "Przeniesienie bazy księgowej z Comarch ERP Optima i Insert do Ennovy",
+      "url": "https://useme.com/pl/jobs/przeniesienie-bazy-ksiegowej-z-comarch-erp-optima-i-insert-do-ennovy,143265/",
+      "author": "Marta",
+      "offers_count": "8",
+      "expiry": "Znika za 10 dni",
+      "category": "Administracja serwerami",
+      "budget": "Do negocjacji",
+      "description": "Szukam informatyka który przeniesie bazy księgowe  z Comarch ERP Optima i Insert do Ennovy"
+    },
+    {
+      "title": "Stworzenie platformy zakupowej B2B (system zamówień grupowych) dla placówek medycznych",
+      "url": "https://useme.com/pl/jobs/stworzenie-platformy-zakupowej-b2b-system-zamowien-grupowych-dla-placowek-medycz,143262/",
+      "author": "Małgorzata",
+      "offers_count": "31",
+      "expiry": "Znika za 30 dni",
+      "category": "Aplikacje webowe",
+      "budget": "Do negocjacji",
+      "description": "Zlecę stworzenie zamkniętej platformy zakupowej typu B2B dla grupy zakupowej zrzeszającej placówki medyczne. System ma umożliwiać placówkom zamawianie towarów bezpośrednio od dostawców po z góry wynegocjowanych przez nas cenach.Główny proces..."
+    }
+  ],
+  "new_offers_after_marker": [
+    {
+      "title": "Aplikacja do śledzenia czasu pracy",
+      "url": "https://useme.com/pl/jobs/aplikacja-do-sledzenia-czasu-pracy,143290/",
+      "author": "zbigniewromanowski",
+      "offers_count": "38",
+      "expiry": "Znika za 30 dni",
+      "category": "Aplikacje webowe",
+      "budget": "Do negocjacji",
+      "description": "Poszukuję wykonawcy do stworzenia aplikacji webowej do rejestracji i zarządzania czasem pracy. Aplikacja będzie służyć do śledzenia czasu, rozliczania projektów oraz zarządzania zespołem.\n\nZakres funkcjonalności:\n\nŚledzenie czasu:\n- Timer w..."
+    },
+    {
+      "title": "Rekomendacja platformy e-commerce z dwukierunkową integracją z Lengow (katalog + zam.), szukamy specjalisty od Lengow",
+      "url": "https://useme.com/pl/jobs/rekomendacja-platformy-e-commerce-z-dwukierunkowa-integracja-z-lengow-katalog-za,143282/",
+      "author": "Websale",
+      "offers_count": "14",
+      "expiry": "Znika za 5 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Planujemy sklep internetowy dla marki odzieżowej i potrzebujemy pomocy w wyborze platformy pod kątem współpracy z Lengow.\n\nKontekst:\nMarka wymaga, żeby dane między naszym sklepem a jej systemem szły przez Lengow:\n— katalog i ceny: marka wysyła je..."
+    },
+    {
+      "title": "Przeprowadzenie kampanii reklamowej na stronie Facebook",
+      "url": "https://useme.com/pl/jobs/przeprowadzenie-kampanii-reklamowej-na-stronie-facebook,143280/",
+      "author": "Łukasz",
+      "offers_count": "4",
+      "expiry": "Znika za 30 dni",
+      "category": "Oprogramowanie",
+      "budget": "50,00 PLN",
+      "description": "Zlecę przeprowadzenie kampanii reklamowej na stronie Facebook.\n\nBudżet reklamowy 100 zł.\n\nBudżet na 7 dni\n\nCel kampanii: określenie zainteresowania pobierania darmowej lekcji na stronie:\n\nhttps://www.facebook.com/profile.php?id=61593541525837"
+    },
+    {
+      "title": "Wdrożeniowiec Systemów Księgowych i ERP",
+      "url": "https://useme.com/pl/jobs/wdrozeniowiec-systemow-ksiegowych-i-erp,143275/",
+      "author": "KARTS DESIGN",
+      "offers_count": "3",
+      "expiry": "Znika za 30 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Poszukujemy osoby z doświadczeniem w praktycznym wdrażaniu i konfiguracji systemów księgowo-finansowych."
+    },
+    {
+      "title": "Specjalista ds. Badawczo-Rozwojowych B+R / R&D (wymagane referencje)",
+      "url": "https://useme.com/pl/jobs/specjalista-ds-badawczo-rozwojowych-b-r-r-d-wymagane-referencje,143274/",
+      "author": "KARTS DESIGN",
+      "offers_count": "3",
+      "expiry": "Znika za 30 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Szukamy osoby z doświadczeniem w pracach badawczo-rozwojowych (B+R) przy innowacyjnych projektach technologicznych.\n\nUdokumentowane doświadczenie w projektach R&D, grantach lub innowacjach produktowych potwierdzone referencjami."
+    },
+    {
+      "title": "IOS Developer – tworzenie aplikacji mobilnych na system iOS (wymagane referencje)",
+      "url": "https://useme.com/pl/jobs/ios-developer-tworzenie-aplikacji-mobilnych-na-system-ios-wymagane-referencje,143273/",
+      "author": "KARTS DESIGN",
+      "offers_count": "5",
+      "expiry": "Znika za 30 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Szukamy programisty iOS do stworzenia i rozwoju natywnej aplikacji mobilnej."
+    },
+    {
+      "title": "IoT / Embedded Developer (Maszyny fizyczne, systemy typu smart zamki)",
+      "url": "https://useme.com/pl/jobs/iot-embedded-developer-maszyny-fizyczne-systemy-typu-smart-zamki,143271/",
+      "author": "KARTS DESIGN",
+      "offers_count": "3",
+      "expiry": "Znika za 30 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Szukamy programisty IoT do integracji oprogramowania z urządzeniami fizycznymi (np. systemy kontroli dostępu, zamki, maszyny).\n\nW zgłoszeniu podaj: Stawkę godzinową netto, opis wykonanych projektów IoT oraz dowody na ich realizację."
+    },
+    {
+      "title": "Specjalista ds. Cybersecurity (Cybersecurity)",
+      "url": "https://useme.com/pl/jobs/specjalista-ds-cybersecurity-cybersecurity,143272/",
+      "author": "KARTS DESIGN",
+      "offers_count": "2",
+      "expiry": "Znika za 30 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Poszukujemy eksperta ds. bezpieczeństwa IT do audytu oraz zabezpieczenia tworzonych aplikacji i systemów.\n\nStawkę godzinową netto, podsumowanie doświadczenia oraz dowody/referencje."
+    },
+    {
+      "title": "Cloud Developer / Architekt Chmury",
+      "url": "https://useme.com/pl/jobs/cloud-developer-architekt-chmury,143270/",
+      "author": "KARTS DESIGN",
+      "offers_count": "5",
+      "expiry": "Znika za 30 dni",
+      "category": "Projekty IT",
+      "budget": "Do negocjacji",
+      "description": "Poszukujemy specjalisty do zaprojektowania i wdrożenia architektury chmurowej oraz aplikacji opartych na chmurze."
+    },
+    {
+      "title": "Stworzenie programu do automatycznego generowania etykiet produktowych z CSV",
+      "url": "https://useme.com/pl/jobs/stworzenie-programu-do-automatycznego-generowania-etykiet-produktowych-z-csv,143267/",
+      "author": "Tegro sp. z o.o.",
+      "offers_count": "35",
+      "expiry": "Znika za 30 dni",
+      "category": "Aplikacje webowe",
+      "budget": "Do negocjacji",
+      "description": "Szukamy osoby, która zaprojektuje i wykona dedykowany program do automatycznego generowania, gotowych do druku, etykiet produktowych oraz oznakowania opakowań zbiorczych na podstawie danych z plików CSV.\n\nProgram ma działać niezależnie od..."
+    },
+    {
+      "title": "Przeniesienie bazy księgowej z Comarch ERP Optima i Insert do Ennovy",
+      "url": "https://useme.com/pl/jobs/przeniesienie-bazy-ksiegowej-z-comarch-erp-optima-i-insert-do-ennovy,143265/",
+      "author": "Marta",
+      "offers_count": "8",
+      "expiry": "Znika za 10 dni",
+      "category": "Administracja serwerami",
+      "budget": "Do negocjacji",
+      "description": "Szukam informatyka który przeniesie bazy księgowe  z Comarch ERP Optima i Insert do Ennovy"
+    },
+    {
+      "title": "Stworzenie platformy zakupowej B2B (system zamówień grupowych) dla placówek medycznych",
+      "url": "https://useme.com/pl/jobs/stworzenie-platformy-zakupowej-b2b-system-zamowien-grupowych-dla-placowek-medycz,143262/",
+      "author": "Małgorzata",
+      "offers_count": "31",
+      "expiry": "Znika za 30 dni",
+      "category": "Aplikacje webowe",
+      "budget": "Do negocjacji",
+      "description": "Zlecę stworzenie zamkniętej platformy zakupowej typu B2B dla grupy zakupowej zrzeszającej placówki medyczne. System ma umożliwiać placówkom zamawianie towarów bezpośrednio od dostawców po z góry wynegocjowanych przez nas cenach.Główny proces..."
+    }
+  ],
+  "list_comparison": {
+    "page_goto_offers": 12,
+    "evaluate_fetch_offers": 12,
+    "evaluate_fetch_status": "OK",
+    "identical": true,
+    "note": "L4: evaluate+fetch na liście PO zakończeniu nawigacji"
+  },
+  "ai_selection": {
+    "selected": [
+      {
+        "index": 1,
+        "title": "Rekomendacja platformy e-commerce z dwukierunkową integracją z Lengow (katalog + zam.), szukamy specjalisty od Lengow",
+        "reason": "Idealne dopasowanie do profilu - dwukierunkowa integracja API między platformą e-commerce a Lengow to typowe zadanie dla specjalisty od integracji. Python świetnie nadaje się do budowy konektorów, przetwarzania danych katalogowych i obsługi zamówień. Budżet do negocjacji, relatywnie niska konkurencja (14 ofert)."
+      },
+      {
+        "index": 9,
+        "title": "Stworzenie programu do automatycznego generowania etykiet produktowych z CSV",
+        "reason": "Czysta automatyzacja - przetwarzanie plików CSV i generowanie gotowych do druku etykiet to klasyczne zadanie dla Pythona (biblioteki pandas, csv, reportlab). Projekt samodzielny, konkretny zakres, budżet do negocjacji. Idealne dopasowanie do profilu automatyzacji."
+      },
+      {
+        "index": 10,
+        "title": "Przeniesienie bazy księgowej z Comarch ERP Optima i Insert do Ennovy",
+        "reason": "Migracja baz danych to zadanie z obszaru ETL i automatyzacji - Python z bibliotekami do obsługi baz danych (SQLAlchemy, psycopg2) i transformacji danych sprawdzi się doskonale. Możliwość zautomatyzowania całego procesu przenoszenia i mapowania danych między systemami."
+      }
+    ],
+    "rejected": [
+      {
+        "index": 0,
+        "title": "Aplikacja do śledzenia czasu pracy",
+        "reason": "Pełnoprawna aplikacja webowa typu full-stack, mniej dopasowana do specjalizacji web scraping/automatyzacja. Duża konkurencja (38 ofert) obniża szanse na wygraną."
+      },
+      {
+        "index": 2,
+        "title": "Przeprowadzenie kampanii reklamowej na stronie Facebook",
+        "reason": "Zadanie marketingowe, nie programistyczne. Bardzo niski budżet (50 PLN) - nieopłacalne dla freelancera."
+      },
+      {
+        "index": 3,
+        "title": "Wdrożeniowiec Systemów Księgowych i ERP",
+        "reason": "Rola konsultingowo-wdrożeniowa, a nie programistyczna w Pythonie. Wymaga specyficznej wiedzy o systemach ERP."
+      },
+      {
+        "index": 4,
+        "title": "Specjalista ds. Badawczo-Rozwojowych B+R / R&D (wymagane referencje)",
+        "reason": "Brak dopasowania do profilu technicznego Python/web scraping. Rola badawczo-rozwojowa wymagająca referencji z grantów."
+      },
+      {
+        "index": 5,
+        "title": "IOS Developer – tworzenie aplikacji mobilnych na system iOS (wymagane referencje)",
+        "reason": "Zupełnie inna technologia (Swift/Objective-C), poza zakresem kompetencji Python developera."
+      },
+      {
+        "index": 6,
+        "title": "IoT / Embedded Developer (Maszyny fizyczne, systemy typu smart zamki)",
+        "reason": "Specjalizacja embedded/IoT, wymaga wiedzy z elektroniki i systemów wbudowanych, nie web scrapingu/automatyzacji."
+      },
+      {
+        "index": 7,
+        "title": "Specjalista ds. Cybersecurity (Cybersecurity)",
+        "reason": "Inna specjalizacja - audyt bezpieczeństwa, nie programowanie w Pythonie do scrapingu/automatyzacji."
+      },
+      {
+        "index": 8,
+        "title": "Cloud Developer / Architekt Chmury",
+        "reason": "Rola architekta chmury, bardziej infrastruktura niż programowanie aplikacyjne. Możliwe powiązanie z Pythonem, ale poza głównym profilem."
+      },
+      {
+        "index": 11,
+        "title": "Stworzenie platformy zakupowej B2B (system zamówień grupowych) dla placówek medycznych",
+        "reason": "Duży projekt full-stack wymagający szerokich kompetencji web-dev (frontend, backend, bazy danych). Mniej dopasowany do specjalisty od scrapingu i automatyzacji, choć zawiera elementy integracji."
+      }
+    ],
+    "used_offers_count": 12
+  },
+  "details": [
+    {
+      "index": 1,
+      "offer": {
+        "title": "Rekomendacja platformy e-commerce z dwukierunkową integracją z Lengow (katalog + zam.), szukamy specjalisty od Lengow",
+        "url": "https://useme.com/pl/jobs/rekomendacja-platformy-e-commerce-z-dwukierunkowa-integracja-z-lengow-katalog-za,143282/",
+        "author": "Websale",
+        "offers_count": "14",
+        "expiry": "Znika za 5 dni",
+        "category": "Projekty IT",
+        "budget": "Do negocjacji",
+        "description": "Planujemy sklep internetowy dla marki odzieżowej i potrzebujemy pomocy w wyborze platformy pod kątem współpracy z Lengow.\n\nKontekst:\nMarka wymaga, żeby dane między naszym sklepem a jej systemem szły przez Lengow:\n— katalog i ceny: marka wysyła je..."
+      },
+      "selection_reason": "Idealne dopasowanie do profilu - dwukierunkowa integracja API między platformą e-commerce a Lengow to typowe zadanie dla specjalisty od integracji. Python świetnie nadaje się do budowy konektorów, przetwarzania danych katalogowych i obsługi zamówień. Budżet do negocjacji, relatywnie niska konkurencja (14 ofert).",
+      "fetch_method": "evaluate+fetch",
+      "fallback_note": "",
+      "raw_html_size": 159114,
+      "detail_parsed": {
+        "status": "ok",
+        "source_url": "https://useme.com/pl/jobs/rekomendacja-platformy-e-commerce-z-dwukierunkowa-integracja-z-lengow-katalog-za,143282/",
+        "ld_json_types": [
+          "JobPosting"
+        ],
+        "title": "Rekomendacja platformy e-commerce z dwukierunkową integracją z Lengow (katalog + zam.), szukamy specjalisty od Lengow",
+        "full_desc": "<p>Planujemy sklep internetowy dla marki odzieżowej i potrzebujemy pomocy w wyborze platformy pod kątem współpracy z Lengow.</p>\n\n<p>Kontekst:<br>Marka wymaga, żeby dane między naszym sklepem a jej systemem szły przez Lengow:<br>— katalog i ceny: marka wysyła je nam przez Lengow (działa bez problemu, niezależnie od platformy),<br>— zamówienia: nasz sklep musi wysłać zamówienie przez Lengow z powrotem do marki, żeby mogli je spakować i wysłać do klienta. Tego dotyczy zlecenie.<br>Lengow musi zostać w układzie — to wymóg marki. Otwarty jest wybór platformy.</p>\n\n<p>Dodatkowo ważne dla nas:<br>— Część zamówień będzie składana telefonicznie — pracownicy muszą mieć możliwość ręcznego wpisania zamówienia, i ono też powinno pójść do marki przez Lengow, tak samo jak zamówienia online.<br>— Strona ma działać szybko i wygodnie dla klientów przeglądających katalog.</p>\n\n<p>Co już wiemy (prosimy uwzględnić, żeby nie doradzać nam czegoś, co już sprawdziliśmy):<br>— Zapytaliśmy wprost sam Lengow — potwierdzili, że standardowymi platformami ich system działa tylko w jedną stronę: zamawia z marketplace’u i wysyła do sklepu, a nie odwrotnie.<br>— Lengow potwierdził też, że w najbliższym czasie nie zbudują żadnego dodatkowego rozwiązania na zamówienie.</p>\n\n<p>Główne pytanie:<br>Jaka jest platforma, na której nasz sklep mógłby działać w Lengow bardziej jak osobny kanał sprzedaży (podobnie jak Allegro czy Amazon), z którego Lengow normalnie odbiera zamówienia — zamiast tylko je dowozić, jak dziś?</p>\n\n<p>Czego szukamy:<br>Osoby, która naprawdę pracowała z Lengow, najlepiej przy różnych platformach, i wie z praktyki jak to wygląda.</p>\n\n<p>Prosimy o odpowiedź na:<br>— Z jakimi platformami i Lengow Pan/Pani realnie pracował/a?<br>— Ile czasu i ile kosztowałaby sama analiza/rekomendacja (jeszcze nie budowa sklepu)?</p>\n\n<p>Ważne:<br>Nie chodzi nam o ogólną opinię „która platforma jest lepsza do sklepu”, zależy nam na tym, która najlepiej gra z Lengow przy zamówieniach. Jeśli okaże się, że żadna platforma tego nie rozwiązuje — wolimy usłyszeć to szczerze, niż obietnicę bez pokrycia.</p>",
+        "budget": "Do negocjacji",
+        "category": "Programowanie i IT",
+        "author": "Websale",
+        "skills": "",
+        "copyright": "",
+        "complete": true
+      }
+    },
+    {
+      "index": 9,
+      "offer": {
+        "title": "Stworzenie programu do automatycznego generowania etykiet produktowych z CSV",
+        "url": "https://useme.com/pl/jobs/stworzenie-programu-do-automatycznego-generowania-etykiet-produktowych-z-csv,143267/",
+        "author": "Tegro sp. z o.o.",
+        "offers_count": "35",
+        "expiry": "Znika za 30 dni",
+        "category": "Aplikacje webowe",
+        "budget": "Do negocjacji",
+        "description": "Szukamy osoby, która zaprojektuje i wykona dedykowany program do automatycznego generowania, gotowych do druku, etykiet produktowych oraz oznakowania opakowań zbiorczych na podstawie danych z plików CSV.\n\nProgram ma działać niezależnie od..."
+      },
+      "selection_reason": "Czysta automatyzacja - przetwarzanie plików CSV i generowanie gotowych do druku etykiet to klasyczne zadanie dla Pythona (biblioteki pandas, csv, reportlab). Projekt samodzielny, konkretny zakres, budżet do negocjacji. Idealne dopasowanie do profilu automatyzacji.",
+      "fetch_method": "evaluate+fetch",
+      "fallback_note": "",
+      "raw_html_size": 156124,
+      "detail_parsed": {
+        "status": "ok",
+        "source_url": "https://useme.com/pl/jobs/stworzenie-programu-do-automatycznego-generowania-etykiet-produktowych-z-csv,143267/",
+        "ld_json_types": [
+          "JobPosting"
+        ],
+        "title": "Stworzenie programu do automatycznego generowania etykiet produktowych z CSV",
+        "full_desc": "<p>Szukamy osoby, która zaprojektuje i wykona dedykowany program do automatycznego generowania, gotowych do druku, etykiet produktowych oraz oznakowania opakowań zbiorczych na podstawie danych z plików CSV.</p>\n\n<p>Program ma działać niezależnie od oprogramowania DTP (np. Adobe InDesign) i docelowo obsługiwać różne modele oraz wzory etykiet.</p>\n\n<p>Główne założenia:<br>* import danych produktowych z CSV,<br>* automatyczne rozmieszczanie tekstów, parametrów, norm i piktogramów,<br>* automatyczne dopasowanie tekstu do pól bez ucinania treści,<br>* generowanie gotowych do druku plików PDF,<br>* walidacja danych i wykrywanie błędów przed wygenerowaniem pliku,<br>* seryjne generowanie etykiet dla wszystkich wariantów/rozmiarów z CSV,<br>* możliwość dodawania kolejnych wzorów etykiet poprzez konfigurację/szablon, bez konieczności każdorazowej modyfikacji kodu,<br>* prosty interfejs do wczytania CSV i pobrania wygenerowanych plików.</p>\n\n<p>Zależy nam również na dokumentacji umożliwiającej samodzielne dodawanie kolejnych szablonów oraz możliwości wsparcia powdrożeniowego.</p>\n\n<p>W odpowiedzi proszę o:<br>* orientacyjną wycenę lub estymację godzinową,<br>* proponowaną technologię i sposób realizacji,<br>* przewidywany czas wykonania,<br>* informację o warunkach późniejszego wsparcia.</p>",
+        "budget": "Do negocjacji",
+        "category": "Programowanie i IT",
+        "author": "Tegro sp. z o.o.",
+        "skills": "",
+        "copyright": "",
+        "complete": true
+      }
+    },
+    {
+      "index": 10,
+      "offer": {
+        "title": "Przeniesienie bazy księgowej z Comarch ERP Optima i Insert do Ennovy",
+        "url": "https://useme.com/pl/jobs/przeniesienie-bazy-ksiegowej-z-comarch-erp-optima-i-insert-do-ennovy,143265/",
+        "author": "Marta",
+        "offers_count": "8",
+        "expiry": "Znika za 10 dni",
+        "category": "Administracja serwerami",
+        "budget": "Do negocjacji",
+        "description": "Szukam informatyka który przeniesie bazy księgowe  z Comarch ERP Optima i Insert do Ennovy"
+      },
+      "selection_reason": "Migracja baz danych to zadanie z obszaru ETL i automatyzacji - Python z bibliotekami do obsługi baz danych (SQLAlchemy, psycopg2) i transformacji danych sprawdzi się doskonale. Możliwość zautomatyzowania całego procesu przenoszenia i mapowania danych między systemami.",
+      "fetch_method": "evaluate+fetch",
+      "fallback_note": "",
+      "raw_html_size": 130699,
+      "detail_parsed": {
+        "status": "ok",
+        "source_url": "https://useme.com/pl/jobs/przeniesienie-bazy-ksiegowej-z-comarch-erp-optima-i-insert-do-ennovy,143265/",
+        "ld_json_types": [
+          "JobPosting"
+        ],
+        "title": "Przeniesienie bazy księgowej z Comarch ERP Optima i Insert do Ennovy",
+        "full_desc": "<p>Szukam informatyka który przeniesie bazy księgowe  z Comarch ERP Optima i Insert do Ennovy</p>",
+        "budget": "Do negocjacji",
+        "category": "Programowanie i IT",
+        "author": "Marta",
+        "skills": "",
+        "copyright": "",
+        "complete": true
+      }
+    }
+  ],
+  "proposals": [
+    {
+      "index": 0,
+      "title": "Rekomendacja platformy e-commerce z dwukierunkową integracją z Lengow (katalog + zam.), szukamy specjalisty od Lengow",
+      "proposal": {
+        "proposal_text": "Dzień dobry, pracowałem z Lengow przy integracjach dla Shopify, Shopware 6 i Magento 2, w tym z odwrotnym przepływem zamówień przez API Lengow (tworzenie zamówień, aktualizacja statusów, obsługa błędów). Proponuję analizę w 3 etapach: 1) audyt wymagań i API Lengow pod kątem tworzenia zamówień z poziomu sklepu, 2) porównanie 3–4 platform (Shopware 6, Shopify Plus, Medusa, Magento 2) pod kątem natywnego wsparcia lub łatwości budowy middleware, 3) raport z rekomendacją i proof-of-concept skryptu wysyłającego zamówienie testowe do Lengow. Uwzględnię wymóg ręcznych zamówień telefonicznych – sprawdzę, jak w każdej platformie wygląda tworzenie zamówienia z panelu admina i czy da się je automatycznie przepchnąć do Lengow. Realny czas analizy: 3 dni robocze. Koszt: 2800 zł netto ryczałtem za pełną rekomendację z testem API i konsultacją.",
+        "proposed_rate": "2800 zł netto (ryczałt za analizę i rekomendację, 3 dni robocze)",
+        "key_points": [
+          "Doświadczenie z Lengow API przy Shopify, Shopware 6 i Magento 2, w tym odwrotny przepływ zamówień",
+          "Plan: audyt API, porównanie platform, proof-of-concept wysyłki zamówienia testowego do Lengow, uwzględnienie zamówień telefonicznych"
+        ]
+      },
+      "generated_at": "2026-08-25 15:44:49"
+    },
+    {
+      "index": 1,
+      "title": "Stworzenie programu do automatycznego generowania etykiet produktowych z CSV",
+      "proposal": {
+        "proposal_text": "Zaproponuję realizację jako samodzielną aplikację webową w Pythonie (FastAPI + Jinja2 + WeasyPrint/ReportLab) z silnikiem szablonów opartym na plikach YAML/JSON — dodanie nowego wzoru etykiety będzie polegało na edycji konfiguracji, bez modyfikacji kodu. Import CSV oprę na pandas z walidacją kolumn, typów, długości pól i reguł biznesowych przed generowaniem, a automatyczne dopasowanie tekstu zrealizuję przez iteracyjne skalowanie fontu i zawijanie z pomiarem szerokości w kontekście danego pola. Wygeneruję gotowe do druku pliki PDF (CMYK, spady, przycinanie) seryjnie dla wszystkich wariantów z CSV, z podglądem przed zapisem oraz prostym interfejsem upload/pobieranie ZIP. Zakres MVP obejmie 2 przykładowe szablony, dokumentację dla administratora, testy walidacyjne i wdrożenie w czasie 60–80 roboczogodzin (3–4 tygodnie). Proponuję stawkę 110 zł/h netto (szacunkowo 6 600–8 800 zł netto za całość) oraz 30 dni bezpłatnych poprawek błędów, a po wdrożeniu wsparcie w cenie 90 zł/h lub pakiet 4 h/mies. za 320 zł.",
+        "proposed_rate": "110 zł/h netto (szacunkowo 6 600–8 800 zł netto za całość)",
+        "key_points": [
+          "Python + FastAPI + WeasyPrint/ReportLab, szablony YAML/JSON umożliwiające dodawanie wzorów bez kodu",
+          "Estymacja 60–80 h, stawka 110 zł/h netto, wsparcie 30 dni poprawek + opcjonalny abonament 320 zł/mies."
+        ]
+      },
+      "generated_at": "2026-08-25 15:45:20"
+    },
+    {
+      "index": 2,
+      "title": "Przeniesienie bazy księgowej z Comarch ERP Optima i Insert do Ennovy",
+      "proposal": {
+        "proposal_text": "Zajmę się migracją danych księgowych z Comarch ERP Optima oraz Insert do Ennovy. Kluczowe będzie spójne odwzorowanie planu kont, kartotek kontrahentów, zapisów księgowych oraz rozrachunków między tymi dwoma systemami a strukturą Ennovy – Optima i Insert różnią się formatem eksportu oraz logiką numeracji dokumentów. Proponuję podział prac na etapy: (1) audyt obu baz i ekstrakcja danych, (2) mapowanie pól oraz transformacja do formatu akceptowanego przez Ennovę, (3) import testowy na kopii wraz z weryfikacją sald i rozrachunków, (4) import produkcyjny po Twojej akceptacji. Realny czas realizacji to 4–6 dni roboczych, w zależności od liczby dokumentów i stopnia skomplikowania mapowania. Przy budżecie do negocjacji proponuję stawkę 130 zł/h netto, co przy szacowanych 25–35 godzinach daje całościowy koszt 3500–4500 zł netto.",
+        "proposed_rate": "130 zł/h netto (szacunkowo 3500–4500 zł netto za całość)",
+        "key_points": [
+          "Migracja planu kont, kartotek kontrahentów, zapisów księgowych i rozrachunków z Optima i Insert do Ennovy",
+          "Etapy: audyt, mapowanie i transformacja, import testowy, wdrożenie – 4–6 dni roboczych"
+        ]
+      },
+      "generated_at": "2026-08-25 15:45:45"
+    }
+  ],
+  "timestamp_end": "2026-08-25 15:45:45",
+  "total_time_s": 217.6,
+  "sent_anything": false
+}

@@ -1,0 +1,71 @@
+{
+  "id": "useme-bot",
+  "nazwa": "Automatyczna Ofertowarka Useme (Bot)",
+  "kroki": [
+    {
+      "id": 1,
+      "nazwa": "Weryfikacja sesji i połączenia (konto1)",
+      "typ": "kod",
+      "status": "zrobione",
+      "opis": "Otwiera Useme i sprawdza, czy jesteś zalogowany oraz czy strona działa poprawnie.",
+      "wyjscie": "Połączenie OK. Zalogowany: True",
+      "logi": [
+        "Sprawdzam dostępność Useme i status sesji dla konto1...",
+        "Połączenie OK. Zalogowany: True"
+      ],
+      "czas_trwania_s": 2.7
+    },
+    {
+      "id": 2,
+      "nazwa": "Pobranie zleceń z kategorii IT i Serwisy (konto1)",
+      "typ": "kod",
+      "status": "zrobione",
+      "opis": "Przegląda listy zleceń w kategoriach IT i Serwisy i zbiera wszystkie dostępne ogłoszenia.",
+      "wyjscie": "Łącznie pobrano 0 ofert z listy",
+      "logi": [
+        "Pobieranie zleceń z kategorii: programowanie-i-it...",
+        "Znaleziono 0 nowych zleceń w programowanie-i-it",
+        "Pobieranie zleceń z kategorii: serwisy-internetowe...",
+        "Znaleziono 0 nowych zleceń w serwisy-internetowe"
+      ],
+      "czas_trwania_s": 1.5
+    },
+    {
+      "id": 3,
+      "nazwa": "Deduplikacja w magazynie (konto1)",
+      "typ": "kod",
+      "status": "zrobione",
+      "opis": "Porównuje pobrane ogłoszenia z zapisanymi wcześniej i wybiera tylko nowe, których jeszcze nie widzieliśmy.",
+      "wyjscie": "Wytypowano 0 nowych ofert do przetworzenia",
+      "czas_trwania_s": 0.0
+    },
+    {
+      "id": 4,
+      "nazwa": "Pobranie pełnych detali nowych zleceń (konto1)",
+      "typ": "kod",
+      "status": "zrobione",
+      "opis": "Wchodzi w każde nowe ogłoszenie na Useme i pobiera jego pełny opis przed selekcją.",
+      "wyjscie": "Pobrano pełne opisy dla 0 nowych zleceń",
+      "czas_trwania_s": 0.0
+    },
+    {
+      "id": 5,
+      "nazwa": "Selekcja zleceń przez AI (konto1)",
+      "typ": "ai",
+      "status": "zrobione",
+      "opis": "AI czyta pełne opisy nowych ogłoszeń i decyduje, które pasują do naszych umiejętności — resztę odrzuca.",
+      "narzedzie": "AI Pipeline",
+      "wyjscie": "AI zakwalifikowało 0 z 0 ofert",
+      "logi": [
+        "AI zakwalifikowało 0 z 0 ofert"
+      ],
+      "czas_trwania_s": 0.0
+    }
+  ],
+  "status_ogolny": "zakonczono",
+  "updated_at": "2026-09-19T09:54:14",
+  "opis": "Proces pobierania zleceń, selekcji, wyceny oraz wypełniania formularzy Useme",
+  "silnik": "Playwright + AI Slots",
+  "wyzwalacz": "manual",
+  "wyzwalacz_typ": "manual"
+}

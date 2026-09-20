@@ -1,0 +1,32 @@
+{
+  "index": 1,
+  "offer": {
+    "title": "Rekomendacja platformy e-commerce z dwukierunkową integracją z Lengow (katalog + zam.), szukamy specjalisty od Lengow",
+    "url": "https://useme.com/pl/jobs/rekomendacja-platformy-e-commerce-z-dwukierunkowa-integracja-z-lengow-katalog-za,143282/",
+    "author": "Websale",
+    "offers_count": "14",
+    "expiry": "Znika za 5 dni",
+    "category": "Projekty IT",
+    "budget": "Do negocjacji",
+    "description": "Planujemy sklep internetowy dla marki odzieżowej i potrzebujemy pomocy w wyborze platformy pod kątem współpracy z Lengow.\n\nKontekst:\nMarka wymaga, żeby dane między naszym sklepem a jej systemem szły przez Lengow:\n— katalog i ceny: marka wysyła je..."
+  },
+  "selection_reason": "Idealne dopasowanie do profilu - dwukierunkowa integracja API między platformą e-commerce a Lengow to typowe zadanie dla specjalisty od integracji. Python świetnie nadaje się do budowy konektorów, przetwarzania danych katalogowych i obsługi zamówień. Budżet do negocjacji, relatywnie niska konkurencja (14 ofert).",
+  "fetch_method": "evaluate+fetch",
+  "fallback_note": "",
+  "raw_html_size": 159114,
+  "detail_parsed": {
+    "status": "ok",
+    "source_url": "https://useme.com/pl/jobs/rekomendacja-platformy-e-commerce-z-dwukierunkowa-integracja-z-lengow-katalog-za,143282/",
+    "ld_json_types": [
+      "JobPosting"
+    ],
+    "title": "Rekomendacja platformy e-commerce z dwukierunkową integracją z Lengow (katalog + zam.), szukamy specjalisty od Lengow",
+    "full_desc": "<p>Planujemy sklep internetowy dla marki odzieżowej i potrzebujemy pomocy w wyborze platformy pod kątem współpracy z Lengow.</p>\n\n<p>Kontekst:<br>Marka wymaga, żeby dane między naszym sklepem a jej systemem szły przez Lengow:<br>— katalog i ceny: marka wysyła je nam przez Lengow (działa bez problemu, niezależnie od platformy),<br>— zamówienia: nasz sklep musi wysłać zamówienie przez Lengow z powrotem do marki, żeby mogli je spakować i wysłać do klienta. Tego dotyczy zlecenie.<br>Lengow musi zostać w układzie — to wymóg marki. Otwarty jest wybór platformy.</p>\n\n<p>Dodatkowo ważne dla nas:<br>— Część zamówień będzie składana telefonicznie — pracownicy muszą mieć możliwość ręcznego wpisania zamówienia, i ono też powinno pójść do marki przez Lengow, tak samo jak zamówienia online.<br>— Strona ma działać szybko i wygodnie dla klientów przeglądających katalog.</p>\n\n<p>Co już wiemy (prosimy uwzględnić, żeby nie doradzać nam czegoś, co już sprawdziliśmy):<br>— Zapytaliśmy wprost sam Lengow — potwierdzili, że standardowymi platformami ich system działa tylko w jedną stronę: zamawia z marketplace’u i wysyła do sklepu, a nie odwrotnie.<br>— Lengow potwierdził też, że w najbliższym czasie nie zbudują żadnego dodatkowego rozwiązania na zamówienie.</p>\n\n<p>Główne pytanie:<br>Jaka jest platforma, na której nasz sklep mógłby działać w Lengow bardziej jak osobny kanał sprzedaży (podobnie jak Allegro czy Amazon), z którego Lengow normalnie odbiera zamówienia — zamiast tylko je dowozić, jak dziś?</p>\n\n<p>Czego szukamy:<br>Osoby, która naprawdę pracowała z Lengow, najlepiej przy różnych platformach, i wie z praktyki jak to wygląda.</p>\n\n<p>Prosimy o odpowiedź na:<br>— Z jakimi platformami i Lengow Pan/Pani realnie pracował/a?<br>— Ile czasu i ile kosztowałaby sama analiza/rekomendacja (jeszcze nie budowa sklepu)?</p>\n\n<p>Ważne:<br>Nie chodzi nam o ogólną opinię „która platforma jest lepsza do sklepu”, zależy nam na tym, która najlepiej gra z Lengow przy zamówieniach. Jeśli okaże się, że żadna platforma tego nie rozwiązuje — wolimy usłyszeć to szczerze, niż obietnicę bez pokrycia.</p>",
+    "budget": "Do negocjacji",
+    "category": "Programowanie i IT",
+    "author": "Websale",
+    "skills": "",
+    "copyright": "",
+    "complete": true
+  }
+}

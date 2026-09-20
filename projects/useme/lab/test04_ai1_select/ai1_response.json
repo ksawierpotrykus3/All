@@ -1,0 +1,49 @@
+{
+  "selected": [
+    {
+      "title": "Automatyzacja Make/n8n/Python: web scraping, OCR i AI",
+      "justification": "Tytuł i opis wprost wymieniają web scraping, Pythona i automatyzację. Zakres prac (tworzenie skryptów do scrapowania i automatyzacji procesów) idealnie odpowiada specjalizacji programisty."
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Stworzenie narzędzia do: drukowania w pdf zestawów z Płatnika",
+      "justification": "Aplikacja desktopowa do generowania PDF. Nie dotyczy web scrapingu ani automatyzacji – typowe programowanie narzędziowe poza specjalizacją."
+    },
+    {
+      "title": "Stworzenie Inteligentnej Platformy AI do Zakupu i zarzadzadzania Bazami.",
+      "justification": "Choć system może wymagać pozyskiwania danych, to ogłoszenie koncentruje się na budowie pełnej platformy AI i systemu decyzyjnego. Wykracza poza wąską specjalizację w web scrapingu, nie wskazuje też Pythona jako wymagania."
+    },
+    {
+      "title": "Oprogramowanie dedykowane ecommerce PHP + React/Vue z integracjami",
+      "justification": "Stack technologiczny to PHP i JavaScript (React/Vue), nie Python. Projekt aplikacji e-commerce, bez elementów web scrapingu."
+    },
+    {
+      "title": "Konfigurator wyglądu/personalizacji produktu na stronie internetowej Shoper Storefront",
+      "justification": "Projekt frontendowy (konfigurator wizualny) dla platformy Shoper. Brak związku z web scrapingiem, automatyzacją czy Pythonem."
+    },
+    {
+      "title": "API Allegro, Shopper",
+      "justification": "Integracja API z preferowanym językiem VBA. Nie jest to projekt Pythonowy, a integracje e-commerce różnią się od specjalizacji w web scrapingu."
+    },
+    {
+      "title": "Aplikacja po przeniesieniu na produkcje wywala się",
+      "justification": "Zadanie z pogranicza administracji serwerami i debugowania wdrożeń. Nie dotyczy web scrapingu ani automatyzacji w Pythonie."
+    },
+    {
+      "title": "Integrator pomiędzy Optima a Base.com",
+      "justification": "Integracja systemów ERP z platformą sprzedażową. Ogłoszenie nie wymaga Pythona ani nie opisuje zadań związanych z web scrapingiem."
+    },
+    {
+      "title": "Aplikacja webowa wspierająca zarządzanie siecią sprzedaży i działu handlowego",
+      "justification": "Tworzenie aplikacji webowej w PHP od podstaw. Niezgodne ze specjalizacją (Python, web scraping, automatyzacja)."
+    },
+    {
+      "title": "Wykonawca automatyzacji procesów i AI - ewidencja zleceń, Nextcloud, e-mail, ChatGPT Business, Make lub n8n",
+      "justification": "Automatyzacja procesów firmowych za pomocą narzędzi no-code/low-code (Make, n8n). Nie wymaga programowania w Pythonie ani web scrapingu – kluczowa jest integracja gotowych rozwiązań."
+    }
+  ]
+}
+```
+
+<!-- PROXY_SID:aa15d9a170cf46e69b860c96663fd104-->

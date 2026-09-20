@@ -1,0 +1,29 @@
+# --- SEKRETY: NIGDY nie wrzucac na GitHub ---
+tech/cookies.json
+tech/cookies2.json
+*.cookies
+.env
+# cookies.json w KAZDYM katalogu (lab/, testy itd.) - moga zawierac sesje
+cookies.json
+**/cookies.json
+cookies*.json
+
+# --- Dane robocze / historia dzialania bota ---
+magazyn/
+marker.json
+debug/
+dane_badania/
+*.log
+
+# --- Cache / kompilacja ---
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# --- Pliki tymczasowe ---
+*.tmp
+.tmp_*
+_batch*_result.txt
+_*_result.txt
+_show_result.txt
