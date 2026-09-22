@@ -99,7 +99,7 @@ Profil 6-12 miesięcy, 10-25 umów, jest coś zbliżonego w portfolio: ×0.85. S
 Profil > 12 miesięcy, 25+ umów, realizacje w kategorii: ×1.0. Stawka efektywna: 120 zł/h.
 Premium profil, top ratings, widoczne case studies w kategorii: ×1.15. Stawka efektywna: 138 zł/h.
 
-Stan aktualny (sierpień 2026): profil 2 miesiące, 5 umów -> mnożnik ×0.75, stawka efektywna 90 zł/h.
+Stan aktualny (sierpień 2026): profil 2 miesiące, 5 umów -> mnożnik ×0.75, stawka efektywna bazowa 90 zł/h (kalkulator deterministyczny stosuje bezpieczne pasmo 82–110 zł/h per oferta).
 
 KROK 7: Korekta konkurencyjna. Sprawdź datę publikacji zlecenia i liczbę ofert. Data jest kluczowa 5 ofert pod zleceniem sprzed godziny to gorąca pozycja która za dobę będzie miała 40 ofert, nie traktuj tego jako "mało ofert". 5 ofert pod zleceniem sprzed tygodnia to naprawdę niszowy temat.
 

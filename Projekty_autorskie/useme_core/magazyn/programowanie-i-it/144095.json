@@ -2,10 +2,11 @@
   "id": "144095",
   "url": "https://useme.com/pl/jobs/kompletny-serwis-saas,144095/",
   "title": "Kompletny serwis SaaS",
-  "author": "Anonim",
+  "author": "Mediagroup",
+  "author_id": "mediagroup",
   "budget": "Do negocjacji",
   "category": "programowanie-i-it",
-  "detected_at": "2026-09-10T15:25:31.113530",
+  "detected_at": "2026-09-12T10:39:30.667581",
   "status": "WYSLANO",
   "list_details": {
     "id": "144095",
@@ -13,31 +14,32 @@
     "title": "Kompletny serwis SaaS",
     "budget": "Do negocjacji",
     "author": "Anonim",
+    "author_id": "anonim",
     "short_desc": "Witam\nPoszukuję firmy która zbuduję kompletny serwis SaaS, który pobiera dane o polskich przedsiębiorstwach z oficjalnych rejestrów(CEIDG, KRS, GUS REGON), przechowuje je we własnej bazie i sprzedaje klientom B2B w trzech modelach: gotowe bazy,...",
-    "category": "programowanie-i-it"
+    "category": "programowanie-i-it",
+    "konto": "konto1"
   },
   "full_details": {
     "url": "https://useme.com/pl/jobs/kompletny-serwis-saas,144095/",
     "title": "Kompletny serwis SaaS",
     "full_description": "<p>Witam<br>Poszukuję firmy która zbuduję kompletny serwis SaaS, który pobiera dane o polskich przedsiębiorstwach z oficjalnych rejestrów(CEIDG, KRS, GUS REGON), przechowuje je we własnej bazie i sprzedaje klientom B2B w trzech modelach: gotowe bazy, bazy budowane na zamówienie i subskrypcja nowych firm z codzienną dostawą oraz API.  Zależy mi na tym aby serwis był praktycznie bezobsługowy. Import danych, naliczanie cen, płatności, dostawy plików, przypomnienia i raporty mają działać z harmonogramu. Rola operatora to obsługa zapytań i rozwijanie sprzedaży. </p>\n\n<p>Zależy mi na tym aby to był starannie wykonany projekt. Czas wykonania - 4 miesiące.</p>",
+    "author": "Mediagroup",
+    "author_id": "mediagroup",
     "has_add_offer_button": true,
     "add_offer_href": "/pl/jobs/144095/offer/start/",
-    "scraped_at": "2026-09-10T15:25:50"
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-12T10:40:11"
   },
-  "ai_proposal": {
-    "opis": "Dzień dobry,\n\nPiszę w imieniu dwuosobowego zespołu. Budujemy systemy SaaS i integracje z rejestrami publicznymi, działamy bezpośrednio, bez pośredników.\n\nPrawdziwy problem w takich projektach nie leży w samym pobieraniu danych, tylko w tym, że oficjalne rejestry są do siebie niepodobne i mają twarde limity. KRS (oficjalna baza sądowa firm) pozwala szukać wyłącznie po numerze KRS, nie po NIP czy nazwie. CEIDG (baza jednoosobowych działalności) przez SOAP, czyli starszy typ API, zwraca maksymalnie 25 wyników na jedno zapytanie, więc pełną bazę trzeba pobierać partiami. GUS/REGON działa sesyjnie, ma osobne limity dobowe i wymaga osobnego klucza produkcyjnego. Jeśli zbuduje się to naiwnie, system po prostu zacznie się zatykać przy pierwszej większej synchronizacji i codzienna dostawa nowych firm przestanie działać.\n\nDlatego warstwę integracyjną projektujemy inaczej. Najpierw rozwiązujemy identyfikator (NIP albo nazwa na numer KRS) przez GUS, a dopiero potem odpytujemy KRS, żeby wyszukiwanie działało tak, jak wyobraża to sobie klient końcowy. Synchronizacja jest przyrostowa, po dacie zmiany, a nie pełnym odczytem, więc nie bijemy w limity rejestrów. Wszystko leci przez kolejkę z ponawianiem, więc chwilowa awaria po stronie GUS czy KRS nie wywala Wam porannej dostawy plików.\n\nDrugi temat, o którym większość wykonawców zapomina: dane z CEIDG i KRS to dane osobowe w rozumieniu RODO, nawet jeśli są publiczne. Sprzedaż bazy klientowi B2B nie przenosi na niego obowiązku informacyjnego z art. 14. Dlatego w panelu wbudujemy generator klauzul informacyjnych dla nabywców baz, żeby Wasz klient dostawał gotowy dokument, a nie ryzyko kary. To realnie odróżnia Was od hurtowni, które zrzucają sam plik CSV.\n\nTrzy modele sprzedaży (gotowa baza, baza na zamówienie, subskrypcja nowych firm) opieramy na jednym silniku subskrypcyjnym z obsługą webhooków płatności, trialami i historią zmian planu. Panel operatora ma workflow, audit log i masowe operacje, więc obsługa zapytań i rozwijanie sprzedaży to jedyne, co zostaje człowiekowi. Import, naliczanie, płatności, dostawa plików, przypomnienia i raporty PDF chodzą z harmonogramu.\n\nŻeby nie zabetonować się na jednym dostawcy danych, warstwę integracyjną robimy jako abstrakcję nad źródłami. Gdy zmienią się przepisy albo pojawią się nowe kanały dostępu do rejestrów, podmiana źródła to kwestia konfiguracji, nie przepisywania systemu.\n\nKwota w rubryce to budżet za cały system w wersji produkcyjnej, realizowany w 69 dni roboczych. Jeśli wolisz, możemy zacząć od MVP (import z jednego rejestru plus panel i jedna ścieżka sprzedaży), a kolejne moduły wyceniać na bieżąco.\n\nW cenie zapewniamy 30 dni bezpłatnej asysty powdrożeniowej na dopracowanie detali w praniu oraz krótkie wideo pokazujące jak obsługiwać panel.\n\nZdzwońmy się w tym tygodniu na 15 minut, albo napisz na priv i dopniemy szczegóły. Jeśli chcesz zobaczyć jak to działa, możemy wcześniej przygotować krótkie demo warstwy importu z rejestrów.\n\nPozdrawiam",
-    "wycena": 33000,
-    "dni": 69,
-    "powod": "Zaakceptowano przez walidatory slotowe"
-  },
-  "submission_result": {
-    "status": "WYSLANO",
-    "job_id": "144095",
-    "wycena": 33000,
-    "dni": 69,
-    "final_url": "https://useme.com/pl/jobs/144095/offer/finish/",
-    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144095.png",
-    "message": "Oferta #144095 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144095/offer/finish/)."
-  },
-  "updated_at": "2026-09-10T16:39:30.529662"
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-12T13:05:49.927927",
+  "oferty": [
+    {
+      "konto": "konto1",
+      "status": "WYSLANO",
+      "data": "2026-09-12",
+      "notatka": "Wyslane historycznie przez uzytkownika"
+    }
+  ]
 }

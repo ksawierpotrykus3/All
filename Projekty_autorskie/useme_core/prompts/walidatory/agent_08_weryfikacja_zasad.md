@@ -56,6 +56,9 @@ Treść oferty nie może zawierać stawki godzinowej ani rozbicia godzinowego
 Wycena musi pokazywać rozbicie: moduły → godziny → buffer → mnożniki → stawka
 efektywna → cena bazowa → korekta konkurencyjna → kwota. Jeśli kwota jest bez
 śladu kalkulacji („z powietrza") → ZŁAMANE.
+Uwaga dot. stawki: stawka efektywna w rozbiciu kalkulatora wynosi standardowo 90 zł/h,
+a dopuszczalne bezpieczne pasmo losowania kalkulatora to 82–110 zł/h (deterministyczny offset per oferta).
+Stawka w przedziale 82–110 zł/h jest w 100% poprawna i NIE stanowi powodu do FAIL.
 
 ### 9. Bufor i mnożniki
 - Brak bufora (+20%, lub +30% dla nowej technologii) → ZŁAMANE.

@@ -46,9 +46,11 @@ from typing import Any, Callable, Dict, Iterator, List, Optional
 
 from storage import atomic_write_json
 
-PIPELINES_DIR = Path(
-    r"c:\Users\Ksawier\Pictures\Screenshots\Projekty_autorskie\cortex-app\data\pipelines"
-)
+_cortex_candidate = Path(__file__).resolve().parent.parent / "cortex-app" / "data" / "pipelines"
+if _cortex_candidate.parent.parent.exists():
+    PIPELINES_DIR = _cortex_candidate
+else:
+    PIPELINES_DIR = Path(__file__).resolve().parent / "data" / "pipelines"
 
 # Minimalny odstep miedzy zapisami stanu podczas streamu (sekundy).
 _STREAM_SAVE_INTERVAL = 0.5

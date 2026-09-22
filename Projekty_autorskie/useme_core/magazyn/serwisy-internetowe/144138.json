@@ -2,10 +2,11 @@
   "id": "144138",
   "url": "https://useme.com/pl/jobs/przeniesienie-gotowego-prototypu-html-na-strone-w-cms-framer-lub-wordpress,144138/",
   "title": "Przeniesienie gotowego prototypu HTML na stronę w CMS (Framer lub Wordpress)",
-  "author": "Anonim",
+  "author": "HIRE A HEAD JOANNA WRÓBLEWSKA",
+  "author_id": "hire-a-head-joanna-wróblewska",
   "budget": "Do negocjacji",
   "category": "serwisy-internetowe",
-  "detected_at": "2026-09-10T15:25:31.180205",
+  "detected_at": "2026-09-12T10:39:30.789225",
   "status": "WYSLANO",
   "list_details": {
     "id": "144138",
@@ -13,32 +14,32 @@
     "title": "Przeniesienie gotowego prototypu HTML na stronę w CMS (Framer lub Wordpress)",
     "budget": "Do negocjacji",
     "author": "Anonim",
+    "author_id": "anonim",
     "short_desc": "Szukam osoby, która przepisze gotowy prototyp strony na CMS i doprowadzi projekt do publikacji.\n\nCo jest już gotowe i co przekazuję wykonawcy:\ndziałający prototyp strony w HTML \nwszystkie teksty w wersji polskiej i angielskiej\nbranding:...",
-    "category": "serwisy-internetowe"
+    "category": "serwisy-internetowe",
+    "konto": "konto1"
   },
   "full_details": {
     "url": "https://useme.com/pl/jobs/przeniesienie-gotowego-prototypu-html-na-strone-w-cms-framer-lub-wordpress,144138/",
     "title": "Przeniesienie gotowego prototypu HTML na stronę w CMS (Framer lub Wordpress)",
     "full_description": "<p>Szukam osoby, która przepisze gotowy prototyp strony na CMS i doprowadzi projekt do publikacji.</p>\n\n<p>Co jest już gotowe i co przekazuję wykonawcy:<br>działający prototyp strony w HTML <br>wszystkie teksty w wersji polskiej i angielskiej<br>branding: logo, kolorystyka, typografia, tablica inspiracji<br>materiały wizualne do użycia</p>\n\n<p>projekt jest gotowy i zaakceptowany</p>\n\n<p>Zakres zlecenia:<br>przeniesienie całości na wybraną platformę (format do omówienia)<br>wersja mobilna</p>\n\n<p>Mile widziane, nie obowiązkowe<br>wdrożenie analityki internetowej i podłączenie GA4 (dostępy przekazuję)<br>podstawowa optymalizacja pod SEO</p>\n\n<p>Proszę o wycenę w dwóch wariantach:</p>\n\n<p>Wariant A: budowa na gotowym szablonie Framer na bazie projektu.<br>Prototyp jako źródło treści i struktury. Licencję szablonu kupuję po swojej stronie. Mam wybrany kierunek wizualny (szablon Framera) i podeślę go do oceny, ale jeśli proponujesz inną platformę, wskaż odpowiednik.</p>\n\n<p>Wariant B: budowa od zera i przeniesienie projektu do figmy a następnie opracowanie na innym CMS (np Elementor, Wordpress)</p>\n\n<p>Przy obu wariantach proszę o informację:<br>+ dwie do trzech realizacji, najlepiej strony wizerunkowe marek<br>+ wycena obu wariantów lub jednego<br>+ możliwość realizacji we wrześniu / początek października<br>+ informacja, czy pracujesz na szablonach, czy budujesz od zera</p>\n\n<p>Rozliczenie: faktura przez Useme</p>",
+    "author": "HIRE A HEAD JOANNA WRÓBLEWSKA",
+    "author_id": "hire-a-head-joanna-wróblewska",
     "has_add_offer_button": true,
     "add_offer_href": "/pl/jobs/144138/offer/start/",
-    "scraped_at": "2026-09-10T15:26:19"
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-12T10:40:55"
   },
-  "ai_proposal": {
-    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu, robimy strony i integracje bezpośrednio, bez pośredników. Prototyp masz gotowy i zaakceptowany, więc nie zaczynamy od zera - tylko przenosimy to na docelowy CMS tak, żebyś nie stracił tego, co już wypracowałeś.\n\nNajważniejsza rzecz, którą warto rozstrzygnąć przed startem: Framer i WordPress to dwie zupełnie różne decyzje na przyszłość, nie dwie kosmetyczne opcje. Framer jest świetny wizualnie i szybko się w nim pracuje, ale przy dwóch językach (PL/EN) i jakichkolwiek treściach zarządzanych przez CMS dochodzą miesięczne koszty abonamentu i licencji, a sam wielojęzyczny CMS jest tam mocno ograniczony. Poza tym Framer nie ma eksportu kodu - jak kiedyś zechcesz przenieść stronę na inną platformę, trzeba ją odtworzyć od zera. WordPress odwrotnie: dwujęzyczność mamy natywnie przez WPML albo Polylang, dostęp do treści jest pełny, a jak za rok zmienisz wykonawcę, wszystko zostaje w Twoich rękach. Dlatego polecam Wariant B.\n\nW samym Wariancie B proponuję pominąć krok z Figmą - Twój prototyp HTML to już gotowa specyfikacja. Przerzucanie go najpierw do Figmy to podwójna praca, płacisz za coś, czego potem nikt nie użyje. Wchodzimy na WordPressa bezpośrednio z HTML-a i tekstów, które masz. Layout odwzorowujemy 1:1, responsywność dopasowujemy do mobile, PL/EN spinamy przez wtyczkę wielojęzyczną, dokładamy GA4 (dostępy od Ciebie) i podstawową optymalizację SEO - meta, mapa strony, struktura linków.\n\nJeśli chcesz Wariant A na Framerze - też ogarniemy, tylko wtedy trzeba się liczyć z tymi stałymi opłatami po Twojej stronie i ograniczeniami CMS, o których wyżej.\n\nZa postawienie strony na WordPressie na bazie Twojego prototypu, z wersją mobilną, dwujęzycznością PL/EN, GA4 i podstawowym SEO liczymy 3000 zł. Realizacja w 8 dni. Rozliczenie fakturą przez Useme. W cenie dajemy 21 dni bezpłatnej asysty powdrożeniowej na dopracowanie detali w praniu oraz krótkie wideo, na którym pokazujemy, jak samodzielnie zarządzać treściami i tłumaczeniami z panelu.\n\nChcesz 2-3 realizacje wizerunkowe marek, które robiliśmy ostatnio - podeślę na priv razem ze szczegółami. Możemy też wcześniej przygotować krótkie demo na fragmencie Twojego prototypu, żebyś zobaczył, jak to wygląda po przeniesieniu.\n\nZdzwońmy się na 15 minut w tym tygodniu albo napisz na priv, dopniemy szczegóły i ruszymy z tematem jeszcze we wrześniu.",
-    "wycena": 3000,
-    "dni": 8,
-    "powod": "Zaakceptowano przez walidatory slotowe"
-  },
-  "submission_result": {
-    "status": "WYSLANO",
-    "job_id": "144138",
-    "wycena": 3000,
-    "dni": 8,
-    "final_url": "https://useme.com/pl/jobs/144138/offer/finish/",
-    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144138.png",
-    "message": "Oferta #144138 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144138/offer/finish/)."
-  },
-  "updated_at": "2026-09-10T17:04:44.406546",
-  "error": "Łańcuch AI zwrócił błąd/abort dla zlecenia 144138"
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-12T13:05:49.932937",
+  "oferty": [
+    {
+      "konto": "konto1",
+      "status": "WYSLANO",
+      "data": "2026-09-12",
+      "notatka": "Wyslane historycznie przez uzytkownika"
+    }
+  ]
 }

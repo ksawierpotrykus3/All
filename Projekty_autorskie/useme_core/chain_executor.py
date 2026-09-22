@@ -18,6 +18,7 @@ Użycie:
 from __future__ import annotations
 
 import json
+import random
 import re
 import threading
 import time
@@ -40,15 +41,17 @@ PROMPTS_DIR = BASE_DIR / "prompts"
 CONFIG_PATH = PROMPTS_DIR / "chain_config.json"
 
 # Czyste proxy passthrough (zero wstrzykiwania promptu kodowania)
-DEEPSEEK_API_URL = "http://localhost:4571/v1/chat/completions"
+DEEPSEEK_API_URL = "http://127.0.0.1:4571/v1/chat/completions"
 DEEPSEEK_MODEL = "deepseek-v4-pro"
 RESEARCH_MODEL = "deepseek-v4-pro-search"
+PROXY_RETRY_MAX = 3
+PROXY_BACKOFF_BASE = 2.0
 
 # Twardy limit czasu jednego wywolania slotu. Bez tego proxy trzymajace
 # otwarte polaczenie bez danych zawieszalo slot na domyslne 300s+.
 SLOT_TIMEOUT = 120
-# Globalny zegar śmierci na przetwarzanie pojedynczej oferty (6 minut max)
-MAX_CHAIN_WALL_CLOCK_S = 360
+# Globalny zegar śmierci na przetwarzanie pojedynczej oferty (10 minut max)
+MAX_CHAIN_WALL_CLOCK_S = 600
 
 _RESEARCH_QUERY_RE = re.compile(
     r"\[RESEARCH_QUERY\](.*?)(?:\[/RESEARCH_QUERY\]|$)", re.DOTALL | re.IGNORECASE
@@ -186,15 +189,30 @@ def call_deepseek(system_prompt: str, user_prompt: str, max_tokens: int = 3000,
             last_err: Optional[Exception] = None
             session = requests.Session()
             try:
-                # Retry TYLKO na szybkie bledy proxy (502/503/504). Timeoutow NIE ponawiamy.
-                for attempt in range(2):
+                # Retry z backoffem: szybkie bledy proxy (502/503/504) ORAZ pusty
+                # strumien (proxy potrafi zwrocic 200 bez zadnego tokenu). Timeoutow
+                # nie ponawiamy dlugo - one i tak zajmuja caly budzet czasu.
+                for attempt in range(PROXY_RETRY_MAX):
                     try:
                         resp = session.post(DEEPSEEK_API_URL, json=payload, headers=headers,
                                              timeout=(10, timeout), stream=True)
+                        if resp.status_code == 429:
+                            retry_after = 15.0
+                            try:
+                                retry_after = float(resp.headers.get("Retry-After", 15.0))
+                            except Exception:
+                                pass
+                            last_err = RuntimeError(f"proxy 429 rate limit (wait {retry_after}s)")
+                            print(f"[RETRY] Proxy zwrocilo 429 (Rate Limit). Czekam {retry_after}s przed proba {attempt+2}/{PROXY_RETRY_MAX}...", flush=True)
+                            if attempt < PROXY_RETRY_MAX - 1:
+                                time.sleep(retry_after)
+                                continue
+                            return None
                         if resp.status_code in (502, 503, 504):
                             last_err = RuntimeError(f"proxy {resp.status_code}")
-                            if attempt < 1:
-                                time.sleep(2)
+                            wait_s = 4.0 * (attempt + 1)
+                            if attempt < PROXY_RETRY_MAX - 1:
+                                time.sleep(wait_s)
                                 continue
                             return None
                         if resp.status_code != 200:
@@ -219,6 +237,15 @@ def call_deepseek(system_prompt: str, user_prompt: str, max_tokens: int = 3000,
                                         on_chunk(delta)
                             except json.JSONDecodeError:
                                 pass
+                        # Pusty strumien (200 ale zero tokenow) -> traktuj jak blad proxy
+                        # i ponow z backoffem. To nas bolalo w testach.
+                        if not full.strip():
+                            last_err = RuntimeError("pusty strumien")
+                            wait_s = 4.0 * (attempt + 1)
+                            if attempt < PROXY_RETRY_MAX - 1:
+                                time.sleep(wait_s)
+                                continue
+                            return None
                         return full
                     except requests.exceptions.RequestException as e:
                         # Blad sieci/timeout – nie ponawiamy dlugo, oddajemy fallback.
@@ -238,6 +265,7 @@ def call_deepseek(system_prompt: str, user_prompt: str, max_tokens: int = 3000,
             except Exception as e:  # nic nie moze uciec z watku
                 box["result"] = None
                 box["error"] = str(e)
+                print(f"[ERROR] call_deepseek _post exception: {e}", flush=True)
         t = threading.Thread(target=_run, daemon=True)
         t.start()
         t.join(timeout + 15)
@@ -350,7 +378,10 @@ def _build_prompt(slot: Dict[str, Any], context: Dict[str, Any]) -> tuple[str, s
 
 def _is_pass(response: str) -> bool:
     """Walidator zwrócił PASS?"""
-    head = response.strip().upper()
+    if not response:
+        return False
+    clean = re.sub(r"^```(?:markdown|text)?\s*", "", response.strip(), flags=re.IGNORECASE).strip()
+    head = clean.upper()
     return head.startswith("PASS") and not head.startswith("FAIL")
 
 
@@ -370,13 +401,22 @@ def run_chain(chain_id: str, zlecenie_dane: Dict[str, Any],
     # Normalizacja danych wejściowych zlecenia (zarówno z bazy/archiwum jak i live scrapingu)
     _fields = (zlecenie_dane or {}).get("fields")
     if not _fields or not isinstance(_fields, dict):
-        desc = (zlecenie_dane or {}).get("full_description") or (zlecenie_dane or {}).get("description") or (zlecenie_dane or {}).get("short_desc") or ""
+        full_det = (zlecenie_dane or {}).get("full_details") or {}
+        list_det = (zlecenie_dane or {}).get("list_details") or {}
+        desc = (
+            (zlecenie_dane or {}).get("full_description")
+            or full_det.get("full_description")
+            or (zlecenie_dane or {}).get("description")
+            or (zlecenie_dane or {}).get("short_desc")
+            or list_det.get("short_desc")
+            or ""
+        )
         if desc:
             _fields = {
-                "title": (zlecenie_dane or {}).get("title", ""),
+                "title": (zlecenie_dane or {}).get("title") or full_det.get("title") or list_det.get("title") or "",
                 "description": desc,
-                "budget": (zlecenie_dane or {}).get("budget", ""),
-                "author": (zlecenie_dane or {}).get("author", "")
+                "budget": (zlecenie_dane or {}).get("budget") or list_det.get("budget") or "",
+                "author": (zlecenie_dane or {}).get("author") or full_det.get("author") or list_det.get("author") or ""
             }
             zlecenie_dane["fields"] = _fields
         else:
@@ -427,9 +467,14 @@ def run_chain(chain_id: str, zlecenie_dane: Dict[str, Any],
 
     empty_retries = 0
     feedback_rounds = 0
-    max_feedback_rounds = 1
+    # Dwie rundy poprawek: 1 runda okazala sie niewystarczajaca (11/13 retry
+    # konczylo sie FAIL). 2. runda daje walidatorowi szanse na realna poprawe.
+    max_feedback_rounds = 2
     total_steps = 0
-    max_total_steps = len(slots) + 5
+    # Limit krokow MUSI uwzgledniac rundy feedbacku: kazda runda cofa lancuch do
+    # 02a i powtarza wszystkie walidatory. Bez mnoznika wlaczenie walidatorow
+    # 03-07/20 natychmiast wywalalo Circuit Breaker.
+    max_total_steps = max(40, len(slots) * (max_feedback_rounds + 2) * 2)
     chain_start_time = time.time()
 
     while i < len(slots):
@@ -467,8 +512,8 @@ def run_chain(chain_id: str, zlecenie_dane: Dict[str, Any],
             krok.promptSystem = system_prompt
             krok.promptUser = user_prompt
             slot_model = slot.get("model", DEEPSEEK_MODEL)
-            # Research sieciowy potrzebuje wiecej czasu niz zwykla generacja.
-            slot_timeout = 240 if slot.get("id") == "01" else SLOT_TIMEOUT
+            # Research sieciowy i wycena potrzebuja wiecej czasu niz zwykla generacja.
+            slot_timeout = 240 if slot.get("id") in ("01", "02b") else SLOT_TIMEOUT
             odpowiedz = call_deepseek(system_prompt, user_prompt, model=slot_model,
                                       timeout=slot_timeout, on_chunk=krok.stream)
 
@@ -506,6 +551,11 @@ def run_chain(chain_id: str, zlecenie_dane: Dict[str, Any],
                     struktura = _extract_wycena_json(odpowiedz or "")
                     if struktura:
                         try:
+                            # Stawka jest DETERMINISTYCZNA (90 zl/h z profilu) - kalkulator
+                            # ignoruje pole "stawka", ale dla pewnosci usuwamy je tutaj,
+                            # zeby zaden model nie mogl wstrzyknac wlasnej stawki.
+                            struktura.pop("stawka", None)
+                            struktura.setdefault("id", job_id)
                             wynik = policz_wycene(struktura)
                             blok = formatuj_wynik(wynik)
                             ostrz = struktura.get("uzasadnienie", "")
@@ -546,6 +596,13 @@ def run_chain(chain_id: str, zlecenie_dane: Dict[str, Any],
 
                 i += 1
                 empty_retries = 0
+                if slot.get("id") == "01":
+                    delay = random.uniform(20.0, 26.0)
+                    krok.log(f"[PACING] Bezpieczny odstep po researchu sieciowym (Golden Ratio): {delay:.1f}s...")
+                else:
+                    delay = random.uniform(18.0, 24.0)
+                    krok.log(f"[PACING] Bezpieczny odstep miedzy krokami (Golden Ratio): {delay:.1f}s...")
+                time.sleep(delay)
 
             elif slot["role"] == "validator":
                 ok = _is_pass(odpowiedz) if (odpowiedz and odpowiedz.strip()) else False
@@ -556,6 +613,9 @@ def run_chain(chain_id: str, zlecenie_dane: Dict[str, Any],
                     krok.log(f"[CHECKPOINT] Zapisano stan po walidatorze {slot['id']} (PASS)")
                     i += 1
                     empty_retries = 0
+                    val_delay = random.uniform(18.0, 24.0)
+                    krok.log(f"[PACING] Bezpieczny odstep po walidatorze: {val_delay:.1f}s...")
+                    time.sleep(val_delay)
                 else:
                     on_fail = slot.get("on_fail", "abort")
                     feedback = _extract_feedback(odpowiedz or "")
@@ -582,26 +642,33 @@ def run_chain(chain_id: str, zlecenie_dane: Dict[str, Any],
                             save_checkpoint(job_id, slot["id"], context)
                             i += 1
                             continue
+                        retry_delay = random.uniform(16.0, 22.0)
+                        krok.log(f"[PACING] Bezpieczny bufor przed retry walidatora ({retry_delay:.1f}s - ochrona anty-ban)...")
+                        time.sleep(retry_delay)
                         krok.log(f"FAIL – poprawki {list(feedback.keys())} -> retry od {target} "
                                  f"(runda {feedback_rounds}/{max_feedback_rounds})")
                         i = idx
                         continue
 
                     # Jeśli feedback wyczerpany lub brak wskazówek
-                    if feedback:
+                    if feedback or feedback_rounds >= max_feedback_rounds:
                         krok.log(f"FAIL – limit rund feedbacku ({max_feedback_rounds}) – akceptuję najlepszy wynik")
                         save_checkpoint(job_id, slot["id"], context)
                         i += 1
                         continue
 
-                    # Fallback dla starszych walidatorów
+                    # Fallback dla starszych walidatorów (lub gdy walidator zwrócił FAIL bez struktury POPRAW_*)
+                    feedback_rounds += 1
                     target = on_fail.replace("retry_from_", "")
                     idx = next((j for j, s in enumerate(slots) if s.get("id") == target), None)
                     if idx is None or on_fail == "abort":
                         krok.log("FAIL – abort walidatora")
                         return None
 
-                    krok.log(f"FAIL – retry od {target}")
+                    fallback_delay = random.uniform(16.0, 22.0)
+                    krok.log(f"[PACING] Bezpieczny bufor przed fallback retry ({fallback_delay:.1f}s - ochrona anty-ban)...")
+                    time.sleep(fallback_delay)
+                    krok.log(f"FAIL – retry od {target} (runda {feedback_rounds}/{max_feedback_rounds})")
                     i = idx
 
     # Pełny sukces łańcucha – czyścimy checkpoint, bo oferta została sfinalizowana

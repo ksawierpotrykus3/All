@@ -1,9 +1,0 @@
-{
-  "enabled": true,
-  "auto_detect_warp": true,
-  "warp_socks5_url": "socks5h://127.0.0.1:40000",
-  "warp_port": 40000,
-  "custom_proxy": null,
-  "account_proxies": {},
-  "fallback_to_direct": true
-}

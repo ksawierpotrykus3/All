@@ -21,6 +21,59 @@ from config import USE_MOCK_AI
 # Ścieżka do promptów (można swobodnie przestawiać pliki)
 PROMPTS_DIR = Path(__file__).parent / "prompts"
 
+# --- ANTY-POWTÓRKA: próg podobieństwa i liczba prób przepisania ---
+PROG_PODOBNOSCI = 0.70      # > 70% podobieństwa = oferta do przepisania
+MAX_ANTY_POWTORKA_RETRY = 2  # maksymalna liczba prób przepisania
+
+# --- GLOBALNY wykrywacz duplikatów (między zleceniami, nie tylko per klient) ---
+PROG_PODOBNOSCI_GLOBALNY = 0.75   # > 75% podobieństwa do DOWOLNEJ ostatniej oferty = flaga
+GLOBALNY_OKNO_DNI = 7             # porównuj z ofertami z ostatnich N dni
+
+
+def _podobienstwo_jaccard(a: str, b: str) -> float:
+    """Liczy podobieństwo dwóch tekstów metodą Jaccarda na zbiorze słów.
+
+    Zwraca wartość 0.0–1.0. 1.0 = identyczny zestaw słów.
+    Prosty, deterministyczny wskaźnik wykrywania skopiowanych ofert.
+    """
+    import re as _re
+    slowa_a = set(_re.findall(r"\w+", (a or "").lower()))
+    slowa_b = set(_re.findall(r"\w+", (b or "").lower()))
+    if not slowa_a or not slowa_b:
+        return 0.0
+    czesc_wspolna = slowa_a & slowa_b
+    suma = slowa_a | slowa_b
+    return len(czesc_wspolna) / len(suma) if suma else 0.0
+
+
+def sprawdz_globalne_duplikaty(opis: str, storage, wlasne_job_id: str = "") -> list:
+    """Sprawdza, czy nowa oferta jest zbyt podobna do DOWOLNEJ oferty z ostatnich N dni.
+
+    W odroznieniu od anty-powtorki per klient (ktora porownuje tylko oferty dla
+    tego samego zleceniodawcy), ta funkcja patrzy na WSZYSTKIE ostatnie oferty.
+    Chroni przed tym, ze model z czasem zaczyna pisac wszystkie oferty tak samo.
+
+    Zwraca liste {job_id, podobienstwo} ofert przekraczajacych prog (pusta = OK).
+    """
+    if not opis or not storage:
+        return []
+    progi = []
+    try:
+        ostatnie = storage.wszystkie_oferty(limit_dni=GLOBALNY_OKNO_DNI)
+    except Exception:
+        return []
+    for o in ostatnie:
+        if str(o.get("job_id", "")) == str(wlasne_job_id):
+            continue
+        stary = o.get("opis") or ""
+        if not stary.strip():
+            continue
+        pod = _podobienstwo_jaccard(opis, stary)
+        if pod > PROG_PODOBNOSCI_GLOBALNY:
+            progi.append({"job_id": o.get("job_id"), "podobienstwo": round(pod, 3)})
+    progi.sort(key=lambda x: x["podobienstwo"], reverse=True)
+    return progi
+
 
 @dataclass
 class ProposalResult:
@@ -180,6 +233,8 @@ class SlotChainAIPipeline(BaseAIPipeline):
             raise RuntimeError("Nie znaleziono chain_executor.py!")
 
         job_id = str(job_detail.get("id", "brak_id"))
+        previous_offers = job_detail.get("previous_offers") or []
+
         wynik = self._run_chain(
             f"useme-job-{job_id}",
             job_detail,
@@ -190,11 +245,67 @@ class SlotChainAIPipeline(BaseAIPipeline):
             raise RuntimeError(f"Łańcuch AI zwrócił błąd/abort dla zlecenia {job_id}")
 
         opis = str(wynik.get("opis", "")).strip()
+
+        # TWARDY BEZPIECZNIK ANTY-POWTÓRKI: jeśli klient dostał już oferty, a nowa
+        # jest zbyt podobna do którejkolwiek z nich, wymuszamy przepisanie innym tonem.
+        if previous_offers and opis:
+            proby = 0
+            while proby < MAX_ANTY_POWTORKA_RETRY:
+                poprzednie = [(p.get("opis") or "") for p in previous_offers if p.get("opis")]
+                if not poprzednie:
+                    break
+                max_pod = max(_podobienstwo_jaccard(opis, stary) for stary in poprzednie)
+                if max_pod <= PROG_PODOBNOSCI:
+                    print(f"[ANTY-POWTÓRKA] Oferta #{job_id} OK (maks. podobieństwo {max_pod:.0%}).")
+                    break
+                proby += 1
+                print(f"[ANTY-POWTÓRKA] Oferta #{job_id} zbyt podobna ({max_pod:.0%}) – przepisuję (próba {proby}).")
+                # Wymuszamy inny ton i ponawiamy cały łańcuch z nowym ziarnem wariacji.
+                retry_ctx = dict(job_detail)
+                retry_ctx["variation_seed"] = (int(job_detail.get("variation_seed", 0)) + proby) % 5
+                retry_ctx["wymus_inny_styl"] = (
+                    "Poprzednia wersja była zbyt podobna do wcześniejszej oferty dla tego klienta. "
+                    "Napisz od zera, innym tonem, inną strukturą i innymi argumentami."
+                )
+                wynik_retry = self._run_chain(
+                    f"useme-job-{job_id}-retry{proby}",
+                    retry_ctx,
+                    parent_id="useme-bot",
+                    parent_step=f"Przepisanie oferty #{job_id} (anty-powtórka {proby})",
+                )
+                if wynik_retry:
+                    nowy_opis = str(wynik_retry.get("opis", "")).strip()
+                    if nowy_opis:
+                        opis = nowy_opis
+                        wynik = wynik_retry
+            else:
+                print(f"[ANTY-POWTÓRKA] Oferta #{job_id}: wyczerpano próby, zostawiam ostatnią wersję.")
         wycena_raw = wynik.get("wycena_dni", {})
 
         # Parsowanie wyceny i dni. Model zwraca tekst/markdown (nie dict), więc
         # szukamy twardego bloku [WYNIK_KONCOWY] KWOTA: X DNI: Y (zapas: dict).
         kwota, dni = _parse_wycena_dni(wycena_raw)
+
+        # TWARDY WALIDATOR KWOTY: sprawdza, czy kwota wpisana w tresci oferty
+        # zgadza sie z kwota z bloku [WYNIK_KONCOWY] (kalkulator). Model czasem
+        # "poprawia" cene po swojemu - to ma to wychwycic.
+        kwota_zgodna, kwoty_w_tresci = _waliduj_kwote_w_tresci(opis, kwota)
+        if not kwota_zgodna:
+            print(f"[KWOTA-WALIDATOR] Oferta #{job_id}: kwota w tresci NIE zgadza sie z wycena "
+                  f"({kwota} zl). Znalezione w tresci: {kwoty_w_tresci}", flush=True)
+
+        # Flagi z kalkulatora (sanity-check wyceny).
+        sanity_ok = wynik.get("sanity_ok", True)
+        if not sanity_ok:
+            print(f"[SANITY] Oferta #{job_id}: kalkulator oznaczył wycenę jako podejrzanie niską!", flush=True)
+
+        if not isinstance(wynik.get("metadata"), dict):
+            wynik["metadata"] = {}
+        wynik["metadata"].update({
+            "kwota_zgodna": kwota_zgodna,
+            "kwoty_w_tresci": kwoty_w_tresci,
+            "sanity_ok": sanity_ok,
+        })
 
         return ProposalResult(
             opis=opis,
@@ -203,6 +314,37 @@ class SlotChainAIPipeline(BaseAIPipeline):
             powod_wyboru="Zaakceptowano przez walidatory slotowe",
             metadata=wynik
         )
+
+
+def _wyciagnij_kwoty_z_tekstu(tekst: str) -> list:
+    """Wyciaga wszystkie kwoty (>= 3 cyfry) z dowolnego tekstu.
+
+    Toleruje: '17000', '17 000', '17 000 zl', '17,000 PLN', '56000 zł'.
+    Ignoruje grosze i pojedyncze/dwucyfrowe liczby (np. dni, procenty).
+    """
+    wyniki = []
+    for m in re.finditer(r"\d[\d\s.,]{2,}\d", tekst or ""):
+        raw = m.group(0).replace(" ", "").replace("\xa0", "")
+        raw = re.sub(r"[,.]\d{2}$", "", raw)  # usun grosze na koncu
+        cyfry = re.sub(r"[^\d]", "", raw)
+        if cyfry and len(cyfry) >= 3:
+            wyniki.append(int(cyfry))
+    return wyniki
+
+
+def _waliduj_kwote_w_tresci(opis: str, kwota: int) -> tuple:
+    """Sprawdza, czy kwota z kalkulatora pojawia sie w tresci oferty.
+
+    Zwraca (zgodna: bool, znalezione_kwoty: list).
+    Zgodna = kwota z kalkulatora jest w tresci (lub tresc nie ma zadnej kwoty).
+    """
+    if not opis or kwota <= 0:
+        return True, []
+    znalezione = _wyciagnij_kwoty_z_tekstu(opis)
+    if not znalezione:
+        # Tresc bez kwot - nie ma czego walidowac (np. oferta-retainer opisowa).
+        return True, []
+    return (kwota in znalezione), znalezione
 
 
 def _parse_wycena_dni(wycena_raw: Any) -> tuple[int, int]:

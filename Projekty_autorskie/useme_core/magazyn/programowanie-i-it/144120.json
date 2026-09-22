@@ -2,10 +2,11 @@
   "id": "144120",
   "url": "https://useme.com/pl/jobs/zaprojektowanie-i-zaprogramowanie-oprogramowania-pos-dla-gastronomii,144120/",
   "title": "Zaprojektowanie i zaprogramowanie oprogramowania POS dla Gastronomii",
-  "author": "Anonim",
+  "author": "Oktawian Kulpok",
+  "author_id": "oktawian-kulpok",
   "budget": "Do negocjacji",
   "category": "programowanie-i-it",
-  "detected_at": "2026-09-10T15:25:31.099884",
+  "detected_at": "2026-09-12T10:39:30.635416",
   "status": "WYSLANO",
   "list_details": {
     "id": "144120",
@@ -13,31 +14,32 @@
     "title": "Zaprojektowanie i zaprogramowanie oprogramowania POS dla Gastronomii",
     "budget": "Do negocjacji",
     "author": "Anonim",
+    "author_id": "anonim",
     "short_desc": "BEZ AI SLOOP\n\nPrzedmiotem zlecenia jest stworzenie intuicyjnego, wydajnego i niezawodnego systemu POS przeznaczonego dla restauracji, barów, kawiarni oraz lokali typu fast food. Oprogramowanie ma usprawniać obsługę zamówień, sprzedaż, płatności,...",
-    "category": "programowanie-i-it"
+    "category": "programowanie-i-it",
+    "konto": "konto1"
   },
   "full_details": {
     "url": "https://useme.com/pl/jobs/zaprojektowanie-i-zaprogramowanie-oprogramowania-pos-dla-gastronomii,144120/",
     "title": "Zaprojektowanie i zaprogramowanie oprogramowania POS dla Gastronomii",
     "full_description": "<p>BEZ AI SLOOP</p>\n\n<p>Przedmiotem zlecenia jest stworzenie intuicyjnego, wydajnego i niezawodnego systemu POS przeznaczonego dla restauracji, barów, kawiarni oraz lokali typu fast food. Oprogramowanie ma usprawniać obsługę zamówień, sprzedaż, płatności, pracę kuchni i zarządzanie lokalem.<br>Zakres funkcjonalny:<br>- obsługa zamówień na miejscu, na wynos i z dostawą,<br>- zarządzanie stolikami, rachunkami oraz rezerwacjami,<br>- rozbudowane menu z kategoriami, wariantami, dodatkami, modyfikatorami, zestawami, promocjami i czasową dostępnością produktów,<br>- KDS – ekranowy system obsługi zamówień kuchennych z podziałem na stanowiska, statusami realizacji i pomiarem czasu przygotowania,<br>- wydruki bonowe kierowane automatycznie do odpowiednich drukarek w kuchni, barze lub innych stanowiskach,<br>- obsługa różnych form płatności oraz dzielenia, łączenia i przenoszenia rachunków,<br>- pełna historia transakcji wraz z możliwością wyszukiwania, filtrowania, podglądu płatności, zwrotów, anulowań i korekt,<br>- indywidualne konta pracownicze, role, uprawnienia, logowanie kodem PIN oraz rejestrowanie wykonanych operacji,<br>- system kaucyjny obsługujący naliczanie, ewidencję i zwrot kaucji za opakowania,<br>- zarządzanie stanami magazynowymi i zużyciem składników,<br>- raporty sprzedażowe, kasowe, produktowe i pracownicze,<br>- integracja z urządzeniami fiskalnymi, drukarkami bonowymi, terminalami płatniczymi oraz zewnętrznymi systemami dostaw,<br>- panel administracyjny do konfiguracji lokalu, menu, urządzeń i użytkowników,<br>- testowanie, wdrożenie oraz przygotowanie dokumentacji technicznej i użytkowej.<br>System powinien być szybki, bezpieczny, prosty w obsłudze oraz przygotowany do dalszego rozwoju i obsługi wielu lokali. Szczegółowy zakres, wykorzystywane technologie, integracje oraz harmonogram realizacji zostaną ustalone na etapie analizy projektu.</p>",
+    "author": "Oktawian Kulpok",
+    "author_id": "oktawian-kulpok",
     "has_add_offer_button": true,
     "add_offer_href": "/pl/jobs/144120/offer/start/",
-    "scraped_at": "2026-09-10T15:25:42"
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-12T10:39:55"
   },
-  "ai_proposal": {
-    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu. Robimy systemy POS i integracje płatniczo-fiskalne od strony technicznej, więc temat nie jest dla nas nowością. Zanim przejdziemy do wyceny, jedna rzecz, która w takich projektach decyduje o tym, czy system będzie działał w praniu.\n\nWiększość osób wyceniających taki POS skupia się na tym, co widać na ekranie, czyli zamówienia, stoliki, KDS i wydruki. Prawdziwy problem siedzi głębiej i objawia się dopiero po dwóch tygodniach używania. Pierwsza rzecz to KSeF. Od kwietnia 2026 obowiązuje wszystkich przedsiębiorców, a restauracja wystawia mało faktur sprzedażowych, za to dostaje dziesiątki faktur zakupowych od dostawców. Jeśli zrobimy tylko wysyłkę, to klient dalej będzie ręcznie przepisywał dokumenty i wpisywał je do magazynu. Dlatego robimy to dwustronnie: system sam pobiera faktury zakupowe z KSeF, czyta pozycje i podpina je pod magazyn oraz zużycie składników. Przy okazji przygotujemy się na certyfikat KSeF, bo token działa tylko do końca 2026, a potem autoryzacja wymaga certyfikatu.\n\nDruga rzecz to system kaucyjny. To nie jest dodatek do koszyka, tylko osobny moduł, który musi naliczać kaucję przy sprzedaży, ewidencjonować zwroty opakowań i generować rozliczenia. Bez tego raporty kasowe się nie spięłyby z rzeczywistością.\n\nTrzecia sprawa, o której większość zapomina na etapie wyceny, to platformy dostaw. Pyszne, Uber Eats i Glovo mają API, ale nie ma tam samoobsługowej rejestracji. Uber Eats do części endpointów wymaga pisemnej zgody, a Glovo daje dostęp dopiero przez Account Managera. W praktyce oznacza to, że integrację trzeba zaprojektować tak, żeby była gotowa na odbiór zamówień, zanim jeszcze dostaniemy credentials, i żeby obsłużyła trzy metody dostawy i dwie metody płatności na raz.\n\nCzwarta rzecz to terminal. Zamiast klasycznego rozwiązania po TCP/IP w tej samej sieci, użyjemy Viva Cloud Terminal API. Dzięki temu terminal nie musi być w tym samym lokalu ani w tej samej sieci co POS, co ma znaczenie przy wielu stanowiskach, food truckach albo osobnym barze. Drukarki bonowe spięte po ESC/POS z automatycznym routingiem bonów do kuchni, baru i innych stanowisk, a fiskalizacja przez NoviAPI.\n\nCo do zakresu: multi-lokal, izolacja danych, panel admina z audit logiem, role i PIN-y, magazyn, raporty PDF, rezerwacje i historia transakcji z korektami. To wszystko jest do zrobienia, ale nie w jednym rzucie. Proponujemy wejście przez MVP: zamówienia, menu, KDS, drukarki i fiskalizacja, żeby jak najszybciej zobaczyć to na żywym lokalu. Kolejne moduły, czyli multi-lokal, integracje z platformami dostaw i rozliczenia kaucyjne, wycenimy na bieżąco po pierwszym etapie. Szczegółowy zakres i harmonogram domkniemy na etapie analizy, bo w ogłoszeniu słusznie zostało to zostawione na później.\n\nZa całość prac, czyli system POS od A do Z z integracjami fiskalnymi, płatniczymi i platformami dostaw, liczymy 30000 zł przy 64 dniach realizacji. W tym jest 30 dni bezpłatnej asysty powdrożeniowej na dopracowanie detali w praniu oraz krótkie wideo pokazujące jak obsługiwać panel i konfigurować urządzenia.\n\nZdzwońmy się w tym tygodniu na 15 minut. Jeśli chcesz zobaczyć jak to wygląda w praktyce, możemy bez problemu przygotować krótkie demo rozwiązania jeszcze przed podjęciem decyzji.\n\nPozdrawiam",
-    "wycena": 30000,
-    "dni": 64,
-    "powod": "Zaakceptowano przez walidatory slotowe"
-  },
-  "submission_result": {
-    "status": "WYSLANO",
-    "job_id": "144120",
-    "wycena": 30000,
-    "dni": 64,
-    "final_url": "https://useme.com/pl/jobs/144120/offer/finish/",
-    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144120.png",
-    "message": "Oferta #144120 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144120/offer/finish/)."
-  },
-  "updated_at": "2026-09-10T16:42:46.680967"
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-12T13:05:49.931937",
+  "oferty": [
+    {
+      "konto": "konto1",
+      "status": "WYSLANO",
+      "data": "2026-09-12",
+      "notatka": "Wyslane historycznie przez uzytkownika"
+    }
+  ]
 }

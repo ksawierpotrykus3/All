@@ -4,7 +4,7 @@
 Zarządza bazą pobranych zleceń w useme_core/magazyn/:
 - deduplikacja: sprawdza czy zlecenie o danym ID/URL już istnieje,
 - zapisywanie surowych danych i pełnych detali,
-- aktualizacja statusu: NOWA -> WYBRANA_AI -> PRZYGOTOWANA -> WYSLANA (lub DRY_RUN_OK).
+- aktualizacja statusu: NOWA -> WYBRANA_AI -> PRZYGOTOWANA -> WYSLANO (lub DRY_RUN_OK).
 """
 
 from __future__ import annotations
@@ -39,7 +39,14 @@ def atomic_write_json(path: Path | str, data: Any, indent: int = 2) -> None:
                 os.fsync(f.fileno())
             except OSError:
                 pass
-        temp_file.replace(p)
+        for attempt in range(5):
+            try:
+                temp_file.replace(p)
+                break
+            except PermissionError:
+                if attempt == 4:
+                    raise
+                time.sleep(0.05 * (attempt + 1))
     except Exception:
         if temp_file.exists():
             try:
@@ -88,6 +95,7 @@ class Storage:
             "url": job_data.get("url", ""),
             "title": job_data.get("title", ""),
             "author": job_data.get("author", ""),
+            "author_id": job_data.get("author_id", ""),
             "budget": job_data.get("budget", ""),
             "category": slug,
             "detected_at": datetime.now().isoformat(),
@@ -130,6 +138,151 @@ class Storage:
             with open(path, "r", encoding="utf-8") as f:
                 return json.load(f)
         return None
+
+    def zapisz_oferte(self, job_id: str, oferta: Dict[str, Any],
+                      category: str = "programowanie-i-it") -> None:
+        """Dopisuje ofertę do listy 'oferty' w rekordzie zlecenia.
+
+        Kazda oferta to osobny wpis z pelnym kontekstem eksperymentu:
+        konto, tryb (konserwatywny), adres wariantu, seed, stawka, kwota,
+        dni, dlugosc tresci. Dzieki temu po powrocie wiadomo DOKLADNIE co,
+        z jakiego konta i w jakim trybie zostalo wyslane.
+        """
+        job_id = str(job_id).strip()
+        target_file = None
+        for path in self.magazyn_dir.glob(f"*/{job_id}.json"):
+            target_file = path
+            break
+
+        if not target_file:
+            slug = self._get_category_slug(category)
+            target_file = self.magazyn_dir / slug / f"{job_id}.json"
+            record = {"id": job_id, "status": "NOWA", "oferty": []}
+        else:
+            with open(target_file, "r", encoding="utf-8") as f:
+                record = json.load(f)
+
+        oferty = record.get("oferty")
+        if not isinstance(oferty, list):
+            oferty = []
+        wpis = dict(oferta)
+        wpis["zapisano_at"] = datetime.now().isoformat()
+        oferty.append(wpis)
+        record["oferty"] = oferty
+        record["updated_at"] = datetime.now().isoformat()
+
+        atomic_write_json(target_file, record)
+
+    def find_by_account(self, konto_id: str) -> list:
+        """Zwraca wszystkie zlecenia, na ktore dane konto zlozylo oferte.
+
+        Sluzy do anty-powtorki per konto (co juz wyslalismy z tego konta),
+        niezaleznie od tego, ze zlecenie obsluguje tez drugie konto.
+        """
+        results: list = []
+        if not konto_id:
+            return results
+        target = str(konto_id).strip().lower()
+        for path in self.magazyn_dir.rglob("*.json"):
+            if path.name in {"marker.json"} or path.name.startswith("_"):
+                continue
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            for o in (data.get("oferty") or []):
+                if str(o.get("konto", "")).strip().lower() == target:
+                    data["_path"] = str(path)
+                    results.append(data)
+                    break
+        return results
+
+    def czy_konto_juz_oferowalo(self, job_id: str, konto_id: str) -> bool:
+        """Sprawdza, czy dane konto zlozylo juz oferte na to zlecenie.
+
+        Deduplikacja per konto: konto1 moze zlozyc oferte, a konto2 nadal
+        moze zlozyc swoja wlasna na to samo zlecenie.
+        """
+        job = self.load_job(job_id)
+        if not job:
+            return False
+        target = str(konto_id).strip().lower()
+        for o in (job.get("oferty") or []):
+            if str(o.get("konto", "")).strip().lower() == target:
+                st = str(o.get("status") or job.get("status") or "").upper()
+                if st in ("WYSLANO", "DRY_RUN_OK", "ZLOZONO"):
+                    return True
+                if st in ("AUTH_REQUIRED", "PRZYGOTOWANA", "BLAD_FORMULARZA", "NOWA", "POBRANO_DETALE", "BLAD_PRZETWARZANIA"):
+                    continue
+                return True
+        return False
+
+    def wszystkie_oferty(self, limit_dni: Optional[int] = None) -> list:
+        """Zwraca plaska liste wszystkich ofert ze wszystkich zlecen.
+
+        Uzywane przez globalny wykrywacz duplikatow. Kazdy wpis wzbogacony
+        o job_id. Opcjonalnie tylko z ostatnich N dni.
+        """
+        from datetime import timedelta
+        granica = None
+        if limit_dni is not None:
+            granica = datetime.now() - timedelta(days=limit_dni)
+        wyniki: list = []
+        for path in self.magazyn_dir.rglob("*.json"):
+            if path.name in {"marker.json"} or path.name.startswith("_"):
+                continue
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            for o in (data.get("oferty") or []):
+                if granica is not None:
+                    try:
+                        ts = datetime.fromisoformat(str(o.get("zapisano_at", "")))
+                        if ts < granica:
+                            continue
+                    except Exception:
+                        pass
+                wpis = dict(o)
+                wpis["job_id"] = data.get("id")
+                wyniki.append(wpis)
+        return wyniki
+
+    def find_by_author(self, author_id: str) -> list:
+        """Zwraca wszystkie zlecenia z magazynu, które pochodzą od danego autora.
+
+        author_id to stabilny identyfikator (np. slug profilu Useme albo
+        fallback w postaci znormalizowanej nazwy).
+        """
+        results: list = []
+        if not author_id or author_id.strip().lower() == "anonim":
+            return results
+        target = author_id.strip().lower()
+        for path in self.magazyn_dir.rglob("*.json"):
+            if path.name in {"marker.json"} or path.name.startswith("_"):
+                continue
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            if str(data.get("author_id", "")).strip().lower() == target:
+                data["_path"] = str(path)
+                results.append(data)
+        return results
+
+    def wszystkie_zlecenia(self) -> list:
+        """Zwraca listę wszystkich rekordów zleceń z magazynu."""
+        wyniki = []
+        for path in self.magazyn_dir.rglob("*.json"):
+            if ".checkpoints" in str(path) or path.name in {"marker.json"}:
+                continue
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+                if "id" in data and "status" in data:
+                    wyniki.append(data)
+            except Exception:
+                continue
+        return wyniki
 
     def _update_marker(self, job_id: str, url: str) -> None:
         """Uaktualnia marker ostatnio wykrytej oferty (zapis atomowy)."""

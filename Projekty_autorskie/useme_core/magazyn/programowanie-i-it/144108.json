@@ -2,10 +2,11 @@
   "id": "144108",
   "url": "https://useme.com/pl/jobs/full-stack-wordpress-developer-z-doswiadczeniem-w-integracjach-ai-wspolpraca-pro,144108/",
   "title": "Full-Stack WordPress Developer z doświadczeniem w integracjach AI — współpraca projektowa",
-  "author": "Anonim",
+  "author": "DPPG Pilch Grzędziński",
+  "author_id": "dppg-pilch-grzędziński",
   "budget": "Do negocjacji",
   "category": "programowanie-i-it",
-  "detected_at": "2026-09-10T15:25:31.107780",
+  "detected_at": "2026-09-12T10:39:30.656004",
   "status": "WYSLANO",
   "list_details": {
     "id": "144108",
@@ -13,31 +14,32 @@
     "title": "Full-Stack WordPress Developer z doświadczeniem w integracjach AI — współpraca projektowa",
     "budget": "Do negocjacji",
     "author": "Anonim",
+    "author_id": "anonim",
     "short_desc": "Szukamy freelancera / podwykonawcy do tworzenia zaawansowanych, customowych stron na WordPressie — pisanych od zera, a nie ze gotowych szablonów. Realizujemy autorskie motywy oparte na blokach i ACF, z indywidualnym designem, integracjami i...",
-    "category": "programowanie-i-it"
+    "category": "programowanie-i-it",
+    "konto": "konto1"
   },
   "full_details": {
     "url": "https://useme.com/pl/jobs/full-stack-wordpress-developer-z-doswiadczeniem-w-integracjach-ai-wspolpraca-pro,144108/",
     "title": "Full-Stack WordPress Developer z doświadczeniem w integracjach AI — współpraca projektowa",
     "full_description": "<p>Szukamy freelancera / podwykonawcy do tworzenia zaawansowanych, customowych stron na WordPressie — pisanych od zera, a nie ze gotowych szablonów. Realizujemy autorskie motywy oparte na blokach i ACF, z indywidualnym designem, integracjami i interaktywnymi komponentami. Pracujemy na gotowych projektach graficznych (Figma / Adobe XD). Zależy nam też na osobie, która potrafi wdrażać agentów i czatboty AI oraz automatyzacje łączące AI z zewnętrznymi narzędziami (webhooki, CRM, n8n / Make / Zapier).</p>\n\n<p>Zakres obowiązków:<br>•\tKodowanie autorskich motywów WordPress od zera (PHP, szablony, functions.php, hooki), bez buildera<br>•\tBudowa elastycznych sekcji i bloków na ACF / ACF PRO, w tym bloki Gutenberga i custom post types<br>•\tPrzełożenie projektu z Figmy / Adobe XD na responsywny, pixel-perfect kod (HTML5, CSS3/SASS, JS)<br>•\tInteraktywne komponenty JS: mapy (Google Maps API), slidery, animacje, prezentacje 360°<br>•\tIntegracja zewnętrznych bibliotek front-endowych (Swiper, Owl Carousel, Fancybox, AOS)<br>•\tWdrażanie agentów / czatów AI oraz automatyzacji opartych na AI<br>•\tOptymalizacja wydajności (WP Rocket lub LiteSpeed): cache, lazy load, obrazy, Core Web Vitals<br>•\tSEO techniczne (Rank Math lub Yoast), dane strukturalne, mapy witryny<br>•\tAnalityka i zgody: GTM, GA4, Search Console, Cookiebot / Consent Mode v2</p>\n\n<p>W zgłoszeniu prosimy o:<br>•\tPortfolio autorskich realizacji WordPress (najlepiej motywy od zera, projekty na ACF) — z krótkim opisem Twojej roli<br>•\tPrzykłady interaktywnych komponentów i integracji API (mapy, konfiguratory itp.)<br>•\tPrzykłady wdrożeń AI (czatboty, asystenci, automatyzacje) — z opisem użytego API/modelu i Twojej roli<br>•\tStack i narzędzia, z których korzystasz<br>•\tDostępność tygodniową i orientacyjny czas realizacji typowego projektu<br>•\tModel wyceny projektowej</p>",
+    "author": "DPPG Pilch Grzędziński",
+    "author_id": "dppg-pilch-grzędziński",
     "has_add_offer_button": true,
     "add_offer_href": "/pl/jobs/144108/offer/start/",
-    "scraped_at": "2026-09-10T15:25:47"
+    "is_already_submitted": false,
+    "my_offer_href": null,
+    "scraped_at": "2026-09-12T10:40:07"
   },
-  "ai_proposal": {
-    "opis": "Cześć,\n\nPiszę w imieniu dwuosobowego zespołu. Robimy customowe motywy WordPress od zera, głównie na ACF PRO i blokach Gutenberga, i od jakiegoś czasu wpinamy w to agentów AI. Nie jesteśmy agencją od szablonów, więc trafiliście w nasz codzienny warsztat.\n\nZ AI na WordPressie jest teraz ciekawy moment. Od maja 2026 WP 7.0 ma wbudowane AI Client i Connectors API, więc zamiast wiązać się z jedną wtyczką lepiej oprzeć architekturę na natywnym standardzie. Wtedy za rok podmiana modelu to zmiana konfiguracji, a nie przepisywanie połowy wtyczki. Tak to zrobimy.\n\nDrugi temat, który warto ogarnąć od początku, to Consent Mode v2. Sam banner cookie nie wystarczy. Od 2026 Google coraz częściej wymaga certyfikowanego CMP, który realnie przekazuje sygnały zgody do GTM i Ads. Wpinamy Cookiebot z natywnym Consent Mode v2 od razu, żebyście nie stracili danych z EEE i UK.\n\nJeśli chodzi o mapy Google, to zależy od zastosowania. Do prostej mapki \"gdzie nas znaleźć\" wystarczy darmowy Embed API, bez limitu. Jak wchodzi konfigurator albo wyszukiwarka lokalizacji, trzeba przejść na Maps JavaScript API i pilnować limitów oraz alertów billingowych. Powiemy, który wariant ma sens przy waszym projekcie, zanim cokolwiek podłączymy.\n\nPrzy motywach od zera stawiamy na elastyczne sekcje ACF PRO (Repeater, Flexible Content) plus custom bloki Gutenberga. Klient nie jest zablokowany w jednym layoucie, a wy dostajecie modularną strukturę, którą podmieniacie sekcja po sekcji bez ruszania całego szablonu. Front robimy pixel-perfect z Figmy/XD, interakcje (Swiper, AOS, 360°, animacje) lazy-loadowane, żeby Core Web Vitals nie płakało.\n\nPod kątem AI najczęściej robimy chatboty na OpenAI API z human handoffem, wpięte przez webhooki w CRM i automatyzacje. Do automatyzacji polecamy self-hosted n8n (darmowe, bez limitów wykonań, płacicie tylko za serwer) albo Make, jeśli wolicie gotowy cloud. Zapier odradzamy przy większym wolumenie, bo model rozliczenia za zadania szybko rośnie.\n\nNasz stack: WordPress/PHP, ACF PRO, bloki Gutenberga, CPT, HTML5/CSS3/SASS, JS, OpenAI API, n8n/Make, WP Rocket lub LiteSpeed zależnie od hostingu, Rank Math, GTM/GA4/Cookiebot.\n\nDostępność: bierzemy 1-2 projekty równolegle, więc realnie możemy wam dać 2-3 dni w tygodniu na stałe. Typowy projekt tej skali to u nas 3-5 tygodni od przekazania designu.\n\nZa realizację projektu w zakresie, który opisaliście (customowy motyw od zera, ACF/bloki, interakcje, agent AI z integracjami, wydajność, SEO techniczne, analityka z Consent Mode v2) liczymy 10000 zł. Realizacja w 23 dni robocze.\n\nPortfolio autorskich motywów i wdrożeń AI podeślemy na priv, razem z opisem naszej roli w każdym z nich.\n\nPodeślijcie link do Figmy albo zakres pierwszego modułu, rzucimy okiem i powiemy, co da się zoptymalizować już na etapie projektu.\n\nPozdrawiam",
-    "wycena": 10000,
-    "dni": 23,
-    "powod": "Zaakceptowano przez walidatory slotowe"
-  },
-  "submission_result": {
-    "status": "WYSLANO",
-    "job_id": "144108",
-    "wycena": 10000,
-    "dni": 23,
-    "final_url": "https://useme.com/pl/jobs/144108/offer/finish/",
-    "proof_screenshot": "c:\\Users\\Ksawier\\Pictures\\Screenshots\\Projekty_autorskie\\useme_core\\debug\\submitted_proof_144108.png",
-    "message": "Oferta #144108 została pomyślnie wysłana i potwierdzona przez Useme (URL: https://useme.com/pl/jobs/144108/offer/finish/)."
-  },
-  "updated_at": "2026-09-10T15:41:55.874469"
+  "ai_proposal": null,
+  "submission_result": null,
+  "updated_at": "2026-09-12T13:05:49.930937",
+  "oferty": [
+    {
+      "konto": "konto1",
+      "status": "WYSLANO",
+      "data": "2026-09-12",
+      "notatka": "Wyslane historycznie przez uzytkownika"
+    }
+  ]
 }

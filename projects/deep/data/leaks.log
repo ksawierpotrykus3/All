@@ -1,4 +1,0 @@
-[2026-09-12T18:40:24.575893] [LEAK DETECTED] signatures=['<tool_call>'] | conv=1e22dfe7b823d87fe8447ad7 | content='\n\n[BŁĄD PROXY: Model zadeklarował wykonanie akcji, ale nie wyemitował bloku narzędzia <tool_call>. Ponów polecenie.]'
-[2026-09-12T18:43:11.753302] [LEAK DETECTED] signatures=['<tool_call>'] | conv=1e22dfe7b823d87fe8447ad7 | content='\n\n[BŁĄD PROXY: Model zadeklarował wykonanie akcji, ale nie wyemitował bloku narzędzia <tool_call>. Ponów polecenie.]'
-[2026-09-14T14:23:35.321317] [LEAK DETECTED] signatures=['<tool_call>'] | conv=1e22dfe7b823d87fe8447ad7 | content='\n\n[BŁĄD PROXY: Model zadeklarował wykonanie akcji, ale nie wyemitował bloku narzędzia <tool_call>. Ponów polecenie.]'
-[2026-09-16T15:49:37.338697] [LEAK DETECTED] signatures=['<tool_call>'] | conv=jwt_leg_caoyunxiang_31d4 | content='\n\n[BŁĄD PROXY: Model zadeklarował wykonanie akcji, ale nie wyemitował bloku narzędzia <tool_call>. Ponów polecenie.]'
